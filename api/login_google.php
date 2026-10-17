@@ -138,7 +138,7 @@ try {
     if (!$licenseAllowed) {
         echo json_encode([
             'success' => false,
-            'message' => 'This school is not currently licensed for School Connect. Please contact High Point Education.',
+            'message' => gibbonConnectLicenseMessage($licenseData),
         ]);
         exit;
     }

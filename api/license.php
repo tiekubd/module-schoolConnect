@@ -29,10 +29,37 @@ Copyright (C) 2026, High Point Education
 //     check; they only mean the result isn't cached.
 //
 // Returns [bool $allowed, ?array $licenseData].
+//
+// gibbonConnectLicenseMessage() below turns a refusal into the message the
+// app shows. Every user of the school sees it (students and parents too),
+// so it speaks to them and points the school's Gibbon administrator to the
+// next step for each reason check.php gives.
 
 if (isset($_SERVER['SCRIPT_FILENAME']) && realpath($_SERVER['SCRIPT_FILENAME']) === realpath(__FILE__)) {
     http_response_code(404);
     exit;
+}
+
+/**
+ * The message shown in the app when the licence check refuses a school.
+ * $licenseData is the decoded answer from check.php; its 'reason' is one of
+ * school_not_registered, trial_expired or school_suspended.
+ */
+function gibbonConnectLicenseMessage(?array $licenseData): string
+{
+    $reason = $licenseData['reason'] ?? '';
+
+    if ($reason === 'school_not_registered') {
+        return "School Connect hasn't been set up for this school yet. "
+            . "Please ask your school's Gibbon administrator: they can start a free trial "
+            . 'at portal.highpointedu.com/license/trial.php';
+    }
+    if ($reason === 'trial_expired') {
+        return "This school's School Connect trial has ended. "
+            . "Please ask your school's Gibbon administrator to contact tieku@highpointedu.com to continue.";
+    }
+    return 'School Connect is not currently active for this school. '
+        . "Please ask your school's Gibbon administrator to contact tieku@highpointedu.com.";
 }
 
 function gibbonConnectCheckLicense(PDO $pdo): array

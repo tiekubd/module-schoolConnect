@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.02"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.03"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -45,6 +45,12 @@ $version     = "1.16.02"; // Tracks the Flutter app's marketing version (pubspec
                           // 1.16.02: Company name updated to High Point Education in
                           // the licence message, author line and About text. No
                           // schema change, so no CHANGEDB.php entry.
+                          //
+                          // 1.16.03: When the licence check refuses a school, the app
+                          // now explains why: not set up yet (with a link to start a
+                          // free trial), trial ended, or not active. The wording is
+                          // in gibbonConnectLicenseMessage() in license.php. No schema
+                          // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
