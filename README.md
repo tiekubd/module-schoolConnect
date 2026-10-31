@@ -14,7 +14,7 @@ Full details are in the [School Connect privacy policy](https://highpointedu.com
 
 ## Requirements
 
-- Gibbon v26.0.00 or later
+- Gibbon v30.0.01 or later
 - PHP with the cURL extension (or `allow_url_fopen` enabled)
 - HTTPS on your Gibbon site
 
