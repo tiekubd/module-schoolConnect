@@ -8,8 +8,10 @@ Copyright (C) 2026, High Point Education
 // login_google.php and session_check.php (not an endpoint itself).
 //
 // Asks High Point's licence server whether this school may use School
-// Connect, sending ONLY this server's own host name (HTTP_HOST). No user,
-// student or session data is ever sent.
+// Connect, sending ONLY this server's own host name (HTTP_HOST) and the
+// number of students enrolled this school year (one whole number, see
+// gibbonConnectStudentCount below). No names, records, user, student or
+// session data are ever sent.
 //
 // A successful "allowed" answer is cached on the school's own server for
 // 24 hours (table gibbonConnectLicenseCache), so the licence server is
@@ -62,6 +64,39 @@ function gibbonConnectLicenseMessage(?array $licenseData): string
         . "Please ask your school's Gibbon administrator to contact tieku@highpointedu.com.";
 }
 
+/**
+ * The number of students enrolled at the school today, in the school year
+ * marked Current, or null if it can't be worked out. Sent with the licence
+ * check so High Point can see the size of each subscribing school; a
+ * single number, never names or records.
+ *
+ * Same rule as Gibbon core's StudentGateway::getStudentEnrolmentCount()
+ * (v30.0.01): people enrolled in a form group of the current year whose
+ * Gibbon status is Full and whose start/end dates include today. DISTINCT
+ * so nobody is counted twice. Never throws.
+ */
+function gibbonConnectStudentCount(PDO $pdo): ?int
+{
+    try {
+        $stmt = $pdo->prepare("
+            SELECT COUNT(DISTINCT gibbonPerson.gibbonPersonID)
+            FROM gibbonPerson
+            JOIN gibbonStudentEnrolment ON (gibbonPerson.gibbonPersonID = gibbonStudentEnrolment.gibbonPersonID)
+            JOIN gibbonFormGroup ON (gibbonStudentEnrolment.gibbonFormGroupID = gibbonFormGroup.gibbonFormGroupID)
+            JOIN gibbonSchoolYear ON (gibbonFormGroup.gibbonSchoolYearID = gibbonSchoolYear.gibbonSchoolYearID)
+            WHERE gibbonSchoolYear.status = 'Current'
+            AND gibbonPerson.status = 'Full'
+            AND (gibbonPerson.dateStart IS NULL OR gibbonPerson.dateStart <= CURDATE())
+            AND (gibbonPerson.dateEnd IS NULL OR gibbonPerson.dateEnd >= CURDATE())
+        ");
+        $stmt->execute();
+        $count = $stmt->fetchColumn();
+        return $count === false ? null : (int) $count;
+    } catch (Throwable $e) {
+        return null;
+    }
+}
+
 function gibbonConnectCheckLicense(PDO $pdo): array
 {
     $host = strtolower(trim($_SERVER['HTTP_HOST'] ?? ''));
@@ -100,6 +135,10 @@ function gibbonConnectCheckLicense(PDO $pdo): array
     try {
         $licenseUrl = 'https://portal.highpointedu.com/license/check.php?school_url='
                     . urlencode($host);
+        $students = gibbonConnectStudentCount($pdo);
+        if ($students !== null) {
+            $licenseUrl .= '&students=' . $students;
+        }
 
         if (function_exists('curl_init')) {
             $ch = curl_init($licenseUrl);

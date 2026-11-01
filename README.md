@@ -8,7 +8,7 @@ The app gives staff, students and parents quick access to the things they check 
 
 - The app connects **only** to your school's own Gibbon server, over HTTPS. Your school's data never passes through High Point Education's systems.
 - Sign-in uses your existing Gibbon accounts and permissions, including Google Sign-In if your school uses it.
-- Once a day, the module asks High Point's licence server whether your school's licence is active, sending **only your server's web address**. No personal data is sent.
+- Once a day, the module asks High Point's licence server whether your school's licence is active, sending **only your server's web address and the number of students enrolled this school year**. No names, records or other personal data are sent.
 
 Full details are in the [School Connect privacy policy](https://highpointedu.com/school-connect/privacy/privacy-policy.html). A GDPR data processing agreement is available on request.
 
