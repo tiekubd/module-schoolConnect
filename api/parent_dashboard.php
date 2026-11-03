@@ -60,7 +60,16 @@ try {
             ORDER BY p.firstName, p.surname
         ");
         $stmt->execute([$authUser['schoolYearID'], $authUser['personID']]);
-        $children = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        // One entry per child. The same child can come back more than once
+        // when the parent is an adult in two families that both list the
+        // child (e.g. a family record created twice, or separate records for
+        // each household), or the child is in one family twice. Keep the
+        // first row for each person.
+        $children = [];
+        foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $row) {
+            $children[(int) $row['gibbonPersonID']] ??= $row;
+        }
+        $children = array_values($children);
 
         echo json_encode([
             'success'       => true,

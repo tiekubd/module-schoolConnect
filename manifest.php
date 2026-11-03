@@ -79,7 +79,10 @@ $version     = "1.16.07"; // Tracks the Flutter app's marketing version (pubspec
                           //
                           // 1.16.07: Fix: a register with no marks saved yet failed to
                           // open in the app ("Could not load data"): attendance.php
-                          // returned an empty list instead of an empty object. No
+                          // returned an empty list instead of an empty object. Also:
+                          // the Parent Dashboard listed a child twice when the parent
+                          // belongs to two families that both include the child
+                          // (parent_dashboard.php now returns each child once). No
                           // schema change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
