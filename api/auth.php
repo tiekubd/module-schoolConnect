@@ -30,6 +30,12 @@
 // should use $authUser['schoolYearID'] instead.
 
 function gibbonConnectRequireAuth(PDO $pdo): array {
+    // School's timezone for PHP and for this connection's NOW() — see
+    // timezone.php. First, so every timestamp below and in the calling
+    // endpoint is in the same local time Gibbon itself uses.
+    require_once __DIR__ . '/timezone.php';
+    gibbonConnectApplyTimezone($pdo);
+
     // Defensive, self-healing table creation — see login.php for the full
     // rationale. Included here too as defense-in-depth: every legitimate
     // call path requires login.php to have run first (no token exists

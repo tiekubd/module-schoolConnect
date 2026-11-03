@@ -63,8 +63,10 @@ $version     = "1.16.05"; // Tracks the Flutter app's marketing version (pubspec
                           // for the app's "My form group" dashboard card (app
                           // 1.16.4): the tutor's form groups with attendance on,
                           // whether attendance is taken today, absent/late counts,
-                          // and whether the school is open. No schema change, so no
-                          // CHANGEDB.php entry.
+                          // and whether the school is open. Also: the API now keeps
+                          // time in the school's Gibbon timezone (api/timezone.php),
+                          // so timestamps it writes match Gibbon's own. No schema
+                          // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

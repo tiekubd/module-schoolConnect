@@ -22,6 +22,10 @@ try {
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 
+    // Work in the school's timezone, like Gibbon does — see timezone.php.
+    require_once __DIR__ . '/timezone.php';
+    gibbonConnectApplyTimezone($pdo);
+
     // Sends 401 + exits on its own if the token is missing/invalid/expired —
     // nothing further to do in that case, this line just won't return.
     $authUser = gibbonConnectRequireAuth($pdo);
