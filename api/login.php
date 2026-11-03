@@ -29,10 +29,6 @@ try {
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 
-    // Work in the school's timezone, like Gibbon does — see timezone.php.
-    require_once __DIR__ . '/timezone.php';
-    gibbonConnectApplyTimezone($pdo);
-
     // Defensive, self-healing table creation — CHANGEDB.php is meant to
     // create this via Gibbon's own module install SQL, but that mechanism
     // has proven unreliable across different Gibbon core versions/hosts.

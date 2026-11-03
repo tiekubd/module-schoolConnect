@@ -210,10 +210,10 @@ try {
                 AND gibbonModuleID = (SELECT gibbonModuleID FROM gibbonModule WHERE name = 'Data Updater')
                 AND status = 'New'
             ");
-            $updateNotifStmt = $pdo->prepare("UPDATE gibbonNotification SET count = :count, timestamp = NOW() WHERE gibbonNotificationID = :id");
+            $updateNotifStmt = $pdo->prepare("UPDATE gibbonNotification SET count = :count, timestamp = '" . gibbonConnectNow() . "' WHERE gibbonNotificationID = :id");
             $insertNotifStmt = $pdo->prepare("
                 INSERT INTO gibbonNotification (gibbonPersonID, gibbonModuleID, text, actionLink, timestamp)
-                VALUES (:gibbonPersonID, (SELECT gibbonModuleID FROM gibbonModule WHERE name = 'Data Updater'), :text, :actionLink, NOW())
+                VALUES (:gibbonPersonID, (SELECT gibbonModuleID FROM gibbonModule WHERE name = 'Data Updater'), :text, :actionLink, '" . gibbonConnectNow() . "')
             ");
 
             foreach ($recipientIDs as $recipientID) {

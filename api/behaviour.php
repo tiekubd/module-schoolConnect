@@ -135,7 +135,7 @@ try {
             INSERT INTO gibbonBehaviour
                 (gibbonSchoolYearID, gibbonPersonID, date, type, descriptor, level, comment, followup, gibbonPersonIDCreator, timestamp)
             VALUES
-                (?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())
+                (?, ?, ?, ?, ?, ?, ?, ?, ?, '" . gibbonConnectNow() . "')
         ");
         $insertStmt->execute([
             $authUser['schoolYearID'],

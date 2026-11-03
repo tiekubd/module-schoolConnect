@@ -29,13 +29,24 @@
 //   SELECT gibbonSchoolYearID FROM gibbonSchoolYear WHERE status='Current' LIMIT 1
 // should use $authUser['schoolYearID'] instead.
 
-function gibbonConnectRequireAuth(PDO $pdo): array {
-    // School's timezone for PHP and for this connection's NOW() — see
-    // timezone.php. First, so every timestamp below and in the calling
-    // endpoint is in the same local time Gibbon itself uses.
-    require_once __DIR__ . '/timezone.php';
-    gibbonConnectApplyTimezone($pdo);
+/**
+ * The current date and time as Gibbon itself writes it: PHP's clock in the
+ * school's timezone (set from gibbonSetting System/timezone in
+ * gibbonConnectRequireAuth below), as 'Y-m-d H:i:s'.
+ *
+ * Use this, never MySQL NOW(), for any timestamp written to a Gibbon table.
+ * Gibbon never changes the database connection's timezone and stores its
+ * own local-time strings, so NOW() (the database server's clock, often UTC)
+ * recorded times hours off from Gibbon's: an attendance register taken at
+ * 20:09 in Houston showed in Gibbon as 02:09 the next day. NOW() is still
+ * fine for School Connect's own tables, where it is only ever compared
+ * with NOW() again.
+ */
+function gibbonConnectNow(): string {
+    return date('Y-m-d H:i:s');
+}
 
+function gibbonConnectRequireAuth(PDO $pdo): array {
     // Defensive, self-healing table creation — see login.php for the full
     // rationale. Included here too as defense-in-depth: every legitimate
     // call path requires login.php to have run first (no token exists

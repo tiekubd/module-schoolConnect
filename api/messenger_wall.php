@@ -64,7 +64,7 @@ if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) {
 
 try {
     // Update read-tracking, matching core's behavior on every wall view.
-    $updateReadStmt = $pdo->prepare("UPDATE gibbonPerson SET messengerLastRead = NOW() WHERE gibbonPersonID = :gibbonPersonID");
+    $updateReadStmt = $pdo->prepare("UPDATE gibbonPerson SET messengerLastRead = '" . gibbonConnectNow() . "' WHERE gibbonPersonID = :gibbonPersonID");
     $updateReadStmt->execute(['gibbonPersonID' => $authUser['personID']]);
 
     // ── This person's roles and role categories (ALL roles they hold,

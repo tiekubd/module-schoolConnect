@@ -675,7 +675,7 @@ try {
             try {
                 $log = $pdo->prepare("
                     INSERT INTO gibbonUserStatusLog (gibbonPersonID, statusOld, statusNew, reason, gibbonPersonIDModified, timestamp)
-                    VALUES (?, ?, ?, 'Created', ?, NOW())
+                    VALUES (?, ?, ?, 'Created', ?, '" . gibbonConnectNow() . "')
                 ");
                 $log->execute([$personID, $status, $status, $authUser['personID']]);
             } catch (PDOException $e) { /* non-fatal */ }
@@ -823,7 +823,7 @@ try {
                 try {
                     $log = $pdo->prepare("
                         INSERT INTO gibbonUserStatusLog (gibbonPersonID, statusOld, statusNew, reason, gibbonPersonIDModified, timestamp)
-                        VALUES (?, ?, ?, 'Edited via School Connect', ?, NOW())
+                        VALUES (?, ?, ?, 'Edited via School Connect', ?, '" . gibbonConnectNow() . "')
                     ");
                     $log->execute([$personID, $existing['status'], $status, $authUser['personID']]);
                 } catch (PDOException $e) { /* non-fatal */ }

@@ -81,10 +81,6 @@ try {
         [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
     );
 
-    // Work in the school's timezone, like Gibbon does — see timezone.php.
-    require_once __DIR__ . '/timezone.php';
-    gibbonConnectApplyTimezone($pdo);
-
     // Defensive, self-healing table creation — see login.php for the full
     // rationale. Included here too since this endpoint can be a login entry
     // point on its own (a user's very first login could be via Google).

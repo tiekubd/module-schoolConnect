@@ -49,7 +49,7 @@ try {
                 gibbonAttendanceCodeID,
                 gibbonAttendanceCode.name AS codeName,
                 gibbonAttendanceCode.nameShort AS codeShort,
-                direction
+                gibbonAttendanceLogPerson.direction
             FROM gibbonAttendanceLogPerson
             JOIN gibbonAttendanceCode USING (gibbonAttendanceCodeID)
             WHERE gibbonCourseClassID = ?
@@ -114,7 +114,7 @@ try {
             (gibbonAttendanceCodeID, gibbonPersonID, direction, type, reason,
              context, comment, date, gibbonPersonIDTaker, gibbonCourseClassID,
              gibbonTTDayRowClassID, timestampTaken)
-            VALUES (?, ?, ?, ?, '', 'Class', '', ?, ?, ?, ?, NOW())
+            VALUES (?, ?, ?, ?, '', 'Class', '', ?, ?, ?, ?, '" . gibbonConnectNow() . "')
         ");
 
         foreach ($records as $rec) {
@@ -140,7 +140,7 @@ try {
         $summaryInsert = $pdo->prepare("
             INSERT INTO gibbonAttendanceLogCourseClass
             (gibbonCourseClassID, gibbonTTDayRowClassID, gibbonPersonIDTaker, date, timestampTaken)
-            VALUES (?, ?, ?, ?, NOW())
+            VALUES (?, ?, ?, ?, '" . gibbonConnectNow() . "')
         ");
         $summaryInsert->execute([$classID, $ttSlotID, $takerID, $date]);
 
@@ -263,7 +263,7 @@ try {
                 gibbonAttendanceCodeID,
                 gibbonAttendanceCode.name AS codeName,
                 gibbonAttendanceCode.nameShort AS codeShort,
-                direction
+                gibbonAttendanceLogPerson.direction
             FROM gibbonAttendanceLogPerson
             JOIN gibbonAttendanceCode USING (gibbonAttendanceCodeID)
             WHERE gibbonFormGroupID = ?
@@ -308,7 +308,7 @@ try {
             INSERT INTO gibbonAttendanceLogPerson
             (gibbonAttendanceCodeID, gibbonPersonID, direction, type, reason,
              context, comment, date, gibbonPersonIDTaker, gibbonFormGroupID, timestampTaken)
-            VALUES (?, ?, ?, ?, '', 'Form Group', '', ?, ?, ?, NOW())
+            VALUES (?, ?, ?, ?, '', 'Form Group', '', ?, ?, ?, '" . gibbonConnectNow() . "')
         ");
 
         foreach ($records as $rec) {
@@ -332,7 +332,7 @@ try {
         $summaryInsert = $pdo->prepare("
             INSERT INTO gibbonAttendanceLogFormGroup
             (gibbonFormGroupID, gibbonPersonIDTaker, date, timestampTaken)
-            VALUES (?, ?, ?, NOW())
+            VALUES (?, ?, ?, '" . gibbonConnectNow() . "')
         ");
         $summaryInsert->execute([$formGroupID, $takerID, $date]);
 
