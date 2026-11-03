@@ -63,7 +63,9 @@ try {
         foreach ($records as $r) {
             $byPerson[$r['gibbonPersonID']] = $r;
         }
-        echo json_encode(['success' => true, 'attendance' => $byPerson, 'date' => $date]);
+        // (object): with no marks saved yet, an empty PHP array would encode
+        // as a JSON list [], which the app can't read as student -> mark.
+        echo json_encode(['success' => true, 'attendance' => (object) $byPerson, 'date' => $date]);
         exit;
     }
 
@@ -277,7 +279,9 @@ try {
         foreach ($records as $r) {
             $byPerson[$r['gibbonPersonID']] = $r;
         }
-        echo json_encode(['success' => true, 'attendance' => $byPerson, 'date' => $date]);
+        // (object): with no marks saved yet, an empty PHP array would encode
+        // as a JSON list [], which the app can't read as student -> mark.
+        echo json_encode(['success' => true, 'attendance' => (object) $byPerson, 'date' => $date]);
         exit;
     }
 
