@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.04"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.05"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -58,6 +58,13 @@ $version     = "1.16.04"; // Tracks the Flutter app's marketing version (pubspec
                           // license.php). Minimum Gibbon version raised to v30.0.01,
                           // the version School Connect is tested on. No schema
                           // change, so no CHANGEDB.php entry.
+                          //
+                          // 1.16.05: New attendance.php action my_form_groups_today
+                          // for the app's "My form group" dashboard card (app
+                          // 1.16.4): the tutor's form groups with attendance on,
+                          // whether attendance is taken today, absent/late counts,
+                          // and whether the school is open. No schema change, so no
+                          // CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

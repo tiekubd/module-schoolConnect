@@ -148,6 +148,110 @@ try {
         exit;
     }
 
+    // ── MY FORM GROUPS TODAY (dashboard card) ─────────────────────────────
+    // The form groups this person tutors (tutor 1, 2 or 3) in the current
+    // school year with attendance switched on, and whether form group
+    // attendance has been taken for each today. Same rule Gibbon core's
+    // Attendance page uses for "My Form Group" (modules/Attendance/
+    // attendance.php, v30): gibbonPersonIDTutor/2/3 + attendance = 'Y'.
+    //
+    // schoolOpen mirrors core's isSchoolOpen(): the date is inside a term
+    // of the year, its weekday is a school day, and it isn't a School
+    // Closure special day. The app hides the card when the school is
+    // closed or when the session is viewing a past/future year.
+    if ($action === 'my_form_groups_today') {
+        $date = trim($input['date'] ?? '');
+        if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) {
+            $date = date('Y-m-d');
+        }
+        $schoolYearID = $authUser['schoolYearID'];
+
+        if (!$schoolYearID || empty($authUser['isCurrentYear'])) {
+            echo json_encode(['success' => true, 'schoolOpen' => false, 'formGroups' => [], 'date' => $date]);
+            exit;
+        }
+
+        // Is the school open on $date?
+        $open = false;
+        $term = $pdo->prepare("SELECT 1 FROM gibbonSchoolYearTerm
+            WHERE gibbonSchoolYearID = ? AND ? BETWEEN firstDay AND lastDay LIMIT 1");
+        $term->execute([$schoolYearID, $date]);
+        if ($term->fetchColumn()) {
+            $dow = $pdo->prepare("SELECT 1 FROM gibbonDaysOfWeek WHERE nameShort = ? AND schoolDay = 'Y' LIMIT 1");
+            $dow->execute([date('D', strtotime($date))]);
+            if ($dow->fetchColumn()) {
+                $closed = $pdo->prepare("SELECT 1 FROM gibbonSchoolYearSpecialDay
+                    WHERE type = 'School Closure' AND date = ? LIMIT 1");
+                $closed->execute([$date]);
+                $open = !$closed->fetchColumn();
+            }
+        }
+
+        $stmt = $pdo->prepare("
+            SELECT
+                fg.gibbonFormGroupID,
+                fg.name,
+                fg.nameShort,
+                (SELECT COUNT(*)
+                   FROM gibbonStudentEnrolment se
+                   JOIN gibbonPerson p ON (p.gibbonPersonID = se.gibbonPersonID)
+                  WHERE se.gibbonFormGroupID = fg.gibbonFormGroupID
+                    AND se.gibbonSchoolYearID = fg.gibbonSchoolYearID
+                    AND p.status = 'Full') AS studentCount,
+                log.timestampTaken,
+                CONCAT(taker.preferredName, ' ', taker.surname) AS takerName
+            FROM gibbonFormGroup fg
+            LEFT JOIN gibbonAttendanceLogFormGroup log ON (
+                log.gibbonAttendanceLogFormGroupID = (
+                    SELECT l2.gibbonAttendanceLogFormGroupID
+                      FROM gibbonAttendanceLogFormGroup l2
+                     WHERE l2.gibbonFormGroupID = fg.gibbonFormGroupID AND l2.date = ?
+                  ORDER BY l2.timestampTaken DESC LIMIT 1)
+            )
+            LEFT JOIN gibbonPerson taker ON (taker.gibbonPersonID = log.gibbonPersonIDTaker)
+            WHERE fg.gibbonSchoolYearID = ?
+              AND fg.attendance = 'Y'
+              AND (fg.gibbonPersonIDTutor = ? OR fg.gibbonPersonIDTutor2 = ? OR fg.gibbonPersonIDTutor3 = ?)
+            ORDER BY LENGTH(fg.name), fg.name
+        ");
+        $pid = $authUser['personID'];
+        $stmt->execute([$date, $schoolYearID, $pid, $pid, $pid]);
+        $groups = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        // Absent / late counts for groups already taken today
+        $counts = $pdo->prepare("
+            SELECT
+                SUM(lp.direction = 'Out') AS absent,
+                SUM(c.scope = 'Onsite - Late') AS late
+            FROM gibbonAttendanceLogPerson lp
+            JOIN gibbonAttendanceCode c ON (c.gibbonAttendanceCodeID = lp.gibbonAttendanceCodeID)
+            WHERE lp.gibbonFormGroupID = ? AND lp.date = ? AND lp.context = 'Form Group'
+        ");
+        foreach ($groups as &$g) {
+            $g['taken'] = !empty($g['timestampTaken']);
+            $g['takenAt'] = $g['taken'] ? substr($g['timestampTaken'], 11, 5) : null;
+            $g['absent'] = 0;
+            $g['late'] = 0;
+            if ($g['taken']) {
+                $counts->execute([$g['gibbonFormGroupID'], $date]);
+                $c = $counts->fetch(PDO::FETCH_ASSOC);
+                $g['absent'] = (int) ($c['absent'] ?? 0);
+                $g['late'] = (int) ($c['late'] ?? 0);
+            }
+            $g['studentCount'] = (int) $g['studentCount'];
+            unset($g['timestampTaken']);
+        }
+        unset($g);
+
+        echo json_encode([
+            'success'    => true,
+            'schoolOpen' => $open,
+            'formGroups' => $groups,
+            'date'       => $date,
+        ]);
+        exit;
+    }
+
     // ── GET FORM GROUP ATTENDANCE ──────────────────────────────────────────
     if ($action === 'get_form_group_attendance') {
         $formGroupID = trim($input['formGroupID'] ?? '');
