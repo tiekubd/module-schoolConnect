@@ -73,7 +73,12 @@ function gibbonConnectReadMo(string $path): ?array
             // Plural entry: "singular\0plural" => "form0\0form1\0…"
             $singular = explode("\0", $msgid)[0];
             $forms = explode("\0", $msgstr);
-            if (implode('', $forms) !== '') $plurals[$singular] = $forms;
+            if (implode('', $forms) !== '') {
+                $plurals[$singular] = $forms;
+                // gettext('Teacher') also finds the singular of a plural
+                // entry and returns its first form, so do the same.
+                if (!isset($strings[$singular]) && $forms[0] !== '') $strings[$singular] = $forms[0];
+            }
         } elseif ($msgstr !== '') {
             $strings[$msgid] = $msgstr;
         }
