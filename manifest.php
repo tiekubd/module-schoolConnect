@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.07"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.08"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -82,10 +82,13 @@ $version     = "1.16.07"; // Tracks the Flutter app's marketing version (pubspec
                           // returned an empty list instead of an empty object. Also:
                           // the Parent Dashboard listed a child twice when the parent
                           // belongs to two families that both include the child
-                          // (parent_dashboard.php now returns each child once). New:
-                          // module_info.php reports the module version (files and
-                          // installed) for the app's About screen. No schema change,
-                          // so no CHANGEDB.php entry.
+                          // (parent_dashboard.php now returns each child once). No
+                          // schema change, so no CHANGEDB.php entry.
+                          //
+                          // 1.16.08: New module_info.php reports the module version
+                          // (uploaded files and installed record) for the app's About
+                          // screen, released with app 1.16.7. No schema change, so no
+                          // CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
