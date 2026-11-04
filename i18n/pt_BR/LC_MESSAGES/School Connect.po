@@ -1,0 +1,1954 @@
+# School Connect: Brazilian Portuguese (pt_BR) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Brazilian Portuguese-speaking school before release.
+# Vocabulary follows Gibbon core's pt_BR file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Um sinal de pontuação ou um espaço"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Um token de acesso, guardado no armazenamento seguro do aparelho (Keychain "
+"do iOS ou Keystore do Android)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:848
+#: lib/screens/parent_dashboard_screen.dart:246
+msgid "About & Privacy"
+msgstr "Sobre e privacidade"
+
+#: lib/screens/log_behaviour_screen.dart:293
+msgid "Add More"
+msgstr "Adicionar mais"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Adicionar participante"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Adicionar dever de casa?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Adicionar, editar e remover fechamentos"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Adicionar, editar e remover contas de usuário"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Ajusta a ordem dos cursos nos boletins."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Configurações do adulto atualizadas"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Todos os tipos"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Todos os grupos de ano"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Uma letra maiúscula e uma minúscula"
+
+#: lib/screens/dashboard_screen.dart:850
+msgid "App version, connected school and your data"
+msgstr "Versão do app, escola conectada e seus dados"
+
+#: lib/screens/homework_calendar_screen.dart:209
+#: lib/screens/homework_calendar_screen.dart:259
+msgid "Assessments"
+msgstr "Avaliações"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Pelo menos um número"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Pelo menos {count} caractere"
+msgstr[1] "Pelo menos {count} caracteres"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Frequência neste ano"
+
+#: lib/screens/dashboard_screen.dart:1068
+msgid "Attendance not taken yet today"
+msgstr "Chamada ainda não feita hoje"
+
+#: lib/screens/log_behaviour_screen.dart:220
+msgid "Behaviour record saved!"
+msgstr "Registro de comportamento salvo!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:221
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Registro de comportamento salvo para {count} aluno!"
+msgstr[1] "Registros de comportamento salvos para {count} alunos!"
+
+#: lib/screens/dashboard_screen.dart:794
+msgid "Browse staff profiles"
+msgstr "Ver perfis dos funcionários"
+
+#: lib/screens/attendance_menu_screen.dart:70
+#: lib/screens/planner_list_screen.dart:136
+msgid "By Class"
+msgstr "Por turma"
+
+#: lib/screens/planner_list_screen.dart:128
+msgid "By Date"
+msgstr "Por data"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Câmera e fotos: só quando você decide anexar uma foto a uma solicitação de "
+"atualização de dados. O app pede permissão antes, e você pode recusar."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Cancelar reservas?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Cancelar aulas?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Cancelar plantões dos funcionários?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Cancelar nova condição"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Cap."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Nome em chinês ou outra escrita por caracteres"
+
+#: lib/screens/planner_list_screen.dart:195
+msgid "Choose a class above"
+msgstr "Escolha uma turma acima"
+
+#: lib/screens/attendance_menu_screen.dart:82
+msgid "Choose any Form Group"
+msgstr "Escolher qualquer grupo de inscrição"
+
+#: lib/screens/attendance_menu_screen.dart:71
+msgid "Choose any of your classes"
+msgstr "Escolher uma de suas turmas"
+
+#: lib/screens/log_behaviour_screen.dart:163
+msgid "Choose at least one student first"
+msgstr "Escolha pelo menos um aluno primeiro"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose one of your Form Groups"
+msgstr "Escolher um de seus grupos de inscrição"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Faltas na turma"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Matrículas em turmas"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Lista da turma"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Clique em Atualizar ao lado de School Connect em Administração do Sistema > "
+"Gerenciar Módulos."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Fecha às"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"O nome curto combinado \"{name}\" tem mais de 16 caracteres — isso pode "
+"causar problemas de exibição no horário e nas listas suspensas."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "O nome curto combinado passa de 16 caracteres"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Lista de endereços de e-mail separados por vírgula"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Confirmar senha *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Escola conectada"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Conectando…"
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Contato"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Contato {number} — não cadastrado"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Conteúdo das aulas: vídeos ou imagens que um professor adiciona (por "
+"exemplo, do YouTube) carregam desses sites quando você os abre"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Controlar o que aparece no app para todos"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Não foi possível adicionar"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Não foi possível adicionar o adulto"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Não foi possível adicionar o filho"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Não foi possível excluir o usuário"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Não foi possível baixar o boletim"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Não foi possível gerar o nome de usuário"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Não foi possível carregar os grupos de inscrição"
+
+#: lib/screens/parent_dashboard_screen.dart:394
+msgid "Could not load activities"
+msgstr "Não foi possível carregar as atividades"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Não foi possível carregar a frequência"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Não foi possível carregar os filhos"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Não foi possível carregar as turmas"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Não foi possível carregar o curso"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Não foi possível carregar os cursos"
+
+#: lib/screens/data_updates_screen.dart:64
+msgid "Could not load data updates"
+msgstr "Não foi possível carregar as atualizações de dados"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Não foi possível carregar os dias da semana"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Não foi possível carregar os contatos de emergência"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Não foi possível carregar a matrícula"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Não foi possível carregar as matrículas"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Não foi possível carregar os locais físicos"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Não foi possível carregar as famílias"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Não foi possível carregar a família"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Não foi possível carregar os dados da família"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Não foi possível carregar os dados financeiros"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Não foi possível carregar o formulário"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Não foi possível carregar os dados do formulário"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Não foi possível carregar as notas"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Não foi possível carregar os deveres de casa"
+
+#: lib/screens/homework_calendar_screen.dart:137
+msgid "Could not load homework calendar"
+msgstr "Não foi possível carregar o calendário de deveres"
+
+#: lib/screens/finance_invoice_detail_screen.dart:58
+msgid "Could not load invoice"
+msgstr "Não foi possível carregar a fatura"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Não foi possível carregar as faturas"
+
+#: lib/screens/planner_view_screen.dart:89
+msgid "Could not load lesson"
+msgstr "Não foi possível carregar a aula"
+
+#: lib/screens/planner_list_screen.dart:72
+msgid "Could not load lessons"
+msgstr "Não foi possível carregar as aulas"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Não foi possível carregar o diário de notas"
+
+#: lib/screens/master_timetable_screen.dart:102
+msgid "Could not load master timetable"
+msgstr "Não foi possível carregar o horário geral"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Não foi possível carregar os dados médicos"
+
+#: lib/screens/message_wall_screen.dart:66
+msgid "Could not load messages"
+msgstr "Não foi possível carregar as mensagens"
+
+#: lib/screens/notifications_screen.dart:48
+msgid "Could not load notifications"
+msgstr "Não foi possível carregar as notificações"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Não foi possível carregar as regras de senha"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Não foi possível carregar as pessoas"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Não foi possível carregar os dados pessoais"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Não foi possível carregar as informações pessoais"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Não foi possível carregar o perfil"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Não foi possível carregar o boletim"
+
+#: lib/screens/student_reports_screen.dart:54
+msgid "Could not load reports"
+msgstr "Não foi possível carregar os boletins"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Não foi possível carregar a lista"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Não foi possível carregar os anos escolares"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Não foi possível carregar as configurações"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Não foi possível carregar o dia especial"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Não foi possível carregar os funcionários"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Não foi possível carregar os dados do funcionário"
+
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Não foi possível carregar os alunos"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Não foi possível carregar os períodos letivos"
+
+#: lib/screens/facility_timetable_screen.dart:88
+#: lib/screens/my_timetable_screen.dart:152
+msgid "Could not load timetable"
+msgstr "Não foi possível carregar o horário"
+
+#: lib/screens/master_timetable_screen.dart:72
+msgid "Could not load timetables"
+msgstr "Não foi possível carregar os horários"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Não foi possível carregar o usuário"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Não foi possível carregar os usuários"
+
+#: lib/screens/parent_dashboard_screen.dart:98
+msgid "Could not load your children"
+msgstr "Não foi possível carregar seus filhos"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Não foi possível abrir a página de pagamento"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Não foi possível abrir a videochamada"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Não foi possível remover"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Não foi possível redefinir a senha"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Não foi possível salvar"
+
+#: lib/screens/attendance_screen.dart:146
+#: lib/screens/form_group_attendance_screen.dart:138
+msgid "Could not save attendance"
+msgstr "Não foi possível salvar a frequência"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Não foi possível salvar a configuração"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Não foi possível salvar o usuário"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Não foi possível acessar como este usuário"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Não foi possível enviar a atualização"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Não foi possível alterar o papel"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Não foi possível trocar o ano escolar"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Não foi possível atualizar"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "País de origem"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Prioridade de substituição"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Criar o registro de funcionário vinculado"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Criar a matrícula do aluno vinculada"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Ano atual"
+
+#: lib/screens/dashboard_screen.dart:379
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Painel"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Dia de falta"
+msgstr[1] "Dias de falta"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Dia presente"
+msgstr[1] "Dias presente"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Excluir turma"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Excluir curso"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Excluir dia especial"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Excluir usuário"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Desenvolvido por High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Concluído"
+
+#: lib/screens/homework_calendar_screen.dart:249
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Entrega"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "A data limite e os detalhes são obrigatórios."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Editável"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "E-mail: deve ser único"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Grupos de ano disponíveis para matrícula"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Matricular alunos existentes no ano escolar ativo"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Sobrenome como aparece nos documentos de identidade"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr ""
+"Preencha primeiro o primeiro nome, o sobrenome, o nome preferido e o papel "
+"principal"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filtrar por grupo de ano"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Primeiro nome *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Primeiro nome como aparece nos documentos de identidade"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Grupo de inscrição *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Nome formal para se dirigir aos responsáveis"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Nome completo como aparece nos documentos de identidade"
+
+#: lib/screens/finance_invoice_detail_screen.dart:321
+msgid "Gateway"
+msgstr "Gateway"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Gênero *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ é uma marca registrada da Gibbon Education Ltd. (Hong Kong), usada "
+"com permissão."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "Login com o Google, só se a sua escola usar e você escolher"
+
+#: lib/screens/dashboard_screen.dart:814
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Notas"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr ""
+"Números maiores colocam o funcionário mais acima na ordem do seu grupo."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Em vermelho: marcados como 'Full', mas fora do período entre as datas de "
+"início e fim."
+
+#: lib/screens/homework_calendar_screen.dart:378
+#: lib/screens/homework_calendar_screen.dart:466
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Feriado"
+
+#: lib/screens/homework_calendar_screen.dart:27
+msgid "Homework Calendar"
+msgstr "Calendário de deveres"
+
+#: lib/screens/homework_calendar_screen.dart:206
+#: lib/screens/homework_calendar_screen.dart:207
+#: lib/screens/homework_calendar_screen.dart:371
+msgid "Homework due"
+msgstr "Deveres para entregar"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Dever de casa removido."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Dever de casa salvo."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Se você escolher Família, as próximas faturas serão enviadas conforme as "
+"preferências de contato da sua família. Se escolher Empresa, você pode "
+"definir que todas ou só algumas taxas sejam pagas pela empresa indicada."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Acessar como"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Acessar como usuário requer o módulo School Connect 1.16.09 ou mais recente "
+"no servidor da escola."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "A versão instalada é {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Termina depois de 2 horas. Use Voltar para minha conta no topo da tela para "
+"voltar antes."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Entrar na aula virtual"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "O botão Entrar na aula virtual fica oculto em todos os lugares"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "O botão Entrar na aula virtual aparece no horário e no planejador"
+
+#: lib/screens/class_detail_screen.dart:124
+msgid "Last 10 school days"
+msgstr "Últimos 10 dias letivos"
+
+#: lib/screens/class_detail_screen.dart:124
+msgid "Last 10 school days — per period"
+msgstr "Últimos 10 dias letivos — por período"
+
+#: lib/screens/form_group_detail_screen.dart:129
+msgid "Last 20 school days"
+msgstr "Últimos 20 dias letivos"
+
+#: lib/screens/my_timetable_screen.dart:603
+msgid "Lesson planning is coming soon"
+msgstr "O planejamento de aulas chega em breve"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Verificação de licença"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Vincular pessoas com papel de funcionário ao seu registro"
+
+#: lib/screens/dashboard_screen.dart:698
+#: lib/screens/log_behaviour_screen.dart:241
+msgid "Log Behaviour"
+msgstr "Registrar comportamento"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Conectado como"
+
+#: lib/screens/dashboard_screen.dart:773
+msgid "Manage users and school settings"
+msgstr "Gerenciar usuários e configurações da escola"
+
+#: lib/screens/notifications_screen.dart:107
+msgid "Mark all read"
+msgstr "Marcar todas como lidas"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Marcar como concluído"
+
+#: lib/screens/class_detail_screen.dart:253
+msgid "Mark attendance for today"
+msgstr "Fazer a chamada de hoje"
+
+#: lib/screens/notifications_screen.dart:253
+msgid "Mark read"
+msgstr "Marcar como lida"
+
+#: lib/screens/dashboard_screen.dart:710
+#: lib/screens/master_timetable_screen.dart:124
+msgid "Master Timetable"
+msgstr "Horário geral"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Deve ser único, se preenchido"
+
+#: lib/screens/dashboard_screen.dart:1043
+#: lib/screens/dashboard_screen.dart:803
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Meus grupos de inscrição"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "O nome e o nome curto são obrigatórios"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Nenhum grupo de inscrição encontrado"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Sem área de educação"
+
+#: lib/screens/parent_dashboard_screen.dart:503
+msgid "No activities on record"
+msgstr "Nenhuma atividade registrada"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Nenhum adulto vinculado"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Sem anúncios, sem análises, sem rastreamento, sem relatórios de falhas e sem"
+" serviços de notificação push. O app nunca vende nem compartilha seus dados."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Nenhum filho encontrado"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Nenhum filho vinculado"
+
+#: lib/screens/parent_dashboard_screen.dart:268
+msgid "No children linked to this account"
+msgstr "Nenhum filho vinculado a esta conta"
+
+#: lib/screens/class_detail_screen.dart:201
+msgid "No class"
+msgstr "Sem turma"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Nenhuma turma encontrada"
+
+#: lib/screens/facility_timetable_screen.dart:220
+msgid "No classes in this room today"
+msgstr "Nenhuma aula nesta sala hoje"
+
+#: lib/screens/master_timetable_screen.dart:298
+msgid "No classes scheduled"
+msgstr "Nenhuma aula programada"
+
+#: lib/screens/dashboard_screen.dart:971
+msgid "No classes scheduled today"
+msgstr "Nenhuma aula programada hoje"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Nenhuma turma ainda"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Nenhum curso encontrado"
+
+#: lib/screens/homework_calendar_screen.dart:329
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Sem dados para este período letivo"
+
+#: lib/screens/data_updates_screen.dart:187
+msgid "No data updates found"
+msgstr "Nenhuma atualização de dados encontrada"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Sem departamento"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Nenhum local físico encontrado"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Nenhuma família encontrada"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Nenhum membro da família registrado"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Nenhum registro de família encontrado"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Nenhuma nota disponível"
+
+#: lib/screens/class_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:135
+msgid "No history available"
+msgstr "Nenhum histórico disponível"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Nenhum dever de casa registrado."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Nenhuma fatura para mostrar"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Nenhum lançamento no diário de notas ainda"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Nenhum resultado"
+
+#: lib/screens/notifications_screen.dart:125
+msgid "No notifications"
+msgstr "Nenhuma notificação"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Nenhum participante ainda"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Nenhuma pessoa encontrada"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Nenhum telefone cadastrado"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Sem registro"
+
+#: lib/screens/student_reports_screen.dart:81
+msgid "No reports available yet"
+msgstr "Nenhum boletim disponível ainda"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Nenhum dia letivo nesta semana"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Nenhum funcionário encontrado"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Nenhum aluno matriculado neste ano"
+
+#: lib/screens/form_group_detail_screen.dart:228
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Nenhum aluno encontrado"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Nenhum período letivo encontrado para este ano escolar"
+
+#: lib/screens/master_timetable_screen.dart:200
+msgid "No timetable data found"
+msgstr "Nenhum dado de horário encontrado"
+
+#: lib/screens/facility_timetable_screen.dart:219
+msgid "No timetable for this day"
+msgstr "Sem horário para este dia"
+
+#: lib/screens/dashboard_screen.dart:965
+msgid "No timetable for today"
+msgstr "Sem horário para hoje"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Nenhum usuário encontrado"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "Participantes fora dos boletins não aparecerão neles."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Dia sem aula"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Não é dia letivo"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Não matriculado no momento"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Ainda não matriculado em nenhuma turma"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Não informado: atualize o módulo School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Not taken yet today"
+msgstr "Ainda não feita hoje"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Ainda não disponível aqui — matricular aqui não adiciona cursos "
+"automaticamente. Conclua a matrícula nos cursos pelo site, se este aluno "
+"precisar."
+
+#: lib/screens/my_timetable_screen.dart:442
+msgid "Nothing scheduled"
+msgstr "Nada programado"
+
+#: lib/screens/facility_timetable_screen.dart:409
+#: lib/screens/my_timetable_screen.dart:565
+msgid "Now"
+msgstr "Agora"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Nome oficial *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Uma vez por dia, o servidor da sua escola informa à High Point apenas o "
+"próprio endereço web, para confirmar a assinatura da escola. Nenhuma "
+"informação pessoal é enviada."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Inclui apenas pessoas com papel de funcionário que ainda não estão no quadro"
+" de funcionários."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Inclui apenas alunos não matriculados neste ano escolar."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Abre às"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Outros serviços que você pode ver"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Senha *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "A senha deve ser preenchida e coincidir"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Senha redefinida"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "As senhas não coincidem"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "As senhas devem ser preenchidas e coincidir"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Excluir permanentemente"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Excluir permanentemente \"{name}\" e todas as suas turmas?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Permissões"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Pessoa *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Informe um tipo de funcionário"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Preencha todos os campos obrigatórios (nome, nome oficial, gênero, papel, "
+"nome de usuário)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Selecione um tipo"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Selecione um grupo de ano e um grupo de inscrição"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Selecione uma turma e uma função"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Selecione uma pessoa"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Selecione uma pessoa e uma função"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Selecione um aluno"
+
+#: lib/screens/data_updates_screen.dart:173
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Reserve um momento para revisar as atualizações solicitadas abaixo. Mesmo "
+"que nada tenha mudado, enviar confirma que seus dados estão corretos."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Desenvolvido com Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Nome preferido *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Papel principal *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr ""
+"Contatos de prioridade 1 sempre recebem todos os tipos de comunicação."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Qualificado"
+
+#: lib/screens/dashboard_screen.dart:730
+msgid "Quick Access"
+msgstr "Acesso rápido"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Ler a política de privacidade completa"
+
+#: lib/screens/finance_invoice_detail_screen.dart:325
+msgid "Receipt ID"
+msgstr "Nº do recibo"
+
+#: lib/screens/class_detail_screen.dart:121
+#: lib/screens/form_group_detail_screen.dart:126
+msgid "Recent Attendance"
+msgstr "Frequência recente"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Remover \"{name}\" do calendário?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Remover adulto"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Remover filho"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Remover turma"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Remover matrícula"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Remover registro de funcionário"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Remover a matrícula em {class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Remover da turma"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Remover {name} do quadro de funcionários?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Remover {name} desta turma?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Remover {name} desta família?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "Boletins em PDF, só enquanto você os vê ou compartilha"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Voltar para minha conta"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Papel: pode entrar"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Nº de chamada"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Falha ao salvar"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"O School Connect é um aplicativo de terceiros compatível com o Gibbon, a "
+"plataforma livre e de código aberto de gestão escolar. Não é uma versão "
+"oficial da Gibbon Foundation e não tem vínculo nem aval da Gibbon "
+"Foundation."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "Módulo School Connect no servidor da escola"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"O School Connect mostra informações do próprio sistema Gibbon da sua escola:"
+" horários, frequência, notas, deveres de casa, boletins, mensagens e os "
+"dados da sua família. O app se conecta diretamente e apenas ao servidor "
+"Gibbon da sua escola, por uma conexão criptografada (HTTPS). A High Point "
+"Education não recebe, não guarda e não vê essas informações."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Os horários de abertura, início, término e fechamento não são definidos aqui"
+" — conclua esses detalhes pelo site."
+
+#: lib/screens/dashboard_screen.dart:783
+msgid "Search and view student profiles"
+msgstr "Buscar e ver perfis de alunos"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Buscar por nome do curso…"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Buscar por nome do curso ou da turma…"
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Buscar por nome da família…"
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Buscar por nome ou iniciais…"
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Buscar por nome ou matrícula do aluno…"
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Buscar por nome ou nome de usuário…"
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Buscar por nome, nome de usuário, e-mail, matrícula do aluno…"
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Buscar turmas…"
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Buscar salas…"
+
+#: lib/screens/form_group_detail_screen.dart:207
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Buscar alunos…"
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Selecionar aluno"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Aulas marcadas como Fora neste ano"
+
+#: lib/screens/finance_invoice_detail_screen.dart:166
+msgid "Share"
+msgstr "Compartilhar"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Sair remove o token de acesso, seu nome de usuário e os boletins baixados. "
+"Desinstalar o app remove todo o resto."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Perfil do funcionário"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Tipo de funcionário *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Registro de funcionário criado"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Aluno *"
+
+#: lib/screens/class_detail_screen.dart:222
+msgid "Student List"
+msgstr "Lista de alunos"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Aluno matriculado"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Enviado"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Sobrenome *"
+
+#: lib/screens/dashboard_screen.dart:422
+#: lib/screens/parent_dashboard_screen.dart:233
+msgid "Switch Role"
+msgstr "Alterar papel"
+
+#: lib/screens/dashboard_screen.dart:428
+#: lib/screens/parent_dashboard_screen.dart:238
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Trocar ano escolar"
+
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Take attendance for this class"
+msgstr "Fazer a chamada desta turma"
+
+#: lib/screens/class_detail_screen.dart:193
+#: lib/screens/form_group_detail_screen.dart:165
+msgid "Taken"
+msgstr "Feita"
+
+#: lib/screens/data_updates_screen.dart:104
+msgid "Tap to edit"
+msgstr "Toque para editar"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"O acesso como outro usuário terminou após 2 horas. Você voltou para sua "
+"própria conta."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "A ordem em que a escola deve contatar os membros da família."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "A conta de usuário da pessoa não é afetada."
+
+#: lib/screens/message_wall_screen.dart:166
+msgid "There are no messages to display."
+msgstr "Não há mensagens para mostrar."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Isso afeta o horário:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Isso também remove todas as matrículas e dados de horário dessas turmas. Não"
+" é possível desfazer."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "Não é possível desfazer."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:205
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Esta turma não tem aula programada em {date}. Você ainda pode salvar a "
+"frequência, se precisar."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Isso não exclui a conta de usuário da pessoa."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Esta opção permite que administradores acessem o sistema como outra conta, "
+"para resolver problemas e fazer testes. O usuário escolhido continua podendo"
+" entrar e sair da própria conta."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Isso remove todas as matrículas e dados de horário desta turma. Não é "
+"possível desfazer."
+
+#: lib/screens/dashboard_screen.dart:719
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Horário por local físico"
+
+#: lib/screens/dashboard_screen.dart:933
+msgid "Today's Timetable"
+msgstr "Horário de hoje"
+
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial access"
+msgstr "Acesso de avaliação"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:528
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Avaliação — falta {count} dia"
+msgstr[1] "Avaliação — faltam {count} dias"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Resolver problemas vendo o app como outro usuário"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Tutor 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Tipo *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "O tipo e o nome são obrigatórios"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Digite pelo menos 2 caracteres"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Tipo, código do país, número"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Cancelar a matrícula de {name} neste ano escolar?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Ano desconhecido"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Sem uso"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Usado para agrupar funcionários no diretório de funcionários."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Usuário criado"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Usuário atualizado"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Usuário: pode entrar"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Usuário: tentativas de login com falha"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Usuário: situação"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Nome de usuário *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Nome de usuário já em uso"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Nome de usuário disponível"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Aulas por vídeo: as aulas virtuais usam o serviço de vídeo escolhido pela "
+"sua escola (por padrão, o serviço público Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:628
+msgid "View Attendance"
+msgstr "Ver frequência"
+
+#: lib/screens/dashboard_screen.dart:945
+#: lib/screens/parent_dashboard_screen.dart:599
+msgid "View Full Timetable"
+msgstr "Ver horário completo"
+
+#: lib/screens/parent_dashboard_screen.dart:649
+msgid "View Grades"
+msgstr "Ver notas"
+
+#: lib/screens/homework_due_dates_card.dart:84
+msgid "View Homework Calendar"
+msgstr "Ver calendário de deveres"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Ver horário"
+
+#: lib/screens/dashboard_screen.dart:805
+msgid "View and manage Form Groups"
+msgstr "Ver e gerenciar grupos de inscrição"
+
+#: lib/screens/class_detail_screen.dart:239
+msgid "View class grades"
+msgstr "Ver notas da turma"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Ver famílias, contatos e filhos"
+
+#: lib/screens/class_detail_screen.dart:268
+msgid "View lesson plans for this class"
+msgstr "Ver planos de aula desta turma"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "View students in this class"
+msgstr "Ver alunos desta turma"
+
+#: lib/screens/dashboard_screen.dart:816
+msgid "View your grades"
+msgstr "Ver suas notas"
+
+#: lib/screens/dashboard_screen.dart:834
+msgid "View your report cards"
+msgstr "Ver seus boletins"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Vendo como {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Sala de aula virtual"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:476
+msgid "Welcome, {name}!"
+msgstr "Bem-vindo(a), {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "O que o app não faz"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "O que o app guarda neste aparelho"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Grupo de ano *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"O direcionamento por grupo de ano ou grupo de inscrição não é definido aqui "
+"— isso valerá para todos até ser concluído pelo site."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Você voltou para sua própria conta."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Você está vendo o ano escolar {year}, que não é o ano atual. Alguns dados "
+"podem parecer incorretos (por exemplo, alunos que saíram da escola não "
+"aparecerão em anos anteriores)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr ""
+"Você pode usar esta seção para registrar seus próprios deveres de casa."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Você já enviou uma solicitação, que aguarda a análise de um administrador. "
+"Ainda pode fazer alterações abaixo, mas seus dados só aparecerão no sistema "
+"depois de processados."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Você já enviou uma solicitação, que aguarda a análise de um administrador. "
+"Ainda pode fazer alterações abaixo."
+
+#: lib/screens/data_updates_screen.dart:174
+msgid "Your data is up to date."
+msgstr "Seus dados estão atualizados."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Seus dados ficam com a sua escola"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Seu último nome de usuário e os três últimos endereços de escola usados, "
+"para você não precisar digitá-los de novo"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Seus direitos e dúvidas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Sua escola é responsável pelos seus dados pessoais no Gibbon. Para vê-los, "
+"corrigi-los ou excluí-los, fale com o encarregado de proteção de dados (DPO)"
+" da sua escola. Para dúvidas sobre o próprio app, escreva para {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Sua sessão passará para {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "um ano anterior"
+
+#: lib/screens/log_behaviour_screen.dart:344
+#: lib/screens/log_behaviour_screen.dart:361
+#: lib/screens/log_behaviour_screen.dart:377
+msgid "optional"
+msgstr "opcional"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "principal"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "até {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} faltas em {total} aulas registradas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:286
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} turma"
+msgstr[1] "{count} turmas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} dia"
+msgstr[1] "{count} dias"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} local físico"
+msgstr[1] "{count} locais físicos"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} família"
+msgstr[1] "{count} famílias"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} dia letivo no período"
+msgstr[1] "{count} dias letivos no período"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} dia letivo no ano escolar"
+msgstr[1] "{count} dias letivos no ano escolar"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} aula"
+msgstr[1] "{count} aulas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} funcionário"
+msgstr[1] "{count} funcionários"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/students_screen.dart:110
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} aluno"
+msgstr[1] "{count} alunos"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} aluno matriculado"
+msgstr[1] "{count} alunos matriculados"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:240
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} vez"
+msgstr[1] "{count} vezes"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} usuário"
+msgstr[1] "{count} usuários"
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Nenhum —"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Excluir da substituição?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Acessar como usuário"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Camadas"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "Este aluno tem uma ou mais condições médicas de risco {level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Sua sessão ativa passará para o usuário selecionado."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Recibo para"

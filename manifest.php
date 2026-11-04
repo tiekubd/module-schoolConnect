@@ -100,9 +100,10 @@ $version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec
                           // 1.16.10: Translations for the app (api/i18n.php,
                           // api/i18n_mo.php): the person's Personal Language or the
                           // school default, read from Gibbon's own gibbon.mo plus this
-                          // module's i18n/<code>/LC_MESSAGES/School Connect.mo. First
-                          // module language: French (fr_FR), AI draft pending review by
-                          // a French-speaking school. i18n/School Connect.pot is the
+                          // module's i18n/<code>/LC_MESSAGES/School Connect.mo. Module
+                          // languages: French (fr_FR) and Brazilian Portuguese (pt_BR),
+                          // AI drafts pending review by native speakers at a school
+                          // using each language. i18n/School Connect.pot is the
                           // template for further languages. No schema change, so no
                           // CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
