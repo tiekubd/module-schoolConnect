@@ -27,12 +27,12 @@ msgstr ""
 "رمز تسجيل دخول، محفوظ في التخزين الآمن للجهاز (سلسلة مفاتيح iOS أو Keystore "
 "في Android)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:848
-#: lib/screens/parent_dashboard_screen.dart:246
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "حول التطبيق والخصوصية"
 
-#: lib/screens/log_behaviour_screen.dart:293
+#: lib/screens/log_behaviour_screen.dart:291
 msgid "Add More"
 msgstr "إضافة المزيد"
 
@@ -76,12 +76,12 @@ msgstr "جميع المراحل الدراسية"
 msgid "An uppercase and a lowercase letter"
 msgstr "حرف كبير وحرف صغير"
 
-#: lib/screens/dashboard_screen.dart:850
+#: lib/screens/dashboard_screen.dart:851
 msgid "App version, connected school and your data"
 msgstr "إصدار التطبيق والمدرسة المتصلة وبياناتك"
 
-#: lib/screens/homework_calendar_screen.dart:209
-#: lib/screens/homework_calendar_screen.dart:259
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
 msgid "Assessments"
 msgstr "التقييمات"
 
@@ -106,16 +106,16 @@ msgstr[5] "{count} حرف على الأقل"
 msgid "Attendance This Year"
 msgstr "الحضور هذا العام"
 
-#: lib/screens/dashboard_screen.dart:1068
+#: lib/screens/dashboard_screen.dart:1059
 msgid "Attendance not taken yet today"
 msgstr "لم يُسجَّل الحضور اليوم بعد"
 
-#: lib/screens/log_behaviour_screen.dart:220
+#: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
 msgstr "تم حفظ سجل السلوك!"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/log_behaviour_screen.dart:221
+#: lib/screens/log_behaviour_screen.dart:219
 msgid "Behaviour records saved for {count} student!"
 msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "تم حفظ سجلات السلوك لـ {count} طالب!"
@@ -125,16 +125,16 @@ msgstr[3] "تم حفظ سجلات السلوك لـ {count} طلاب!"
 msgstr[4] "تم حفظ سجلات السلوك لـ {count} طالبًا!"
 msgstr[5] "تم حفظ سجلات السلوك لـ {count} طالب!"
 
-#: lib/screens/dashboard_screen.dart:794
+#: lib/screens/dashboard_screen.dart:795
 msgid "Browse staff profiles"
 msgstr "تصفح ملفات الموظفين"
 
 #: lib/screens/attendance_menu_screen.dart:70
-#: lib/screens/planner_list_screen.dart:136
+#: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "حسب الشعبة"
 
-#: lib/screens/planner_list_screen.dart:128
+#: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
 msgstr "حسب التاريخ"
 
@@ -170,7 +170,7 @@ msgstr "السعة"
 msgid "Chinese or other character-based name"
 msgstr "الاسم بالصينية أو بكتابة رمزية أخرى"
 
-#: lib/screens/planner_list_screen.dart:195
+#: lib/screens/planner_list_screen.dart:189
 msgid "Choose a class above"
 msgstr "اختر شعبة من الأعلى"
 
@@ -182,7 +182,7 @@ msgstr "اختيار أي صف دراسي"
 msgid "Choose any of your classes"
 msgstr "اختيار إحدى شعبك"
 
-#: lib/screens/log_behaviour_screen.dart:163
+#: lib/screens/log_behaviour_screen.dart:161
 msgid "Choose at least one student first"
 msgstr "اختر طالبًا واحدًا على الأقل أولًا"
 
@@ -291,7 +291,7 @@ msgstr "تعذّر إنشاء اسم المستخدم"
 msgid "Could not load Form Groups"
 msgstr "تعذّر تحميل الصفوف الدراسية"
 
-#: lib/screens/parent_dashboard_screen.dart:394
+#: lib/screens/parent_dashboard_screen.dart:386
 msgid "Could not load activities"
 msgstr "تعذّر تحميل الأنشطة"
 
@@ -377,11 +377,11 @@ msgstr "تعذّر تحميل الدرجات"
 msgid "Could not load homework"
 msgstr "تعذّر تحميل الواجبات المنزلية"
 
-#: lib/screens/homework_calendar_screen.dart:137
+#: lib/screens/homework_calendar_screen.dart:138
 msgid "Could not load homework calendar"
 msgstr "تعذّر تحميل تقويم الواجبات"
 
-#: lib/screens/finance_invoice_detail_screen.dart:58
+#: lib/screens/finance_invoice_detail_screen.dart:59
 msgid "Could not load invoice"
 msgstr "تعذّر تحميل الفاتورة"
 
@@ -389,11 +389,11 @@ msgstr "تعذّر تحميل الفاتورة"
 msgid "Could not load invoices"
 msgstr "تعذّر تحميل الفواتير"
 
-#: lib/screens/planner_view_screen.dart:89
+#: lib/screens/planner_view_screen.dart:90
 msgid "Could not load lesson"
 msgstr "تعذّر تحميل الدرس"
 
-#: lib/screens/planner_list_screen.dart:72
+#: lib/screens/planner_list_screen.dart:73
 msgid "Could not load lessons"
 msgstr "تعذّر تحميل الدروس"
 
@@ -401,7 +401,7 @@ msgstr "تعذّر تحميل الدروس"
 msgid "Could not load markbook"
 msgstr "تعذّر تحميل سجل الدرجات"
 
-#: lib/screens/master_timetable_screen.dart:102
+#: lib/screens/master_timetable_screen.dart:103
 msgid "Could not load master timetable"
 msgstr "تعذّر تحميل الجدول المدرسي العام"
 
@@ -409,11 +409,11 @@ msgstr "تعذّر تحميل الجدول المدرسي العام"
 msgid "Could not load medical data"
 msgstr "تعذّر تحميل البيانات الطبية"
 
-#: lib/screens/message_wall_screen.dart:66
+#: lib/screens/message_wall_screen.dart:67
 msgid "Could not load messages"
 msgstr "تعذّر تحميل الرسائل"
 
-#: lib/screens/notifications_screen.dart:48
+#: lib/screens/notifications_screen.dart:49
 msgid "Could not load notifications"
 msgstr "تعذّر تحميل الإشعارات"
 
@@ -483,12 +483,12 @@ msgstr "تعذّر تحميل الطلبة"
 msgid "Could not load terms"
 msgstr "تعذّر تحميل الفصول الدراسية"
 
-#: lib/screens/facility_timetable_screen.dart:88
-#: lib/screens/my_timetable_screen.dart:152
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
 msgid "Could not load timetable"
 msgstr "تعذّر تحميل الجدول المدرسي"
 
-#: lib/screens/master_timetable_screen.dart:72
+#: lib/screens/master_timetable_screen.dart:73
 msgid "Could not load timetables"
 msgstr "تعذّر تحميل الجداول المدرسية"
 
@@ -500,7 +500,7 @@ msgstr "تعذّر تحميل المستخدم"
 msgid "Could not load users"
 msgstr "تعذّر تحميل المستخدمين"
 
-#: lib/screens/parent_dashboard_screen.dart:98
+#: lib/screens/parent_dashboard_screen.dart:99
 msgid "Could not load your children"
 msgstr "تعذّر تحميل أطفالك"
 
@@ -527,8 +527,8 @@ msgstr "تعذّرت إعادة تعيين كلمة المرور"
 msgid "Could not save"
 msgstr "تعذّر الحفظ"
 
-#: lib/screens/attendance_screen.dart:146
-#: lib/screens/form_group_attendance_screen.dart:138
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
 msgid "Could not save attendance"
 msgstr "تعذّر حفظ الحضور"
 
@@ -585,7 +585,7 @@ msgstr "إنشاء تسجيل الطالب المرتبط"
 msgid "Current year"
 msgstr "السنة الحالية"
 
-#: lib/screens/dashboard_screen.dart:379
+#: lib/screens/dashboard_screen.dart:380
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "لوحة التحكم"
@@ -635,7 +635,7 @@ msgstr "من تطوير High Point Education"
 msgid "Done"
 msgstr "تم"
 
-#: lib/screens/homework_calendar_screen.dart:249
+#: lib/screens/homework_calendar_screen.dart:245
 #: lib/screens/student_homework_section.dart:251
 msgid "Due"
 msgstr "موعد التسليم"
@@ -693,7 +693,7 @@ msgstr "الاسم الرسمي لمخاطبة أولياء الأمور"
 msgid "Full name as shown in ID documents"
 msgstr "الاسم الكامل كما يظهر في وثائق الهوية"
 
-#: lib/screens/finance_invoice_detail_screen.dart:321
+#: lib/screens/finance_invoice_detail_screen.dart:320
 msgid "Gateway"
 msgstr "بوابة الدفع"
 
@@ -712,7 +712,7 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "تسجيل الدخول بحساب Google، فقط إذا كانت مدرستك تستخدمه واخترته"
 
-#: lib/screens/dashboard_screen.dart:814
+#: lib/screens/dashboard_screen.dart:815
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -727,19 +727,19 @@ msgid ""
 "Highlighted in red: marked 'Full' but outside their start/end date range."
 msgstr "مظلل بالأحمر: محدد كـ 'Full' لكنه خارج نطاق تاريخ البدء والانتهاء."
 
-#: lib/screens/homework_calendar_screen.dart:378
-#: lib/screens/homework_calendar_screen.dart:466
+#: lib/screens/homework_calendar_screen.dart:374
+#: lib/screens/homework_calendar_screen.dart:462
 #: lib/screens/student_attendance_screen.dart:452
 msgid "Holiday"
 msgstr "عطلة"
 
-#: lib/screens/homework_calendar_screen.dart:27
+#: lib/screens/homework_calendar_screen.dart:28
 msgid "Homework Calendar"
 msgstr "تقويم الواجبات"
 
-#: lib/screens/homework_calendar_screen.dart:206
-#: lib/screens/homework_calendar_screen.dart:207
-#: lib/screens/homework_calendar_screen.dart:371
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:367
 msgid "Homework due"
 msgstr "واجبات مستحقة"
 
@@ -800,19 +800,19 @@ msgstr "زر الانضمام إلى الفصل الافتراضي مخفي في
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "زر الانضمام إلى الفصل الافتراضي يظهر في الجدول المدرسي والمُخطِط"
 
-#: lib/screens/class_detail_screen.dart:124
+#: lib/screens/class_detail_screen.dart:125
 msgid "Last 10 school days"
 msgstr "آخر 10 أيام دراسية"
 
-#: lib/screens/class_detail_screen.dart:124
+#: lib/screens/class_detail_screen.dart:125
 msgid "Last 10 school days — per period"
 msgstr "آخر 10 أيام دراسية — حسب الحصة"
 
-#: lib/screens/form_group_detail_screen.dart:129
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Last 20 school days"
 msgstr "آخر 20 يومًا دراسيًا"
 
-#: lib/screens/my_timetable_screen.dart:603
+#: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
 msgstr "تخطيط الدروس قادم قريبًا"
 
@@ -824,8 +824,8 @@ msgstr "التحقق من الترخيص"
 msgid "Link staff-role people to their staff record"
 msgstr "ربط الأشخاص ذوي دور الموظف بسجلاتهم"
 
-#: lib/screens/dashboard_screen.dart:698
-#: lib/screens/log_behaviour_screen.dart:241
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "تسجيل سلوك"
 
@@ -833,11 +833,11 @@ msgstr "تسجيل سلوك"
 msgid "Logged in as"
 msgstr "مسجل الدخول باسم"
 
-#: lib/screens/dashboard_screen.dart:773
+#: lib/screens/dashboard_screen.dart:774
 msgid "Manage users and school settings"
 msgstr "إدارة المستخدمين وإعدادات المدرسة"
 
-#: lib/screens/notifications_screen.dart:107
+#: lib/screens/notifications_screen.dart:106
 msgid "Mark all read"
 msgstr "تحديد الكل كمقروء"
 
@@ -845,16 +845,16 @@ msgstr "تحديد الكل كمقروء"
 msgid "Mark as complete"
 msgstr "تحديد كمكتمل"
 
-#: lib/screens/class_detail_screen.dart:253
+#: lib/screens/class_detail_screen.dart:254
 msgid "Mark attendance for today"
 msgstr "تسجيل حضور اليوم"
 
-#: lib/screens/notifications_screen.dart:253
+#: lib/screens/notifications_screen.dart:252
 msgid "Mark read"
 msgstr "تحديد كمقروء"
 
-#: lib/screens/dashboard_screen.dart:710
-#: lib/screens/master_timetable_screen.dart:124
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "الجدول المدرسي العام"
 
@@ -862,8 +862,8 @@ msgstr "الجدول المدرسي العام"
 msgid "Must be unique if set"
 msgstr "يجب أن يكون فريدًا إن وُجد"
 
-#: lib/screens/dashboard_screen.dart:1043
-#: lib/screens/dashboard_screen.dart:803
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "صفوفي الدراسية"
@@ -881,7 +881,7 @@ msgstr "لم يُعثر على صفوف دراسية"
 msgid "No Learning Area"
 msgstr "بدون مجال تعلم"
 
-#: lib/screens/parent_dashboard_screen.dart:503
+#: lib/screens/parent_dashboard_screen.dart:495
 msgid "No activities on record"
 msgstr "لا توجد أنشطة مسجلة"
 
@@ -905,11 +905,11 @@ msgstr "لم يُعثر على أطفال"
 msgid "No children linked"
 msgstr "لا يوجد أطفال مرتبطون"
 
-#: lib/screens/parent_dashboard_screen.dart:268
+#: lib/screens/parent_dashboard_screen.dart:269
 msgid "No children linked to this account"
 msgstr "لا يوجد أطفال مرتبطون بهذا الحساب"
 
-#: lib/screens/class_detail_screen.dart:201
+#: lib/screens/class_detail_screen.dart:202
 msgid "No class"
 msgstr "بدون شعبة"
 
@@ -919,15 +919,15 @@ msgstr "بدون شعبة"
 msgid "No classes found"
 msgstr "لم يُعثر على شعب"
 
-#: lib/screens/facility_timetable_screen.dart:220
+#: lib/screens/facility_timetable_screen.dart:204
 msgid "No classes in this room today"
 msgstr "لا توجد حصص في هذه القاعة اليوم"
 
-#: lib/screens/master_timetable_screen.dart:298
+#: lib/screens/master_timetable_screen.dart:290
 msgid "No classes scheduled"
 msgstr "لا توجد حصص مجدولة"
 
-#: lib/screens/dashboard_screen.dart:971
+#: lib/screens/dashboard_screen.dart:962
 msgid "No classes scheduled today"
 msgstr "لا توجد حصص مجدولة اليوم"
 
@@ -939,7 +939,7 @@ msgstr "لا توجد شعب بعد"
 msgid "No courses found"
 msgstr "لم يُعثر على مناهج"
 
-#: lib/screens/homework_calendar_screen.dart:329
+#: lib/screens/homework_calendar_screen.dart:325
 #: lib/screens/student_attendance_screen.dart:397
 msgid "No data for this term"
 msgstr "لا توجد بيانات لهذا الفصل الدراسي"
@@ -972,8 +972,8 @@ msgstr "لم يُعثر على سجل عائلة"
 msgid "No grades available"
 msgstr "لا توجد درجات متاحة"
 
-#: lib/screens/class_detail_screen.dart:130
-#: lib/screens/form_group_detail_screen.dart:135
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
 msgid "No history available"
 msgstr "لا يوجد سجل متاح"
 
@@ -994,7 +994,7 @@ msgstr "لا توجد إدخالات في سجل الدرجات بعد"
 msgid "No matches found"
 msgstr "لا توجد نتائج"
 
-#: lib/screens/notifications_screen.dart:125
+#: lib/screens/notifications_screen.dart:124
 msgid "No notifications"
 msgstr "لا توجد إشعارات"
 
@@ -1031,7 +1031,7 @@ msgstr "لم يُعثر على موظفين"
 msgid "No students enrolled this year"
 msgstr "لا يوجد طلبة مسجلون هذا العام"
 
-#: lib/screens/form_group_detail_screen.dart:228
+#: lib/screens/form_group_detail_screen.dart:229
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
@@ -1041,15 +1041,15 @@ msgstr "لم يُعثر على طلبة"
 msgid "No terms found for this school year"
 msgstr "لم يُعثر على فصول دراسية لهذه السنة الدراسية"
 
-#: lib/screens/master_timetable_screen.dart:200
+#: lib/screens/master_timetable_screen.dart:192
 msgid "No timetable data found"
 msgstr "لم يُعثر على بيانات للجدول المدرسي"
 
-#: lib/screens/facility_timetable_screen.dart:219
+#: lib/screens/facility_timetable_screen.dart:203
 msgid "No timetable for this day"
 msgstr "لا يوجد جدول مدرسي لهذا اليوم"
 
-#: lib/screens/dashboard_screen.dart:965
+#: lib/screens/dashboard_screen.dart:956
 msgid "No timetable for today"
 msgstr "لا يوجد جدول مدرسي اليوم"
 
@@ -1094,12 +1094,12 @@ msgstr ""
 "غير متاح هنا بعد — التسجيل هنا لا يضيف المناهج تلقائيًا. أكمل التسجيل في "
 "المناهج عبر الموقع إذا احتاج هذا الطالب ذلك."
 
-#: lib/screens/my_timetable_screen.dart:442
+#: lib/screens/my_timetable_screen.dart:440
 msgid "Nothing scheduled"
 msgstr "لا شيء مجدول"
 
-#: lib/screens/facility_timetable_screen.dart:409
-#: lib/screens/my_timetable_screen.dart:565
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
 msgstr "الآن"
 
@@ -1234,7 +1234,7 @@ msgstr "جهات الاتصال ذات الأولوية 1 تتلقى دائمً�
 msgid "Qualified"
 msgstr "مؤهل"
 
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/dashboard_screen.dart:731
 msgid "Quick Access"
 msgstr "وصول سريع"
 
@@ -1242,12 +1242,12 @@ msgstr "وصول سريع"
 msgid "Read the full privacy policy"
 msgstr "قراءة سياسة الخصوصية كاملة"
 
-#: lib/screens/finance_invoice_detail_screen.dart:325
+#: lib/screens/finance_invoice_detail_screen.dart:324
 msgid "Receipt ID"
 msgstr "رقم الإيصال"
 
-#: lib/screens/class_detail_screen.dart:121
-#: lib/screens/form_group_detail_screen.dart:126
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
 msgid "Recent Attendance"
 msgstr "الحضور الأخير"
 
@@ -1357,7 +1357,7 @@ msgstr ""
 "أوقات فتح المدرسة وبدء الدوام وانتهائه والإغلاق لا تُضبط هنا — أكمل هذه "
 "التفاصيل عبر الموقع."
 
-#: lib/screens/dashboard_screen.dart:783
+#: lib/screens/dashboard_screen.dart:784
 msgid "Search and view student profiles"
 msgstr "البحث في ملفات الطلبة وعرضها"
 
@@ -1400,7 +1400,7 @@ msgstr "البحث في الشعب…"
 msgid "Search rooms..."
 msgstr "البحث في القاعات…"
 
-#: lib/screens/form_group_detail_screen.dart:207
+#: lib/screens/form_group_detail_screen.dart:208
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "البحث في الطلبة…"
@@ -1413,7 +1413,7 @@ msgstr "اختيار طالب"
 msgid "Sessions marked Out this year"
 msgstr "الحصص المسجلة كـ \"خارج\" هذا العام"
 
-#: lib/screens/finance_invoice_detail_screen.dart:166
+#: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "مشاركة"
 
@@ -1441,7 +1441,7 @@ msgstr "تم إنشاء سجل الموظف"
 msgid "Student *"
 msgstr "الطالب *"
 
-#: lib/screens/class_detail_screen.dart:222
+#: lib/screens/class_detail_screen.dart:223
 msgid "Student List"
 msgstr "قائمة الطلبة"
 
@@ -1459,13 +1459,13 @@ msgstr "تم الإرسال"
 msgid "Surname *"
 msgstr "اللقب *"
 
-#: lib/screens/dashboard_screen.dart:422
-#: lib/screens/parent_dashboard_screen.dart:233
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "تبديل الدور"
 
-#: lib/screens/dashboard_screen.dart:428
-#: lib/screens/parent_dashboard_screen.dart:238
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "تبديل السنة الدراسية"
@@ -1474,8 +1474,8 @@ msgstr "تبديل السنة الدراسية"
 msgid "Take attendance for this class"
 msgstr "أخذ الحضور لهذه الشعبة"
 
-#: lib/screens/class_detail_screen.dart:193
-#: lib/screens/form_group_detail_screen.dart:165
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
 msgid "Taken"
 msgstr "مُسجَّل"
 
@@ -1497,7 +1497,7 @@ msgstr "الترتيب الذي يجب أن تتواصل به المدرسة م�
 msgid "Their user account is not affected."
 msgstr "لا يتأثر حساب المستخدم الخاص به."
 
-#: lib/screens/message_wall_screen.dart:166
+#: lib/screens/message_wall_screen.dart:165
 msgid "There are no messages to display."
 msgstr "لا توجد رسائل لعرضها."
 
@@ -1518,7 +1518,7 @@ msgid "This cannot be undone."
 msgstr "لا يمكن التراجع عن ذلك."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:205
+#: lib/screens/attendance_screen.dart:203
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1548,21 +1548,21 @@ msgstr ""
 "سيؤدي هذا إلى حذف جميع بيانات التسجيل والجدول المدرسي لهذه الشعبة. لا يمكن "
 "التراجع عن ذلك."
 
-#: lib/screens/dashboard_screen.dart:719
+#: lib/screens/dashboard_screen.dart:720
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "الجدول المدرسي حسب المرفق"
 
-#: lib/screens/dashboard_screen.dart:933
+#: lib/screens/dashboard_screen.dart:924
 msgid "Today's Timetable"
 msgstr "جدول اليوم"
 
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:530
 msgid "Trial access"
 msgstr "وصول تجريبي"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:528
+#: lib/screens/dashboard_screen.dart:529
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "الفترة التجريبية — انتهت"
@@ -1654,16 +1654,16 @@ msgstr ""
 "دروس الفيديو: تستخدم الفصول الافتراضية خدمة الفيديو التي اختارتها مدرستك "
 "(افتراضيًا خدمة Jitsi Meet العامة)"
 
-#: lib/screens/parent_dashboard_screen.dart:628
+#: lib/screens/parent_dashboard_screen.dart:620
 msgid "View Attendance"
 msgstr "عرض الحضور"
 
-#: lib/screens/dashboard_screen.dart:945
-#: lib/screens/parent_dashboard_screen.dart:599
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "عرض الجدول المدرسي كاملًا"
 
-#: lib/screens/parent_dashboard_screen.dart:649
+#: lib/screens/parent_dashboard_screen.dart:641
 msgid "View Grades"
 msgstr "عرض الدرجات"
 
@@ -1675,11 +1675,11 @@ msgstr "عرض تقويم الواجبات"
 msgid "View Timetable"
 msgstr "عرض الجدول المدرسي"
 
-#: lib/screens/dashboard_screen.dart:805
+#: lib/screens/dashboard_screen.dart:806
 msgid "View and manage Form Groups"
 msgstr "عرض الصفوف الدراسية وإدارتها"
 
-#: lib/screens/class_detail_screen.dart:239
+#: lib/screens/class_detail_screen.dart:240
 msgid "View class grades"
 msgstr "عرض درجات الشعبة"
 
@@ -1687,19 +1687,19 @@ msgstr "عرض درجات الشعبة"
 msgid "View families, contacts, and children"
 msgstr "عرض العائلات وجهات الاتصال والأطفال"
 
-#: lib/screens/class_detail_screen.dart:268
+#: lib/screens/class_detail_screen.dart:269
 msgid "View lesson plans for this class"
 msgstr "عرض خطط الدروس لهذه الشعبة"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
 msgstr "عرض طلبة هذه الشعبة"
 
-#: lib/screens/dashboard_screen.dart:816
+#: lib/screens/dashboard_screen.dart:817
 msgid "View your grades"
 msgstr "عرض درجاتك"
 
-#: lib/screens/dashboard_screen.dart:834
+#: lib/screens/dashboard_screen.dart:835
 msgid "View your report cards"
 msgstr "عرض تقاريرك المدرسية"
 
@@ -1713,7 +1713,7 @@ msgid "Virtual Classroom"
 msgstr "الفصل الافتراضي"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:476
+#: lib/screens/dashboard_screen.dart:477
 msgid "Welcome, {name}!"
 msgstr "مرحبًا، {name}!"
 
@@ -1816,9 +1816,9 @@ msgstr "سيتم تبديل جلستك إلى {name} ({role})."
 msgid "a previous year"
 msgstr "سنة سابقة"
 
-#: lib/screens/log_behaviour_screen.dart:344
-#: lib/screens/log_behaviour_screen.dart:361
-#: lib/screens/log_behaviour_screen.dart:377
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
 msgid "optional"
 msgstr "اختياري"
 
@@ -1838,7 +1838,7 @@ msgstr "{absent} غياب من أصل {total} حصة مسجلة"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/master_timetable_screen.dart:286
+#: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} شعبة"
@@ -1951,7 +1951,7 @@ msgstr[4] "{count} طالبًا مسجلًا"
 msgstr[5] "{count} طالب مسجل"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:240
+#: lib/screens/notifications_screen.dart:239
 msgid "{count} time"
 msgid_plural "{count} times"
 msgstr[0] "{count} مرة"
@@ -1971,6 +1971,21 @@ msgstr[2] "مستخدمان"
 msgstr[3] "{count} مستخدمين"
 msgstr[4] "{count} مستخدمًا"
 msgstr[5] "{count} مستخدم"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:88
+msgid "{count}d ago"
+msgstr "منذ {count} ي"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:87
+msgid "{count}h ago"
+msgstr "منذ {count} س"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:86
+msgid "{count}m ago"
+msgstr "منذ {count} د"
 
 #: lib/screens/course_manage_list_screen.dart:283
 msgid "— None —"
