@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: School Connect\n"
-"PO-Revision-Date: 2026-11-04 13:30-0600\n"
+"PO-Revision-Date: 2026-11-04 13:25-0600\n"
 "Last-Translator: AI draft, pending review\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1374,6 +1374,17 @@ msgstr "Emploi du temps par salle"
 msgid "Today's Timetable"
 msgstr "Emploi du temps du jour"
 
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial access"
+msgstr "Accès d’essai"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:528
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Essai — {count} jour restant"
+msgstr[1] "Essai — {count} jours restants"
+
 #: lib/screens/admin_screen.dart:167
 msgid "Troubleshoot by seeing the app as another user"
 msgstr "Dépanner en voyant l’application comme un autre utilisateur"
@@ -1501,6 +1512,11 @@ msgstr "Vous voyez en tant que {name}"
 #: lib/screens/admin_settings_screen.dart:110
 msgid "Virtual Classroom"
 msgstr "Classe virtuelle"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:476
+msgid "Welcome, {name}!"
+msgstr "Bienvenue, {name} !"
 
 #: lib/screens/student_enrolment_edit_screen.dart:221
 #: lib/screens/user_edit_screen.dart:690

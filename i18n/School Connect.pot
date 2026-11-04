@@ -1235,6 +1235,17 @@ msgstr ""
 msgid "Today's Timetable"
 msgstr ""
 
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial access"
+msgstr ""
+
+#: lib/screens/dashboard_screen.dart:528
+#. Keep {placeholders} exactly as they are.
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] ""
+msgstr[1] ""
+
 #: lib/screens/admin_screen.dart:167
 msgid "Troubleshoot by seeing the app as another user"
 msgstr ""
@@ -1359,6 +1370,11 @@ msgstr ""
 
 #: lib/screens/admin_settings_screen.dart:110
 msgid "Virtual Classroom"
+msgstr ""
+
+#: lib/screens/dashboard_screen.dart:476
+#. Keep {placeholders} exactly as they are.
+msgid "Welcome, {name}!"
 msgstr ""
 
 #: lib/screens/student_enrolment_edit_screen.dart:221 lib/screens/user_edit_screen.dart:690
