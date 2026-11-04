@@ -82,8 +82,10 @@ $version     = "1.16.07"; // Tracks the Flutter app's marketing version (pubspec
                           // returned an empty list instead of an empty object. Also:
                           // the Parent Dashboard listed a child twice when the parent
                           // belongs to two families that both include the child
-                          // (parent_dashboard.php now returns each child once). No
-                          // schema change, so no CHANGEDB.php entry.
+                          // (parent_dashboard.php now returns each child once). New:
+                          // module_info.php reports the module version (files and
+                          // installed) for the app's About screen. No schema change,
+                          // so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
