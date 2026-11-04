@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: School Connect\n"
-"PO-Revision-Date: 2026-11-04 13:25-0600\n"
+"PO-Revision-Date: 2026-11-04 13:45-0600\n"
 "Last-Translator: AI draft, pending review\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -19,7 +19,16 @@ msgstr ""
 msgid "A punctuation mark or space"
 msgstr "Un signe de ponctuation ou une espace"
 
-#: lib/screens/about_screen.dart:119
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Un jeton de connexion, conservé dans le stockage sécurisé de l’appareil "
+"(trousseau iOS ou Keystore Android)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:848
+#: lib/screens/parent_dashboard_screen.dart:246
 msgid "About & Privacy"
 msgstr "À propos et confidentialité"
 
@@ -66,6 +75,10 @@ msgstr "Tous les paliers"
 #: lib/screens/user_password_screen.dart:101
 msgid "An uppercase and a lowercase letter"
 msgstr "Une majuscule et une minuscule"
+
+#: lib/screens/dashboard_screen.dart:850
+msgid "App version, connected school and your data"
+msgstr "Version de l’application, école connectée et vos données"
 
 #: lib/screens/homework_calendar_screen.dart:209
 #: lib/screens/homework_calendar_screen.dart:259
@@ -117,6 +130,15 @@ msgstr "Par cours"
 msgid "By Date"
 msgstr "Par date"
 
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Appareil photo et photos : seulement si vous choisissez de joindre une photo"
+" à une demande de mise à jour des données. L’application demande d’abord, et"
+" vous pouvez refuser."
+
 #: lib/screens/special_days_screen.dart:528
 msgid "Cancel Bookings?"
 msgstr "Annuler les réservations ?"
@@ -136,6 +158,10 @@ msgstr "Annuler le nouveau problème de santé"
 #: lib/screens/facility_list_screen.dart:278
 msgid "Cap"
 msgstr "Cap."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Nom en chinois ou dans une autre écriture à caractères"
 
 #: lib/screens/planner_list_screen.dart:195
 msgid "Choose a class above"
@@ -216,6 +242,14 @@ msgstr "Coordonnées"
 #: lib/screens/student_emergency_screen.dart:183
 msgid "Contact {number} — not on record"
 msgstr "Contact {number} — non renseigné"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Contenu des leçons : les vidéos ou images ajoutées par un enseignant (par "
+"exemple YouTube) se chargent depuis ces sites quand vous les ouvrez"
 
 #: lib/screens/admin_screen.dart:179
 msgid "Control what shows up in the app for everyone"
@@ -488,6 +522,11 @@ msgstr "Impossible de réinitialiser le mot de passe"
 msgid "Could not save"
 msgstr "Enregistrement impossible"
 
+#: lib/screens/attendance_screen.dart:146
+#: lib/screens/form_group_attendance_screen.dart:138
+msgid "Could not save attendance"
+msgstr "Impossible d’enregistrer les présences"
+
 #: lib/screens/admin_settings_screen.dart:75
 #: lib/screens/admin_settings_screen.dart:85
 msgid "Could not save setting"
@@ -507,6 +546,10 @@ msgstr "Impossible de prendre l’identité de cet utilisateur"
 #: lib/screens/data_finance_edit_screen.dart:126
 msgid "Could not submit update"
 msgstr "Impossible d’envoyer la mise à jour"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Impossible de changer de profil"
 
 #: lib/screens/school_year_picker_screen.dart:67
 #: lib/screens/school_year_picker_screen.dart:76
@@ -538,6 +581,7 @@ msgid "Current year"
 msgstr "Année en cours"
 
 #: lib/screens/dashboard_screen.dart:379
+#: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
@@ -603,6 +647,10 @@ msgstr "Paliers admissibles"
 msgid "Enroll existing students into the active school year"
 msgstr "Inscrire des élèves existants à l’année scolaire active"
 
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Nom de famille tel qu’il figure sur les pièces d’identité"
+
 #: lib/screens/user_edit_screen.dart:161
 msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
 msgstr ""
@@ -616,10 +664,22 @@ msgstr "Filtrer par palier"
 msgid "First Name *"
 msgstr "Prénom *"
 
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Prénom tel qu’il figure sur les pièces d’identité"
+
 #: lib/screens/student_enrolment_edit_screen.dart:225
 #: lib/screens/user_edit_screen.dart:694
 msgid "Form Group *"
 msgstr "Groupe-repère *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Nom de politesse pour s’adresser aux parents"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Nom complet tel qu’il figure sur les pièces d’identité"
 
 #: lib/screens/finance_invoice_detail_screen.dart:321
 msgid "Gateway"
@@ -629,11 +689,31 @@ msgstr "Passerelle"
 msgid "Gender *"
 msgstr "Sexe *"
 
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ est une marque de commerce de Gibbon Education Ltd. (Hong Kong), "
+"utilisée avec autorisation."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Connexion avec Google, seulement si votre école l’utilise et que vous la "
+"choisissez"
+
 #: lib/screens/dashboard_screen.dart:814
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Notes"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr ""
+"Un nombre plus élevé fait monter le membre du personnel dans l’ordre de son "
+"regroupement."
 
 #: lib/screens/student_enrolment_list_screen.dart:159
 msgid ""
@@ -728,6 +808,18 @@ msgstr "10 derniers jours d’école"
 msgid "Last 10 school days — per period"
 msgstr "10 derniers jours d’école — par période"
 
+#: lib/screens/form_group_detail_screen.dart:129
+msgid "Last 20 school days"
+msgstr "20 derniers jours d’école"
+
+#: lib/screens/my_timetable_screen.dart:603
+msgid "Lesson planning is coming soon"
+msgstr "La planification des leçons arrive bientôt"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Vérification de licence"
+
 #: lib/screens/admin_screen.dart:67
 msgid "Link staff-role people to their staff record"
 msgstr "Associer les personnes ayant un profil du personnel à leur fiche"
@@ -796,6 +888,15 @@ msgstr "Aucune activité enregistrée"
 #: lib/screens/family_detail_screen.dart:280
 msgid "No adults linked"
 msgstr "Aucun adulte associé"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Aucune publicité, aucune analyse d’audience, aucun pistage, aucun rapport de"
+" plantage et aucun service de notifications push. L’application ne vend ni "
+"ne partage jamais vos données."
 
 #: lib/screens/view_reports_screen.dart:64
 msgid "No children found"
@@ -873,6 +974,7 @@ msgid "No grades available"
 msgstr "Aucune note disponible"
 
 #: lib/screens/class_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:135
 msgid "No history available"
 msgstr "Aucun historique disponible"
 
@@ -930,6 +1032,7 @@ msgstr "Aucun membre du personnel trouvé"
 msgid "No students enrolled this year"
 msgstr "Aucun élève inscrit cette année"
 
+#: lib/screens/form_group_detail_screen.dart:228
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
@@ -1006,9 +1109,36 @@ msgstr "Maintenant"
 msgid "Official Name *"
 msgstr "Nom complet *"
 
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Une fois par jour, le serveur de votre école communique à High Point "
+"uniquement sa propre adresse Web, pour confirmer l’abonnement de l’école. "
+"Aucune information personnelle n’est envoyée."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Ne comprend que les personnes ayant un profil du personnel qui ne sont pas "
+"encore membres du personnel."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Ne comprend que les élèves non inscrits à cette année scolaire."
+
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Ouvre à"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Autres services que vous pourriez voir"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Mot de passe *"
 
 #: lib/screens/user_password_screen.dart:148
 msgid "Password must be filled in and match"
@@ -1035,6 +1165,10 @@ msgstr "Supprimer définitivement"
 #: lib/screens/course_detail_screen.dart:75
 msgid "Permanently delete \"{name}\" and all of its classes?"
 msgstr "Supprimer définitivement « {name} » et tous ses cours ?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Autorisations"
 
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Person *"
@@ -1084,6 +1218,10 @@ msgid ""
 msgstr ""
 "Prenez un moment pour vérifier les mises à jour demandées ci-dessous. Même "
 "si rien n’a changé, les envoyer confirme que vos données sont exactes."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Propulsé par Gibbon"
 
 #: lib/screens/user_edit_screen.dart:499
 msgid "Preferred Name *"
@@ -1169,6 +1307,12 @@ msgstr "Retirer {name} de ce cours ?"
 msgid "Remove {name} from this family?"
 msgstr "Retirer {name} de cette famille ?"
 
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr ""
+"Les bulletins en PDF, seulement pendant que vous les consultez ou les "
+"partagez"
+
 #: lib/screens/impersonation_banner.dart:119
 msgid "Return to my account"
 msgstr "Revenir à mon compte"
@@ -1185,9 +1329,36 @@ msgstr "N° d’ordre"
 msgid "Save failed"
 msgstr "Échec de l’enregistrement"
 
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect est une application tierce compatible avec Gibbon, la "
+"plateforme libre et gratuite de gestion scolaire. Ce n’est pas une version "
+"officielle de la Fondation Gibbon, et elle n’est ni affiliée ni approuvée "
+"par la Fondation Gibbon."
+
 #: lib/screens/about_screen.dart:157
 msgid "School Connect module on the school server"
 msgstr "Module School Connect sur le serveur de l’école"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect affiche les informations du système Gibbon de votre école : "
+"emplois du temps, présences, notes, devoirs, bulletins, messages et "
+"coordonnées de votre famille. L’application se connecte directement et "
+"uniquement au serveur Gibbon de votre école, par une connexion chiffrée "
+"(HTTPS). High Point Education ne reçoit, ne conserve ni ne voit ces "
+"informations."
 
 #: lib/screens/special_days_screen.dart:516
 msgid ""
@@ -1240,6 +1411,7 @@ msgstr "Rechercher des cours…"
 msgid "Search rooms..."
 msgstr "Rechercher des salles…"
 
+#: lib/screens/form_group_detail_screen.dart:207
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "Rechercher des élèves…"
@@ -1255,6 +1427,15 @@ msgstr "Séances marquées Sorti cette année"
 #: lib/screens/finance_invoice_detail_screen.dart:166
 msgid "Share"
 msgstr "Partager"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"La déconnexion supprime le jeton de connexion, votre nom d’utilisateur et "
+"les bulletins téléchargés. La désinstallation de l’application supprime tout"
+" le reste."
 
 #: lib/screens/staff_directory_screen.dart:350
 msgid "Staff Profile"
@@ -1290,6 +1471,13 @@ msgstr "Envoyé"
 msgid "Surname *"
 msgstr "Nom *"
 
+#: lib/screens/dashboard_screen.dart:422
+#: lib/screens/parent_dashboard_screen.dart:233
+msgid "Switch Role"
+msgstr "Changer de profil"
+
+#: lib/screens/dashboard_screen.dart:428
+#: lib/screens/parent_dashboard_screen.dart:238
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "Changer d’année scolaire"
@@ -1299,6 +1487,7 @@ msgid "Take attendance for this class"
 msgstr "Prendre les présences pour ce cours"
 
 #: lib/screens/class_detail_screen.dart:193
+#: lib/screens/form_group_detail_screen.dart:165
 msgid "Taken"
 msgstr "Prises"
 
@@ -1341,6 +1530,15 @@ msgstr ""
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
 msgstr "Cette action est irréversible."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:205
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Ce cours n’est pas prévu le {date}. Vous pouvez quand même enregistrer les "
+"présences au besoin."
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1423,6 +1621,10 @@ msgstr "Année inconnue"
 msgid "Unused"
 msgstr "Inutilisée"
 
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Sert à regrouper le personnel dans le répertoire du personnel."
+
 #: lib/screens/user_list_screen.dart:255
 msgid "User created successfully"
 msgstr "Utilisateur créé"
@@ -1454,6 +1656,14 @@ msgstr "Nom d’utilisateur déjà pris"
 #: lib/screens/user_edit_screen.dart:589
 msgid "Username available"
 msgstr "Nom d’utilisateur disponible"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Cours vidéo : les classes virtuelles utilisent le service vidéo choisi par "
+"votre école (par défaut, le service public Jitsi Meet)"
 
 #: lib/screens/parent_dashboard_screen.dart:628
 msgid "View Attendance"
@@ -1518,6 +1728,14 @@ msgstr "Classe virtuelle"
 msgid "Welcome, {name}!"
 msgstr "Bienvenue, {name} !"
 
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Ce que l’application ne fait pas"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Ce que l’application conserve sur cet appareil"
+
 #: lib/screens/student_enrolment_edit_screen.dart:221
 #: lib/screens/user_edit_screen.dart:690
 msgid "Year Group *"
@@ -1577,6 +1795,18 @@ msgstr "Vos données sont à jour."
 #: lib/screens/about_screen.dart:192
 msgid "Your data stays with your school"
 msgstr "Vos données restent à votre école"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Votre dernier nom d’utilisateur et les trois dernières adresses d’école "
+"utilisées, pour éviter de les retaper"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Vos droits et questions"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/about_screen.dart:271
@@ -1766,3 +1996,7 @@ msgstr "Facturer à"
 # Gibbon core string: corrects Gibbon's French for the app
 msgid "Receipt To"
 msgstr "Reçu à l’ordre de"
+
+# Gibbon core string: missing from its French file
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "Cet élève a un ou plusieurs problèmes de santé à risque {level}."
