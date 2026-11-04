@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: School Connect\n"
-"PO-Revision-Date: 2026-11-04 13:45-0600\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
 "Last-Translator: AI draft, pending review\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1941,31 +1941,31 @@ msgstr[1] "{count} utilisateurs"
 msgid "— None —"
 msgstr "— Aucun —"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "By Form Group"
 msgstr "Par groupe-repère"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "Course"
 msgstr "Cours"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "Descriptor"
 msgstr "Descripteur"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "Homework + Due Dates"
 msgstr "Devoirs et dates limites"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "Layers"
 msgstr "Couches"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "No upcoming due dates!"
 msgstr "Aucune date limite à venir !"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid ""
 "Should this student be automatically enrolled in courses for their Form "
 "Group?"
@@ -1973,30 +1973,30 @@ msgstr ""
 "Cet élève doit-il être inscrit automatiquement aux cours de son groupe-"
 "repère ?"
 
-# Gibbon core string: missing from its French file
+# Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Votre session active passera à l’utilisateur choisi."
 
-# Gibbon core string: corrects Gibbon's French for the app
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "Cet élève a un ou plusieurs problèmes de santé à risque {level}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Take Attendance"
 msgstr "Prendre les présences"
 
-# Gibbon core string: corrects Gibbon's French for the app
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Receipt"
 msgstr "Reçu"
 
-# Gibbon core string: corrects Gibbon's French for the app
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Invoice"
 msgstr "Facture"
 
-# Gibbon core string: corrects Gibbon's French for the app
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Invoice To"
 msgstr "Facturer à"
 
-# Gibbon core string: corrects Gibbon's French for the app
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Receipt To"
 msgstr "Reçu à l’ordre de"
-
-# Gibbon core string: missing from its French file
-msgid "This student has one or more {level} risk medical conditions."
-msgstr "Cet élève a un ou plusieurs problèmes de santé à risque {level}."
