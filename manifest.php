@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.08"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.09"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -89,6 +89,13 @@ $version     = "1.16.08"; // Tracks the Flutter app's marketing version (pubspec
                           // (uploaded files and installed record) for the app's About
                           // screen, released with app 1.16.7. No schema change, so no
                           // CHANGEDB.php entry.
+                          //
+                          // 1.16.09: Impersonate User in the app (api/impersonate.php),
+                          // with core's own checks including config.php's
+                          // $allowImpersonateUser list. New table
+                          // gibbonConnectImpersonation (CHANGEDB 1.16.09); auth.php
+                          // never extends impersonation tokens (2 hours). Released
+                          // with app 1.16.8.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

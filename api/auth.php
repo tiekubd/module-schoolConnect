@@ -124,11 +124,29 @@ function gibbonConnectRequireAuth(PDO $pdo): array {
         exit;
     }
 
-    // Sliding expiry: extend session on activity so active users are never
-    // logged out mid-use, while idle/stolen tokens still die eventually.
-    $newExpires = date('Y-m-d H:i:s', strtotime('+30 days'));
-    $update = $pdo->prepare("UPDATE gibbonConnectSession SET lastUsed = NOW(), expires = ? WHERE token = ?");
-    $update->execute([$newExpires, $token]);
+    // An Impersonate User token (see impersonate.php) has a fixed 2-hour
+    // life: it is never extended, so an impersonation can't linger. The
+    // table only exists from module 1.16.09; before that, nothing is an
+    // impersonation.
+    $isImpersonation = false;
+    try {
+        $impStmt = $pdo->prepare("SELECT 1 FROM gibbonConnectImpersonation WHERE token = ? LIMIT 1");
+        $impStmt->execute([$token]);
+        $isImpersonation = (bool) $impStmt->fetchColumn();
+    } catch (PDOException $e) {
+        $isImpersonation = false;
+    }
+
+    if ($isImpersonation) {
+        $update = $pdo->prepare("UPDATE gibbonConnectSession SET lastUsed = NOW() WHERE token = ?");
+        $update->execute([$token]);
+    } else {
+        // Sliding expiry: extend session on activity so active users are never
+        // logged out mid-use, while idle/stolen tokens still die eventually.
+        $newExpires = date('Y-m-d H:i:s', strtotime('+30 days'));
+        $update = $pdo->prepare("UPDATE gibbonConnectSession SET lastUsed = NOW(), expires = ? WHERE token = ?");
+        $update->execute([$newExpires, $token]);
+    }
 
     // ── Resolve the active school year ──────────────────────────────────────
     $currentYearStmt = $pdo->query("
@@ -227,6 +245,8 @@ function gibbonConnectRequireAuth(PDO $pdo): array {
         'hasMultipleRoles' => count($availableRoleIDs) > 1,
         'schoolYearID'     => $activeYearID,
         'isCurrentYear'    => $isCurrentYear,
+        'isImpersonation'  => $isImpersonation,
+        'token'            => $token,
     ];
 }
 

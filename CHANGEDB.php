@@ -42,3 +42,22 @@ CREATE TABLE IF NOT EXISTS `gibbonConnectLicenseCache` (
   PRIMARY KEY (`schoolHost`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;end
 ";
+
+// v1.16.09 — tracks Impersonate User sessions started from the app (see
+// api/impersonate.php): which token belongs to which admin and target, and
+// when it ends. auth.php never extends these tokens. impersonate.php also
+// creates this table itself if it is missing, so IF NOT EXISTS keeps this
+// safe on sites where that has already happened.
+++$count;
+$sql[$count][0] = "1.16.09";
+$sql[$count][1] = "
+CREATE TABLE IF NOT EXISTS `gibbonConnectImpersonation` (
+  `token` varchar(64) NOT NULL,
+  `gibbonPersonIDImpersonator` varchar(20) NOT NULL,
+  `gibbonPersonIDTarget` varchar(20) NOT NULL,
+  `created` datetime NOT NULL,
+  `expires` datetime NOT NULL,
+  PRIMARY KEY (`token`),
+  KEY `idx_gibbonConnectImpersonation_expires` (`expires`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;end
+";
