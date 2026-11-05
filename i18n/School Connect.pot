@@ -268,6 +268,10 @@ msgstr ""
 msgid "Could not load courses"
 msgstr ""
 
+#: lib/screens/attendance_screen.dart:118 lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr ""
+
 #: lib/screens/data_updates_screen.dart:64
 msgid "Could not load data updates"
 msgstr ""
@@ -360,7 +364,7 @@ msgstr ""
 msgid "Could not load messages"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:49
+#: lib/screens/notifications_screen.dart:56
 msgid "Could not load notifications"
 msgstr ""
 
@@ -392,6 +396,10 @@ msgstr ""
 msgid "Could not load reports"
 msgstr ""
 
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr ""
+
 #: lib/screens/course_class_roster_screen.dart:43
 msgid "Could not load roster"
 msgstr ""
@@ -416,7 +424,7 @@ msgstr ""
 msgid "Could not load staff data"
 msgstr ""
 
-#: lib/screens/student_search_screen.dart:99 lib/screens/students_screen.dart:66
+#: lib/screens/form_group_detail_screen.dart:89 lib/screens/student_search_screen.dart:99 lib/screens/students_screen.dart:66
 msgid "Could not load students"
 msgstr ""
 
@@ -640,7 +648,7 @@ msgstr ""
 msgid "Highlighted in red: marked 'Full' but outside their start/end date range."
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:374 lib/screens/homework_calendar_screen.dart:462 lib/screens/student_attendance_screen.dart:452
+#: lib/screens/homework_calendar_screen.dart:388 lib/screens/homework_calendar_screen.dart:476 lib/screens/student_attendance_screen.dart:452
 msgid "Holiday"
 msgstr ""
 
@@ -648,7 +656,7 @@ msgstr ""
 msgid "Homework Calendar"
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:202 lib/screens/homework_calendar_screen.dart:203 lib/screens/homework_calendar_screen.dart:367
+#: lib/screens/homework_calendar_screen.dart:202 lib/screens/homework_calendar_screen.dart:203 lib/screens/homework_calendar_screen.dart:381
 msgid "Homework due"
 msgstr ""
 
@@ -733,7 +741,7 @@ msgstr ""
 msgid "Manage users and school settings"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:106
+#: lib/screens/notifications_screen.dart:118
 msgid "Mark all read"
 msgstr ""
 
@@ -745,7 +753,7 @@ msgstr ""
 msgid "Mark attendance for today"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:252
+#: lib/screens/notifications_screen.dart:264
 msgid "Mark read"
 msgstr ""
 
@@ -825,7 +833,7 @@ msgstr ""
 msgid "No courses found"
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:325 lib/screens/student_attendance_screen.dart:397
+#: lib/screens/homework_calendar_screen.dart:339 lib/screens/student_attendance_screen.dart:397
 msgid "No data for this term"
 msgstr ""
 
@@ -877,7 +885,7 @@ msgstr ""
 msgid "No matches found"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:124
+#: lib/screens/notifications_screen.dart:136
 msgid "No notifications"
 msgstr ""
 
@@ -1651,7 +1659,7 @@ msgid_plural "{count} staff members"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/students_screen.dart:110
+#: lib/screens/attendance_screen.dart:189 lib/screens/courses_screen.dart:195 lib/screens/form_group_attendance_screen.dart:181
 #. Keep {placeholders} exactly as they are.
 msgid "{count} student"
 msgid_plural "{count} students"
@@ -1665,7 +1673,7 @@ msgid_plural "{count} students enrolled"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/notifications_screen.dart:239
+#: lib/screens/notifications_screen.dart:251
 #. Keep {placeholders} exactly as they are.
 msgid "{count} time"
 msgid_plural "{count} times"
@@ -1679,17 +1687,17 @@ msgid_plural "{count} users"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/notifications_screen.dart:88
+#: lib/screens/notifications_screen.dart:100
 #. Keep {placeholders} exactly as they are.
 msgid "{count}d ago"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:87
+#: lib/screens/notifications_screen.dart:99
 #. Keep {placeholders} exactly as they are.
 msgid "{count}h ago"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:86
+#: lib/screens/notifications_screen.dart:98
 #. Keep {placeholders} exactly as they are.
 msgid "{count}m ago"
 msgstr ""

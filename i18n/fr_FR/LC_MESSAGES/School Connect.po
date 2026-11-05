@@ -311,6 +311,11 @@ msgstr "Impossible de charger le cours"
 msgid "Could not load courses"
 msgstr "Impossible de charger les cours"
 
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Impossible de charger les données"
+
 #: lib/screens/data_updates_screen.dart:64
 msgid "Could not load data updates"
 msgstr "Impossible de charger les mises à jour des données"
@@ -408,7 +413,7 @@ msgstr "Impossible de charger les données médicales"
 msgid "Could not load messages"
 msgstr "Impossible de charger les messages"
 
-#: lib/screens/notifications_screen.dart:49
+#: lib/screens/notifications_screen.dart:56
 msgid "Could not load notifications"
 msgstr "Impossible de charger les notifications"
 
@@ -443,6 +448,10 @@ msgstr "Impossible de charger le bulletin"
 msgid "Could not load reports"
 msgstr "Impossible de charger les bulletins"
 
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Impossible de charger les profils"
+
 #: lib/screens/course_class_roster_screen.dart:43
 msgid "Could not load roster"
 msgstr "Impossible de charger la liste"
@@ -469,6 +478,7 @@ msgstr "Impossible de charger le personnel"
 msgid "Could not load staff data"
 msgstr "Impossible de charger les données du personnel"
 
+#: lib/screens/form_group_detail_screen.dart:89
 #: lib/screens/student_search_screen.dart:99
 #: lib/screens/students_screen.dart:66
 msgid "Could not load students"
@@ -722,8 +732,8 @@ msgstr ""
 "En rouge : marqués « Full » mais en dehors de leurs dates de début et de "
 "fin."
 
-#: lib/screens/homework_calendar_screen.dart:374
-#: lib/screens/homework_calendar_screen.dart:462
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
 #: lib/screens/student_attendance_screen.dart:452
 msgid "Holiday"
 msgstr "Congé"
@@ -734,7 +744,7 @@ msgstr "Calendrier des devoirs"
 
 #: lib/screens/homework_calendar_screen.dart:202
 #: lib/screens/homework_calendar_screen.dart:203
-#: lib/screens/homework_calendar_screen.dart:367
+#: lib/screens/homework_calendar_screen.dart:381
 msgid "Homework due"
 msgstr "Devoirs à remettre"
 
@@ -837,7 +847,7 @@ msgstr "Connecté en tant que"
 msgid "Manage users and school settings"
 msgstr "Gérer les utilisateurs et les paramètres de l’école"
 
-#: lib/screens/notifications_screen.dart:106
+#: lib/screens/notifications_screen.dart:118
 msgid "Mark all read"
 msgstr "Tout marquer comme lu"
 
@@ -849,7 +859,7 @@ msgstr "Marquer comme terminé"
 msgid "Mark attendance for today"
 msgstr "Prendre les présences d’aujourd’hui"
 
-#: lib/screens/notifications_screen.dart:252
+#: lib/screens/notifications_screen.dart:264
 msgid "Mark read"
 msgstr "Marquer comme lu"
 
@@ -940,7 +950,7 @@ msgstr "Aucun cours pour l’instant"
 msgid "No courses found"
 msgstr "Aucun cours trouvé"
 
-#: lib/screens/homework_calendar_screen.dart:325
+#: lib/screens/homework_calendar_screen.dart:339
 #: lib/screens/student_attendance_screen.dart:397
 msgid "No data for this term"
 msgstr "Aucune donnée pour cette étape"
@@ -995,7 +1005,7 @@ msgstr "Aucune entrée dans le carnet de notes pour l’instant"
 msgid "No matches found"
 msgstr "Aucun résultat"
 
-#: lib/screens/notifications_screen.dart:124
+#: lib/screens/notifications_screen.dart:136
 msgid "No notifications"
 msgstr "Aucune notification"
 
@@ -1910,7 +1920,8 @@ msgstr[0] "{count} membre du personnel"
 msgstr[1] "{count} membres du personnel"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/students_screen.dart:110
+#: lib/screens/attendance_screen.dart:189 lib/screens/courses_screen.dart:195
+#: lib/screens/form_group_attendance_screen.dart:181
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} élève"
@@ -1924,7 +1935,7 @@ msgstr[0] "{count} élève inscrit"
 msgstr[1] "{count} élèves inscrits"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:239
+#: lib/screens/notifications_screen.dart:251
 msgid "{count} time"
 msgid_plural "{count} times"
 msgstr[0] "{count} fois"
@@ -1938,23 +1949,48 @@ msgstr[0] "{count} utilisateur"
 msgstr[1] "{count} utilisateurs"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:88
+#: lib/screens/notifications_screen.dart:100
 msgid "{count}d ago"
 msgstr "il y a {count} j"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:87
+#: lib/screens/notifications_screen.dart:99
 msgid "{count}h ago"
 msgstr "il y a {count} h"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:86
+#: lib/screens/notifications_screen.dart:98
 msgid "{count}m ago"
 msgstr "il y a {count} min"
 
 #: lib/screens/course_manage_list_screen.dart:283
 msgid "— None —"
 msgstr "— Aucun —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Présent - En retard"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Présent - À l’extérieur"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Formative"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Sommative"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Non classée"
 
 # Gibbon core string: missing from its file for this language
 msgid "By Form Group"
