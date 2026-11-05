@@ -108,8 +108,8 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // CHANGEDB.php entry.
                           //
                           // 1.16.11: German (de_DE) and Spanish (es_ES) translations of
-                          // the app-only text, for ISU, and Traditional Chinese for Hong
-                          // Kong (zh_HK), for KIS. AI drafts pending review; they
+                          // the app-only text, for ISU, Traditional Chinese for Hong Kong
+                          // (zh_HK), for KIS, and Simplified Chinese (zh_CN). AI drafts pending review; they
                           // follow Gibbon's own de_DE/es_ES vocabulary (e.g.
                           // Formulargruppe, Curso). No code or schema change, so no
                           // CHANGEDB.php entry.
