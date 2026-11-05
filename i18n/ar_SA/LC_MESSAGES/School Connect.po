@@ -921,7 +921,7 @@ msgstr "لا يوجد أطفال مرتبطون بهذا الحساب"
 
 #: lib/screens/class_detail_screen.dart:202
 msgid "No class"
-msgstr "بدون شعبة"
+msgstr "لا حصة"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
 #: lib/screens/courses_screen.dart:172
