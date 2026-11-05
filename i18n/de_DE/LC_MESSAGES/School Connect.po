@@ -71,6 +71,13 @@ msgstr "Alle Arten"
 msgid "All Year Groups"
 msgstr "Alle Jahrgangsstufen"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Die {count} Stunde für heute ist vorbei"
+msgstr[1] "Alle {count} Stunden für heute sind vorbei"
+
 #: lib/screens/user_edit_screen.dart:140
 #: lib/screens/user_password_screen.dart:101
 msgid "An uppercase and a lowercase letter"
@@ -121,7 +128,7 @@ msgstr[1] "Verhaltenseinträge für {count} Schüler/innen gespeichert!"
 msgid "Browse staff profiles"
 msgstr "Profile der Mitarbeiter/innen durchsuchen"
 
-#: lib/screens/attendance_menu_screen.dart:70
+#: lib/screens/attendance_menu_screen.dart:71
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Nach Klasse"
@@ -166,11 +173,11 @@ msgstr "Name in chinesischen oder anderen Schriftzeichen"
 msgid "Choose a class above"
 msgstr "Wählen Sie oben eine Klasse"
 
-#: lib/screens/attendance_menu_screen.dart:82
+#: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
 msgstr "Beliebige Formulargruppe wählen"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
 msgstr "Eine Ihrer Klassen wählen"
 
@@ -178,7 +185,7 @@ msgstr "Eine Ihrer Klassen wählen"
 msgid "Choose at least one student first"
 msgstr "Wählen Sie zuerst mindestens eine/n Schüler/in"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:84
 msgid "Choose one of your Form Groups"
 msgstr "Eine Ihrer Formulargruppen wählen"
 
@@ -315,7 +322,7 @@ msgstr "Kurse konnten nicht geladen werden"
 msgid "Could not load data"
 msgstr "Daten konnten nicht geladen werden"
 
-#: lib/screens/data_updates_screen.dart:64
+#: lib/screens/data_updates_screen.dart:65
 msgid "Could not load data updates"
 msgstr "Datenänderungen konnten nicht geladen werden"
 
@@ -443,7 +450,7 @@ msgstr "Profil konnte nicht geladen werden"
 msgid "Could not load report"
 msgstr "Zeugnis konnte nicht geladen werden"
 
-#: lib/screens/student_reports_screen.dart:54
+#: lib/screens/student_reports_screen.dart:55
 msgid "Could not load reports"
 msgstr "Zeugnisse konnten nicht geladen werden"
 
@@ -535,6 +542,11 @@ msgstr "Speichern nicht möglich"
 #: lib/screens/form_group_attendance_screen.dart:136
 msgid "Could not save attendance"
 msgstr "Anwesenheit konnte nicht gespeichert werden"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Speichern nicht möglich für: {names}"
 
 #: lib/screens/admin_settings_screen.dart:75
 #: lib/screens/admin_settings_screen.dart:85
@@ -818,6 +830,10 @@ msgstr "Letzte 10 Schultage — pro Stunde"
 msgid "Last 20 school days"
 msgstr "Letzte 20 Schultage"
 
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Letzte Stunde des Tages"
+
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
 msgstr "Unterrichtsplanung folgt in Kürze"
@@ -951,7 +967,7 @@ msgstr "Keine Kurse gefunden"
 msgid "No data for this term"
 msgstr "Keine Daten für diesen Zeitraum"
 
-#: lib/screens/data_updates_screen.dart:187
+#: lib/screens/data_updates_screen.dart:188
 msgid "No data updates found"
 msgstr "Keine Datenänderungen gefunden"
 
@@ -1021,7 +1037,7 @@ msgstr "Kein Telefon hinterlegt"
 msgid "No record"
 msgstr "Kein Eintrag"
 
-#: lib/screens/student_reports_screen.dart:81
+#: lib/screens/student_reports_screen.dart:82
 msgid "No reports available yet"
 msgstr "Noch keine Zeugnisse vorhanden"
 
@@ -1090,7 +1106,7 @@ msgstr "Noch in keiner Klasse eingeschrieben"
 msgid "Not reported: update the School Connect module"
 msgstr "Nicht gemeldet: Aktualisieren Sie das School-Connect-Modul"
 
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
 msgstr "Heute noch nicht erfasst"
 
@@ -1220,7 +1236,7 @@ msgstr "Bitte wählen Sie eine Person und eine Rolle"
 msgid "Please select a student"
 msgstr "Bitte wählen Sie eine/n Schüler/in"
 
-#: lib/screens/data_updates_screen.dart:173
+#: lib/screens/data_updates_screen.dart:174
 msgid ""
 "Please take a moment to review the required updates below. Even if nothing "
 "has changed, submitting confirms your data is correct."
@@ -1333,6 +1349,13 @@ msgstr "Listennr."
 #: lib/screens/student_homework_section.dart:158
 msgid "Save failed"
 msgstr "Speichern fehlgeschlagen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Für {count} gespeichert, fehlgeschlagen für: {names}"
+msgstr[1] "Für {count} gespeichert, fehlgeschlagen für: {names}"
 
 #: lib/screens/about_screen.dart:305
 msgid ""
@@ -1486,7 +1509,7 @@ msgstr "Rolle wechseln"
 msgid "Switch School Year"
 msgstr "Schuljahr wechseln"
 
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:62
 msgid "Take attendance for this class"
 msgstr "Anwesenheit für diese Klasse erfassen"
 
@@ -1495,7 +1518,17 @@ msgstr "Anwesenheit für diese Klasse erfassen"
 msgid "Taken"
 msgstr "Erfasst"
 
-#: lib/screens/data_updates_screen.dart:104
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Erfasst um {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "Heute um {time} erfasst. Zum Prüfen oder Ändern tippen"
+
+#: lib/screens/data_updates_screen.dart:105
 msgid "Tap to edit"
 msgstr "Zum Bearbeiten tippen"
 
@@ -1683,7 +1716,7 @@ msgstr "Ganzen Stundenplan ansehen"
 msgid "View Grades"
 msgstr "Noten ansehen"
 
-#: lib/screens/homework_due_dates_card.dart:84
+#: lib/screens/homework_due_dates_card.dart:83
 msgid "View Homework Calendar"
 msgstr "Hausaufgabenkalender ansehen"
 
@@ -1793,7 +1826,7 @@ msgstr ""
 "Sie haben bereits eine Anfrage gesendet, die auf Prüfung durch eine/n "
 "Administrator/in wartet. Sie können unten noch Änderungen vornehmen."
 
-#: lib/screens/data_updates_screen.dart:174
+#: lib/screens/data_updates_screen.dart:175
 msgid "Your data is up to date."
 msgstr "Ihre Daten sind aktuell."
 
@@ -1859,6 +1892,20 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} abwesend von {total} erfassten Stunden"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} abwesend"
+msgstr[1] "{count} abwesend"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} LN"
+msgstr[1] "{count} LN"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/class_markbook_screen.dart:84
 #: lib/screens/student_grades_screen.dart:156
 msgid "{count} assessment"
@@ -1875,6 +1922,20 @@ msgstr[0] "{count} Klasse"
 msgstr[1] "{count} Klassen"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Noch {count} Stunde · {done} vorbei"
+msgstr[1] "Noch {count} Stunden · {done} vorbei"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} Stunde heute"
+msgstr[1] "{count} Stunden heute"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:360
 #: lib/screens/student_attendance_screen.dart:363
 #: lib/screens/student_attendance_screen.dart:367
@@ -1882,6 +1943,13 @@ msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} Tag"
 msgstr[1] "{count} Tage"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} fällig"
+msgstr[1] "{count} fällig"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/facility_list_screen.dart:211
@@ -1896,6 +1964,27 @@ msgid "{count} family"
 msgid_plural "{count} families"
 msgstr[0] "{count} Familie"
 msgstr[1] "{count} Familien"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} Eintrag"
+msgstr[1] "{count} Einträge"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} verspätet"
+msgstr[1] "{count} verspätet"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Danach noch {count} Stunde · {total} heute"
+msgstr[1] "Danach noch {count} Stunden · {total} heute"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:377
