@@ -57,6 +57,9 @@ try {
             'success'       => true,
             'notifications' => $notifications,
             'unreadCount'   => $unreadCount,
+            // Gibbon stores timestamps in the school's time zone; the app
+            // measures notification ages against this, not the phone clock.
+            'serverNow'     => gibbonConnectNow(),
         ]);
         exit;
     }

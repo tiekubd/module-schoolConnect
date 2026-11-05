@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.09"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -96,6 +96,16 @@ $version     = "1.16.09"; // Tracks the Flutter app's marketing version (pubspec
                           // gibbonConnectImpersonation (CHANGEDB 1.16.09); auth.php
                           // never extends impersonation tokens (2 hours). Released
                           // with app 1.16.8.
+                          //
+                          // 1.16.10: Translations for the app (api/i18n.php,
+                          // api/i18n_mo.php): the person's Personal Language or the
+                          // school default, read from Gibbon's own gibbon.mo plus this
+                          // module's i18n/<code>/LC_MESSAGES/School Connect.mo. Module
+                          // languages: French (fr_FR), Brazilian Portuguese (pt_BR), Arabic (ar_SA),
+                          // AI drafts pending review by native speakers at a school
+                          // using each language. i18n/School Connect.pot is the
+                          // template for further languages. No schema change, so no
+                          // CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
