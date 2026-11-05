@@ -1603,6 +1603,13 @@ msgstr ""
 msgid "{absent} absent of {total} sessions recorded"
 msgstr ""
 
+#: lib/screens/class_markbook_screen.dart:84 lib/screens/student_grades_screen.dart:156
+#. Keep {placeholders} exactly as they are.
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] ""
+msgstr[1] ""
+
 #: lib/screens/course_manage_list_screen.dart:143 lib/screens/master_timetable_screen.dart:278
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class"
@@ -1659,7 +1666,7 @@ msgid_plural "{count} staff members"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/attendance_screen.dart:189 lib/screens/courses_screen.dart:195 lib/screens/form_group_attendance_screen.dart:181
+#: lib/screens/attendance_screen.dart:189 lib/screens/class_markbook_screen.dart:84 lib/screens/courses_screen.dart:195
 #. Keep {placeholders} exactly as they are.
 msgid "{count} student"
 msgid_plural "{count} students"
