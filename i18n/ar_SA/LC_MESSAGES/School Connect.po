@@ -2144,6 +2144,11 @@ msgstr "منذ {count} س"
 msgid "{count}m ago"
 msgstr "منذ {count} د"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
 #: lib/screens/course_manage_list_screen.dart:283
 msgid "— None —"
 msgstr "— لا شيء —"

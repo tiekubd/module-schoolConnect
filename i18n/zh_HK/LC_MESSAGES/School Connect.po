@@ -1949,6 +1949,11 @@ msgstr "{count} 小時前"
 msgid "{count}m ago"
 msgstr "{count} 分鐘前"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}："
+
 #: lib/screens/course_manage_list_screen.dart:283
 msgid "— None —"
 msgstr "— 無 —"
