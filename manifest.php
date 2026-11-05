@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -105,6 +105,12 @@ $version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec
                           // AI drafts pending review by native speakers at a school
                           // using each language. i18n/School Connect.pot is the
                           // template for further languages. No schema change, so no
+                          // CHANGEDB.php entry.
+                          //
+                          // 1.16.11: German (de_DE) and Spanish (es_ES) translations of
+                          // the app-only text, for ISU. AI drafts pending review; they
+                          // follow Gibbon's own de_DE/es_ES vocabulary (e.g.
+                          // Formulargruppe, Curso). No code or schema change, so no
                           // CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

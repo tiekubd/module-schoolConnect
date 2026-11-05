@@ -753,7 +753,7 @@ msgstr ""
 msgid "Mark attendance for today"
 msgstr ""
 
-#: lib/screens/notifications_screen.dart:264
+#: lib/screens/notifications_screen.dart:266
 msgid "Mark read"
 msgstr ""
 
@@ -1680,7 +1680,7 @@ msgid_plural "{count} students enrolled"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/notifications_screen.dart:251
+#: lib/screens/notifications_screen.dart:253
 #. Keep {placeholders} exactly as they are.
 msgid "{count} time"
 msgid_plural "{count} times"
