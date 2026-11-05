@@ -859,7 +859,7 @@ msgstr "Marquer comme terminé"
 msgid "Mark attendance for today"
 msgstr "Prendre les présences d’aujourd’hui"
 
-#: lib/screens/notifications_screen.dart:264
+#: lib/screens/notifications_screen.dart:266
 msgid "Mark read"
 msgstr "Marquer comme lu"
 
@@ -1839,6 +1839,10 @@ msgstr "Votre session passera à {name} ({role})."
 msgid "a previous year"
 msgstr "une année précédente"
 
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "une app pour Gibbon™"
+
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
 #: lib/screens/log_behaviour_screen.dart:375
@@ -1944,7 +1948,7 @@ msgstr[0] "{count} élève inscrit"
 msgstr[1] "{count} élèves inscrits"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:251
+#: lib/screens/notifications_screen.dart:253
 msgid "{count} time"
 msgid_plural "{count} times"
 msgstr[0] "{count} fois"

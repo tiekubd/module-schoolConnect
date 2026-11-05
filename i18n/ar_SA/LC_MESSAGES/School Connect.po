@@ -859,7 +859,7 @@ msgstr "تحديد كمكتمل"
 msgid "Mark attendance for today"
 msgstr "تسجيل حضور اليوم"
 
-#: lib/screens/notifications_screen.dart:264
+#: lib/screens/notifications_screen.dart:266
 msgid "Mark read"
 msgstr "تحديد كمقروء"
 
@@ -1826,6 +1826,10 @@ msgstr "سيتم تبديل جلستك إلى {name} ({role})."
 msgid "a previous year"
 msgstr "سنة سابقة"
 
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "تطبيق لنظام Gibbon™"
+
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
 #: lib/screens/log_behaviour_screen.dart:375
@@ -1975,7 +1979,7 @@ msgstr[4] "{count} طالبًا مسجلًا"
 msgstr[5] "{count} طالب مسجل"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:251
+#: lib/screens/notifications_screen.dart:253
 msgid "{count} time"
 msgid_plural "{count} times"
 msgstr[0] "{count} مرة"

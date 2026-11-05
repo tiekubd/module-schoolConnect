@@ -1834,6 +1834,10 @@ msgstr "Ihre Sitzung wird zu {name} ({role}) gewechselt."
 msgid "a previous year"
 msgstr "ein früheres Jahr"
 
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "eine App für Gibbon™"
+
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
 #: lib/screens/log_behaviour_screen.dart:375
