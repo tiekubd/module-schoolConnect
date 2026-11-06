@@ -2223,6 +2223,10 @@ msgid "Address Name"
 msgstr "Adresnaam"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Systeembeheer"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Roles"
 msgstr "Alle rollen"
 
