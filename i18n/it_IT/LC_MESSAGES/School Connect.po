@@ -2960,3 +2960,43 @@ msgstr "Uscito"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left - Early"
 msgstr "Uscito - In Anticipo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "Genitore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "Personale di Supporto"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Studente - Uscito"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Insegnante - Uscito"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Monday"
+msgstr "Lunedì"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tuesday"
+msgstr "Martedì"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thursday"
+msgstr "Giovedì"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Friday"
+msgstr "Venerdì"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "Finanze"

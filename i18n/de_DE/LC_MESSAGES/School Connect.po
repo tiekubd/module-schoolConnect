@@ -2675,3 +2675,11 @@ msgstr ""
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left"
 msgstr "Gegangen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Schüler/in - Gegangen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Lehrer/in - Gegangen"

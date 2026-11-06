@@ -2233,6 +2233,10 @@ msgstr "查看成績報告"
 msgid "Your active session will be switched to the selected user."
 msgstr "你目前的工作階段將切換至所選用戶。"
 
+# Gibbon core string: missing from its file for this language
+msgid "Tracking"
+msgstr "追蹤"
+
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"
 msgstr "存取家庭子女的資料？"
@@ -2816,3 +2820,23 @@ msgstr "離校"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left - Early"
 msgstr "早退"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "星期日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "學生 - 已離校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "老師 - 已離校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "正式"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Admin"
+msgstr "學校管理"

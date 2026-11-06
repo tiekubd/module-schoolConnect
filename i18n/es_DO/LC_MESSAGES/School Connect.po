@@ -2733,3 +2733,11 @@ msgid ""
 "role:"
 msgstr ""
 "Tiene varios roles en el sistema. Use la lista de abajo para cambiar de rol:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "Mié"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "Administrar usuarios"

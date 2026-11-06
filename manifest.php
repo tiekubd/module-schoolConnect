@@ -133,7 +133,10 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // the app refetches when a file changes): Gibbon's default
                           // attendance code names corrected where Gibbon's files are wrong
                           // (ja_JP 左 for Left, it_IT Manca, de_DE Verlassen...), and Polish
-                          // (pl_PL) added, an AI draft pending review.
+                          // (pl_PL) added, an AI draft pending review. Also corrected: other
+                          // database values the app translates (day names, e.g. ja_JP 太陽 for
+                          // Sun; role names, e.g. it_IT Parente for Parent; class roles such as
+                          // "Student - Left"; user status filters; module names in notifications).
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

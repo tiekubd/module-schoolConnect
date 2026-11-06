@@ -2975,3 +2975,51 @@ msgstr "退出"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left - Early"
 msgstr "退出 - 早退"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "月"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "火"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "金"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "生徒 - 退出"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "先生 - 退出"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "在籍"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "入学予定"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Technician"
+msgstr "技術職員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "財務"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "入学手続き"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable Admin"
+msgstr "時間割管理"

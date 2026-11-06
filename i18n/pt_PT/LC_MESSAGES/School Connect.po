@@ -2543,6 +2543,26 @@ msgstr "Saiu"
 msgid "Left - Early"
 msgstr "Saiu mais cedo"
 
+# Gibbon core string: missing from its file for this language
+msgid "Student - Left"
+msgstr "Estudante - Saiu"
+
+# Gibbon core string: missing from its file for this language
+msgid "Full"
+msgstr "Completo"
+
+# Gibbon core string: missing from its file for this language
+msgid "Admissions"
+msgstr "Admissões"
+
+# Gibbon core string: missing from its file for this language
+msgid "Finance"
+msgstr "Finanças"
+
+# Gibbon core string: missing from its file for this language
+msgid "Messenger"
+msgstr "Mensagens"
+
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Form Group"
 msgstr "Turma"
@@ -2829,3 +2849,11 @@ msgstr "Atualizar Dados do Colaborador"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Website"
 msgstr "Site"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Docente - Saiu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "Administração de Utilizadores"

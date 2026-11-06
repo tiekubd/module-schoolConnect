@@ -2671,3 +2671,11 @@ msgstr "Vous n’avez pas accès à cette action."
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left"
 msgstr "Parti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "Attendu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Grilles d'évaluation"

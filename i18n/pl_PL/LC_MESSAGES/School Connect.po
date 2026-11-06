@@ -2538,6 +2538,10 @@ msgid "Ethnicity"
 msgstr "Pochodzenie etniczne"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "Oczekiwany"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Family name as shown in ID documents."
 msgstr "Nazwisko jak w dokumencie tożsamości."
 
@@ -2560,6 +2564,10 @@ msgstr "Dalsze działania"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Force Reset Password?"
 msgstr "Wymusić zmianę hasła?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Aktywny"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Full name as shown in ID documents."
@@ -2921,6 +2929,10 @@ msgid "Status"
 msgstr "Status"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Uczeń - wypisany"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student Agreements"
 msgstr "Umowy z uczniem"
 
@@ -2951,6 +2963,10 @@ msgstr "Przełącz"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Take Attendance"
 msgstr "Sprawdź obecność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Nauczyciel - wypisany"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teaching"
