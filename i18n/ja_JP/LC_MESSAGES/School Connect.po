@@ -2717,10 +2717,6 @@ msgid "Preferred Name"
 msgstr "呼び名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Present"
-msgstr "出席"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Previous"
 msgstr "前へ"
 
@@ -2967,3 +2963,15 @@ msgstr "システム内で複数の役割があります。下の一覧から役
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "students"
 msgstr "生徒"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "出席"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "退出"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "退出 - 早退"

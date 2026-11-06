@@ -2551,3 +2551,7 @@ msgstr "الإصدار"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "View Reports"
 msgstr "عرض التقارير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "غادر - مبكرًا"

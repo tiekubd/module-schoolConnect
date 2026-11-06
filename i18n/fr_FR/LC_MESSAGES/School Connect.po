@@ -2667,3 +2667,7 @@ msgstr "Travail"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "You do not have access to this action."
 msgstr "Vous n’avez pas accès à cette action."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Parti"

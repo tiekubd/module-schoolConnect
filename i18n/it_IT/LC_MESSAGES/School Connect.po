@@ -2952,3 +2952,11 @@ msgid ""
 "You have multiple roles within the system. Use the list below to switch "
 "role:"
 msgstr "Hai più ruoli nel sistema. Usa l'elenco qui sotto per cambiare ruolo:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Uscito"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Uscito - In Anticipo"
