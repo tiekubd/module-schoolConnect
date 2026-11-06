@@ -1,0 +1,3153 @@
+# School Connect: Hebrew (he_IL) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Hebrew-speaking school before release.
+# Vocabulary follows Gibbon core's he_IL file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "סימן פיסוק או רווח"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"אסימון התחברות, השמור באחסון המאובטח של המכשיר (iOS Keychain או Android "
+"Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "אודות ופרטיות"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "הוספת עוד"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "הוספת משתתף"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "להוסיף שיעורי בית?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "הוספה, עריכה והסרה של ימי סגירה"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "הוספה, עריכה והסרה של חשבונות משתמש"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "קובע את סדר המקצועות בתעודות."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "הגדרות המבוגר עודכנו"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "כל הסוגים"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "כל השכבות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "השיעור של היום הסתיים"
+msgstr[1] "כל {count} השיעורים של היום הסתיימו"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "אות גדולה ואות קטנה"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "גרסת האפליקציה, בית הספר המחובר והנתונים שלך"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "הערכות"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "לפחות ספרה אחת"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "לפחות תו אחד"
+msgstr[1] "לפחות {count} תווים"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "נוכחות השנה"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "הנוכחות עדיין לא נבדקה היום"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "רישום ההתנהגות נשמר!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "רישום ההתנהגות נשמר לתלמיד אחד!"
+msgstr[1] "רישומי ההתנהגות נשמרו ל-{count} תלמידים!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "עיון בפרופילים של אנשי הצוות"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "לפי קבוצת לימוד"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "לפי תאריך"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"מצלמה ותמונות: רק כשבוחרים לצרף תמונה לבקשת עדכון נתונים. האפליקציה מבקשת "
+"רשות קודם, ואפשר לסרב."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "לבטל הזמנות?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "לבטל שיעורים?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "לבטל תורנויות צוות?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "ביטול מצב רפואי חדש"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "קיבולת"
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "שם בסינית או בכתב סימנים אחר"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "יש לבחור קבוצת לימוד למעלה"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "בחירת כיתת אם כלשהי"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "בחירת אחת מקבוצות הלימוד שלך"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "יש לבחור קודם לפחות תלמיד אחד"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "בחירת אחת מכיתות האם שלך"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "היעדרויות משיעורים"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "רישום לקבוצות לימוד"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "רשימת תלמידים"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr "יש ללחוץ על \"עדכון\" ליד School Connect בניהול מערכת > ניהול מודולים."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "נסגר ב-"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"השם המקוצר המשולב \"{name}\" ארוך מ-16 תווים — הדבר עלול לגרום לבעיות תצוגה "
+"במערכת השעות וברשימות הנפתחות."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "השם המקוצר המשולב ארוך מ-16 תווים"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "כתובות דוא\"ל מופרדות בפסיקים"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "אימות סיסמה *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "בית ספר מחובר"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "מתחבר..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "פרטי קשר"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "איש קשר {number} — אין פרטים"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"תוכן בשיעורים: סרטונים או תמונות שמורה מוסיף (למשל מ-YouTube) נטענים מאותם "
+"אתרים כשפותחים אותם"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "קביעה מה כולם רואים באפליקציה"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "לא ניתן להוסיף"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "לא ניתן להוסיף מבוגר"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "לא ניתן להוסיף ילד"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "לא ניתן למחוק את המשתמש"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "לא ניתן להוריד את התעודה"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "לא ניתן ליצור שם משתמש"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "לא ניתן לטעון את כיתות האם"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "לא ניתן לטעון את הפעילויות"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "לא ניתן לטעון את הנוכחות"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "לא ניתן לטעון את הילדים"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "לא ניתן לטעון את קבוצות הלימוד"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "לא ניתן לטעון את המקצוע"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "לא ניתן לטעון את המקצועות"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "לא ניתן לטעון את הנתונים"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "לא ניתן לטעון את עדכוני הנתונים"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "לא ניתן לטעון את ימי השבוע"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "לא ניתן לטעון את אנשי הקשר לחירום"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "לא ניתן לטעון את הרישום"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "לא ניתן לטעון את הרישומים"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "לא ניתן לטעון את החדרים"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "לא ניתן לטעון את המשפחות"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "לא ניתן לטעון את המשפחה"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "לא ניתן לטעון את נתוני המשפחה"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "לא ניתן לטעון את הנתונים הכספיים"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "לא ניתן לטעון את הטופס"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "לא ניתן לטעון את נתוני הטופס"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "לא ניתן לטעון את הציונים"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "לא ניתן לטעון את שיעורי הבית"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "לא ניתן לטעון את לוח שיעורי הבית"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "לא ניתן לטעון את החשבונית"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "לא ניתן לטעון את החשבוניות"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "לא ניתן לטעון את השיעור"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "לא ניתן לטעון את השיעורים"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "לא ניתן לטעון את יומן הציונים"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "לא ניתן לטעון את מערכת השעות הכללית"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "לא ניתן לטעון את הנתונים הרפואיים"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "לא ניתן לטעון את ההודעות"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "לא ניתן לטעון את ההתראות"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "לא ניתן לטעון את מדיניות הסיסמאות"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "לא ניתן לטעון את האנשים"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "לא ניתן לטעון את הנתונים האישיים"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "לא ניתן לטעון את המידע האישי"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "לא ניתן לטעון את הפרופיל"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "לא ניתן לטעון את התעודה"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "לא ניתן לטעון את התעודות"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "לא ניתן לטעון את התפקידים"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "לא ניתן לטעון את רשימת התלמידים"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "לא ניתן לטעון את שנות הלימודים"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "לא ניתן לטעון את ההגדרות"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "לא ניתן לטעון את היום המיוחד"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "לא ניתן לטעון את הצוות"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "לא ניתן לטעון את נתוני איש הצוות"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "לא ניתן לטעון את התלמידים"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "לא ניתן לטעון את המחציות"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "לא ניתן לטעון את מערכת השעות"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "לא ניתן לטעון את מערכות השעות"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "לא ניתן לטעון את המשתמש"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "לא ניתן לטעון את המשתמשים"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "לא ניתן לטעון את הילדים שלך"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "לא ניתן לפתוח את דף התשלום"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "לא ניתן לפתוח את שיחת הווידאו"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "לא ניתן להסיר"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "לא ניתן לאפס את הסיסמה"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "לא ניתן לשמור"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "לא ניתן לשמור את הנוכחות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "לא ניתן לשמור עבור: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "לא ניתן לשמור את ההגדרה"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "לא ניתן לשמור את המשתמש"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "לא ניתן להתחבר בתור משתמש זה"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "לא ניתן לשלוח את העדכון"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "לא ניתן להחליף תפקיד"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "לא ניתן להחליף שנת לימודים"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "לא ניתן לעדכן"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "ארץ מוצא"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "עדיפות בהחלפות"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "יצירת רשומת איש צוות מקושרת"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "יצירת רישום תלמיד מקושר"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "השנה הנוכחית"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "לוח בקרה"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "יום היעדרות"
+msgstr[1] "ימי היעדרות"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "יום נוכחות"
+msgstr[1] "ימי נוכחות"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "מחיקת קבוצת לימוד"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "מחיקת מקצוע"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "מחיקת יום מיוחד"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "מחיקת משתמש"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "פותח על ידי High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "סיום"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "מועד הגשה"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "חובה למלא מועד הגשה ופרטים."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "ניתן לעריכה"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "דוא\"ל: חייב להיות ייחודי"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "שכבות שניתן לרשום אליהן"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "רישום תלמידים קיימים לשנת הלימודים הנוכחית"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "שם משפחה כפי שמופיע בתעודה מזהה"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "יש למלא קודם שם פרטי, שם משפחה, שם מועדף ותפקיד ראשי"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "סינון לפי שכבה"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "שם פרטי *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "שם פרטי כפי שמופיע בתעודה מזהה"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "כיתת אם *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "פנייה רשמית להורים"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "שם מלא כפי שמופיע בתעודה מזהה"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "ספק תשלומים"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "מגדר *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ הוא סימן מסחרי של Gibbon Education Ltd. (הונג קונג), בשימוש באישור."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "התחברות עם Google, רק אם בית הספר שלך משתמש בה ובחרת בה"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "ציונים"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "מספרים גבוהים יותר מקדמים את איש הצוות בסדר בתוך הקבוצה שלו."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr "מסומן באדום: מוגדר \"פעיל\" אך מחוץ לטווח תאריכי ההתחלה והסיום."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "חופשה"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "לוח שיעורי בית"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "מועד הגשת שיעורי בית"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "שיעורי הבית הוסרו."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "שיעורי הבית נשמרו."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"בבחירה ב\"משפחה\", חשבוניות עתידיות יישלחו לפי העדפות הקשר של המשפחה. בבחירה"
+" ב\"חברה\", אפשר לקבוע אם החברה שצוינה תכסה את כל התשלומים או רק חלק מהם."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "התחברות בתור"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"האפשרות \"התחברות בתור משתמש\" דורשת את מודול School Connect בגרסה 1.16.09 "
+"ומעלה בשרת בית הספר."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "הגרסה המותקנת היא {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"זה מסתיים לאחר שעתיים. כדי לחזור מוקדם יותר, יש ללחוץ על \"חזרה לחשבון שלי\""
+" בראש המסך."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "הצטרפות לשיעור מקוון"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "הכפתור \"הצטרפות לשיעור מקוון\" מוסתר בכל מקום"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "הכפתור \"הצטרפות לשיעור מקוון\" מוצג במערכת השעות ובמתכנן השיעורים"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "10 ימי הלימודים האחרונים"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "10 ימי הלימודים האחרונים — לפי שיעור"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "20 ימי הלימודים האחרונים"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "השיעור האחרון היום"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "תכנון שיעורים יגיע בקרוב"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "בדיקת רישיון"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "קישור אנשים בתפקיד צוות לרשומת איש הצוות שלהם"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "רישום התנהגות"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "מחובר בתור"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "ניהול משתמשים והגדרות בית הספר"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "סימון הכול כנקרא"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "סימון כהושלם"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "בדיקת נוכחות להיום"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "סימון כנקרא"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "מערכת שעות כללית"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "אם מוגדר, חייב להיות ייחודי"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "כיתות האם שלי"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "חובה למלא שם ושם מקוצר"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "לא נמצאו כיתות אם"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "ללא תחום דעת"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "אין פעילויות"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "אין מבוגרים מקושרים"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"ללא פרסומות, ללא ניתוח נתונים, ללא מעקב, ללא דיווחי קריסה וללא שירותי התראות"
+" פוש. האפליקציה לעולם לא מוכרת או משתפת את הנתונים שלך."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "לא נמצאו ילדים"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "אין ילדים מקושרים"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "אין ילדים המקושרים לחשבון זה"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "אין שיעור"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "לא נמצאו קבוצות לימוד"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "אין שיעורים בחדר זה היום"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "אין שיעורים מתוכננים"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "אין שיעורים מתוכננים להיום"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "עדיין אין קבוצות לימוד"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "לא נמצאו מקצועות"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "אין נתונים למחצית זו"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "לא נמצאו עדכוני נתונים"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "ללא צוות מקצועי"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "לא נמצאו חדרים"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "לא נמצאו משפחות"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "אין בני משפחה רשומים"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "לא נמצאה רשומת משפחה"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "אין ציונים"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "אין היסטוריה"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "אין שיעורי בית רשומים."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "אין חשבוניות להצגה"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "עדיין אין רשומות ביומן הציונים"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "לא נמצאו התאמות"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "אין התראות"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "עדיין אין משתתפים"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "לא נמצאו אנשים"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "אין מספר טלפון"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "אין רשומה"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "עדיין אין תעודות"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "אין ימי לימודים השבוע"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "לא נמצאו אנשי צוות"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "אין תלמידים רשומים השנה"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "לא נמצאו תלמידים"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "לא נמצאו מחציות לשנת לימודים זו"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "לא נמצאו נתוני מערכת שעות"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "אין מערכת שעות ליום זה"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "אין מערכת שעות להיום"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "לא נמצאו משתמשים"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "משתתפים שאינם מדווחים לא יוצגו בתעודות."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "יום ללא לימודים"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "אין לימודים"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "לא רשום כרגע"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "עדיין לא רשום לאף קבוצת לימוד"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "אין נתונים: יש לעדכן את מודול School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "עדיין לא נבדק היום"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"עדיין לא זמין כאן — רישום כאן לא מוסיף מקצועות אוטומטית. במידת הצורך, יש "
+"להשלים את הרישום למקצועות באתר."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "אין דבר מתוכנן"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "עכשיו"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "שם רשמי מלא *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"פעם ביום, שרת בית הספר שלך מוסר ל-High Point רק את כתובת האתר שלו, כדי לאמת "
+"את המנוי של בית הספר. לא נשלח שום מידע אישי."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr "כולל רק אנשים בתפקיד צוות שעדיין אין להם רשומת איש צוות."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "כולל רק תלמידים שאינם רשומים לשנת לימודים זו."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "נפתח ב-"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "שירותים נוספים שעשויים להופיע"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "סיסמה *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "יש למלא סיסמה זהה בשני השדות"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "הסיסמה אופסה בהצלחה"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "הסיסמאות אינן תואמות"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "יש למלא סיסמאות זהות"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "מחיקה לצמיתות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "למחוק לצמיתות את \"{name}\" ואת כל קבוצות הלימוד שלו?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "אדם *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "יש להזין סוג איש צוות"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr "יש למלא את כל שדות החובה (שם, שם רשמי מלא, מגדר, תפקיד, שם משתמש)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "יש לבחור סוג"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "יש לבחור שכבה וכיתת אם"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "יש לבחור קבוצת לימוד ותפקיד"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "יש לבחור אדם"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "יש לבחור אדם ותפקיד"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "יש לבחור תלמיד"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"נא להקדיש רגע לעיון בעדכונים הנדרשים שלהלן. גם אם דבר לא השתנה, השליחה מאשרת"
+" שהנתונים שלך נכונים."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "מבוסס על Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "שם מועדף *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "תפקיד ראשי *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "אנשי קשר בעדיפות 1 מקבלים תמיד את כל סוגי הפניות."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "מוסמך"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "גישה מהירה"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "קריאת מדיניות הפרטיות המלאה"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "מספר אישור"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "נוכחות אחרונה"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "להסיר את \"{name}\" מלוח השנה?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "הסרת מבוגר"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "הסרת ילד"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "הסרת קבוצת לימוד"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "הסרת רישום"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "הסרת רשומת איש צוות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "להסיר את הרישום ל-{class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "הסרה מקבוצת הלימוד"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "להסיר את {name} מהצוות?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "להסיר את {name} מקבוצת לימוד זו?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "להסיר את {name} ממשפחה זו?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "תעודות בקובצי PDF, רק בזמן הצפייה או השיתוף"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "חזרה לחשבון שלי"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "תפקיד: יכול להתחבר"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "מס'"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "השמירה נכשלה"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "נשמר לאדם אחד, אך נכשל עבור: {names}"
+msgstr[1] "נשמר ל-{count}, אך נכשל עבור: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect היא אפליקציה של צד שלישי התואמת ל-Gibbon, פלטפורמה חינמית "
+"בקוד פתוח לניהול בתי ספר. היא אינה גרסה רשמית של Gibbon Foundation, ואינה "
+"קשורה אליה או מאושרת על ידה."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "מודול School Connect בשרת בית הספר"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect מציגה מידע ממערכת Gibbon של בית הספר שלך: מערכת שעות, נוכחות,"
+" ציונים, שיעורי בית, תעודות, הודעות ופרטי המשפחה. האפליקציה מתחברת ישירות "
+"ורק לשרת Gibbon של בית הספר שלך בחיבור מוצפן (HTTPS). High Point Education "
+"אינה מקבלת, שומרת או רואה מידע זה."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"שעות הפתיחה, תחילת הלימודים, סיומם והסגירה של בית הספר לא נקבעות כאן — יש "
+"להשלים פרטים אלה באתר."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "חיפוש וצפייה בפרופילים של תלמידים"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "חיפוש לפי שם מקצוע..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "חיפוש לפי שם מקצוע או קבוצת לימוד..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "חיפוש לפי שם משפחה..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "חיפוש לפי שם או ראשי תיבות..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "חיפוש לפי שם או מספר תלמיד..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "חיפוש לפי שם או שם משתמש..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "חיפוש לפי שם, שם משתמש, דוא\"ל, מספר תלמיד..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "חיפוש קבוצות לימוד..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "חיפוש חדרים..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "חיפוש תלמידים..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "בחירת תלמיד"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "שיעורים שסומנו השנה כהיעדרות"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "שיתוף"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"התנתקות מוחקת את אסימון ההתחברות, את שם המשתמש שלך ואת התעודות שהורדו. הסרת "
+"האפליקציה מוחקת את כל השאר."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "פרופיל איש צוות"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "סוג איש צוות *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "רשומת איש הצוות נוצרה"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "תלמיד *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "רשימת תלמידים"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "התלמיד נרשם בהצלחה"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "נשלח"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "שם משפחה *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "החלפת תפקיד"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "החלפת שנת לימודים"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "בדיקת נוכחות בקבוצת לימוד זו"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "נבדק"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "נבדק ב-{time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "נבדק היום ב-{time}. הקשה לצפייה או לשינוי"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "הקשה לעריכה"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr "ההתחברות בתור משתמש אחר הסתיימה לאחר שעתיים. חזרת לחשבון שלך."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "הסדר שבו בית הספר צריך לפנות לבני המשפחה."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "חשבון המשתמש שלו לא מושפע."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "אין הודעות להצגה."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "הדבר משפיע על מערכת השעות:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"פעולה זו מסירה גם את כל נתוני הרישום ומערכת השעות של קבוצות לימוד אלה. לא "
+"ניתן לבטל אותה."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "לא ניתן לבטל פעולה זו."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"קבוצת לימוד זו לא מתוכננת ל-{date}. במידת הצורך עדיין אפשר לשמור נוכחות."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "פעולה זו לא מוחקת את חשבון המשתמש שלו."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"אפשרות זו מאפשרת למנהלי מערכת להתחבר בתור חשבון אחר במערכת לצורך פתרון בעיות"
+" ובדיקות. המשתמש שנבחר עדיין יוכל להתחבר לחשבונו ולהתנתק ממנו."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"פעולה זו מסירה את כל נתוני הרישום ומערכת השעות של קבוצת לימוד זו. לא ניתן "
+"לבטל אותה."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "מערכת שעות לפי חדר"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "מערכת השעות להיום"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "גישת ניסיון"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "תקופת ניסיון — נותר יום אחד"
+msgstr[1] "תקופת ניסיון — נותרו {count} ימים"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "פתרון בעיות על ידי צפייה באפליקציה בתור משתמש אחר"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "מחנך/ת 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "סוג *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "חובה למלא סוג ושם"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "יש להקליד לפחות 2 תווים"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "סוג, קידומת מדינה, מספר"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "לבטל את הרישום של {name} לשנת לימודים זו?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "שנה לא ידועה"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "לא בשימוש"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "משמש לקיבוץ אנשי צוות במדריך הצוות."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "המשתמש נוצר בהצלחה"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "המשתמש עודכן בהצלחה"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "משתמש: יכול להתחבר"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "משתמש: התחברויות שנכשלו"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "משתמש: סטטוס"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "שם משתמש *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "שם המשתמש כבר תפוס"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "שם המשתמש פנוי"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"שיעורי וידאו: שיעורים מקוונים משתמשים בשירות הווידאו שבית הספר בחר (כברירת "
+"מחדל, שירות Jitsi Meet הציבורי)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "צפייה בנוכחות"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "צפייה במערכת השעות המלאה"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "צפייה בציונים"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "צפייה בלוח שיעורי הבית"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "צפייה במערכת השעות"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "צפייה בכיתות האם וניהולן"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "צפייה בציוני קבוצת הלימוד"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "צפייה במשפחות, באנשי קשר ובילדים"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "צפייה בתוכניות השיעור של קבוצת לימוד זו"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "צפייה בתלמידי קבוצת לימוד זו"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "צפייה בציונים שלך"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "צפייה בתעודות שלך"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "צפייה בתור {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "כיתה מקוונת"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "שלום, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "מה האפליקציה לא עושה"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "מה האפליקציה שומרת במכשיר זה"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "שכבה *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"בחירת השכבות וכיתות האם לא נקבעת כאן — עד שתושלם באתר, השינוי יחול על כולם."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "חזרת לחשבון שלך."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"מוצגת שנת הלימודים {year}, שאינה השנה הנוכחית. ייתכן שהנתונים לא ייראו "
+"מדויקים (למשל, תלמידים שעזבו את בית הספר לא יופיעו בשנים קודמות)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "בחלק זה אפשר לרשום שיעורי בית בעצמך."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"כבר נשלחה בקשה, והיא ממתינה לבדיקה של מנהל מערכת. עדיין אפשר לבצע שינויים "
+"למטה, אך הנתונים יופיעו במערכת רק לאחר הטיפול בבקשה."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"כבר נשלחה בקשה, והיא ממתינה לבדיקה של מנהל מערכת. עדיין אפשר לבצע שינויים "
+"למטה."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "הנתונים שלך מעודכנים."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "הנתונים שלך נשארים בבית הספר"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"שם המשתמש האחרון ושלוש כתובות בתי הספר האחרונות שבהן השתמשת, כדי שלא יהיה "
+"צורך להקליד אותן שוב"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "הזכויות שלך ושאלות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"בית הספר אחראי למידע האישי שלך ב-Gibbon. כדי לצפות בו, לתקן או למחוק אותו, "
+"יש לפנות לממונה על הגנת המידע בבית הספר. לשאלות על האפליקציה עצמה: {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "ההפעלה שלך תועבר אל {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "שנה קודמת"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "אפליקציה ל-Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "אופציונלי"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "ראשי"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "עד {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} היעדרויות מתוך {total} שיעורים שנרשמו"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} נעדר"
+msgstr[1] "{count} נעדרים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} הערכה"
+msgstr[1] "{count} הערכות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} הערכה"
+msgstr[1] "{count} הערכות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "קבוצת לימוד אחת"
+msgstr[1] "{count} קבוצות לימוד"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "נותר שיעור אחד · הסתיימו: {done}"
+msgstr[1] "נותרו {count} שיעורים · הסתיימו: {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "שיעור אחד היום"
+msgstr[1] "{count} שיעורים היום"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "יום אחד"
+msgstr[1] "{count} ימים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} להגשה"
+msgstr[1] "{count} להגשה"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "חדר אחד"
+msgstr[1] "{count} חדרים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "משפחה אחת"
+msgstr[1] "{count} משפחות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "פריט אחד"
+msgstr[1] "{count} פריטים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} מאחר"
+msgstr[1] "{count} מאחרים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "עוד שיעור אחד אחרי זה · {total} היום"
+msgstr[1] "עוד {count} שיעורים אחרי זה · {total} היום"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "יום לימודים אחד במחצית"
+msgstr[1] "{count} ימי לימודים במחצית"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "יום לימודים אחד בשנת הלימודים"
+msgstr[1] "{count} ימי לימודים בשנת הלימודים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "שיעור אחד"
+msgstr[1] "{count} שיעורים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "איש צוות אחד"
+msgstr[1] "{count} אנשי צוות"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "תלמיד אחד"
+msgstr[1] "{count} תלמידים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "תלמיד אחד רשום"
+msgstr[1] "{count} תלמידים רשומים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "פעם אחת"
+msgstr[1] "{count} פעמים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "משתמש אחד"
+msgstr[1] "{count} משתמשים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "לפני {count} ימים"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "לפני {count} שע׳"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "לפני {count} דק׳"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— אין —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "נוכחות - איחור"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "נוכחות - מחוץ לבית הספר"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "מעצבת"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "מסכמת"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "לא מסווג"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "לפי כיתת אם"
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "מקצוע"
+
+# Gibbon core string: missing from its file for this language
+msgid "Days of the Week"
+msgstr "ימי השבוע"
+
+# Gibbon core string: missing from its file for this language
+msgid "Edit Enrolment"
+msgstr "עריכת רישום"
+
+# Gibbon core string: missing from its file for this language
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr "ממלאי מקום בעדיפות גבוהה יותר מופיעים ראשונים בשיבוץ החלפות."
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "שיעורי בית ומועדי הגשה"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "התחברות בתור משתמש"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "שכבות תצוגה"
+
+# Gibbon core string: missing from its file for this language
+msgid "Login Troubleshooting"
+msgstr "פתרון בעיות התחברות"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "כיתת האם שלי"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "אין מועדי הגשה קרובים!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "לא מדווח"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Taken"
+msgstr "לא נבדק"
+
+# Gibbon core string: missing from its file for this language
+msgid "Report"
+msgstr "תעודה"
+
+# Gibbon core string: missing from its file for this language
+msgid "Save"
+msgstr "שמירה"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "האם לרשום את התלמיד אוטומטית למקצועות של כיתת האם שלו?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Staff Directory"
+msgstr "מדריך הצוות"
+
+# Gibbon core string: missing from its file for this language
+msgid "Switch"
+msgstr "החלפה"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "מורה"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "לתלמיד זה יש מצב רפואי אחד או יותר ברמת סיכון: {level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "View Reports"
+msgstr "צפייה בתעודות"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "ההפעלה הנוכחית שלך תועבר למשתמש שנבחר."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "היעדרות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "גישה לנתוני ילדי המשפחה?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "הוספת מבוגר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Child"
+msgstr "הוספת ילד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "הוספת קבוצת לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "הוספת מקצוע"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "הוספת מצב רפואי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "הוספת יום מיוחד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "הוספת איש צוות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "הוספת רישום תלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add User"
+msgstr "הוספת משתמש"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "שם הכתובת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "ניהול"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Administrator"
+msgstr "מנהל מערכת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "קבלה ורישום"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "מבוגר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "אחרי תאריך הסיום"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All"
+msgstr "הכול"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "כל תחומי הדעת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "כל המחציות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "דוא\"ל חלופי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Apply"
+msgstr "החלה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "סייע/ת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "רישום אוטומטי למקצועות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "עותק למשפחה?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "שיחות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "ביטול"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "יש לסמן את התיבה כדי להוסיף מצב רפואי חדש"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "שם בסינית או בכתב סימנים אחר."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "בחירת קבוצת לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "בחירת תלמידים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "קבוצת לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "מחזור"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr "קבוצת הלימוד לא אמורה להתקיים עם פחות תלמידים ממספר זה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "קבוצות לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "ניקוי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear Filters"
+msgstr "ניקוי מסננים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company"
+msgstr "חברה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "החברה משלמת הכול?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "איש קשר בחברה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "כתובות דוא\"ל של החברה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "קטגוריות תשלום של החברה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "הושלם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "מצב רפואי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "שם המצב הרפואי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "אימות סיסמה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "איש קשר 1 — שם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "איש קשר 1 — מספר 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "איש קשר 1 — מספר 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "איש קשר 1 — קרבה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "איש קשר 2 — שם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "איש קשר 2 — מספר 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "איש קשר 2 — מספר 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "איש קשר 2 — קרבה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "פנייה בדוא\"ל"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "פנייה בטלפון"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "פנייה ב-SMS"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "עדיפות פנייה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "מחוז, נפה, יישוב"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "רישום למקצועות לפי קבוצת לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "רישום למקצועות לפי אדם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Access?"
+msgstr "גישה לנתונים?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "עדכון נתונים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "נתונים המוצגים בפרופיל התלמיד המלא"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Delete"
+msgstr "מחיקה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "צוות מקצועי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "צוותים מקצועיים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "סיבת עזיבה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "קטגוריה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Details"
+msgstr "פרטים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "לא לפנות ב-SMS."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "לא לפנות בדוא\"ל."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "לא לפנות בטלפון."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "מועד הגשה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "מועד הגשה קרוב"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "להגשה ב-{date} בשעה {time}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "להגשה ב-{date} בשעה {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "עריכת קבוצת לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "עריכת מקצוע"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "עריכת איש צוות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "עריכת משתמש"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "דוא\"ל"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email?"
+msgstr "דוא\"ל?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "אנשי קשר לחירום"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enrolment should not exceed this number of students."
+msgstr "מספר התלמידים הרשומים לא אמור לעלות על מספר זה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Exclude from coverage?"
+msgstr "להחריג מהחלפות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "שם משפחה כפי שמופיע בתעודה מזהה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fee Table"
+msgstr "טבלת תשלומים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fees"
+msgstr "תשלומים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "סינון"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "כספים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "תוקף הסמכת עזרה ראשונה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "מוסמך לעזרה ראשונה?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "שם פרטי כפי שמופיע בתעודה מזהה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "המשך טיפול"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "לחייב שינוי סיסמה?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "כיתת אם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "ו'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "פעיל"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "שם מלא כפי שמופיע בתעודה מזהה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Gender"
+msgstr "מגדר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "יצירה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "קבוצה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "עדיפות בקבוצה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "רכז/ת שכבה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "בית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address"
+msgstr "כתובת מגורים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "כתובת מגורים (מדינה)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "כתובת מגורים (מחוז)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "שפת הבית — ראשית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "שפת הבית — משנית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "שפות הבית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "שיעורי בית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "פרטי שיעורי הבית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "בית (קבוצה)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr "אם החברה שצוינה אינה משלמת את כל התשלומים, אילו קטגוריות היא משלמת?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"במקרה חירום, יש לנסות קודם לפנות לבני המשפחה המבוגרים המופיעים למטה. אם לא "
+"ניתן להשיג אותם, יש לפנות לאנשי הקשר לחירום שלמטה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "הכללה במפת תוכנית הלימודים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr "הכללת כל אנשי הצוות, ללא קשר לסטטוס, תאריך התחלה, תאריך סיום וכו׳."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"הכללת כל התלמידים, ללא קשר לסטטוס ולרישום הנוכחי. ייתכן שחלק מהנתונים לא "
+"יוצגו."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "צרכים מיוחדים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "חשבונית עבור"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "סה\"כ בחשבונית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "תאריך הנפקה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "תפקיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "אחרונים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "תאריך האירוע האחרון"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "טיפול באירוע האחרון"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: IP"
+msgstr "התחברות אחרונה: IP"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "בית ספר קודם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "תחום דעת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "יציאה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "יציאה מוקדמת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Legend"
+msgstr "מקרא"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Library"
+msgstr "ספרייה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Logout"
+msgstr "התנתקות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "נוטל תרופות באופן קבוע?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage"
+msgstr "ניהול"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "ניהול מקצועות וקבוצות לימוד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "ניהול שנות לימודים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "ניהול ימים מיוחדים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "ניהול מחציות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "יומן ציונים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "מספר רשומים מרבי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "פרטי תרופות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "לוח הודעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "הודעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "מספר רשומים מזערי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "ב'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "השם הנפוץ ביותר, כינוי וכו׳."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "חייב להיות ייחודי במקצוע זה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "חייב להיות ייחודי בשנת לימודים זו."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "אם מוגדר, חייב להיות ייחודי."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "קבוצות הלימוד שלי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "לא רלוונטי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "שם בכתב סימנים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "מצב רפואי חדש"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next School"
+msgstr "בית הספר הבא"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No data"
+msgstr "אין נתונים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Off Timetable"
+msgstr "מחוץ למערכת השעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "שם רשמי מלא"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "סדר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Over Enrolled"
+msgstr "יותר מדי רשומים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Paid"
+msgstr "שולם"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "לוח בקרה להורים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "נוכחות חלקית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pay Now"
+msgstr "תשלום עכשיו"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Phone"
+msgstr "טלפון"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "מתכנן שיעורים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "נוכחות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Qualifications"
+msgstr "הסמכות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "קבלה עבור"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "לקבל מבית הספר הודעות SMS שאינן דחופות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "לקבל מבית הספר הודעות דוא\"ל שאינן דחופות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "לקבל מבית הספר שיחות טלפון שאינן דחופות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "לקבל מבית הספר דואר רגיל?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "קרבה לא ידועה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "הסרה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "מדווח"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "לכלול בתעודות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "תעודות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "חובה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "החלפת תפקיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "מספר ביומן"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "מחוונים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "SMS?"
+msgstr "SMS?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "ש'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Admin"
+msgstr "ניהול בית הספר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "סגירת בית הספר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "היסטוריית לימודים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "מידע בית ספרי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "שנת לימודים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Second Language"
+msgstr "שפה שנייה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "בחירת תלמידים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "שליחת חשבוניות אל"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Short Name"
+msgstr "שם מקוצר"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "האם לחייב את החברה שצוינה על כל הפריטים, או רק על חלקם?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "האם לשלוח למשפחה עותק של הודעות החיוב?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "מיון לפי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Status"
+msgstr "סטטוס"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "תלמיד - עזב"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "הסכמי תלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "רישום תלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "מספר תלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "פרופיל תלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "שיעורי בית שרשם התלמיד"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "שליחה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "א'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "צוות מנהלי"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Admin"
+msgstr "ניהול מערכת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "שם התחברות למערכת."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "מורה - עזב"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "מחצית"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no lessons for this class."
+msgstr "אין שיעורים לקבוצת לימוד זו."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"פרטים אלה משמשים כאשר לא ניתן להשיג את בני המשפחה הקרובים (למשל הורה, בן או "
+"בת זוג). נא לא לרשום כאן בני משפחה קרובים."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "קובע את הנראות במערכת."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "לא שויך תוכן לשיעור זה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "ה'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable"
+msgstr "מערכת שעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable Admin"
+msgstr "ניהול מערכת שעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "שינוי בשעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "תואר פנייה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "השיעורים של היום"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Messages"
+msgstr "ההודעות של היום"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "לעקוב אחר נוכחות?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transport"
+msgstr "הסעות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "גורמים מעוררים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "ג'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "מחנך/ת"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "מעט מדי רשומים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "רחוב, מספר בית, דירה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "מעודכן"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "עדכון נתונים כספיים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "עדכון נתוני איש צוות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "ניהול משתמשים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "תמונת משתמש"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "המשתמש יתבקש לעשות זאת בהתחברות הבאה."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "מספר רכב"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "גרסה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "צפייה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "צפייה בחשבוניות"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "צפייה במתכנן השיעורים"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "ד'"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "שכבה"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr "יש לך כמה תפקידים במערכת. אפשר להחליף תפקיד ברשימה שלמטה:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "תלמידים"
