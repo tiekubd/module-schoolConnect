@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -106,6 +106,28 @@ $version     = "1.16.10"; // Tracks the Flutter app's marketing version (pubspec
                           // using each language. i18n/School Connect.pot is the
                           // template for further languages. No schema change, so no
                           // CHANGEDB.php entry.
+                          //
+                          // 1.16.11: More languages for the app: German (de_DE) and
+                          // Spanish (es_ES) for ISU, Traditional Chinese for Hong Kong
+                          // (zh_HK) for KIS, Simplified Chinese (zh_CN), Mexican
+                          // (es_MX) and Dominican (es_DO) Spanish, European
+                          // Portuguese (pt_PT), American English (en_US: only the
+                          // strings that change, e.g. Homeroom, Behavior, Enrollment),
+                          // Italian (it_IT), Dutch (nl_NL), Turkish (tr_TR) and
+                          // Japanese (ja_JP). AI drafts pending review; they follow
+                          // Gibbon's own vocabulary for each language (e.g.
+                          // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
+                          // whitespace in Gibbon's translations the way a browser
+                          // shows them (stray line breaks, double spaces, HTML entities
+                          // such as it_IT's "Et&agrave", and byte-order marks), and leaves
+                          // out any whose placeholders differ from the English (ja_JP
+                          // had "{日付}" for "{date}"), so the app shows English instead. Gibbon's
+                          // own translations of the strings the app uses were
+                          // reviewed line by line for every language: casing made
+                          // consistent, mistranslations corrected for the app (e.g.
+                          // de "Formulargruppe" -> "Stammgruppe", zh_HK contact 2
+                          // labels that said contact 1); see each .po's comments. No schema
+                          // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

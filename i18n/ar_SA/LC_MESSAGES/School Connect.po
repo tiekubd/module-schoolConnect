@@ -71,6 +71,17 @@ msgstr "جميع الأنواع"
 msgid "All Year Groups"
 msgstr "جميع المراحل الدراسية"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "لا حصص اليوم"
+msgstr[1] "انتهت الحصة الوحيدة اليوم"
+msgstr[2] "انتهت الحصتان اليوم"
+msgstr[3] "انتهت الحصص الـ {count} اليوم"
+msgstr[4] "انتهت الحصص الـ {count} اليوم"
+msgstr[5] "انتهت الحصص الـ {count} اليوم"
+
 #: lib/screens/user_edit_screen.dart:140
 #: lib/screens/user_password_screen.dart:101
 msgid "An uppercase and a lowercase letter"
@@ -129,7 +140,7 @@ msgstr[5] "تم حفظ سجلات السلوك لـ {count} طالب!"
 msgid "Browse staff profiles"
 msgstr "تصفح ملفات الموظفين"
 
-#: lib/screens/attendance_menu_screen.dart:70
+#: lib/screens/attendance_menu_screen.dart:71
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "حسب الشعبة"
@@ -174,11 +185,11 @@ msgstr "الاسم بالصينية أو بكتابة رمزية أخرى"
 msgid "Choose a class above"
 msgstr "اختر شعبة من الأعلى"
 
-#: lib/screens/attendance_menu_screen.dart:82
+#: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
 msgstr "اختيار أي صف دراسي"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
 msgstr "اختيار إحدى شعبك"
 
@@ -186,7 +197,7 @@ msgstr "اختيار إحدى شعبك"
 msgid "Choose at least one student first"
 msgstr "اختر طالبًا واحدًا على الأقل أولًا"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:84
 msgid "Choose one of your Form Groups"
 msgstr "اختيار أحد صفوفك الدراسية"
 
@@ -321,7 +332,7 @@ msgstr "تعذّر تحميل المناهج"
 msgid "Could not load data"
 msgstr "تعذّر تحميل البيانات"
 
-#: lib/screens/data_updates_screen.dart:64
+#: lib/screens/data_updates_screen.dart:65
 msgid "Could not load data updates"
 msgstr "تعذّر تحميل تحديثات البيانات"
 
@@ -449,7 +460,7 @@ msgstr "تعذّر تحميل الملف الشخصي"
 msgid "Could not load report"
 msgstr "تعذّر تحميل التقرير المدرسي"
 
-#: lib/screens/student_reports_screen.dart:54
+#: lib/screens/student_reports_screen.dart:55
 msgid "Could not load reports"
 msgstr "تعذّر تحميل التقارير المدرسية"
 
@@ -541,6 +552,11 @@ msgstr "تعذّر الحفظ"
 #: lib/screens/form_group_attendance_screen.dart:136
 msgid "Could not save attendance"
 msgstr "تعذّر حفظ الحضور"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "تعذّر الحفظ لـ: {names}"
 
 #: lib/screens/admin_settings_screen.dart:75
 #: lib/screens/admin_settings_screen.dart:85
@@ -822,6 +838,10 @@ msgstr "آخر 10 أيام دراسية — حسب الحصة"
 msgid "Last 20 school days"
 msgstr "آخر 20 يومًا دراسيًا"
 
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "آخر حصة في اليوم"
+
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
 msgstr "تخطيط الدروس قادم قريبًا"
@@ -859,7 +879,7 @@ msgstr "تحديد كمكتمل"
 msgid "Mark attendance for today"
 msgstr "تسجيل حضور اليوم"
 
-#: lib/screens/notifications_screen.dart:264
+#: lib/screens/notifications_screen.dart:266
 msgid "Mark read"
 msgstr "تحديد كمقروء"
 
@@ -954,7 +974,7 @@ msgstr "لم يُعثر على مناهج"
 msgid "No data for this term"
 msgstr "لا توجد بيانات لهذا الفصل الدراسي"
 
-#: lib/screens/data_updates_screen.dart:187
+#: lib/screens/data_updates_screen.dart:188
 msgid "No data updates found"
 msgstr "لم يُعثر على تحديثات بيانات"
 
@@ -1024,7 +1044,7 @@ msgstr "لا يوجد هاتف مسجل"
 msgid "No record"
 msgstr "لا يوجد سجل"
 
-#: lib/screens/student_reports_screen.dart:81
+#: lib/screens/student_reports_screen.dart:82
 msgid "No reports available yet"
 msgstr "لا توجد تقارير مدرسية متاحة بعد"
 
@@ -1092,7 +1112,7 @@ msgstr "غير مسجل في أي شعبة بعد"
 msgid "Not reported: update the School Connect module"
 msgstr "غير متوفر: حدّث وحدة School Connect"
 
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
 msgstr "لم يُسجَّل اليوم بعد"
 
@@ -1216,7 +1236,7 @@ msgstr "يرجى اختيار شخص ودور"
 msgid "Please select a student"
 msgstr "يرجى اختيار طالب"
 
-#: lib/screens/data_updates_screen.dart:173
+#: lib/screens/data_updates_screen.dart:174
 msgid ""
 "Please take a moment to review the required updates below. Even if nothing "
 "has changed, submitting confirms your data is correct."
@@ -1329,6 +1349,17 @@ msgstr "الرقم في القائمة"
 #: lib/screens/student_homework_section.dart:158
 msgid "Save failed"
 msgstr "فشل الحفظ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
+msgstr[1] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
+msgstr[2] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
+msgstr[3] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
+msgstr[4] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
+msgstr[5] "تم الحفظ لـ {count}، وتعذّر لـ: {names}"
 
 #: lib/screens/about_screen.dart:305
 msgid ""
@@ -1480,7 +1511,7 @@ msgstr "تبديل الدور"
 msgid "Switch School Year"
 msgstr "تبديل السنة الدراسية"
 
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:62
 msgid "Take attendance for this class"
 msgstr "أخذ الحضور لهذه الشعبة"
 
@@ -1489,7 +1520,17 @@ msgstr "أخذ الحضور لهذه الشعبة"
 msgid "Taken"
 msgstr "مُسجَّل"
 
-#: lib/screens/data_updates_screen.dart:104
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "سُجّل في {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "سُجّل اليوم في {time}. اضغط للمراجعة أو التعديل"
+
+#: lib/screens/data_updates_screen.dart:105
 msgid "Tap to edit"
 msgstr "اضغط للتعديل"
 
@@ -1677,7 +1718,7 @@ msgstr "عرض الجدول المدرسي كاملًا"
 msgid "View Grades"
 msgstr "عرض الدرجات"
 
-#: lib/screens/homework_due_dates_card.dart:84
+#: lib/screens/homework_due_dates_card.dart:83
 msgid "View Homework Calendar"
 msgstr "عرض تقويم الواجبات"
 
@@ -1786,7 +1827,7 @@ msgstr ""
 "لقد أرسلت طلبًا بالفعل، وهو بانتظار مراجعة أحد المسؤولين. لا يزال بإمكانك "
 "إجراء تغييرات أدناه."
 
-#: lib/screens/data_updates_screen.dart:174
+#: lib/screens/data_updates_screen.dart:175
 msgid "Your data is up to date."
 msgstr "بياناتك محدّثة."
 
@@ -1826,6 +1867,10 @@ msgstr "سيتم تبديل جلستك إلى {name} ({role})."
 msgid "a previous year"
 msgstr "سنة سابقة"
 
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "تطبيق لنظام Gibbon™"
+
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
 #: lib/screens/log_behaviour_screen.dart:375
@@ -1845,6 +1890,28 @@ msgstr "حتى {time}"
 #: lib/screens/student_attendance_screen.dart:244
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} غياب من أصل {total} حصة مسجلة"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} غائب"
+msgstr[1] "غائب واحد"
+msgstr[2] "غائبان"
+msgstr[3] "{count} غائبين"
+msgstr[4] "{count} غائبًا"
+msgstr[5] "{count} غائب"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} تقييم"
+msgstr[1] "تقييم واحد"
+msgstr[2] "تقييمان"
+msgstr[3] "{count} تقييمات"
+msgstr[4] "{count} تقييمًا"
+msgstr[5] "{count} تقييم"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/class_markbook_screen.dart:84
@@ -1871,6 +1938,28 @@ msgstr[4] "{count} شعبة"
 msgstr[5] "{count} شعبة"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "{count} حصة متبقية · {done} منتهية"
+msgstr[1] "حصة واحدة متبقية · {done} منتهية"
+msgstr[2] "حصتان متبقيتان · {done} منتهية"
+msgstr[3] "{count} حصص متبقية · {done} منتهية"
+msgstr[4] "{count} حصة متبقية · {done} منتهية"
+msgstr[5] "{count} حصة متبقية · {done} منتهية"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} حصة اليوم"
+msgstr[1] "حصة واحدة اليوم"
+msgstr[2] "حصتان اليوم"
+msgstr[3] "{count} حصص اليوم"
+msgstr[4] "{count} حصة اليوم"
+msgstr[5] "{count} حصة اليوم"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:360
 #: lib/screens/student_attendance_screen.dart:363
 #: lib/screens/student_attendance_screen.dart:367
@@ -1882,6 +1971,17 @@ msgstr[2] "يومان"
 msgstr[3] "{count} أيام"
 msgstr[4] "{count} يومًا"
 msgstr[5] "{count} يوم"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} مستحق"
+msgstr[1] "واجب واحد مستحق"
+msgstr[2] "واجبان مستحقان"
+msgstr[3] "{count} واجبات مستحقة"
+msgstr[4] "{count} واجبًا مستحقًا"
+msgstr[5] "{count} واجب مستحق"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/facility_list_screen.dart:211
@@ -1904,6 +2004,39 @@ msgstr[2] "عائلتان"
 msgstr[3] "{count} عائلات"
 msgstr[4] "{count} عائلة"
 msgstr[5] "{count} عائلة"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} عنصر"
+msgstr[1] "عنصر واحد"
+msgstr[2] "عنصران"
+msgstr[3] "{count} عناصر"
+msgstr[4] "{count} عنصرًا"
+msgstr[5] "{count} عنصر"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} متأخر"
+msgstr[1] "متأخر واحد"
+msgstr[2] "متأخران"
+msgstr[3] "{count} متأخرين"
+msgstr[4] "{count} متأخرًا"
+msgstr[5] "{count} متأخر"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "{count} حصة أخرى بعد هذه · {total} اليوم"
+msgstr[1] "حصة واحدة أخرى بعد هذه · {total} اليوم"
+msgstr[2] "حصتان أخريان بعد هذه · {total} اليوم"
+msgstr[3] "{count} حصص أخرى بعد هذه · {total} اليوم"
+msgstr[4] "{count} حصة أخرى بعد هذه · {total} اليوم"
+msgstr[5] "{count} حصة أخرى بعد هذه · {total} اليوم"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:377
@@ -1975,7 +2108,7 @@ msgstr[4] "{count} طالبًا مسجلًا"
 msgstr[5] "{count} طالب مسجل"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/notifications_screen.dart:251
+#: lib/screens/notifications_screen.dart:253
 msgid "{count} time"
 msgid_plural "{count} times"
 msgstr[0] "{count} مرة"
@@ -2010,6 +2143,11 @@ msgstr "منذ {count} س"
 #: lib/screens/notifications_screen.dart:98
 msgid "{count}m ago"
 msgstr "منذ {count} د"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
 
 #: lib/screens/course_manage_list_screen.dart:283
 msgid "— None —"
@@ -2117,3 +2255,299 @@ msgstr "تحديث بيانات الموظف"
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "سيتم تبديل جلستك النشطة إلى المستخدم المحدد."
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "موعد التسليم الساعة {time} بتاريخ {date}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "الوصول إلى بيانات أطفال الأسرة؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Activities"
+msgstr "الأنشطة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "إضافة بالغ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "إضافة شعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "الإدارة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "بالغ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "البالغون"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Age"
+msgstr "العمر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Basic Information"
+msgstr "المعلومات الأساسية"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "إلغاء"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "الأطفال"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "اختر شعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "اختيار الطلبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "دفعة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr "يجب ألا تُدرَّس الشعبة بأقل من هذا العدد من الطلبة."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "الشعب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "كل شيء للشركة؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "اسم جهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "الرقم 1 لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "الرقم 2 لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "صلة القرابة لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "اسم جهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "الرقم 1 لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "الرقم 2 لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "صلة القرابة لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "المقاطعة، الولاية، الحي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "الالتحاق بالمنهج حسب الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "سبب المغادرة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "يستحق قريبًا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "تعديل الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "تعديل المستخدم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "مؤهل في الإسعافات الأولية؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "توليد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "الاسم الأول"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "أولوية التجميع"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "لغات المنزل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Impersonate User"
+msgstr "الدخول باسم مستخدم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"في حالات الطوارئ، يرجى محاولة التواصل أولًا مع أفراد الأسرة البالغين "
+"المدرجين أدناه. إذا تعذر الوصول إليهم، فحاول التواصل مع جهات اتصال الطوارئ "
+"أدناه."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"يشمل جميع الموظفين، بغض النظر عن الحالة وتاريخ البدء وتاريخ الانتهاء وما إلى"
+" ذلك."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "الأخير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "علاج آخر نوبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "المدرسة الأخيرة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Locker Number"
+msgstr "رقم الخزانة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "دواء طويل الأمد؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "بريد ورقي؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "إدارة المناهج والشعب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "إدارة السنوات الدراسية"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "الحد الأقصى للالتحاق"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "حائط الرسائل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "الحد الأدنى للالتحاق"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "شعبي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Form Group"
+msgstr "صفي الدراسي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Reportable"
+msgstr "غير مدرج في التقارير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "الرقم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "شخصي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "صلة القرابة غير معروفة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "إزالة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "مدرج في التقارير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "مدرج في التقارير؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "تبديل الدور"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "السجل الدراسي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "هل يجب فوترة جميع البنود إلى الشركة المحددة، أم بعضها فقط؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "الإخوة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no lessons for this class."
+msgstr "لا توجد دروس لهذه الشعبة."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "لدى هذا الطالب حالة طبية واحدة أو أكثر بمستوى خطورة {level}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "تتبع الحضور؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "التحاق دون الحد الأدنى"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "الشقة، المبنى، الشارع"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "الإصدار"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "عرض التقارير"

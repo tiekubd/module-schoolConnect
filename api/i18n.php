@@ -102,7 +102,11 @@ try {
 
     // Version: changes whenever the language or either file changes.
     clearstatcache();
-    $fingerprint = $code;
+    // The trailing tag changes when this endpoint's output format changes
+    // (2: whitespace tidied; 3: HTML entities decoded; 4: byte-order marks
+    // removed; 5: mismatched placeholders dropped), so apps refetch once
+    // after an update.
+    $fingerprint = $code . '|5';
     foreach ($files as $path) {
         $fingerprint .= '|' . (is_file($path) ? filemtime($path) . ':' . filesize($path) : '-');
     }
@@ -118,8 +122,27 @@ try {
     $core   = isset($files['core'])   ? gibbonConnectReadMo($files['core'])   : null;
     $module = isset($files['module']) ? gibbonConnectReadMo($files['module']) : null;
 
-    $strings = array_replace($core['strings'] ?? [], $module['strings'] ?? []);
-    $plurals = array_replace($core['plurals'] ?? [], $module['plurals'] ?? []);
+    // Gibbon's own translations are tidied the way a browser shows them on
+    // the website: some carry a stray line break or double space (es_ES
+    // "Due at {time} on {date}" starts with a line break), which HTML
+    // collapses but the app would show as typed. See gibbonConnectTidy().
+    // A Gibbon translation whose placeholders differ from the English (ja_JP
+    // had "{日付}" for "{date}") is left out, so the app shows the English
+    // rather than text with an unfilled placeholder.
+    $coreStrings = [];
+    foreach ($core['strings'] ?? [] as $id => $text) {
+        $text = gibbonConnectTidy((string) $id, $text);
+        if (gibbonConnectSamePlaceholders((string) $id, $text)) {
+            $coreStrings[$id] = $text;
+        }
+    }
+    $corePlurals = [];
+    foreach ($core['plurals'] ?? [] as $id => $forms) {
+        $corePlurals[$id] = array_map(fn($form) => gibbonConnectTidy((string) $id, $form), $forms);
+    }
+
+    $strings = array_replace($coreStrings, $module['strings'] ?? []);
+    $plurals = array_replace($corePlurals, $module['plurals'] ?? []);
     $pluralForms = ($core['pluralForms'] ?? '') !== '' ? $core['pluralForms'] : ($module['pluralForms'] ?? '');
     $plural = gibbonConnectPluralTable($pluralForms);
 
@@ -143,4 +166,44 @@ try {
 } catch (PDOException $e) {
     error_log('School Connect i18n.php DB error: ' . $e->getMessage());
     echo json_encode(['success' => false, 'message' => 'A server error occurred. Please try again later.']);
+}
+
+/**
+ * A translation as a browser would show it: line breaks and runs of spaces
+ * become one space, and leading/trailing spaces go, unless the English text
+ * itself has them. Only ASCII whitespace is touched, so French no-break
+ * spaces (before ":" or "!") stay. HTML entities become their characters,
+ * with or without the closing semicolon as browsers allow (Gibbon's it_IT
+ * has "Et&agrave" for "Età"); an "&" that is not an entity is left alone.
+ * Byte-order marks (U+FEFF) are removed.
+ */
+function gibbonConnectTidy(string $msgid, string $text): string
+{
+    $text = str_replace("\u{FEFF}", '', $text);   // byte-order marks (Gibbon's ar_SA has some)
+    if (strpos($text, '&') !== false && !preg_match('/&#?[a-zA-Z0-9]+;?/', $msgid)) {
+        $text = preg_replace_callback('/&(#[0-9]+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);?/', function ($m) {
+            $entity = '&' . $m[1] . ';';
+            $char = html_entity_decode($entity, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+            return $char === $entity ? $m[0] : $char;
+        }, $text);
+    }
+    if (!preg_match('/[\n\r\t]| {2}/', $msgid)) {
+        $text = preg_replace('/[ \t\r\n]+/', ' ', $text);
+    }
+    if ($msgid === trim($msgid, " \t\r\n")) {
+        $text = trim($text, " \t\r\n");
+    }
+    return $text;
+}
+
+/**
+ * Whether a translation has the same {name} placeholders as its English text.
+ */
+function gibbonConnectSamePlaceholders(string $msgid, string $text): bool
+{
+    preg_match_all('/\{[A-Za-z0-9_]+\}/', $msgid, $a);
+    preg_match_all('/\{[^{}]+\}/u', $text, $b);
+    $a = $a[0]; $b = $b[0];
+    sort($a); sort($b);
+    return $a === $b;
 }
