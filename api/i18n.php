@@ -102,7 +102,9 @@ try {
 
     // Version: changes whenever the language or either file changes.
     clearstatcache();
-    $fingerprint = $code;
+    // The trailing tag changes when this endpoint's output format changes
+    // (2: whitespace tidied, below), so apps refetch once after an update.
+    $fingerprint = $code . '|2';
     foreach ($files as $path) {
         $fingerprint .= '|' . (is_file($path) ? filemtime($path) . ':' . filesize($path) : '-');
     }
@@ -118,8 +120,21 @@ try {
     $core   = isset($files['core'])   ? gibbonConnectReadMo($files['core'])   : null;
     $module = isset($files['module']) ? gibbonConnectReadMo($files['module']) : null;
 
-    $strings = array_replace($core['strings'] ?? [], $module['strings'] ?? []);
-    $plurals = array_replace($core['plurals'] ?? [], $module['plurals'] ?? []);
+    // Gibbon's own translations are tidied the way a browser shows them on
+    // the website: some carry a stray line break or double space (es_ES
+    // "Due at {time} on {date}" starts with a line break), which HTML
+    // collapses but the app would show as typed. See gibbonConnectTidy().
+    $coreStrings = [];
+    foreach ($core['strings'] ?? [] as $id => $text) {
+        $coreStrings[$id] = gibbonConnectTidy((string) $id, $text);
+    }
+    $corePlurals = [];
+    foreach ($core['plurals'] ?? [] as $id => $forms) {
+        $corePlurals[$id] = array_map(fn($form) => gibbonConnectTidy((string) $id, $form), $forms);
+    }
+
+    $strings = array_replace($coreStrings, $module['strings'] ?? []);
+    $plurals = array_replace($corePlurals, $module['plurals'] ?? []);
     $pluralForms = ($core['pluralForms'] ?? '') !== '' ? $core['pluralForms'] : ($module['pluralForms'] ?? '');
     $plural = gibbonConnectPluralTable($pluralForms);
 
@@ -143,4 +158,21 @@ try {
 } catch (PDOException $e) {
     error_log('School Connect i18n.php DB error: ' . $e->getMessage());
     echo json_encode(['success' => false, 'message' => 'A server error occurred. Please try again later.']);
+}
+
+/**
+ * A translation as a browser would show it: line breaks and runs of spaces
+ * become one space, and leading/trailing spaces go, unless the English text
+ * itself has them. Only ASCII whitespace is touched, so French no-break
+ * spaces (before ":" or "!") stay.
+ */
+function gibbonConnectTidy(string $msgid, string $text): string
+{
+    if (!preg_match('/[\n\r\t]| {2}/', $msgid)) {
+        $text = preg_replace('/[ \t\r\n]+/', ' ', $text);
+    }
+    if ($msgid === trim($msgid, " \t\r\n")) {
+        $text = trim($text, " \t\r\n");
+    }
+    return $text;
 }

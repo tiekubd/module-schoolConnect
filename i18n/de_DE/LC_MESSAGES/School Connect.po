@@ -2218,3 +2218,7 @@ msgstr "Mitarbeiterdaten aktualisieren"
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Ihre aktive Sitzung wird zur ausgewählten Person gewechselt."
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "Fällig um {time} am {date}"

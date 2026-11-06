@@ -2255,3 +2255,7 @@ msgstr "تحديث بيانات الموظف"
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "سيتم تبديل جلستك النشطة إلى المستخدم المحدد."
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "موعد التسليم الساعة {time} بتاريخ {date}"

@@ -107,12 +107,15 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // template for further languages. No schema change, so no
                           // CHANGEDB.php entry.
                           //
-                          // 1.16.11: German (de_DE) and Spanish (es_ES) translations of
-                          // the app-only text, for ISU, Traditional Chinese for Hong Kong
-                          // (zh_HK), for KIS, and Simplified Chinese (zh_CN). AI drafts pending review; they
-                          // follow Gibbon's own de_DE/es_ES vocabulary (e.g.
-                          // Formulargruppe, Curso). No code or schema change, so no
-                          // CHANGEDB.php entry.
+                          // 1.16.11: More languages for the app: German (de_DE) and
+                          // Spanish (es_ES) for ISU, Traditional Chinese for Hong Kong
+                          // (zh_HK) for KIS, Simplified Chinese (zh_CN) and Mexican
+                          // Spanish (es_MX). AI drafts pending review; they follow
+                          // Gibbon's own vocabulary for each language (e.g.
+                          // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
+                          // whitespace in Gibbon's translations the way a browser
+                          // shows them (stray line breaks, double spaces). No schema
+                          // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
