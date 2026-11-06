@@ -1,0 +1,3192 @@
+# School Connect: Lithuanian (lt_LT) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Lithuanian-speaking school before release.
+# Vocabulary follows Gibbon core's lt_LT file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Skyrybos ženklas arba tarpas"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Prisijungimo raktas, laikomas saugioje įrenginio saugykloje (iOS Keychain "
+"arba Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "Apie programėlę ir privatumas"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Pridėti daugiau"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Pridėti dalyvį"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Pridėti namų darbą?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Pridėkite, redaguokite ir šalinkite nedarbo dienas"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Pridėkite, redaguokite ir šalinkite naudotojų paskyras"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Nustato dalykų tvarką pažangos ataskaitose."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Suaugusio asmens nustatymai atnaujinti"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Visi tipai"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Visi klasių srautai"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Visos šiandienos pamokos baigtos ({count})"
+msgstr[1] "Visos šiandienos pamokos baigtos ({count})"
+msgstr[2] "Visos šiandienos pamokos baigtos ({count})"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Didžioji ir mažoji raidė"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "Programėlės versija, prijungta mokykla ir Jūsų duomenys"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Vertinimai"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Bent vienas skaitmuo"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Bent {count} simbolis"
+msgstr[1] "Bent {count} simboliai"
+msgstr[2] "Bent {count} simbolių"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Lankomumas šiais metais"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Šiandien lankomumas dar nepažymėtas"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Elgesio įrašas išsaugotas!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Elgesio įrašai išsaugoti {count} mokiniui!"
+msgstr[1] "Elgesio įrašai išsaugoti {count} mokiniams!"
+msgstr[2] "Elgesio įrašai išsaugoti {count} mokinių!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Peržiūrėkite darbuotojų profilius"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Pagal grupę"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Pagal datą"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie duomenų "
+"atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir galite atsisakyti."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Atšaukti rezervacijas?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Atšaukti pamokas?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Atšaukti darbuotojų budėjimus?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Atšaukti naują sveikatos sutrikimą"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Talp."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Vardas kinų ar kitais hieroglifais"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Pasirinkite grupę viršuje"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Pasirinkite bet kurią klasę"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Pasirinkite bet kurią savo grupę"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Pirmiausia pasirinkite bent vieną mokinį"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Pasirinkite vieną iš savo klasių"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Praleistos pamokos"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Registracijos į grupes"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Grupės sąrašas"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Spustelėkite „Atnaujinti“ šalia School Connect, skiltyje Sistemos "
+"administratorius > Tvarkyti modulius."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Uždaryta"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"Sujungtas trumpas pavadinimas „{name}“ ilgesnis nei 16 simbolių — "
+"tvarkaraštyje ir išskleidžiamuosiuose sąrašuose jis gali būti rodomas "
+"netinkamai."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Sujungtas trumpas pavadinimas ilgesnis nei 16 simbolių"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "El. pašto adresai, atskirti kableliais"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Pakartokite slaptažodį *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Prijungta mokykla"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Jungiamasi..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Kontaktai"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Kontaktas {number} — duomenų nėra"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Pamokų turinys: mokytojo pridėti vaizdo įrašai ar paveikslėliai (pavyzdžiui,"
+" iš YouTube) įkeliami iš tų svetainių, kai juos atidarote"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Nustatykite, ką programėlėje mato visi"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Nepavyko pridėti"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Nepavyko pridėti suaugusio asmens"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Nepavyko pridėti vaiko"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Nepavyko ištrinti naudotojo"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Nepavyko atsisiųsti pažangos ataskaitos"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Nepavyko sukurti prisijungimo vardo"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Nepavyko įkelti klasių"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Nepavyko įkelti būrelių"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Nepavyko įkelti lankomumo"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Nepavyko įkelti vaikų"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Nepavyko įkelti grupių"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Nepavyko įkelti dalyko"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Nepavyko įkelti dalykų"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Nepavyko įkelti duomenų"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Nepavyko įkelti duomenų atnaujinimų"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Nepavyko įkelti savaitės dienų"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Nepavyko įkelti skubios pagalbos kontaktų"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Nepavyko įkelti registracijos"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Nepavyko įkelti registracijų"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Nepavyko įkelti kabinetų"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Nepavyko įkelti šeimų"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Nepavyko įkelti šeimos"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Nepavyko įkelti šeimos duomenų"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Nepavyko įkelti finansinių duomenų"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Nepavyko įkelti formos"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Nepavyko įkelti formos duomenų"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Nepavyko įkelti pažymių"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Nepavyko įkelti namų darbų"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Nepavyko įkelti namų darbų kalendoriaus"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Nepavyko įkelti sąskaitos"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Nepavyko įkelti sąskaitų"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Nepavyko įkelti pamokos"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Nepavyko įkelti pamokų"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Nepavyko įkelti pažymių dienyno"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Nepavyko įkelti bendro tvarkaraščio"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Nepavyko įkelti sveikatos duomenų"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Nepavyko įkelti žinučių"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Nepavyko įkelti pranešimų"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Nepavyko įkelti slaptažodžių taisyklių"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Nepavyko įkelti asmenų"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Nepavyko įkelti asmens duomenų"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Nepavyko įkelti asmeninės informacijos"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Nepavyko įkelti profilio"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Nepavyko įkelti pažangos ataskaitos"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Nepavyko įkelti pažangos ataskaitų"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Nepavyko įkelti vaidmenų"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Nepavyko įkelti grupės sąrašo"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Nepavyko įkelti mokslo metų"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Nepavyko įkelti nustatymų"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Nepavyko įkelti ypatingos dienos"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Nepavyko įkelti darbuotojų"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Nepavyko įkelti darbuotojo duomenų"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Nepavyko įkelti mokinių"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Nepavyko įkelti pusmečių"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Nepavyko įkelti tvarkaraščio"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Nepavyko įkelti tvarkaraščių"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Nepavyko įkelti naudotojo"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Nepavyko įkelti naudotojų"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Nepavyko įkelti Jūsų vaikų"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Nepavyko atidaryti mokėjimo puslapio"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Nepavyko atidaryti vaizdo skambučio"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Nepavyko pašalinti"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Nepavyko atkurti slaptažodžio"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Nepavyko išsaugoti"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Nepavyko išsaugoti lankomumo"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Nepavyko išsaugoti: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Nepavyko išsaugoti nustatymo"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Nepavyko išsaugoti naudotojo"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Nepavyko prisijungti šio naudotojo vardu"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Nepavyko pateikti atnaujinimo"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Nepavyko pakeisti vaidmens"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Nepavyko pakeisti mokslo metų"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Nepavyko atnaujinti"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Kilmės šalis"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Pavadavimo prioritetas"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Sukurti susietą darbuotojo įrašą"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Sukurti susietą mokinio registraciją"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Einamieji metai"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Pradžia"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Praleista diena"
+msgstr[1] "Praleistos dienos"
+msgstr[2] "Praleistų dienų"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Dalyvavimo diena"
+msgstr[1] "Dalyvavimo dienos"
+msgstr[2] "Dalyvavimo dienų"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Ištrinti grupę"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Ištrinti dalyką"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Ištrinti ypatingą dieną"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Ištrinti naudotoją"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Sukūrė High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Atlikta"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Terminas"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Būtina nurodyti terminą ir aprašymą."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Redaguojamas"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "El. paštas: turi būti unikalus"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Klasių srautai, į kuriuos galima registruoti"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Registruokite esamus mokinius į einamuosius mokslo metus"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Pavardė, kaip nurodyta asmens dokumente"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr ""
+"Pirmiausia įveskite vardą, pavardę, kreipinio vardą ir pagrindinį vaidmenį"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filtruoti pagal klasių srautą"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Vardas *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Vardas, kaip nurodyta asmens dokumente"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Klasė *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Oficialus kreipinys į tėvus"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Vardas ir pavardė, kaip nurodyta asmens dokumente"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Mokėjimų paslauga"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Lytis *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ yra Gibbon Education Ltd. (Honkongas) prekių ženklas, naudojamas "
+"gavus leidimą."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Prisijungimas per Google, tik jei Jūsų mokykla jį naudoja ir Jūs jį "
+"pasirenkate"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Pažymiai"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "Didesni skaičiai perkelia darbuotoją aukščiau jo grupės sąraše."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Raudonai pažymėti: būsena „Aktyvus“, bet už pradžios ir pabaigos datų ribų."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Šventinė diena"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Namų darbų kalendorius"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "Namų darbų terminas"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Namų darbas pašalintas."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Namų darbas išsaugotas."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Pasirinkus „Šeima“, būsimos sąskaitos bus siunčiamos pagal Jūsų šeimos "
+"kontaktų nustatymus. Pasirinkus „Įmonė“, galite nurodyti, ar įmonė apmoka "
+"visus, ar tik kai kuriuos mokesčius."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Prisijungti kaip"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Funkcijai „Prisijungti kaip naudotojas“ mokyklos serveryje reikia School "
+"Connect modulio 1.16.09 ar naujesnės versijos."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Įdiegta versija: {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Baigiasi po 2 valandų. Norėdami grįžti anksčiau, ekrano viršuje spustelėkite"
+" „Grįžti į savo paskyrą“."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Prisijungti prie nuotolinės pamokos"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "Mygtukas „Prisijungti prie nuotolinės pamokos“ paslėptas visur"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr ""
+"Mygtukas „Prisijungti prie nuotolinės pamokos“ rodomas tvarkaraštyje ir "
+"planuoklyje"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "Paskutinės 10 mokslo dienų"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "Paskutinės 10 mokslo dienų — pagal pamokas"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "Paskutinės 20 mokslo dienų"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Paskutinė dienos pamoka"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Pamokų planavimas netrukus"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Licencijos patikra"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Susiekite asmenis su darbuotojo vaidmeniu su jų darbuotojo įrašais"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Įrašyti elgesį"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Prisijungta kaip"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Tvarkykite naudotojus ir mokyklos nustatymus"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Pažymėti visus kaip perskaitytus"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Pažymėti kaip atliktą"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Pažymėti šiandienos lankomumą"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Pažymėti kaip perskaitytą"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Bendras tvarkaraštis"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Jei nurodytas, turi būti unikalus"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Mano klasės"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Būtina nurodyti pavadinimą ir trumpą pavadinimą"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Klasių nerasta"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Be ugdymo srities"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Būrelių nėra"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Susietų suaugusiųjų nėra"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Jokių reklamų, analitikos, sekimo, klaidų ataskaitų ir tiesioginių pranešimų"
+" paslaugų. Programėlė niekada neparduoda ir nesidalija Jūsų duomenimis."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Vaikų nerasta"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Susietų vaikų nėra"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "Su šia paskyra nesusietas joks vaikas"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Pamokos nėra"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Grupių nerasta"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Šiandien šiame kabinete pamokų nėra"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Suplanuotų pamokų nėra"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Šiandien suplanuotų pamokų nėra"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Grupių dar nėra"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Dalykų nerasta"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Šio pusmečio duomenų nėra"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Duomenų atnaujinimų nerasta"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Be metodinės grupės"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Kabinetų nerasta"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Šeimų nerasta"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Šeimos narių nėra"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Šeimos įrašas nerastas"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Pažymių nėra"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Istorijos nėra"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Namų darbų nėra."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Sąskaitų nėra"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Pažymių dienyne įrašų dar nėra"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Atitikmenų nerasta"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Pranešimų nėra"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Dalyvių dar nėra"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Asmenų nerasta"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Telefono numerio nėra"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Įrašo nėra"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Pažangos ataskaitų dar nėra"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Šią savaitę mokslo dienų nėra"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Darbuotojų nerasta"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Šiais metais užregistruotų mokinių nėra"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Mokinių nerasta"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Šiems mokslo metams pusmečių nerasta"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Tvarkaraščio duomenų nerasta"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Šiai dienai tvarkaraščio nėra"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Šiandienai tvarkaraščio nėra"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Naudotojų nerasta"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "Į pažangos ataskaitas neįtraukti dalyviai jose nerodomi."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Nemokslo diena"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Ne mokslo diena"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Šiuo metu neužregistruotas"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Dar neužregistruotas jokioje grupėje"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Duomenų nėra: atnaujinkite School Connect modulį"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Šiandien dar nepažymėta"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Čia dar neprieinama — registruojant čia dalykai automatiškai nepridedami. "
+"Jei reikia, užbaikite registraciją į dalykus svetainėje."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Nieko nesuplanuota"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Dabar"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Oficialus vardas ir pavardė *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Kartą per dieną Jūsų mokyklos serveris praneša High Point tik savo interneto"
+" adresą, kad patvirtintų mokyklos prenumeratą. Jokia asmeninė informacija "
+"nesiunčiama."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Įtraukiami tik asmenys su darbuotojo vaidmeniu, dar neturintys darbuotojo "
+"įrašo."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Įtraukiami tik mokiniai, neužregistruoti šiems mokslo metams."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Atidaroma"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Kitos paslaugos, kurias galite matyti"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Slaptažodis *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Slaptažodis turi būti įvestas ir sutapti"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Slaptažodis atkurtas"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Slaptažodžiai nesutampa"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Slaptažodžiai turi būti įvesti ir sutapti"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Ištrinti visam laikui"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Visam laikui ištrinti „{name}“ ir visas jo grupes?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Leidimai"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Asmuo *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Nurodykite darbuotojo tipą"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Užpildykite visus privalomus laukus (vardas, oficialus vardas, lytis, "
+"vaidmuo, prisijungimo vardas)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Pasirinkite tipą"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Pasirinkite klasių srautą ir klasę"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Pasirinkite grupę ir vaidmenį"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Pasirinkite asmenį"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Pasirinkite asmenį ir vaidmenį"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Pasirinkite mokinį"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Peržiūrėkite toliau nurodytus reikalingus atnaujinimus. Net jei niekas "
+"nepasikeitė, pateikdami patvirtinate, kad Jūsų duomenys teisingi."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Veikia su Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Kreipinio vardas *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Pagrindinis vaidmuo *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "1 prioriteto kontaktai visada gauna visų tipų pranešimus."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Kvalifikuotas"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Greita prieiga"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Skaityti visą privatumo politiką"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Kvito numeris"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Naujausias lankomumas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Pašalinti „{name}“ iš kalendoriaus?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Pašalinti suaugusįjį"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Pašalinti vaiką"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Pašalinti grupę"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Pašalinti registraciją"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Pašalinti darbuotojo įrašą"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Pašalinti registraciją į {class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Pašalinti iš grupės"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Pašalinti {name} iš darbuotojų?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Pašalinti {name} iš šios grupės?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Pašalinti {name} iš šios šeimos?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "Pažangos ataskaitos PDF formatu, tik kol jas peržiūrite ar bendrinate"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Grįžti į savo paskyrą"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Vaidmuo: gali prisijungti"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Nr."
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Nepavyko išsaugoti"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Išsaugota {count} asmeniui, nepavyko: {names}"
+msgstr[1] "Išsaugota {count} asmenims, nepavyko: {names}"
+msgstr[2] "Išsaugota {count} asmenų, nepavyko: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect yra trečiosios šalies programėlė, suderinama su Gibbon — "
+"nemokama atvirojo kodo mokyklų valdymo platforma. Tai nėra oficialus Gibbon "
+"Foundation leidinys, ji nėra susijusi su Gibbon Foundation ir jos nėra "
+"patvirtinta."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "School Connect modulis mokyklos serveryje"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect rodo informaciją iš Jūsų mokyklos Gibbon sistemos: "
+"tvarkaraščius, lankomumą, pažymius, namų darbus, pažangos ataskaitas, "
+"pranešimus ir Jūsų šeimos duomenis. Programėlė jungiasi tiesiogiai ir tik "
+"prie Jūsų mokyklos Gibbon serverio šifruotu (HTTPS) ryšiu. High Point "
+"Education šios informacijos negauna, nesaugo ir nemato."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Mokyklos atidarymo, pamokų pradžios, pabaigos ir uždarymo laikas čia "
+"nenustatomas — užbaikite tai svetainėje."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Ieškokite ir peržiūrėkite mokinių profilius"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Ieškoti pagal dalyko pavadinimą..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Ieškoti pagal dalyko ar grupės pavadinimą..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Ieškoti pagal šeimos pavadinimą..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Ieškoti pagal vardą ar inicialus..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Ieškoti pagal vardą ar mokinio numerį..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Ieškoti pagal vardą ar prisijungimo vardą..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Ieškoti pagal vardą, prisijungimo vardą, el. paštą, mokinio numerį..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Ieškoti grupių..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Ieškoti kabinetų..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Ieškoti mokinių..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Pasirinkti mokinį"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Šiais metais praleistos pamokos"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Bendrinti"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Atsijungus pašalinamas prisijungimo raktas, Jūsų prisijungimo vardas ir "
+"atsisiųstos pažangos ataskaitos. Pašalinus programėlę, ištrinama visa kita."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Darbuotojo profilis"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Darbuotojo tipas *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Darbuotojo įrašas sukurtas"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Mokinys *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Mokinių sąrašas"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Mokinys užregistruotas"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Pateikta"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Pavardė *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Keisti vaidmenį"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Keisti mokslo metus"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Pažymėti šios grupės lankomumą"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "Pažymėta"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Pažymėta {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr ""
+"Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Bakstelėkite, kad redaguotumėte"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Prisijungimas kito naudotojo vardu baigėsi po 2 valandų. Grįžote į savo "
+"paskyrą."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "Tvarka, kuria mokykla turi kreiptis į šeimos narius."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "Šio asmens naudotojo paskyra nepaveikiama."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Žinučių nėra."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Tai paveikia tvarkaraštį:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Taip pat bus pašalinti visi šių grupių registracijos ir tvarkaraščio "
+"duomenys. To atšaukti negalima."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "To atšaukti negalima."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Ši grupė {date} neturi pamokų. Jei reikia, lankomumą vis tiek galite "
+"išsaugoti."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Šio asmens naudotojo paskyra neištrinama."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Ši parinktis leidžia administratoriams prisijungti kitos sistemos paskyros "
+"vardu, kad išspręstų problemas ir atliktų bandymus. Pasirinktas naudotojas "
+"ir toliau galės prisijungti prie savo paskyros ir atsijungti."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Bus pašalinti visi šios grupės registracijos ir tvarkaraščio duomenys. To "
+"atšaukti negalima."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Tvarkaraštis pagal kabinetą"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Šiandienos tvarkaraštis"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Bandomoji prieiga"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Bandomasis laikotarpis — liko {count} diena"
+msgstr[1] "Bandomasis laikotarpis — liko {count} dienos"
+msgstr[2] "Bandomasis laikotarpis — liko {count} dienų"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Spręskite problemas matydami programėlę kito naudotojo akimis"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Klasės vadovas 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Tipas *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Būtina nurodyti tipą ir pavadinimą"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Įveskite bent 2 simbolius"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Tipas, šalies kodas, numeris"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Išregistruoti {name} iš šių mokslo metų?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Nežinomi metai"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Nenaudojama"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Naudojama darbuotojams grupuoti darbuotojų kataloge."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Naudotojas sukurtas"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Naudotojas atnaujintas"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Naudotojas: gali prisijungti"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Naudotojas: nesėkmingi prisijungimai"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Naudotojas: būsena"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Prisijungimo vardas *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Šis prisijungimo vardas jau užimtas"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Prisijungimo vardas laisvas"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Vaizdo pamokos: nuotolinėms pamokoms naudojama Jūsų mokyklos pasirinkta "
+"vaizdo paslauga (numatytoji — viešoji Jitsi Meet paslauga)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Peržiūrėti lankomumą"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Peržiūrėti visą tvarkaraštį"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Peržiūrėti pažymius"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Peržiūrėti namų darbų kalendorių"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Peržiūrėti tvarkaraštį"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Peržiūrėkite ir tvarkykite klases"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Peržiūrėti grupės pažymius"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Peržiūrėkite šeimas, kontaktus ir vaikus"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Peržiūrėti šios grupės pamokų planus"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Peržiūrėti šios grupės mokinius"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Peržiūrėkite savo pažymius"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Peržiūrėkite savo pažangos ataskaitas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Peržiūrima kaip {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Virtuali klasė"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Sveiki, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Ko programėlė nedaro"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Ką programėlė saugo šiame įrenginyje"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Klasių srautas *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Klasių srautai ir klasės čia nenurodomi — kol to nepadarysite svetainėje, "
+"tai bus taikoma visiems."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Grįžote į savo paskyrą."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Peržiūrite {year} mokslo metus, kurie nėra einamieji. Duomenys gali būti ne "
+"visai tikslūs (pavyzdžiui, iš mokyklos išėję mokiniai ankstesniuose metuose "
+"nerodomi)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "Šioje skiltyje galite įrašyti savo namų darbus."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Jau pateikėte prašymą, kurį turi peržiūrėti administratorius. Toliau dar "
+"galite daryti pakeitimus, tačiau Jūsų duomenys sistemoje atsiras tik "
+"apdorojus prašymą."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Jau pateikėte prašymą, kurį turi peržiūrėti administratorius. Toliau dar "
+"galite daryti pakeitimus."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Jūsų duomenys atnaujinti."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Jūsų duomenys lieka Jūsų mokykloje"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Paskutinis Jūsų prisijungimo vardas ir trys paskutiniai naudoti mokyklų "
+"adresai, kad nereikėtų jų įvesti iš naujo"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Jūsų teisės ir klausimai"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Už Jūsų asmens duomenis Gibbon sistemoje atsako Jūsų mokykla. Norėdami juos "
+"peržiūrėti, ištaisyti ar ištrinti, kreipkitės į mokyklos duomenų apsaugos "
+"pareigūną. Klausimais apie pačią programėlę rašykite {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Jūsų sesija bus perjungta į {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "ankstesni metai"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "programėlė Gibbon™ sistemai"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "neprivaloma"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "pagrindinis"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "iki {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "Praleista {absent} iš {total} pažymėtų pamokų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} nedalyvauja"
+msgstr[1] "{count} nedalyvauja"
+msgstr[2] "{count} nedalyvauja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} vert."
+msgstr[1] "{count} vert."
+msgstr[2] "{count} vert."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} vertinimas"
+msgstr[1] "{count} vertinimai"
+msgstr[2] "{count} vertinimų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} grupė"
+msgstr[1] "{count} grupės"
+msgstr[2] "{count} grupių"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Liko {count} pamoka · baigta: {done}"
+msgstr[1] "Liko {count} pamokos · baigta: {done}"
+msgstr[2] "Liko {count} pamokų · baigta: {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "Šiandien {count} pamoka"
+msgstr[1] "Šiandien {count} pamokos"
+msgstr[2] "Šiandien {count} pamokų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} diena"
+msgstr[1] "{count} dienos"
+msgstr[2] "{count} dienų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} su terminu"
+msgstr[1] "{count} su terminu"
+msgstr[2] "{count} su terminu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} kabinetas"
+msgstr[1] "{count} kabinetai"
+msgstr[2] "{count} kabinetų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} šeima"
+msgstr[1] "{count} šeimos"
+msgstr[2] "{count} šeimų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} elementas"
+msgstr[1] "{count} elementai"
+msgstr[2] "{count} elementų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} vėluoja"
+msgstr[1] "{count} vėluoja"
+msgstr[2] "{count} vėluoja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Po šios dar {count} pamoka · iš viso šiandien: {total}"
+msgstr[1] "Po šios dar {count} pamokos · iš viso šiandien: {total}"
+msgstr[2] "Po šios dar {count} pamokų · iš viso šiandien: {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} mokslo diena pusmetyje"
+msgstr[1] "{count} mokslo dienos pusmetyje"
+msgstr[2] "{count} mokslo dienų pusmetyje"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} mokslo diena mokslo metuose"
+msgstr[1] "{count} mokslo dienos mokslo metuose"
+msgstr[2] "{count} mokslo dienų mokslo metuose"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} pamoka"
+msgstr[1] "{count} pamokos"
+msgstr[2] "{count} pamokų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} darbuotojas"
+msgstr[1] "{count} darbuotojai"
+msgstr[2] "{count} darbuotojų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} mokinys"
+msgstr[1] "{count} mokiniai"
+msgstr[2] "{count} mokinių"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} užregistruotas mokinys"
+msgstr[1] "{count} užregistruoti mokiniai"
+msgstr[2] "{count} užregistruotų mokinių"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} kartą"
+msgstr[1] "{count} kartus"
+msgstr[2] "{count} kartų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} naudotojas"
+msgstr[1] "{count} naudotojai"
+msgstr[2] "{count} naudotojų"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "prieš {count} d."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "prieš {count} val."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "prieš {count} min."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Nėra —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Atvyko - pavėlavo"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Atvyko - ne mokykloje"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Formuojamasis"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Apibendrinamasis"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Neklasifikuota"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "Atšaukti būrelius?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "Grupė neturėtų veikti, jei mokinių mažiau nei šis skaičius."
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "Užregistruotų mokinių neturėtų būti daugiau nei šis skaičius."
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Neįtraukti į pavadavimus?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Prisijungti kaip naudotojas"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "Paskutinis prisijungimas: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "Paskutinis prisijungimas: laikas"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Sluoksniai"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "Didžiausias mokinių skaičius"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "Mažiausias mokinių skaičius"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Neįtraukiama į ataskaitas"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "Ne pagal tvarkaraštį"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "Per daug mokinių"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Mokytojas"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Šiai grupei pamokų nėra."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Šią dieną pamokų nėra."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"Šis mokinys turi vieną ar daugiau sveikatos sutrikimų, kurių rizikos lygis: "
+"{level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "Per mažai mokinių"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Jūsų dabartinė sesija bus perjungta į pasirinktą naudotoją."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "Neatvyko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "Prieiga prie šeimos vaikų duomenų?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Activities"
+msgstr "Būreliai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Pridėti grupę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "Pridėti dalyką"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Pridėti sveikatos sutrikimą"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "Pridėti ypatingą dieną"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Pridėti darbuotoją"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "Pridėti mokinio registraciją"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Adreso pavadinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Administravimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "Priėmimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "Suaugęs asmuo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Age"
+msgstr "Amžius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "Visos ugdymo sritys"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "Visi mokiniai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "Visi pusmečiai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "Papildomas el. paštas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assessment"
+msgstr "Vertinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "Mokytojo padėjėjas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Automatiškai registruoti į dalykus?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "Papildoma informacija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "By Form Group"
+msgstr "Pagal klasę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "Kopija šeimai?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "Gali prisijungti?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "Pažymėkite langelį, jei norite pridėti naują sveikatos sutrikimą"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Vardas kinų ar kitais hieroglifais."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Pasirinkite grupę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "Pasirinkite mokinius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Grupė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Laida"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Grupės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "Išvalyti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Įmonė apmoka viską?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Įmonės apmokamų mokesčių kategorijos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Atlikta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Sveikatos sutrikimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Sveikatos sutrikimo pavadinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "Pakartokite slaptažodį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact"
+msgstr "Kontaktas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "1 kontakto vardas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "1 kontakto numeris 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "1 kontakto numeris 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "2 kontakto vardas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "2 kontakto numeris 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "2 kontakto numeris 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "Nustato, ką naudotojas gali daryti ir matyti."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Apskritis, savivaldybė, seniūnija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course"
+msgstr "Dalykas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Registracija į dalykus pagal grupę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Registracija į dalykus pagal asmenį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "Bendraamžių vertinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "Duomenų atnaujinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Duomenys, rodomi visame mokinio profilyje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Delete"
+msgstr "Ištrinti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "Metodinė grupė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "Metodinės grupės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Kategorija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Details"
+msgstr "Išsami informacija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Nesusisiekti SMS žinute."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Atlikimo terminas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "Artėja terminas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "Terminas: {date} {time}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "Terminas: {date} {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Redaguoti grupę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "Redaguoti dalyką"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "Redaguoti ypatingą dieną"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Redaguoti darbuotoją"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "Redaguoti naudotoją"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "El. paštas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "Darbas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "Tautybė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "Laukiamas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "Pavardė, kaip nurodyta asmens dokumente."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "Filtras"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Pirmosios pagalbos pažymėjimo galiojimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "Pirmosios pagalbos pažymėjimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "Turi pirmosios pagalbos pažymėjimą?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Language"
+msgstr "Gimtoji kalba"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "Vardas, kaip nurodyta asmens dokumente."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Priversti pakeisti slaptažodį?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "Klasė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Formal Assessment"
+msgstr "Formalus vertinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "Pn"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Aktyvus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "Vardas ir pavardė, kaip nurodyta asmens dokumente."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "Generuoti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "Vardas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Prioritetas grupėje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Klasių srauto vadovas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"Aukštesnio prioriteto pavaduojantys mokytojai rodomi pirmi skiriant "
+"pavadavimus."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Namų"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "Kalba namuose - pagrindinė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "Kalba namuose - papildoma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "Kalbos namuose"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "Namų darbai ir terminai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Namų darbo aprašymas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "Komanda"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Jei nurodyta įmonė apmoka ne visus mokesčius, kurių kategorijų mokesčius ji "
+"apmoka?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"Skubiu atveju pirmiausia bandykite susisiekti su toliau nurodytais "
+"suaugusiais šeimos nariais. Jei nepavyksta, kreipkitės į toliau nurodytus "
+"skubios pagalbos kontaktus."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Įtraukti į ugdymo turinio žemėlapį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Įtraukti visus darbuotojus, nepriklausomai nuo būsenos, pradžios datos, "
+"pabaigos datos ir pan."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Įtraukti visus mokinius, nepriklausomai nuo būsenos ir dabartinės "
+"registracijos. Kai kurie duomenys gali būti nerodomi."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "Specialieji poreikiai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice"
+msgstr "Sąskaita"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "Sąskaitos gavėjas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "Sąskaitos suma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "Išrašymo data"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "Paskutiniai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "Paskutinio epizodo data"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "Gydymas per paskutinį epizodą"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "Ankstesnė mokykla"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "Ugdymo sritis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Išėjo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Išėjo anksčiau"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Legend"
+msgstr "Sutartiniai ženklai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Prisijungimo problemų sprendimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "Nuolat vartoja vaistus?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "Paštu?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage"
+msgstr "Valdymas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Tvarkyti dalykus ir grupes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "Tvarkyti mokslo metus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Tvarkyti ypatingas dienas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Tvarkyti darbuotojus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "Tvarkyti pusmečius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "Tvarkyti naudotojus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "Pažymių dienynas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Sveikatos sutrikimai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "Informacija apie vaistus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "Žinučių lenta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messages"
+msgstr "Žinutės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "Žinutės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Miscellaneous"
+msgstr "Kita"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mobile"
+msgstr "Mobilusis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Vardas, kuriuo dažniausiai vadinamas, slapyvardis ir pan."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Turi būti unikalus šiame dalyke."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "Turi būti unikalus šiais mokslo metais."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "Jei nurodytas, turi būti unikalus."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Mano grupės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Form Group"
+msgstr "Mano klasė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "Netaikoma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name"
+msgstr "Pavadinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Vardas hieroglifais"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Naujas sveikatos sutrikimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next"
+msgstr "Kitas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No data"
+msgstr "Duomenų nėra"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No upcoming due dates!"
+msgstr "Artėjančių terminų nėra!"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "Nepažymėta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Notifications"
+msgstr "Pranešimai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number 2"
+msgstr "Numeris 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "Oficialus vardas ir pavardė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "Eilės tvarka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pager"
+msgstr "Pranešimų gaviklis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "Tėvai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Tėvų pradžia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Iš dalies dalyvavo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "Asmeninė informacija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "Pamokų planuoklis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "Kreipinio vardas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "Atvyko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Priority"
+msgstr "Prioritetas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Kvito gavėjas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Gauti iš mokyklos neskubias SMS žinutes?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "Gauti iš mokyklos neskubius el. laiškus?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Gauti iš mokyklos neskubius skambučius?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Gauti iš mokyklos laiškus paštu?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "Pašalinti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Pažangos ataskaita"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Įtraukiama į ataskaitas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Įtraukti į ataskaitas?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Pažangos ataskaitos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "Privaloma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset Password"
+msgstr "Atkurti slaptažodį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "Atkurti naudotojo slaptažodį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "Reakcija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Risk"
+msgstr "Rizika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "Vaidmens keitimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Eilės numeris dienyne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Vertinimo kriterijai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "Š"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Schedule"
+msgstr "Tvarkaraštis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "Mokslo diena"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Mokymosi istorija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "Mokyklinė informacija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "Pasirinkti mokinius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Short Name"
+msgstr "Trumpas pavadinimas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "Ar visas pozicijas apmokestinti nurodytai įmonei, ar tik kai kurias?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "Ar siųsti šeimai sąskaitų laiškų kopijas?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "Ar automatiškai registruoti šį mokinį į jo klasės dalykus?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "Rikiuoti pagal"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "Darbuotojai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Status"
+msgstr "Būsena"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student"
+msgstr "Mokinys"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Mokinys - išėjo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Susitarimai su mokiniu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "Mokinio registracija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Mokinio numeris"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "Mokinio profilis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Mokinio užsirašyti namų darbai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Students"
+msgstr "Mokiniai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Summary"
+msgstr "Santrauka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "S"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "Perjungti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Access"
+msgstr "Prieiga prie sistemos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "Prisijungimo prie sistemos vardas."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "Pažymėti lankomumą"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Mokytojas - išėjo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Pedagoginis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Technician"
+msgstr "Technikas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "Pusmetis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"Šie duomenys naudojami, kai nepavyksta susisiekti su artimiausiais šeimos "
+"nariais (pvz., tėvais, sutuoktiniu). Prašome čia nenurodyti artimiausių "
+"šeimos narių."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "Nustato matomumą sistemoje."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Šiai pamokai turinys dar nepriskirtas."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "Kt"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Kreipinys"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Messages"
+msgstr "Šiandienos žinutės"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Žymėti lankomumą?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transport"
+msgstr "Transportas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "Sukeliantys veiksniai"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "An"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Klasės vadovas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit"
+msgstr "Skyrius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Gatvė, namo ir buto numeris"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "Atnaujinti sveikatos duomenis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Required"
+msgstr "Reikia atnaujinti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "Atnaujinti darbuotojo duomenis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "Naudotojų administratorius"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "Naudotojo nuotrauka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "Naudotojo bus paprašyta kito prisijungimo metu."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "Prisijungimo vardas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "Transporto priemonės numeris"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "Peržiūrėti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "Peržiūrėti sąskaitas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Peržiūrėti pamokų planuoklį"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Peržiūrėti pažangos ataskaitas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Svetainė"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "Tr"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "Darbo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Klasių srautas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "Neturite teisės atlikti šio veiksmo."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"Sistemoje turite kelis vaidmenis. Norėdami pakeisti vaidmenį, naudokite "
+"toliau pateiktą sąrašą:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "mokiniai"
