@@ -111,12 +111,14 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // Spanish (es_ES) for ISU, Traditional Chinese for Hong Kong
                           // (zh_HK) for KIS, Simplified Chinese (zh_CN), Mexican
                           // (es_MX) and Dominican (es_DO) Spanish, European
-                          // Portuguese (pt_PT), and American English (en_US: only the
-                          // strings that change, e.g. Homeroom, Behavior, Enrollment). AI drafts pending review; they follow
+                          // Portuguese (pt_PT), American English (en_US: only the
+                          // strings that change, e.g. Homeroom, Behavior, Enrollment),
+                          // and Italian (it_IT). AI drafts pending review; they follow
                           // Gibbon's own vocabulary for each language (e.g.
                           // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
                           // whitespace in Gibbon's translations the way a browser
-                          // shows them (stray line breaks, double spaces). No schema
+                          // shows them (stray line breaks, double spaces, HTML entities
+                          // such as it_IT's "Et&agrave"). No schema
                           // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

@@ -103,8 +103,9 @@ try {
     // Version: changes whenever the language or either file changes.
     clearstatcache();
     // The trailing tag changes when this endpoint's output format changes
-    // (2: whitespace tidied, below), so apps refetch once after an update.
-    $fingerprint = $code . '|2';
+    // (2: whitespace tidied; 3: HTML entities decoded), so apps refetch once
+    // after an update.
+    $fingerprint = $code . '|3';
     foreach ($files as $path) {
         $fingerprint .= '|' . (is_file($path) ? filemtime($path) . ':' . filesize($path) : '-');
     }
@@ -164,10 +165,19 @@ try {
  * A translation as a browser would show it: line breaks and runs of spaces
  * become one space, and leading/trailing spaces go, unless the English text
  * itself has them. Only ASCII whitespace is touched, so French no-break
- * spaces (before ":" or "!") stay.
+ * spaces (before ":" or "!") stay. HTML entities become their characters,
+ * with or without the closing semicolon as browsers allow (Gibbon's it_IT
+ * has "Et&agrave" for "Età"); an "&" that is not an entity is left alone.
  */
 function gibbonConnectTidy(string $msgid, string $text): string
 {
+    if (strpos($text, '&') !== false && !preg_match('/&#?[a-zA-Z0-9]+;?/', $msgid)) {
+        $text = preg_replace_callback('/&(#[0-9]+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);?/', function ($m) {
+            $entity = '&' . $m[1] . ';';
+            $char = html_entity_decode($entity, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+            return $char === $entity ? $m[0] : $char;
+        }, $text);
+    }
     if (!preg_match('/[\n\r\t]| {2}/', $msgid)) {
         $text = preg_replace('/[ \t\r\n]+/', ' ', $text);
     }
