@@ -1,0 +1,3119 @@
+# School Connect: Thai (th_TH) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Thai-speaking school before release.
+# Vocabulary follows Gibbon core's th_TH file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Thai\n"
+"Language: th_TH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "เครื่องหมายวรรคตอนหรือช่องว่าง"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"โทเค็นการเข้าสู่ระบบ ซึ่งเก็บไว้ในพื้นที่จัดเก็บที่ปลอดภัยของอุปกรณ์ (iOS "
+"Keychain หรือ Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "เกี่ยวกับแอปและความเป็นส่วนตัว"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "เพิ่มอีก"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "เพิ่มผู้เข้าร่วม"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "เพิ่มการบ้านหรือไม่?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "เพิ่ม แก้ไข และลบวันหยุดโรงเรียน"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "เพิ่ม แก้ไข และลบบัญชีผู้ใช้"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "กำหนดลำดับรายวิชาในรายงานผลการเรียน"
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "อัปเดตการตั้งค่าของผู้ใหญ่แล้ว"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "ทุกประเภท"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "ทุกระดับชั้น"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "วันนี้เรียนครบทั้ง {count} คาบแล้ว"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "ตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "เวอร์ชันแอป โรงเรียนที่เชื่อมต่อ และข้อมูลของคุณ"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "การประเมิน"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "มีตัวเลขอย่างน้อยหนึ่งตัว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "อย่างน้อย {count} ตัวอักษร"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "การมาเรียนปีนี้"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "วันนี้ยังไม่ได้เช็คชื่อ"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "บันทึกพฤติกรรมแล้ว!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "บันทึกพฤติกรรมของนักเรียน {count} คนแล้ว!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "ดูโปรไฟล์บุคลากร"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "ตามกลุ่มเรียน"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "ตามวันที่"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"กล้องและรูปภาพ: เฉพาะเมื่อคุณเลือกแนบรูปภาพในคำขออัปเดตข้อมูล "
+"แอปจะขออนุญาตก่อน และคุณปฏิเสธได้"
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "ยกเลิกการจองหรือไม่?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "ยกเลิกคาบเรียนหรือไม่?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "ยกเลิกเวรของบุคลากรหรือไม่?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "ยกเลิกโรคประจำตัวที่เพิ่มใหม่"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "ความจุ"
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "ชื่อภาษาจีนหรือชื่อที่เขียนด้วยอักษรภาพอื่น"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "เลือกกลุ่มเรียนด้านบน"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "เลือกห้องประจำชั้นใดก็ได้"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "เลือกกลุ่มเรียนใดก็ได้ของคุณ"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "เลือกนักเรียนอย่างน้อยหนึ่งคนก่อน"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "เลือกห้องประจำชั้นของคุณ"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "การขาดเรียนรายคาบ"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "การลงทะเบียนกลุ่มเรียน"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "รายชื่อนักเรียน"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr "กด \"อัปเดต\" ข้าง School Connect ใน ตั้งค่าระบบ > จัดการโมดูล"
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "ปิดเวลา"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"ชื่อย่อรวม \"{name}\" ยาวเกิน 16 ตัวอักษร — "
+"อาจแสดงผลไม่ถูกต้องในตารางเรียนและรายการตัวเลือก"
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "ชื่อย่อรวมยาวเกิน 16 ตัวอักษร"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "อีเมลหลายรายการ คั่นด้วยเครื่องหมายจุลภาค"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "ยืนยันรหัสผ่าน *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "โรงเรียนที่เชื่อมต่อ"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "กำลังเชื่อมต่อ..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "ข้อมูลติดต่อ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "ผู้ติดต่อ {number} — ไม่มีข้อมูล"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"เนื้อหาในบทเรียน: วิดีโอหรือรูปภาพที่ครูเพิ่ม (เช่น จาก YouTube) "
+"จะโหลดจากเว็บไซต์นั้นเมื่อคุณเปิด"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "กำหนดสิ่งที่ทุกคนเห็นในแอป"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "เพิ่มไม่สำเร็จ"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "เพิ่มผู้ใหญ่ไม่สำเร็จ"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "เพิ่มบุตรไม่สำเร็จ"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "ลบผู้ใช้ไม่สำเร็จ"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "ดาวน์โหลดรายงานผลการเรียนไม่สำเร็จ"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "สร้างชื่อผู้ใช้ไม่สำเร็จ"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "โหลดห้องประจำชั้นไม่สำเร็จ"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "โหลดกิจกรรมไม่สำเร็จ"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "โหลดข้อมูลการมาเรียนไม่สำเร็จ"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "โหลดข้อมูลบุตรไม่สำเร็จ"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "โหลดกลุ่มเรียนไม่สำเร็จ"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "โหลดรายวิชาไม่สำเร็จ"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "โหลดรายวิชาไม่สำเร็จ"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "โหลดข้อมูลไม่สำเร็จ"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "โหลดการอัปเดตข้อมูลไม่สำเร็จ"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "โหลดวันในสัปดาห์ไม่สำเร็จ"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "โหลดผู้ติดต่อกรณีฉุกเฉินไม่สำเร็จ"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "โหลดการลงทะเบียนไม่สำเร็จ"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "โหลดการลงทะเบียนไม่สำเร็จ"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "โหลดห้องไม่สำเร็จ"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "โหลดครอบครัวไม่สำเร็จ"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "โหลดครอบครัวไม่สำเร็จ"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "โหลดข้อมูลครอบครัวไม่สำเร็จ"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "โหลดข้อมูลการเงินไม่สำเร็จ"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "โหลดแบบฟอร์มไม่สำเร็จ"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "โหลดข้อมูลแบบฟอร์มไม่สำเร็จ"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "โหลดคะแนนไม่สำเร็จ"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "โหลดการบ้านไม่สำเร็จ"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "โหลดปฏิทินการบ้านไม่สำเร็จ"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "โหลดใบแจ้งหนี้ไม่สำเร็จ"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "โหลดใบแจ้งหนี้ไม่สำเร็จ"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "โหลดบทเรียนไม่สำเร็จ"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "โหลดบทเรียนไม่สำเร็จ"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "โหลดสมุดบันทึกคะแนนไม่สำเร็จ"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "โหลดตารางเรียนรวมไม่สำเร็จ"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "โหลดข้อมูลสุขภาพไม่สำเร็จ"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "โหลดข้อความไม่สำเร็จ"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "โหลดการแจ้งเตือนไม่สำเร็จ"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "โหลดนโยบายรหัสผ่านไม่สำเร็จ"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "โหลดรายชื่อบุคคลไม่สำเร็จ"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "โหลดข้อมูลส่วนตัวไม่สำเร็จ"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "โหลดข้อมูลส่วนตัวไม่สำเร็จ"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "โหลดโปรไฟล์ไม่สำเร็จ"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "โหลดรายงานผลการเรียนไม่สำเร็จ"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "โหลดรายงานผลการเรียนไม่สำเร็จ"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "โหลดบทบาทไม่สำเร็จ"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "โหลดรายชื่อนักเรียนไม่สำเร็จ"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "โหลดปีการศึกษาไม่สำเร็จ"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "โหลดการตั้งค่าไม่สำเร็จ"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "โหลดวันพิเศษไม่สำเร็จ"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "โหลดรายชื่อบุคลากรไม่สำเร็จ"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "โหลดข้อมูลบุคลากรไม่สำเร็จ"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "โหลดรายชื่อนักเรียนไม่สำเร็จ"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "โหลดภาคเรียนไม่สำเร็จ"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "โหลดตารางเรียนไม่สำเร็จ"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "โหลดตารางเรียนไม่สำเร็จ"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "โหลดผู้ใช้ไม่สำเร็จ"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "โหลดผู้ใช้ไม่สำเร็จ"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "โหลดข้อมูลบุตรของคุณไม่สำเร็จ"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "เปิดหน้าชำระเงินไม่สำเร็จ"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "เปิดวิดีโอคอลไม่สำเร็จ"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "ลบไม่สำเร็จ"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "รีเซ็ตรหัสผ่านไม่สำเร็จ"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "บันทึกไม่สำเร็จ"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "บันทึกการเช็คชื่อไม่สำเร็จ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "บันทึกไม่สำเร็จสำหรับ: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "บันทึกการตั้งค่าไม่สำเร็จ"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "บันทึกผู้ใช้ไม่สำเร็จ"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "เข้าสู่ระบบในฐานะผู้ใช้นี้ไม่สำเร็จ"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "ส่งการอัปเดตไม่สำเร็จ"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "สลับบทบาทไม่สำเร็จ"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "สลับปีการศึกษาไม่สำเร็จ"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "อัปเดตไม่สำเร็จ"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "ประเทศต้นทาง"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "ลำดับในการสอนแทน"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "สร้างระเบียนบุคลากรที่เชื่อมโยง"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "สร้างการลงทะเบียนนักเรียนที่เชื่อมโยง"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "ปีปัจจุบัน"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "หน้าหลัก"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "วันที่ขาดเรียน"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "วันที่มาเรียน"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "ลบกลุ่มเรียน"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "ลบรายวิชา"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "ลบวันพิเศษ"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "ลบผู้ใช้"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "พัฒนาโดย High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "เสร็จ"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "กำหนดส่ง"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "ต้องระบุวันกำหนดส่งและรายละเอียด"
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "แก้ไขได้"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "อีเมล: ต้องไม่ซ้ำกับผู้อื่น"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "ระดับชั้นที่ลงทะเบียนได้"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "ลงทะเบียนนักเรียนเดิมเข้าปีการศึกษาปัจจุบัน"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "นามสกุลตามบัตรประจำตัว"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "กรอกชื่อจริง นามสกุล ชื่อที่ใช้เรียก และบทบาทหลักก่อน"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "กรองตามระดับชั้น"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "ชื่อจริง *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "ชื่อจริงตามบัตรประจำตัว"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "ห้องประจำชั้น *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "คำเรียกผู้ปกครองอย่างเป็นทางการ"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "ชื่อ-นามสกุลตามบัตรประจำตัว"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "ผู้ให้บริการชำระเงิน"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "เพศ *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ เป็นเครื่องหมายการค้าของ Gibbon Education Ltd. (ฮ่องกง) "
+"ใช้โดยได้รับอนุญาต"
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "การเข้าสู่ระบบด้วย Google เฉพาะเมื่อโรงเรียนของคุณใช้และคุณเลือกใช้"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "คะแนน"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "ตัวเลขที่สูงกว่าจะเลื่อนบุคลากรขึ้นไปในลำดับของกลุ่ม"
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr "ไฮไลต์สีแดง: มีสถานะ \"ปกติ\" แต่อยู่นอกช่วงวันที่เริ่มต้น/สิ้นสุด"
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "วันหยุด"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "ปฏิทินการบ้าน"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "กำหนดส่งการบ้าน"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "ลบการบ้านแล้ว"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "บันทึกการบ้านแล้ว"
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"หากเลือก \"ครอบครัว\" "
+"ใบแจ้งหนี้ต่อไปจะส่งตามช่องทางติดต่อที่ครอบครัวของคุณเลือกไว้ หากเลือก "
+"\"บริษัท\" "
+"คุณสามารถกำหนดให้บริษัทที่ระบุรับผิดชอบค่าธรรมเนียมทั้งหมดหรือบางส่วนได้"
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "เข้าสู่ระบบในฐานะ"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"การเข้าสู่ระบบในฐานะผู้ใช้อื่นต้องใช้โมดูล School Connect เวอร์ชัน 1.16.09 "
+"ขึ้นไปบนเซิร์ฟเวอร์ของโรงเรียน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "เวอร์ชันที่ติดตั้งคือ {version}"
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"จะสิ้นสุดหลังจาก 2 ชั่วโมง หากต้องการกลับเร็วกว่านั้น ให้กด "
+"\"กลับไปที่บัญชีของฉัน\" ที่ด้านบนของหน้าจอ"
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "เข้าร่วมห้องเรียนออนไลน์"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "ซ่อนปุ่ม \"เข้าร่วมห้องเรียนออนไลน์\" ในทุกที่"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "แสดงปุ่ม \"เข้าร่วมห้องเรียนออนไลน์\" ในตารางเรียนและแผนการสอน"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "10 วันเรียนล่าสุด"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "10 วันเรียนล่าสุด — รายคาบ"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "20 วันเรียนล่าสุด"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "คาบสุดท้ายของวัน"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "การวางแผนการสอนจะมาเร็วๆ นี้"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "การตรวจสอบใบอนุญาต"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "เชื่อมโยงผู้ที่มีบทบาทบุคลากรกับระเบียนบุคลากรของตน"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "บันทึกพฤติกรรม"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "เข้าสู่ระบบในชื่อ"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "จัดการผู้ใช้และการตั้งค่าโรงเรียน"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "ทำเครื่องหมายว่าอ่านทั้งหมดแล้ว"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "ทำเครื่องหมายว่าเสร็จแล้ว"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "เช็คชื่อสำหรับวันนี้"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "ทำเครื่องหมายว่าอ่านแล้ว"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "ตารางเรียนรวม"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "หากระบุ ต้องไม่ซ้ำกับผู้อื่น"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "ห้องประจำชั้นของฉัน"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "ต้องระบุชื่อและชื่อย่อ"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "ไม่พบห้องประจำชั้น"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "ไม่มีกลุ่มสาระการเรียนรู้"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "ไม่มีกิจกรรม"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "ไม่มีผู้ใหญ่ที่เชื่อมโยง"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"ไม่มีโฆษณา ไม่มีการวิเคราะห์ข้อมูล ไม่มีการติดตาม ไม่มีการรายงานข้อขัดข้อง "
+"และไม่มีบริการแจ้งเตือนแบบพุช แอปไม่ขายหรือแบ่งปันข้อมูลของคุณ"
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "ไม่พบบุตร"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "ไม่มีบุตรที่เชื่อมโยง"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "ไม่มีบุตรที่เชื่อมโยงกับบัญชีนี้"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "ไม่มีคาบเรียน"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "ไม่พบกลุ่มเรียน"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "วันนี้ไม่มีคาบเรียนในห้องนี้"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "ไม่มีคาบเรียนตามตาราง"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "วันนี้ไม่มีคาบเรียนตามตาราง"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "ยังไม่มีกลุ่มเรียน"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "ไม่พบรายวิชา"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "ไม่มีข้อมูลในภาคเรียนนี้"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "ไม่พบการอัปเดตข้อมูล"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "ไม่มีฝ่าย"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "ไม่พบห้อง"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "ไม่พบครอบครัว"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "ไม่มีสมาชิกในครอบครัว"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "ไม่พบระเบียนครอบครัว"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "ไม่มีคะแนน"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "ไม่มีประวัติ"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "ไม่มีการบ้าน"
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "ไม่มีใบแจ้งหนี้ที่จะแสดง"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "ยังไม่มีรายการในสมุดบันทึกคะแนน"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "ไม่พบรายการที่ตรงกัน"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "ไม่มีการแจ้งเตือน"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "ยังไม่มีผู้เข้าร่วม"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "ไม่พบบุคคล"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "ไม่มีหมายเลขโทรศัพท์"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "ไม่มีข้อมูล"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "ยังไม่มีรายงานผลการเรียน"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "สัปดาห์นี้ไม่มีวันเรียน"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "ไม่พบบุคลากร"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "ปีนี้ไม่มีนักเรียนที่ลงทะเบียน"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "ไม่พบนักเรียน"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "ไม่พบภาคเรียนในปีการศึกษานี้"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "ไม่พบข้อมูลตารางเรียน"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "ไม่มีตารางเรียนในวันนี้"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "วันนี้ไม่มีตารางเรียน"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "ไม่พบผู้ใช้"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "ผู้เข้าร่วมที่ไม่รายงานผลจะไม่แสดงในรายงานผลการเรียน"
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "วันที่ไม่มีการเรียน"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "ไม่ใช่วันเรียน"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "ไม่ได้ลงทะเบียนในขณะนี้"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "ยังไม่ได้ลงทะเบียนกลุ่มเรียนใด"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "ไม่มีข้อมูล: อัปเดตโมดูล School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "วันนี้ยังไม่ได้เช็คชื่อ"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"ยังไม่รองรับที่นี่ — การลงทะเบียนที่นี่จะไม่เพิ่มรายวิชาให้อัตโนมัติ "
+"หากนักเรียนคนนี้ต้องการ ให้ลงทะเบียนรายวิชาให้เสร็จบนเว็บไซต์"
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "ไม่มีกำหนดการ"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "ขณะนี้"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "ชื่อ-นามสกุลอย่างเป็นทางการ *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"วันละครั้ง เซิร์ฟเวอร์ของโรงเรียนจะแจ้ง High Point "
+"เพียงที่อยู่เว็บไซต์ของตนเพื่อยืนยันการสมัครใช้งานของโรงเรียน "
+"ไม่มีการส่งข้อมูลส่วนบุคคลใดๆ"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr "แสดงเฉพาะผู้ที่มีบทบาทบุคลากรแต่ยังไม่มีระเบียนบุคลากร"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "แสดงเฉพาะนักเรียนที่ยังไม่ได้ลงทะเบียนในปีการศึกษานี้"
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "เปิดเวลา"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "บริการอื่นที่คุณอาจพบ"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "รหัสผ่าน *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "ต้องกรอกรหัสผ่านและต้องตรงกัน"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "รีเซ็ตรหัสผ่านสำเร็จ"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "รหัสผ่านไม่ตรงกัน"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "ต้องกรอกรหัสผ่านและต้องตรงกัน"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "ลบถาวร"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "ลบ \"{name}\" และกลุ่มเรียนทั้งหมดอย่างถาวรหรือไม่?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "สิทธิ์การใช้งาน"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "บุคคล *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "กรุณาระบุประเภทบุคลากร"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"กรุณากรอกข้อมูลที่จำเป็นให้ครบ (ชื่อ ชื่อ-นามสกุลอย่างเป็นทางการ เพศ บทบาท "
+"ชื่อผู้ใช้)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "กรุณาเลือกประเภท"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "กรุณาเลือกระดับชั้นและห้องประจำชั้น"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "กรุณาเลือกกลุ่มเรียนและบทบาท"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "กรุณาเลือกบุคคล"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "กรุณาเลือกบุคคลและบทบาท"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "กรุณาเลือกนักเรียน"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"กรุณาตรวจสอบรายการที่ต้องอัปเดตด้านล่าง แม้ไม่มีอะไรเปลี่ยนแปลง "
+"การส่งข้อมูลก็เป็นการยืนยันว่าข้อมูลของคุณถูกต้อง"
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "ขับเคลื่อนโดย Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "ชื่อที่ใช้เรียก *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "บทบาทหลัก *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "ผู้ติดต่อลำดับที่ 1 จะได้รับการติดต่อทุกช่องทางเสมอ"
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "ผ่านการรับรอง"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "เข้าถึงด่วน"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "อ่านนโยบายความเป็นส่วนตัวฉบับเต็ม"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "เลขที่ใบเสร็จ"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "การมาเรียนล่าสุด"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "ลบ \"{name}\" ออกจากปฏิทินหรือไม่?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "ลบผู้ใหญ่"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "ลบบุตร"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "ลบกลุ่มเรียน"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "ลบการลงทะเบียน"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "ลบระเบียนบุคลากร"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "ลบการลงทะเบียนใน {class} หรือไม่?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "นำออกจากกลุ่มเรียน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "นำ {name} ออกจากบุคลากรหรือไม่?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "นำ {name} ออกจากกลุ่มเรียนนี้หรือไม่?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "นำ {name} ออกจากครอบครัวนี้หรือไม่?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "ไฟล์ PDF รายงานผลการเรียน เฉพาะขณะที่คุณดูหรือแชร์"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "กลับไปที่บัญชีของฉัน"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "บทบาท: เข้าสู่ระบบได้"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "เลขที่"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "บันทึกไม่สำเร็จ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "บันทึกสำเร็จ {count} คน แต่ไม่สำเร็จสำหรับ: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect เป็นแอปพลิเคชันจากบุคคลภายนอกที่ใช้งานร่วมกับ Gibbon "
+"ซึ่งเป็นแพลตฟอร์มบริหารจัดการโรงเรียนแบบโอเพนซอร์สที่ใช้ได้ฟรี "
+"แอปนี้ไม่ใช่ผลงานอย่างเป็นทางการของ Gibbon Foundation "
+"และไม่ได้มีส่วนเกี่ยวข้องหรือได้รับการรับรองจาก Gibbon Foundation"
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "โมดูล School Connect บนเซิร์ฟเวอร์ของโรงเรียน"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect แสดงข้อมูลจากระบบ Gibbon ของโรงเรียนคุณ ได้แก่ ตารางเรียน "
+"การมาเรียน คะแนน การบ้าน รายงานผลการเรียน ข้อความ และข้อมูลครอบครัวของคุณ "
+"แอปเชื่อมต่อโดยตรงกับเซิร์ฟเวอร์ Gibbon ของโรงเรียนคุณเท่านั้น "
+"ผ่านการเชื่อมต่อที่เข้ารหัส (HTTPS) High Point Education ไม่ได้รับ "
+"ไม่ได้จัดเก็บ และไม่เห็นข้อมูลเหล่านี้"
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"เวลาเปิด เริ่มเรียน เลิกเรียน และปิดโรงเรียน ไม่ได้ตั้งค่าที่นี่ — "
+"ให้กรอกรายละเอียดเหล่านี้บนเว็บไซต์"
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "ค้นหาและดูโปรไฟล์นักเรียน"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "ค้นหาตามชื่อรายวิชา..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "ค้นหาตามชื่อรายวิชาหรือกลุ่มเรียน..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "ค้นหาตามชื่อครอบครัว..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "ค้นหาตามชื่อหรือชื่อย่อ..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "ค้นหาตามชื่อหรือรหัสนักเรียน..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "ค้นหาตามชื่อหรือชื่อผู้ใช้..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "ค้นหาตามชื่อ ชื่อผู้ใช้ อีเมล รหัสนักเรียน..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "ค้นหากลุ่มเรียน..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "ค้นหาห้อง..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "ค้นหานักเรียน..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "เลือกนักเรียน"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "คาบที่ถูกบันทึกว่าขาดในปีนี้"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "แชร์"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"การออกจากระบบจะลบโทเค็นการเข้าสู่ระบบ ชื่อผู้ใช้ของคุณ "
+"และรายงานผลการเรียนที่ดาวน์โหลดไว้ "
+"การถอนการติดตั้งแอปจะลบข้อมูลที่เหลือทั้งหมด"
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "โปรไฟล์บุคลากร"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "ประเภทบุคลากร *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "สร้างระเบียนบุคลากรแล้ว"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "นักเรียน *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "รายชื่อนักเรียน"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "ลงทะเบียนนักเรียนสำเร็จ"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "ส่งแล้ว"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "นามสกุล *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "สลับบทบาท"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "สลับปีการศึกษา"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "เช็คชื่อกลุ่มเรียนนี้"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "เช็คชื่อแล้ว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "เช็คชื่อเมื่อ {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "เช็คชื่อวันนี้เมื่อ {time} แตะเพื่อดูหรือแก้ไข"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "แตะเพื่อแก้ไข"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"การเข้าสู่ระบบในฐานะผู้ใช้อื่นสิ้นสุดหลังจาก 2 ชั่วโมง "
+"คุณกลับมาที่บัญชีของคุณแล้ว"
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "ลำดับที่โรงเรียนควรติดต่อสมาชิกในครอบครัว"
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "บัญชีผู้ใช้ของบุคคลนี้จะไม่ได้รับผลกระทบ"
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "ไม่มีข้อความที่จะแสดง"
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "สิ่งนี้มีผลต่อตารางเรียน:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"การดำเนินการนี้จะลบข้อมูลการลงทะเบียนและตารางเรียนทั้งหมดของกลุ่มเรียนเหล่านั้นด้วย"
+" และไม่สามารถย้อนกลับได้"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "ไม่สามารถย้อนกลับได้"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"กลุ่มเรียนนี้ไม่มีตารางในวันที่ {date} แต่ยังบันทึกการเช็คชื่อได้หากจำเป็น"
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "การดำเนินการนี้จะไม่ลบบัญชีผู้ใช้ของบุคคลนี้"
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"ตัวเลือกนี้ให้ผู้ดูแลระบบเข้าสู่ระบบในฐานะบัญชีอื่นเพื่อแก้ไขปัญหาและทดสอบ "
+"ผู้ใช้ที่เลือกยังคงเข้าและออกจากระบบบัญชีของตนได้ตามปกติ"
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"การดำเนินการนี้จะลบข้อมูลการลงทะเบียนและตารางเรียนทั้งหมดของกลุ่มเรียนนี้ "
+"และไม่สามารถย้อนกลับได้"
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "ตารางการใช้ห้อง"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "ตารางเรียนวันนี้"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "สิทธิ์ทดลองใช้"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "ทดลองใช้ — เหลืออีก {count} วัน"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "แก้ไขปัญหาโดยดูแอปในมุมมองของผู้ใช้อื่น"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "ครูประจำชั้นคนที่ 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "ประเภท *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "ต้องระบุประเภทและชื่อ"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "พิมพ์อย่างน้อย 2 ตัวอักษร"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "ประเภท รหัสประเทศ หมายเลข"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "ยกเลิกการลงทะเบียนของ {name} ในปีการศึกษานี้หรือไม่?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "ไม่ทราบปี"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "ไม่ได้ใช้"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "ใช้จัดกลุ่มบุคลากรในทำเนียบบุคลากร"
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "สร้างผู้ใช้สำเร็จ"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "อัปเดตผู้ใช้สำเร็จ"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "ผู้ใช้: เข้าสู่ระบบได้"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "ผู้ใช้: เข้าสู่ระบบไม่สำเร็จ"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "ผู้ใช้: สถานะ"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "ชื่อผู้ใช้ *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "ชื่อผู้ใช้นี้มีผู้ใช้แล้ว"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "ใช้ชื่อผู้ใช้นี้ได้"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"บทเรียนวิดีโอ: ห้องเรียนออนไลน์ใช้บริการวิดีโอที่โรงเรียนเลือก "
+"(ค่าเริ่มต้นคือบริการ Jitsi Meet สาธารณะ)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "ดูการมาเรียน"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "ดูตารางเรียนทั้งหมด"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "ดูคะแนน"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "ดูปฏิทินการบ้าน"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "ดูตารางเรียน"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "ดูและจัดการห้องประจำชั้น"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "ดูคะแนนของกลุ่มเรียน"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "ดูครอบครัว ผู้ติดต่อ และบุตร"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "ดูแผนการสอนของกลุ่มเรียนนี้"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "ดูนักเรียนในกลุ่มเรียนนี้"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "ดูคะแนนของคุณ"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "ดูรายงานผลการเรียนของคุณ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "กำลังดูในฐานะ {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "ห้องเรียนออนไลน์"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "ยินดีต้อนรับ {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "สิ่งที่แอปไม่ทำ"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "สิ่งที่แอปเก็บไว้ในอุปกรณ์นี้"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "ระดับชั้น *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"ไม่ได้กำหนดระดับชั้น/ห้องประจำชั้นที่นี่ — "
+"จะมีผลกับทุกคนจนกว่าจะกำหนดให้เสร็จบนเว็บไซต์"
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "คุณกลับมาที่บัญชีของคุณแล้ว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"คุณกำลังดูปีการศึกษา {year} ซึ่งไม่ใช่ปีปัจจุบัน "
+"ข้อมูลอาจแสดงไม่ถูกต้องทั้งหมด (เช่น "
+"นักเรียนที่ออกจากโรงเรียนไปแล้วจะไม่ปรากฏในปีก่อนๆ)"
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "คุณใช้ส่วนนี้บันทึกการบ้านของตนเองได้"
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"คุณส่งคำขอแล้ว และกำลังรอผู้ดูแลระบบตรวจสอบ คุณยังแก้ไขด้านล่างได้ "
+"แต่ข้อมูลจะยังไม่ปรากฏในระบบจนกว่าคำขอจะได้รับการดำเนินการ"
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr "คุณส่งคำขอแล้ว และกำลังรอผู้ดูแลระบบตรวจสอบ คุณยังแก้ไขด้านล่างได้"
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "ข้อมูลของคุณเป็นปัจจุบันแล้ว"
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "ข้อมูลของคุณอยู่กับโรงเรียนของคุณ"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"ชื่อผู้ใช้ล่าสุดและที่อยู่โรงเรียน 3 แห่งล่าสุดที่คุณใช้ "
+"เพื่อไม่ต้องพิมพ์ใหม่"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "สิทธิ์ของคุณและข้อสงสัย"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"โรงเรียนของคุณเป็นผู้รับผิดชอบข้อมูลส่วนบุคคลของคุณใน Gibbon หากต้องการดู "
+"แก้ไข หรือลบข้อมูล โปรดติดต่อเจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคลของโรงเรียน "
+"หากมีคำถามเกี่ยวกับตัวแอป โปรดติดต่อ {email}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "เซสชันของคุณจะเปลี่ยนเป็น {name} ({role})"
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "ปีก่อนหน้า"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "แอปสำหรับ Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "ไม่บังคับ"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "หลัก"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "ถึง {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "ขาด {absent} จาก {total} คาบที่บันทึก"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "ขาด {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} การประเมิน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} การประเมิน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} กลุ่มเรียน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "เหลืออีก {count} คาบ · เรียนแล้ว {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "วันนี้มี {count} คาบ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} วัน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "ครบกำหนด {count} รายการ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} ห้อง"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} ครอบครัว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} รายการ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "มาสาย {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "หลังจากนี้อีก {count} คาบ · วันนี้ทั้งหมด {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} วันเรียนในภาคเรียน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} วันเรียนในปีการศึกษา"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} คาบ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "บุคลากร {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "นักเรียน {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "นักเรียนที่ลงทะเบียน {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} ครั้ง"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "ผู้ใช้ {count} คน"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count} วันที่แล้ว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count} ชม. ที่แล้ว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count} นาทีที่แล้ว"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— ไม่มี —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "มาสาย"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "มาเรียน - นอกสถานที่"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "ระหว่างเรียน"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "ปลายภาค"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "ไม่ได้จัดประเภท"
+
+# Gibbon core string: missing from its file for this language
+msgid "Apply"
+msgstr "ใช้"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "ตามห้องประจำชั้น"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "ยกเลิกกิจกรรมหรือไม่?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "กลุ่มเรียนไม่ควรมีนักเรียนน้อยกว่าจำนวนนี้"
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "รายวิชา"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due Soon"
+msgstr "ใกล้กำหนดส่ง"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "กำหนดส่ง {date} เวลา {time}"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "กำหนดส่ง {date} เวลา {time}"
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "จำนวนนักเรียนที่ลงทะเบียนไม่ควรเกินจำนวนนี้"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "ไม่ต้องจัดให้สอนแทนหรือไม่?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "การบ้านและกำหนดส่ง"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "เข้าสู่ระบบในฐานะผู้ใช้อื่น"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "เข้าสู่ระบบล่าสุด: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "เข้าสู่ระบบล่าสุด: เวลา"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "ชั้นข้อมูล"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "จำนวนรับสูงสุด"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "จำนวนรับขั้นต่ำ"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "ห้องประจำชั้นของฉัน"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "ไม่มีกำหนดส่งที่ใกล้จะถึง!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "ไม่รายงานผล"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "นอกตารางเรียน"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "ลงทะเบียนเกินจำนวน"
+
+# Gibbon core string: missing from its file for this language
+msgid "Select Students"
+msgstr "เลือกนักเรียน"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "ลงทะเบียนนักเรียนคนนี้ในรายวิชาของห้องประจำชั้นโดยอัตโนมัติหรือไม่?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "ครู"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "กลุ่มเรียนนี้ไม่มีคาบเรียน"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "ไม่มีคาบเรียนในวันนี้"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"นักเรียนคนนี้มีโรคประจำตัวที่มีความเสี่ยงระดับ {level} อย่างน้อยหนึ่งโรค"
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "ลงทะเบียนต่ำกว่าจำนวน"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Staff Data"
+msgstr "อัปเดตข้อมูลบุคลากร"
+
+# Gibbon core string: missing from its file for this language
+msgid "View Planner"
+msgstr "ดูแผนการสอน"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "เซสชันปัจจุบันของคุณจะเปลี่ยนเป็นผู้ใช้ที่เลือก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "ขาดเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "เข้าถึงข้อมูลบุตรในครอบครัวหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Child"
+msgstr "เพิ่มบุตร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "เพิ่มกลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "เพิ่มรายวิชา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "เพิ่มโรคประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "เพิ่มบุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "เพิ่มการลงทะเบียนนักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add User"
+msgstr "เพิ่มผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "สมาชิกในครอบครัวที่เป็นผู้ใหญ่"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "หลังวันที่สิ้นสุด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "ทุกกลุ่มสาระการเรียนรู้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Roles"
+msgstr "ทุกบทบาท"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "บุคลากรทั้งหมด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "นักเรียนทั้งหมด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "ทุกภาคเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "อีเมลสำรอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "ผู้ช่วยสอน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attendance"
+msgstr "การมาเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "ลงทะเบียนรายวิชาอัตโนมัติหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "ข้อมูลภูมิหลัง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Basic Information"
+msgstr "ข้อมูลพื้นฐาน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Behaviour"
+msgstr "พฤติกรรม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "ประวัติ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "สำเนาถึงครอบครัวหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "โทรได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "เข้าสู่ระบบได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "เลือกช่องนี้เพื่อเพิ่มโรคประจำตัวใหม่"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "บุตร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "ชื่อภาษาจีนหรือชื่อที่เขียนด้วยอักษรภาพอื่น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "เลือกกลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "เลือกนักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "กลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "รุ่นปี"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "กลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "ล้าง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Comment"
+msgstr "ความคิดเห็น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "บริษัทรับผิดชอบทั้งหมดหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "ผู้ติดต่อของบริษัท"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "อีเมลบริษัท"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "ประเภทค่าธรรมเนียมที่บริษัทรับผิดชอบ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "เสร็จแล้ว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "โรคประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "ชื่อโรค"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact"
+msgstr "ผู้ติดต่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "ผู้ติดต่อ 1 — ชื่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "ผู้ติดต่อ 1 — หมายเลข 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "ผู้ติดต่อ 1 — หมายเลข 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "ผู้ติดต่อ 1 — ความสัมพันธ์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "ผู้ติดต่อ 2 — ชื่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "ผู้ติดต่อ 2 — หมายเลข 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "ผู้ติดต่อ 2 — หมายเลข 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "ผู้ติดต่อ 2 — ความสัมพันธ์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "ติดต่อทางอีเมล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "ลำดับการติดต่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "กำหนดสิ่งที่ผู้ใช้ทำและเห็นได้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "ประเทศต้นทาง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "การลงทะเบียนรายวิชาตามกลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "การลงทะเบียนรายวิชาตามบุคคล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "การประเมินโดยเพื่อน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Access?"
+msgstr "เข้าถึงข้อมูลได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "อัปเดตข้อมูล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updates"
+msgstr "การอัปเดตข้อมูล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "ข้อมูลที่แสดงในโปรไฟล์นักเรียนฉบับเต็ม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "ฝ่าย"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "ฝ่าย"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "เหตุผลที่ออก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "หมวด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "ห้ามติดต่อทาง SMS"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "ห้ามติดต่อทางอีเมล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "ห้ามติดต่อทางโทรศัพท์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "วันกำหนดส่ง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "แก้ไขกลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "แก้ไขรายวิชา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "แก้ไขบุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "อีเมล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email?"
+msgstr "อีเมลได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "ผู้ติดต่อกรณีฉุกเฉิน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "นายจ้าง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "รอเข้าเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "นามสกุลตามบัตรประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "ตัวกรอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filters"
+msgstr "ตัวกรอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid"
+msgstr "การปฐมพยาบาล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "วันหมดอายุใบรับรองการปฐมพยาบาล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "ใบรับรองการปฐมพยาบาล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "มีใบรับรองการปฐมพยาบาลหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "ชื่อจริงตามบัตรประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "การติดตามผล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "ห้องประจำชั้น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "ปกติ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "ชื่อ-นามสกุลตามบัตรประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "ชื่อจริง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "กลุ่ม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "ลำดับในกลุ่ม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "หัวหน้าระดับชั้น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr "ครูสอนแทนที่มีลำดับสูงกว่าจะแสดงก่อนเมื่อจัดการสอนแทน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "บ้าน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "ภาษาที่ใช้ที่บ้าน - หลัก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "ภาษาที่ใช้ที่บ้าน - รอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "ภาษาที่ใช้ที่บ้าน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "คณะสี"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr "หากบริษัทที่ระบุไม่ได้ชำระค่าธรรมเนียมทั้งหมด บริษัทชำระประเภทใดบ้าง?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"ในกรณีฉุกเฉิน โปรดติดต่อสมาชิกในครอบครัวที่เป็นผู้ใหญ่ตามรายชื่อด้านล่างก่อน"
+" หากติดต่อไม่ได้ ให้ติดต่อผู้ติดต่อกรณีฉุกเฉินด้านล่าง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "รวมในแผนผังหลักสูตร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"รวมบุคลากรทั้งหมด โดยไม่คำนึงถึงสถานะ วันที่เริ่มต้น วันที่สิ้นสุด ฯลฯ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"รวมนักเรียนทั้งหมด โดยไม่คำนึงถึงสถานะและการลงทะเบียนปัจจุบัน "
+"ข้อมูลบางส่วนอาจไม่แสดง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "ความต้องการพิเศษ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice"
+msgstr "ใบแจ้งหนี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "ใบแจ้งหนี้ถึง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "ยอดรวมใบแจ้งหนี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "วันที่ออก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "ตำแหน่ง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "ล่าสุด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "วันที่มีอาการครั้งล่าสุด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "การรักษาครั้งล่าสุด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "โรงเรียนเดิม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Updated"
+msgstr "อัปเดตล่าสุด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "กลุ่มสาระการเรียนรู้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "ออก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "กลับก่อนเวลา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Legend"
+msgstr "คำอธิบายสัญลักษณ์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson"
+msgstr "คาบเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Locker Number"
+msgstr "หมายเลขล็อกเกอร์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "แก้ไขปัญหาการเข้าสู่ระบบ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "ใช้ยาประจำหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "ไปรษณีย์ได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "จัดการรายวิชาและกลุ่มเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "จัดการวันพิเศษ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "จัดการบุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "จัดการภาคเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "จัดการผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "สมุดบันทึกคะแนน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "โรคประจำตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "ยา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "รายละเอียดยา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "กระดานข้อความ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "ข้อความ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "ชื่อที่ใช้เรียกบ่อยที่สุด ชื่อเล่น ฯลฯ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "ต้องไม่ซ้ำกันในรายวิชานี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "ต้องไม่ซ้ำกันในปีการศึกษานี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "หากระบุ ต้องไม่ซ้ำกับผู้อื่น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "กลุ่มเรียนของฉัน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "ไม่มี"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "ชื่อในอักษรภาพ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Negative"
+msgstr "เชิงลบ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "โรคประจำตัวใหม่"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No"
+msgstr "ไม่"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "ยังไม่ได้เช็คชื่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "หมายเลข"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "ชื่อ-นามสกุลอย่างเป็นทางการ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Paid"
+msgstr "ชำระแล้ว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "หน้าหลักผู้ปกครอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "มาเรียนบางส่วน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pay Now"
+msgstr "ชำระเงินตอนนี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Payment Details"
+msgstr "รายละเอียดการชำระเงิน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "ข้อมูลส่วนตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "แผนการสอน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "ชื่อที่ใช้เรียก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "ไม่ต้องการความเป็นส่วนตัวหรือยังไม่ได้ตั้งค่า"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Qualifications"
+msgstr "คุณวุฒิ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reaction"
+msgstr "อาการ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "รับ SMS ที่ไม่ใช่เรื่องฉุกเฉินจากโรงเรียนหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "รับอีเมลที่ไม่ใช่เรื่องฉุกเฉินจากโรงเรียนหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "รับโทรศัพท์ที่ไม่ใช่เรื่องฉุกเฉินจากโรงเรียนหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "รับจดหมายทางไปรษณีย์จากโรงเรียนหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "ไม่ทราบความสัมพันธ์"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "นำออก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "รายงานผลการเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "รายงานผล"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "รายงานผลหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "รายงานผลการเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "จำเป็น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "การตอบสนอง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "สลับบทบาท"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "เลขที่"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "เกณฑ์การให้คะแนน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "SMS?"
+msgstr "SMS ได้หรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "ประวัติการศึกษา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "ข้อมูลการเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "ให้เรียกเก็บทุกรายการจากบริษัทที่ระบุ หรือเพียงบางรายการ?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "ส่งสำเนาอีเมลเรียกเก็บเงินถึงครอบครัวด้วยหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "เรียงตาม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "บุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "ทำเนียบบุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student"
+msgstr "นักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "นักเรียน - ออกแล้ว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "ข้อตกลงของนักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "การลงทะเบียนนักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "รหัสนักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "โปรไฟล์นักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "การบ้านที่นักเรียนบันทึก"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Students"
+msgstr "นักเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "ส่ง"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "อา."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "บุคลากรสายสนับสนุน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "สลับ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "ชื่อสำหรับเข้าสู่ระบบ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "เช็คชื่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "ครู - ออกแล้ว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "สายการสอน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Technician"
+msgstr "เจ้าหน้าที่เทคนิค"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "ภาคเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"ข้อมูลนี้ใช้เมื่อติดต่อสมาชิกในครอบครัวใกล้ชิด (เช่น พ่อแม่ คู่สมรส) ไม่ได้ "
+"โปรดหลีกเลี่ยงการระบุสมาชิกในครอบครัวใกล้ชิด"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "กำหนดการมองเห็นภายในระบบ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "คาบเรียนนี้ยังไม่มีเนื้อหา"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable"
+msgstr "ตารางเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable Admin"
+msgstr "ตั้งค่าตารางเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "คำนำหน้าชื่อ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "คาบเรียนวันนี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Total"
+msgstr "รวม"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "บันทึกการมาเรียนหรือไม่?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "สิ่งกระตุ้น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "ครูประจำชั้น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit"
+msgstr "หน่วยการเรียนรู้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "เป็นปัจจุบัน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "อัปเดตข้อมูลสุขภาพ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "อัปเดตข้อมูลส่วนตัว"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Required"
+msgstr "ต้องอัปเดต"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "ตั้งค่าผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "รูปผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "ทะเบียนรถ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "เวอร์ชัน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "ดูรายงานผลการเรียน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "ที่ทำงาน"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "ระดับชั้น"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "คุณไม่มีสิทธิ์ดำเนินการนี้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr "คุณมีหลายบทบาทในระบบ เลือกจากรายการด้านล่างเพื่อสลับบทบาท:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "นักเรียน"
