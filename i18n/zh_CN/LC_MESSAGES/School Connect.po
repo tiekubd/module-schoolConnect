@@ -2016,6 +2016,10 @@ msgid "Address Name"
 msgstr "地址名称"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "系统管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All"
 msgstr "全部"
 

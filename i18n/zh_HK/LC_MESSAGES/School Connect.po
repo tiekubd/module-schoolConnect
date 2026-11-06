@@ -2278,6 +2278,10 @@ msgid "Add User"
 msgstr "新增用戶"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "系統管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Learning Areas"
 msgstr "所有學習領域"
 
