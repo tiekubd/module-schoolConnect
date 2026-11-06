@@ -1,3 +1,4 @@
+# NOTE: zh_CN is maintained by hand since the 6 Nov 2026 second pass; running this would undo it.
 # Builds zh_CN.py from zh_HK.py: OpenCC hk2s, then mainland vocabulary and Gibbon zh_CN's own terms.
 import sys, re, importlib, pprint
 sys.path.insert(0, '.')
