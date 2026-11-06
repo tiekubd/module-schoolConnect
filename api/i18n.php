@@ -103,9 +103,9 @@ try {
     // Version: changes whenever the language or either file changes.
     clearstatcache();
     // The trailing tag changes when this endpoint's output format changes
-    // (2: whitespace tidied; 3: HTML entities decoded), so apps refetch once
-    // after an update.
-    $fingerprint = $code . '|3';
+    // (2: whitespace tidied; 3: HTML entities decoded; 4: byte-order marks
+    // removed), so apps refetch once after an update.
+    $fingerprint = $code . '|4';
     foreach ($files as $path) {
         $fingerprint .= '|' . (is_file($path) ? filemtime($path) . ':' . filesize($path) : '-');
     }
@@ -168,9 +168,11 @@ try {
  * spaces (before ":" or "!") stay. HTML entities become their characters,
  * with or without the closing semicolon as browsers allow (Gibbon's it_IT
  * has "Et&agrave" for "Età"); an "&" that is not an entity is left alone.
+ * Byte-order marks (U+FEFF) are removed.
  */
 function gibbonConnectTidy(string $msgid, string $text): string
 {
+    $text = str_replace("\u{FEFF}", '', $text);   // byte-order marks (Gibbon's ar_SA has some)
     if (strpos($text, '&') !== false && !preg_match('/&#?[a-zA-Z0-9]+;?/', $msgid)) {
         $text = preg_replace_callback('/&(#[0-9]+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);?/', function ($m) {
             $entity = '&' . $m[1] . ';';

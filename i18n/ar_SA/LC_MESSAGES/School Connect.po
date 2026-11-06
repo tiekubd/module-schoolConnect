@@ -2259,3 +2259,291 @@ msgstr "سيتم تبديل جلستك النشطة إلى المستخدم ال
 # Gibbon core string: missing from its file for this language
 msgid "Due at {time} on {date}"
 msgstr "موعد التسليم الساعة {time} بتاريخ {date}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "الوصول إلى بيانات أطفال الأسرة؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Activities"
+msgstr "الأنشطة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "إضافة بالغ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "إضافة شعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "بالغ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "البالغون"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Age"
+msgstr "العمر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Basic Information"
+msgstr "المعلومات الأساسية"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "إلغاء"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "الأطفال"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "اختر شعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "اختيار الطلبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "دفعة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr "يجب ألا تُدرَّس الشعبة بأقل من هذا العدد من الطلبة."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "الشعب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "كل شيء للشركة؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "اسم جهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "الرقم 1 لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "الرقم 2 لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "صلة القرابة لجهة الاتصال 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "اسم جهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "الرقم 1 لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "الرقم 2 لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "صلة القرابة لجهة الاتصال 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "المقاطعة، الولاية، الحي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "الالتحاق بالمنهج حسب الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "سبب المغادرة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "يستحق قريبًا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "تعديل الشعبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "تعديل المستخدم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "مؤهل في الإسعافات الأولية؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "توليد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "الاسم الأول"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "أولوية التجميع"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "لغات المنزل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Impersonate User"
+msgstr "الدخول باسم مستخدم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"في حالات الطوارئ، يرجى محاولة التواصل أولًا مع أفراد الأسرة البالغين "
+"المدرجين أدناه. إذا تعذر الوصول إليهم، فحاول التواصل مع جهات اتصال الطوارئ "
+"أدناه."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"يشمل جميع الموظفين، بغض النظر عن الحالة وتاريخ البدء وتاريخ الانتهاء وما إلى"
+" ذلك."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "الأخير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "علاج آخر نوبة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "المدرسة الأخيرة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Locker Number"
+msgstr "رقم الخزانة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "دواء طويل الأمد؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "بريد ورقي؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "إدارة المناهج والشعب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "إدارة السنوات الدراسية"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "الحد الأقصى للالتحاق"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "حائط الرسائل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "الحد الأدنى للالتحاق"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "شعبي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Form Group"
+msgstr "صفي الدراسي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Reportable"
+msgstr "غير مدرج في التقارير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "الرقم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "شخصي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "صلة القرابة غير معروفة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "إزالة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "مدرج في التقارير"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "مدرج في التقارير؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "تبديل الدور"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "السجل الدراسي"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "هل يجب فوترة جميع البنود إلى الشركة المحددة، أم بعضها فقط؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "الإخوة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no lessons for this class."
+msgstr "لا توجد دروس لهذه الشعبة."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "لدى هذا الطالب حالة طبية واحدة أو أكثر بمستوى خطورة {level}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "تتبع الحضور؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "التحاق دون الحد الأدنى"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "الشقة، المبنى، الشارع"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "الإصدار"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "عرض التقارير"

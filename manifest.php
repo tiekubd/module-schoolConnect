@@ -118,7 +118,12 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
                           // whitespace in Gibbon's translations the way a browser
                           // shows them (stray line breaks, double spaces, HTML entities
-                          // such as it_IT's "Et&agrave"). No schema
+                          // such as it_IT's "Et&agrave", and byte-order marks). Gibbon's
+                          // own translations of the strings the app uses were
+                          // reviewed line by line for every language: casing made
+                          // consistent, mistranslations corrected for the app (e.g.
+                          // de "Formulargruppe" -> "Stammgruppe", zh_HK contact 2
+                          // labels that said contact 1); see each .po's comments. No schema
                           // change, so no CHANGEDB.php entry.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

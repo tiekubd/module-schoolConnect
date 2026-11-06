@@ -175,7 +175,7 @@ msgstr "Wählen Sie oben eine Klasse"
 
 #: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
-msgstr "Beliebige Formulargruppe wählen"
+msgstr "Beliebige Stammgruppe wählen"
 
 #: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
@@ -187,7 +187,7 @@ msgstr "Wählen Sie zuerst mindestens eine/n Schüler/in"
 
 #: lib/screens/attendance_menu_screen.dart:84
 msgid "Choose one of your Form Groups"
-msgstr "Eine Ihrer Formulargruppen wählen"
+msgstr "Eine Ihrer Stammgruppen wählen"
 
 #: lib/screens/student_attendance_screen.dart:205
 msgid "Class Absences"
@@ -290,7 +290,7 @@ msgstr "Benutzername konnte nicht erzeugt werden"
 
 #: lib/screens/form_groups_screen.dart:41
 msgid "Could not load Form Groups"
-msgstr "Formulargruppen konnten nicht geladen werden"
+msgstr "Stammgruppen konnten nicht geladen werden"
 
 #: lib/screens/parent_dashboard_screen.dart:386
 msgid "Could not load activities"
@@ -692,7 +692,7 @@ msgstr "Vorname wie im Ausweis"
 #: lib/screens/student_enrolment_edit_screen.dart:225
 #: lib/screens/user_edit_screen.dart:694
 msgid "Form Group *"
-msgstr "Formulargruppe *"
+msgstr "Stammgruppe *"
 
 #: lib/screens/data_family_edit_screen.dart:190
 msgid "Formal name to address parents with"
@@ -888,7 +888,7 @@ msgstr "Muss eindeutig sein, falls angegeben"
 #: lib/screens/dashboard_screen.dart:804
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
-msgstr "Meine Formulargruppen"
+msgstr "Meine Stammgruppen"
 
 #: lib/screens/course_detail_screen.dart:298
 #: lib/screens/course_manage_list_screen.dart:232
@@ -897,7 +897,7 @@ msgstr "Name und Kurzname sind erforderlich"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
-msgstr "Keine Formulargruppen gefunden"
+msgstr "Keine Stammgruppen gefunden"
 
 #: lib/screens/course_manage_list_screen.dart:143
 msgid "No Learning Area"
@@ -1218,7 +1218,7 @@ msgstr "Bitte wählen Sie eine Art"
 #: lib/screens/student_enrolment_edit_screen.dart:134
 #: lib/screens/user_edit_screen.dart:393
 msgid "Please select a Year Group and Form Group"
-msgstr "Bitte wählen Sie Jahrgangsstufe und Formulargruppe"
+msgstr "Bitte wählen Sie Jahrgangsstufe und Stammgruppe"
 
 #: lib/screens/person_enrolment_screen.dart:200
 msgid "Please select a class and a role"
@@ -1726,7 +1726,7 @@ msgstr "Stundenplan ansehen"
 
 #: lib/screens/dashboard_screen.dart:806
 msgid "View and manage Form Groups"
-msgstr "Formulargruppen ansehen und verwalten"
+msgstr "Stammgruppen ansehen und verwalten"
 
 #: lib/screens/class_detail_screen.dart:240
 msgid "View class grades"
@@ -1784,8 +1784,8 @@ msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
 msgstr ""
-"Die Zuordnung zu Jahrgangsstufen/Formulargruppen wird hier nicht festgelegt "
-"— bis sie auf der Website ergänzt ist, gilt dies allgemein."
+"Die Zuordnung zu Jahrgangsstufen/Stammgruppen wird hier nicht festgelegt — "
+"bis sie auf der Website ergänzt ist, gilt dies allgemein."
 
 #: lib/screens/impersonation_banner.dart:75
 msgid "You are back in your own account."
@@ -2100,7 +2100,7 @@ msgstr "Anwenden"
 
 # Gibbon core string: missing from its file for this language
 msgid "By Form Group"
-msgstr "Nach Formulargruppe"
+msgstr "Nach Stammgruppe"
 
 # Gibbon core string: missing from its file for this language
 msgid "Cancel Activities?"
@@ -2164,7 +2164,7 @@ msgstr "Minimale Einschreibung"
 
 # Gibbon core string: missing from its file for this language
 msgid "My Form Group"
-msgstr "Meine Formulargruppe"
+msgstr "Meine Stammgruppe"
 
 # Gibbon core string: missing from its file for this language
 msgid "No upcoming due dates!"
@@ -2191,7 +2191,7 @@ msgid ""
 "Should this student be automatically enrolled in courses for their Form "
 "Group?"
 msgstr ""
-"Soll diese/r Schüler/in automatisch in die Kurse der eigenen Formulargruppe "
+"Soll diese/r Schüler/in automatisch in die Kurse der eigenen Stammgruppe "
 "eingeschrieben werden?"
 
 # Gibbon core string: missing from its file for this language
@@ -2222,3 +2222,452 @@ msgstr "Ihre aktive Sitzung wird zur ausgewählten Person gewechselt."
 # Gibbon core string: missing from its file for this language
 msgid "Due at {time} on {date}"
 msgstr "Fällig um {time} am {date}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "Erwachsenen hinzufügen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Erkrankung hinzufügen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Mitarbeiter/in hinzufügen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Adressname"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Automatisch in Kurse einschreiben?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "Familie in CC?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Abschlussjahrgang"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "Zurücksetzen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Address"
+msgstr "Firmenadresse"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Alles an die Firma?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "Ansprechperson der Firma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Name"
+msgstr "Firmenname"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Phone"
+msgstr "Firmentelefon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Erkrankung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Name der Erkrankung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "Name von Kontakt 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "Nummer 1 von Kontakt 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "Nummer 2 von Kontakt 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "Beziehung von Kontakt 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "Name von Kontakt 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "Nummer 1 von Kontakt 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "Nummer 2 von Kontakt 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "Beziehung von Kontakt 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "Kontakt per E-Mail"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "Kontakt per Telefon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "Kontakt per SMS"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "Kontaktpriorität"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Kreis, Bundesland, Bezirk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "Datenaktualisierung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Date of Birth"
+msgstr "Geburtsdatum"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Nicht per SMS kontaktieren."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "Nicht per E-Mail kontaktieren."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "Nicht per Telefon kontaktieren."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Enrolment"
+msgstr "Einschreibung bearbeiten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Mitarbeiter/in bearbeiten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "E-Mail"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "Familienname wie im Ausweisdokument."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fee Table"
+msgstr "Gebührentabelle"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Ablauf des Erste-Hilfe-Nachweises"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "Erste-Hilfe-Ausbildung?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "Vorname wie im Ausweisdokument."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Zurücksetzen des Passworts erzwingen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "Stammgruppe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "Vollständiger Name wie im Ausweisdokument."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "Vorname"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Gruppierungspriorität"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"Vertretungen mit höherer Priorität werden bei der Buchung zuerst angezeigt."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Startseite"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "Privatadresse (Bezirk)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "Familiensprache - Primär"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "Familiensprache - Sekundär"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "Familiensprachen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Hausaufgabendetails"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "Haus"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "In Lehrplanübersicht aufnehmen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "Berufsbezeichnung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last IP Address"
+msgstr "Letzte IP-Adresse"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Hilfe bei Anmeldeproblemen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Logout"
+msgstr "Abmelden"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "Langzeitmedikation?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "Post?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage"
+msgstr "Verwaltung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Kurse und Klassen verwalten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Mitarbeiter/innen verwalten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Erkrankungen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "Medikation"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "Details zur Medikation"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Muss für diesen Kurs eindeutig sein."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Data Updates"
+msgstr "Meine Datenaktualisierungen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Name in Schriftzeichen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Neue Erkrankung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No data"
+msgstr "Keine Daten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "Nicht erfasst"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Notes"
+msgstr "Notizen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Elternübersicht"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Priority"
+msgstr "Priorität"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy"
+msgstr "Datenschutz"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reaction"
+msgstr "Reaktion"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Beleg an"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Nicht dringende SMS von der Schule erhalten?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "Nicht dringende E-Mails von der Schule erhalten?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Nicht dringende Anrufe von der Schule erhalten?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Post von der Schule erhalten?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Zeugnisrelevant"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Zeugnisrelevant?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "Antwort"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Risk"
+msgstr "Risiko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Nummer in der Klassenliste"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "Schulschließung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Schullaufbahn"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "Sortieren nach"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Schülervereinbarungen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Schüler-ID"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "Schülerprofil"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Von Schüler/innen eingetragene Hausaufgaben"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "Unterstützung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "Anmeldename im System."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Unterricht"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Dieser Stunde sind noch keine Inhalte zugeordnet."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "Zeitänderung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Total"
+msgstr "Gesamt"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Anwesenheit erfassen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "Aktuell"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Finanzdaten aktualisieren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "Gesundheitsdaten aktualisieren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "Persönliche Daten aktualisieren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Account"
+msgstr "Benutzerkonto"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "Ansehen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"Sie haben mehrere Rollen im System. Verwenden Sie die folgende Liste, um die"
+" Rolle zu wechseln:"
