@@ -113,12 +113,15 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // (es_MX) and Dominican (es_DO) Spanish, European
                           // Portuguese (pt_PT), American English (en_US: only the
                           // strings that change, e.g. Homeroom, Behavior, Enrollment),
-                          // Italian (it_IT), Dutch (nl_NL) and Turkish (tr_TR). AI drafts pending review; they follow
+                          // Italian (it_IT), Dutch (nl_NL), Turkish (tr_TR) and
+                          // Japanese (ja_JP). AI drafts pending review; they follow
                           // Gibbon's own vocabulary for each language (e.g.
                           // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
                           // whitespace in Gibbon's translations the way a browser
                           // shows them (stray line breaks, double spaces, HTML entities
-                          // such as it_IT's "Et&agrave", and byte-order marks). Gibbon's
+                          // such as it_IT's "Et&agrave", and byte-order marks), and leaves
+                          // out any whose placeholders differ from the English (ja_JP
+                          // had "{日付}" for "{date}"), so the app shows English instead. Gibbon's
                           // own translations of the strings the app uses were
                           // reviewed line by line for every language: casing made
                           // consistent, mistranslations corrected for the app (e.g.

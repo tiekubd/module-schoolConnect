@@ -1,0 +1,2961 @@
+# School Connect: Japanese (ja_JP) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Japanese-speaking school before release.
+# Vocabulary follows Gibbon core's ja_JP file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "句読点またはスペース"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr "デバイスの安全な保存領域（iOS のキーチェーンまたは Android Keystore）に保存されるサインイン用トークン"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "このアプリについて・プライバシー"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "さらに追加"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "参加者を追加"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "宿題を追加しますか？"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "休校日の追加・編集・削除"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "ユーザーアカウントの追加・編集・削除"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "通知表での科目の並び順を調整します。"
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "保護者等の設定を更新しました"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "すべての種類"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "すべての学年"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "本日の授業 {count}コマすべて完了"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "大文字と小文字を各1文字"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "アプリのバージョン、接続先の学校、あなたのデータ"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "評価"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "数字を1文字以上"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "{count}文字以上"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "今年度の出欠"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "本日はまだ出欠が取られていません"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "行動記録を保存しました！"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "{count}人の生徒の行動記録を保存しました！"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "教職員のプロフィールを見る"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "クラス別"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "日付別"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr "カメラと写真：データ更新の申請に写真を添付する場合のみ使用します。アプリは事前に許可を求め、拒否することもできます。"
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "予約をキャンセルしますか？"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "授業をキャンセルしますか？"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "教職員の当番をキャンセルしますか？"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "新しい症状を取り消す"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "定員"
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "漢字などの文字による名前"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "上でクラスを選択してください"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "ホームルームを選択"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "担当クラスを選択"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "まず生徒を1人以上選択してください"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "担当ホームルームを選択"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "クラスの欠席"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "クラスの登録"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "クラス名簿"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr "システム管理 > モジュール管理 で、School Connect の横にある「更新」をクリックしてください。"
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "終了"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr "結合した略称「{name}」が16文字を超えています — 時間割やドロップダウンで正しく表示されない場合があります。"
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "結合した略称が16文字を超えています"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "メールアドレスをカンマ区切りで入力"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "パスワード（確認） *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "接続先の学校"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "接続中…"
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "連絡先"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "連絡先 {number} — 未登録"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr "授業のコンテンツ：先生が追加した動画や画像（YouTube など）は、開いたときにそれぞれのサイトから読み込まれます"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "アプリで全員に表示する内容を設定"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "追加できませんでした"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "保護者等を追加できませんでした"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "子どもを追加できませんでした"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "ユーザーを削除できませんでした"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "通知表をダウンロードできませんでした"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "ユーザー名を生成できませんでした"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "ホームルームを読み込めませんでした"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "活動を読み込めませんでした"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "出欠を読み込めませんでした"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "子どもを読み込めませんでした"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "クラスを読み込めませんでした"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "科目を読み込めませんでした"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "科目を読み込めませんでした"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "データを読み込めませんでした"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "データ更新を読み込めませんでした"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "曜日を読み込めませんでした"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "緊急連絡先を読み込めませんでした"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "登録を読み込めませんでした"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "登録を読み込めませんでした"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "施設を読み込めませんでした"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "家族を読み込めませんでした"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "家族を読み込めませんでした"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "家族のデータを読み込めませんでした"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "会計データを読み込めませんでした"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "フォームを読み込めませんでした"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "フォームのデータを読み込めませんでした"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "成績を読み込めませんでした"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "宿題を読み込めませんでした"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "宿題カレンダーを読み込めませんでした"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "請求書を読み込めませんでした"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "請求書を読み込めませんでした"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "授業を読み込めませんでした"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "授業を読み込めませんでした"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "成績簿を読み込めませんでした"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "全体時間割を読み込めませんでした"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "医療データを読み込めませんでした"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "メッセージを読み込めませんでした"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "通知を読み込めませんでした"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "パスワードのルールを読み込めませんでした"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "人物を読み込めませんでした"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "個人データを読み込めませんでした"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "個人情報を読み込めませんでした"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "プロフィールを読み込めませんでした"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "通知表を読み込めませんでした"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "通知表を読み込めませんでした"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "役割を読み込めませんでした"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "名簿を読み込めませんでした"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "年度を読み込めませんでした"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "設定を読み込めませんでした"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "特別日を読み込めませんでした"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "教職員を読み込めませんでした"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "教職員のデータを読み込めませんでした"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "生徒を読み込めませんでした"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "学期を読み込めませんでした"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "時間割を読み込めませんでした"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "時間割を読み込めませんでした"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "ユーザーを読み込めませんでした"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "ユーザーを読み込めませんでした"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "お子さまの情報を読み込めませんでした"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "支払いページを開けませんでした"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "ビデオ通話を開けませんでした"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "外せませんでした"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "パスワードをリセットできませんでした"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "保存できませんでした"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "出欠を保存できませんでした"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "保存できなかった生徒：{names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "設定を保存できませんでした"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "ユーザーを保存できませんでした"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "このユーザーとしてログインできませんでした"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "更新を送信できませんでした"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "役割を切り替えられませんでした"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "年度を切り替えられませんでした"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "更新できませんでした"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "出身国"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "代行の優先度"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "紐づく教職員記録を作成"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "紐づく生徒の登録を作成"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "今年度"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "欠席日数"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "出席日数"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "クラスを削除"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "科目を削除"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "特別日を削除"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "ユーザーを削除"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "開発：High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "完了"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "提出期限"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "提出期限と詳細は必須です。"
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "編集可"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "メール：重複不可"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "登録できる学年"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "既存の生徒を現在の年度に登録"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "身分証明書に記載の姓"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "先に名、姓、呼び名、主な役割を入力してください"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "学年で絞り込み"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "名 *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "身分証明書に記載の名"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "ホームルーム *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "保護者への正式な呼び方"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "身分証明書に記載の氏名"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "決済代行"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "性別 *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr "Gibbon™ は Gibbon Education Ltd.（香港）の商標であり、許可を得て使用しています。"
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "Google でのサインイン（学校が採用し、あなたが選んだ場合のみ）"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "成績"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "数字が大きいほど、グループ内で上位に表示されます。"
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr "赤色：'Full' と設定されているが、開始日／終了日の範囲外。"
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "休日"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "宿題カレンダー"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "提出予定の宿題"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "宿題を削除しました。"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "宿題を保存しました。"
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"「家族」を選ぶと、今後の請求書はご家族の連絡設定に従って送られます。「会社」を選ぶと、費用の全部または一部を指定の会社が負担するよう設定できます。"
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "ユーザーとしてログイン"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr "ユーザーとしてのログインには、学校のサーバーに School Connect モジュール 1.16.09 以降が必要です。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "インストール済みのバージョンは {version} です。"
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr "2時間で終了します。早く戻るには、画面上部の「自分のアカウントに戻る」を使ってください。"
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "オンライン授業に参加"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "「オンライン授業に参加」ボタンをすべての場所で非表示にします"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "「オンライン授業に参加」ボタンを時間割と授業計画に表示します"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "直近10登校日"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "直近10登校日 — 時限ごと"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "直近20登校日"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "本日最後の授業"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "授業計画は近日対応予定です"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "ライセンス確認"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "教職員の役割を持つ人を教職員記録に紐づける"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "行動を記録"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "ログイン中のユーザー"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "ユーザーと学校の設定を管理"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "すべて既読にする"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "完了にする"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "本日の出欠を取る"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "既読にする"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "全体時間割"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "入力する場合は重複不可"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "担当ホームルーム"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "名称と略称は必須です"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "ホームルームが見つかりません"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "教科領域なし"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "記録された活動はありません"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "紐づく保護者等はいません"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"広告、分析、トラッキング、クラッシュレポート、プッシュ通知サービスは一切ありません。アプリがあなたのデータを販売・共有することはありません。"
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "子どもが見つかりません"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "紐づく子どもはいません"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "このアカウントに紐づく子どもはいません"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "クラスなし"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "クラスが見つかりません"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "本日この教室での授業はありません"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "予定されている授業はありません"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "本日予定されている授業はありません"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "まだクラスはありません"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "科目が見つかりません"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "この学期のデータはありません"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "データ更新が見つかりません"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "所属なし"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "施設が見つかりません"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "家族が見つかりません"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "登録されている家族はいません"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "家族の記録が見つかりません"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "成績はありません"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "履歴はありません"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "記録された宿題はありません。"
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "表示する請求書はありません"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "成績簿にまだ記録はありません"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "一致する結果はありません"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "通知はありません"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "まだ参加者はいません"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "人物が見つかりません"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "登録されている電話番号はありません"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "記録なし"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "まだ通知表はありません"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "今週は登校日がありません"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "教職員が見つかりません"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "今年度登録されている生徒はいません"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "生徒が見つかりません"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "この年度の学期が見つかりません"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "時間割のデータが見つかりません"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "この日の時間割はありません"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "本日の時間割はありません"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "ユーザーが見つかりません"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "通知表の対象外の参加者は通知表に表示されません。"
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "休校日"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "登校日ではありません"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "現在登録されていません"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "まだどのクラスにも登録されていません"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "未報告：School Connect モジュールを更新してください"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "本日はまだ取られていません"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr "ここではまだ対応していません — ここで登録しても科目は自動で追加されません。必要な場合は、ウェブサイトで科目の登録を完了してください。"
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "予定はありません"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "現在"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "正式な氏名 *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"学校の契約を確認するため、学校のサーバーは1日1回、自身のウェブアドレスのみを High Point に送ります。個人情報は送信されません。"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr "教職員の役割を持ち、まだ教職員として登録されていない人のみ表示します。"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "この年度に登録されていない生徒のみ表示します。"
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "開始"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "その他に表示されることがあるサービス"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "パスワード *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "パスワードを入力し、一致させてください"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "パスワードをリセットしました"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "パスワードが一致しません"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "パスワードを入力し、一致させてください"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "完全に削除"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "「{name}」とそのすべてのクラスを完全に削除しますか？"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "権限"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "人物 *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "教職員の種類を入力してください"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr "必須項目（名前、正式な氏名、性別、役割、ユーザー名）をすべて入力してください"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "種類を選択してください"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "学年とホームルームを選択してください"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "クラスと役割を選択してください"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "人物を選択してください"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "人物と役割を選択してください"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "生徒を選択してください"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr "以下の更新依頼をご確認ください。変更がない場合でも、送信するとデータが正しいことの確認になります。"
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Gibbon を使用"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "呼び名 *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "主な役割 *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "優先度1の連絡先には、常にすべての種類の連絡が届きます。"
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "有資格"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "クイックアクセス"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "プライバシーポリシー全文を読む"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "領収書番号"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "最近の出欠"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "「{name}」をカレンダーから外しますか？"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "保護者等を外す"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "子どもを外す"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "クラスを外す"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "登録を外す"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "教職員記録を外す"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "{class} の登録を外しますか？"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "クラスから外す"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "{name} を教職員から外しますか？"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "{name} をこのクラスから外しますか？"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "{name} をこの家族から外しますか？"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "通知表の PDF（表示または共有している間のみ）"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "自分のアカウントに戻る"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "役割：ログイン可"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "出席番号"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "保存できませんでした"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "{count}人分を保存しましたが、保存できなかった生徒：{names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect は、無料のオープンソース学校管理プラットフォーム Gibbon に対応したサードパーティ製アプリです。Gibbon "
+"Foundation の公式リリースではなく、Gibbon Foundation とは提携しておらず、その承認も受けていません。"
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "学校のサーバーの School Connect モジュール"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect は、学校の Gibbon "
+"システムの情報（時間割、出欠、成績、宿題、通知表、メッセージ、ご家族の情報）を表示します。アプリは暗号化された（HTTPS）接続で、学校の Gibbon"
+" サーバーにのみ直接接続します。High Point Education がこれらの情報を受け取ったり、保存したり、閲覧したりすることはありません。"
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr "開門・始業・終業・閉門の時刻はここでは設定しません — ウェブサイトで設定してください。"
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "生徒のプロフィールを検索・表示"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "科目名で検索…"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "科目名またはクラス名で検索…"
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "家族名で検索…"
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "名前またはイニシャルで検索…"
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "名前または生徒番号で検索…"
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "名前またはユーザー名で検索…"
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "名前、ユーザー名、メール、生徒番号で検索…"
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "クラスを検索…"
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "教室を検索…"
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "生徒を検索…"
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "生徒を選択"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "今年度「外出」と記録された授業"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "共有"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"サインアウトすると、サインイン用トークン、ユーザー名、ダウンロードした通知表が削除されます。アプリをアンインストールすると、それ以外もすべて削除されます。"
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "教職員プロフィール"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "教職員の種類 *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "教職員記録を作成しました"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "生徒 *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "生徒一覧"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "生徒を登録しました"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "送信済み"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "姓 *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "役割を切り替え"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "年度を切り替え"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "このクラスの出欠を取る"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "取得済み"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "{time} に取得"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "本日 {time} に取得。タップして確認・変更"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "タップして編集"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr "他のユーザーとしてのログインは2時間で終了しました。自分のアカウントに戻りました。"
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "学校が家族に連絡する順番。"
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "この人のユーザーアカウントには影響しません。"
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "表示するメッセージはありません。"
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "時間割への影響："
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr "これらのクラスの登録と時間割のデータもすべて削除されます。元に戻すことはできません。"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "元に戻すことはできません。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr "このクラスは {date} に予定されていません。必要に応じて出欠を保存することはできます。"
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "この人のユーザーアカウントは削除されません。"
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"このオプションを使うと、管理者はトラブル対応やテストのために、システム内の別のアカウントとしてログインできます。選択したユーザーは引き続き自分のアカウントにログイン・ログアウトできます。"
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr "このクラスの登録と時間割のデータがすべて削除されます。元に戻すことはできません。"
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "施設別の時間割"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "本日の時間割"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "試用アクセス"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "試用期間 — 残り{count}日"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "別のユーザーの表示でアプリを確認してトラブルに対応"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "担任 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "種類 *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "種類と名称は必須です"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "2文字以上入力してください"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "種類、国番号、番号"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "{name} のこの年度の登録を解除しますか？"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "不明な年度"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "未使用"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "教職員名簿で教職員をグループ分けするために使います。"
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "ユーザーを作成しました"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "ユーザーを更新しました"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "ユーザー：ログイン可"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "ユーザー：ログイン失敗回数"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "ユーザー：状態"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "ユーザー名 *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "このユーザー名は既に使われています"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "このユーザー名は使用できます"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr "ビデオ授業：オンライン授業には学校が選んだビデオサービスを使います（標準は公開の Jitsi Meet サービス）"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "出欠を見る"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "時間割全体を見る"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "成績を見る"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "宿題カレンダーを見る"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "時間割を見る"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "ホームルームの表示・管理"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "クラスの成績を見る"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "家族、連絡先、子どもを見る"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "このクラスの授業計画を見る"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "このクラスの生徒を見る"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "自分の成績を見る"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "通知表を見る"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "{name} として表示中"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "オンライン教室"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "ようこそ、{name} さん！"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "アプリが行わないこと"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "アプリがこのデバイスに保存するもの"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "学年 *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr "学年／ホームルームの対象指定はここでは設定しません — ウェブサイトで設定するまで、全体に適用されます。"
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "自分のアカウントに戻りました。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"現在の年度ではない {year} 年度を表示しています。データが正しく見えない場合があります（例：退学した生徒は過去の年度に表示されません）。"
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "ここで自分の宿題を記録できます。"
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr "申請は送信済みで、管理者の確認待ちです。以下で変更することもできますが、処理が終わるまでデータはシステムに反映されません。"
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr "申請は送信済みで、管理者の確認待ちです。以下で変更することもできます。"
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "データは最新です。"
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "あなたのデータは学校にとどまります"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr "再入力の手間を省くため、最後に使ったユーザー名と直近3件の学校アドレス"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "あなたの権利とお問い合わせ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Gibbon "
+"内の個人データは学校が管理しています。確認・訂正・削除については、学校の個人情報保護担当者にお問い合わせください。アプリ自体に関するご質問は "
+"{email} までご連絡ください。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "セッションを {name}（{role}）に切り替えます。"
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "過去の年度"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "Gibbon™ 用アプリ"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "任意"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "主"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "{time} まで"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "記録された {total} 回中 {absent} 回欠席"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "欠席 {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "評価{count}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "評価 {count}件"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count}クラス"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "残り{count}コマ · 完了{done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "本日の授業 {count}コマ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count}日"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "期限 {count}件"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count}施設"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count}家族"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count}件"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "遅刻 {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "このあと{count}コマ · 本日{total}コマ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "学期中の登校日 {count}日"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "年度中の登校日 {count}日"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count}コマ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "教職員 {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "生徒 {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "登録生徒 {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count}回"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "ユーザー {count}人"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count}日前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count}時間前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count}分前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}："
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— なし —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "出席 - 遅刻"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "出席 - 校外"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "形成的評価"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "総括的評価"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "未分類"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "活動をキャンセルしますか？"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "クラスはこの人数未満では開講しないでください。"
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "科目"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "{date} {time} 提出期限。"
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "登録はこの人数を超えないようにしてください。"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "代行の対象外にしますか？"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "ユーザーとしてログイン"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "最終ログイン：IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "最終ログイン：日時"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "レイヤー"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "最大登録人数"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "最小登録人数"
+
+# Gibbon core string: missing from its file for this language
+msgid "Must be unique for this school year."
+msgstr "この年度内で重複不可。"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "マイホームルーム"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "通知表の対象外"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "時間割外"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "定員超過"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "このクラスの授業はありません。"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "この日の授業はありません。"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "この生徒には、リスク {level} の健康上の症状が1つ以上あります。"
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "定員不足"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "現在のセッションを選択したユーザーに切り替えます。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "ホームルーム"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enrolment"
+msgstr "登録"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "まもなく期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "年度"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "担任"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "クラス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "マイクラス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attendance"
+msgstr "出欠"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Late"
+msgstr "遅刻"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "外す"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "保護者"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "教職員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Facility"
+msgstr "施設"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role"
+msgstr "役割"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Behaviour"
+msgstr "行動"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "授業計画"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "授業計画を見る"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "成績簿"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "システム管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "この操作を行う権限がありません。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "宿題と提出期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "教科領域"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "家族の子どものデータへのアクセス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add"
+msgstr "追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "保護者等を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Child"
+msgstr "子どもを追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "クラスを追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "科目を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "症状を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "特別日を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "教職員を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "生徒の登録を追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add User"
+msgstr "ユーザーを追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "保護者等"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "保護者等"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All"
+msgstr "すべて"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "すべての教科領域"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "すべての教職員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "すべての生徒"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "すべての学期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "予備のメールアドレス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assessment"
+msgstr "評価"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "科目に自動登録しますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "背景情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Basic Information"
+msgstr "基本情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "経歴"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "By Form Group"
+msgstr "ホームルーム別"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "家族に CC を送りますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "電話可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "ログイン可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "子ども"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "漢字などの文字による名前。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "クラスを選択"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "生徒を選択"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "卒業年"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "クリア"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear Filters"
+msgstr "絞り込みをクリア"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company"
+msgstr "会社"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Address"
+msgstr "会社の住所"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "すべて会社負担？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "会社のメールアドレス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "完了"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "症状"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "症状名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "連絡先1 番号1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "連絡先1 番号2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "メールで連絡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "電話で連絡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "SMS で連絡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "連絡の優先順位"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country"
+msgstr "国"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "出身国"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "郡、州・都道府県、地区"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "クラス別の科目登録"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "個人別の科目登録"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Access?"
+msgstr "データへのアクセス可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "データ更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "生徒の詳細プロフィールに表示されるデータ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Date of Birth"
+msgstr "生年月日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "退学理由"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "記述子"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Details"
+msgstr "詳細"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "電話での連絡はご遠慮ください。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "{date} {time} 提出期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "クラスを編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "科目を編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Enrolment"
+msgstr "登録を編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "特別日を編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "教職員を編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "ユーザーを編集"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "メール"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email?"
+msgstr "メール可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "勤務先"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "勤務"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "民族"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "身分証明書に記載の姓。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "絞り込み"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filters"
+msgstr "絞り込み条件"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid"
+msgstr "応急手当"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "応急手当資格の有効期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "応急手当の資格"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "応急手当の資格あり？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Name"
+msgstr "名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "身分証明書に記載の名。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "身分証明書に記載の氏名。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "General Information"
+msgstr "一般情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "生成"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "グループ分け"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "グループ分けの優先順位"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "学年主任"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr "代行を手配するとき、優先度の高い代行者が先に表示されます。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "家庭での言語 - 主"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "家庭での言語 - 副"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "家庭での言語"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "宿題の詳細"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "ハウス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice"
+msgstr "請求書"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "請求先"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "役職"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "最後の発作日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "最後の発作の処置"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Legend"
+msgstr "凡例"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson Content"
+msgstr "授業内容"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "長期服薬？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "郵便可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "科目とクラスの管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Families"
+msgstr "家族の管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "年度の管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "特別日の管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "教職員の管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "学期の管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "ユーザーの管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "健康上の症状"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "服薬"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "服薬の詳細"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "よく使う名前、別名、ニックネームなど。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "この科目内で重複不可。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "入力する場合は重複不可。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Data Updates"
+msgstr "自分のデータ更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Timetable"
+msgstr "自分の時間割"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name"
+msgstr "名前"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "漢字などの名前"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Negative"
+msgstr "ネガティブ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "新しい症状"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next"
+msgstr "次へ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No upcoming due dates!"
+msgstr "近い提出期限はありません！"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "未取得"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Notes"
+msgstr "メモ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "番号"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number 2"
+msgstr "番号2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "正式な氏名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "順番"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Paid"
+msgstr "支払済み"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "保護者ダッシュボード"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "一部"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Payment Details"
+msgstr "支払いの詳細"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "個人"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "呼び名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "出席"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Previous"
+msgstr "前へ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Priority"
+msgstr "優先度"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "プライバシー設定は不要、または未設定です。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy required:"
+msgstr "プライバシー設定が必要："
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Profession"
+msgstr "職業"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Qualifications"
+msgstr "資格"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "領収書の宛名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "学校から緊急以外の SMS を受け取りますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "学校から緊急以外のメールを受け取りますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "学校から緊急以外の電話を受けますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "学校から郵便物を受け取りますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "続柄不明"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "通知表の対象"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "通知表の対象？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "対応"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "役割の切り替え"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "出席番号"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "SMS?"
+msgstr "SMS可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "休校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "休校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "登校日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "学歴"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "学校情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "生徒を選択"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Selected"
+msgstr "選択済み"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Short Name"
+msgstr "略称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "すべての項目を指定の会社に請求しますか、それとも一部のみですか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "この生徒をホームルームの科目に自動登録しますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "きょうだい"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "教職員名簿"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Start Date"
+msgstr "開始日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "生徒の同意書"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "生徒の登録"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "生徒番号"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "生徒が記録した宿題"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Surname"
+msgstr "姓"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "出欠を取る"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "先生"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "授業担当"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "この授業にはまだ内容が登録されていません。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "時間の変更"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "敬称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "出欠を記録しますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transaction ID"
+msgstr "取引 ID"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transport"
+msgstr "通学手段"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "誘因"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "部屋番号、建物名、番地"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "最新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "家族のデータを更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "会計データを更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Required"
+msgstr "更新が必要"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "教職員のデータを更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "ユーザーの写真"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "ユーザー名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "車両ナンバー"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "請求書を見る"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "ウェブサイト"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr "システム内で複数の役割があります。下の一覧から役割を切り替えてください："
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "生徒"

@@ -104,8 +104,9 @@ try {
     clearstatcache();
     // The trailing tag changes when this endpoint's output format changes
     // (2: whitespace tidied; 3: HTML entities decoded; 4: byte-order marks
-    // removed), so apps refetch once after an update.
-    $fingerprint = $code . '|4';
+    // removed; 5: mismatched placeholders dropped), so apps refetch once
+    // after an update.
+    $fingerprint = $code . '|5';
     foreach ($files as $path) {
         $fingerprint .= '|' . (is_file($path) ? filemtime($path) . ':' . filesize($path) : '-');
     }
@@ -125,9 +126,15 @@ try {
     // the website: some carry a stray line break or double space (es_ES
     // "Due at {time} on {date}" starts with a line break), which HTML
     // collapses but the app would show as typed. See gibbonConnectTidy().
+    // A Gibbon translation whose placeholders differ from the English (ja_JP
+    // had "{日付}" for "{date}") is left out, so the app shows the English
+    // rather than text with an unfilled placeholder.
     $coreStrings = [];
     foreach ($core['strings'] ?? [] as $id => $text) {
-        $coreStrings[$id] = gibbonConnectTidy((string) $id, $text);
+        $text = gibbonConnectTidy((string) $id, $text);
+        if (gibbonConnectSamePlaceholders((string) $id, $text)) {
+            $coreStrings[$id] = $text;
+        }
     }
     $corePlurals = [];
     foreach ($core['plurals'] ?? [] as $id => $forms) {
@@ -187,4 +194,16 @@ function gibbonConnectTidy(string $msgid, string $text): string
         $text = trim($text, " \t\r\n");
     }
     return $text;
+}
+
+/**
+ * Whether a translation has the same {name} placeholders as its English text.
+ */
+function gibbonConnectSamePlaceholders(string $msgid, string $text): bool
+{
+    preg_match_all('/\{[A-Za-z0-9_]+\}/', $msgid, $a);
+    preg_match_all('/\{[^{}]+\}/u', $text, $b);
+    $a = $a[0]; $b = $b[0];
+    sort($a); sort($b);
+    return $a === $b;
 }
