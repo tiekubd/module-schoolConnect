@@ -875,7 +875,7 @@ msgstr "หากระบุ ต้องไม่ซ้ำกับผู้�
 #: lib/screens/dashboard_screen.dart:804
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
-msgstr "ห้องประจำชั้นของฉัน"
+msgstr "ห้องประจำชั้นที่ดูแล"
 
 #: lib/screens/course_detail_screen.dart:298
 #: lib/screens/course_manage_list_screen.dart:232
@@ -2210,6 +2210,10 @@ msgstr "เพิ่มการลงทะเบียนนักเรีย
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add User"
 msgstr "เพิ่มผู้ใช้"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "การดูแลระบบ"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Adult Family Members"
