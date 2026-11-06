@@ -110,8 +110,9 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // 1.16.11: More languages for the app: German (de_DE) and
                           // Spanish (es_ES) for ISU, Traditional Chinese for Hong Kong
                           // (zh_HK) for KIS, Simplified Chinese (zh_CN), Mexican
-                          // (es_MX) and Dominican (es_DO) Spanish, and European
-                          // Portuguese (pt_PT). AI drafts pending review; they follow
+                          // (es_MX) and Dominican (es_DO) Spanish, European
+                          // Portuguese (pt_PT), and American English (en_US: only the
+                          // strings that change, e.g. Homeroom, Behavior, Enrollment). AI drafts pending review; they follow
                           // Gibbon's own vocabulary for each language (e.g.
                           // Formulargruppe, Curso, Tareas). api/i18n.php now tidies
                           // whitespace in Gibbon's translations the way a browser
