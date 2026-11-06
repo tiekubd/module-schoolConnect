@@ -14,7 +14,7 @@ manual = {k: v for k, v in FINAL.items() if g.get(k) and g[k] != v}
 same = [k for k in FINAL if g.get(k) == FINAL[k]]
 print(f'gaps {len(gaps)}  manual {len(manual)}  kept as Gibbon {len(same)}')
 s = open(f'{L}.py', encoding='utf-8').read()
-s, n = re.subn(r'GAPS = \{.*?\}\n(?=\n*OVERRIDES = )', lambda m: 'GAPS = ' + pprint.pformat(gaps, width=200) + '\n', s, count=1, flags=re.S)
+s, n = re.subn(r'GAPS = \{.*?\}\n(?=(?:\n|#[^\n]*\n)*OVERRIDES = )', lambda m: 'GAPS = ' + pprint.pformat(gaps, width=200) + '\n', s, count=1, flags=re.S)
 assert n == 1, 'GAPS block not found'
 open(f'{L}.py', 'w', encoding='utf-8').write(s)
 with open(f'{L}_review.py', 'w', encoding='utf-8') as f:
