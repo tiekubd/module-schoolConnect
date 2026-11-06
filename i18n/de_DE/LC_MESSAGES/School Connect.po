@@ -2671,3 +2671,7 @@ msgid ""
 msgstr ""
 "Sie haben mehrere Rollen im System. Verwenden Sie die folgende Liste, um die"
 " Rolle zu wechseln:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Gegangen"

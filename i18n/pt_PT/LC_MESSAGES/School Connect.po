@@ -2092,10 +2092,6 @@ msgid "Not Classified"
 msgstr "Não Classificada"
 
 # Gibbon core string: missing from its file for this language
-msgid "Absent"
-msgstr "Ausente"
-
-# Gibbon core string: missing from its file for this language
 msgid "Access data on family's children?"
 msgstr "Aceder aos dados das crianças da família?"
 
@@ -2406,10 +2402,6 @@ msgid "Positive"
 msgstr "Positivo"
 
 # Gibbon core string: missing from its file for this language
-msgid "Present"
-msgstr "Presente"
-
-# Gibbon core string: missing from its file for this language
 msgid "Receipt"
 msgstr "Recibo"
 
@@ -2534,6 +2526,22 @@ msgstr "Será pedido ao utilizador no próximo início de sessão."
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "A sua sessão ativa passará para o utilizador selecionado."
+
+# Gibbon core string: missing from its file for this language
+msgid "Present"
+msgstr "Presente"
+
+# Gibbon core string: missing from its file for this language
+msgid "Absent"
+msgstr "Ausente"
+
+# Gibbon core string: missing from its file for this language
+msgid "Left"
+msgstr "Saiu"
+
+# Gibbon core string: missing from its file for this language
+msgid "Left - Early"
+msgstr "Saiu mais cedo"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Form Group"

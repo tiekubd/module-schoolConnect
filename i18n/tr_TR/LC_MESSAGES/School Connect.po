@@ -2722,3 +2722,7 @@ msgstr ""
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "students"
 msgstr "öğrenciler"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Ayrıldı - Erken"

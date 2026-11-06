@@ -2617,10 +2617,6 @@ msgid "Positive"
 msgstr "正面"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Present"
-msgstr "出席"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Previous"
 msgstr "上一個"
 
@@ -2808,3 +2804,15 @@ msgid ""
 "You have multiple roles within the system. Use the list below to switch "
 "role:"
 msgstr "你在系統中有多個角色。請使用下面的列表切換角色："
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "出席"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "離校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "早退"

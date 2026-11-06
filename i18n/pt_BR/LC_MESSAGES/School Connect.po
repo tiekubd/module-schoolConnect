@@ -2614,3 +2614,7 @@ msgstr "Site"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "students"
 msgstr "alunos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Saiu"
