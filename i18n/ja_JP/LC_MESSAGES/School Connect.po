@@ -82,7 +82,7 @@ msgstr "大文字と小文字を各1文字"
 
 #: lib/screens/dashboard_screen.dart:851
 msgid "App version, connected school and your data"
-msgstr "アプリのバージョン、接続先の学校、あなたのデータ"
+msgstr "バージョン、接続先の学校、あなたのデータ"
 
 #: lib/screens/homework_calendar_screen.dart:205
 #: lib/screens/homework_calendar_screen.dart:255
@@ -2889,6 +2889,14 @@ msgstr "時間の変更"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Title"
 msgstr "敬称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "本日の授業"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Messages"
+msgstr "本日のメッセージ"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Track Attendance?"
