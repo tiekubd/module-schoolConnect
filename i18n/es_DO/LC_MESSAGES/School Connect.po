@@ -2194,3 +2194,15 @@ msgstr "Seleccionar estudiantes"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teacher"
 msgstr "Profesor/a"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "Ver facturas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Ver planificador"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Ver informes"
