@@ -2637,3 +2637,11 @@ msgstr ""
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Your active session will be switched to the selected user."
 msgstr "Su sesión activa cambiará al usuario seleccionado."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "Mié"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "Administrar Usuarios"

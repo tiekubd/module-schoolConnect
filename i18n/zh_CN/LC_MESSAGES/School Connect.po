@@ -2234,3 +2234,7 @@ msgstr "车牌号码"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "View Planner"
 msgstr "查看计划表"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "后勤人员"

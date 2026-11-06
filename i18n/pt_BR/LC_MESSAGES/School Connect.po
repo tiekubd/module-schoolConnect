@@ -2618,3 +2618,23 @@ msgstr "alunos"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left"
 msgstr "Saiu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Aluno - Saiu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Professor - Saiu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "Previsto"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "Finanças"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Admin"
+msgstr "Administrador do Sistema"
