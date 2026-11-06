@@ -1605,14 +1605,14 @@ msgstr "Horário de Hoje"
 
 #: lib/screens/dashboard_screen.dart:530
 msgid "Trial access"
-msgstr "Acesso de avaliação"
+msgstr "Acesso de teste"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:529
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
-msgstr[0] "Avaliação — falta {count} dia"
-msgstr[1] "Avaliação — faltam {count} dias"
+msgstr[0] "Período de teste — falta {count} dia"
+msgstr[1] "Período de teste — faltam {count} dias"
 
 #: lib/screens/admin_screen.dart:167
 msgid "Troubleshoot by seeing the app as another user"

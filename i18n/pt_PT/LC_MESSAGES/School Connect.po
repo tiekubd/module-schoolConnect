@@ -1608,14 +1608,14 @@ msgstr "Horário de Hoje"
 
 #: lib/screens/dashboard_screen.dart:530
 msgid "Trial access"
-msgstr "Acesso de avaliação"
+msgstr "Acesso experimental"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:529
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
-msgstr[0] "Avaliação — falta {count} dia"
-msgstr[1] "Avaliação — faltam {count} dias"
+msgstr[0] "Período experimental — falta {count} dia"
+msgstr[1] "Período experimental — faltam {count} dias"
 
 #: lib/screens/admin_screen.dart:167
 msgid "Troubleshoot by seeing the app as another user"
@@ -2593,6 +2593,14 @@ msgstr "Fatores Desencadeantes"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Mail?"
 msgstr "Correio Postal?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role"
+msgstr "Perfil"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "Entrega em Breve"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Most common name, alias, nickname, etc."
