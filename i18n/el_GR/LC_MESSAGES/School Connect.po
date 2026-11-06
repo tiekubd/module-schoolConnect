@@ -1,0 +1,2986 @@
+# School Connect: Greek (el_GR) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Greek-speaking school before release.
+# Vocabulary follows Gibbon core's el_GR file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Ένα σημείο στίξης ή κενό"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Ένα διακριτικό σύνδεσης, που φυλάσσεται στον ασφαλή χώρο αποθήκευσης της "
+"συσκευής (iOS Keychain ή Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "Σχετικά & απόρρητο"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Προσθήκη κι άλλων"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Προσθήκη συμμετέχοντα"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Προσθήκη εργασίας για το σπίτι;"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Προσθήκη, επεξεργασία και αφαίρεση ημερών κλεισίματος"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Προσθήκη, επεξεργασία και αφαίρεση λογαριασμών χρηστών"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Καθορίζει τη σειρά των μαθημάτων στους ελέγχους προόδου."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Οι ρυθμίσεις του ενήλικα ενημερώθηκαν"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Όλοι οι τύποι"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Όλες οι τάξεις"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Το σημερινό μάθημα ολοκληρώθηκε"
+msgstr[1] "Και τα {count} σημερινά μαθήματα ολοκληρώθηκαν"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Ένα κεφαλαίο και ένα πεζό γράμμα"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "Έκδοση εφαρμογής, συνδεδεμένο σχολείο και τα δεδομένα σας"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Αξιολογήσεις"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Τουλάχιστον ένας αριθμός"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Τουλάχιστον {count} χαρακτήρας"
+msgstr[1] "Τουλάχιστον {count} χαρακτήρες"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Παρουσίες φέτος"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Δεν έχουν ληφθεί ακόμη παρουσίες σήμερα"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Η καταγραφή συμπεριφοράς αποθηκεύτηκε!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Η καταγραφή συμπεριφοράς αποθηκεύτηκε για {count} μαθητή!"
+msgstr[1] "Οι καταγραφές συμπεριφοράς αποθηκεύτηκαν για {count} μαθητές!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Περιήγηση στα προφίλ του προσωπικού"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Ανά ομάδα μαθήματος"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Ανά ημερομηνία"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Κάμερα και φωτογραφίες: μόνο όταν επιλέγετε να επισυνάψετε φωτογραφία σε "
+"αίτημα ενημέρωσης δεδομένων. Η εφαρμογή ζητά πρώτα άδεια και μπορείτε να "
+"αρνηθείτε."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Ακύρωση κρατήσεων;"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Ακύρωση μαθημάτων;"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Ακύρωση εφημεριών προσωπικού;"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Ακύρωση νέας πάθησης"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Χωρητ."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Όνομα με κινεζικά ή άλλα ιδεογράμματα"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Επιλέξτε ομάδα μαθήματος παραπάνω"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Επιλέξτε οποιοδήποτε τμήμα"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μαθήματός σας"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Επιλέξτε πρώτα τουλάχιστον έναν μαθητή"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Επιλέξτε ένα από τα τμήματά σας"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Απουσίες από μαθήματα"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Εγγραφές σε ομάδες μαθημάτων"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Κατάλογος μαθητών"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Πατήστε «Ενημέρωση» δίπλα στο School Connect στο μενού Διαχειριστής "
+"συστήματος > Διαχείριση λειτουργιών."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Κλείνει στις"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"Το συνδυασμένο σύντομο όνομα «{name}» ξεπερνά τους 16 χαρακτήρες — μπορεί να"
+" προκαλέσει προβλήματα εμφάνισης στο πρόγραμμα και στις αναπτυσσόμενες "
+"λίστες."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Το συνδυασμένο σύντομο όνομα ξεπερνά τους 16 χαρακτήρες"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Διευθύνσεις email χωρισμένες με κόμμα"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Επιβεβαίωση κωδικού *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Συνδεδεμένο σχολείο"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Σύνδεση..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Στοιχεία επικοινωνίας"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Επαφή {number} — δεν υπάρχουν στοιχεία"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Περιεχόμενο μαθημάτων: βίντεο ή εικόνες που προσθέτει ένας εκπαιδευτικός "
+"(για παράδειγμα από το YouTube) φορτώνονται από εκείνους τους ιστότοπους "
+"όταν τα ανοίγετε"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Ορίστε τι βλέπουν όλοι στην εφαρμογή"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Δεν ήταν δυνατή η προσθήκη"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Δεν ήταν δυνατή η προσθήκη ενήλικα"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Δεν ήταν δυνατή η προσθήκη παιδιού"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Δεν ήταν δυνατή η διαγραφή του χρήστη"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Δεν ήταν δυνατή η λήψη του ελέγχου προόδου"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Δεν ήταν δυνατή η δημιουργία ονόματος χρήστη"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Δεν ήταν δυνατή η φόρτωση των τμημάτων"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Δεν ήταν δυνατή η φόρτωση των δραστηριοτήτων"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Δεν ήταν δυνατή η φόρτωση των παρουσιών"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Δεν ήταν δυνατή η φόρτωση των παιδιών"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ομάδων μαθημάτων"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Δεν ήταν δυνατή η φόρτωση του μαθήματος"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Δεν ήταν δυνατή η φόρτωση των μαθημάτων"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των δεδομένων"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ενημερώσεων δεδομένων"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ημερών της εβδομάδας"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Δεν ήταν δυνατή η φόρτωση των επαφών έκτακτης ανάγκης"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Δεν ήταν δυνατή η φόρτωση της εγγραφής"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Δεν ήταν δυνατή η φόρτωση των εγγραφών"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Δεν ήταν δυνατή η φόρτωση των αιθουσών"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Δεν ήταν δυνατή η φόρτωση των οικογενειών"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Δεν ήταν δυνατή η φόρτωση της οικογένειας"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των στοιχείων της οικογένειας"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των οικονομικών στοιχείων"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Δεν ήταν δυνατή η φόρτωση της φόρμας"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των δεδομένων της φόρμας"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Δεν ήταν δυνατή η φόρτωση των βαθμών"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Δεν ήταν δυνατή η φόρτωση των εργασιών για το σπίτι"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Δεν ήταν δυνατή η φόρτωση του ημερολογίου εργασιών"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Δεν ήταν δυνατή η φόρτωση του παραστατικού"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Δεν ήταν δυνατή η φόρτωση των παραστατικών"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Δεν ήταν δυνατή η φόρτωση του μαθήματος"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Δεν ήταν δυνατή η φόρτωση των μαθημάτων"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Δεν ήταν δυνατή η φόρτωση του βαθμολογίου"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Δεν ήταν δυνατή η φόρτωση του γενικού προγράμματος"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ιατρικών στοιχείων"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Δεν ήταν δυνατή η φόρτωση των μηνυμάτων"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ειδοποιήσεων"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Δεν ήταν δυνατή η φόρτωση της πολιτικής κωδικών"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ατόμων"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των προσωπικών δεδομένων"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Δεν ήταν δυνατή η φόρτωση των προσωπικών στοιχείων"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Δεν ήταν δυνατή η φόρτωση του προφίλ"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Δεν ήταν δυνατή η φόρτωση του ελέγχου προόδου"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ελέγχων προόδου"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ρόλων"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Δεν ήταν δυνατή η φόρτωση του καταλόγου μαθητών"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Δεν ήταν δυνατή η φόρτωση των σχολικών ετών"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Δεν ήταν δυνατή η φόρτωση της ειδικής ημέρας"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Δεν ήταν δυνατή η φόρτωση του προσωπικού"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Δεν ήταν δυνατή η φόρτωση των στοιχείων προσωπικού"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Δεν ήταν δυνατή η φόρτωση των μαθητών"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Δεν ήταν δυνατή η φόρτωση των περιόδων"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Δεν ήταν δυνατή η φόρτωση του προγράμματος"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Δεν ήταν δυνατή η φόρτωση των προγραμμάτων"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Δεν ήταν δυνατή η φόρτωση του χρήστη"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Δεν ήταν δυνατή η φόρτωση των χρηστών"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Δεν ήταν δυνατή η φόρτωση των παιδιών σας"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της σελίδας πληρωμής"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Δεν ήταν δυνατό το άνοιγμα της βιντεοκλήσης"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Δεν ήταν δυνατή η αφαίρεση"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Δεν ήταν δυνατή η επαναφορά του κωδικού"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Δεν ήταν δυνατή η αποθήκευση"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Δεν ήταν δυνατή η αποθήκευση των παρουσιών"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Δεν ήταν δυνατή η αποθήκευση για: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Δεν ήταν δυνατή η αποθήκευση της ρύθμισης"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Δεν ήταν δυνατή η αποθήκευση του χρήστη"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Δεν ήταν δυνατή η σύνδεση ως αυτός ο χρήστης"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Δεν ήταν δυνατή η υποβολή της ενημέρωσης"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Δεν ήταν δυνατή η αλλαγή ρόλου"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Δεν ήταν δυνατή η αλλαγή σχολικού έτους"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Δεν ήταν δυνατή η ενημέρωση"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Χώρα καταγωγής"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Προτεραιότητα αναπλήρωσης"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Δημιουργία συνδεδεμένης εγγραφής προσωπικού"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Δημιουργία συνδεδεμένης εγγραφής μαθητή"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Τρέχον έτος"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Αρχική"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Ημέρα απουσίας"
+msgstr[1] "Ημέρες απουσίας"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Ημέρα παρουσίας"
+msgstr[1] "Ημέρες παρουσίας"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Διαγραφή ομάδας μαθήματος"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Διαγραφή μαθήματος"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Διαγραφή ειδικής ημέρας"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Διαγραφή χρήστη"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Ανάπτυξη: High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Τέλος"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Προθεσμία"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Η προθεσμία και οι λεπτομέρειες είναι υποχρεωτικές."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Επεξεργάσιμο"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "Email: πρέπει να είναι μοναδικό"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Τάξεις για εγγραφή"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Εγγραφή υπαρχόντων μαθητών στο τρέχον σχολικό έτος"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Επώνυμο όπως στα έγγραφα ταυτοποίησης"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "Συμπληρώστε πρώτα όνομα, επώνυμο, προτιμώμενο όνομα και κύριο ρόλο"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Φιλτράρισμα ανά τάξη"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Όνομα *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Όνομα όπως στα έγγραφα ταυτοποίησης"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Τμήμα *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Επίσημη προσφώνηση γονέων"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Ονοματεπώνυμο όπως στα έγγραφα ταυτοποίησης"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Πάροχος πληρωμών"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Φύλο *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Το Gibbon™ είναι εμπορικό σήμα της Gibbon Education Ltd. (Χονγκ Κονγκ) και "
+"χρησιμοποιείται με άδεια."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Σύνδεση με Google, μόνο αν το χρησιμοποιεί το σχολείο σας και την επιλέξετε"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Βαθμοί"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr ""
+"Μεγαλύτεροι αριθμοί ανεβάζουν το μέλος του προσωπικού ψηλότερα μέσα στην "
+"ομάδα του."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Με κόκκινο: σημειωμένοι ως «Ενεργοί» αλλά εκτός του διαστήματος ημερομηνιών "
+"έναρξης/λήξης."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Αργία"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Ημερολόγιο εργασιών"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "Προθεσμία εργασίας"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Η εργασία αφαιρέθηκε."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Η εργασία αποθηκεύτηκε."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Αν επιλέξετε «Οικογένεια», τα επόμενα παραστατικά θα αποστέλλονται σύμφωνα "
+"με τις προτιμήσεις επικοινωνίας της οικογένειάς σας. Αν επιλέξετε "
+"«Εταιρεία», μπορείτε να ορίσετε αν η εταιρεία θα καλύπτει όλα ή μόνο "
+"ορισμένα δίδακτρα."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Σύνδεση ως"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Η «Σύνδεση ως χρήστης» απαιτεί τη λειτουργία School Connect έκδοσης 1.16.09 "
+"ή νεότερης στον διακομιστή του σχολείου."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Η εγκατεστημένη έκδοση είναι {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Λήγει μετά από 2 ώρες. Για να επιστρέψετε νωρίτερα, πατήστε «Επιστροφή στον "
+"λογαριασμό μου» στο πάνω μέρος της οθόνης."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Συμμετοχή στην εικονική τάξη"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "Το κουμπί «Συμμετοχή στην εικονική τάξη» είναι κρυφό παντού"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr ""
+"Το κουμπί «Συμμετοχή στην εικονική τάξη» εμφανίζεται στο πρόγραμμα και στον "
+"προγραμματισμό μαθημάτων"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "Τελευταίες 10 σχολικές ημέρες"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "Τελευταίες 10 σχολικές ημέρες — ανά ώρα"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "Τελευταίες 20 σχολικές ημέρες"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Τελευταίο μάθημα της ημέρας"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Ο προγραμματισμός μαθημάτων έρχεται σύντομα"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Έλεγχος άδειας"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Σύνδεση ατόμων με ρόλο προσωπικού με την εγγραφή προσωπικού τους"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Καταγραφή συμπεριφοράς"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Συνδεδεμένος ως"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Διαχείριση χρηστών και ρυθμίσεων σχολείου"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Σήμανση όλων ως αναγνωσμένων"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Σήμανση ως ολοκληρωμένη"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Λήψη σημερινών παρουσιών"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Σήμανση ως αναγνωσμένο"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Γενικό πρόγραμμα"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Αν οριστεί, πρέπει να είναι μοναδικό"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Τα τμήματά μου"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Το όνομα και το σύντομο όνομα είναι υποχρεωτικά"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Δεν βρέθηκαν τμήματα"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Χωρίς γνωστικό αντικείμενο"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Δεν υπάρχουν δραστηριότητες"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Δεν υπάρχουν συνδεδεμένοι ενήλικες"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Χωρίς διαφημίσεις, αναλυτικά στοιχεία, παρακολούθηση, αναφορές σφαλμάτων και"
+" υπηρεσίες push ειδοποιήσεων. Η εφαρμογή δεν πουλά και δεν κοινοποιεί ποτέ "
+"τα δεδομένα σας."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Δεν βρέθηκαν παιδιά"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Δεν υπάρχουν συνδεδεμένα παιδιά"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "Δεν υπάρχουν παιδιά συνδεδεμένα με αυτόν τον λογαριασμό"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Χωρίς μάθημα"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Δεν βρέθηκαν ομάδες μαθημάτων"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Δεν υπάρχουν μαθήματα σε αυτή την αίθουσα σήμερα"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Δεν υπάρχουν προγραμματισμένα μαθήματα"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Δεν υπάρχουν προγραμματισμένα μαθήματα σήμερα"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Δεν υπάρχουν ακόμη ομάδες μαθημάτων"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Δεν βρέθηκαν μαθήματα"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Δεν υπάρχουν δεδομένα για αυτή την περίοδο"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Δεν βρέθηκαν ενημερώσεις δεδομένων"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Χωρίς τομέα"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Δεν βρέθηκαν αίθουσες"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Δεν βρέθηκαν οικογένειες"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Δεν υπάρχουν μέλη οικογένειας"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Δεν βρέθηκε εγγραφή οικογένειας"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Δεν υπάρχουν βαθμοί"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Δεν υπάρχει ιστορικό"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Δεν υπάρχουν εργασίες για το σπίτι."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Δεν υπάρχουν παραστατικά"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Δεν υπάρχουν ακόμη καταχωρίσεις στο βαθμολόγιο"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Δεν υπάρχουν ειδοποιήσεις"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Δεν υπάρχουν ακόμη συμμετέχοντες"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Δεν βρέθηκαν άτομα"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Δεν υπάρχει τηλέφωνο"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Δεν υπάρχει εγγραφή"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Δεν υπάρχουν ακόμη έλεγχοι προόδου"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Δεν υπάρχουν σχολικές ημέρες αυτή την εβδομάδα"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Δεν βρέθηκε προσωπικό"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Δεν υπάρχουν εγγεγραμμένοι μαθητές φέτος"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Δεν βρέθηκαν μαθητές"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Δεν βρέθηκαν περίοδοι για αυτό το σχολικό έτος"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Δεν βρέθηκαν δεδομένα προγράμματος"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Δεν υπάρχει πρόγραμμα για αυτή την ημέρα"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Δεν υπάρχει πρόγραμμα για σήμερα"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Δεν βρέθηκαν χρήστες"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr ""
+"Οι συμμετέχοντες που εξαιρούνται από τους ελέγχους προόδου δεν εμφανίζονται "
+"σε αυτούς."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Μη σχολική ημέρα"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Μη σχολική ημέρα"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Δεν είναι εγγεγραμμένος αυτή τη στιγμή"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Δεν έχει εγγραφεί ακόμη σε καμία ομάδα μαθήματος"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Δεν αναφέρεται: ενημερώστε τη λειτουργία School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Δεν έχουν ληφθεί ακόμη σήμερα"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Δεν είναι ακόμη διαθέσιμο εδώ — η εγγραφή εδώ δεν προσθέτει αυτόματα "
+"μαθήματα. Αν χρειάζεται, ολοκληρώστε την εγγραφή σε μαθήματα στον ιστότοπο."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Τίποτα προγραμματισμένο"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Τώρα"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Επίσημο ονοματεπώνυμο *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Μία φορά την ημέρα, ο διακομιστής του σχολείου σας στέλνει στην High Point "
+"μόνο τη διεύθυνση του ιστότοπού του, για να επιβεβαιωθεί η συνδρομή του "
+"σχολείου. Δεν αποστέλλονται προσωπικά δεδομένα."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Περιλαμβάνει μόνο άτομα με ρόλο προσωπικού που δεν έχουν ακόμη εγγραφή "
+"προσωπικού."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr ""
+"Περιλαμβάνει μόνο μαθητές που δεν είναι εγγεγραμμένοι σε αυτό το σχολικό "
+"έτος."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Ανοίγει στις"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Άλλες υπηρεσίες που μπορεί να δείτε"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Κωδικός *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Ο κωδικός πρέπει να συμπληρωθεί και να ταιριάζει"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Ο κωδικός επαναφέρθηκε"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Οι κωδικοί δεν ταιριάζουν"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Οι κωδικοί πρέπει να συμπληρωθούν και να ταιριάζουν"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Οριστική διαγραφή"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Οριστική διαγραφή του «{name}» και όλων των ομάδων του;"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Άτομο *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Συμπληρώστε τύπο προσωπικού"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Συμπληρώστε όλα τα υποχρεωτικά πεδία (όνομα, επίσημο ονοματεπώνυμο, φύλο, "
+"ρόλο, όνομα χρήστη)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Επιλέξτε τύπο"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Επιλέξτε τάξη και τμήμα"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Επιλέξτε ομάδα μαθήματος και ρόλο"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Επιλέξτε άτομο"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Επιλέξτε άτομο και ρόλο"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Επιλέξτε μαθητή"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Ελέγξτε τις απαιτούμενες ενημερώσεις παρακάτω. Ακόμη κι αν δεν έχει αλλάξει "
+"τίποτα, η υποβολή επιβεβαιώνει ότι τα στοιχεία σας είναι σωστά."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Με την υποστήριξη του Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Προτιμώμενο όνομα *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Κύριος ρόλος *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr ""
+"Οι επαφές προτεραιότητας 1 λαμβάνουν πάντα όλους τους τρόπους επικοινωνίας."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Πιστοποιημένος"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Γρήγορη πρόσβαση"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Διαβάστε την πλήρη πολιτική απορρήτου"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Αριθμός απόδειξης"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Πρόσφατες παρουσίες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Αφαίρεση του «{name}» από το ημερολόγιο;"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Αφαίρεση ενήλικα"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Αφαίρεση παιδιού"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Αφαίρεση ομάδας μαθήματος"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Αφαίρεση εγγραφής"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Αφαίρεση εγγραφής προσωπικού"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Αφαίρεση εγγραφής στο {class};"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Αφαίρεση από την ομάδα μαθήματος"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Αφαίρεση του/της {name} από το προσωπικό;"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Αφαίρεση του/της {name} από αυτή την ομάδα μαθήματος;"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Αφαίρεση του/της {name} από αυτή την οικογένεια;"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "Έλεγχοι προόδου σε PDF, μόνο όσο τους βλέπετε ή τους κοινοποιείτε"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Επιστροφή στον λογαριασμό μου"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Ρόλος: μπορεί να συνδεθεί"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Α/Α"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Η αποθήκευση απέτυχε"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Αποθηκεύτηκε για {count} άτομο, απέτυχε για: {names}"
+msgstr[1] "Αποθηκεύτηκε για {count} άτομα, απέτυχε για: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"Το School Connect είναι εφαρμογή τρίτου μέρους, συμβατή με το Gibbon, τη "
+"δωρεάν πλατφόρμα διαχείρισης σχολείων ανοιχτού κώδικα. Δεν είναι επίσημη "
+"έκδοση του Gibbon Foundation και δεν σχετίζεται με αυτό ούτε υποστηρίζεται "
+"από αυτό."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "Λειτουργία School Connect στον διακομιστή του σχολείου"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"Το School Connect εμφανίζει πληροφορίες από το σύστημα Gibbon του σχολείου "
+"σας: πρόγραμμα, παρουσίες, βαθμούς, εργασίες για το σπίτι, ελέγχους προόδου,"
+" μηνύματα και στοιχεία της οικογένειάς σας. Η εφαρμογή συνδέεται απευθείας "
+"και μόνο με τον διακομιστή Gibbon του σχολείου σας μέσω κρυπτογραφημένης "
+"σύνδεσης (HTTPS). Η High Point Education δεν λαμβάνει, δεν αποθηκεύει και "
+"δεν βλέπει αυτές τις πληροφορίες."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Οι ώρες ανοίγματος, έναρξης, λήξης και κλεισίματος του σχολείου δεν "
+"ορίζονται εδώ — συμπληρώστε τες στον ιστότοπο."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Αναζήτηση και προβολή προφίλ μαθητών"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Αναζήτηση με όνομα μαθήματος..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Αναζήτηση με όνομα μαθήματος ή ομάδας..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Αναζήτηση με όνομα οικογένειας..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Αναζήτηση με όνομα ή αρχικά..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Αναζήτηση με όνομα ή αριθμό μαθητή..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Αναζήτηση με όνομα ή όνομα χρήστη..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Αναζήτηση με όνομα, όνομα χρήστη, email, αριθμό μαθητή..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Αναζήτηση ομάδων μαθημάτων..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Αναζήτηση αιθουσών..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Αναζήτηση μαθητών..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Επιλογή μαθητή"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Ώρες που σημειώθηκαν φέτος ως απουσία"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Κοινοποίηση"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Η αποσύνδεση διαγράφει το διακριτικό σύνδεσης, το όνομα χρήστη σας και τους "
+"ελέγχους προόδου που έχετε κατεβάσει. Η απεγκατάσταση της εφαρμογής "
+"διαγράφει όλα τα υπόλοιπα."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Προφίλ προσωπικού"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Τύπος προσωπικού *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Η εγγραφή προσωπικού δημιουργήθηκε"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Μαθητής *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Λίστα μαθητών"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Ο μαθητής εγγράφηκε"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Υποβλήθηκε"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Επώνυμο *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Αλλαγή ρόλου"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Αλλαγή σχολικού έτους"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Λήψη παρουσιών για αυτή την ομάδα μαθήματος"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "Ελήφθησαν"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Ελήφθησαν στις {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για έλεγχο ή αλλαγή"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Πατήστε για επεξεργασία"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Η σύνδεση ως άλλος χρήστης έληξε μετά από 2 ώρες. Επιστρέψατε στον "
+"λογαριασμό σας."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr ""
+"Η σειρά με την οποία το σχολείο επικοινωνεί με τα μέλη της οικογένειας."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "Ο λογαριασμός χρήστη του ατόμου δεν επηρεάζεται."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Δεν υπάρχουν μηνύματα."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Αυτό επηρεάζει το πρόγραμμα:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Αφαιρούνται επίσης όλα τα δεδομένα εγγραφών και προγράμματος αυτών των "
+"ομάδων μαθημάτων. Η ενέργεια δεν αναιρείται."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "Η ενέργεια δεν αναιρείται."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Αυτή η ομάδα μαθήματος δεν έχει μάθημα στις {date}. Αν χρειάζεται, μπορείτε "
+"ακόμη να αποθηκεύσετε παρουσίες."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Ο λογαριασμός χρήστη του ατόμου δεν διαγράφεται."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Αυτή η επιλογή επιτρέπει στους διαχειριστές να συνδέονται ως άλλος "
+"λογαριασμός για αντιμετώπιση προβλημάτων και δοκιμές. Ο επιλεγμένος χρήστης "
+"μπορεί ακόμη να συνδέεται και να αποσυνδέεται από τον δικό του λογαριασμό."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Αφαιρούνται όλα τα δεδομένα εγγραφών και προγράμματος αυτής της ομάδας "
+"μαθήματος. Η ενέργεια δεν αναιρείται."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Πρόγραμμα ανά αίθουσα"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Σημερινό πρόγραμμα"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Δοκιμαστική πρόσβαση"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Δοκιμαστική περίοδος — απομένει {count} ημέρα"
+msgstr[1] "Δοκιμαστική περίοδος — απομένουν {count} ημέρες"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Αντιμετώπιση προβλημάτων βλέποντας την εφαρμογή ως άλλος χρήστης"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Υπεύθυνος τμήματος 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Τύπος *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Ο τύπος και το όνομα είναι υποχρεωτικά"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Πληκτρολογήστε τουλάχιστον 2 χαρακτήρες"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Τύπος, κωδικός χώρας, αριθμός"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Διαγραφή εγγραφής του/της {name} από αυτό το σχολικό έτος;"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Άγνωστο έτος"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Αχρησιμοποίητη"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr ""
+"Χρησιμοποιείται για την ομαδοποίηση του προσωπικού στον κατάλογο προσωπικού."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Ο χρήστης δημιουργήθηκε"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Ο χρήστης ενημερώθηκε"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Χρήστης: μπορεί να συνδεθεί"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Χρήστης: αποτυχημένες συνδέσεις"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Χρήστης: κατάσταση"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Όνομα χρήστη *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Το όνομα χρήστη χρησιμοποιείται ήδη"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Το όνομα χρήστη είναι διαθέσιμο"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Μαθήματα με βίντεο: οι εικονικές τάξεις χρησιμοποιούν την υπηρεσία βίντεο "
+"που έχει επιλέξει το σχολείο σας (προεπιλογή η δημόσια υπηρεσία Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Προβολή παρουσιών"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Προβολή πλήρους προγράμματος"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Προβολή βαθμών"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Προβολή ημερολογίου εργασιών"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Προβολή προγράμματος"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Προβολή και διαχείριση τμημάτων"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Προβολή βαθμών της ομάδας"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Προβολή οικογενειών, επαφών και παιδιών"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Προβολή σχεδίων μαθήματος για αυτή την ομάδα"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Προβολή μαθητών αυτής της ομάδας"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Δείτε τους βαθμούς σας"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Δείτε τους ελέγχους προόδου σας"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Προβολή ως {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Εικονική τάξη"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Καλώς ήρθατε, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Τι δεν κάνει η εφαρμογή"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Τι κρατά η εφαρμογή σε αυτή τη συσκευή"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Τάξη *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Οι τάξεις και τα τμήματα που αφορά δεν ορίζονται εδώ — μέχρι να συμπληρωθούν"
+" στον ιστότοπο, θα ισχύει για όλους."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Επιστρέψατε στον λογαριασμό σας."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Βλέπετε το σχολικό έτος {year}, που δεν είναι το τρέχον. Τα δεδομένα μπορεί "
+"να μην είναι απολύτως σωστά (για παράδειγμα, μαθητές που έχουν αποχωρήσει "
+"από το σχολείο δεν εμφανίζονται σε προηγούμενα έτη)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr ""
+"Σε αυτή την ενότητα μπορείτε να καταγράφετε τις δικές σας εργασίες για το "
+"σπίτι."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Έχετε ήδη υποβάλει αίτημα, το οποίο περιμένει έλεγχο από διαχειριστή. "
+"Μπορείτε ακόμη να κάνετε αλλαγές παρακάτω, αλλά τα στοιχεία σας θα "
+"εμφανιστούν στο σύστημα μόνο αφού διεκπεραιωθεί."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Έχετε ήδη υποβάλει αίτημα, το οποίο περιμένει έλεγχο από διαχειριστή. "
+"Μπορείτε ακόμη να κάνετε αλλαγές παρακάτω."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Τα στοιχεία σας είναι ενημερωμένα."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Τα δεδομένα σας μένουν στο σχολείο σας"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Το τελευταίο όνομα χρήστη σας και οι τρεις τελευταίες διευθύνσεις σχολείων "
+"που χρησιμοποιήσατε, για να μην τις πληκτρολογείτε ξανά"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Τα δικαιώματά σας και ερωτήσεις"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Υπεύθυνο για τα προσωπικά σας δεδομένα στο Gibbon είναι το σχολείο σας. Για "
+"να τα δείτε, να τα διορθώσετε ή να τα διαγράψετε, επικοινωνήστε με τον "
+"υπεύθυνο προστασίας δεδομένων του σχολείου. Για ερωτήσεις σχετικά με την "
+"ίδια την εφαρμογή: {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Η συνεδρία σας θα αλλάξει σε {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "προηγούμενο έτος"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "μια εφαρμογή για το Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "προαιρετικό"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "κύριος"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "έως {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} απουσίες σε {total} καταγεγραμμένες ώρες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} απών"
+msgstr[1] "{count} απόντες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} αξιολ."
+msgstr[1] "{count} αξιολ."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} αξιολόγηση"
+msgstr[1] "{count} αξιολογήσεις"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} ομάδα μαθήματος"
+msgstr[1] "{count} ομάδες μαθημάτων"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Απομένει {count} μάθημα · ολοκληρώθηκαν: {done}"
+msgstr[1] "Απομένουν {count} μαθήματα · ολοκληρώθηκαν: {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} μάθημα σήμερα"
+msgstr[1] "{count} μαθήματα σήμερα"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} ημέρα"
+msgstr[1] "{count} ημέρες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} προς παράδοση"
+msgstr[1] "{count} προς παράδοση"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} αίθουσα"
+msgstr[1] "{count} αίθουσες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} οικογένεια"
+msgstr[1] "{count} οικογένειες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} στοιχείο"
+msgstr[1] "{count} στοιχεία"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} καθυστέρηση"
+msgstr[1] "{count} καθυστερήσεις"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Ακόμη {count} μάθημα μετά από αυτό · σύνολο σήμερα: {total}"
+msgstr[1] "Ακόμη {count} μαθήματα μετά από αυτό · σύνολο σήμερα: {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} σχολική ημέρα στην περίοδο"
+msgstr[1] "{count} σχολικές ημέρες στην περίοδο"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} σχολική ημέρα στο σχολικό έτος"
+msgstr[1] "{count} σχολικές ημέρες στο σχολικό έτος"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} ώρα"
+msgstr[1] "{count} ώρες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} μέλος προσωπικού"
+msgstr[1] "{count} μέλη προσωπικού"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} μαθητής"
+msgstr[1] "{count} μαθητές"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} εγγεγραμμένος μαθητής"
+msgstr[1] "{count} εγγεγραμμένοι μαθητές"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} φορά"
+msgstr[1] "{count} φορές"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} χρήστης"
+msgstr[1] "{count} χρήστες"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "πριν από {count} ημ."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "πριν από {count} ώρ."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "πριν από {count} λεπ."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Κανένα —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Παρών/ούσα - Καθυστέρηση"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Παρών/ούσα - Εκτός σχολείου"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Διαμορφωτική"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Τελική"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Χωρίς κατάταξη"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Εξαίρεση από αναπληρώσεις;"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Σύνδεση ως χρήστης"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Επίπεδα"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Εκτός ελέγχων προόδου"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Εκπαιδευτικός"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Δεν υπάρχουν μαθήματα για αυτή την ομάδα."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Δεν υπάρχουν μαθήματα αυτή την ημερομηνία."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"Ο μαθητής έχει μία ή περισσότερες παθήσεις επιπέδου κινδύνου: {level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Η τρέχουσα συνεδρία σας θα αλλάξει στον επιλεγμένο χρήστη."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "Πρόσβαση στα δεδομένα των παιδιών της οικογένειας;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "Προσθήκη ενήλικα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Προσθήκη ομάδας μαθήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Προσθήκη πάθησης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "Προσθήκη ειδικής ημέρας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Προσθήκη μέλους προσωπικού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Όνομα διεύθυνσης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Διαχείριση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "Εγγραφές νέων μαθητών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "Ενήλικας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "Ενήλικα μέλη της οικογένειας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "Μετά την ημερομηνία λήξης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "Όλα τα γνωστικά αντικείμενα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "Όλες οι περίοδοι"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Αυτόματη εγγραφή σε μαθήματα;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Before Start Date"
+msgstr "Πριν την ημερομηνία έναρξης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "Βιογραφικό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "By Form Group"
+msgstr "Ανά τμήμα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "Τηλέφωνο;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "Επιλέξτε το πλαίσιο για να προσθέσετε νέα πάθηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Όνομα με κινεζικά ή άλλα ιδεογράμματα."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Επιλογή ομάδας μαθήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Ομάδα μαθήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Αποφοίτηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr ""
+"Η ομάδα δεν πρέπει να λειτουργεί με λιγότερους μαθητές από αυτόν τον αριθμό."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Ομάδες μαθημάτων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company"
+msgstr "Εταιρεία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Η εταιρεία πληρώνει όλα;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "Υπεύθυνος επικοινωνίας εταιρείας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "Email εταιρείας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Κατηγορίες διδάκτρων που καλύπτει η εταιρεία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Ολοκληρώθηκε"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Πάθηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Όνομα πάθησης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "Επιβεβαίωση κωδικού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact"
+msgstr "Επαφή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "Ορίζει τι μπορεί να βλέπει και να κάνει ένας χρήστης."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Νομός, περιφέρεια, δήμος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Εγγραφή σε μαθήματα ανά ομάδα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Εγγραφή σε μαθήματα ανά άτομο"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "Αξιολόγηση από συμμαθητές"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Δεδομένα που εμφανίζονται στο πλήρες προφίλ του μαθητή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Days of the Week"
+msgstr "Ημέρες της εβδομάδας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "Τομέας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "Τομείς"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Κατηγορία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Να μη γίνεται επικοινωνία μέσω SMS."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "Να μη γίνεται επικοινωνία μέσω email."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "Να μη γίνεται επικοινωνία μέσω τηλεφώνου."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Προθεσμία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "Προθεσμία: {date}, {time}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "Προθεσμία: {date} στις {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Επεξεργασία ομάδας μαθήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "Επεξεργασία ειδικής ημέρας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Επεξεργασία μέλους προσωπικού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "Απασχόληση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "Εθνοτική καταγωγή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "Επώνυμο όπως στα έγγραφα ταυτοποίησης."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "Οικονομικά"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Λήξη πιστοποίησης πρώτων βοηθειών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "Πιστοποίηση πρώτων βοηθειών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "Πιστοποίηση στις πρώτες βοήθειες;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Language"
+msgstr "Πρώτη γλώσσα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "Όνομα όπως στα έγγραφα ταυτοποίησης."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "Συνέχεια"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Υποχρεωτική αλλαγή κωδικού;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "Τμήμα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "Παρ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Ενεργός"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "Ονοματεπώνυμο όπως στα έγγραφα ταυτοποίησης."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "Δημιουργία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "Όνομα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "Ομάδα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Προτεραιότητα στην ομάδα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Υπεύθυνος τάξης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"Οι αναπληρωτές με υψηλότερη προτεραιότητα εμφανίζονται πρώτοι κατά τον "
+"ορισμό αναπληρώσεων."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Σπίτι"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "Διεύθυνση κατοικίας (περιοχή)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "Εργασίες για το σπίτι και προθεσμίες"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Λεπτομέρειες εργασίας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "Ομάδα σχολείου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Αν η εταιρεία δεν πληρώνει όλα τα δίδακτρα, ποιες κατηγορίες πληρώνει;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"Σε περίπτωση έκτακτης ανάγκης, επικοινωνήστε πρώτα με τα ενήλικα μέλη της "
+"οικογένειας που αναφέρονται παρακάτω. Αν δεν είναι διαθέσιμα, επικοινωνήστε "
+"με τις επαφές έκτακτης ανάγκης παρακάτω."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Συμπερίληψη στον χάρτη αναλυτικού προγράμματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Συμπερίληψη όλου του προσωπικού, ανεξάρτητα από κατάσταση, ημερομηνία "
+"έναρξης, ημερομηνία λήξης κ.λπ."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Συμπερίληψη όλων των μαθητών, ανεξάρτητα από κατάσταση και τρέχουσα εγγραφή."
+" Ορισμένα δεδομένα ενδέχεται να μην εμφανίζονται."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "Ημερομηνία έκδοσης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "Θέση εργασίας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "Τελευταία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "Ημερομηνία τελευταίου επεισοδίου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "Αντιμετώπιση τελευταίου επεισοδίου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: Time"
+msgstr "Τελευταία σύνδεση: ώρα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Updated"
+msgstr "Τελευταία ενημέρωση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "Γνωστικό αντικείμενο"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Αποχώρηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Πρόωρη αποχώρηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Legend"
+msgstr "Υπόμνημα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Locker Number"
+msgstr "Αριθμός ντουλαπιού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "Ταχυδρομείο;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Διαχείριση μαθημάτων και ομάδων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Διαχείριση ειδικών ημερών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Διαχείριση προσωπικού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "Διαχείριση χρηστών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "Μέγιστος αριθμός μαθητών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Παθήσεις"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "Πίνακας μηνυμάτων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "Μηνύματα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "Ελάχιστος αριθμός μαθητών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "Δευ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Το όνομα που χρησιμοποιείται συνήθως, χαϊδευτικό κ.λπ."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Πρέπει να είναι μοναδικό σε αυτό το μάθημα."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "Πρέπει να είναι μοναδικό σε αυτό το σχολικό έτος."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "Αν οριστεί, πρέπει να είναι μοναδικό."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Οι ομάδες μαθημάτων μου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Data Updates"
+msgstr "Οι ενημερώσεις δεδομένων μου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Form Group"
+msgstr "Το τμήμα μου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Negative"
+msgstr "Αρνητική"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Νέα πάθηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next"
+msgstr "Επόμενα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next School"
+msgstr "Επόμενο σχολείο"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No upcoming due dates!"
+msgstr "Δεν υπάρχουν προσεχείς προθεσμίες!"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "Δεν ελήφθησαν"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Off Timetable"
+msgstr "Εκτός προγράμματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "Επίσημο ονοματεπώνυμο"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "Σειρά"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Over Enrolled"
+msgstr "Υπεράριθμοι μαθητές"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Αρχική γονέα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Μερική παρουσία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Payment Details"
+msgstr "Στοιχεία πληρωμής"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "Προσωπικά"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "Προγραμματισμός μαθημάτων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Positive"
+msgstr "Θετική"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Previous"
+msgstr "Προηγούμενα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy"
+msgstr "Απόρρητο"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Απόδειξη προς"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Λήψη μη επειγόντων SMS από το σχολείο;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "Λήψη μη επειγόντων email από το σχολείο;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Λήψη μη επειγόντων τηλεφωνημάτων από το σχολείο;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Έλεγχος προόδου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Στους ελέγχους προόδου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Στους ελέγχους προόδου;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Έλεγχοι προόδου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "Υποχρεωτικό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "Αντίδραση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Risk"
+msgstr "Κίνδυνος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "Αλλαγή ρόλου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Αριθμός μητρώου τμήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Ρουμπρίκες αξιολόγησης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "Σάβ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Save"
+msgstr "Αποθήκευση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "Σχολείο κλειστό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Σχολικό ιστορικό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "Σχολικά στοιχεία"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "Επιλογή μαθητών"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "Να χρεώνονται όλα τα είδη στην εταιρεία ή μόνο ορισμένα;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "Να λαμβάνει η οικογένεια αντίγραφο των email χρέωσης;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "Να εγγραφεί ο μαθητής αυτόματα στα μαθήματα του τμήματός του;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "Αδέλφια"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "Ταξινόμηση κατά"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "Κατάλογος προσωπικού"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Συμφωνητικά μαθητή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Αριθμός μαθητή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Εργασίες που κατέγραψε ο μαθητής"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Summary"
+msgstr "Σύνοψη"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "Κυρ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "Βοηθητικό προσωπικό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "Αλλαγή"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Access"
+msgstr "Πρόσβαση στο σύστημα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "Όνομα σύνδεσης στο σύστημα."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Εκπαιδευτικός - Αποχώρησε"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "Εκπαιδευτικοί"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Εκπαιδευτικό"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"Αυτά τα στοιχεία χρησιμοποιούνται όταν δεν είναι δυνατή η επικοινωνία με τα "
+"μέλη της στενής οικογένειας (π.χ. γονέα, σύζυγο). Αποφύγετε να καταχωρίζετε "
+"εδώ μέλη της στενής οικογένειας."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "Καθορίζει την ορατότητα μέσα στο σύστημα."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Δεν έχει προστεθεί περιεχόμενο σε αυτό το μάθημα."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "Πέμ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "Αλλαγή ωραρίου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Προσφώνηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Καταγραφή παρουσιών;"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transaction ID"
+msgstr "Αριθμός συναλλαγής"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transport"
+msgstr "Μετακίνηση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "Παράγοντες πρόκλησης"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "Τρί"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Υπεύθυνος τμήματος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "Λίγοι μαθητές"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit"
+msgstr "Ενότητα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Οδός, αριθμός, διαμέρισμα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "Ενημερωμένα"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "Ενημέρωση στοιχείων οικογένειας"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Ενημέρωση οικονομικών στοιχείων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "Ενημέρωση ιατρικών στοιχείων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "Ενημέρωση προσωπικών στοιχείων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "Θα ζητηθεί από τον χρήστη στην επόμενη σύνδεση."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "Έκδοση"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Προβολή προγραμματισμού μαθημάτων"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Προβολή ελέγχων προόδου"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Ιστότοπος"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "Τετ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Τάξη"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "Δεν έχετε πρόσβαση σε αυτή την ενέργεια."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"Έχετε πολλούς ρόλους στο σύστημα. Επιλέξτε ρόλο από τη λίστα παρακάτω:"
