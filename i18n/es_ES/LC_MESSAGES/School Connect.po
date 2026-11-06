@@ -2118,3 +2118,15 @@ msgstr "Vence a las {time} del {date}"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Due on {date} at {time}."
 msgstr "Vence el {date} a las {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "Seleccionar Estudiantes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "Certificación de Primeros Auxilios"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "Vence Pronto"
