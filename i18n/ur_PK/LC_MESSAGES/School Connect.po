@@ -1,0 +1,3217 @@
+# School Connect: Urdu (ur_PK) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Urdu-speaking school before release.
+# Vocabulary follows Gibbon core's ur_PK file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Urdu\n"
+"Language: ur_PK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "کوئی رموزِ اوقاف کا نشان یا خالی جگہ"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"سائن اِن ٹوکن، جو ڈیوائس کے محفوظ اسٹوریج (iOS Keychain یا Android Keystore)"
+" میں رکھا جاتا ہے"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "ایپ کے بارے میں اور پرائیویسی"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "مزید شامل کریں"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "شریک شامل کریں"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "ہوم ورک شامل کریں؟"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "اسکول بند ہونے کے دن شامل کریں، ان میں ترمیم کریں اور ہٹائیں"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "صارف اکاؤنٹس شامل کریں، ان میں ترمیم کریں اور ہٹائیں"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "رپورٹ کارڈ میں مضامین کی ترتیب طے کرتا ہے۔"
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "بالغ کی ترتیبات اپ ڈیٹ ہو گئیں"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "تمام اقسام"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "تمام جماعتیں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "آج کا {count} پیریڈ مکمل ہو گیا"
+msgstr[1] "آج کے تمام {count} پیریڈ مکمل ہو گئے"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "ایک بڑا اور ایک چھوٹا حرف"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "ایپ کا ورژن، منسلک اسکول اور آپ کا ڈیٹا"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "جائزے"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "کم از کم ایک ہندسہ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "کم از کم {count} حرف"
+msgstr[1] "کم از کم {count} حروف"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "اس سال کی حاضری"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "آج ابھی حاضری نہیں لگی"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "رویے کا ریکارڈ محفوظ ہو گیا!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "{count} طالب علم کے لیے رویے کا ریکارڈ محفوظ ہو گیا!"
+msgstr[1] "{count} طلبہ کے لیے رویے کا ریکارڈ محفوظ ہو گیا!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "عملے کے پروفائل دیکھیں"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "کلاس کے لحاظ سے"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "تاریخ کے لحاظ سے"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"کیمرہ اور تصاویر: صرف اس وقت جب آپ ڈیٹا اپ ڈیٹ کی درخواست کے ساتھ تصویر "
+"لگانا چاہیں۔ ایپ پہلے اجازت مانگتی ہے، اور آپ انکار کر سکتے ہیں۔"
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "بکنگز منسوخ کریں؟"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "کلاسیں منسوخ کریں؟"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "عملے کی ڈیوٹی منسوخ کریں؟"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "نئی طبی حالت منسوخ کریں"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "گنجائش"
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "چینی یا کسی دوسرے رسم الخط میں نام"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "اوپر سے کلاس منتخب کریں"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "کوئی بھی سیکشن منتخب کریں"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "اپنی کوئی بھی کلاس منتخب کریں"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "پہلے کم از کم ایک طالب علم منتخب کریں"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "اپنے سیکشنز میں سے ایک منتخب کریں"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "کلاس سے غیر حاضریاں"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "کلاسوں میں داخلے"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "کلاس کی فہرست"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"سسٹم ایڈمن > Manage Modules میں School Connect کے ساتھ \"Update\" پر کلک "
+"کریں۔"
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "بند ہونے کا وقت"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"مشترکہ مختصر نام \"{name}\" 16 حروف سے لمبا ہے — یہ ٹائم ٹیبل اور ڈراپ ڈاؤن "
+"فہرستوں میں ٹھیک سے نظر نہیں آئے گا۔"
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "مشترکہ مختصر نام 16 حروف سے لمبا ہے"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "ای میل ایڈریس، کاما سے الگ کیے ہوئے"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "پاس ورڈ کی تصدیق کریں *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "منسلک اسکول"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "رابطہ ہو رہا ہے..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "رابطے کی معلومات"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "رابطہ {number} — ریکارڈ میں نہیں"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"اسباق کا مواد: استاد کی شامل کردہ ویڈیوز یا تصاویر (مثلاً YouTube) کھولنے پر"
+" انہی ویب سائٹس سے لوڈ ہوتی ہیں"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "طے کریں کہ ایپ میں سب کو کیا نظر آئے"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "شامل کرنے میں ناکام"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "بالغ کو شامل کرنے میں ناکام"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "بچے کو شامل کرنے میں ناکام"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "صارف کو حذف کرنے میں ناکام"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "رپورٹ ڈاؤن لوڈ کرنے میں ناکام"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "یوزر نیم بنانے میں ناکام"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "سیکشنز لوڈ کرنے میں ناکام"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "سرگرمیاں لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "حاضری لوڈ کرنے میں ناکام"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "بچوں کی معلومات لوڈ کرنے میں ناکام"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "کلاسیں لوڈ کرنے میں ناکام"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "مضمون لوڈ کرنے میں ناکام"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "مضامین لوڈ کرنے میں ناکام"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "ڈیٹا اپ ڈیٹس لوڈ کرنے میں ناکام"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "ہفتے کے دن لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "ہنگامی رابطے لوڈ کرنے میں ناکام"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "داخلہ لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "داخلے لوڈ کرنے میں ناکام"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "کمرے لوڈ کرنے میں ناکام"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "خاندان لوڈ کرنے میں ناکام"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "خاندان لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "خاندان کا ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "مالیاتی ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "فارم لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "فارم کا ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "گریڈز لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "ہوم ورک لوڈ کرنے میں ناکام"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "ہوم ورک کیلنڈر لوڈ کرنے میں ناکام"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "انوائس لوڈ کرنے میں ناکام"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "انوائسز لوڈ کرنے میں ناکام"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "سبق لوڈ کرنے میں ناکام"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "اسباق لوڈ کرنے میں ناکام"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "مارک بک لوڈ کرنے میں ناکام"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "ماسٹر ٹائم ٹیبل لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "طبی ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "پیغامات لوڈ کرنے میں ناکام"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "اطلاعات لوڈ کرنے میں ناکام"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "پاس ورڈ کے اصول لوڈ کرنے میں ناکام"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "افراد لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "ذاتی ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "ذاتی معلومات لوڈ کرنے میں ناکام"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "پروفائل لوڈ کرنے میں ناکام"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "رپورٹ لوڈ کرنے میں ناکام"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "رپورٹس لوڈ کرنے میں ناکام"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "رولز لوڈ کرنے میں ناکام"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "فہرست لوڈ کرنے میں ناکام"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "تعلیمی سال لوڈ کرنے میں ناکام"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "ترتیبات لوڈ کرنے میں ناکام"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "خاص دن لوڈ کرنے میں ناکام"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "عملہ لوڈ کرنے میں ناکام"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "عملے کا ڈیٹا لوڈ کرنے میں ناکام"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "طلبہ لوڈ کرنے میں ناکام"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "ٹرمز لوڈ کرنے میں ناکام"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "ٹائم ٹیبل لوڈ کرنے میں ناکام"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "ٹائم ٹیبلز لوڈ کرنے میں ناکام"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "صارف لوڈ کرنے میں ناکام"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "صارفین لوڈ کرنے میں ناکام"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "آپ کے بچوں کی معلومات لوڈ کرنے میں ناکام"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "ادائیگی کا صفحہ کھولنے میں ناکام"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "ویڈیو کال کھولنے میں ناکام"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "ہٹانے میں ناکام"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "پاس ورڈ ری سیٹ کرنے میں ناکام"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "محفوظ کرنے میں ناکام"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "حاضری محفوظ کرنے میں ناکام"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "ان کے لیے محفوظ نہیں ہو سکا: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "ترتیب محفوظ کرنے میں ناکام"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "صارف محفوظ کرنے میں ناکام"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "اس صارف کے طور پر لاگ اِن کرنے میں ناکام"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "اپ ڈیٹ جمع کرانے میں ناکام"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "رول تبدیل کرنے میں ناکام"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "تعلیمی سال تبدیل کرنے میں ناکام"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "اپ ڈیٹ کرنے میں ناکام"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "آبائی ملک"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "متبادل ڈیوٹی کی ترجیح"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "منسلک عملے کا ریکارڈ بنائیں"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "منسلک طالب علم کا داخلہ بنائیں"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "موجودہ سال"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "ہوم"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "دن غیر حاضر"
+msgstr[1] "دن غیر حاضر"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "دن حاضر"
+msgstr[1] "دن حاضر"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "کلاس حذف کریں"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "مضمون حذف کریں"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "خاص دن حذف کریں"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "صارف حذف کریں"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "تیار کردہ: High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "مکمل"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "آخری تاریخ"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "آخری تاریخ اور تفصیلات ضروری ہیں۔"
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "قابلِ ترمیم"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "ای میل: منفرد ہونا ضروری ہے"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "داخلے کے لیے جماعتیں"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "موجودہ طلبہ کو فعال تعلیمی سال میں داخل کریں"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "خاندانی نام، جیسا شناختی دستاویزات میں درج ہے"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "پہلے نام، خاندانی نام، پسندیدہ نام اور بنیادی رول درج کریں"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "جماعت کے لحاظ سے فلٹر کریں"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "نام *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "نام، جیسا شناختی دستاویزات میں درج ہے"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "سیکشن *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "والدین کو مخاطب کرنے کا رسمی نام"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "پورا نام، جیسا شناختی دستاویزات میں درج ہے"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "ادائیگی کی سروس"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "جنس *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ کمپنی Gibbon Education Ltd. (ہانگ کانگ) کا ٹریڈ مارک ہے، جو اجازت سے"
+" استعمال کیا گیا ہے۔"
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Google سائن اِن، صرف اس صورت میں جب آپ کا اسکول اسے استعمال کرے اور آپ اسے "
+"منتخب کریں"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "گریڈز"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "بڑا نمبر عملے کے رکن کو اس کے گروپ میں اوپر لے جاتا ہے۔"
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"سرخ رنگ میں: 'فعال' درج ہیں مگر آغاز اور اختتام کی تاریخوں کے دائرے سے باہر "
+"ہیں۔"
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "چھٹی"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "ہوم ورک کیلنڈر"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "ہوم ورک کی آخری تاریخیں"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "ہوم ورک ہٹا دیا گیا۔"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "ہوم ورک محفوظ ہو گیا۔"
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"اگر آپ خاندان منتخب کریں تو آئندہ انوائسز آپ کے خاندان کی رابطہ ترجیحات کے "
+"مطابق بھیجی جائیں گی۔ اگر آپ کمپنی منتخب کریں تو آپ طے کر سکتے ہیں کہ متعلقہ"
+" کمپنی تمام فیس ادا کرے یا صرف کچھ۔"
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "بطور صارف دیکھیں"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"دوسرے صارف کے طور پر دیکھنے کے لیے اسکول کے سرور پر School Connect ماڈیول "
+"1.16.09 یا نیا ورژن ضروری ہے۔"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "انسٹال شدہ ورژن {version} ہے۔"
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"یہ 2 گھنٹے بعد ختم ہو جاتا ہے۔ جلدی واپس آنے کے لیے اسکرین کے اوپر \"اپنے "
+"اکاؤنٹ میں واپس جائیں\" استعمال کریں۔"
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "ورچوئل کلاس میں شامل ہوں"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "\"ورچوئل کلاس میں شامل ہوں\" ہر جگہ سے چھپا دیا گیا ہے"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "\"ورچوئل کلاس میں شامل ہوں\" ٹائم ٹیبل اور پلانر میں نظر آتا ہے"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "پچھلے 10 تعلیمی دن"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "پچھلے 10 تعلیمی دن — پیریڈ وار"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "پچھلے 20 تعلیمی دن"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "دن کا آخری پیریڈ"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "اسباق کی منصوبہ بندی جلد آ رہی ہے"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "لائسنس کی جانچ"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "عملے کے رول والے افراد کو ان کے عملے کے ریکارڈ سے جوڑیں"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "رویہ درج کریں"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "لاگ اِن بطور"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "صارفین اور اسکول کی ترتیبات کا انتظام کریں"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "سب کو پڑھا ہوا نشان زد کریں"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "مکمل نشان زد کریں"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "آج کی حاضری لگائیں"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "پڑھا ہوا نشان زد کریں"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "ماسٹر ٹائم ٹیبل"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "اگر درج ہو تو منفرد ہونا ضروری ہے"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "میرے سیکشنز"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "نام اور مختصر نام ضروری ہیں"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "کوئی سیکشن نہیں ملا"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "کوئی لرننگ ایریا نہیں"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "کوئی سرگرمی ریکارڈ میں نہیں"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "کوئی بالغ منسلک نہیں"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"نہ اشتہارات، نہ اینالیٹکس، نہ ٹریکنگ، نہ کریش رپورٹنگ اور نہ پُش نوٹیفکیشن "
+"سروسز۔ ایپ آپ کا ڈیٹا کبھی نہ بیچتی ہے نہ کسی کو دیتی ہے۔"
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "کوئی بچہ نہیں ملا"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "کوئی بچہ منسلک نہیں"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "اس اکاؤنٹ سے کوئی بچہ منسلک نہیں"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "کوئی کلاس نہیں"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "کوئی کلاس نہیں ملی"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "آج اس کمرے میں کوئی کلاس نہیں"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "کوئی کلاس طے نہیں"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "آج کوئی کلاس طے نہیں"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "ابھی کوئی کلاس نہیں"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "کوئی مضمون نہیں ملا"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "اس ٹرم کا کوئی ڈیٹا نہیں"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "کوئی ڈیٹا اپ ڈیٹ نہیں ملی"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "کوئی شعبہ نہیں"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "کوئی کمرہ نہیں ملا"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "کوئی خاندان نہیں ملا"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "خاندان کا کوئی فرد ریکارڈ میں نہیں"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "خاندان کا کوئی ریکارڈ نہیں ملا"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "کوئی گریڈ دستیاب نہیں"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "کوئی تاریخچہ دستیاب نہیں"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "کوئی ہوم ورک درج نہیں۔"
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "دکھانے کے لیے کوئی انوائس نہیں"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "مارک بک میں ابھی کوئی اندراج نہیں"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "کوئی نتیجہ نہیں ملا"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "کوئی اطلاع نہیں"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "ابھی کوئی شریک نہیں"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "کوئی فرد نہیں ملا"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "کوئی فون نمبر ریکارڈ میں نہیں"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "کوئی ریکارڈ نہیں"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "ابھی کوئی رپورٹ دستیاب نہیں"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "اس ہفتے کوئی تعلیمی دن نہیں"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "عملے کا کوئی رکن نہیں ملا"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "اس سال کوئی طالب علم داخل نہیں"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "کوئی طالب علم نہیں ملا"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "اس تعلیمی سال کی کوئی ٹرم نہیں ملی"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "ٹائم ٹیبل کا کوئی ڈیٹا نہیں ملا"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "اس دن کا کوئی ٹائم ٹیبل نہیں"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "آج کا کوئی ٹائم ٹیبل نہیں"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "کوئی صارف نہیں ملا"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "جو شرکاء رپورٹ کے قابل نہیں وہ رپورٹس میں نظر نہیں آئیں گے۔"
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "غیر تعلیمی دن"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "تعلیمی دن نہیں"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "فی الحال داخل نہیں"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "ابھی کسی کلاس میں داخل نہیں"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "دستیاب نہیں: School Connect ماڈیول اپ ڈیٹ کریں"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "آج ابھی نہیں لگی"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"یہ سہولت یہاں ابھی موجود نہیں — یہاں داخلہ کرنے سے مضامین خود بخود شامل نہیں"
+" ہوتے۔ اگر اس طالب علم کو ضرورت ہو تو مضامین میں داخلہ ویب سائٹ پر مکمل "
+"کریں۔"
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "کچھ طے نہیں"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "ابھی"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "سرکاری نام *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"دن میں ایک بار آپ کے اسکول کا سرور اسکول کی سبسکرپشن کی تصدیق کے لیے High "
+"Point کو صرف اپنا ویب ایڈریس بتاتا ہے۔ کوئی ذاتی معلومات نہیں بھیجی جاتیں۔"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"صرف وہ افراد شامل ہیں جن کا رول عملہ ہے مگر ابھی عملے کا ریکارڈ نہیں بنا۔"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "صرف وہ طلبہ شامل ہیں جو اس تعلیمی سال میں داخل نہیں۔"
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "کھلنے کا وقت"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "دیگر سروسز جو آپ کو نظر آ سکتی ہیں"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "پاس ورڈ *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "پاس ورڈ درج کرنا اور دونوں کا ایک جیسا ہونا ضروری ہے"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "پاس ورڈ کامیابی سے ری سیٹ ہو گیا"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "پاس ورڈ ایک جیسے نہیں"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "پاس ورڈ درج کرنا اور دونوں کا ایک جیسا ہونا ضروری ہے"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "مستقل طور پر حذف کریں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "\"{name}\" اور اس کی تمام کلاسیں مستقل طور پر حذف کریں؟"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "اجازتیں"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "فرد *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "براہِ کرم عملے کی قسم درج کریں"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"براہِ کرم تمام ضروری خانے پُر کریں (نام، سرکاری نام، جنس، رول، یوزر نیم)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "براہِ کرم قسم منتخب کریں"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "براہِ کرم جماعت اور سیکشن منتخب کریں"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "براہِ کرم کلاس اور رول منتخب کریں"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "براہِ کرم فرد منتخب کریں"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "براہِ کرم فرد اور رول منتخب کریں"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "براہِ کرم طالب علم منتخب کریں"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"براہِ کرم نیچے دی گئی ضروری اپ ڈیٹس پر ایک نظر ڈال لیں۔ اگر کچھ نہ بھی بدلا "
+"ہو تو جمع کرانے سے تصدیق ہو جاتی ہے کہ آپ کا ڈیٹا درست ہے۔"
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Gibbon پر مبنی"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "پسندیدہ نام *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "بنیادی رول *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "ترجیح 1 والے رابطوں کو ہمیشہ ہر قسم کا رابطہ موصول ہوتا ہے۔"
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "تربیت یافتہ"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "فوری رسائی"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "مکمل پرائیویسی پالیسی پڑھیں"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "رسید نمبر"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "حالیہ حاضری"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "\"{name}\" کو کیلنڈر سے ہٹائیں؟"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "بالغ کو ہٹائیں"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "بچے کو ہٹائیں"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "کلاس ہٹائیں"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "داخلہ ہٹائیں"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "عملے کا ریکارڈ ہٹائیں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "{class} میں داخلہ ہٹائیں؟"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "کلاس سے ہٹائیں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "{name} کو عملے سے ہٹائیں؟"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "{name} کو اس کلاس سے ہٹائیں؟"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "{name} کو اس خاندان سے ہٹائیں؟"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr ""
+"رپورٹ کارڈ کی PDF فائلیں، صرف اس دوران جب آپ انہیں دیکھیں یا شیئر کریں"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "اپنے اکاؤنٹ میں واپس جائیں"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "رول: لاگ اِن کر سکتا ہے"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "رول نمبر"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "محفوظ نہیں ہو سکا"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "{count} فرد کے لیے محفوظ ہو گیا، مگر ان کے لیے ناکام: {names}"
+msgstr[1] "{count} افراد کے لیے محفوظ ہو گیا، مگر ان کے لیے ناکام: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect ایک تھرڈ پارٹی ایپ ہے جو Gibbon کے ساتھ کام کرتی ہے، جو اسکول"
+" مینجمنٹ کا مفت اور اوپن سورس پلیٹ فارم ہے۔ یہ Gibbon Foundation کی سرکاری "
+"ریلیز نہیں ہے، اور نہ ہی Gibbon Foundation سے منسلک ہے یا اس کی توثیق شدہ "
+"ہے۔"
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "اسکول کے سرور پر School Connect ماڈیول"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect آپ کے اسکول کے اپنے Gibbon سسٹم کی معلومات دکھاتی ہے: ٹائم "
+"ٹیبل، حاضری، گریڈز، ہوم ورک، رپورٹس، پیغامات اور آپ کے خاندان کی تفصیلات۔ "
+"ایپ خفیہ کردہ (HTTPS) کنکشن کے ذریعے براہِ راست اور صرف آپ کے اسکول کے "
+"Gibbon سرور سے جڑتی ہے۔ High Point Education یہ معلومات نہ وصول کرتی ہے، نہ "
+"محفوظ کرتی ہے اور نہ دیکھتی ہے۔"
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"اسکول کھلنے، شروع ہونے، ختم ہونے اور بند ہونے کے اوقات یہاں طے نہیں ہوتے — "
+"یہ تفصیلات ویب سائٹ پر مکمل کریں۔"
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "طلبہ کے پروفائل تلاش کریں اور دیکھیں"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "مضمون کے نام سے تلاش کریں..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "مضمون یا کلاس کے نام سے تلاش کریں..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "خاندان کے نام سے تلاش کریں..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "نام یا ابتدائی حروف سے تلاش کریں..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "نام یا اسٹوڈنٹ آئی ڈی سے تلاش کریں..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "نام یا یوزر نیم سے تلاش کریں..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "نام، یوزر نیم، ای میل، اسٹوڈنٹ آئی ڈی سے تلاش کریں..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "کلاسیں تلاش کریں..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "کمرے تلاش کریں..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "طلبہ تلاش کریں..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "طالب علم منتخب کریں"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "اس سال غیر حاضر درج پیریڈ"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "شیئر کریں"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"سائن آؤٹ کرنے سے سائن اِن ٹوکن، آپ کا یوزر نیم اور ڈاؤن لوڈ کیے گئے رپورٹ "
+"کارڈ ہٹ جاتے ہیں۔ ایپ ان انسٹال کرنے سے باقی سب کچھ ہٹ جاتا ہے۔"
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "عملے کا پروفائل"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "عملے کی قسم *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "عملے کا ریکارڈ بن گیا"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "طالب علم *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "طلبہ کی فہرست"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "طالب علم کا داخلہ کامیابی سے ہو گیا"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "جمع ہو گیا"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "خاندانی نام *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "رول تبدیل کریں"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "تعلیمی سال تبدیل کریں"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "اس کلاس کی حاضری لگائیں"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "لگ گئی"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "{time} بجے لگی"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "آج {time} بجے لگی۔ دیکھنے یا تبدیل کرنے کے لیے ٹیپ کریں"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "ترمیم کے لیے ٹیپ کریں"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"دوسرے صارف کے طور پر دیکھنا 2 گھنٹے بعد ختم ہو گیا۔ آپ اپنے اکاؤنٹ میں واپس "
+"آ گئے ہیں۔"
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "وہ ترتیب جس سے اسکول خاندان کے افراد سے رابطہ کرے۔"
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "ان کے صارف اکاؤنٹ پر کوئی اثر نہیں پڑتا۔"
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "دکھانے کے لیے کوئی پیغام نہیں۔"
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "اس کا اثر ٹائم ٹیبل پر پڑتا ہے:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"اس سے ان کلاسوں کا تمام داخلہ اور ٹائم ٹیبل ڈیٹا بھی ہٹ جائے گا۔ اسے واپس "
+"نہیں کیا جا سکتا۔"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "اسے واپس نہیں کیا جا سکتا۔"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"{date} کو اس کلاس کا پیریڈ نہیں ہے۔ ضرورت ہو تو آپ پھر بھی حاضری محفوظ کر "
+"سکتے ہیں۔"
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "اس سے ان کا صارف اکاؤنٹ حذف نہیں ہوتا۔"
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"اس آپشن سے منتظمین مسائل حل کرنے اور جانچ کے لیے سسٹم میں کسی دوسرے اکاؤنٹ "
+"کے طور پر لاگ اِن کر سکتے ہیں۔ منتخب صارف پھر بھی اپنے اکاؤنٹ میں لاگ اِن "
+"اور لاگ آؤٹ کر سکے گا۔"
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"اس سے اس کلاس کا تمام داخلہ اور ٹائم ٹیبل ڈیٹا ہٹ جائے گا۔ اسے واپس نہیں کیا"
+" جا سکتا۔"
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "کمرہ وار ٹائم ٹیبل"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "آج کا ٹائم ٹیبل"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "آزمائشی رسائی"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "آزمائشی مدت — {count} دن باقی"
+msgstr[1] "آزمائشی مدت — {count} دن باقی"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "ایپ کو کسی دوسرے صارف کی نظر سے دیکھ کر مسائل حل کریں"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "کلاس انچارج 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "قسم *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "قسم اور نام ضروری ہیں"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "کم از کم 2 حروف لکھیں"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "قسم، ملک کا کوڈ، نمبر"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "{name} کا اس تعلیمی سال سے داخلہ ختم کریں؟"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "نامعلوم سال"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "غیر استعمال شدہ"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "عملے کی ڈائریکٹری میں عملے کو گروپ کرنے کے لیے استعمال ہوتا ہے۔"
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "صارف کامیابی سے بن گیا"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "صارف کامیابی سے اپ ڈیٹ ہو گیا"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "صارف: لاگ اِن کر سکتا ہے"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "صارف: ناکام لاگ اِن"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "صارف: اسٹیٹس"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "یوزر نیم *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "یہ یوزر نیم پہلے سے لیا جا چکا ہے"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "یوزر نیم دستیاب ہے"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"ویڈیو اسباق: ورچوئل کلاسیں آپ کے اسکول کی منتخب کردہ ویڈیو سروس استعمال کرتی"
+" ہیں (بطورِ طے شدہ عوامی Jitsi Meet سروس)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "حاضری دیکھیں"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "مکمل ٹائم ٹیبل دیکھیں"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "گریڈز دیکھیں"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "ہوم ورک کیلنڈر دیکھیں"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "ٹائم ٹیبل دیکھیں"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "سیکشنز دیکھیں اور ان کا انتظام کریں"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "کلاس کے گریڈز دیکھیں"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "خاندان، رابطے اور بچے دیکھیں"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "اس کلاس کے سبق کے منصوبے دیکھیں"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "اس کلاس کے طلبہ دیکھیں"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "اپنے گریڈز دیکھیں"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "اپنے رپورٹ کارڈ دیکھیں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "بطور {name} دیکھ رہے ہیں"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "ورچوئل کلاس روم"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "خوش آمدید، {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "ایپ کیا نہیں کرتی"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "ایپ اس ڈیوائس پر کیا رکھتی ہے"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "جماعت *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"جماعت اور سیکشن کا انتخاب یہاں نہیں ہوتا — ویب سائٹ پر مکمل ہونے تک یہ سب پر"
+" لاگو ہوگا۔"
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "آپ اپنے اکاؤنٹ میں واپس آ گئے ہیں۔"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"آپ تعلیمی سال {year} دیکھ رہے ہیں جو موجودہ سال نہیں۔ ہو سکتا ہے ڈیٹا پوری "
+"طرح درست نظر نہ آئے (مثلاً جو طلبہ اسکول چھوڑ چکے ہیں وہ پچھلے سالوں میں نظر"
+" نہیں آئیں گے)۔"
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "اس حصے میں آپ اپنا ہوم ورک خود درج کر سکتے ہیں۔"
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"آپ پہلے ہی ایک درخواست جمع کرا چکے ہیں جو منتظم کے جائزے کی منتظر ہے۔ آپ اب "
+"بھی نیچے تبدیلیاں کر سکتے ہیں، لیکن کارروائی مکمل ہونے تک آپ کا ڈیٹا سسٹم "
+"میں نظر نہیں آئے گا۔"
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"آپ پہلے ہی ایک درخواست جمع کرا چکے ہیں جو منتظم کے جائزے کی منتظر ہے۔ آپ اب "
+"بھی نیچے تبدیلیاں کر سکتے ہیں۔"
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "آپ کا ڈیٹا اپ ٹو ڈیٹ ہے۔"
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "آپ کا ڈیٹا آپ کے اسکول کے پاس رہتا ہے"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"آپ کا آخری یوزر نیم اور آخری تین اسکول ایڈریس جو آپ نے استعمال کیے، تاکہ "
+"انہیں دوبارہ لکھنا نہ پڑے"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "آپ کے حقوق اور سوالات"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Gibbon میں آپ کے ذاتی ڈیٹا کی ذمہ داری آپ کے اسکول پر ہے۔ اسے دیکھنے، درست "
+"کرانے یا حذف کرانے کے لیے اپنے اسکول کے ڈیٹا پروٹیکشن آفیسر سے رابطہ کریں۔ "
+"خود ایپ کے بارے میں سوالات کے لیے {email} پر رابطہ کریں۔"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "آپ کا سیشن {name} ({role}) پر منتقل ہو جائے گا۔"
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "ایک پچھلا سال"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "Gibbon™ کے لیے ایک ایپ"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "اختیاری"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "بنیادی"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "{time} تک"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "درج شدہ {total} پیریڈز میں سے {absent} میں غیر حاضر"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} غیر حاضر"
+msgstr[1] "{count} غیر حاضر"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} جائزہ"
+msgstr[1] "{count} جائزے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} جائزہ"
+msgstr[1] "{count} جائزے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} کلاس"
+msgstr[1] "{count} کلاسیں"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "{count} پیریڈ باقی · {done} مکمل"
+msgstr[1] "{count} پیریڈ باقی · {done} مکمل"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "آج {count} پیریڈ"
+msgstr[1] "آج {count} پیریڈ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} دن"
+msgstr[1] "{count} دن"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} کی آخری تاریخ"
+msgstr[1] "{count} کی آخری تاریخ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} کمرہ"
+msgstr[1] "{count} کمرے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} خاندان"
+msgstr[1] "{count} خاندان"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} آئٹم"
+msgstr[1] "{count} آئٹمز"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} دیر سے"
+msgstr[1] "{count} دیر سے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "اس کے بعد {count} اور پیریڈ · آج کل {total}"
+msgstr[1] "اس کے بعد {count} اور پیریڈ · آج کل {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "ٹرم میں {count} تعلیمی دن"
+msgstr[1] "ٹرم میں {count} تعلیمی دن"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "تعلیمی سال میں {count} تعلیمی دن"
+msgstr[1] "تعلیمی سال میں {count} تعلیمی دن"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} پیریڈ"
+msgstr[1] "{count} پیریڈ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "عملے کا {count} رکن"
+msgstr[1] "عملے کے {count} ارکان"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} طالب علم"
+msgstr[1] "{count} طلبہ"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} طالب علم داخل"
+msgstr[1] "{count} طلبہ داخل"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} بار"
+msgstr[1] "{count} بار"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} صارف"
+msgstr[1] "{count} صارفین"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count} دن پہلے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count} گھنٹے پہلے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count} منٹ پہلے"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— کوئی نہیں —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "حاضر - دیر سے"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "حاضر - اسکول سے باہر"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "تشکیلی"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "مجموعی"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "غیر درجہ بند"
+
+# Gibbon core string: missing from its file for this language
+msgid "All Staff"
+msgstr "تمام عملہ"
+
+# Gibbon core string: missing from its file for this language
+msgid "All Terms"
+msgstr "تمام ٹرمز"
+
+# Gibbon core string: missing from its file for this language
+msgid "Apply"
+msgstr "لاگو کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "سیکشن کے لحاظ سے"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "سرگرمیاں منسوخ کریں؟"
+
+# Gibbon core string: missing from its file for this language
+msgid "Check the box to add a new medical condition"
+msgstr "نئی طبی حالت شامل کرنے کے لیے خانے پر نشان لگائیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "اس تعداد سے کم طلبہ کے ساتھ کلاس نہیں چلنی چاہیے۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "مضمون"
+
+# Gibbon core string: missing from its file for this language
+msgid "Days of the Week"
+msgstr "ہفتے کے دن"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due Soon"
+msgstr "آخری تاریخ قریب"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "آخری تاریخ: {date}، {time} بجے"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "آخری تاریخ: {date}، {time} بجے۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "داخلے اس تعداد سے زیادہ نہیں ہونے چاہییں۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "متبادل ڈیوٹی سے خارج کریں؟"
+
+# Gibbon core string: missing from its file for this language
+msgid "First Aid Qualification"
+msgstr "ابتدائی طبی امداد کی تربیت"
+
+# Gibbon core string: missing from its file for this language
+msgid "Follow Up"
+msgstr "فالو اپ"
+
+# Gibbon core string: missing from its file for this language
+msgid "Formal Assessment"
+msgstr "باضابطہ جائزہ"
+
+# Gibbon core string: missing from its file for this language
+msgid "Given Name"
+msgstr "نام"
+
+# Gibbon core string: missing from its file for this language
+msgid "Home Language - Primary"
+msgstr "گھر کی زبان - بنیادی"
+
+# Gibbon core string: missing from its file for this language
+msgid "Home Language - Secondary"
+msgstr "گھر کی زبان - ثانوی"
+
+# Gibbon core string: missing from its file for this language
+msgid "Home Languages"
+msgstr "گھر کی زبانیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "ہوم ورک اور آخری تاریخیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "دوسرے صارف کے طور پر دیکھیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Include In Curriculum Map"
+msgstr "نصاب کے نقشے میں شامل کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"اسٹیٹس، آغاز اور اختتام کی تاریخ وغیرہ سے قطع نظر تمام عملہ شامل کریں۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "Invoice Total"
+msgstr "انوائس کی کل رقم"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "آخری لاگ اِن: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "آخری لاگ اِن: وقت"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "تہیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Legend"
+msgstr "علامات"
+
+# Gibbon core string: missing from its file for this language
+msgid "Login Troubleshooting"
+msgstr "لاگ اِن کے مسائل کا حل"
+
+# Gibbon core string: missing from its file for this language
+msgid "Logout"
+msgstr "لاگ آؤٹ"
+
+# Gibbon core string: missing from its file for this language
+msgid "Manage"
+msgstr "انتظام"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "زیادہ سے زیادہ داخلے"
+
+# Gibbon core string: missing from its file for this language
+msgid "Messages"
+msgstr "پیغامات"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "کم از کم داخلے"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "میرا سیکشن"
+
+# Gibbon core string: missing from its file for this language
+msgid "N/A"
+msgstr "لاگو نہیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "No data"
+msgstr "کوئی ڈیٹا نہیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "کوئی آنے والی آخری تاریخ نہیں!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "رپورٹ کے قابل نہیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Taken"
+msgstr "نہیں لگی"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "ٹائم ٹیبل سے باہر"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "گنجائش سے زیادہ داخلے"
+
+# Gibbon core string: missing from its file for this language
+msgid "Partial"
+msgstr "جزوی حاضر"
+
+# Gibbon core string: missing from its file for this language
+msgid "Pay Now"
+msgstr "ابھی ادائیگی کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Payment Details"
+msgstr "ادائیگی کی تفصیلات"
+
+# Gibbon core string: missing from its file for this language
+msgid "Remove"
+msgstr "ہٹائیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Report"
+msgstr "رپورٹ کارڈ"
+
+# Gibbon core string: missing from its file for this language
+msgid "Save"
+msgstr "محفوظ کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Select Students"
+msgstr "طلبہ منتخب کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr ""
+"کیا اس طالب علم کو اس کے سیکشن کے مضامین میں خودکار طور پر داخل کیا جائے؟"
+
+# Gibbon core string: missing from its file for this language
+msgid "Sort By"
+msgstr "ترتیب بلحاظ"
+
+# Gibbon core string: missing from its file for this language
+msgid "Staff Directory"
+msgstr "عملے کی ڈائریکٹری"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "استاد"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "اس کلاس کے کوئی اسباق نہیں۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "اس تاریخ کو کوئی سبق نہیں۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "اس طالب علم کی ایک یا زیادہ طبی حالتوں کا خطرہ {level} ہے۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "Today"
+msgstr "آج"
+
+# Gibbon core string: missing from its file for this language
+msgid "Track Attendance?"
+msgstr "حاضری درج کی جائے؟"
+
+# Gibbon core string: missing from its file for this language
+msgid "Tracking"
+msgstr "پیش رفت کی نگرانی"
+
+# Gibbon core string: missing from its file for this language
+msgid "Transaction ID"
+msgstr "ٹرانزیکشن آئی ڈی"
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "کم داخلے"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Staff Data"
+msgstr "عملے کا ڈیٹا اپ ڈیٹ کریں"
+
+# Gibbon core string: missing from its file for this language
+msgid "User Photo"
+msgstr "صارف کی تصویر"
+
+# Gibbon core string: missing from its file for this language
+msgid "View Invoices"
+msgstr "انوائسز دیکھیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "View Reports"
+msgstr "رپورٹس دیکھیں"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "آپ کا موجودہ سیشن منتخب صارف پر منتقل ہو جائے گا۔"
+
+# Gibbon core string: missing from its file for this language
+msgid "students"
+msgstr "طلبہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "چلا گیا - جلدی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "خاندان کے بچوں کے ڈیٹا تک رسائی؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add"
+msgstr "شامل کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "مضمون شامل کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "عملے کا رکن شامل کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "طالب علم کا داخلہ شامل کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address"
+msgstr "پتہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "پتے کا نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "انتظامیہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "داخلے"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "خاندان کے بالغ افراد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "بالغ افراد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "اختتامی تاریخ کے بعد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Roles"
+msgstr "تمام رولز"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "تمام طلبہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "متبادل ای میل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assessment"
+msgstr "جائزہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "معاون"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "مضامین میں خودکار داخلہ؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "سوانح"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "خاندان کو کاپی؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "لاگ اِن کر سکتا ہے؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "منسوخ کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "چینی یا کسی دوسرے رسم الخط میں نام۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "کلاس منتخب کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "طلبہ منتخب کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "کلاس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "فارغ التحصیل سال"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "کلاسیں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "صاف کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear Filters"
+msgstr "فلٹرز صاف کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Comment"
+msgstr "تبصرہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Address"
+msgstr "کمپنی کا پتہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "کمپنی تمام فیس ادا کرے؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "کمپنی میں رابطہ کار"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "کمپنی کی ای میلز"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "کمپنی کے ذمے فیس کی اقسام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "حالت کا نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "پاس ورڈ کی تصدیق کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact"
+msgstr "رابطہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "رابطہ 1 کا نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "رابطہ 1 کا نمبر 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "رابطہ 1 کا نمبر 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "رابطہ 2 کا نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "رابطہ 2 کا نمبر 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "رابطہ 2 کا نمبر 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "رابطے کی تفصیلات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "رابطے کی ترجیح"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "طے کرتا ہے کہ صارف کیا کر سکتا ہے اور کیا دیکھ سکتا ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "آبائی ملک"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country of Birth"
+msgstr "جائے پیدائش کا ملک"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "صوبہ، ضلع، تحصیل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "کلاس وار مضامین میں داخلہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "فرد وار مضامین میں داخلہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "اجتماعی جائزہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "طالب علم کے مکمل پروفائل میں دکھایا جانے والا ڈیٹا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Date of Birth"
+msgstr "تاریخ پیدائش"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Delete"
+msgstr "حذف کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "اسکول چھوڑنے کی وجہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "زمرہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "ایس ایم ایس سے رابطہ نہ کریں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "ای میل سے رابطہ نہ کریں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "فون سے رابطہ نہ کریں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "مضمون میں ترمیم کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Enrolment"
+msgstr "داخلے میں ترمیم کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "خاص دن میں ترمیم کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "عملے کے رکن میں ترمیم کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "صارف میں ترمیم کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "ہنگامی رابطے"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "آجر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "ملازمت"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "End Date"
+msgstr "اختتامی تاریخ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "خاندانی نام، جیسا شناختی دستاویزات میں درج ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "مالیات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid"
+msgstr "ابتدائی طبی امداد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "ابتدائی طبی امداد کے سرٹیفکیٹ کی میعاد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "ابتدائی طبی امداد کی تربیت یافتہ؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Language"
+msgstr "پہلی زبان"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Name"
+msgstr "نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "نام، جیسا شناختی دستاویزات میں درج ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "پاس ورڈ لازمی تبدیل کروائیں؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "سیکشن"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "فعال"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "پورا نام، جیسا شناختی دستاویزات میں درج ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Gender"
+msgstr "جنس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "General Information"
+msgstr "عمومی معلومات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "بنائیں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "گروپ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "گروپ میں ترجیح"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "جماعت کا سربراہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"متبادل ڈیوٹی لگاتے وقت زیادہ ترجیح والے متبادل اساتذہ پہلے نظر آتے ہیں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "گھر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "گھر کا پتہ (ملک)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "گھر کا پتہ (ضلع)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "ہوم ورک"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "ہاؤس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"اگر متعلقہ کمپنی تمام فیس ادا نہیں کر رہی تو وہ کون سی اقسام ادا کر رہی ہے؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"ہنگامی صورت میں براہِ کرم پہلے نیچے درج خاندان کے بالغ افراد سے رابطہ کریں۔ "
+"اگر ان سے رابطہ نہ ہو سکے تو نیچے دیے گئے ہنگامی رابطوں سے رابطہ کریں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"اسٹیٹس اور موجودہ داخلے سے قطع نظر تمام طلبہ شامل کریں۔ ہو سکتا ہے کچھ ڈیٹا "
+"نظر نہ آئے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Initials"
+msgstr "ابتدائی حروف"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "انوائس بنام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "اجرا کی تاریخ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "عہدہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "آخری دورے کی تاریخ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "آخری دورے کا علاج"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last IP Address"
+msgstr "آخری IP ایڈریس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "پچھلا اسکول"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Updated"
+msgstr "آخری اپ ڈیٹ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "چلا گیا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson Content"
+msgstr "سبق کا مواد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Level"
+msgstr "سطح"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "طویل مدتی دوا؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "مضامین اور کلاسوں کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Families"
+msgstr "خاندانوں کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "تعلیمی سالوں کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "خاص دنوں کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "عملے کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "ٹرمز کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "صارفین کا انتظام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "دوا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "دوا کی تفصیلات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "پیغامات کی دیوار"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "پیر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Monday"
+msgstr "پیر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "عام طور پر استعمال ہونے والا نام، عرف وغیرہ۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "اس مضمون کے لیے منفرد ہونا ضروری ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "اس تعلیمی سال کے لیے منفرد ہونا ضروری ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "اگر درج ہو تو منفرد ہونا ضروری ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Data Updates"
+msgstr "میری ڈیٹا اپ ڈیٹس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Timetable"
+msgstr "میرا ٹائم ٹیبل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "دوسرے رسم الخط میں نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "نئی طبی حالت"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next School"
+msgstr "اگلا اسکول"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Notifications"
+msgstr "اطلاعات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "ترتیب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Other"
+msgstr "دیگر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "والدین"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Password"
+msgstr "پاس ورڈ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Person"
+msgstr "فرد"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "پلانر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "پسندیدہ نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "پرائیویسی کی ضرورت نہیں یا طے نہیں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy required:"
+msgstr "پرائیویسی ضروری:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Qualifications"
+msgstr "تعلیمی قابلیت"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reaction"
+msgstr "ردِعمل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "رسید بنام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "اسکول سے غیر ہنگامی ای میلز وصول کریں؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "اسکول سے ڈاک وصول کریں؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "رشتہ نامعلوم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Religion"
+msgstr "مذہب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "رپورٹ کے قابل"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "رپورٹ کے قابل؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset Password"
+msgstr "پاس ورڈ ری سیٹ کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "صارف کا پاس ورڈ ری سیٹ کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Risk"
+msgstr "خطرہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "رول کی تبدیلی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "رول نمبر کی ترتیب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Saturday"
+msgstr "ہفتہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Admin"
+msgstr "اسکول ایڈمن"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "اسکول بند ہے"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "تعلیمی دن"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "تعلیمی پس منظر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "اسکول کی معلومات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "تعلیمی سال"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "انوائسز کسے بھیجیں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "کیا تمام اشیاء کا بل متعلقہ کمپنی کو بھیجا جائے یا صرف کچھ کا؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "کیا خاندان کو بلنگ ای میلز کی کاپی بھیجی جائے؟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "بہن بھائی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Start Date"
+msgstr "آغاز کی تاریخ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Status"
+msgstr "اسٹیٹس"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "طالب علم - چلا گیا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "طلبہ کے معاہدے"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "طالب علم کا داخلہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "اسٹوڈنٹ آئی ڈی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "طالب علم کا درج کردہ ہوم ورک"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Students"
+msgstr "طلبہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "جمع کرائیں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "معاون"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "معاون عملہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Surname"
+msgstr "خاندانی نام"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "تبدیل کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Admin"
+msgstr "سسٹم ایڈمن"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "سسٹم میں لاگ اِن کا نام۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "استاد - چلا گیا"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "اساتذہ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "تدریسی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Technician"
+msgstr "ٹیکنیشن"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"یہ تفصیلات اس وقت استعمال ہوتی ہیں جب قریبی رشتہ داروں (مثلاً والدین، شریکِ "
+"حیات) سے رابطہ نہ ہو سکے۔ براہِ کرم یہاں قریبی رشتہ داروں کا اندراج نہ کریں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "یہ سسٹم میں نظر آنے کا تعین کرتا ہے۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "اس سبق میں ابھی کوئی مواد شامل نہیں کیا گیا۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "اوقات میں تبدیلی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "لقب"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "آج کے اسباق"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "محرکات"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "کلاس انچارج"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "مکان نمبر، عمارت، گلی"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "خاندان کا ڈیٹا اپ ڈیٹ کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "مالیاتی ڈیٹا اپ ڈیٹ کریں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Required"
+msgstr "اپ ڈیٹ ضروری ہے"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Account"
+msgstr "صارف اکاؤنٹ"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "اگلی بار لاگ اِن پر صارف سے کہا جائے گا۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "یوزر نیم"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "گاڑی کا رجسٹریشن نمبر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "پلانر دیکھیں"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "دفتر"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "جماعت"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "آپ کو اس عمل تک رسائی نہیں۔"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"سسٹم میں آپ کے ایک سے زیادہ رول ہیں۔ رول تبدیل کرنے کے لیے نیچے دی گئی فہرست"
+" استعمال کریں:"
