@@ -2277,6 +2277,10 @@ msgid "Add Class"
 msgstr "إضافة شعبة"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "الإدارة"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Adult"
 msgstr "بالغ"
 
