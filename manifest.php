@@ -128,6 +128,12 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // de "Formulargruppe" -> "Stammgruppe", zh_HK contact 2
                           // labels that said contact 1); see each .po's comments. No schema
                           // change, so no CHANGEDB.php entry.
+                          //
+                          // Since 1.16.11 (translation files only, so no version change;
+                          // the app refetches when a file changes): Gibbon's default
+                          // attendance code names corrected where Gibbon's files are wrong
+                          // (ja_JP 左 for Left, it_IT Manca, de_DE Verlassen...), and Polish
+                          // (pl_PL) added, an AI draft pending review.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

@@ -1,0 +1,3081 @@
+# School Connect: Polish (pl_PL) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Polish-speaking school before release.
+# Vocabulary follows Gibbon core's pl_PL file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Znak interpunkcyjny lub spacja"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Token logowania, przechowywany w bezpiecznym magazynie urządzenia (pęku "
+"kluczy iOS lub Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "O aplikacji i prywatność"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Dodaj więcej"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Dodaj uczestnika"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Dodać zadanie domowe?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Dodawaj, edytuj i usuwaj dni wolne"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Dodawaj, edytuj i usuwaj konta użytkowników"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Ustala kolejność przedmiotów w raportach."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Zaktualizowano ustawienia osoby dorosłej"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Wszystkie typy"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Wszystkie roczniki"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Zakończono dzisiejszą lekcję"
+msgstr[1] "Zakończono wszystkie dzisiejsze lekcje ({count})"
+msgstr[2] "Zakończono wszystkie dzisiejsze lekcje ({count})"
+msgstr[3] "Zakończono wszystkie dzisiejsze lekcje ({count})"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Wielka i mała litera"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "Wersja aplikacji, połączona szkoła i Twoje dane"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Sprawdziany"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Co najmniej jedna cyfra"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Co najmniej {count} znak"
+msgstr[1] "Co najmniej {count} znaki"
+msgstr[2] "Co najmniej {count} znaków"
+msgstr[3] "Co najmniej {count} znaku"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Frekwencja w tym roku"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Obecność nie została dziś jeszcze sprawdzona"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Zapisano wpis o zachowaniu!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Zapisano wpis o zachowaniu dla {count} ucznia!"
+msgstr[1] "Zapisano wpisy o zachowaniu dla {count} uczniów!"
+msgstr[2] "Zapisano wpisy o zachowaniu dla {count} uczniów!"
+msgstr[3] "Zapisano wpisy o zachowaniu dla {count} ucznia!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Przeglądaj profile pracowników"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Według zajęć"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Według daty"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Aparat i zdjęcia: tylko gdy zdecydujesz się dołączyć zdjęcie do wniosku o "
+"aktualizację danych. Aplikacja najpierw pyta o zgodę i możesz odmówić."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Anulować rezerwacje?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Odwołać zajęcia?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Odwołać dyżury pracowników?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Anuluj nowe schorzenie"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Poj."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Imię i nazwisko w znakach chińskich lub innym piśmie znakowym"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Wybierz zajęcia powyżej"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Wybierz dowolną klasę"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Wybierz dowolne ze swoich zajęć"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Najpierw wybierz co najmniej jednego ucznia"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Wybierz jedną ze swoich klas"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Nieobecności na zajęciach"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Zapisy na zajęcia"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Lista uczniów"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Kliknij Aktualizuj obok School Connect w Administrator systemu > Zarządzaj "
+"modułami."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Zamknięte o"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"Połączona nazwa skrócona „{name}” ma ponad 16 znaków — może to powodować "
+"problemy z wyświetlaniem w planie lekcji i na listach rozwijanych."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Połączona nazwa skrócona ma ponad 16 znaków"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Adresy e-mail oddzielone przecinkami"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Potwierdź hasło *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Połączona szkoła"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Łączenie..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Dane kontaktowe"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Kontakt {number} — brak danych"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Treści w lekcjach: filmy lub obrazy dodane przez nauczyciela (na przykład z "
+"YouTube) wczytują się z tych serwisów po ich otwarciu"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Decyduj, co wszyscy widzą w aplikacji"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Nie udało się dodać"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Nie udało się dodać osoby dorosłej"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Nie udało się dodać dziecka"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Nie udało się usunąć użytkownika"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Nie udało się pobrać raportu"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Nie udało się wygenerować loginu"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Nie udało się wczytać klas"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Nie udało się wczytać zajęć dodatkowych"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Nie udało się wczytać frekwencji"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Nie udało się wczytać dzieci"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Nie udało się wczytać zajęć"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Nie udało się wczytać przedmiotu"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Nie udało się wczytać przedmiotów"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Nie udało się wczytać danych"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Nie udało się wczytać aktualizacji danych"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Nie udało się wczytać dni tygodnia"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Nie udało się wczytać kontaktów alarmowych"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Nie udało się wczytać zapisu"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Nie udało się wczytać zapisów"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Nie udało się wczytać sal"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Nie udało się wczytać rodzin"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Nie udało się wczytać rodziny"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Nie udało się wczytać danych rodziny"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Nie udało się wczytać danych finansowych"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Nie udało się wczytać formularza"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Nie udało się wczytać danych formularza"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Nie udało się wczytać ocen"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Nie udało się wczytać zadań domowych"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Nie udało się wczytać kalendarza zadań domowych"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Nie udało się wczytać faktury"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Nie udało się wczytać faktur"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Nie udało się wczytać lekcji"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Nie udało się wczytać lekcji"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Nie udało się wczytać dziennika ocen"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Nie udało się wczytać głównego planu lekcji"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Nie udało się wczytać danych medycznych"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Nie udało się wczytać wiadomości"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Nie udało się wczytać powiadomień"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Nie udało się wczytać zasad haseł"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Nie udało się wczytać osób"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Nie udało się wczytać danych osobowych"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Nie udało się wczytać informacji osobistych"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Nie udało się wczytać profilu"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Nie udało się wczytać raportu"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Nie udało się wczytać raportów"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Nie udało się wczytać ról"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Nie udało się wczytać listy uczniów"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Nie udało się wczytać lat szkolnych"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Nie udało się wczytać ustawień"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Nie udało się wczytać dnia specjalnego"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Nie udało się wczytać pracowników"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Nie udało się wczytać danych pracownika"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Nie udało się wczytać uczniów"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Nie udało się wczytać semestrów"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Nie udało się wczytać planu lekcji"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Nie udało się wczytać planów lekcji"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Nie udało się wczytać użytkownika"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Nie udało się wczytać użytkowników"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Nie udało się wczytać Twoich dzieci"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Nie udało się otworzyć strony płatności"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Nie udało się otworzyć połączenia wideo"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Nie udało się usunąć"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Nie udało się zresetować hasła"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Nie udało się zapisać"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Nie udało się zapisać frekwencji"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Nie udało się zapisać dla: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Nie udało się zapisać ustawienia"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Nie udało się zapisać użytkownika"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Nie udało się zalogować jako ten użytkownik"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Nie udało się wysłać aktualizacji"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Nie udało się zmienić roli"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Nie udało się zmienić roku szkolnego"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Nie udało się zaktualizować"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Kraj pochodzenia"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Priorytet zastępstw"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Utwórz powiązany rekord pracownika"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Utwórz powiązany zapis ucznia"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Bieżący rok"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Pulpit"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Dzień nieobecności"
+msgstr[1] "Dni nieobecności"
+msgstr[2] "Dni nieobecności"
+msgstr[3] "Dnia nieobecności"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Dzień obecności"
+msgstr[1] "Dni obecności"
+msgstr[2] "Dni obecności"
+msgstr[3] "Dnia obecności"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Usuń zajęcia"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Usuń przedmiot"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Usuń dzień specjalny"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Usuń użytkownika"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Opracowane przez High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Gotowe"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Termin"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Termin i szczegóły są wymagane."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Edytowalne"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "E-mail: musi być unikalny"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Roczniki, które można zapisać"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Zapisz istniejących uczniów na bieżący rok szkolny"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Nazwisko jak w dokumencie tożsamości"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "Najpierw wypełnij imię, nazwisko, imię używane i rolę główną"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filtruj według rocznika"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Imię *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Imię jak w dokumencie tożsamości"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Klasa *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Oficjalna forma zwracania się do rodziców"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Imię i nazwisko jak w dokumencie tożsamości"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Operator płatności"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Płeć *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ jest znakiem towarowym Gibbon Education Ltd. (Hongkong), używanym za"
+" zgodą."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Logowanie przez Google, tylko jeśli Twoja szkoła z niego korzysta i je "
+"wybierzesz"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Oceny"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "Wyższe liczby przesuwają pracowników wyżej w obrębie ich grupy."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Wyróżnione na czerwono: oznaczone jako „Pełny”, ale poza zakresem dat "
+"rozpoczęcia i zakończenia."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Dzień wolny"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Kalendarz zadań domowych"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "Termin zadania domowego"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Usunięto zadanie domowe."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Zapisano zadanie domowe."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Jeśli wybierzesz Rodzina, przyszłe faktury będą wysyłane zgodnie z "
+"preferencjami kontaktowymi Twojej rodziny. Jeśli wybierzesz Firma, możesz "
+"wskazać, czy wszystkie, czy tylko niektóre opłaty pokrywa podana firma."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Zaloguj jako"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Funkcja Zaloguj jako użytkownik wymaga modułu School Connect w wersji "
+"1.16.09 lub nowszej na serwerze szkoły."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Zainstalowana wersja to {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Kończy się po 2 godzinach. Aby wrócić wcześniej, użyj opcji Wróć do mojego "
+"konta u góry ekranu."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Dołącz do zajęć online"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "Przycisk Dołącz do zajęć online jest ukryty we wszystkich miejscach"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr ""
+"Przycisk Dołącz do zajęć online jest widoczny w planie lekcji i planerze"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "Ostatnie 10 dni nauki"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "Ostatnie 10 dni nauki — według lekcji"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "Ostatnie 20 dni nauki"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Ostatnia lekcja dnia"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Planowanie lekcji wkrótce"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Sprawdzanie licencji"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Powiąż osoby z rolą pracownika z ich rekordem pracownika"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Dodaj wpis o zachowaniu"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Zalogowano jako"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Zarządzaj użytkownikami i ustawieniami szkoły"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Oznacz wszystkie jako przeczytane"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Oznacz jako wykonane"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Sprawdź dzisiejszą obecność"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Oznacz jako przeczytane"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Główny plan lekcji"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Jeśli podano, musi być unikalny"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Moje klasy"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Nazwa i nazwa skrócona są wymagane"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Nie znaleziono klas"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Brak obszaru nauczania"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Brak zajęć dodatkowych"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Brak powiązanych osób dorosłych"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Bez reklam, analityki, śledzenia, raportowania awarii i usług powiadomień "
+"push. Aplikacja nigdy nie sprzedaje ani nie udostępnia Twoich danych."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Nie znaleziono dzieci"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Brak powiązanych dzieci"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "Brak dzieci powiązanych z tym kontem"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Brak zajęć"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Nie znaleziono zajęć"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Brak zajęć w tej sali dzisiaj"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Brak zaplanowanych zajęć"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Brak zaplanowanych zajęć na dziś"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Brak zajęć"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Nie znaleziono przedmiotów"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Brak danych za ten semestr"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Nie znaleziono aktualizacji danych"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Brak zespołu przedmiotowego"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Nie znaleziono sal"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Nie znaleziono rodzin"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Brak członków rodziny"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Nie znaleziono rekordu rodziny"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Brak ocen"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Brak historii"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Brak zadań domowych."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Brak faktur do wyświetlenia"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Brak wpisów w dzienniku ocen"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Brak wyników"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Brak powiadomień"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Brak uczestników"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Nie znaleziono osób"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Brak numeru telefonu"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Brak wpisu"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Brak dostępnych raportów"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Brak dni nauki w tym tygodniu"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Nie znaleziono pracowników"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Brak uczniów zapisanych w tym roku"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Nie znaleziono uczniów"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Nie znaleziono semestrów w tym roku szkolnym"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Nie znaleziono danych planu lekcji"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Brak planu lekcji na ten dzień"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Brak planu lekcji na dziś"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Nie znaleziono użytkowników"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "Uczestnicy wyłączeni z raportów nie będą w nich widoczni."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Dzień wolny od nauki"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Dzień wolny od nauki"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Obecnie niezapisany"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Brak zapisów na zajęcia"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Brak danych: zaktualizuj moduł School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Dziś jeszcze nie sprawdzono"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Jeszcze niedostępne tutaj — zapis tutaj nie dodaje automatycznie "
+"przedmiotów. W razie potrzeby dokończ zapisy na przedmioty na stronie "
+"internetowej."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Nic nie zaplanowano"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Teraz"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Pełne imię i nazwisko *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Raz dziennie serwer Twojej szkoły przekazuje High Point wyłącznie swój adres"
+" internetowy, aby potwierdzić subskrypcję szkoły. Żadne dane osobowe nie są "
+"wysyłane."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Obejmuje tylko osoby z rolą pracownika, które nie mają jeszcze rekordu "
+"pracownika."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Obejmuje tylko uczniów niezapisanych na ten rok szkolny."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Otwarcie o"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Inne usługi, które możesz zobaczyć"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Hasło *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Hasło musi być wypełnione i zgodne"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Hasło zostało zresetowane"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Hasła nie są zgodne"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Hasła muszą być wypełnione i zgodne"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Usuń na stałe"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Usunąć na stałe „{name}” wraz ze wszystkimi zajęciami?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Uprawnienia"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Osoba *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Podaj typ pracownika"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Wypełnij wszystkie wymagane pola (imię, pełne imię i nazwisko, płeć, rola, "
+"login)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Wybierz typ"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Wybierz rocznik i klasę"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Wybierz zajęcia i rolę"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Wybierz osobę"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Wybierz osobę i rolę"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Wybierz ucznia"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Poświęć chwilę na przejrzenie wymaganych aktualizacji poniżej. Nawet jeśli "
+"nic się nie zmieniło, wysłanie potwierdza, że Twoje dane są poprawne."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Działa w oparciu o Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Imię używane *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Rola główna *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "Kontakty z priorytetem 1 zawsze otrzymują wszystkie rodzaje kontaktu."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Wykwalifikowany"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Szybki dostęp"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Przeczytaj pełną politykę prywatności"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Numer potwierdzenia"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Ostatnia frekwencja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Usunąć „{name}” z kalendarza?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Usuń osobę dorosłą"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Usuń dziecko"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Usuń zajęcia"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Usuń zapis"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Usuń rekord pracownika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Usunąć zapis na {class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Usuń z zajęć"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Usunąć {name} z pracowników?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Usunąć {name} z tych zajęć?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Usunąć {name} z tej rodziny?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr ""
+"Raporty w formacie PDF, tylko podczas ich przeglądania lub udostępniania"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Wróć do mojego konta"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Rola: może się logować"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Nr"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Zapisywanie nie powiodło się"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Zapisano dla {count} osoby, nie udało się dla: {names}"
+msgstr[1] "Zapisano dla {count} osób, nie udało się dla: {names}"
+msgstr[2] "Zapisano dla {count} osób, nie udało się dla: {names}"
+msgstr[3] "Zapisano dla {count} osoby, nie udało się dla: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect to aplikacja firmy zewnętrznej, zgodna z Gibbon — bezpłatną "
+"platformą do zarządzania szkołą o otwartym kodzie źródłowym. Nie jest "
+"oficjalnym wydaniem Gibbon Foundation ani nie jest z nią powiązana ani przez"
+" nią popierana."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "Moduł School Connect na serwerze szkoły"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect wyświetla informacje z systemu Gibbon Twojej szkoły: plany "
+"lekcji, frekwencję, oceny, zadania domowe, raporty, wiadomości i dane Twojej"
+" rodziny. Aplikacja łączy się bezpośrednio i wyłącznie z serwerem Gibbon "
+"Twojej szkoły przez szyfrowane połączenie (HTTPS). High Point Education nie "
+"otrzymuje, nie przechowuje ani nie widzi tych informacji."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Godzin otwarcia, rozpoczęcia, zakończenia i zamknięcia szkoły nie ustawia "
+"się tutaj — uzupełnij je na stronie internetowej."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Wyszukuj i przeglądaj profile uczniów"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Szukaj po nazwie przedmiotu..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Szukaj po nazwie przedmiotu lub zajęć..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Szukaj po nazwie rodziny..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Szukaj po nazwisku lub inicjałach..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Szukaj po nazwisku lub numerze ucznia..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Szukaj po nazwisku lub loginie..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Szukaj po nazwisku, loginie, e-mailu, numerze ucznia..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Szukaj zajęć..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Szukaj sal..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Szukaj uczniów..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Wybierz ucznia"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Lekcje oznaczone w tym roku jako nieobecność"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Udostępnij"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Wylogowanie usuwa token logowania, Twój login i pobrane raporty. "
+"Odinstalowanie aplikacji usuwa wszystko inne."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Profil pracownika"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Typ pracownika *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Utworzono rekord pracownika"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Uczeń *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Lista uczniów"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Uczeń został zapisany"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Wysłano"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Nazwisko *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Zmień rolę"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Zmień rok szkolny"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Sprawdź obecność na tych zajęciach"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "Sprawdzono"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Sprawdzono o {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "Sprawdzono dziś o {time}. Dotknij, aby przejrzeć lub zmienić"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Dotknij, aby edytować"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Logowanie jako inny użytkownik zakończyło się po 2 godzinach. Jesteś z "
+"powrotem na swoim koncie."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr ""
+"Kolejność, w jakiej szkoła powinna kontaktować się z członkami rodziny."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "Nie ma to wpływu na konto użytkownika tej osoby."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Brak wiadomości do wyświetlenia."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Ma to wpływ na plan lekcji:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Spowoduje to również usunięcie wszystkich zapisów i danych planu lekcji dla "
+"tych zajęć. Tej operacji nie można cofnąć."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "Tej operacji nie można cofnąć."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Te zajęcia nie są zaplanowane na {date}. W razie potrzeby nadal możesz "
+"zapisać frekwencję."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Nie powoduje to usunięcia konta użytkownika tej osoby."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Ta opcja pozwala administratorom zalogować się jako inne konto w systemie w "
+"celu rozwiązywania problemów i testowania. Wybrany użytkownik nadal będzie "
+"mógł logować się na swoje konto i z niego wylogowywać."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Spowoduje to usunięcie wszystkich zapisów i danych planu lekcji dla tych "
+"zajęć. Tej operacji nie można cofnąć."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Plan lekcji według sali"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Dzisiejszy plan lekcji"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Dostęp próbny"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Wersja próbna — został {count} dzień"
+msgstr[1] "Wersja próbna — zostały {count} dni"
+msgstr[2] "Wersja próbna — zostało {count} dni"
+msgstr[3] "Wersja próbna — zostało {count} dnia"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Rozwiązuj problemy, oglądając aplikację jako inny użytkownik"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Wychowawca 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Typ *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Typ i nazwa są wymagane"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Wpisz co najmniej 2 znaki"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Typ, kod kraju, numer"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Wypisać {name} z tego roku szkolnego?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Nieznany rok"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Nieużywana"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Służy do grupowania pracowników w katalogu pracowników."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Utworzono użytkownika"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Zaktualizowano użytkownika"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Użytkownik: może się logować"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Użytkownik: nieudane logowania"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Użytkownik: status"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Login *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Login jest już zajęty"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Login jest dostępny"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Lekcje wideo: zajęcia online korzystają z usługi wideo wybranej przez Twoją "
+"szkołę (domyślnie z publicznej usługi Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Zobacz frekwencję"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Zobacz pełny plan lekcji"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Zobacz oceny"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Zobacz kalendarz zadań domowych"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Zobacz plan lekcji"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Przeglądaj klasy i zarządzaj nimi"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Zobacz oceny z zajęć"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Przeglądaj rodziny, kontakty i dzieci"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Zobacz plany lekcji dla tych zajęć"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Zobacz uczniów na tych zajęciach"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Zobacz swoje oceny"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Zobacz swoje raporty"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Widok jako {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Wirtualna klasa"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Witaj, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Czego aplikacja nie robi"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Co aplikacja przechowuje na tym urządzeniu"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Rocznik *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Nie ustawia się tutaj, których roczników i klas to dotyczy — do czasu "
+"uzupełnienia na stronie internetowej będzie to dotyczyć wszystkich."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Jesteś z powrotem na swoim koncie."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Przeglądasz rok szkolny {year}, który nie jest bieżącym rokiem. Dane mogą "
+"nie wyglądać całkiem poprawnie (na przykład uczniowie, którzy opuścili "
+"szkołę, nie pojawią się w poprzednich latach)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "W tej sekcji możesz zapisywać własne zadania domowe."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Wniosek został już wysłany i czeka na sprawdzenie przez administratora. "
+"Nadal możesz wprowadzać zmiany poniżej, ale Twoje dane nie pojawią się w "
+"systemie, dopóki wniosek nie zostanie rozpatrzony."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Wniosek został już wysłany i czeka na sprawdzenie przez administratora. "
+"Nadal możesz wprowadzać zmiany poniżej."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Twoje dane są aktualne."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Twoje dane pozostają w Twojej szkole"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Twój ostatni login i trzy ostatnio używane adresy szkół, aby nie trzeba było"
+" wpisywać ich ponownie"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Twoje prawa i pytania"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Za Twoje dane osobowe w Gibbon odpowiada Twoja szkoła. Aby je zobaczyć, "
+"poprawić lub usunąć, skontaktuj się z inspektorem ochrony danych w szkole. W"
+" sprawie samej aplikacji napisz na adres {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Twoja sesja zostanie przełączona na {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "poprzedni rok"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "aplikacja dla Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "opcjonalnie"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "główny"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "do {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "Nieobecności: {absent} z {total} odnotowanych lekcji"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} nieobecny"
+msgstr[1] "{count} nieobecnych"
+msgstr[2] "{count} nieobecnych"
+msgstr[3] "{count} nieobecnego"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} spr."
+msgstr[1] "{count} spr."
+msgstr[2] "{count} spr."
+msgstr[3] "{count} spr."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} sprawdzian"
+msgstr[1] "{count} sprawdziany"
+msgstr[2] "{count} sprawdzianów"
+msgstr[3] "{count} sprawdzianu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "Zajęcia: {count}"
+msgstr[1] "Zajęcia: {count}"
+msgstr[2] "Zajęcia: {count}"
+msgstr[3] "Zajęcia: {count}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Została {count} lekcja · zakończono: {done}"
+msgstr[1] "Zostały {count} lekcje · zakończono: {done}"
+msgstr[2] "Zostało {count} lekcji · zakończono: {done}"
+msgstr[3] "Zostało {count} lekcji · zakończono: {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} lekcja dzisiaj"
+msgstr[1] "{count} lekcje dzisiaj"
+msgstr[2] "{count} lekcji dzisiaj"
+msgstr[3] "{count} lekcji dzisiaj"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} dzień"
+msgstr[1] "{count} dni"
+msgstr[2] "{count} dni"
+msgstr[3] "{count} dnia"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} do oddania"
+msgstr[1] "{count} do oddania"
+msgstr[2] "{count} do oddania"
+msgstr[3] "{count} do oddania"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} sala"
+msgstr[1] "{count} sale"
+msgstr[2] "{count} sal"
+msgstr[3] "{count} sali"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} rodzina"
+msgstr[1] "{count} rodziny"
+msgstr[2] "{count} rodzin"
+msgstr[3] "{count} rodziny"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} element"
+msgstr[1] "{count} elementy"
+msgstr[2] "{count} elementów"
+msgstr[3] "{count} elementu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} spóźniony"
+msgstr[1] "{count} spóźnionych"
+msgstr[2] "{count} spóźnionych"
+msgstr[3] "{count} spóźnionego"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Potem jeszcze {count} lekcja · łącznie dziś: {total}"
+msgstr[1] "Potem jeszcze {count} lekcje · łącznie dziś: {total}"
+msgstr[2] "Potem jeszcze {count} lekcji · łącznie dziś: {total}"
+msgstr[3] "Potem jeszcze {count} lekcji · łącznie dziś: {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} dzień nauki w semestrze"
+msgstr[1] "{count} dni nauki w semestrze"
+msgstr[2] "{count} dni nauki w semestrze"
+msgstr[3] "{count} dnia nauki w semestrze"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} dzień nauki w roku szkolnym"
+msgstr[1] "{count} dni nauki w roku szkolnym"
+msgstr[2] "{count} dni nauki w roku szkolnym"
+msgstr[3] "{count} dnia nauki w roku szkolnym"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} lekcja"
+msgstr[1] "{count} lekcje"
+msgstr[2] "{count} lekcji"
+msgstr[3] "{count} lekcji"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} pracownik"
+msgstr[1] "{count} pracowników"
+msgstr[2] "{count} pracowników"
+msgstr[3] "{count} pracownika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} uczeń"
+msgstr[1] "{count} uczniów"
+msgstr[2] "{count} uczniów"
+msgstr[3] "{count} ucznia"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} zapisany uczeń"
+msgstr[1] "{count} zapisanych uczniów"
+msgstr[2] "{count} zapisanych uczniów"
+msgstr[3] "{count} zapisanego ucznia"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} raz"
+msgstr[1] "{count} razy"
+msgstr[2] "{count} razy"
+msgstr[3] "{count} raza"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} użytkownik"
+msgstr[1] "{count} użytkowników"
+msgstr[2] "{count} użytkowników"
+msgstr[3] "{count} użytkownika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count} dn. temu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count} godz. temu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count} min temu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Brak —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Obecność - spóźnienie"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Obecność - poza szkołą"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Kształtujące"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Podsumowujące"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Niesklasyfikowane"
+
+# Gibbon core string: missing from its file for this language
+msgid "Apply"
+msgstr "Zastosuj"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "Według klasy"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "Odwołać zajęcia dodatkowe?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "Zajęcia nie powinny odbywać się przy mniejszej liczbie uczniów."
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "Przedmiot"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due Soon"
+msgstr "Wkrótce termin"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "Termin: {date}, {time}"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "Termin: {date}, godz. {time}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "Liczba zapisanych uczniów nie powinna przekraczać tej wartości."
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Wyłączyć z zastępstw?"
+
+# Gibbon core string: missing from its file for this language
+msgid "First Aid Qualification"
+msgstr "Uprawnienia do pierwszej pomocy"
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "Zadania domowe i terminy"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Zaloguj jako użytkownik"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "Ostatnie logowanie: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "Ostatnie logowanie: czas"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Warstwy"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "Maksymalna liczba zapisanych"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "Minimalna liczba zapisanych"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "Moja klasa"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "Brak nadchodzących terminów!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Wyłączony z raportów"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "Poza planem lekcji"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "Za dużo zapisanych"
+
+# Gibbon core string: missing from its file for this language
+msgid "Select Students"
+msgstr "Wybierz uczniów"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "Czy automatycznie zapisać tego ucznia na przedmioty jego klasy?"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Brak lekcji dla tych zajęć."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Brak lekcji w tym dniu."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "Ten uczeń ma co najmniej jedno schorzenie o poziomie ryzyka: {level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "Za mało zapisanych"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Staff Data"
+msgstr "Zaktualizuj dane pracownika"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Twoja bieżąca sesja zostanie przełączona na wybranego użytkownika."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "Nieobecność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "Dostęp do danych dzieci z rodziny?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Activities"
+msgstr "Zajęcia dodatkowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Dodaj zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "Dodaj przedmiot"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Dodaj schorzenie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Dodaj pracownika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "Dodaj zapis ucznia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Nazwa adresu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "Osoba dorosła"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "Dorośli członkowie rodziny"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "Osoby dorosłe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "Wszystkie obszary nauczania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "Wszyscy pracownicy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "Wszystkie semestry"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "Alternatywny e-mail"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Automatycznie zapisać na przedmioty?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "Informacje dodatkowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "Kopia do rodziny?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "Telefon?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "Może się logować?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "Zaznacz pole, aby dodać nowe schorzenie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Imię i nazwisko w znakach chińskich lub innym piśmie znakowym."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Wybierz zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Rocznik absolwentów"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "Wyczyść"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Address"
+msgstr "Adres firmy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Firma pokrywa wszystko?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "Osoba kontaktowa w firmie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "Adresy e-mail firmy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Kategorie opłat pokrywane przez firmę"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Phone"
+msgstr "Telefon firmy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Wykonane"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Schorzenie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Nazwa schorzenia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "Kontakt 1 — imię i nazwisko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "Kontakt 1 — numer 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "Kontakt 1 — numer 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "Kontakt 1 — pokrewieństwo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "Kontakt 2 — imię i nazwisko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "Kontakt 2 — numer 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "Kontakt 2 — numer 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "Kontakt 2 — pokrewieństwo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "Kontakt telefoniczny"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "Dane kontaktowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "Określa, co użytkownik może robić i widzieć."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Województwo, powiat, gmina"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Zapisy na przedmioty według zajęć"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Zapisy na przedmioty według osoby"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "Zespół przedmiotowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "Zespoły przedmiotowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "Powód odejścia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Description"
+msgstr "Opis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Kategoria"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Nie kontaktować się przez SMS."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "Nie kontaktować się przez e-mail."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "Nie kontaktować się telefonicznie."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Termin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Edytuj zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "Edytuj przedmiot"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Enrolment"
+msgstr "Edytuj zapis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Edytuj pracownika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "E-mail"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "Kontakty alarmowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "Pochodzenie etniczne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "Nazwisko jak w dokumencie tożsamości."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Ważność uprawnień do pierwszej pomocy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "Uprawnienia do pierwszej pomocy?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "Imię jak w dokumencie tożsamości."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "Dalsze działania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Wymusić zmianę hasła?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "Imię i nazwisko jak w dokumencie tożsamości."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "General Information"
+msgstr "Informacje ogólne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "Generuj"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Given Name"
+msgstr "Imię"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "Grupa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Priorytet w grupie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Opiekun rocznika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"Nauczyciele zastępujący z wyższym priorytetem pojawiają się jako pierwsi "
+"przy planowaniu zastępstw."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Domowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "Adres zamieszkania (kraj)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "Język domowy — główny"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "Język domowy — dodatkowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "Zadanie domowe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Jeśli podana firma nie pokrywa wszystkich opłat, które kategorie pokrywa?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"W nagłym przypadku najpierw spróbuj skontaktować się z wymienionymi poniżej "
+"dorosłymi członkami rodziny. Jeśli nie będzie to możliwe, skorzystaj z "
+"poniższych kontaktów alarmowych."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Uwzględnij w mapie programu nauczania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Uwzględnij wszystkich pracowników, bez względu na status, datę rozpoczęcia, "
+"datę zakończenia itp."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Uwzględnij wszystkich uczniów, bez względu na status i bieżący zapis. "
+"Niektóre dane mogą nie być wyświetlane."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice"
+msgstr "Faktura"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "Faktura dla"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "Suma faktury"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "Data wystawienia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "Ostatnie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "Data ostatniego epizodu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "Leczenie podczas ostatniego epizodu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Updated"
+msgstr "Ostatnia aktualizacja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "Obszar nauczania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Wyjście"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Wcześniejsze wyjście"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "Leki przyjmowane stale?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Zarządzaj przedmiotami i zajęciami"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Zarządzaj dniami specjalnymi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Zarządzaj pracownikami"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "Zarządzaj semestrami"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Schorzenia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "Leki"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "Tablica wiadomości"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Miscellaneous"
+msgstr "Różne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mobile"
+msgstr "Komórkowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Najczęściej używane imię, zdrobnienie, przezwisko itp."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Musi być unikalny w obrębie tego przedmiotu."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "Musi być unikalny w obrębie tego roku szkolnego."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "Jeśli podano, musi być unikalny."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Moje zajęcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Timetable"
+msgstr "Mój plan lekcji"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Imię i nazwisko w znakach"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Nowe schorzenie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next"
+msgstr "Następne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "Nie sprawdzono"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "Pełne imię i nazwisko"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "Kolejność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Pulpit rodzica"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Częściowa obecność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Password"
+msgstr "Hasło"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "Planer lekcji"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Positive"
+msgstr "Pozytywne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "Obecność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Previous"
+msgstr "Poprzednie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "Prywatność nie jest wymagana lub nie została ustawiona."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt"
+msgstr "Potwierdzenie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Potwierdzenie dla"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Otrzymywać od szkoły wiadomości SMS w sprawach innych niż nagłe?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "Otrzymywać od szkoły e-maile w sprawach innych niż nagłe?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Odbierać od szkoły telefony w sprawach innych niż nagłe?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Otrzymywać od szkoły listy pocztą tradycyjną?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Relationship Unknown"
+msgstr "Pokrewieństwo nieznane"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "Usuń"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Uwzględniany w raportach"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Uwzględniać w raportach?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "Wymagane"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "Reakcja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role"
+msgstr "Rola"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "Zmiana roli"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Numer w dzienniku"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Kryteria oceniania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "Dzień nauki"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Historia nauki"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "Informacje szkolne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "Rok szkolny"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Selected"
+msgstr "Wybrano"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "Wysyłaj faktury do"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Short Name"
+msgstr "Nazwa skrócona"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr ""
+"Czy wszystkie pozycje mają być fakturowane na podaną firmę, czy tylko "
+"niektóre?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "Czy wysyłać rodzinie kopię e-maili rozliczeniowych?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Status"
+msgstr "Status"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Umowy z uczniem"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "Zapis ucznia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Numer ucznia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Zadania domowe zapisane przez ucznia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "Wyślij"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "Ndz"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "Przełącz"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "Sprawdź obecność"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Dydaktyczny"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"Te dane są używane, gdy nie można skontaktować się z najbliższą rodziną (np."
+" rodzicem, małżonkiem). Prosimy nie wpisywać tutaj najbliższych członków "
+"rodziny."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "Określa widoczność w systemie."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Do tej lekcji nie przypisano jeszcze żadnych treści."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Time"
+msgstr "Godzina"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "Zmiana godzin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Zwrot grzecznościowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "Dzisiejsze lekcje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Total"
+msgstr "Suma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Rejestrować frekwencję?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transport"
+msgstr "Dojazd"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "Czynniki wywołujące"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Wychowawca"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit"
+msgstr "Dział"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Ulica, numer budynku, numer lokalu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "Aktualne"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "Użytkownik zostanie o to poproszony przy następnym logowaniu."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "Login"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "Numer rejestracyjny pojazdu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Version"
+msgstr "Wersja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "Zobacz"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "Zobacz faktury"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Zobacz planer lekcji"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Zobacz raporty"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Strona internetowa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "Służbowy"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Rocznik"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "Nie masz dostępu do tej czynności."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr "Masz w systemie kilka ról. Użyj poniższej listy, aby zmienić rolę:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "uczniów"
