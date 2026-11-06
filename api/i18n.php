@@ -95,8 +95,20 @@ try {
     if (empty($absolutePath)) $absolutePath = dirname(__DIR__, 3);
     $absolutePath = rtrim($absolutePath, '/\\');
 
+    // Gibbon has renamed some language codes (Catalan: ca_CA, now ca_ES in
+    // GibbonEdu/i18n). A school keeps whichever code its Gibbon installed, so
+    // look for the module's file under either name.
+    $aliases = ['ca_CA' => 'ca_ES', 'ca_ES' => 'ca_CA'];
+    $moduleFile = function ($c) use ($absolutePath) {
+        return $absolutePath . '/modules/School Connect/i18n/' . $c . '/LC_MESSAGES/School Connect.mo';
+    };
+    $module = $code === '' ? '' : $moduleFile($code);
+    if ($module !== '' && !is_file($module) && isset($aliases[$code]) && is_file($moduleFile($aliases[$code]))) {
+        $module = $moduleFile($aliases[$code]);
+    }
+
     $files = $code === '' ? [] : [
-        'module' => $absolutePath . '/modules/School Connect/i18n/' . $code . '/LC_MESSAGES/School Connect.mo',
+        'module' => $module,
         'core'   => $absolutePath . '/i18n/' . $code . '/LC_MESSAGES/gibbon.mo',
     ];
 
