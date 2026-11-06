@@ -1,0 +1,2926 @@
+# School Connect: Croatian (hr_HR) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Croatian-speaking school before release.
+# Vocabulary follows Gibbon core's hr_HR file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Croatian\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Interpunkcijski znak ili razmak"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Token za prijavu, spremljen u sigurnoj pohrani uređaja (iOS Keychain ili "
+"Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "O aplikaciji i privatnost"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Dodaj još"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Dodaj sudionika"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Dodati domaću zadaću?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Dodajte, uredite i uklonite dane kad škola ne radi"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Dodajte, uredite i uklonite korisničke račune"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Određuje redoslijed predmeta u izvještajima o uspjehu."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Postavke odrasle osobe su ažurirane"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Sve vrste"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Svi razredi"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Današnja nastava je završena ({count} sat)"
+msgstr[1] "Današnja nastava je završena ({count} sata)"
+msgstr[2] "Današnja nastava je završena ({count} sati)"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Jedno veliko i jedno malo slovo"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "Inačica aplikacije, povezana škola i vaši podaci"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Vrednovanja"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Barem jedna znamenka"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Barem {count} znak"
+msgstr[1] "Barem {count} znaka"
+msgstr[2] "Barem {count} znakova"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Prisutnost ove godine"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Prisutnost danas još nije evidentirana"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Zapis o ponašanju je spremljen!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Zapis o ponašanju spremljen je za {count} učenika!"
+msgstr[1] "Zapisi o ponašanju spremljeni su za {count} učenika!"
+msgstr[2] "Zapisi o ponašanju spremljeni su za {count} učenika!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Pregledajte profile osoblja"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Po grupi"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Po datumu"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Kamera i fotografije: samo kada odlučite priložiti fotografiju zahtjevu za "
+"ažuriranje podataka. Aplikacija vas najprije pita, a vi možete odbiti."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Otkazati rezervacije?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Otkazati nastavu?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Otkazati dežurstva osoblja?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Odustani od novog zdravstvenog stanja"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Kap."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Ime pisano kineskim ili drugim pismom"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Odaberite grupu iznad"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Odaberite bilo koji razredni odjel"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Odaberite bilo koju svoju grupu"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Najprije odaberite barem jednog učenika"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Odaberite jedan od svojih razrednih odjela"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Izostanci sa sati"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Upisi u grupe"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Popis grupe"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Kliknite \"Ažuriraj\" pokraj School Connect u Administrator sustava > "
+"Upravljanje modulima."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Zatvara se u"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"Spojeni kratki naziv \"{name}\" dulji je od 16 znakova — mogao bi se loše "
+"prikazivati u rasporedu i padajućim izbornicima."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Spojeni kratki naziv dulji je od 16 znakova"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Adrese e-pošte odvojene zarezom"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Potvrdi lozinku *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Povezana škola"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Povezivanje..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Podaci za kontakt"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Kontakt {number} — nije upisan"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Sadržaj u satima: videozapisi ili slike koje doda nastavnik (na primjer s "
+"YouTubea) učitavaju se s tih stranica kada ih otvorite"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Odredite što se svima prikazuje u aplikaciji"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Dodavanje nije uspjelo"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Dodavanje odrasle osobe nije uspjelo"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Dodavanje djeteta nije uspjelo"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Brisanje korisnika nije uspjelo"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Preuzimanje izvještaja nije uspjelo"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Stvaranje korisničkog imena nije uspjelo"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Učitavanje razrednih odjela nije uspjelo"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Učitavanje aktivnosti nije uspjelo"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Učitavanje prisutnosti nije uspjelo"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Učitavanje djece nije uspjelo"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Učitavanje grupa nije uspjelo"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Učitavanje predmeta nije uspjelo"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Učitavanje predmeta nije uspjelo"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Učitavanje podataka nije uspjelo"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Učitavanje ažuriranja podataka nije uspjelo"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Učitavanje dana u tjednu nije uspjelo"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Učitavanje kontakata u hitnim slučajevima nije uspjelo"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Učitavanje upisa nije uspjelo"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Učitavanje upisa nije uspjelo"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Učitavanje prostorija nije uspjelo"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Učitavanje obitelji nije uspjelo"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Učitavanje obitelji nije uspjelo"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Učitavanje podataka o obitelji nije uspjelo"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Učitavanje financijskih podataka nije uspjelo"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Učitavanje obrasca nije uspjelo"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Učitavanje podataka obrasca nije uspjelo"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Učitavanje ocjena nije uspjelo"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Učitavanje domaćih zadaća nije uspjelo"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Učitavanje kalendara domaćih zadaća nije uspjelo"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Učitavanje računa nije uspjelo"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Učitavanje računa nije uspjelo"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Učitavanje sata nije uspjelo"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Učitavanje sati nije uspjelo"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Učitavanje imenika ocjena nije uspjelo"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Učitavanje općeg rasporeda nije uspjelo"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Učitavanje zdravstvenih podataka nije uspjelo"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Učitavanje poruka nije uspjelo"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Učitavanje obavijesti nije uspjelo"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Učitavanje pravila za lozinke nije uspjelo"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Učitavanje osoba nije uspjelo"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Učitavanje osobnih podataka nije uspjelo"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Učitavanje osobnih podataka nije uspjelo"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Učitavanje profila nije uspjelo"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Učitavanje izvještaja nije uspjelo"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Učitavanje izvještaja nije uspjelo"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Učitavanje uloga nije uspjelo"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Učitavanje popisa nije uspjelo"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Učitavanje školskih godina nije uspjelo"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Učitavanje postavki nije uspjelo"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Učitavanje posebnog dana nije uspjelo"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Učitavanje osoblja nije uspjelo"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Učitavanje podataka o djelatniku nije uspjelo"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Učitavanje učenika nije uspjelo"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Učitavanje polugodišta nije uspjelo"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Učitavanje rasporeda nije uspjelo"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Učitavanje rasporeda nije uspjelo"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Učitavanje korisnika nije uspjelo"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Učitavanje korisnika nije uspjelo"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Učitavanje vaše djece nije uspjelo"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Otvaranje stranice za plaćanje nije uspjelo"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Otvaranje videopoziva nije uspjelo"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Uklanjanje nije uspjelo"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Ponovno postavljanje lozinke nije uspjelo"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Spremanje nije uspjelo"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Spremanje prisutnosti nije uspjelo"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Spremanje nije uspjelo za: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Spremanje postavke nije uspjelo"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Spremanje korisnika nije uspjelo"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Prijava kao ovaj korisnik nije uspjela"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Slanje ažuriranja nije uspjelo"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Promjena uloge nije uspjela"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Promjena školske godine nije uspjela"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Ažuriranje nije uspjelo"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Zemlja podrijetla"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Prioritet za zamjene"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Stvori povezani zapis djelatnika"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Stvori povezani upis učenika"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Tekuća godina"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Početna"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Dan izostanka"
+msgstr[1] "Dana izostanka"
+msgstr[2] "Dana izostanka"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Dan prisutnosti"
+msgstr[1] "Dana prisutnosti"
+msgstr[2] "Dana prisutnosti"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Izbriši grupu"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Izbriši predmet"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Izbriši posebni dan"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Izbriši korisnika"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Razvio High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Gotovo"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Rok"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Rok i detalji su obavezni."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Može se uređivati"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "E-pošta: mora biti jedinstvena"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Razredi za upis"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Upišite postojeće učenike u aktivnu školsku godinu"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Prezime kako piše u osobnim dokumentima"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "Najprije ispunite ime, prezime, ime koje se koristi i primarnu ulogu"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filtriraj po razredu"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Ime *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Ime kako piše u osobnim dokumentima"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Razredni odjel *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Službeno oslovljavanje roditelja"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Ime i prezime kako piše u osobnim dokumentima"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Usluga plaćanja"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Spol *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ je zaštitni znak tvrtke Gibbon Education Ltd. (Hong Kong), koristi "
+"se uz dopuštenje."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Prijava putem Googlea, samo ako je vaša škola koristi i ako je odaberete"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Ocjene"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "Veći broj pomiče djelatnika prema vrhu unutar njegove skupine."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Označeno crveno: status 'Aktivan', ali izvan razdoblja između datuma početka"
+" i završetka."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Praznik"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Kalendar domaćih zadaća"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "Rokovi domaćih zadaća"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Domaća zadaća je uklonjena."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Domaća zadaća je spremljena."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Ako odaberete Obitelj, budući računi slat će se prema postavkama kontakta "
+"vaše obitelji. Ako odaberete Tvrtka, možete odabrati hoće li navedena tvrtka"
+" plaćati sve naknade ili samo neke."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Prijavi se kao korisnik"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Prijava kao drugi korisnik zahtijeva modul School Connect 1.16.09 ili noviji"
+" na školskom poslužitelju."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Instalirana inačica je {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Završava nakon 2 sata. Za raniji povratak upotrijebite \"Povratak na moj "
+"račun\" pri vrhu zaslona."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Pridruži se virtualnoj nastavi"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr ""
+"\"Pridruži se virtualnoj nastavi\" skriveno je svugdje gdje bi se inače "
+"prikazivalo"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "\"Pridruži se virtualnoj nastavi\" prikazuje se u rasporedu i planeru"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "Zadnjih 10 nastavnih dana"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "Zadnjih 10 nastavnih dana — po satima"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "Zadnjih 20 nastavnih dana"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Zadnji sat u danu"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Planiranje sati uskoro stiže"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Provjera licence"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Povežite osobe s ulogom osoblja s njihovim zapisom djelatnika"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Zabilježi ponašanje"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Prijavljeni ste kao"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Upravljajte korisnicima i postavkama škole"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Označi sve kao pročitano"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Označi kao dovršeno"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Evidentirajte današnju prisutnost"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Označi kao pročitano"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Opći raspored"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Mora biti jedinstveno ako je postavljeno"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Moji razredni odjeli"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Naziv i kratki naziv su obavezni"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Nema razrednih odjela"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Bez područja učenja"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Nema zabilježenih aktivnosti"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Nema povezanih odraslih osoba"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Bez oglasa, analitike, praćenja, izvještaja o rušenju i usluga push-"
+"obavijesti. Aplikacija nikada ne prodaje niti dijeli vaše podatke."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Nema djece"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Nema povezane djece"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "S ovim računom nisu povezana djeca"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Bez grupe"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Nema grupa"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Danas u ovoj prostoriji nema nastave"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Nema zakazane nastave"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Danas nema zakazane nastave"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Još nema grupa"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Nema predmeta"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Nema podataka za ovo polugodište"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Nema ažuriranja podataka"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Bez odsjeka"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Nema prostorija"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Nema obitelji"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Nema upisanih članova obitelji"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Nema zapisa o obitelji"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Nema dostupnih ocjena"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Nema dostupne povijesti"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Nema zabilježenih domaćih zadaća."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Nema računa za prikaz"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Još nema upisa u imeniku ocjena"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Nema rezultata"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Nema obavijesti"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Još nema sudionika"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Nema osoba"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Nema upisanog telefona"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Nema zapisa"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Još nema dostupnih izvještaja"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Ovaj tjedan nema nastavnih dana"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Nema djelatnika"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Ove godine nema upisanih učenika"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Nema učenika"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Za ovu školsku godinu nema polugodišta"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Nema podataka o rasporedu"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Za ovaj dan nema rasporeda"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Danas nema rasporeda"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Nema korisnika"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "Sudionici koji nisu za izvještaj neće se prikazivati u izvještajima."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Nenastavni dan"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Nije nastavni dan"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Trenutačno nije upisan"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Još nije upisan ni u jednu grupu"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Nije dostupno: ažurirajte modul School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Danas još nije evidentirano"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Ovdje još nije povezano — upis ovdje ne dodaje predmete automatski. Ako je "
+"učeniku potrebno, dovršite upis na predmete na web-stranici."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Ništa nije zakazano"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Sada"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Puno ime i prezime *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Jednom dnevno poslužitelj vaše škole šalje tvrtki High Point samo svoju web-"
+"adresu kako bi potvrdio pretplatu škole. Ne šalju se nikakvi osobni podaci."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Obuhvaća samo osobe s ulogom osoblja koje još nemaju zapis djelatnika."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Obuhvaća samo učenike koji nisu upisani u ovu školsku godinu."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Otvara se u"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Druge usluge koje možete vidjeti"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Lozinka *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Lozinka mora biti upisana i podudarati se"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Lozinka je uspješno ponovno postavljena"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Lozinke se ne podudaraju"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Lozinke moraju biti upisane i podudarati se"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Trajno izbriši"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Trajno izbrisati \"{name}\" i sve njegove grupe?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Dopuštenja"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Osoba *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Unesite vrstu djelatnika"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Ispunite sva obavezna polja (ime, puno ime i prezime, spol, uloga, "
+"korisničko ime)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Odaberite vrstu"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Odaberite razred i razredni odjel"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Odaberite grupu i ulogu"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Odaberite osobu"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Odaberite osobu i ulogu"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Odaberite učenika"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Odvojite trenutak da pregledate potrebna ažuriranja u nastavku. Čak i ako se"
+" ništa nije promijenilo, slanjem potvrđujete da su vaši podaci točni."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Pokreće Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Ime koje se koristi *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Primarna uloga *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "Kontakti s prioritetom 1 uvijek primaju sve vrste obavijesti."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Osposobljen"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Brzi pristup"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Pročitajte cijela pravila privatnosti"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Broj potvrde"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Nedavna prisutnost"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Ukloniti \"{name}\" iz kalendara?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Ukloni odraslu osobu"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Ukloni dijete"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Ukloni grupu"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Ukloni upis"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Ukloni zapis djelatnika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Ukloniti upis u {class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Ukloni iz grupe"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Ukloniti {name} iz osoblja?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Ukloniti {name} iz ove grupe?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Ukloniti {name} iz ove obitelji?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "PDF izvještaji o uspjehu, samo dok ih pregledavate ili dijelite"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Povratak na moj račun"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Uloga: može se prijaviti"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Br."
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Spremanje nije uspjelo"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Spremljeno za {count} osobu, ali nije uspjelo za: {names}"
+msgstr[1] "Spremljeno za {count} osobe, ali nije uspjelo za: {names}"
+msgstr[2] "Spremljeno za {count} osoba, ali nije uspjelo za: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect je aplikacija treće strane kompatibilna s Gibbonom, "
+"besplatnom platformom otvorenog koda za upravljanje školom. Nije službeno "
+"izdanje zaklade Gibbon Foundation niti je s njom povezana ili od nje "
+"odobrena."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "Modul School Connect na školskom poslužitelju"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect prikazuje podatke iz Gibbon sustava vaše škole: raspored, "
+"prisutnost, ocjene, domaće zadaće, izvještaje, poruke i podatke o vašoj "
+"obitelji. Aplikacija se povezuje izravno i isključivo s Gibbon poslužiteljem"
+" vaše škole putem šifrirane (HTTPS) veze. High Point Education ne prima, ne "
+"pohranjuje i ne vidi te podatke."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Vrijeme otvaranja, početka, završetka i zatvaranja škole ovdje se ne "
+"postavlja — te podatke dovršite na web-stranici."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Pretražite i pregledajte profile učenika"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Traži po nazivu predmeta..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Traži po nazivu predmeta ili grupe..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Traži po nazivu obitelji..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Traži po imenu ili inicijalima..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Traži po imenu ili ID-u učenika..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Traži po imenu ili korisničkom imenu..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Traži po imenu, korisničkom imenu, e-pošti, ID-u učenika..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Traži grupe..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Traži prostorije..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Traži učenike..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Odaberi učenika"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Sati označeni kao izostanak ove godine"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Podijeli"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Odjava uklanja token za prijavu, vaše korisničko ime i preuzete izvještaje o"
+" uspjehu. Deinstalacija aplikacije uklanja sve ostalo."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Profil djelatnika"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Vrsta djelatnika *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Zapis djelatnika je stvoren"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Učenik *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Popis učenika"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Učenik je uspješno upisan"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Poslano"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Prezime *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Promijeni ulogu"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Promijeni školsku godinu"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Evidentirajte prisutnost za ovu grupu"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "Evidentirano"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Evidentirano u {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "Evidentirano danas u {time}. Dodirnite za pregled ili izmjenu"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Dodirnite za uređivanje"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Prijava kao drugi korisnik završila je nakon 2 sata. Ponovno ste u svom "
+"računu."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "Redoslijed kojim škola treba kontaktirati članove obitelji."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "To ne utječe na njegov korisnički račun."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Nema poruka za prikaz."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "To utječe na raspored:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Time se uklanjaju i svi podaci o upisu i rasporedu za te grupe. To se ne "
+"može poništiti."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "To se ne može poništiti."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Ova grupa nema nastavu {date}. Prisutnost svejedno možete spremiti ako je "
+"potrebno."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Time se ne briše njegov korisnički račun."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Ova mogućnost omogućuje administratorima da se prijave kao drugi korisnik u "
+"sustavu radi rješavanja problema i testiranja. Odabrani korisnik i dalje se "
+"može prijavljivati u svoj račun i odjavljivati iz njega."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Time se uklanjaju svi podaci o upisu i rasporedu za ovu grupu. To se ne može"
+" poništiti."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Raspored po prostorijama"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Današnji raspored"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Probni pristup"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Probno razdoblje — preostao je {count} dan"
+msgstr[1] "Probno razdoblje — preostala su {count} dana"
+msgstr[2] "Probno razdoblje — preostalo je {count} dana"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Rješavajte probleme gledajući aplikaciju kao drugi korisnik"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Razrednik 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Vrsta *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Vrsta i naziv su obavezni"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Upišite barem 2 znaka"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Vrsta, pozivni broj države, broj"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Ispisati {name} iz ove školske godine?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Nepoznata godina"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Nekorišteno"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Koristi se za grupiranje djelatnika u imeniku osoblja."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Korisnik je uspješno stvoren"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Korisnik je uspješno ažuriran"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Korisnik: može se prijaviti"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Korisnik: neuspjele prijave"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Korisnik: status"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Korisničko ime *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Korisničko ime je zauzeto"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Korisničko ime je slobodno"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Video nastava: virtualna nastava koristi videouslugu koju je odabrala vaša "
+"škola (zadano javnu uslugu Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Prikaži prisutnost"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Prikaži cijeli raspored"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Prikaži ocjene"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Prikaži kalendar domaćih zadaća"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Prikaži raspored"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Pregledajte razredne odjele i upravljajte njima"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Pregledajte ocjene grupe"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Pregledajte obitelji, kontakte i djecu"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Pregledajte planove sati za ovu grupu"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Pregledajte učenike u ovoj grupi"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Pregledajte svoje ocjene"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Pregledajte svoje izvještaje o uspjehu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Prikaz kao {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Virtualna učionica"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Dobro došli, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Što aplikacija ne radi"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Što aplikacija sprema na ovom uređaju"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Razred *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Odabir razreda i razrednih odjela ovdje se ne postavlja — primjenjivat će se"
+" općenito dok se ne dovrši na web-stranici."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Ponovno ste u svom računu."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Pregledavate školsku godinu {year}, koja nije tekuća. Podaci možda neće "
+"izgledati sasvim točno (na primjer, učenici koji su napustili školu neće se "
+"prikazivati u prethodnim godinama)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "U ovom dijelu možete bilježiti vlastite domaće zadaće."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Već ste poslali zahtjev koji čeka da ga pregleda administrator. Ispod još "
+"možete unijeti izmjene, ali vaši se podaci neće pojaviti u sustavu dok "
+"zahtjev ne bude obrađen."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Već ste poslali zahtjev koji čeka da ga pregleda administrator. Ispod još "
+"možete unijeti izmjene."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Vaši su podaci ažurni."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Vaši podaci ostaju u vašoj školi"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Vaše zadnje korisničko ime i zadnje tri adrese škola koje ste koristili, da "
+"ih ne morate ponovno upisivati"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Vaša prava i pitanja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Za vaše osobne podatke u Gibbonu odgovorna je vaša škola. Za uvid u njih, "
+"ispravak ili brisanje obratite se službeniku za zaštitu podataka svoje "
+"škole. Za pitanja o samoj aplikaciji pišite na {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Vaša sesija bit će prebačena na korisnika {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "prethodna godina"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "aplikacija za Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "neobavezno"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "primarni"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "do {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} izostanaka od {total} evidentiranih sati"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} odsutan"
+msgstr[1] "{count} odsutna"
+msgstr[2] "{count} odsutnih"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} vredn."
+msgstr[1] "{count} vredn."
+msgstr[2] "{count} vredn."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} vrednovanje"
+msgstr[1] "{count} vrednovanja"
+msgstr[2] "{count} vrednovanja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} grupa"
+msgstr[1] "{count} grupe"
+msgstr[2] "{count} grupa"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Preostao {count} sat · gotovo {done}"
+msgstr[1] "Preostala {count} sata · gotovo {done}"
+msgstr[2] "Preostalo {count} sati · gotovo {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "Danas {count} sat"
+msgstr[1] "Danas {count} sata"
+msgstr[2] "Danas {count} sati"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} dan"
+msgstr[1] "{count} dana"
+msgstr[2] "{count} dana"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} s rokom"
+msgstr[1] "{count} s rokom"
+msgstr[2] "{count} s rokom"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} prostorija"
+msgstr[1] "{count} prostorije"
+msgstr[2] "{count} prostorija"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} obitelj"
+msgstr[1] "{count} obitelji"
+msgstr[2] "{count} obitelji"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} stavka"
+msgstr[1] "{count} stavke"
+msgstr[2] "{count} stavki"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} kasni"
+msgstr[1] "{count} kasne"
+msgstr[2] "{count} kasni"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Nakon ovoga još {count} sat · danas ukupno {total}"
+msgstr[1] "Nakon ovoga još {count} sata · danas ukupno {total}"
+msgstr[2] "Nakon ovoga još {count} sati · danas ukupno {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} nastavni dan u polugodištu"
+msgstr[1] "{count} nastavna dana u polugodištu"
+msgstr[2] "{count} nastavnih dana u polugodištu"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} nastavni dan u školskoj godini"
+msgstr[1] "{count} nastavna dana u školskoj godini"
+msgstr[2] "{count} nastavnih dana u školskoj godini"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} sat"
+msgstr[1] "{count} sata"
+msgstr[2] "{count} sati"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} djelatnik"
+msgstr[1] "{count} djelatnika"
+msgstr[2] "{count} djelatnika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} učenik"
+msgstr[1] "{count} učenika"
+msgstr[2] "{count} učenika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} upisan učenik"
+msgstr[1] "{count} upisana učenika"
+msgstr[2] "{count} upisanih učenika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} put"
+msgstr[1] "{count} puta"
+msgstr[2] "{count} puta"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} korisnik"
+msgstr[1] "{count} korisnika"
+msgstr[2] "{count} korisnika"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "prije {count} d"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "prije {count} h"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "prije {count} min"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Ništa —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Prisutan - kasni"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Prisutan - izvan škole"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Formativno"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Sumativno"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Nerazvrstano"
+
+# Gibbon core string: missing from its file for this language
+msgid "Access data on family's children?"
+msgstr "Pristup podacima o djeci iz obitelji?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Address Name"
+msgstr "Naziv adrese"
+
+# Gibbon core string: missing from its file for this language
+msgid "Adult Family Members"
+msgstr "Odrasli članovi obitelji"
+
+# Gibbon core string: missing from its file for this language
+msgid "All Learning Areas"
+msgstr "Sva područja učenja"
+
+# Gibbon core string: missing from its file for this language
+msgid "Apply"
+msgstr "Primijeni"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "Po razrednom odjelu"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "Otkazati aktivnosti?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class Of"
+msgstr "Generacija"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "Grupa ne bi trebala raditi s manje učenika od ovog broja."
+
+# Gibbon core string: missing from its file for this language
+msgid "County, State, District"
+msgstr "Županija, regija, općina"
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "Predmet"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due Soon"
+msgstr "Rok se bliži"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "Rok: {date} u {time}"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "Rok: {date} u {time}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "Broj upisanih učenika ne bi trebao premašiti ovaj broj."
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Isključiti iz zamjena?"
+
+# Gibbon core string: missing from its file for this language
+msgid "First Aid Qualification"
+msgstr "Osposobljenost za prvu pomoć"
+
+# Gibbon core string: missing from its file for this language
+msgid "Form Group"
+msgstr "Razredni odjel"
+
+# Gibbon core string: missing from its file for this language
+msgid "Head of Year"
+msgstr "Voditelj razreda"
+
+# Gibbon core string: missing from its file for this language
+msgid "Home Address (District)"
+msgstr "Kućna adresa (općina)"
+
+# Gibbon core string: missing from its file for this language
+msgid "Home Languages"
+msgstr "Jezici kod kuće"
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "Domaće zadaće i rokovi"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Prijava kao drugi korisnik"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"U hitnom slučaju najprije pokušajte kontaktirati odrasle članove obitelji "
+"navedene u nastavku. Ako nisu dostupni, kontaktirajte osobe za hitne "
+"slučajeve navedene u nastavku."
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Uključi sve učenike, bez obzira na status i trenutačni upis. Neki se podaci "
+"možda neće prikazati."
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "Zadnja prijava: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "Zadnja prijava: vrijeme"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Slojevi"
+
+# Gibbon core string: missing from its file for this language
+msgid "Learning Area"
+msgstr "Područje učenja"
+
+# Gibbon core string: missing from its file for this language
+msgid "Login Troubleshooting"
+msgstr "Rješavanje problema s prijavom"
+
+# Gibbon core string: missing from its file for this language
+msgid "Long-Term Medication?"
+msgstr "Dugotrajna terapija?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "Najveći broj upisanih"
+
+# Gibbon core string: missing from its file for this language
+msgid "Message Wall"
+msgstr "Oglasna ploča"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "Najmanji broj upisanih"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "Moj razredni odjel"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "Nema nadolazećih rokova!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Nije za izvještaj"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Taken"
+msgstr "Nije evidentirano"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "Izvan rasporeda"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "Previše upisanih"
+
+# Gibbon core string: missing from its file for this language
+msgid "Select Students"
+msgstr "Odaberite učenike"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr ""
+"Treba li učenika automatski upisati na predmete njegova razrednog odjela?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Staff Directory"
+msgstr "Imenik osoblja"
+
+# Gibbon core string: missing from its file for this language
+msgid "Student Agreements"
+msgstr "Sporazumi s učenikom"
+
+# Gibbon core string: missing from its file for this language
+msgid "Student Recorded Homework"
+msgstr "Zadaće koje je zabilježio učenik"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Nastavnik"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Za ovu grupu nema sati."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Na ovaj datum nema sati."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"Ovaj učenik ima jedno ili više zdravstvenih stanja s razinom rizika: "
+"{level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "Premalo upisanih"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Staff Data"
+msgstr "Ažuriraj podatke o djelatniku"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Vaša aktivna sesija bit će prebačena na odabranog korisnika."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "Odsutan"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Dodaj grupu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Dodaj zdravstveno stanje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Dodaj djelatnika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "Dodaj upis učenika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Administracija"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "Odrasla osoba"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "Odrasle osobe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "Nakon datuma završetka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "Svi djelatnici"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "Svi učenici"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assessment"
+msgstr "Vrednovanje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "Pomoćnik u nastavi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Automatski upis na predmete?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "Dodatne informacije"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Before Start Date"
+msgstr "Prije datuma početka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "Kopija obitelji?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "Poziv?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "Može se prijaviti?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Ime pisano kineskim ili drugim pismom."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Odaberite grupu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "Odaberite učenike"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Grupa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Grupe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "Očisti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Tvrtka plaća sve?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "Kontakt osoba u tvrtki"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Kategorije naknada koje plaća tvrtka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Dovršeno"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "Kontakt e-poštom"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "Kontakt telefonom"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "Kontakt SMS-om"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "Prioritet kontakta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "Određuje što korisnik može raditi i vidjeti."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "Zemlja podrijetla"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Upis na predmete po grupama"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Upis na predmete po osobi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "Ažuriranje podataka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updates"
+msgstr "Ažuriranja podataka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Podaci prikazani na cijelom profilu učenika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "Razlog odlaska"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Opisnik"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Rok"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Uredi grupu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Uredi djelatnika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "Kontakti u hitnim slučajevima"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "End Date"
+msgstr "Datum završetka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "Očekivan"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "Filtar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Istek osposobljenosti za prvu pomoć"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "Osposobljen za prvu pomoć?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "Daljnje praćenje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Zahtijevati promjenu lozinke?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Aktivan"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "Generiraj"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "Skupina"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Prioritet unutar skupine"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr "Zamjene s višim prioritetom prikazuju se prve pri dodjeli zamjena."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Kućni"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "Kućna adresa (država)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "Jezik kod kuće - prvi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "Jezik kod kuće - drugi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "Domaća zadaća"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Detalji domaće zadaće"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "Kuća"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr "Ako navedena tvrtka ne plaća sve naknade, koje kategorije plaća?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Uključi sve djelatnike, bez obzira na status, datum početka, datum završetka"
+" itd."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "Ukupan iznos računa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "Datum zadnje epizode"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "Liječenje zadnje epizode"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "Prethodna škola"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Updated"
+msgstr "Zadnje ažuriranje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left"
+msgstr "Otišao"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson"
+msgstr "Sat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson Content"
+msgstr "Sadržaj sata"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Upravljanje predmetima i grupama"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Families"
+msgstr "Upravljanje obiteljima"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Upravljanje posebnim danima"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Upravljanje osobljem"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "Imenik ocjena"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Zdravstvena stanja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "Podaci o lijekovima"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "Slanje poruka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Najčešće korišteno ime, nadimak i sl."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Moje grupe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "N/P"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Ime drugim pismom"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Novo zdravstveno stanje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Nadzorna ploča za roditelje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Djelomično prisutan"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Payment Details"
+msgstr "Podaci o plaćanju"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "Ime koje se koristi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy required:"
+msgstr "Potrebna privatnost:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Profession"
+msgstr "Zanimanje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt"
+msgstr "Potvrda o plaćanju"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Želite li primati poštu iz škole?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "Ukloni"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Izvještaj o uspjehu"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset Password"
+msgstr "Ponovno postavi lozinku"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "Ponovno postavi korisničku lozinku"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Redni broj u imeniku"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Save"
+msgstr "Spremi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "Škola ne radi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "Neradni dan škole"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "Nastavni dan"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Prethodno obrazovanje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "Podaci o školi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "Račune slati"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "Trebaju li se sve stavke naplaćivati navedenoj tvrtki ili samo neke?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "Treba li obitelji slati kopiju e-poruka o naplati?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "Poredaj po"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "Osoblje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Start Date"
+msgstr "Datum početka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student"
+msgstr "Učenik"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Učenik - otišao"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "Upis učenika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "ID učenika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "Profil učenika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Students"
+msgstr "Učenici"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "Pošalji"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "Promijeni"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "Korisničko ime za prijavu u sustav."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "Polugodište"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"Ovi se podaci koriste kada se ne mogu kontaktirati najbliži članovi obitelji"
+" (npr. roditelj, supružnik). Nemojte navoditi članove uže obitelji."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Ovom satu nije dodijeljen nikakav sadržaj."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "Današnji sati"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Evidentirati prisutnost?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Razrednik"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "Ažuriraj podatke o obitelji"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Ažuriraj financijske podatke"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "Ažuriraj zdravstvene podatke"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "Ažuriraj osobne podatke"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Required"
+msgstr "Potrebno ažuriranje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "Fotografija korisnika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "Korisnik će to morati učiniti pri sljedećoj prijavi."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "Prikaži"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "Prikaži račune"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Prikaži planer"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Prikaži izvještaje"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Web-stranica"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "Poslovni"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Razred"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "Nemate pristup ovoj radnji."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"U sustavu imate više uloga. Pomoću popisa u nastavku promijenite ulogu:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "učenici"
