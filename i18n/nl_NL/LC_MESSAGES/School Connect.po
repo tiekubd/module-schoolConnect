@@ -1,0 +1,2631 @@
+# School Connect: Dutch (nl_NL) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Dutch-speaking school before release.
+# Vocabulary follows Gibbon core's nl_NL file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Een leesteken of een spatie"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Een aanmeldtoken, bewaard in de beveiligde opslag van het apparaat (iOS-"
+"sleutelhanger of Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "Over en privacy"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Meer toevoegen"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Deelnemer toevoegen"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Opdracht toevoegen?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Sluitingen toevoegen, bewerken en verwijderen"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Gebruikersaccounts toevoegen, bewerken en verwijderen"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Bepaalt de volgorde van cursussen in rapporten."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Instellingen van volwassene bijgewerkt"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Alle typen"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Alle jaargangen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "{count} les klaar voor vandaag"
+msgstr[1] "Alle {count} lessen klaar voor vandaag"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Een hoofdletter en een kleine letter"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "App-versie, gekoppelde school en je gegevens"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Toetsen"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Minstens één cijfer"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Minstens {count} teken"
+msgstr[1] "Minstens {count} tekens"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Aanwezigheid dit jaar"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Aanwezigheid vandaag nog niet geregistreerd"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Gedragsnotitie opgeslagen!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Gedragsnotitie opgeslagen voor {count} student!"
+msgstr[1] "Gedragsnotities opgeslagen voor {count} studenten!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Profielen van personeel bekijken"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Per vak"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Per datum"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Camera en foto’s: alleen als je zelf een foto toevoegt aan een verzoek om "
+"gegevens bij te werken. De app vraagt eerst toestemming en je kunt weigeren."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Reserveringen annuleren?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Lessen annuleren?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Diensten van personeel annuleren?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Nieuwe aandoening annuleren"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Cap."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Naam in Chinees of een ander tekenschrift"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Kies hierboven een vak"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Kies een klas"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Kies een van je vakken"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Kies eerst minstens één student"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Kies een van je klassen"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Afwezigheid in vak"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Inschrijvingen voor vakken"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Leerlingenlijst van vak"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Klik op Bijwerken naast School Connect in Systeembeheer > Modules beheren."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Sluit om"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"De gecombineerde korte naam \"{name}\" is langer dan 16 tekens — dit kan "
+"weergaveproblemen geven in het lesrooster en in keuzelijsten."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Gecombineerde korte naam is langer dan 16 tekens"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Lijst van e-mailadressen, gescheiden door komma’s"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Wachtwoord bevestigen *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Gekoppelde school"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Verbinden…"
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Contactgegevens"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Contact {number} — niet geregistreerd"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Inhoud van lessen: video’s of afbeeldingen die een leraar toevoegt "
+"(bijvoorbeeld van YouTube) worden geladen van die sites wanneer je ze opent"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Bepaal wat er voor iedereen in de app verschijnt"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Toevoegen mislukt"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "Volwassene toevoegen mislukt"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Kind toevoegen mislukt"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Gebruiker verwijderen mislukt"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Rapport downloaden mislukt"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Gebruikersnaam aanmaken mislukt"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Klassen laden mislukt"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Activiteiten laden mislukt"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Aanwezigheid laden mislukt"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Kinderen laden mislukt"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Vakken laden mislukt"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Cursus laden mislukt"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Cursussen laden mislukt"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Gegevens laden mislukt"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Gegevensupdates laden mislukt"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Dagen van de week laden mislukt"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Noodcontacten laden mislukt"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Inschrijving laden mislukt"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Inschrijvingen laden mislukt"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Lesruimtes laden mislukt"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Gezinnen laden mislukt"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Gezin laden mislukt"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Gezinsgegevens laden mislukt"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Financiële gegevens laden mislukt"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Formulier laden mislukt"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Formuliergegevens laden mislukt"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Cijfers laden mislukt"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Opdrachten laden mislukt"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Opdrachtenkalender laden mislukt"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Factuur laden mislukt"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Facturen laden mislukt"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Les laden mislukt"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Lessen laden mislukt"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Cijferlijst laden mislukt"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Algemeen lesrooster laden mislukt"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Medische gegevens laden mislukt"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Berichten laden mislukt"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Meldingen laden mislukt"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Wachtwoordregels laden mislukt"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Personen laden mislukt"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Persoonsgegevens laden mislukt"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Persoonlijke informatie laden mislukt"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Profiel laden mislukt"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Rapport laden mislukt"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Rapporten laden mislukt"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Rollen laden mislukt"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Lijst laden mislukt"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Schooljaren laden mislukt"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Instellingen laden mislukt"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Speciale dag laden mislukt"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Personeel laden mislukt"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Personeelsgegevens laden mislukt"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Studenten laden mislukt"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Periodes laden mislukt"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Lesrooster laden mislukt"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Lesroosters laden mislukt"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Gebruiker laden mislukt"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Gebruikers laden mislukt"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Je kinderen laden mislukt"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Betaalpagina openen mislukt"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Videogesprek openen mislukt"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Verwijderen mislukt"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Wachtwoord resetten mislukt"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Opslaan mislukt"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Aanwezigheid opslaan mislukt"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Opslaan mislukt voor: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Instelling opslaan mislukt"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Gebruiker opslaan mislukt"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Inloggen als deze gebruiker mislukt"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Update versturen mislukt"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Van rol wisselen mislukt"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Van schooljaar wisselen mislukt"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Bijwerken mislukt"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Land van herkomst"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Prioriteit voor vervanging"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Gekoppeld personeelsrecord aanmaken"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Gekoppelde inschrijving van student aanmaken"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Huidig jaar"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Dag afwezig"
+msgstr[1] "Dagen afwezig"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Dag aanwezig"
+msgstr[1] "Dagen aanwezig"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Vak verwijderen"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Cursus verwijderen"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Speciale dag verwijderen"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Gebruiker verwijderen"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Ontwikkeld door High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "Klaar"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Inleveren"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Inleverdatum en details zijn verplicht."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "Bewerkbaar"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "E-mail: moet uniek zijn"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Jaargangen met open inschrijving"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Bestaande studenten inschrijven in het actieve schooljaar"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Achternaam zoals in het identiteitsbewijs"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "Vul eerst voornaam, achternaam, roepnaam en primaire rol in"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filteren op jaargang"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Voornaam *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Voornaam zoals in het identiteitsbewijs"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Klas *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Formele naam om ouders mee aan te spreken"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Volledige naam zoals in het identiteitsbewijs"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Gateway"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Geslacht *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ is een handelsmerk van Gibbon Education Ltd. (Hongkong), gebruikt "
+"met toestemming."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr ""
+"Inloggen met Google, alleen als je school het gebruikt en jij ervoor kiest"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Cijfers"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr ""
+"Hogere getallen plaatsen personeel hoger in de volgorde binnen hun "
+"groepering."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"In rood: gemarkeerd als 'Full' maar buiten de periode tussen begin- en "
+"einddatum."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Vakantie"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Opdrachtenkalender"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "In te leveren opdrachten"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Opdracht verwijderd."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Opdracht opgeslagen."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Kies je Gezin, dan worden toekomstige facturen verstuurd volgens de "
+"contactvoorkeuren van je gezin. Kies je Bedrijf, dan kun je kiezen of het "
+"opgegeven bedrijf alle of slechts enkele kosten betaalt."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Inloggen als"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Inloggen als gebruiker vereist de School Connect-module 1.16.09 of nieuwer "
+"op de schoolserver."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Geïnstalleerde versie is {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Dit stopt na 2 uur. Gebruik Terug naar mijn account bovenaan het scherm om "
+"eerder terug te gaan."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Deelnemen aan virtuele les"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "De knop Deelnemen aan virtuele les is overal verborgen"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr ""
+"De knop Deelnemen aan virtuele les staat in het lesrooster en de planner"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "Laatste 10 schooldagen"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "Laatste 10 schooldagen — per lesuur"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "Laatste 20 schooldagen"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Laatste les van de dag"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Lesplanning komt binnenkort"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Licentiecontrole"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Personen met een personeelsrol koppelen aan hun personeelsrecord"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Gedrag registreren"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Ingelogd als"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Gebruikers en schoolinstellingen beheren"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Alles als gelezen markeren"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Als voltooid markeren"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Aanwezigheid van vandaag registreren"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Als gelezen markeren"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Algemeen lesrooster"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Moet uniek zijn, indien ingevuld"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Mijn klassen"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Naam en korte naam zijn verplicht"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Geen klassen gevonden"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Geen studiegebied"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Geen activiteiten geregistreerd"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Geen volwassenen gekoppeld"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Geen advertenties, geen analyse, geen tracking, geen crashrapportage en geen"
+" pushmeldingsdiensten. De app verkoopt of deelt je gegevens nooit."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Geen kinderen gevonden"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Geen kinderen gekoppeld"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "Geen kinderen gekoppeld aan dit account"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Geen vak"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Geen vakken gevonden"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Vandaag geen lessen in dit lokaal"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Geen lessen gepland"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Vandaag geen lessen gepland"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Nog geen vakken"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Geen cursussen gevonden"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Geen gegevens voor deze periode"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Geen gegevensupdates gevonden"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Geen afdeling"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Geen lesruimtes gevonden"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Geen gezinnen gevonden"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Geen gezinsleden geregistreerd"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Geen gezinsrecord gevonden"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Geen cijfers beschikbaar"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Geen geschiedenis beschikbaar"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Geen opdrachten geregistreerd."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Geen facturen om te tonen"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Nog geen cijfers in de cijferlijst"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Geen resultaten"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Geen meldingen"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Nog geen deelnemers"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Geen personen gevonden"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Geen telefoonnummer geregistreerd"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Geen record"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Nog geen rapporten beschikbaar"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Deze week geen schooldagen"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Geen personeel gevonden"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Dit jaar geen studenten ingeschreven"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Geen studenten gevonden"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Geen periodes gevonden voor dit schooljaar"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Geen roostergegevens gevonden"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Geen lesrooster voor deze dag"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Geen lesrooster voor vandaag"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Geen gebruikers gevonden"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr ""
+"Deelnemers die niet op het rapport staan, worden niet in rapporten getoond."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Geen schooldag"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Geen schooldag"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Momenteel niet ingeschreven"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Nog voor geen enkel vak ingeschreven"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Niet gemeld: werk de School Connect-module bij"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Vandaag nog niet geregistreerd"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Hier nog niet beschikbaar — inschrijven via de app voegt niet automatisch "
+"cursussen toe. Rond de inschrijving voor cursussen af op de website als deze"
+" student dat nodig heeft."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Niets gepland"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Nu"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Officiële naam *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Eén keer per dag stuurt de server van je school alleen zijn eigen webadres "
+"naar High Point, om het abonnement van de school te bevestigen. Er worden "
+"geen persoonsgegevens verstuurd."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr "Alleen personen met een personeelsrol die nog geen personeel zijn."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Alleen studenten die niet in dit schooljaar zijn ingeschreven."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Opent om"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Andere diensten die je kunt tegenkomen"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Wachtwoord *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Wachtwoord moet ingevuld zijn en overeenkomen"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Wachtwoord gereset"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Wachtwoorden komen niet overeen"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Wachtwoorden moeten ingevuld zijn en overeenkomen"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Definitief verwijderen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "\"{name}\" en al zijn vakken definitief verwijderen?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Rechten"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Persoon *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Vul een personeelstype in"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Vul alle verplichte velden in (naam, officiële naam, geslacht, rol, "
+"gebruikersnaam)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Kies een type"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Kies een jaargang en een klas"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Kies een vak en een rol"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Kies een persoon"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Kies een persoon en een rol"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Kies een student"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Neem even de tijd om de gevraagde updates hieronder te controleren. Ook als "
+"er niets is veranderd, bevestig je met versturen dat je gegevens kloppen."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Mogelijk gemaakt door Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Roepnaam *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Primaire rol *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "Contacten met prioriteit 1 ontvangen altijd alle soorten berichten."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "Gekwalificeerd"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Snelle toegang"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Lees het volledige privacybeleid"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Ontvangstbewijsnr."
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Recente aanwezigheid"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "\"{name}\" uit de kalender verwijderen?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Volwassene verwijderen"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Kind verwijderen"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Vak verwijderen"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Inschrijving verwijderen"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Personeelsrecord verwijderen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Inschrijving voor {class} verwijderen?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Uit vak verwijderen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "{name} uit het personeel verwijderen?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "{name} uit dit vak verwijderen?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "{name} uit dit gezin verwijderen?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "Rapporten als pdf, alleen zolang je ze bekijkt of deelt"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Terug naar mijn account"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Rol: kan inloggen"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Nr."
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Opslaan mislukt"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "Opgeslagen voor {count}, maar mislukt voor: {names}"
+msgstr[1] "Opgeslagen voor {count}, maar mislukt voor: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect is een app van een derde partij die werkt met Gibbon, het "
+"vrije en open-source platform voor schoolbeheer. Het is geen officiële "
+"uitgave van de Gibbon Foundation en is niet aan de Gibbon Foundation "
+"verbonden of door haar goedgekeurd."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "School Connect-module op de schoolserver"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect toont informatie uit het eigen Gibbon-systeem van je school: "
+"lesroosters, aanwezigheid, cijfers, opdrachten, rapporten, berichten en de "
+"gegevens van je gezin. De app maakt rechtstreeks en alleen verbinding met de"
+" Gibbon-server van je school, via een versleutelde (HTTPS-)verbinding. High "
+"Point Education ontvangt, bewaart of ziet deze informatie niet."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"De tijden voor openen, begin, einde en sluiten stel je hier niet in — rond "
+"die details af op de website."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Profielen van studenten zoeken en bekijken"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Zoeken op cursusnaam…"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Zoeken op naam van cursus of vak…"
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Zoeken op gezinsnaam…"
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Zoeken op naam of initialen…"
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Zoeken op naam of studentnummer…"
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Zoeken op naam of gebruikersnaam…"
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "Zoeken op naam, gebruikersnaam, e-mail, studentnummer…"
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Vakken zoeken…"
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Lokalen zoeken…"
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Studenten zoeken…"
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Student kiezen"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Lessen dit jaar gemarkeerd als Buiten"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Delen"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Uitloggen verwijdert het aanmeldtoken, je gebruikersnaam en gedownloade "
+"rapporten. De app verwijderen wist al het andere."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Profiel van personeelslid"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Personeelstype *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Personeelsrecord aangemaakt"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Student *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Studentenlijst"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Student ingeschreven"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "Verstuurd"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Achternaam *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Van rol wisselen"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Van schooljaar wisselen"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Aanwezigheid voor dit vak registreren"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "Geregistreerd"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "Geregistreerd om {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "Vandaag geregistreerd om {time}. Tik om te bekijken of te wijzigen"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Tik om te bewerken"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Het inloggen als een andere gebruiker is na 2 uur gestopt. Je bent terug in "
+"je eigen account."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "De volgorde waarin de school gezinsleden moet benaderen."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "Het gebruikersaccount van deze persoon blijft ongewijzigd."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Er zijn geen berichten om te tonen."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Dit heeft invloed op het lesrooster:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Dit verwijdert ook alle inschrijvingen en roostergegevens van die vakken. "
+"Dit kan niet ongedaan worden gemaakt."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "Dit kan niet ongedaan worden gemaakt."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Dit vak staat niet ingeroosterd op {date}. Je kunt de aanwezigheid zo nodig "
+"toch opslaan."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Dit verwijdert het gebruikersaccount van deze persoon niet."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Met deze optie kunnen beheerders inloggen als een ander account in het "
+"systeem, om problemen op te lossen en te testen. De gekozen gebruiker kan "
+"gewoon in- en uitloggen op het eigen account."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Dit verwijdert alle inschrijvingen en roostergegevens van dit vak. Dit kan "
+"niet ongedaan worden gemaakt."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Lesrooster per lesruimte"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Lesrooster van vandaag"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Proeftoegang"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Proefperiode — nog {count} dag"
+msgstr[1] "Proefperiode — nog {count} dagen"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Problemen oplossen door de app als een andere gebruiker te bekijken"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Mentor 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Type *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Type en naam zijn verplicht"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Typ minstens 2 tekens"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Type, landcode, nummer"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "{name} uitschrijven voor dit schooljaar?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Onbekend jaar"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "Ongebruikt"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Gebruikt om personeel te groeperen in de personeelsgids."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Gebruiker aangemaakt"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Gebruiker bijgewerkt"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Gebruiker: kan inloggen"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Gebruiker: mislukte aanmeldingen"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Gebruiker: status"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Gebruikersnaam *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Gebruikersnaam is al in gebruik"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Gebruikersnaam is beschikbaar"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Videolessen: virtuele lessen gebruiken de videodienst die je school heeft "
+"gekozen (standaard de openbare dienst Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Aanwezigheid bekijken"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Volledig lesrooster bekijken"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Cijfers bekijken"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Opdrachtenkalender bekijken"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Lesrooster bekijken"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Klassen bekijken en beheren"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Cijfers van het vak bekijken"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Gezinnen, contacten en kinderen bekijken"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Lesplannen van dit vak bekijken"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Studenten in dit vak bekijken"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Je cijfers bekijken"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Je rapporten bekijken"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Bekijken als {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Virtueel klaslokaal"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Welkom, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Wat de app niet doet"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Wat de app op dit apparaat bewaart"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Jaargang *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Je stelt hier niet in voor welke jaargang of klas dit geldt — het geldt voor"
+" iedereen totdat het op de website is afgerond."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Je bent terug in je eigen account."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Je bekijkt schooljaar {year}, dat niet het huidige jaar is. Gegevens kunnen "
+"afwijken (studenten die de school hebben verlaten, verschijnen bijvoorbeeld "
+"niet in eerdere jaren)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "In dit onderdeel kun je je eigen opdrachten bijhouden."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Je hebt al een verzoek verstuurd dat wacht op beoordeling door een "
+"beheerder. Je kunt hieronder nog wijzigingen aanbrengen, maar je gegevens "
+"verschijnen pas in het systeem nadat ze zijn verwerkt."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Je hebt al een verzoek verstuurd dat wacht op beoordeling door een "
+"beheerder. Je kunt hieronder nog wijzigingen aanbrengen."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Je gegevens zijn bijgewerkt."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Je gegevens blijven bij je school"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Je laatste gebruikersnaam en de laatste drie schooladressen die je "
+"gebruikte, zodat je ze niet opnieuw hoeft te typen"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Je rechten en vragen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Je school is verantwoordelijk voor je persoonsgegevens in Gibbon. Neem "
+"contact op met de functionaris voor gegevensbescherming van je school om ze "
+"in te zien, te corrigeren of te verwijderen. Voor vragen over de app zelf "
+"kun je mailen naar {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Je sessie wordt overgezet naar {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "een eerder jaar"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "een app voor Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "optioneel"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "primair"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "tot {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} keer afwezig van {total} geregistreerde lessen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} afwezig"
+msgstr[1] "{count} afwezig"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} toets"
+msgstr[1] "{count} toetsen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} toets"
+msgstr[1] "{count} toetsen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} vak"
+msgstr[1] "{count} vakken"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Nog {count} les · {done} klaar"
+msgstr[1] "Nog {count} lessen · {done} klaar"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} les vandaag"
+msgstr[1] "{count} lessen vandaag"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} dag"
+msgstr[1] "{count} dagen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} in te leveren"
+msgstr[1] "{count} in te leveren"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} lesruimte"
+msgstr[1] "{count} lesruimtes"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} gezin"
+msgstr[1] "{count} gezinnen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} item"
+msgstr[1] "{count} items"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} te laat"
+msgstr[1] "{count} te laat"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Nog {count} les hierna · {total} vandaag"
+msgstr[1] "Nog {count} lessen hierna · {total} vandaag"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} schooldag in de periode"
+msgstr[1] "{count} schooldagen in de periode"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} schooldag in het schooljaar"
+msgstr[1] "{count} schooldagen in het schooljaar"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} les"
+msgstr[1] "{count} lessen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} personeelslid"
+msgstr[1] "{count} personeelsleden"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} student"
+msgstr[1] "{count} studenten"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} student ingeschreven"
+msgstr[1] "{count} studenten ingeschreven"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} keer"
+msgstr[1] "{count} keer"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} gebruiker"
+msgstr[1] "{count} gebruikers"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count} d geleden"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count} u geleden"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count} min geleden"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Geen —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "Aanwezig - te laat"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "Aanwezig - buiten school"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Formatief"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Summatief"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Niet ingedeeld"
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Uitsluiten van vervanging?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Inloggen als gebruiker"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Lagen"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Niet op rapport"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Er zijn geen lessen voor dit vak."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Er zijn geen lessen op deze datum."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"Deze student heeft een of meer medische aandoeningen met risico {level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Je actieve sessie wordt overgezet naar de gekozen gebruiker."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Mentor"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "Periode"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "Naam contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "Telefoon 1 contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "Telefoon 2 contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "Relatie contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "Naam contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "Telefoon 1 contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "Telefoon 2 contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "Relatie contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Gemeente, provincie, district"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "EHBO-diploma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "Opdrachten & deadlines"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Opnemen in curriculumoverzicht"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Hulp bij inloggen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Cursussen en vakken beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Naam in chinese of andere karakters."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "Personeelsgids"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Appartement, gebouw, straat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add"
+msgstr "Toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "Volwassene toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Child"
+msgstr "Kind toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Medische aandoening toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Personeelslid toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "Inschrijving van student toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Adresnaam"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Roles"
+msgstr "Alle rollen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "Al het personeel"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "Alle periodes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "Biografie"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel"
+msgstr "Annuleren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Naam in het Chinees of een ander tekenschrift."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Eindexamenjaar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr "Het vak mag niet doorgaan met minder studenten dan dit aantal."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear"
+msgstr "Wissen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Clear Filters"
+msgstr "Filters wissen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Kostencategorieën van het bedrijf"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Phone"
+msgstr "Telefoon bedrijf"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Voltooid"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Aandoening"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Naam van aandoening"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "Wachtwoord bevestigen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "Contact opnemen per e-mail"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "Contact opnemen per telefoon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "Contact opnemen per sms"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Cursusinschrijving per vak"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Cursusinschrijving per persoon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "Gegevens bijwerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Delete"
+msgstr "Verwijderen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Descriptor"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Geen contact opnemen per sms."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "Geen contact opnemen per e-mail."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "Geen contact opnemen per telefoon."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "Binnenkort inleveren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "Inleveren om {time} op {date}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "Inleveren op {date} om {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "Cursus bewerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Enrolment"
+msgstr "Inschrijving bewerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Personeelslid bewerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "Gebruiker bewerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "Werk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enrolment should not exceed this number of students."
+msgstr ""
+"Het aantal inschrijvingen mag dit aantal studenten niet overschrijden."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fee Table"
+msgstr "Kostentabel"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fees"
+msgstr "Kosten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Wachtwoordreset afdwingen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Generate"
+msgstr "Genereren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Jaarcoördinator"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Start"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "Thuisadres (land)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Als het opgegeven bedrijf niet alle kosten betaalt, welke categorieën "
+"betaalt het dan wel?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Al het personeel opnemen, ongeacht status, begindatum, einddatum, enz."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Alle studenten opnemen, ongeacht status en huidige inschrijving. Sommige "
+"gegevens worden mogelijk niet getoond."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "Langdurige medicatie?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Families"
+msgstr "Gezinnen beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "Schooljaren beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Bijzondere dagen beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "Personeel beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "Periodes beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "Gebruikers beheren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Medische aandoeningen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Meest gebruikte naam, alias, bijnaam, enz."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Moet uniek zijn voor deze cursus."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "N.v.t."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No data"
+msgstr "Geen gegevens"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Dashboard ouders"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pay Now"
+msgstr "Nu betalen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "Privacy niet vereist of niet ingesteld."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy required:"
+msgstr "Privacy vereist:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt"
+msgstr "Ontvangstbewijs"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Sms-berichten van school ontvangen die geen noodbericht zijn?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "E-mails van school ontvangen die geen noodbericht zijn?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Telefoontjes van school ontvangen die geen noodoproep zijn?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Brieven van school per post ontvangen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "Weghalen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Op rapport"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Op rapport?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "Wachtwoord van gebruiker opnieuw instellen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "Van rol wisselen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Volgnummer in de klas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "Studenten kiezen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Selected"
+msgstr "Geselecteerd"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr ""
+"Moeten alle posten aan het opgegeven bedrijf worden gefactureerd, of slechts"
+" enkele?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr ""
+"Moet deze student automatisch worden ingeschreven voor de cursussen van de "
+"eigen klas?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Studentovereenkomsten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Studentnummer"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Door studenten bijgehouden opdrachten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Switch"
+msgstr "Wisselen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System login name."
+msgstr "Inlognaam voor het systeem."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "Aanwezigheid registreren"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Lesgeven"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Aanwezigheid bijhouden?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Type"
+msgstr "Type"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "Bijgewerkt"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "Gezinsgegevens bijwerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Financiële gegevens bijwerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "Personeelsgegevens bijwerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View"
+msgstr "Bekijken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Invoices"
+msgstr "Facturen bekijken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Planner bekijken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Rapportages bekijken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "Werk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"Je hebt verschillende rollen in het systeem. Gebruik onderstaande lijst om "
+"van rol te wisselen:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "studenten"
