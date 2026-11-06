@@ -1,0 +1,3447 @@
+# School Connect: Albanian (sq_AL) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Albanian-speaking school before release.
+# Vocabulary follows Gibbon core's sq_AL file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Albanian\n"
+"Language: sq_AL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "Një shenjë pikësimi ose hapësirë"
+
+#: lib/screens/about_screen.dart:217
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr ""
+"Një token hyrjeje, i ruajtur në hapësirën e sigurt të pajisjes (iOS Keychain"
+" ose Android Keystore)"
+
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "Rreth aplikacionit dhe privatësia"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "Shto më shumë"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "Shto pjesëmarrës"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "Të shtohen detyra shtëpie?"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "Shtoni, ndryshoni dhe hiqni ditët e mbylljes"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "Shtoni, ndryshoni dhe hiqni llogaritë e përdoruesve"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "Përcakton renditjen e lëndëve në dëftesa."
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "Cilësimet e të rriturit u përditësuan"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "Të gjitha llojet"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "Të gjitha nivelet"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:998
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "Ora e sotme përfundoi"
+msgstr[1] "Të {count} orët e sotme përfunduan"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "Një shkronjë e madhe dhe një e vogël"
+
+#: lib/screens/dashboard_screen.dart:851
+msgid "App version, connected school and your data"
+msgstr "Versioni i aplikacionit, shkolla e lidhur dhe të dhënat tuaja"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "Vlerësimet"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "Të paktën një shifër"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "Të paktën {count} karakter"
+msgstr[1] "Të paktën {count} karaktere"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "Frekuentimi këtë vit"
+
+#: lib/screens/dashboard_screen.dart:1059
+msgid "Attendance not taken yet today"
+msgstr "Frekuentimi nuk është marrë ende sot"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "Shënimi i sjelljes u ruajt!"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "Shënimi i sjelljes u ruajt për {count} nxënës!"
+msgstr[1] "Shënimet e sjelljes u ruajtën për {count} nxënës!"
+
+#: lib/screens/dashboard_screen.dart:795
+msgid "Browse staff profiles"
+msgstr "Shfletoni profilet e stafit"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "Sipas grupit"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "Sipas datës"
+
+#: lib/screens/about_screen.dart:261
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr ""
+"Kamera dhe fotot: vetëm kur zgjidhni të bashkëngjitni një foto në një "
+"kërkesë për përditësim të dhënash. Aplikacioni ju pyet më parë dhe mund të "
+"refuzoni."
+
+#: lib/screens/special_days_screen.dart:528
+msgid "Cancel Bookings?"
+msgstr "Të anulohen rezervimet?"
+
+#: lib/screens/special_days_screen.dart:525
+msgid "Cancel Classes?"
+msgstr "Të anulohen orët e mësimit?"
+
+#: lib/screens/special_days_screen.dart:527
+msgid "Cancel Staff Duty?"
+msgstr "Të anulohen kujdestaritë e stafit?"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "Anulo gjendjen e re shëndetësore"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "Kap."
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "Emri me shkronja kineze ose ideograme të tjera"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "Zgjidhni një grup më lart"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "Zgjidhni çdo klasë"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "Zgjidhni cilindo nga grupet tuaja"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "Fillimisht zgjidhni të paktën një nxënës"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "Zgjidhni një nga klasat tuaja"
+
+#: lib/screens/student_attendance_screen.dart:205
+msgid "Class Absences"
+msgstr "Mungesat në orë"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "Regjistrimet në grupe"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "Lista e grupit"
+
+#: lib/screens/about_screen.dart:89
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr ""
+"Klikoni \"Përditëso\" pranë School Connect te Admin i Sistemit > Menaxho "
+"modulet."
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "Mbyllet në"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr ""
+"Emri i shkurtër i bashkuar \"{name}\" ka më shumë se 16 karaktere — mund të "
+"shfaqet keq në orar dhe në listat rënëse."
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "Emri i shkurtër i bashkuar ka më shumë se 16 karaktere"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "Adresa email të ndara me presje"
+
+#: lib/screens/user_edit_screen.dart:734
+msgid "Confirm Password *"
+msgstr "Konfirmo fjalëkalimin *"
+
+#: lib/screens/about_screen.dart:149
+msgid "Connected school"
+msgstr "Shkolla e lidhur"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "Duke u lidhur..."
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "Kontaktet"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:183
+msgid "Contact {number} — not on record"
+msgstr "Kontakti {number} — nuk ka të dhëna"
+
+#: lib/screens/about_screen.dart:242
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr ""
+"Përmbajtja e mësimeve: videot ose imazhet që shton mësuesi (për shembull nga"
+" YouTube) ngarkohen nga ato faqe kur i hapni"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "Përcaktoni çfarë shohin të gjithë në aplikacion"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "Nuk u shtua dot"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "I rrituri nuk u shtua dot"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "Fëmija nuk u shtua dot"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "Përdoruesi nuk u fshi dot"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "Dëftesa nuk u shkarkua dot"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "Emri i përdoruesit nuk u krijua dot"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "Klasat nuk u ngarkuan dot"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "Aktivitetet nuk u ngarkuan dot"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "Frekuentimi nuk u ngarkua dot"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "Fëmijët nuk u ngarkuan dot"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "Grupet nuk u ngarkuan dot"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "Lënda nuk u ngarkua dot"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "Lëndët nuk u ngarkuan dot"
+
+#: lib/screens/attendance_screen.dart:118
+#: lib/screens/form_group_attendance_screen.dart:110
+msgid "Could not load data"
+msgstr "Të dhënat nuk u ngarkuan dot"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "Përditësimet e të dhënave nuk u ngarkuan dot"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "Ditët e javës nuk u ngarkuan dot"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "Kontaktet e emergjencës nuk u ngarkuan dot"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "Regjistrimi nuk u ngarkua dot"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "Regjistrimet nuk u ngarkuan dot"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "Sallat nuk u ngarkuan dot"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "Familjet nuk u ngarkuan dot"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:61
+msgid "Could not load family"
+msgstr "Familja nuk u ngarkua dot"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "Të dhënat e familjes nuk u ngarkuan dot"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "Të dhënat financiare nuk u ngarkuan dot"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "Formulari nuk u ngarkua dot"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "Të dhënat e formularit nuk u ngarkuan dot"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "Notat nuk u ngarkuan dot"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "Detyrat e shtëpisë nuk u ngarkuan dot"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "Kalendari i detyrave nuk u ngarkua dot"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "Fatura nuk u ngarkua dot"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "Faturat nuk u ngarkuan dot"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "Mësimi nuk u ngarkua dot"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "Mësimet nuk u ngarkuan dot"
+
+#: lib/screens/class_markbook_screen.dart:50
+msgid "Could not load markbook"
+msgstr "Regjistri i notave nuk u ngarkua dot"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "Orari i përgjithshëm nuk u ngarkua dot"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "Të dhënat shëndetësore nuk u ngarkuan dot"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "Mesazhet nuk u ngarkuan dot"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "Njoftimet nuk u ngarkuan dot"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "Rregullat e fjalëkalimit nuk u ngarkuan dot"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "Personat nuk u ngarkuan dot"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "Të dhënat personale nuk u ngarkuan dot"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "Informacioni personal nuk u ngarkua dot"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "Profili nuk u ngarkua dot"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "Dëftesa nuk u ngarkua dot"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "Dëftesat nuk u ngarkuan dot"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "Rolet nuk u ngarkuan dot"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "Lista e grupit nuk u ngarkua dot"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "Vitet shkollore nuk u ngarkuan dot"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "Cilësimet nuk u ngarkuan dot"
+
+#: lib/screens/special_days_screen.dart:385
+msgid "Could not load special day"
+msgstr "Dita e veçantë nuk u ngarkua dot"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "Stafi nuk u ngarkua dot"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "Të dhënat e stafit nuk u ngarkuan dot"
+
+#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/student_search_screen.dart:99
+#: lib/screens/students_screen.dart:66
+msgid "Could not load students"
+msgstr "Nxënësit nuk u ngarkuan dot"
+
+#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "Semestrat nuk u ngarkuan dot"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "Orari nuk u ngarkua dot"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "Oraret nuk u ngarkuan dot"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "Përdoruesi nuk u ngarkua dot"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "Përdoruesit nuk u ngarkuan dot"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "Fëmijët tuaj nuk u ngarkuan dot"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "Faqja e pagesës nuk u hap dot"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "Videotelefonata nuk u hap dot"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "Nuk u hoq dot"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "Fjalëkalimi nuk u rivendos dot"
+
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/course_detail_screen.dart:321
+msgid "Could not save"
+msgstr "Nuk u ruajt dot"
+
+#: lib/screens/attendance_screen.dart:144
+#: lib/screens/form_group_attendance_screen.dart:136
+msgid "Could not save attendance"
+msgstr "Frekuentimi nuk u ruajt dot"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "Nuk u ruajt dot për: {names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "Cilësimi nuk u ruajt dot"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "Përdoruesi nuk u ruajt dot"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "Hyrja si ky përdorues nuk u krye dot"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "Përditësimi nuk u dërgua dot"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "Roli nuk u ndërrua dot"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "Viti shkollor nuk u ndërrua dot"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "Nuk u përditësua dot"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "Vendi i origjinës"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "Përparësia për zëvendësime"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "Krijo regjistrimin e lidhur të stafit"
+
+#: lib/screens/user_edit_screen.dart:685
+msgid "Create linked student enrolment"
+msgstr "Krijo regjistrimin e lidhur të nxënësit"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "Viti aktual"
+
+#: lib/screens/dashboard_screen.dart:380
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "Kreu"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "Ditë mungese"
+msgstr[1] "Ditë mungese"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "Ditë prezence"
+msgstr[1] "Ditë prezence"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "Fshi grupin"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "Fshi lëndën"
+
+#: lib/screens/special_days_screen.dart:427
+msgid "Delete Special Day"
+msgstr "Fshi ditën e veçantë"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "Fshi përdoruesin"
+
+#: lib/screens/about_screen.dart:170
+msgid "Developed by High Point Education"
+msgstr "Zhvilluar nga High Point Education"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "U krye"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "Afati"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "Afati dhe përshkrimi janë të detyrueshëm."
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "I ndryshueshëm"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "Email: duhet të jetë unik"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "Nivelet ku mund të regjistrohet"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "Regjistroni nxënësit ekzistues në vitin shkollor aktual"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "Mbiemri si në dokumentin e identitetit"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr ""
+"Fillimisht plotësoni emrin, mbiemrin, emrin e preferuar dhe rolin kryesor"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "Filtro sipas nivelit"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "Emri *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "Emri si në dokumentin e identitetit"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:694
+msgid "Form Group *"
+msgstr "Klasa *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "Mënyra zyrtare e drejtimit ndaj prindërve"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "Emri i plotë si në dokumentin e identitetit"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "Shërbimi i pagesave"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "Gjinia *"
+
+#: lib/screens/about_screen.dart:313
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr ""
+"Gibbon™ është markë tregtare e Gibbon Education Ltd. (Hong Kong), e përdorur"
+" me leje."
+
+#: lib/screens/about_screen.dart:239
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "Hyrja me Google, vetëm nëse shkolla juaj e përdor dhe ju e zgjidhni"
+
+#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "Notat"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr ""
+"Numrat më të lartë e çojnë punonjësin më lart në renditjen e grupit të tij."
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr ""
+"Me të kuqe: me gjendje \"Aktiv\", por jashtë periudhës së datës së "
+"fillimit/mbarimit."
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:452
+msgid "Holiday"
+msgstr "Pushim"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "Kalendari i detyrave"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "Afati i detyrave të shtëpisë"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "Detyra e shtëpisë u hoq."
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "Detyra e shtëpisë u ruajt."
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr ""
+"Nëse zgjidhni \"Familja\", faturat e ardhshme do të dërgohen sipas "
+"preferencave të kontaktit të familjes suaj. Nëse zgjidhni \"Kompania\", mund"
+" të zgjidhni nëse kompania mbulon të gjitha tarifat apo vetëm disa."
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "Hyr si"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr ""
+"Funksioni \"Hyr si përdorues\" kërkon modulin School Connect 1.16.09 ose më "
+"të ri në serverin e shkollës."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:88
+msgid "Installed version is {version}."
+msgstr "Versioni i instaluar është {version}."
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr ""
+"Përfundon pas 2 orësh. Për t'u kthyer më herët, përdorni \"Kthehu te "
+"llogaria ime\" në krye të ekranit."
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "Hyr në orën online"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "Butoni \"Hyr në orën online\" është i fshehur kudo"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "Butoni \"Hyr në orën online\" shfaqet në orar dhe në planifikues"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "10 ditët e fundit të mësimit"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "10 ditët e fundit të mësimit — sipas orës"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "20 ditët e fundit të mësimit"
+
+#: lib/screens/dashboard_screen.dart:992
+msgid "Last class of the day"
+msgstr "Ora e fundit e ditës"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "Planifikimi i mësimit vjen së shpejti"
+
+#: lib/screens/about_screen.dart:247
+msgid "Licence check"
+msgstr "Kontrolli i licencës"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "Lidhni personat me rol stafi me regjistrimin e tyre të stafit"
+
+#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "Shëno sjelljen"
+
+#: lib/screens/about_screen.dart:164
+msgid "Logged in as"
+msgstr "Hyrë si"
+
+#: lib/screens/dashboard_screen.dart:774
+msgid "Manage users and school settings"
+msgstr "Menaxhoni përdoruesit dhe cilësimet e shkollës"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "Shëno të gjitha si të lexuara"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "Shëno si të kryer"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "Merrni frekuentimin për sot"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "Shëno si të lexuar"
+
+#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "Orari i përgjithshëm"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "Nëse plotësohet, duhet të jetë unik"
+
+#: lib/screens/dashboard_screen.dart:1034
+#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "Klasat e mia"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "Emri dhe emri i shkurtër janë të detyrueshëm"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "Nuk u gjetën klasa"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "Pa fushë të nxëni"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "Nuk ka aktivitete"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "Nuk ka të rritur të lidhur"
+
+#: lib/screens/about_screen.dart:230
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr ""
+"Pa reklama, pa analitika, pa gjurmim, pa raporte gabimesh dhe pa shërbime "
+"njoftimesh push. Aplikacioni nuk i shet dhe nuk i ndan kurrë të dhënat "
+"tuaja."
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "Nuk u gjetën fëmijë"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "Nuk ka fëmijë të lidhur"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "Asnjë fëmijë nuk është lidhur me këtë llogari"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "Nuk ka orë"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "Nuk u gjetën grupe"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "Sot nuk ka orë në këtë sallë"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "Nuk ka orë të planifikuara"
+
+#: lib/screens/dashboard_screen.dart:962
+msgid "No classes scheduled today"
+msgstr "Sot nuk ka orë të planifikuara"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "Ende nuk ka grupe"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "Nuk u gjetën lëndë"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:397
+msgid "No data for this term"
+msgstr "Nuk ka të dhëna për këtë semestër"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "Nuk u gjetën përditësime të dhënash"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "Pa departament"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "Nuk u gjetën salla"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "Nuk u gjetën familje"
+
+#: lib/screens/student_emergency_screen.dart:116
+msgid "No family members on record"
+msgstr "Nuk ka anëtarë të familjes"
+
+#: lib/screens/student_family_screen.dart:113
+msgid "No family record found"
+msgstr "Nuk u gjet regjistrimi i familjes"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "Nuk ka nota"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "Nuk ka historik"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "Nuk ka detyra shtëpie."
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "Nuk ka fatura"
+
+#: lib/screens/class_markbook_screen.dart:77
+msgid "No markbook entries yet"
+msgstr "Regjistri i notave nuk ka ende shënime"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "Nuk u gjet asnjë përputhje"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "Nuk ka njoftime"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "Ende nuk ka pjesëmarrës"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "Nuk u gjetën persona"
+
+#: lib/screens/student_emergency_screen.dart:147
+msgid "No phone on record"
+msgstr "Nuk ka numër telefoni"
+
+#: lib/screens/student_attendance_screen.dart:516
+msgid "No record"
+msgstr "Nuk ka të dhëna"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "Ende nuk ka dëftesa"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "Këtë javë nuk ka ditë mësimi"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "Nuk u gjet staf"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "Këtë vit nuk ka nxënës të regjistruar"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "Nuk u gjetën nxënës"
+
+#: lib/screens/special_days_screen.dart:156
+msgid "No terms found for this school year"
+msgstr "Nuk u gjetën semestra për këtë vit shkollor"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "Nuk u gjetën të dhëna orari"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "Nuk ka orar për këtë ditë"
+
+#: lib/screens/dashboard_screen.dart:956
+msgid "No timetable for today"
+msgstr "Sot nuk ka orar"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "Nuk u gjetën përdorues"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "Pjesëmarrësit që nuk përfshihen në dëftesa nuk do të shfaqen në to."
+
+#: lib/screens/special_days_screen.dart:187
+msgid "Non-school day"
+msgstr "Ditë pa mësim"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "Nuk është ditë mësimi"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "Aktualisht i paregjistruar"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "Ende i paregjistruar në asnjë grup"
+
+#: lib/screens/about_screen.dart:78
+msgid "Not reported: update the School Connect module"
+msgstr "Nuk ka të dhëna: përditësoni modulin School Connect"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "Nuk është marrë ende sot"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr ""
+"Ende jo i disponueshëm këtu — regjistrimi këtu nuk shton lëndët "
+"automatikisht. Nëse nevojitet, përfundoni regjistrimin në lëndë në faqen e "
+"internetit."
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "Asgjë e planifikuar"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "Tani"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "Emri zyrtar i plotë *"
+
+#: lib/screens/about_screen.dart:251
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr ""
+"Një herë në ditë, serveri i shkollës suaj i dërgon High Point vetëm adresën "
+"e vet të internetit, për të konfirmuar abonimin e shkollës. Nuk dërgohet "
+"asnjë e dhënë personale."
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr ""
+"Përfshin vetëm personat me rol stafi që nuk kanë ende regjistrim stafi."
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "Përfshin vetëm nxënësit e paregjistruar në këtë vit shkollor."
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "Hapet në"
+
+#: lib/screens/about_screen.dart:235
+msgid "Other services you may see"
+msgstr "Shërbime të tjera që mund të shihni"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "Fjalëkalimi *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "Fjalëkalimi duhet plotësuar dhe duhet të përputhet"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "Fjalëkalimi u rivendos"
+
+#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "Fjalëkalimet nuk përputhen"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "Fjalëkalimet duhet plotësuar dhe duhet të përputhen"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "Fshi përgjithmonë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "Të fshihet përgjithmonë \"{name}\" bashkë me të gjitha grupet e saj?"
+
+#: lib/screens/about_screen.dart:257
+msgid "Permissions"
+msgstr "Lejet"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "Personi *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "Shkruani llojin e stafit"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr ""
+"Plotësoni të gjitha fushat e detyrueshme (emri, emri zyrtar, gjinia, roli, "
+"emri i përdoruesit)"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "Zgjidhni një lloj"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "Zgjidhni një nivel dhe një klasë"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "Zgjidhni një grup dhe një rol"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "Zgjidhni një person"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "Zgjidhni një person dhe një rol"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "Zgjidhni një nxënës"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr ""
+"Ju lutemi rishikoni përditësimet e nevojshme më poshtë. Edhe nëse asgjë nuk "
+"ka ndryshuar, dërgimi konfirmon që të dhënat tuaja janë të sakta."
+
+#: lib/screens/about_screen.dart:300
+msgid "Powered by Gibbon"
+msgstr "Mundësuar nga Gibbon"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "Emri i preferuar *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "Roli kryesor *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr ""
+"Kontaktet me përparësi 1 marrin gjithmonë të gjitha llojet e njoftimeve."
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "I kualifikuar"
+
+#: lib/screens/dashboard_screen.dart:731
+msgid "Quick Access"
+msgstr "Qasje e shpejtë"
+
+#: lib/screens/about_screen.dart:280
+msgid "Read the full privacy policy"
+msgstr "Lexoni politikën e plotë të privatësisë"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "Numri i mandatit"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "Frekuentimi i fundit"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:428
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "Të hiqet \"{name}\" nga kalendari?"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "Hiq të rriturin"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "Hiq fëmijën"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "Hiq grupin"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "Hiq regjistrimin"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "Hiq regjistrimin e stafit"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "Të hiqet regjistrimi në {class}?"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "Hiq nga grupi"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "Të hiqet {name} nga stafi?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "Të hiqet {name} nga ky grup?"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "Të hiqet {name} nga kjo familje?"
+
+#: lib/screens/about_screen.dart:219
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "Dëftesat në PDF, vetëm ndërsa i shikoni ose i ndani"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "Kthehu te llogaria ime"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "Roli: mund të hyjë"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "Nr."
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "Ruajtja dështoi"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "U ruajt për {count} person, por dështoi për: {names}"
+msgstr[1] "U ruajt për {count} persona, por dështoi për: {names}"
+
+#: lib/screens/about_screen.dart:305
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect është aplikacion i palës së tretë, i përputhshëm me Gibbon, "
+"platformën falas dhe me burim të hapur për menaxhimin e shkollave. Nuk është"
+" botim zyrtar i Gibbon Foundation dhe nuk është i lidhur me të apo i "
+"miratuar prej saj."
+
+#: lib/screens/about_screen.dart:157
+msgid "School Connect module on the school server"
+msgstr "Moduli School Connect në serverin e shkollës"
+
+#: lib/screens/about_screen.dart:198
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect shfaq informacion nga sistemi Gibbon i shkollës suaj: orarin,"
+" frekuentimin, notat, detyrat e shtëpisë, dëftesat, mesazhet dhe të dhënat e"
+" familjes suaj. Aplikacioni lidhet drejtpërdrejt dhe vetëm me serverin "
+"Gibbon të shkollës suaj përmes një lidhjeje të enkriptuar (HTTPS). High "
+"Point Education nuk e merr, nuk e ruan dhe nuk e sheh këtë informacion."
+
+#: lib/screens/special_days_screen.dart:516
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr ""
+"Oraret e hapjes, fillimit, mbarimit dhe mbylljes së shkollës nuk caktohen "
+"këtu — plotësojini në faqen e internetit."
+
+#: lib/screens/dashboard_screen.dart:784
+msgid "Search and view student profiles"
+msgstr "Kërkoni dhe shikoni profilet e nxënësve"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "Kërko sipas emrit të lëndës..."
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "Kërko sipas lëndës ose grupit..."
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "Kërko sipas emrit të familjes..."
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "Kërko sipas emrit ose inicialeve..."
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "Kërko sipas emrit ose numrit të nxënësit..."
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "Kërko sipas emrit ose emrit të përdoruesit..."
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr ""
+"Kërko sipas emrit, emrit të përdoruesit, emailit, numrit të nxënësit..."
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "Kërko grupe..."
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "Kërko salla..."
+
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "Kërko nxënës..."
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "Zgjidh nxënësin"
+
+#: lib/screens/student_attendance_screen.dart:209
+msgid "Sessions marked Out this year"
+msgstr "Orët e shënuara si mungesë këtë vit"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "Ndaj"
+
+#: lib/screens/about_screen.dart:221
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr ""
+"Dalja heq tokenin e hyrjes, emrin tuaj të përdoruesit dhe dëftesat e "
+"shkarkuara. Çinstalimi i aplikacionit heq gjithçka tjetër."
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "Profili i stafit"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "Lloji i stafit *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "Regjistrimi i stafit u krijua"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "Nxënësi *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "Lista e nxënësve"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "Nxënësi u regjistrua"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "U dërgua"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "Mbiemri *"
+
+#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "Ndërro rolin"
+
+#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "Ndërro vitin shkollor"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "Merr frekuentimin për këtë grup"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "U mor"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "Taken at {time}"
+msgstr "U mor në {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "Prekni për ta ndryshuar"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr ""
+"Hyrja si përdorues tjetër përfundoi pas 2 orësh. Jeni sërish në llogarinë "
+"tuaj."
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "Rendi në të cilin shkolla duhet të kontaktojë anëtarët e familjes."
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "Llogaria e tij/saj e përdoruesit nuk preket."
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "Nuk ka mesazhe."
+
+#: lib/screens/special_days_screen.dart:524
+msgid "This affects the timetable:"
+msgstr "Kjo ndikon në orar:"
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr ""
+"Kjo heq gjithashtu të gjitha të dhënat e regjistrimit dhe të orarit për këto"
+" grupe. Nuk mund të zhbëhet."
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "Nuk mund të zhbëhet."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:203
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr ""
+"Ky grup nuk ka orë më {date}. Nëse nevojitet, mund ta ruani gjithsesi "
+"frekuentimin."
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "Kjo nuk e fshin llogarinë e tij/saj të përdoruesit."
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr ""
+"Ky opsion u lejon administratorëve të hyjnë si një llogari tjetër në sistem "
+"për zgjidhjen e problemeve dhe testim. Përdoruesi i zgjedhur do të mund të "
+"hyjë dhe të dalë nga llogaria e vet si zakonisht."
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr ""
+"Kjo heq të gjitha të dhënat e regjistrimit dhe të orarit për këtë grup. Nuk "
+"mund të zhbëhet."
+
+#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "Orari sipas sallës"
+
+#: lib/screens/dashboard_screen.dart:924
+msgid "Today's Timetable"
+msgstr "Orari i sotëm"
+
+#: lib/screens/dashboard_screen.dart:530
+msgid "Trial access"
+msgstr "Qasje provë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:529
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "Provë — mbetet {count} ditë"
+msgstr[1] "Provë — mbeten {count} ditë"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "Zgjidhni problemet duke parë aplikacionin si një përdorues tjetër"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "Mësuesi kujdestar 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "Lloji *"
+
+#: lib/screens/special_days_screen.dart:391
+msgid "Type and Name are required"
+msgstr "Lloji dhe emri janë të detyrueshëm"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "Shkruani të paktën 2 karaktere"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "Lloji, kodi i shtetit, numri"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "Të çregjistrohet {name} nga ky vit shkollor?"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "Vit i panjohur"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "E papërdorur"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "Përdoret për të grupuar stafin në listën e stafit."
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "Përdoruesi u krijua"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "Përdoruesi u përditësua"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "Përdoruesi: mund të hyjë"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "Përdoruesi: hyrje të dështuara"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "Përdoruesi: gjendja"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "Emri i përdoruesit *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "Ky emër përdoruesi është i zënë"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "Emri i përdoruesit është i lirë"
+
+#: lib/screens/about_screen.dart:240
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr ""
+"Mësimet me video: orët online përdorin shërbimin e videos që ka zgjedhur "
+"shkolla juaj (si parazgjedhje shërbimin publik Jitsi Meet)"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "Shiko frekuentimin"
+
+#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "Shiko orarin e plotë"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "Shiko notat"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "Shiko kalendarin e detyrave"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "Shiko orarin"
+
+#: lib/screens/dashboard_screen.dart:806
+msgid "View and manage Form Groups"
+msgstr "Shikoni dhe menaxhoni klasat"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "Shiko notat e grupit"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "Shikoni familjet, kontaktet dhe fëmijët"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "Shiko planet e mësimit për këtë grup"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "Shiko nxënësit e këtij grupi"
+
+#: lib/screens/dashboard_screen.dart:817
+msgid "View your grades"
+msgstr "Shikoni notat tuaja"
+
+#: lib/screens/dashboard_screen.dart:835
+msgid "View your report cards"
+msgstr "Shikoni dëftesat tuaja"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "Duke parë si {name}"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "Klasa virtuale"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:477
+msgid "Welcome, {name}!"
+msgstr "Mirë se vini, {name}!"
+
+#: lib/screens/about_screen.dart:226
+msgid "What the app does not do"
+msgstr "Çfarë nuk bën aplikacioni"
+
+#: lib/screens/about_screen.dart:213
+msgid "What the app keeps on this device"
+msgstr "Çfarë ruan aplikacioni në këtë pajisje"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:690
+msgid "Year Group *"
+msgstr "Niveli *"
+
+#: lib/screens/special_days_screen.dart:515
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr ""
+"Nivelet dhe klasat nuk zgjidhen këtu — derisa të plotësohet në faqen e "
+"internetit, do të vlejë për të gjithë."
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "Jeni sërish në llogarinë tuaj."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr ""
+"Po shikoni vitin shkollor {year}, i cili nuk është viti aktual. Të dhënat "
+"mund të mos jenë plotësisht të sakta (për shembull, nxënësit që janë larguar"
+" nga shkolla nuk shfaqen në vitet e mëparshme)."
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr ""
+"Mund ta përdorni këtë seksion për të shënuar detyrat tuaja të shtëpisë."
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr ""
+"Keni dërguar tashmë një kërkesë, e cila pret shqyrtimin nga një "
+"administrator. Mund të bëni ende ndryshime më poshtë, por të dhënat tuaja do"
+" të shfaqen në sistem vetëm pasi të përpunohet."
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr ""
+"Keni dërguar tashmë një kërkesë, e cila pret shqyrtimin nga një "
+"administrator. Mund të bëni ende ndryshime më poshtë."
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "Të dhënat tuaja janë të përditësuara."
+
+#: lib/screens/about_screen.dart:192
+msgid "Your data stays with your school"
+msgstr "Të dhënat tuaja mbeten në shkollën tuaj"
+
+#: lib/screens/about_screen.dart:218
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr ""
+"Emri juaj i fundit i përdoruesit dhe tri adresat e fundit të shkollave që "
+"keni përdorur, që të mos i shkruani përsëri"
+
+#: lib/screens/about_screen.dart:266
+msgid "Your rights and questions"
+msgstr "Të drejtat tuaja dhe pyetjet"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:271
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"Shkolla juaj është përgjegjëse për të dhënat tuaja personale në Gibbon. Për "
+"t'i parë, korrigjuar ose fshirë, kontaktoni zyrtarin e mbrojtjes së të "
+"dhënave të shkollës. Për pyetje rreth vetë aplikacionit, kontaktoni {email}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "Seanca juaj do të kalojë te {name} ({role})."
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "një vit i mëparshëm"
+
+#: lib/screens/about_screen.dart:133
+msgid "an app for Gibbon™"
+msgstr "një aplikacion për Gibbon™"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "opsionale"
+
+#: lib/screens/user_edit_screen.dart:857
+msgid "primary"
+msgstr "kryesor"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "deri në {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:244
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "{absent} mungesa nga {total} orë të regjistruara"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1056
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} mungon"
+msgstr[1] "{count} mungojnë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} vlerës."
+msgstr[1] "{count} vlerës."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} vlerësim"
+msgstr[1] "{count} vlerësime"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/master_timetable_screen.dart:278
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} grup"
+msgstr[1] "{count} grupe"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:994
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "Mbetet {count} orë · përfunduan {done}"
+msgstr[1] "Mbeten {count} orë · përfunduan {done}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:996
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "{count} orë sot"
+msgstr[1] "{count} orë sot"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:360
+#: lib/screens/student_attendance_screen.dart:363
+#: lib/screens/student_attendance_screen.dart:367
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} ditë"
+msgstr[1] "{count} ditë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} me afat"
+msgstr[1] "{count} me afat"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} sallë"
+msgstr[1] "{count} salla"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} familje"
+msgstr[1] "{count} familje"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} element"
+msgstr[1] "{count} elemente"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} me vonesë"
+msgstr[1] "{count} me vonesë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:990
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "Edhe {count} orë pas kësaj · gjithsej sot {total}"
+msgstr[1] "Edhe {count} orë pas kësaj · gjithsej sot {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:377
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "{count} ditë mësimi në semestër"
+msgstr[1] "{count} ditë mësimi në semestër"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:376
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "{count} ditë mësimi në vitin shkollor"
+msgstr[1] "{count} ditë mësimi në vitin shkollor"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} orë"
+msgstr[1] "{count} orë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} punonjës"
+msgstr[1] "{count} punonjës"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:189
+#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} nxënës"
+msgstr[1] "{count} nxënës"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} nxënës i regjistruar"
+msgstr[1] "{count} nxënës të regjistruar"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} herë"
+msgstr[1] "{count} herë"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} përdorues"
+msgstr[1] "{count} përdorues"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "para {count} ditësh"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "para {count} orësh"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "para {count} minutash"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}: "
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— Asnjë —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "I pranishëm - Vonesë"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "I pranishëm - Jashtë shkollës"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "Formuese"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "Përmbledhëse"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "E paklasifikuar"
+
+# Gibbon core string: missing from its file for this language
+msgid "Apply"
+msgstr "Zbato"
+
+# Gibbon core string: missing from its file for this language
+msgid "Auto-Enrol Courses?"
+msgstr "Regjistrim automatik në lëndë?"
+
+# Gibbon core string: missing from its file for this language
+msgid "By Form Group"
+msgstr "Sipas klasës"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel"
+msgstr "Anulo"
+
+# Gibbon core string: missing from its file for this language
+msgid "Cancel Activities?"
+msgstr "Të anulohen aktivitetet?"
+
+# Gibbon core string: missing from its file for this language
+msgid "Class should not run below this number of students."
+msgstr "Grupi nuk duhet të funksionojë me më pak nxënës se ky numër."
+
+# Gibbon core string: missing from its file for this language
+msgid "Course"
+msgstr "Lënda"
+
+# Gibbon core string: missing from its file for this language
+msgid "Data Updates"
+msgstr "Përditësimet e të dhënave"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due Soon"
+msgstr "Afati po afron"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "Afati: {date}, ora {time}"
+
+# Gibbon core string: missing from its file for this language
+msgid "Due on {date} at {time}."
+msgstr "Afati: {date}, ora {time}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Edit Enrolment"
+msgstr "Ndrysho regjistrimin"
+
+# Gibbon core string: missing from its file for this language
+msgid "Enrolment should not exceed this number of students."
+msgstr "Numri i nxënësve të regjistruar nuk duhet ta kalojë këtë numër."
+
+# Gibbon core string: missing from its file for this language
+msgid "Exclude from coverage?"
+msgstr "Të përjashtohet nga zëvendësimet?"
+
+# Gibbon core string: missing from its file for this language
+msgid "First Aid Qualification"
+msgstr "Certifikata e ndihmës së parë"
+
+# Gibbon core string: missing from its file for this language
+msgid "Form Group"
+msgstr "Klasa"
+
+# Gibbon core string: missing from its file for this language
+msgid "Generate"
+msgstr "Gjenero"
+
+# Gibbon core string: missing from its file for this language
+msgid "Head of Year"
+msgstr "Përgjegjësi i nivelit"
+
+# Gibbon core string: missing from its file for this language
+msgid "Homework + Due Dates"
+msgstr "Detyrat e shtëpisë dhe afatet"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "Hyr si përdorues"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: IP"
+msgstr "Hyrja e fundit: IP"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Login: Time"
+msgstr "Hyrja e fundit: koha"
+
+# Gibbon core string: missing from its file for this language
+msgid "Last Updated"
+msgstr "Përditësuar së fundi"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "Shtresat"
+
+# Gibbon core string: missing from its file for this language
+msgid "Maximum Enrolment"
+msgstr "Numri maksimal i nxënësve"
+
+# Gibbon core string: missing from its file for this language
+msgid "Minimum Enrolment"
+msgstr "Numri minimal i nxënësve"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Data Updates"
+msgstr "Përditësimet e mia të të dhënave"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Form Group"
+msgstr "Klasa ime"
+
+# Gibbon core string: missing from its file for this language
+msgid "No upcoming due dates!"
+msgstr "Nuk ka afate të afërta!"
+
+# Gibbon core string: missing from its file for this language
+msgid "Not Reportable"
+msgstr "Jashtë dëftesave"
+
+# Gibbon core string: missing from its file for this language
+msgid "Off Timetable"
+msgstr "Jashtë orarit"
+
+# Gibbon core string: missing from its file for this language
+msgid "Over Enrolled"
+msgstr "Mbi numrin e lejuar"
+
+# Gibbon core string: missing from its file for this language
+msgid "Save"
+msgstr "Ruaj"
+
+# Gibbon core string: missing from its file for this language
+msgid "Select Students"
+msgstr "Zgjidh nxënësit"
+
+# Gibbon core string: missing from its file for this language
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr ""
+"A duhet të regjistrohet automatikisht ky nxënës në lëndët e klasës së tij?"
+
+# Gibbon core string: missing from its file for this language
+msgid "System login name."
+msgstr "Emri i hyrjes në sistem."
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Mësues"
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons for this class."
+msgstr "Ky grup nuk ka mësime."
+
+# Gibbon core string: missing from its file for this language
+msgid "There are no lessons on this date."
+msgstr "Në këtë datë nuk ka mësime."
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr ""
+"Ky nxënës ka një ose më shumë gjendje shëndetësore me rrezik të nivelit "
+"{level}."
+
+# Gibbon core string: missing from its file for this language
+msgid "Under Enrolled"
+msgstr "Nën numrin minimal"
+
+# Gibbon core string: missing from its file for this language
+msgid "Up to date"
+msgstr "Të përditësuara"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Required"
+msgstr "Kërkohet përditësim"
+
+# Gibbon core string: missing from its file for this language
+msgid "Update Staff Data"
+msgstr "Përditëso të dhënat e stafit"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "Seanca juaj aktive do të kalojë te përdoruesi i zgjedhur."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "Qasje në të dhënat e fëmijëve të familjes?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add"
+msgstr "Shto"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Adult"
+msgstr "Shto të rritur"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Child"
+msgstr "Shto fëmijë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Shto grup"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "Shto lëndë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "Shto gjendje shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "Shto ditë të veçantë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "Shto punonjës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "Shto regjistrim nxënësi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add User"
+msgstr "Shto përdorues"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "Emri i adresës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Administrimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult"
+msgstr "I rritur"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "Anëtarët e rritur të familjes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adults"
+msgstr "Të rriturit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "Pas datës së mbarimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All"
+msgstr "Të gjitha"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Learning Areas"
+msgstr "Të gjitha fushat e të nxënit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Roles"
+msgstr "Të gjitha rolet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "I gjithë stafi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "Të gjithë nxënësit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Terms"
+msgstr "Të gjitha semestrat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attendance"
+msgstr "Frekuentimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "Informacion shtesë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Basic Information"
+msgstr "Informacion bazë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Before Start Date"
+msgstr "Para datës së fillimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Behaviour"
+msgstr "Sjellja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "Kopje për familjen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "Telefonata?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "Mund të hyjë?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "Shënoni kutizën për të shtuar një gjendje të re shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "Fëmijët"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "Emri me shkronja kineze ose ideograme të tjera."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Zgjidhni një grup"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "Zgjidhni nxënësit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Grupi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "Brezi i diplomimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Grupet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Address"
+msgstr "Adresa e kompanisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "Kompania paguan gjithçka?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Contact Person"
+msgstr "Personi i kontaktit në kompani"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "Emailet e kompanisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Fee Categories"
+msgstr "Kategoritë e tarifave që paguan kompania"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Name"
+msgstr "Emri i kompanisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Phone"
+msgstr "Telefoni i kompanisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "E kryer"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "Gjendja shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "Emri i gjendjes shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Confirm Password"
+msgstr "Konfirmo fjalëkalimin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact"
+msgstr "Kontakti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "Kontakti 1 — emri"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "Kontakti 1 — numri 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "Kontakti 1 — numri 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "Kontakti 1 — lidhja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "Kontakti 2 — emri"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "Kontakti 2 — numri 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "Kontakti 2 — numri 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "Kontakti 2 — lidhja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "Kontakt me email"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "Kontakt me telefon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By SMS"
+msgstr "Kontakt me SMS"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "Informacioni i kontaktit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "Përparësia e kontaktit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "Përcakton çfarë mund të bëjë dhe të shohë përdoruesi."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "Vendi i origjinës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country of Birth"
+msgstr "Vendi i lindjes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Qarku, bashkia, njësia administrative"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Regjistrimi në lëndë sipas grupit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Regjistrimi në lëndë sipas personit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "Vlerësimi nga bashkëmoshatarët"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Access?"
+msgstr "Qasje në të dhëna?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "Përditësimi i të dhënave"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Të dhënat që shfaqen në profilin e plotë të nxënësit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Date of Birth"
+msgstr "Datëlindja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Days of the Week"
+msgstr "Ditët e javës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "Departamenti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departure Reason"
+msgstr "Arsyeja e largimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Description"
+msgstr "Përshkrimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "Kategoria"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Details"
+msgstr "Detajet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by SMS."
+msgstr "Mos kontaktoni me SMS."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "Mos kontaktoni me email."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "Mos kontaktoni me telefon."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Afati i dorëzimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Ndrysho grupin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "Ndrysho lëndën"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "Ndrysho ditën e veçantë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "Ndrysho punonjësin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "Ndrysho përdoruesin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "Email"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Emergency Contacts"
+msgstr "Kontaktet e emergjencës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "Punëdhënësi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employment"
+msgstr "Punësimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "End Date"
+msgstr "Data e mbarimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "Përkatësia etnike"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "I pritur"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "Mbiemri si në dokumentin e identitetit."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fax"
+msgstr "Faks"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fee Table"
+msgstr "Tabela e tarifave"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filter"
+msgstr "Filtro"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Filters"
+msgstr "Filtrat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "Financat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid"
+msgstr "Ndihma e parë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "Skadimi i certifikatës së ndihmës së parë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "I certifikuar për ndihmën e parë?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Language"
+msgstr "Gjuha amtare"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "Emri si në dokumentin e identitetit."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "Ndjekja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Force Reset Password?"
+msgstr "Të detyrohet ndryshimi i fjalëkalimit?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Formal Assessment"
+msgstr "Vlerësimi zyrtar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "Pre"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Aktiv"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "Emri i plotë si në dokumentin e identitetit."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "General Information"
+msgstr "Informacion i përgjithshëm"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping"
+msgstr "Grupi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "Përparësia në grup"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr ""
+"Zëvendësuesit me përparësi më të lartë shfaqen të parët kur caktohen "
+"zëvendësimet."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Shtëpia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address"
+msgstr "Adresa e shtëpisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "Adresa e shtëpisë (shteti)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "Adresa e shtëpisë (qarku)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Primary"
+msgstr "Gjuha në shtëpi - kryesore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Language - Secondary"
+msgstr "Gjuha në shtëpi - dytësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Languages"
+msgstr "Gjuhët në shtëpi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Detajet e detyrës së shtëpisë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "Ekipi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Nëse kompania nuk i paguan të gjitha tarifat, cilat kategori i paguan?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr ""
+"Në rast emergjence, ju lutemi kontaktoni fillimisht anëtarët e rritur të "
+"familjes të listuar më poshtë. Nëse nuk arrini t'i kontaktoni, provoni "
+"kontaktet e emergjencës më poshtë."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Përfshi në hartën e kurrikulës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Përfshi të gjithë stafin, pavarësisht gjendjes, datës së fillimit, datës së "
+"mbarimit etj."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Përfshi të gjithë nxënësit, pavarësisht gjendjes dhe regjistrimit aktual. "
+"Disa të dhëna mund të mos shfaqen."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "Nevojat e veçanta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "Fatura për"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "Totali i faturës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "Data e lëshimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "Pozicioni"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "Të fundit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "Data e episodit të fundit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "Trajtimi në episodin e fundit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "Shkolla e mëparshme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "Fusha e të nxënit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Left - Early"
+msgstr "Larguar herët"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson"
+msgstr "Mësimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson Content"
+msgstr "Përmbajtja e mësimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Library"
+msgstr "Biblioteka"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Locker Number"
+msgstr "Numri i dollapit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Zgjidhja e problemeve me hyrjen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Logout"
+msgstr "Dil"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Long-Term Medication?"
+msgstr "Merr mjekim afatgjatë?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "Postë?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage"
+msgstr "Menaxhimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Menaxho lëndët dhe grupet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage School Years"
+msgstr "Menaxho vitet shkollore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "Menaxho ditët e veçanta"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Terms"
+msgstr "Menaxho semestrat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Users"
+msgstr "Menaxho përdoruesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "Regjistri i notave"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "Gjendjet shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "Detajet e mjekimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "Tabela e mesazheve"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "Mesazhet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mobile"
+msgstr "Celular"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "Hën"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Monday"
+msgstr "E hënë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "Emri me të cilin njihet, pseudonimi, nofka etj."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this course."
+msgstr "Duhet të jetë unik brenda kësaj lënde."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique for this school year."
+msgstr "Duhet të jetë unik brenda këtij viti shkollor."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Must be unique if set."
+msgstr "Nëse plotësohet, duhet të jetë unik."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Grupet e mia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Timetable"
+msgstr "Orari im"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Emri me ideograme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "Gjendje e re shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next"
+msgstr "Tjetra"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next School"
+msgstr "Shkolla e radhës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No data"
+msgstr "Nuk ka të dhëna"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "Nuk është marrë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "Numri"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number 1"
+msgstr "Numri 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number 2"
+msgstr "Numri 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "Emri zyrtar i plotë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Order"
+msgstr "Renditja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Other"
+msgstr "Të tjera"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pager"
+msgstr "Pejxher"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Paid"
+msgstr "E paguar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "Kreu i prindit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Prezencë e pjesshme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Payment Details"
+msgstr "Detajet e pagesës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Person"
+msgstr "Personi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "Personale"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "Planifikuesi i mësimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Positive"
+msgstr "Pozitive"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Present"
+msgstr "I pranishëm"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Previous"
+msgstr "E mëparshmja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Priority"
+msgstr "Përparësia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy"
+msgstr "Privatësia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "Privatësia nuk kërkohet ose nuk është caktuar."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy required:"
+msgstr "Kërkohet privatësi:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt"
+msgstr "Mandati"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "Mandati për"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency SMS messages from school?"
+msgstr "Të merren nga shkolla SMS jo urgjente?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency emails from school?"
+msgstr "Të merren nga shkolla emaile jo urgjente?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive non-emergency phone calls from school?"
+msgstr "Të merren nga shkolla telefonata jo urgjente?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receive postage mail from school?"
+msgstr "Të merret postë nga shkolla?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Dëftesa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "Në dëftesa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "Në dëftesa?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Dëftesat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "E detyrueshme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset Password"
+msgstr "Rivendos fjalëkalimin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "Rivendos fjalëkalimin e përdoruesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "Reagimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Risk"
+msgstr "Rreziku"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role Switcher"
+msgstr "Ndërrimi i rolit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "Numri në regjistër"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Kriteret e vlerësimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "Sht"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Schedule"
+msgstr "Orari"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Admin"
+msgstr "Admin i Shkollës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "Shkolla e mbyllur"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "Ditë mësimi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "Historiku shkollor"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Information"
+msgstr "Informacioni shkollor"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "Viti shkollor"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Second Language"
+msgstr "Gjuha e dytë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Selected"
+msgstr "Të zgjedhura"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "Dërgo faturat te"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Settings"
+msgstr "Cilësimet"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "A duhet të faturohen të gjitha zërat te kompania, apo vetëm disa?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "A duhet t'i dërgohet familjes kopja e emaileve të faturimit?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "Vëllezërit dhe motrat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sort By"
+msgstr "Rendit sipas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "Lista e stafit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Status"
+msgstr "Gjendja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student"
+msgstr "Nxënës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Nxënës - Larguar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Agreements"
+msgstr "Marrëveshjet me nxënësin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "Regjistrimi i nxënësit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "Numri i nxënësit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Detyrat e shtëpisë të shënuara nga nxënësi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sunday"
+msgstr "E diel"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "Mbështetja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "Staf mbështetës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Surname"
+msgstr "Mbiemri"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Access"
+msgstr "Qasja në sistem"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "Merr frekuentimin"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teacher - Left"
+msgstr "Mësues - Larguar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "Mësuesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Mësimdhënës"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Term"
+msgstr "Semestri"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr ""
+"Këto të dhëna përdoren kur nuk mund të kontaktohen familjarët e afërt (p.sh."
+" prindi, bashkëshorti). Ju lutemi mos shënoni këtu familjarët e afërt."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Third Language"
+msgstr "Gjuha e tretë"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "Përcakton dukshmërinë në sistem."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "Këtij mësimi nuk i është caktuar ende përmbajtje."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "Enj"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Time"
+msgstr "Ora"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timetable Admin"
+msgstr "Admin i Orarit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "Ndryshim orari"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Titulli i drejtimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "Mësimet e sotme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Messages"
+msgstr "Mesazhet e sotme"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "Të mbahet frekuentimi?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tracking"
+msgstr "Ndjekja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Transaction ID"
+msgstr "Numri i transaksionit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "Shkaktarët"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "Mar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Mësuesi kujdestar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit"
+msgstr "Njësia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Rruga, pallati, apartamenti"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "Përditëso të dhënat e familjes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Përditëso të dhënat financiare"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "Përditëso të dhënat shëndetësore"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "Përditëso të dhënat personale"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Account"
+msgstr "Llogaria e përdoruesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Admin"
+msgstr "Admin i Përdoruesve"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Photo"
+msgstr "Foto e përdoruesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "Përdoruesit do t'i kërkohet në hyrjen e radhës."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Username"
+msgstr "Emri i përdoruesit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "Targa e automjetit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "Shiko planifikuesin e mësimit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Shiko dëftesat"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Faqja e internetit"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "Mër"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Niveli"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "Nuk keni qasje në këtë veprim."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"You have multiple roles within the system. Use the list below to switch "
+"role:"
+msgstr ""
+"Keni disa role në sistem. Përdorni listën më poshtë për të ndërruar rolin:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "nxënës"
