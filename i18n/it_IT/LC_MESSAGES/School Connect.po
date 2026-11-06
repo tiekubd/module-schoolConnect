@@ -2548,3 +2548,15 @@ msgstr "Compiti Registrati dallo Studente"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Track Attendance?"
 msgstr "Rilevare le Presenze?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage"
+msgstr "Gestione"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Lessons"
+msgstr "Lezioni di Oggi"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Le Mie Classi"
