@@ -1,0 +1,3239 @@
+{
+ "plain": [
+  "A punctuation mark or space",
+  "About & Privacy",
+  "Absent",
+  "Access data on family's children?",
+  "Activities",
+  "Add",
+  "Add Adult",
+  "Add Child",
+  "Add Class",
+  "Add Course",
+  "Add Medical Condition",
+  "Add More",
+  "Add Participant",
+  "Add Special Day",
+  "Add Staff",
+  "Add Student Enrolment",
+  "Add User",
+  "Add homework?",
+  "Add, edit, and remove closures",
+  "Add, edit, and remove user accounts",
+  "Address",
+  "Adjusts arrangement of courses in reports.",
+  "Admin",
+  "Adult",
+  "Adult Family Members",
+  "Adult settings updated",
+  "Adults",
+  "After End Date",
+  "Age",
+  "All",
+  "All Learning Areas",
+  "All Roles",
+  "All Staff",
+  "All Students",
+  "All Terms",
+  "All Types",
+  "All Year Groups",
+  "Alternate Email",
+  "An uppercase and a lowercase letter",
+  "Apply",
+  "Assessment",
+  "Assessments",
+  "At least",
+  "At least one number",
+  "Attendance",
+  "Attendance This Year",
+  "Attendance not taken yet today",
+  "Auto-Enrol Courses?",
+  "Background Information",
+  "Basic Information",
+  "Before Start Date",
+  "Behaviour record saved!",
+  "Behaviour records saved for",
+  "Biography",
+  "Browse staff profiles",
+  "By Class",
+  "By Date",
+  "By Form Group",
+  "Can Login?",
+  "Cancel",
+  "Cancel new condition",
+  "Cap",
+  "Check the box to add a new medical condition",
+  "Children",
+  "Choose a class",
+  "Choose a class above",
+  "Choose any Form Group",
+  "Choose any of your classes",
+  "Choose at least one student first",
+  "Choose one of your Form Groups",
+  "Choose students",
+  "Class",
+  "Class Absences",
+  "Class Enrolments",
+  "Class Of",
+  "Class Roster",
+  "Class should not run below this number of students.",
+  "Classes",
+  "Clear",
+  "Clear filters",
+  "Click Update next to School Connect in System Admin > Manage Modules.",
+  "Closed at",
+  "Combined short name",
+  "Combined short name exceeds 16 characters",
+  "Comment",
+  "Company",
+  "Complete",
+  "Condition",
+  "Confirm Password *",
+  "Connected school",
+  "Connecting...",
+  "Contact",
+  "Contact By Email",
+  "Contact By Phone",
+  "Contact By SMS",
+  "Contact Info",
+  "Contact Information",
+  "Contact Priority",
+  "Control what shows up in the app for everyone",
+  "Could not add",
+  "Could not add adult",
+  "Could not add child",
+  "Could not delete user",
+  "Could not download report",
+  "Could not generate username",
+  "Could not load Form Groups",
+  "Could not load activities",
+  "Could not load attendance",
+  "Could not load children",
+  "Could not load classes",
+  "Could not load course",
+  "Could not load courses",
+  "Could not load data updates",
+  "Could not load days of the week",
+  "Could not load emergency contacts",
+  "Could not load enrolment",
+  "Could not load enrolments",
+  "Could not load facilities",
+  "Could not load families",
+  "Could not load family",
+  "Could not load family data",
+  "Could not load finance data",
+  "Could not load form",
+  "Could not load form data",
+  "Could not load grades",
+  "Could not load homework",
+  "Could not load homework calendar",
+  "Could not load invoice",
+  "Could not load invoices",
+  "Could not load lesson",
+  "Could not load lessons",
+  "Could not load markbook",
+  "Could not load master timetable",
+  "Could not load medical data",
+  "Could not load messages",
+  "Could not load notifications",
+  "Could not load password policy",
+  "Could not load people",
+  "Could not load personal data",
+  "Could not load personal information",
+  "Could not load profile",
+  "Could not load report",
+  "Could not load reports",
+  "Could not load roster",
+  "Could not load school years",
+  "Could not load settings",
+  "Could not load special day",
+  "Could not load staff",
+  "Could not load staff data",
+  "Could not load students",
+  "Could not load terms",
+  "Could not load timetable",
+  "Could not load timetables",
+  "Could not load user",
+  "Could not load users",
+  "Could not load your children",
+  "Could not open payment page",
+  "Could not open the video call",
+  "Could not remove",
+  "Could not reset password",
+  "Could not save",
+  "Could not save setting",
+  "Could not save user",
+  "Could not start impersonating this user",
+  "Could not submit update",
+  "Could not switch school year",
+  "Could not update",
+  "Country",
+  "Country of Birth",
+  "Course",
+  "Course Enrolment by Class",
+  "Course Enrolment by Person",
+  "Create linked staff record",
+  "Create linked student enrolment",
+  "Current year",
+  "Dashboard",
+  "Data Access?",
+  "Data Updates",
+  "Data displayed in full Student Profile",
+  "Date",
+  "Date of Birth",
+  "Days Absent",
+  "Days Present",
+  "Days of the Week",
+  "Delete",
+  "Delete Class",
+  "Delete Course",
+  "Delete Special Day",
+  "Delete User",
+  "Department",
+  "Departure Reason",
+  "Description",
+  "Descriptor",
+  "Details",
+  "Developed by High Point Education",
+  "Do not contact by SMS.",
+  "Do not contact by email.",
+  "Do not contact by phone.",
+  "Done",
+  "Due",
+  "Due Date",
+  "Due Soon",
+  "Due date",
+  "Due date and details are required.",
+  "Edit Class",
+  "Edit Course",
+  "Edit Enrolment",
+  "Edit Special Day",
+  "Edit Staff",
+  "Edit User",
+  "Editable",
+  "Email",
+  "Emergency Contacts",
+  "Employer",
+  "End Date",
+  "Enrolable Year Groups",
+  "Enroll existing students into the active school year",
+  "Enrolment should not exceed this number of students.",
+  "Ethnicity",
+  "Exclude from coverage?",
+  "Family",
+  "Fee Table",
+  "Fees",
+  "Fill in First Name, Surname, Preferred Name, and Primary Role first",
+  "Filter",
+  "Filter by Year Group",
+  "Filters",
+  "Finish course enrolment on the website if this student needs it.",
+  "First Aid",
+  "First Aid Qualified?",
+  "First Language",
+  "First Name",
+  "Follow Up",
+  "For questions about the app itself, contact",
+  "Force Reset Password?",
+  "Form Group",
+  "Gender",
+  "General Information",
+  "Generate",
+  "Given Name",
+  "Grades",
+  "Head of Year",
+  "Highlighted in red: marked 'Full' but outside their start/end date range.",
+  "Holiday",
+  "Home Languages",
+  "Homework",
+  "Homework + Due Dates",
+  "Homework Calendar",
+  "Homework details",
+  "Homework due",
+  "Homework removed.",
+  "Homework saved.",
+  "House",
+  "If these cannot be reached, then try the emergency contacts below.",
+  "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.",
+  "Impersonate",
+  "Impersonate User",
+  "Impersonate User needs School Connect module 1.16.09 or later on the school server.",
+  "In an emergency, please try and contact the adult family members listed below first. ",
+  "Include all staff, regardless of status, start date, end date, etc.",
+  "Include all students, regardless of status and current enrolment. Some data may not display.",
+  "Include in Curriculum Map",
+  "Initials",
+  "Installed version is",
+  "Invoice",
+  "Invoice To",
+  "Invoice Total",
+  "Issue Date",
+  "It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.",
+  "Jitsi",
+  "Job Title",
+  "Join Virtual Class",
+  "Join Virtual Class is hidden everywhere it would normally appear",
+  "Join Virtual Class shows on the timetable and planner",
+  "Last",
+  "Last 10 school days",
+  "Last 10 school days — per period",
+  "Last IP Address",
+  "Last School",
+  "Last updated",
+  "Layers",
+  "Learning Area",
+  "Lesson",
+  "Lesson Content",
+  "Level",
+  "Link staff-role people to their staff record",
+  "Locker Number",
+  "Log Behaviour",
+  "Logged in as",
+  "Login Troubleshooting",
+  "Manage",
+  "Manage Courses & Classes",
+  "Manage Families",
+  "Manage School Years",
+  "Manage Special Days",
+  "Manage Staff",
+  "Manage Terms",
+  "Manage Users",
+  "Manage users and school settings",
+  "Mark all read",
+  "Mark as complete",
+  "Mark attendance for today",
+  "Mark read",
+  "Markbook",
+  "Master Timetable",
+  "Maximum Enrolment",
+  "Medical Conditions",
+  "Messages",
+  "Minimum Enrolment",
+  "Miscellaneous",
+  "Must be unique for this course.",
+  "Must be unique for this school year.",
+  "My Classes",
+  "My Form Group",
+  "My Form Groups",
+  "My Timetable",
+  "N/A",
+  "Name *",
+  "Name In Characters",
+  "Name and Short Name are required",
+  "Negative",
+  "Next",
+  "Next School",
+  "No",
+  "No Form Groups found",
+  "No Learning Area",
+  "No activities on record",
+  "No adults linked",
+  "No children found",
+  "No children linked",
+  "No children linked to this account",
+  "No class",
+  "No classes found",
+  "No classes in this room today",
+  "No classes scheduled",
+  "No classes scheduled today",
+  "No classes yet",
+  "No courses found",
+  "No data",
+  "No data for this term",
+  "No data updates found",
+  "No department",
+  "No facilities found",
+  "No families found",
+  "No family members on record",
+  "No family record found",
+  "No grades available",
+  "No history available",
+  "No homework recorded.",
+  "No invoices to display",
+  "No markbook entries yet",
+  "No matches found",
+  "No notifications",
+  "No participants yet",
+  "No people found",
+  "No phone on record",
+  "No record",
+  "No reports available yet",
+  "No school days this week",
+  "No staff found",
+  "No students enrolled this year",
+  "No students found",
+  "No terms found for this school year",
+  "No timetable data found",
+  "No timetable for this day",
+  "No timetable for today",
+  "No upcoming due dates!",
+  "No users found",
+  "Non-reportable participants won't display in reports.",
+  "Not Reportable",
+  "Not a School Day",
+  "Not currently enrolled",
+  "Not enrolled in any classes yet",
+  "Not reported: update the School Connect module",
+  "Not taken",
+  "Not taken yet today",
+  "Not wired up here yet — enrolling here does not auto-add courses. ",
+  "Notes",
+  "Nothing scheduled",
+  "Notifications",
+  "Now",
+  "Number",
+  "Number 1",
+  "Number 2",
+  "Official Name",
+  "Opens at",
+  "Order",
+  "Over Enrolled",
+  "Paid",
+  "Parent Dashboard",
+  "Partial",
+  "Password *",
+  "Password must be filled in and match",
+  "Password reset successfully",
+  "Passwords do not match",
+  "Passwords must be filled in and match",
+  "Pay Now",
+  "Payment Details",
+  "Permanently delete",
+  "Person",
+  "Personal",
+  "Phone",
+  "Planner",
+  "Please enter a Staff Type",
+  "Please fill in all required fields (name, official name, gender, role, username)",
+  "Please select a Type",
+  "Please select a Year Group and Form Group",
+  "Please select a class and a role",
+  "Please select a person",
+  "Please select a person and a role",
+  "Please select a student",
+  "Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.",
+  "Positive",
+  "Preferred Name",
+  "Present",
+  "Previous",
+  "Priority",
+  "Priority 1 contacts always receive all contact types.",
+  "Privacy",
+  "Privacy not required or not set.",
+  "Privacy required",
+  "Profession",
+  "Qualifications",
+  "Qualified",
+  "Quick Access",
+  "Read the full privacy policy",
+  "Receipt",
+  "Recent Attendance",
+  "Relationship Unknown",
+  "Religion",
+  "Remove",
+  "Remove Adult",
+  "Remove Child",
+  "Remove Class",
+  "Remove Enrolment",
+  "Remove Staff Record",
+  "Remove enrolment in",
+  "Remove from Class",
+  "Report",
+  "Reportable",
+  "Reportable?",
+  "Reports",
+  "Required",
+  "Reset Password",
+  "Reset User Password",
+  "Return to my account",
+  "Role",
+  "Role *",
+  "Roll",
+  "Roll Order",
+  "Save",
+  "Save failed",
+  "School Closed",
+  "School Connect module on the school server",
+  "School Day",
+  "School History",
+  "School Information",
+  "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.",
+  "School Year",
+  "Search and view student profiles",
+  "Search by course name...",
+  "Search by course or class name...",
+  "Search by family name...",
+  "Search by name or initials...",
+  "Search by name or student ID...",
+  "Search by name or username...",
+  "Search by name, username, email, student ID...",
+  "Search classes...",
+  "Search rooms...",
+  "Search students...",
+  "Second Language",
+  "Select Student",
+  "Select Students",
+  "Selected",
+  "Sessions marked Out this year",
+  "Settings",
+  "Share",
+  "Short Name *",
+  "Should this student be automatically enrolled in courses for their Form Group?",
+  "Siblings",
+  "Sort By",
+  "Staff",
+  "Staff Directory",
+  "Staff Profile",
+  "Staff record created",
+  "Start Date",
+  "Status",
+  "Student",
+  "Student Agreements",
+  "Student Enrolment",
+  "Student ID",
+  "Student List",
+  "Student Profile",
+  "Student Recorded Homework",
+  "Student enrolled successfully",
+  "Students",
+  "Submit",
+  "Submitted",
+  "Summary",
+  "Support",
+  "Surname",
+  "Switch School Year",
+  "System Access",
+  "Take Attendance",
+  "Take attendance for this class",
+  "Taken",
+  "Tap to edit",
+  "Teachers",
+  "Teaching",
+  "Term",
+  "The impersonation ended after 2 hours. You are back in your own account.",
+  "The order in which the school should contact family members.",
+  "Their user account is not affected.",
+  "There are no lessons for this class.",
+  "There are no lessons on this date.",
+  "There are no messages to display.",
+  "These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.",
+  "Third Language",
+  "This affects the timetable:",
+  "This also removes all enrolment and timetable data for those classes. This cannot be undone.",
+  "This cannot be undone.",
+  "This does not delete their user account.",
+  "This lesson has not had any content assigned to it.",
+  "This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.",
+  "This removes all enrolment and timetable data for this class. This cannot be undone.",
+  "Time",
+  "Timetable",
+  "Timetable by Facility",
+  "To",
+  "Today",
+  "Today's Lessons",
+  "Today's Messages",
+  "Today's Timetable",
+  "Total",
+  "Track Attendance?",
+  "Transport",
+  "Troubleshoot by seeing the app as another user",
+  "Tutor",
+  "Tutor 2",
+  "Type",
+  "Type *",
+  "Type and Name are required",
+  "Type at least 2 characters",
+  "Under Enrolled",
+  "Unenroll",
+  "Unit",
+  "Unknown Year",
+  "Unused",
+  "Up to date",
+  "Update Family Data",
+  "Update Finance Data",
+  "Update Medical Data",
+  "Update Personal Data",
+  "Update Required",
+  "Update Staff Data",
+  "User Account",
+  "User Photo",
+  "User created successfully",
+  "User updated successfully",
+  "User will be prompted on next login.",
+  "Username",
+  "Username already taken",
+  "Username available",
+  "Vehicle Registration",
+  "Version",
+  "View",
+  "View Attendance",
+  "View Full Timetable",
+  "View Grades",
+  "View Homework Calendar",
+  "View Invoices",
+  "View Planner",
+  "View Reports",
+  "View Timetable",
+  "View and manage Form Groups",
+  "View class grades",
+  "View families, contacts, and children",
+  "View lesson plans for this class",
+  "View students in this class",
+  "View your grades",
+  "View your report cards",
+  "Viewing as",
+  "Virtual Classroom",
+  "Website",
+  "Year Group",
+  "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.",
+  "Yes",
+  "You are back in your own account.",
+  "You are viewing school year",
+  "You can use this section to record your own homework.",
+  "You do not have access to this action.",
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.",
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.",
+  "Your active session will be switched to the selected user.",
+  "Your data is up to date.",
+  "Your data stays with your school",
+  "Your school is responsible for your personal data in Gibbon. To see, ",
+  "Your session will be switched to",
+  "a previous year",
+  "adult",
+  "and all of its classes?",
+  "characters",
+  "class",
+  "classCount",
+  "classes",
+  "correct or delete it, contact your school's data protection officer. ",
+  "current year. Data may not look quite right (for example, ",
+  "days",
+  "documentType",
+  "facilities",
+  "facility",
+  "families",
+  "family",
+  "from staff?",
+  "from the calendar?",
+  "from this class?",
+  "from this family?",
+  "from this school year?",
+  "is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.",
+  "not on record",
+  "optional",
+  "previous years).",
+  "primary",
+  "receipt",
+  "school days in term",
+  "school days in the school year",
+  "sessions",
+  "sessions recorded",
+  "staff member",
+  "staff members",
+  "starting",
+  "student",
+  "student enrolled",
+  "students",
+  "students enrolled",
+  "students who have left the school will not appear in ",
+  "times",
+  "until",
+  "user",
+  "users",
+  "which is not the ",
+  "— None —"
+ ],
+ "interp": [
+  "$type Data",
+  "${r[0].toUpperCase()}${r.substring(1)}",
+  "${s[0].toUpperCase()}${s.substring(1)}",
+  "${type[0].toUpperCase()}${type.substring(1)}"
+ ],
+ "miss": [
+  "A punctuation mark or space",
+  "About & Privacy",
+  "Add More",
+  "Add Participant",
+  "Add homework?",
+  "Add, edit, and remove closures",
+  "Add, edit, and remove user accounts",
+  "Adjusts arrangement of courses in reports.",
+  "Adult settings updated",
+  "All Types",
+  "All Year Groups",
+  "An uppercase and a lowercase letter",
+  "Assessments",
+  "At least",
+  "At least one number",
+  "Attendance This Year",
+  "Attendance not taken yet today",
+  "Behaviour record saved!",
+  "Behaviour records saved for",
+  "Browse staff profiles",
+  "By Class",
+  "By Date",
+  "Cancel new condition",
+  "Cap",
+  "Choose a class",
+  "Choose a class above",
+  "Choose any Form Group",
+  "Choose any of your classes",
+  "Choose at least one student first",
+  "Choose one of your Form Groups",
+  "Choose students",
+  "Class Absences",
+  "Class Enrolments",
+  "Class Roster",
+  "Clear filters",
+  "Click Update next to School Connect in System Admin > Manage Modules.",
+  "Closed at",
+  "Combined short name",
+  "Combined short name exceeds 16 characters",
+  "Confirm Password *",
+  "Connected school",
+  "Connecting...",
+  "Contact Info",
+  "Control what shows up in the app for everyone",
+  "Could not add",
+  "Could not add adult",
+  "Could not add child",
+  "Could not delete user",
+  "Could not download report",
+  "Could not generate username",
+  "Could not load Form Groups",
+  "Could not load activities",
+  "Could not load attendance",
+  "Could not load children",
+  "Could not load classes",
+  "Could not load course",
+  "Could not load courses",
+  "Could not load data updates",
+  "Could not load days of the week",
+  "Could not load emergency contacts",
+  "Could not load enrolment",
+  "Could not load enrolments",
+  "Could not load facilities",
+  "Could not load families",
+  "Could not load family",
+  "Could not load family data",
+  "Could not load finance data",
+  "Could not load form",
+  "Could not load form data",
+  "Could not load grades",
+  "Could not load homework",
+  "Could not load homework calendar",
+  "Could not load invoice",
+  "Could not load invoices",
+  "Could not load lesson",
+  "Could not load lessons",
+  "Could not load markbook",
+  "Could not load master timetable",
+  "Could not load medical data",
+  "Could not load messages",
+  "Could not load notifications",
+  "Could not load password policy",
+  "Could not load people",
+  "Could not load personal data",
+  "Could not load personal information",
+  "Could not load profile",
+  "Could not load report",
+  "Could not load reports",
+  "Could not load roster",
+  "Could not load school years",
+  "Could not load settings",
+  "Could not load special day",
+  "Could not load staff",
+  "Could not load staff data",
+  "Could not load students",
+  "Could not load terms",
+  "Could not load timetable",
+  "Could not load timetables",
+  "Could not load user",
+  "Could not load users",
+  "Could not load your children",
+  "Could not open payment page",
+  "Could not open the video call",
+  "Could not remove",
+  "Could not reset password",
+  "Could not save",
+  "Could not save setting",
+  "Could not save user",
+  "Could not start impersonating this user",
+  "Could not submit update",
+  "Could not switch school year",
+  "Could not update",
+  "Create linked staff record",
+  "Create linked student enrolment",
+  "Current year",
+  "Dashboard",
+  "Days Absent",
+  "Days Present",
+  "Delete Class",
+  "Delete Course",
+  "Delete Special Day",
+  "Delete User",
+  "Developed by High Point Education",
+  "Done",
+  "Due",
+  "Due date",
+  "Due date and details are required.",
+  "Editable",
+  "Enrolable Year Groups",
+  "Enroll existing students into the active school year",
+  "Fill in First Name, Surname, Preferred Name, and Primary Role first",
+  "Filter by Year Group",
+  "Finish course enrolment on the website if this student needs it.",
+  "For questions about the app itself, contact",
+  "Grades",
+  "Highlighted in red: marked 'Full' but outside their start/end date range.",
+  "Holiday",
+  "Homework Calendar",
+  "Homework details",
+  "Homework due",
+  "Homework removed.",
+  "Homework saved.",
+  "If these cannot be reached, then try the emergency contacts below.",
+  "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.",
+  "Impersonate",
+  "Impersonate User needs School Connect module 1.16.09 or later on the school server.",
+  "In an emergency, please try and contact the adult family members listed below first. ",
+  "Include in Curriculum Map",
+  "Installed version is",
+  "It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.",
+  "Jitsi",
+  "Join Virtual Class",
+  "Join Virtual Class is hidden everywhere it would normally appear",
+  "Join Virtual Class shows on the timetable and planner",
+  "Last 10 school days",
+  "Last 10 school days — per period",
+  "Last updated",
+  "Link staff-role people to their staff record",
+  "Log Behaviour",
+  "Logged in as",
+  "Manage users and school settings",
+  "Mark all read",
+  "Mark as complete",
+  "Mark attendance for today",
+  "Mark read",
+  "Master Timetable",
+  "My Form Groups",
+  "Name *",
+  "Name and Short Name are required",
+  "No Form Groups found",
+  "No Learning Area",
+  "No activities on record",
+  "No adults linked",
+  "No children found",
+  "No children linked",
+  "No children linked to this account",
+  "No class",
+  "No classes found",
+  "No classes in this room today",
+  "No classes scheduled",
+  "No classes scheduled today",
+  "No classes yet",
+  "No courses found",
+  "No data for this term",
+  "No data updates found",
+  "No department",
+  "No facilities found",
+  "No families found",
+  "No family members on record",
+  "No family record found",
+  "No grades available",
+  "No history available",
+  "No homework recorded.",
+  "No invoices to display",
+  "No markbook entries yet",
+  "No matches found",
+  "No notifications",
+  "No participants yet",
+  "No people found",
+  "No phone on record",
+  "No record",
+  "No reports available yet",
+  "No school days this week",
+  "No staff found",
+  "No students enrolled this year",
+  "No students found",
+  "No terms found for this school year",
+  "No timetable data found",
+  "No timetable for this day",
+  "No timetable for today",
+  "No users found",
+  "Non-reportable participants won't display in reports.",
+  "Not a School Day",
+  "Not currently enrolled",
+  "Not enrolled in any classes yet",
+  "Not reported: update the School Connect module",
+  "Not taken",
+  "Not taken yet today",
+  "Not wired up here yet — enrolling here does not auto-add courses. ",
+  "Nothing scheduled",
+  "Now",
+  "Opens at",
+  "Password *",
+  "Password must be filled in and match",
+  "Password reset successfully",
+  "Passwords do not match",
+  "Passwords must be filled in and match",
+  "Permanently delete",
+  "Please enter a Staff Type",
+  "Please fill in all required fields (name, official name, gender, role, username)",
+  "Please select a Type",
+  "Please select a Year Group and Form Group",
+  "Please select a class and a role",
+  "Please select a person",
+  "Please select a person and a role",
+  "Please select a student",
+  "Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.",
+  "Priority 1 contacts always receive all contact types.",
+  "Privacy required",
+  "Qualified",
+  "Quick Access",
+  "Read the full privacy policy",
+  "Recent Attendance",
+  "Remove Adult",
+  "Remove Child",
+  "Remove Class",
+  "Remove Enrolment",
+  "Remove Staff Record",
+  "Remove enrolment in",
+  "Remove from Class",
+  "Return to my account",
+  "Role *",
+  "Roll",
+  "Save failed",
+  "School Connect module on the school server",
+  "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.",
+  "Search and view student profiles",
+  "Search by course name...",
+  "Search by course or class name...",
+  "Search by family name...",
+  "Search by name or initials...",
+  "Search by name or student ID...",
+  "Search by name or username...",
+  "Search by name, username, email, student ID...",
+  "Search classes...",
+  "Search rooms...",
+  "Search students...",
+  "Select Student",
+  "Sessions marked Out this year",
+  "Share",
+  "Short Name *",
+  "Staff Profile",
+  "Staff record created",
+  "Student List",
+  "Student enrolled successfully",
+  "Submitted",
+  "Switch School Year",
+  "Take attendance for this class",
+  "Taken",
+  "Tap to edit",
+  "The impersonation ended after 2 hours. You are back in your own account.",
+  "The order in which the school should contact family members.",
+  "Their user account is not affected.",
+  "There are no messages to display.",
+  "This affects the timetable:",
+  "This also removes all enrolment and timetable data for those classes. This cannot be undone.",
+  "This cannot be undone.",
+  "This does not delete their user account.",
+  "This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.",
+  "This removes all enrolment and timetable data for this class. This cannot be undone.",
+  "Timetable by Facility",
+  "To",
+  "Today's Timetable",
+  "Troubleshoot by seeing the app as another user",
+  "Tutor 2",
+  "Type *",
+  "Type and Name are required",
+  "Type at least 2 characters",
+  "Unenroll",
+  "Unknown Year",
+  "Unused",
+  "User created successfully",
+  "User updated successfully",
+  "Username already taken",
+  "Username available",
+  "View Attendance",
+  "View Full Timetable",
+  "View Grades",
+  "View Homework Calendar",
+  "View Timetable",
+  "View and manage Form Groups",
+  "View class grades",
+  "View families, contacts, and children",
+  "View lesson plans for this class",
+  "View students in this class",
+  "View your grades",
+  "View your report cards",
+  "Viewing as",
+  "Virtual Classroom",
+  "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.",
+  "You are back in your own account.",
+  "You are viewing school year",
+  "You can use this section to record your own homework.",
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.",
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.",
+  "Your data is up to date.",
+  "Your data stays with your school",
+  "Your school is responsible for your personal data in Gibbon. To see, ",
+  "Your session will be switched to",
+  "a previous year",
+  "adult",
+  "and all of its classes?",
+  "characters",
+  "class",
+  "classCount",
+  "classes",
+  "correct or delete it, contact your school's data protection officer. ",
+  "current year. Data may not look quite right (for example, ",
+  "days",
+  "documentType",
+  "facilities",
+  "facility",
+  "families",
+  "family",
+  "from staff?",
+  "from the calendar?",
+  "from this class?",
+  "from this family?",
+  "from this school year?",
+  "is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.",
+  "not on record",
+  "optional",
+  "previous years).",
+  "primary",
+  "receipt",
+  "school days in term",
+  "school days in the school year",
+  "sessions",
+  "sessions recorded",
+  "staff member",
+  "staff members",
+  "starting",
+  "student",
+  "student enrolled",
+  "students enrolled",
+  "students who have left the school will not appear in ",
+  "times",
+  "until",
+  "user",
+  "users",
+  "which is not the ",
+  "— None —"
+ ],
+ "near": [
+  "Choose a class",
+  "Choose students",
+  "Clear filters",
+  "Due date",
+  "Homework details",
+  "Include in Curriculum Map",
+  "Last updated",
+  "Not taken",
+  "Privacy required",
+  "adult",
+  "class",
+  "classes",
+  "days",
+  "facilities",
+  "facility",
+  "family",
+  "optional",
+  "receipt",
+  "student",
+  "user",
+  "users"
+ ],
+ "files": {
+  "Could not load terms": [
+   "screens/special_days_screen.dart",
+   "screens/terms_screen.dart"
+  ],
+  "Manage Special Days": [
+   "screens/admin_screen.dart",
+   "screens/special_days_screen.dart"
+  ],
+  "No terms found for this school year": [
+   "screens/special_days_screen.dart"
+  ],
+  "Term": [
+   "screens/homework_calendar_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/student_attendance_screen.dart",
+   "screens/student_grades_screen.dart"
+  ],
+  "Could not load special day": [
+   "screens/special_days_screen.dart"
+  ],
+  "Type and Name are required": [
+   "screens/special_days_screen.dart"
+  ],
+  "Could not save": [
+   "screens/course_class_roster_screen.dart",
+   "screens/course_detail_screen.dart",
+   "screens/course_manage_list_screen.dart",
+   "screens/person_enrolment_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/staff_edit_screen.dart",
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Delete Special Day": [
+   "screens/special_days_screen.dart"
+  ],
+  "Remove": [
+   "screens/course_class_roster_screen.dart",
+   "screens/family_detail_screen.dart",
+   "screens/person_enrolment_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/staff_manage_list_screen.dart",
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "from the calendar?": [
+   "screens/special_days_screen.dart"
+  ],
+  "Cancel": [
+   "screens/course_class_roster_screen.dart",
+   "screens/course_detail_screen.dart",
+   "screens/family_detail_screen.dart",
+   "screens/impersonate_user_screen.dart",
+   "screens/person_enrolment_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/staff_manage_list_screen.dart",
+   "screens/student_enrolment_list_screen.dart",
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Delete": [
+   "screens/course_detail_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Edit Special Day": [
+   "screens/special_days_screen.dart"
+  ],
+  "Add Special Day": [
+   "screens/special_days_screen.dart"
+  ],
+  "Type *": [
+   "screens/special_days_screen.dart"
+  ],
+  "Name *": [
+   "screens/course_detail_screen.dart",
+   "screens/course_manage_list_screen.dart",
+   "screens/special_days_screen.dart"
+  ],
+  "Description": [
+   "screens/course_manage_list_screen.dart",
+   "screens/special_days_screen.dart"
+  ],
+  "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": [
+   "screens/special_days_screen.dart"
+  ],
+  "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": [
+   "screens/special_days_screen.dart"
+  ],
+  "This affects the timetable:": [
+   "screens/special_days_screen.dart"
+  ],
+  "Save": [
+   "screens/attendance_screen.dart",
+   "screens/course_class_roster_screen.dart",
+   "screens/course_detail_screen.dart",
+   "screens/course_manage_list_screen.dart",
+   "screens/family_detail_screen.dart",
+   "screens/form_group_attendance_screen.dart",
+   "screens/log_behaviour_screen.dart",
+   "screens/person_enrolment_screen.dart",
+   "screens/special_days_screen.dart",
+   "screens/staff_edit_screen.dart",
+   "screens/student_enrolment_edit_screen.dart",
+   "screens/student_homework_section.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not load personal data": [
+   "screens/data_personal_edit_screen.dart"
+  ],
+  "Submitted": [
+   "screens/data_family_edit_screen.dart",
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_personal_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart"
+  ],
+  "Could not submit update": [
+   "screens/data_family_edit_screen.dart",
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_personal_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart"
+  ],
+  "Required": [
+   "screens/data_family_edit_screen.dart",
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_personal_edit_screen.dart"
+  ],
+  "Type": [
+   "screens/data_personal_edit_screen.dart",
+   "screens/log_behaviour_screen.dart",
+   "screens/student_grades_screen.dart"
+  ],
+  "Number": [
+   "screens/data_personal_edit_screen.dart"
+  ],
+  "Contact": [
+   "screens/data_personal_edit_screen.dart",
+   "screens/student_emergency_screen.dart"
+  ],
+  "Update Personal Data": [
+   "screens/data_personal_edit_screen.dart"
+  ],
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.": [
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_personal_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart"
+  ],
+  "These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.": [
+   "screens/data_personal_edit_screen.dart"
+  ],
+  "Privacy": [
+   "screens/data_personal_edit_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Submit": [
+   "screens/data_family_edit_screen.dart",
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_personal_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "Could not load enrolments": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Remove Enrolment": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Unenroll": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "from this school year?": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Their user account is not affected.": [
+   "screens/staff_manage_list_screen.dart",
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Student Enrolment": [
+   "screens/admin_screen.dart",
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Student enrolled successfully": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Search by name or username...": [
+   "screens/course_class_roster_screen.dart",
+   "screens/course_enrolment_by_person_screen.dart",
+   "screens/family_person_picker.dart",
+   "screens/impersonate_user_screen.dart",
+   "screens/staff_manage_list_screen.dart",
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "student enrolled": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "students enrolled": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Highlighted in red: marked 'Full' but outside their start/end date range.": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "No students enrolled this year": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Roll": [
+   "screens/student_enrolment_list_screen.dart"
+  ],
+  "Could not load staff": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "Remove Staff Record": [
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "from staff?": [
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "Manage Staff": [
+   "screens/admin_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "Staff record created": [
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "All Types": [
+   "screens/facility_list_screen.dart",
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart",
+   "screens/student_grades_screen.dart"
+  ],
+  "Teaching": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "Support": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "All Staff": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "staff member": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "staff members": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "No staff found": [
+   "screens/staff_directory_screen.dart",
+   "screens/staff_manage_list_screen.dart"
+  ],
+  "Attendance": [
+   "screens/attendance_menu_screen.dart",
+   "screens/attendance_screen.dart",
+   "screens/dashboard_screen.dart",
+   "screens/form_group_attendance_screen.dart",
+   "screens/student_attendance_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "My Form Group": [
+   "screens/attendance_menu_screen.dart",
+   "screens/dashboard_screen.dart"
+  ],
+  "Not taken yet today": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "Take attendance for this class": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "By Class": [
+   "screens/attendance_menu_screen.dart",
+   "screens/planner_list_screen.dart"
+  ],
+  "Choose any of your classes": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "By Form Group": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "Choose any Form Group": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "Choose one of your Form Groups": [
+   "screens/attendance_menu_screen.dart"
+  ],
+  "a previous year": [
+   "screens/school_year_banner.dart"
+  ],
+  "You are viewing school year": [
+   "screens/school_year_banner.dart"
+  ],
+  "which is not the ": [
+   "screens/school_year_banner.dart"
+  ],
+  "current year. Data may not look quite right (for example, ": [
+   "screens/school_year_banner.dart"
+  ],
+  "students who have left the school will not appear in ": [
+   "screens/school_year_banner.dart"
+  ],
+  "previous years).": [
+   "screens/school_year_banner.dart"
+  ],
+  "Could not load finance data": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Update Finance Data": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Invoice To": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Family": [
+   "screens/data_finance_edit_screen.dart",
+   "screens/student_family_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Company": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Yes": [
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart",
+   "screens/student_homework_section.dart",
+   "screens/student_personal_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "No": [
+   "screens/data_finance_edit_screen.dart",
+   "screens/data_medical_edit_screen.dart",
+   "screens/data_staff_edit_screen.dart",
+   "screens/student_homework_section.dart",
+   "screens/student_personal_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "All": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Selected": [
+   "screens/data_finance_edit_screen.dart"
+  ],
+  "Could not load messages": [
+   "screens/message_wall_screen.dart"
+  ],
+  "Today's Messages": [
+   "screens/message_wall_screen.dart"
+  ],
+  "Messages": [
+   "screens/message_wall_screen.dart"
+  ],
+  "Previous": [
+   "screens/message_wall_screen.dart"
+  ],
+  "Next": [
+   "screens/message_wall_screen.dart"
+  ],
+  "There are no messages to display.": [
+   "screens/message_wall_screen.dart"
+  ],
+  "Could not load people": [
+   "screens/course_enrolment_by_person_screen.dart"
+  ],
+  "Course Enrolment by Person": [
+   "screens/admin_screen.dart",
+   "screens/course_enrolment_by_person_screen.dart"
+  ],
+  "No people found": [
+   "screens/course_enrolment_by_person_screen.dart"
+  ],
+  "Staff": [
+   "screens/course_enrolment_by_person_screen.dart"
+  ],
+  "Impersonate User needs School Connect module 1.16.09 or later on the school server.": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Impersonate User": [
+   "screens/admin_screen.dart",
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Your session will be switched to": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Impersonate": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Could not start impersonating this user": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "You do not have access to this action.": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "User Account": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Your active session will be switched to the selected user.": [
+   "screens/impersonate_user_screen.dart"
+  ],
+  "No matches found": [
+   "screens/family_person_picker.dart",
+   "screens/impersonate_user_screen.dart"
+  ],
+  "Could not load family data": [
+   "screens/data_family_edit_screen.dart"
+  ],
+  "Update Family Data": [
+   "screens/data_family_edit_screen.dart"
+  ],
+  "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": [
+   "screens/data_family_edit_screen.dart"
+  ],
+  "Could not load family": [
+   "screens/family_detail_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "No family record found": [
+   "screens/student_family_screen.dart"
+  ],
+  "Home Languages": [
+   "screens/student_family_screen.dart"
+  ],
+  "Address": [
+   "screens/student_family_screen.dart"
+  ],
+  "Siblings": [
+   "screens/student_family_screen.dart"
+  ],
+  "Do not contact by phone.": [
+   "screens/family_detail_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "Do not contact by SMS.": [
+   "screens/family_detail_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "Do not contact by email.": [
+   "screens/family_detail_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "Adult": [
+   "screens/student_family_screen.dart"
+  ],
+  "Relationship Unknown": [
+   "screens/student_emergency_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "Priority": [
+   "screens/family_detail_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "First Language": [
+   "screens/student_family_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Second Language": [
+   "screens/student_family_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Contact By Phone": [
+   "screens/student_family_screen.dart"
+  ],
+  "Contact By SMS": [
+   "screens/student_family_screen.dart"
+  ],
+  "Contact By Email": [
+   "screens/student_family_screen.dart"
+  ],
+  "Profession": [
+   "screens/student_family_screen.dart"
+  ],
+  "Employer": [
+   "screens/student_family_screen.dart"
+  ],
+  "Job Title": [
+   "screens/student_family_screen.dart"
+  ],
+  "Vehicle Registration": [
+   "screens/student_family_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Comment": [
+   "screens/family_detail_screen.dart",
+   "screens/log_behaviour_screen.dart",
+   "screens/student_family_screen.dart"
+  ],
+  "Could not load courses": [
+   "screens/course_manage_list_screen.dart",
+   "screens/courses_screen.dart"
+  ],
+  "My Classes": [
+   "screens/courses_screen.dart",
+   "screens/dashboard_screen.dart"
+  ],
+  "Search classes...": [
+   "screens/courses_screen.dart"
+  ],
+  "All Year Groups": [
+   "screens/course_manage_list_screen.dart",
+   "screens/courses_screen.dart"
+  ],
+  "Clear": [
+   "screens/courses_screen.dart",
+   "screens/facility_list_screen.dart",
+   "screens/staff_directory_screen.dart"
+  ],
+  "No classes found": [
+   "screens/course_enrolment_by_class_screen.dart",
+   "screens/courses_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "No department": [
+   "screens/courses_screen.dart"
+  ],
+  "Could not load report": [
+   "screens/report_pdf_viewer_screen.dart"
+  ],
+  "Could not download report": [
+   "screens/report_pdf_viewer_screen.dart"
+  ],
+  "Homework Calendar": [
+   "screens/homework_calendar_screen.dart"
+  ],
+  "Could not load homework calendar": [
+   "screens/homework_calendar_screen.dart"
+  ],
+  "Homework due": [
+   "screens/homework_calendar_screen.dart"
+  ],
+  "Assessments": [
+   "screens/homework_calendar_screen.dart"
+  ],
+  "Homework": [
+   "screens/homework_calendar_screen.dart",
+   "screens/parent_dashboard_screen.dart",
+   "screens/planner_view_screen.dart"
+  ],
+  "Due": [
+   "screens/homework_calendar_screen.dart",
+   "screens/student_homework_section.dart"
+  ],
+  "No data for this term": [
+   "screens/homework_calendar_screen.dart",
+   "screens/student_attendance_screen.dart"
+  ],
+  "Holiday": [
+   "screens/homework_calendar_screen.dart",
+   "screens/student_attendance_screen.dart"
+  ],
+  "Could not load days of the week": [
+   "screens/days_of_week_screen.dart"
+  ],
+  "Days of the Week": [
+   "screens/admin_screen.dart",
+   "screens/days_of_week_screen.dart"
+  ],
+  "School Day": [
+   "screens/days_of_week_screen.dart"
+  ],
+  "Not a School Day": [
+   "screens/days_of_week_screen.dart"
+  ],
+  "Staff Directory": [
+   "screens/dashboard_screen.dart",
+   "screens/staff_directory_screen.dart"
+  ],
+  "Search by name or initials...": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Include all staff, regardless of status, start date, end date, etc.": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Form Group": [
+   "screens/finance_invoice_detail_screen.dart",
+   "screens/parent_dashboard_screen.dart",
+   "screens/staff_directory_screen.dart",
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart",
+   "screens/student_search_screen.dart"
+  ],
+  "Could not load profile": [
+   "screens/staff_directory_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Staff Profile": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Details": [
+   "screens/staff_directory_screen.dart",
+   "screens/student_homework_section.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Email": [
+   "screens/staff_directory_screen.dart",
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Username": [
+   "screens/staff_directory_screen.dart",
+   "screens/student_personal_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "House": [
+   "screens/staff_directory_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Initials": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Department": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Country": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "First Aid": [
+   "screens/data_staff_edit_screen.dart",
+   "screens/staff_directory_screen.dart"
+  ],
+  "Qualified": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "View Timetable": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Biography": [
+   "screens/data_staff_edit_screen.dart",
+   "screens/staff_directory_screen.dart"
+  ],
+  "Qualifications": [
+   "screens/staff_directory_screen.dart"
+  ],
+  "Classes": [
+   "screens/course_detail_screen.dart",
+   "screens/my_timetable_screen.dart",
+   "screens/staff_directory_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "students": [
+   "screens/log_behaviour_screen.dart",
+   "screens/staff_directory_screen.dart",
+   "screens/students_screen.dart"
+  ],
+  "Could not load staff data": [
+   "screens/data_staff_edit_screen.dart"
+  ],
+  "Update Staff Data": [
+   "screens/data_staff_edit_screen.dart"
+  ],
+  "Basic Information": [
+   "screens/data_staff_edit_screen.dart",
+   "screens/student_personal_screen.dart"
+  ],
+  "Could not load timetable": [
+   "screens/facility_timetable_screen.dart",
+   "screens/my_timetable_screen.dart"
+  ],
+  "Layers": [
+   "screens/my_timetable_screen.dart"
+  ],
+  "Activities": [
+   "screens/my_timetable_screen.dart",
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "Done": [
+   "screens/my_timetable_screen.dart",
+   "screens/student_search_screen.dart"
+  ],
+  "Timetable": [
+   "screens/master_timetable_screen.dart",
+   "screens/my_timetable_screen.dart",
+   "screens/parent_dashboard_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "My Timetable": [
+   "screens/my_timetable_screen.dart"
+  ],
+  "Today": [
+   "screens/class_detail_screen.dart",
+   "screens/facility_timetable_screen.dart",
+   "screens/my_timetable_screen.dart"
+  ],
+  "No school days this week": [
+   "screens/my_timetable_screen.dart"
+  ],
+  "School Closed": [
+   "screens/my_timetable_screen.dart"
+  ],
+  "Nothing scheduled": [
+   "screens/my_timetable_screen.dart"
+  ],
+  "Now": [
+   "screens/facility_timetable_screen.dart",
+   "screens/my_timetable_screen.dart"
+  ],
+  "Dashboard": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Role": [
+   "screens/dashboard_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Planner": [
+   "screens/class_detail_screen.dart",
+   "screens/dashboard_screen.dart",
+   "screens/parent_dashboard_screen.dart",
+   "screens/planner_list_screen.dart"
+  ],
+  "Take Attendance": [
+   "screens/class_detail_screen.dart",
+   "screens/dashboard_screen.dart",
+   "screens/form_group_detail_screen.dart"
+  ],
+  "Log Behaviour": [
+   "screens/dashboard_screen.dart",
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Master Timetable": [
+   "screens/dashboard_screen.dart",
+   "screens/master_timetable_screen.dart"
+  ],
+  "Timetable by Facility": [
+   "screens/dashboard_screen.dart",
+   "screens/facility_list_screen.dart"
+  ],
+  "Quick Access": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Manage": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Admin": [
+   "screens/admin_screen.dart",
+   "screens/dashboard_screen.dart"
+  ],
+  "Manage users and school settings": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Students": [
+   "screens/course_detail_screen.dart",
+   "screens/course_enrolment_by_class_screen.dart",
+   "screens/dashboard_screen.dart",
+   "screens/log_behaviour_screen.dart",
+   "screens/student_search_screen.dart"
+  ],
+  "Search and view student profiles": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Browse staff profiles": [
+   "screens/dashboard_screen.dart"
+  ],
+  "My Form Groups": [
+   "screens/dashboard_screen.dart",
+   "screens/form_groups_screen.dart"
+  ],
+  "View and manage Form Groups": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Grades": [
+   "screens/dashboard_screen.dart",
+   "screens/student_grades_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "View your grades": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Reports": [
+   "screens/dashboard_screen.dart",
+   "screens/reports_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "View your report cards": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Today's Timetable": [
+   "screens/dashboard_screen.dart"
+  ],
+  "View Full Timetable": [
+   "screens/dashboard_screen.dart",
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "No timetable for today": [
+   "screens/dashboard_screen.dart"
+  ],
+  "No classes scheduled today": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Attendance not taken yet today": [
+   "screens/dashboard_screen.dart"
+  ],
+  "Could not load students": [
+   "screens/student_search_screen.dart",
+   "screens/students_screen.dart"
+  ],
+  "Filter": [
+   "screens/student_search_screen.dart"
+  ],
+  "Sort By": [
+   "screens/student_search_screen.dart"
+  ],
+  "Surname": [
+   "screens/student_personal_screen.dart",
+   "screens/student_search_screen.dart"
+  ],
+  "Given Name": [
+   "screens/student_search_screen.dart"
+  ],
+  "Year Group": [
+   "screens/student_personal_screen.dart",
+   "screens/student_search_screen.dart"
+  ],
+  "All Students": [
+   "screens/student_search_screen.dart"
+  ],
+  "Include all students, regardless of status and current enrolment. Some data may not display.": [
+   "screens/student_search_screen.dart"
+  ],
+  "Status": [
+   "screens/finance_invoice_detail_screen.dart",
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Date": [
+   "screens/planner_view_screen.dart",
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Before Start Date": [
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "After End Date": [
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Apply": [
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Select Students": [
+   "screens/student_search_screen.dart"
+  ],
+  "Select Student": [
+   "screens/student_search_screen.dart"
+  ],
+  "Search by name or student ID...": [
+   "screens/student_search_screen.dart"
+  ],
+  "starting": [
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "Clear filters": [
+   "screens/student_search_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "No students found": [
+   "screens/student_search_screen.dart",
+   "screens/students_screen.dart"
+  ],
+  "Not currently enrolled": [
+   "screens/student_search_screen.dart"
+  ],
+  "Could not load invoice": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "N/A": [
+   "screens/data_updates_screen.dart",
+   "screens/finance_invoice_detail_screen.dart",
+   "screens/finance_invoices_screen.dart"
+  ],
+  "documentType": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "receipt": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Receipt": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Invoice": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Issue Date": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Due Date": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "To": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Fees": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Total": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Paid": [
+   "screens/finance_invoice_detail_screen.dart",
+   "screens/finance_invoices_screen.dart"
+  ],
+  "Notes": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Share": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Fee Table": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Invoice Total": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Payment Details": [
+   "screens/finance_invoice_detail_screen.dart"
+  ],
+  "Could not load grades": [
+   "screens/student_grades_screen.dart"
+  ],
+  "No grades available": [
+   "screens/student_grades_screen.dart"
+  ],
+  "Assessment": [
+   "screens/student_grades_screen.dart"
+  ],
+  "Learning Area": [
+   "screens/course_manage_list_screen.dart",
+   "screens/student_grades_screen.dart"
+  ],
+  "All Learning Areas": [
+   "screens/student_grades_screen.dart"
+  ],
+  "All Terms": [
+   "screens/student_grades_screen.dart"
+  ],
+  "Could not load attendance": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Present": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Partial": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Absent": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "No data": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "School Year": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Class Absences": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Sessions marked Out this year": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "sessions recorded": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "days": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "school days in the school year": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "school days in term": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "No record": [
+   "screens/student_attendance_screen.dart"
+  ],
+  "Could not load facilities": [
+   "screens/facility_list_screen.dart"
+  ],
+  "Search rooms...": [
+   "screens/facility_list_screen.dart"
+  ],
+  "facility": [
+   "screens/facility_list_screen.dart"
+  ],
+  "facilities": [
+   "screens/facility_list_screen.dart"
+  ],
+  "No facilities found": [
+   "screens/facility_list_screen.dart"
+  ],
+  "sessions": [
+   "screens/facility_list_screen.dart"
+  ],
+  "Unused": [
+   "screens/facility_list_screen.dart"
+  ],
+  "Cap": [
+   "screens/facility_list_screen.dart"
+  ],
+  "Could not load homework": [
+   "screens/student_homework_section.dart"
+  ],
+  "Due date and details are required.": [
+   "screens/student_homework_section.dart"
+  ],
+  "Homework saved.": [
+   "screens/student_homework_section.dart"
+  ],
+  "Homework removed.": [
+   "screens/student_homework_section.dart"
+  ],
+  "Save failed": [
+   "screens/student_homework_section.dart"
+  ],
+  "Could not update": [
+   "screens/student_homework_section.dart"
+  ],
+  "Student Recorded Homework": [
+   "screens/student_homework_section.dart"
+  ],
+  "You can use this section to record your own homework.": [
+   "screens/student_homework_section.dart"
+  ],
+  "No homework recorded.": [
+   "screens/student_homework_section.dart"
+  ],
+  "Time": [
+   "screens/planner_view_screen.dart",
+   "screens/student_homework_section.dart"
+  ],
+  "Complete": [
+   "screens/student_homework_section.dart"
+  ],
+  "Add homework?": [
+   "screens/student_homework_section.dart"
+  ],
+  "Due date": [
+   "screens/student_homework_section.dart"
+  ],
+  "Homework details": [
+   "screens/student_homework_section.dart"
+  ],
+  "Mark as complete": [
+   "screens/student_homework_section.dart"
+  ],
+  "Could not load personal information": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Personal": [
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "First Name": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Preferred Name": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Official Name": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Name In Characters": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Gender": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Date of Birth": [
+   "screens/student_personal_screen.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Age": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Contact Information": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Phone": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Alternate Email": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Website": [
+   "screens/student_personal_screen.dart"
+  ],
+  "School Information": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Tutor": [
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Tutor 2": [
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Student ID": [
+   "screens/student_personal_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Head of Year": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Last School": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Start Date": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Class Of": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Next School": [
+   "screens/student_personal_screen.dart"
+  ],
+  "End Date": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Departure Reason": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Background Information": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Country of Birth": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Ethnicity": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Religion": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Third Language": [
+   "screens/student_personal_screen.dart"
+  ],
+  "System Access": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Can Login?": [
+   "screens/student_personal_screen.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Last IP Address": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Miscellaneous": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Transport": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Locker Number": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Privacy required": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Privacy not required or not set.": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Student Agreements": [
+   "screens/student_personal_screen.dart"
+  ],
+  "Recent Attendance": [
+   "screens/class_detail_screen.dart",
+   "screens/form_group_detail_screen.dart"
+  ],
+  "Last 10 school days — per period": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Last 10 school days": [
+   "screens/class_detail_screen.dart"
+  ],
+  "No history available": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Taken": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Not taken": [
+   "screens/class_detail_screen.dart"
+  ],
+  "No class": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Student List": [
+   "screens/class_detail_screen.dart"
+  ],
+  "View students in this class": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Markbook": [
+   "screens/class_detail_screen.dart",
+   "screens/class_markbook_screen.dart"
+  ],
+  "View class grades": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Mark attendance for today": [
+   "screens/class_detail_screen.dart"
+  ],
+  "View lesson plans for this class": [
+   "screens/class_detail_screen.dart"
+  ],
+  "Unknown Year": [
+   "screens/terms_screen.dart"
+  ],
+  "Manage Terms": [
+   "screens/admin_screen.dart",
+   "screens/terms_screen.dart"
+  ],
+  "Add Adult": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Could not add adult": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Add Child": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Could not add child": [
+   "screens/family_detail_screen.dart"
+  ],
+  "adult": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Remove Adult": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Remove Child": [
+   "screens/family_detail_screen.dart"
+  ],
+  "from this family?": [
+   "screens/family_detail_screen.dart"
+  ],
+  "This does not delete their user account.": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Could not remove": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Adult settings updated": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Data displayed in full Student Profile": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Adults": [
+   "screens/family_detail_screen.dart",
+   "screens/family_list_screen.dart"
+  ],
+  "Add": [
+   "screens/course_class_roster_screen.dart",
+   "screens/family_detail_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "No adults linked": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Children": [
+   "screens/family_detail_screen.dart",
+   "screens/family_list_screen.dart"
+  ],
+  "No children linked": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Contact Info": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Editable": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Data Access?": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Access data on family's children?": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Contact Priority": [
+   "screens/family_detail_screen.dart"
+  ],
+  "The order in which the school should contact family members.": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Priority 1 contacts always receive all contact types.": [
+   "screens/family_detail_screen.dart"
+  ],
+  "Could not load data updates": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Update Required": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Last": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Up to date": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Last updated": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Tap to edit": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Data Updates": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Your data is up to date.": [
+   "screens/data_updates_screen.dart"
+  ],
+  "No data updates found": [
+   "screens/data_updates_screen.dart"
+  ],
+  "$type Data": [
+   "screens/data_updates_screen.dart"
+  ],
+  "Could not load roster": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Remove from Class": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "from this class?": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Class Roster": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "No participants yet": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Not Reportable": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Please select a person and a role": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Could not add": [
+   "screens/course_class_roster_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Add Participant": [
+   "screens/course_class_roster_screen.dart"
+  ],
+  "Role *": [
+   "screens/course_class_roster_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Reportable": [
+   "screens/course_class_roster_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Non-reportable participants won't display in reports.": [
+   "screens/course_class_roster_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Could not load lesson": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Lesson": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Unit": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Class": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Summary": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Lesson Content": [
+   "screens/planner_view_screen.dart"
+  ],
+  "This lesson has not had any content assigned to it.": [
+   "screens/planner_view_screen.dart"
+  ],
+  "Could not load your children": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "Parent Dashboard": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "No children linked to this account": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "Could not load activities": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "Student Profile": [
+   "screens/parent_dashboard_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "No activities on record": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "View Attendance": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "View Grades": [
+   "screens/parent_dashboard_screen.dart"
+  ],
+  "View Reports": [
+   "screens/reports_screen.dart",
+   "screens/view_reports_screen.dart"
+  ],
+  "Could not open the video call": [
+   "screens/join_virtual_class_button.dart"
+  ],
+  "Connecting...": [
+   "screens/join_virtual_class_button.dart"
+  ],
+  "Opens at": [
+   "screens/join_virtual_class_button.dart"
+  ],
+  "Closed at": [
+   "screens/join_virtual_class_button.dart"
+  ],
+  "Join Virtual Class": [
+   "screens/join_virtual_class_button.dart"
+  ],
+  "Attendance This Year": [
+   "screens/student_profile_screen.dart"
+  ],
+  "Days Present": [
+   "screens/student_profile_screen.dart"
+  ],
+  "Days Absent": [
+   "screens/student_profile_screen.dart"
+  ],
+  "Emergency Contacts": [
+   "screens/student_emergency_screen.dart",
+   "screens/student_profile_screen.dart"
+  ],
+  "Could not load classes": [
+   "screens/course_enrolment_by_class_screen.dart"
+  ],
+  "Course Enrolment by Class": [
+   "screens/admin_screen.dart",
+   "screens/course_enrolment_by_class_screen.dart"
+  ],
+  "Search by course or class name...": [
+   "screens/course_enrolment_by_class_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Teachers": [
+   "screens/course_detail_screen.dart",
+   "screens/course_enrolment_by_class_screen.dart"
+  ],
+  "Under Enrolled": [
+   "screens/course_detail_screen.dart",
+   "screens/course_enrolment_by_class_screen.dart"
+  ],
+  "Over Enrolled": [
+   "screens/course_detail_screen.dart",
+   "screens/course_enrolment_by_class_screen.dart"
+  ],
+  "Could not load password policy": [
+   "screens/user_password_screen.dart"
+  ],
+  "At least": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "characters": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "An uppercase and a lowercase letter": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "At least one number": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "A punctuation mark or space": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "Password must be filled in and match": [
+   "screens/user_password_screen.dart"
+  ],
+  "Could not reset password": [
+   "screens/user_password_screen.dart"
+  ],
+  "Reset User Password": [
+   "screens/user_password_screen.dart"
+  ],
+  "Password *": [
+   "screens/user_password_screen.dart"
+  ],
+  "Generate": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "Confirm Password *": [
+   "screens/user_password_screen.dart"
+  ],
+  "Passwords do not match": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "Force Reset Password?": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "User will be prompted on next login.": [
+   "screens/user_edit_screen.dart",
+   "screens/user_password_screen.dart"
+  ],
+  "Login Troubleshooting": [
+   "screens/user_password_screen.dart"
+  ],
+  "Homework + Due Dates": [
+   "screens/homework_due_dates_card.dart"
+  ],
+  "View Homework Calendar": [
+   "screens/homework_due_dates_card.dart"
+  ],
+  "No upcoming due dates!": [
+   "screens/homework_due_dates_card.dart"
+  ],
+  "Due Soon": [
+   "screens/homework_due_dates_card.dart"
+  ],
+  "Could not load school years": [
+   "screens/school_year_picker_screen.dart",
+   "screens/school_years_screen.dart"
+  ],
+  "Could not switch school year": [
+   "screens/school_year_picker_screen.dart"
+  ],
+  "Switch School Year": [
+   "screens/school_year_picker_screen.dart"
+  ],
+  "Current year": [
+   "screens/school_year_picker_screen.dart"
+  ],
+  "Manage Courses & Classes": [
+   "screens/admin_screen.dart",
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Search by course name...": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Filter by Year Group": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "No courses found": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "No Learning Area": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "classCount": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "class": [
+   "screens/course_manage_list_screen.dart",
+   "screens/master_timetable_screen.dart"
+  ],
+  "classes": [
+   "screens/course_manage_list_screen.dart",
+   "screens/master_timetable_screen.dart"
+  ],
+  "Name and Short Name are required": [
+   "screens/course_detail_screen.dart",
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Edit Course": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Add Course": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "— None —": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Must be unique for this school year.": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Short Name *": [
+   "screens/course_detail_screen.dart",
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Order": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Adjusts arrangement of courses in reports.": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Include in Curriculum Map": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Enrolable Year Groups": [
+   "screens/course_manage_list_screen.dart"
+  ],
+  "Manage School Years": [
+   "screens/admin_screen.dart",
+   "screens/school_years_screen.dart"
+  ],
+  "Could not load reports": [
+   "screens/student_reports_screen.dart"
+  ],
+  "No reports available yet": [
+   "screens/student_reports_screen.dart"
+  ],
+  "Report": [
+   "screens/student_reports_screen.dart"
+  ],
+  "Could not load notifications": [
+   "screens/notifications_screen.dart"
+  ],
+  "Notifications": [
+   "screens/notifications_screen.dart"
+  ],
+  "Mark all read": [
+   "screens/notifications_screen.dart"
+  ],
+  "No notifications": [
+   "screens/notifications_screen.dart"
+  ],
+  "times": [
+   "screens/notifications_screen.dart"
+  ],
+  "Mark read": [
+   "screens/notifications_screen.dart"
+  ],
+  "Could not load families": [
+   "screens/family_list_screen.dart"
+  ],
+  "Manage Families": [
+   "screens/admin_screen.dart",
+   "screens/family_list_screen.dart"
+  ],
+  "Search by family name...": [
+   "screens/family_list_screen.dart"
+  ],
+  "family": [
+   "screens/family_list_screen.dart"
+  ],
+  "families": [
+   "screens/family_list_screen.dart"
+  ],
+  "No families found": [
+   "screens/family_list_screen.dart"
+  ],
+  "Could not load lessons": [
+   "screens/planner_list_screen.dart"
+  ],
+  "By Date": [
+   "screens/planner_list_screen.dart"
+  ],
+  "Choose a class": [
+   "screens/planner_list_screen.dart"
+  ],
+  "Choose a class above": [
+   "screens/planner_list_screen.dart"
+  ],
+  "There are no lessons for this class.": [
+   "screens/planner_list_screen.dart"
+  ],
+  "There are no lessons on this date.": [
+   "screens/planner_list_screen.dart",
+   "screens/today_lessons_card.dart"
+  ],
+  "Search students...": [
+   "screens/students_screen.dart"
+  ],
+  "student": [
+   "screens/students_screen.dart"
+  ],
+  "Could not load users": [
+   "screens/user_list_screen.dart"
+  ],
+  "Filters": [
+   "screens/user_list_screen.dart"
+  ],
+  "${r[0].toUpperCase()}${r.substring(1)}": [
+   "screens/user_list_screen.dart"
+  ],
+  "${s[0].toUpperCase()}${s.substring(1)}": [
+   "screens/user_list_screen.dart"
+  ],
+  "${type[0].toUpperCase()}${type.substring(1)}": [
+   "screens/user_list_screen.dart"
+  ],
+  "Delete User": [
+   "screens/user_list_screen.dart"
+  ],
+  "Permanently delete": [
+   "screens/course_detail_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "This cannot be undone.": [
+   "screens/user_list_screen.dart"
+  ],
+  "Could not delete user": [
+   "screens/user_list_screen.dart"
+  ],
+  "Manage Users": [
+   "screens/admin_screen.dart",
+   "screens/user_list_screen.dart"
+  ],
+  "User created successfully": [
+   "screens/user_list_screen.dart"
+  ],
+  "Search by name, username, email, student ID...": [
+   "screens/user_list_screen.dart"
+  ],
+  "user": [
+   "screens/user_list_screen.dart"
+  ],
+  "users": [
+   "screens/user_list_screen.dart"
+  ],
+  "No users found": [
+   "screens/user_list_screen.dart"
+  ],
+  "Reset Password": [
+   "screens/user_list_screen.dart"
+  ],
+  "Password reset successfully": [
+   "screens/user_list_screen.dart"
+  ],
+  "User updated successfully": [
+   "screens/user_list_screen.dart"
+  ],
+  "Today's Lessons": [
+   "screens/today_lessons_card.dart"
+  ],
+  "View Planner": [
+   "screens/today_lessons_card.dart"
+  ],
+  "Could not load form data": [
+   "screens/student_enrolment_edit_screen.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not load form": [
+   "screens/staff_edit_screen.dart",
+   "screens/student_enrolment_edit_screen.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Please select a student": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Please select a Year Group and Form Group": [
+   "screens/student_enrolment_edit_screen.dart",
+   "screens/user_edit_screen.dart"
+  ],
+  "Edit Enrolment": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Add Student Enrolment": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Student": [
+   "screens/class_markbook_screen.dart",
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Roll Order": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Auto-Enrol Courses?": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Should this student be automatically enrolled in courses for their Form Group?": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Not wired up here yet — enrolling here does not auto-add courses. ": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Finish course enrolment on the website if this student needs it.": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "School History": [
+   "screens/student_enrolment_edit_screen.dart"
+  ],
+  "Could not load Form Groups": [
+   "screens/form_groups_screen.dart"
+  ],
+  "No Form Groups found": [
+   "screens/form_groups_screen.dart"
+  ],
+  "No timetable for this day": [
+   "screens/facility_timetable_screen.dart"
+  ],
+  "No classes in this room today": [
+   "screens/facility_timetable_screen.dart"
+  ],
+  "Could not load children": [
+   "screens/view_reports_screen.dart"
+  ],
+  "No children found": [
+   "screens/view_reports_screen.dart"
+  ],
+  "Could not load markbook": [
+   "screens/class_markbook_screen.dart"
+  ],
+  "No markbook entries yet": [
+   "screens/class_markbook_screen.dart"
+  ],
+  "Type at least 2 characters": [
+   "screens/family_person_picker.dart"
+  ],
+  "Could not load course": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Delete Course": [
+   "screens/course_detail_screen.dart"
+  ],
+  "and all of its classes?": [
+   "screens/course_detail_screen.dart"
+  ],
+  "This also removes all enrolment and timetable data for those classes. This cannot be undone.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Delete Class": [
+   "screens/course_detail_screen.dart"
+  ],
+  "This removes all enrolment and timetable data for this class. This cannot be undone.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Course": [
+   "screens/course_detail_screen.dart"
+  ],
+  "No classes yet": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Combined short name exceeds 16 characters": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Edit Class": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Add Class": [
+   "screens/course_detail_screen.dart",
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Must be unique for this course.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Combined short name": [
+   "screens/course_detail_screen.dart"
+  ],
+  "is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Reportable?": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Track Attendance?": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Minimum Enrolment": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Class should not run below this number of students.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Maximum Enrolment": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Enrolment should not exceed this number of students.": [
+   "screens/course_detail_screen.dart"
+  ],
+  "Add, edit, and remove user accounts": [
+   "screens/admin_screen.dart"
+  ],
+  "View families, contacts, and children": [
+   "screens/admin_screen.dart"
+  ],
+  "Link staff-role people to their staff record": [
+   "screens/admin_screen.dart"
+  ],
+  "Enroll existing students into the active school year": [
+   "screens/admin_screen.dart"
+  ],
+  "View": [
+   "screens/admin_screen.dart"
+  ],
+  "Add, edit, and remove closures": [
+   "screens/admin_screen.dart"
+  ],
+  "Troubleshoot by seeing the app as another user": [
+   "screens/admin_screen.dart"
+  ],
+  "Settings": [
+   "screens/admin_screen.dart",
+   "screens/admin_settings_screen.dart"
+  ],
+  "Control what shows up in the app for everyone": [
+   "screens/admin_screen.dart"
+  ],
+  "Could not load medical data": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Cancel new condition": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Update Medical Data": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "General Information": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Medical Conditions": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Condition": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Add Medical Condition": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Check the box to add a new medical condition": [
+   "screens/data_medical_edit_screen.dart"
+  ],
+  "Could not load settings": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "Could not save setting": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "Virtual Classroom": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "Jitsi": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "Join Virtual Class shows on the timetable and planner": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "Join Virtual Class is hidden everywhere it would normally appear": [
+   "screens/admin_settings_screen.dart"
+  ],
+  "The impersonation ended after 2 hours. You are back in your own account.": [
+   "screens/impersonation_banner.dart"
+  ],
+  "You are back in your own account.": [
+   "screens/impersonation_banner.dart"
+  ],
+  "Viewing as": [
+   "screens/impersonation_banner.dart"
+  ],
+  "until": [
+   "screens/impersonation_banner.dart"
+  ],
+  "Return to my account": [
+   "screens/impersonation_banner.dart"
+  ],
+  "Could not load invoices": [
+   "screens/finance_invoices_screen.dart"
+  ],
+  "Could not open payment page": [
+   "screens/finance_invoices_screen.dart"
+  ],
+  "View Invoices": [
+   "screens/finance_invoices_screen.dart"
+  ],
+  "No invoices to display": [
+   "screens/finance_invoices_screen.dart"
+  ],
+  "Pay Now": [
+   "screens/finance_invoices_screen.dart"
+  ],
+  "Please select a person": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Please select a Type": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Edit Staff": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Add Staff": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Person": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "First Aid Qualified?": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Exclude from coverage?": [
+   "screens/staff_edit_screen.dart"
+  ],
+  "Could not load emergency contacts": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "In an emergency, please try and contact the adult family members listed below first. ": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "If these cannot be reached, then try the emergency contacts below.": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "Adult Family Members": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "No family members on record": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "No phone on record": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "not on record": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "Number 1": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "Number 2": [
+   "screens/student_emergency_screen.dart"
+  ],
+  "Fill in First Name, Surname, Preferred Name, and Primary Role first": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not generate username": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not load user": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Please fill in all required fields (name, official name, gender, role, username)": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Passwords must be filled in and match": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Please enter a Staff Type": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not save user": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Edit User": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Add User": [
+   "screens/user_edit_screen.dart"
+  ],
+  "User Photo": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Username available": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Username already taken": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Create linked staff record": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Create linked student enrolment": [
+   "screens/user_edit_screen.dart"
+  ],
+  "All Roles": [
+   "screens/user_edit_screen.dart"
+  ],
+  "primary": [
+   "screens/user_edit_screen.dart"
+  ],
+  "Could not load timetables": [
+   "screens/master_timetable_screen.dart"
+  ],
+  "Could not load master timetable": [
+   "screens/master_timetable_screen.dart"
+  ],
+  "No timetable data found": [
+   "screens/master_timetable_screen.dart"
+  ],
+  "No classes scheduled": [
+   "screens/master_timetable_screen.dart"
+  ],
+  "Choose at least one student first": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Behaviour record saved!": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Behaviour records saved for": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Choose students": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Add More": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Positive": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Negative": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Descriptor": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "optional": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Level": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Follow Up": [
+   "screens/log_behaviour_screen.dart"
+  ],
+  "Could not load enrolment": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Remove Class": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Remove enrolment in": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Class Enrolments": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Not enrolled in any classes yet": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Please select a class and a role": [
+   "screens/person_enrolment_screen.dart"
+  ],
+  "Not reported: update the School Connect module": [
+   "screens/about_screen.dart"
+  ],
+  "Installed version is": [
+   "screens/about_screen.dart"
+  ],
+  "Click Update next to School Connect in System Admin > Manage Modules.": [
+   "screens/about_screen.dart"
+  ],
+  "About & Privacy": [
+   "screens/about_screen.dart"
+  ],
+  "Version": [
+   "screens/about_screen.dart"
+  ],
+  "Connected school": [
+   "screens/about_screen.dart"
+  ],
+  "School Connect module on the school server": [
+   "screens/about_screen.dart"
+  ],
+  "Logged in as": [
+   "screens/about_screen.dart"
+  ],
+  "Developed by High Point Education": [
+   "screens/about_screen.dart"
+  ],
+  "Your data stays with your school": [
+   "screens/about_screen.dart"
+  ],
+  "Your school is responsible for your personal data in Gibbon. To see, ": [
+   "screens/about_screen.dart"
+  ],
+  "correct or delete it, contact your school's data protection officer. ": [
+   "screens/about_screen.dart"
+  ],
+  "For questions about the app itself, contact": [
+   "screens/about_screen.dart"
+  ],
+  "Read the full privacy policy": [
+   "screens/about_screen.dart"
+  ]
+ }
+}

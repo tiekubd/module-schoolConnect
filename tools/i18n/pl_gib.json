@@ -1,0 +1,1867 @@
+[
+[
+"Absent",
+"",
+"Nieobecny"
+],
+[
+"Access data on family's children?",
+"",
+"Dostęp do danych na temat dzieci w rodzinie?"
+],
+[
+"Activities",
+"",
+"Aktywności/Zajęcia dodatkowe"
+],
+[
+"Add",
+"",
+"Dodaj"
+],
+[
+"Add Adult",
+"",
+"Dodaj osobę dorosłą"
+],
+[
+"Add Child",
+"",
+"Dodaj dziecko"
+],
+[
+"Add Class",
+"",
+"Dodaj klasę"
+],
+[
+"Add Course",
+"",
+"Dodaj oddziały klasowe"
+],
+[
+"Add Medical Condition",
+"",
+"Dodaj stan medyczny"
+],
+[
+"Add Special Day",
+"",
+"Dodaj dzień specjalny"
+],
+[
+"Add Staff",
+"",
+"Dodaj personel"
+],
+[
+"Add Student Enrolment",
+"",
+"Dodaj rejestrację uczniów"
+],
+[
+"Add User",
+"",
+"Dodaj użytkownika"
+],
+[
+"Address",
+"",
+"Adres"
+],
+[
+"Address Name",
+"",
+"Adres"
+],
+[
+"Admin",
+"",
+"Administracja"
+],
+[
+"Adult",
+"",
+"Dorosły"
+],
+[
+"Adult Family Members",
+"",
+"Dorosli członkowie rodziny"
+],
+[
+"Adults",
+"",
+"Dorośli"
+],
+[
+"After End Date",
+"",
+"Po dacie zakończenia"
+],
+[
+"Age",
+"",
+"Wiek"
+],
+[
+"All",
+"",
+"Wszystkie"
+],
+[
+"All Learning Areas",
+"",
+"Wszystkie obszary uczenia się"
+],
+[
+"All Roles",
+"",
+"Wszystkie role"
+],
+[
+"All Staff",
+"",
+"Cały personel"
+],
+[
+"All Students",
+"",
+"Wszyscy uczniowie"
+],
+[
+"All Terms",
+"",
+"Wszystkie warunki"
+],
+[
+"Alternate Email",
+"",
+"Alternatywny email"
+],
+[
+"Apply",
+"",
+null
+],
+[
+"Assessment",
+"",
+"Ocenianie"
+],
+[
+"Attendance",
+"",
+"Frekwencja"
+],
+[
+"Auto-Enrol Courses?",
+"",
+"Oddział klasowy Auto-Rejestracja?"
+],
+[
+"Background Information",
+"",
+"Informacje ogólne"
+],
+[
+"Basic Information",
+"",
+"Podstawowe informacje"
+],
+[
+"Before Start Date",
+"",
+"Przed datą rozpoczęcia"
+],
+[
+"Biography",
+"",
+"Biografia"
+],
+[
+"By Form Group",
+"",
+null
+],
+[
+"CC Family?",
+"",
+"Rodzina CC?"
+],
+[
+"Call?",
+"",
+"Połączenie?"
+],
+[
+"Can Login?",
+"",
+"Czy możesz się zalogować?"
+],
+[
+"Cancel",
+"",
+"Anuluj"
+],
+[
+"Cancel Activities?",
+"",
+null
+],
+[
+"Check the box to add a new medical condition",
+"",
+"Zaznacz pole, aby dodać nowy stan zdrowia"
+],
+[
+"Children",
+"",
+"Dzieci"
+],
+[
+"Chinese or other character-based name.",
+"",
+"Miejsce urodzenia"
+],
+[
+"Choose A Class",
+"",
+"Wybierz klasę"
+],
+[
+"Choose Students",
+"",
+"Wybierz uczniów"
+],
+[
+"Class",
+"",
+"Przedmiot"
+],
+[
+"Class Of",
+"",
+"rok ukończenia"
+],
+[
+"Class should not run below this number of students.",
+"",
+null
+],
+[
+"Classes",
+"",
+"Lekcja"
+],
+[
+"Clear",
+"",
+"wyczyść filter"
+],
+[
+"Clear Filters",
+"",
+"Wyczyść filtry"
+],
+[
+"Comment",
+"",
+"Komentarz"
+],
+[
+"Company",
+"",
+"Firma"
+],
+[
+"Company Address",
+"",
+"adres spółki"
+],
+[
+"Company All?",
+"",
+"Firma wszystko?"
+],
+[
+"Company Contact Person",
+"",
+"Osoba kontaktowa firmy"
+],
+[
+"Company Emails",
+"",
+"E-maile firmowe"
+],
+[
+"Company Fee Categories",
+"",
+"Kategorie opłat firmowych"
+],
+[
+"Company Name",
+"",
+"Nazwa firmy"
+],
+[
+"Company Phone",
+"",
+"Telefon służbowy"
+],
+[
+"Complete",
+"",
+"Kompletny"
+],
+[
+"Condition",
+"",
+"Stan"
+],
+[
+"Condition Name",
+"",
+"Nazwa warunku"
+],
+[
+"Confirm Password",
+"",
+"Potwierdź hasło"
+],
+[
+"Contact",
+"",
+"Kontakt"
+],
+[
+"Contact 1 Name",
+"",
+"Imię i nazwisko osoby do kontaktu w razie wypadku"
+],
+[
+"Contact 1 Number 1",
+"",
+"numer telefonu w razie wypadku"
+],
+[
+"Contact 1 Number 2",
+"",
+"alternatywny numer telefonu w razie wypadku"
+],
+[
+"Contact 1 Relationship",
+"",
+"Kontakt - pokrewieństwo"
+],
+[
+"Contact 2 Name",
+"",
+"Alternatywna osoba do kontaktu"
+],
+[
+"Contact 2 Number 1",
+"",
+"2 Numer telefonu w razie wypadku"
+],
+[
+"Contact 2 Number 2",
+"",
+"Alternatywny nr. tel."
+],
+[
+"Contact 2 Relationship",
+"",
+"Pokrewieństwo"
+],
+[
+"Contact By Email",
+"",
+"Kontakt przez e-mail"
+],
+[
+"Contact By Phone",
+"",
+"Kontakt przez telefon"
+],
+[
+"Contact By SMS",
+"",
+"Kontakt przez SMS"
+],
+[
+"Contact Information",
+"",
+"Informacje kontaktowe"
+],
+[
+"Contact Priority",
+"",
+"Priorytet kontaktu"
+],
+[
+"Controls what a user can do and see.",
+"",
+"Kontroluje, co użytkownik może zrobić i zobaczyć."
+],
+[
+"Country",
+"",
+"Kraj"
+],
+[
+"Country Of Origin",
+"",
+"Kraj pochodzenia"
+],
+[
+"Country of Birth",
+"",
+"Kraj urodzenia"
+],
+[
+"County, State, District",
+"",
+"województwo"
+],
+[
+"Course",
+"",
+null
+],
+[
+"Course Enrolment by Class",
+"",
+"Zapisy do oddziałów klasowych według lekcji"
+],
+[
+"Course Enrolment by Person",
+"",
+"Osoby zapisane do oddziałów klasowych"
+],
+[
+"Data Access?",
+"",
+"Dostęp do danych?"
+],
+[
+"Data Updater",
+"",
+"Aktualizacja danych"
+],
+[
+"Data Updates",
+"",
+"Aktualizacje danych"
+],
+[
+"Data displayed in full Student Profile",
+"",
+"Dane wyświetlane w pełnym profilu ucznia"
+],
+[
+"Date",
+"",
+"Data"
+],
+[
+"Date of Birth",
+"",
+"Data urodzenia"
+],
+[
+"Days of the Week",
+"",
+"Dni tygodnia"
+],
+[
+"Delete",
+"",
+"Usuń"
+],
+[
+"Department",
+"",
+"Departament"
+],
+[
+"Departure Reason",
+"",
+"Przyczyna wyjazdu"
+],
+[
+"Description",
+"",
+"opis"
+],
+[
+"Descriptor",
+"",
+"Objaśnienie"
+],
+[
+"Details",
+"",
+"Szczegóły"
+],
+[
+"Do not contact by SMS.",
+"",
+"Nie kontaktuj się przez SMS."
+],
+[
+"Do not contact by email.",
+"",
+"Nie kontaktuj się przez e-mail."
+],
+[
+"Do not contact by phone.",
+"",
+"Nie kontaktuj się przez telefon."
+],
+[
+"Due Date",
+"",
+"Termin płatności"
+],
+[
+"Due Soon",
+"",
+null
+],
+[
+"Due at {time} on {date}",
+"",
+null
+],
+[
+"Due on {date} at {time}.",
+"",
+null
+],
+[
+"Edit Class",
+"",
+"Edytuj klasę"
+],
+[
+"Edit Course",
+"",
+"Edytuj oddziały klasowe"
+],
+[
+"Edit Enrolment",
+"",
+"Edytuj rejestrację"
+],
+[
+"Edit Special Day",
+"",
+"Edytuj dzień specjalny"
+],
+[
+"Edit Staff",
+"",
+"Edytuj personel"
+],
+[
+"Edit User",
+"",
+"Edytuj użytkownika"
+],
+[
+"Email",
+"",
+"poczta elektroniczna"
+],
+[
+"Email?",
+"",
+"E-mail?"
+],
+[
+"Emergency Contacts",
+"",
+"Kontakt w razie wypadku"
+],
+[
+"Employer",
+"",
+"Pracodawca"
+],
+[
+"Employment",
+"",
+"Zatrudnienie"
+],
+[
+"End Date",
+"",
+"Data zakończenia"
+],
+[
+"Enrolment should not exceed this number of students.",
+"",
+null
+],
+[
+"Ethnicity",
+"",
+"Etniczność"
+],
+[
+"Exclude from coverage?",
+"",
+null
+],
+[
+"Family",
+"",
+"Rodzina"
+],
+[
+"Family name as shown in ID documents.",
+"",
+"Nazwisko"
+],
+[
+"Fax",
+"",
+"Faks"
+],
+[
+"Fee Table",
+"",
+"Tabela opłat"
+],
+[
+"Fees",
+"",
+"Opłaty"
+],
+[
+"Filter",
+"",
+"Filtr"
+],
+[
+"Filters",
+"",
+"Filtry"
+],
+[
+"First Aid",
+"",
+"Pierwsza pomoc"
+],
+[
+"First Aid Expiry",
+"",
+"Wygaśnięcie pierwszej pomocy"
+],
+[
+"First Aid Qualification",
+"",
+null
+],
+[
+"First Aid Qualified?",
+"",
+"Pierwsza pomoc kwalifikowana?"
+],
+[
+"First Language",
+"",
+"Pierwszy język"
+],
+[
+"First Name",
+"",
+"Imię"
+],
+[
+"First name as shown in ID documents.",
+"",
+"Imię tak jak w Akcie Urodzenia"
+],
+[
+"Follow Up",
+"",
+"Czynności do podjęcia"
+],
+[
+"Force Reset Password?",
+"",
+"Wymuś resetowanie hasła?"
+],
+[
+"Form Group",
+"",
+"Klasa"
+],
+[
+"Full name as shown in ID documents.",
+"",
+"."
+],
+[
+"Gender",
+"",
+"Płeć"
+],
+[
+"General Information",
+"",
+"Informacje podstawowe"
+],
+[
+"Generate",
+"",
+"Generować"
+],
+[
+"Given Name",
+"",
+"Nadane imię"
+],
+[
+"Grouping",
+"",
+"Grupowanie"
+],
+[
+"Grouping Priority",
+"",
+"Priorytet grupowania"
+],
+[
+"Head of Year",
+"",
+"Wychowawca"
+],
+[
+"Higher priority substitutes appear first when booking coverage.",
+"",
+"Zastępcy o wyższym priorytecie pojawiają się najpierw przy rezerwacji pokrycia."
+],
+[
+"Home",
+"",
+"Home"
+],
+[
+"Home Address",
+"",
+"Adres zamieszkania"
+],
+[
+"Home Address (Country)",
+"",
+"Kraj zamieszkania"
+],
+[
+"Home Address (District)",
+"",
+"Adres zamieszkania (województwo)"
+],
+[
+"Home Language - Primary",
+"",
+"Język ojczysty - podstawowy"
+],
+[
+"Home Language - Secondary",
+"",
+"Język ojczysty - wtórny"
+],
+[
+"Home Languages",
+"",
+"Języki domowe"
+],
+[
+"Homework",
+"",
+"Terminarz"
+],
+[
+"Homework + Due Dates",
+"",
+null
+],
+[
+"Homework Details",
+"",
+"Szczegóły zadania domowego"
+],
+[
+"House",
+"",
+"Dom"
+],
+[
+"If the specified company is not paying all fees, which categories are they paying?",
+"",
+"Jeśli określona firma nie płaci wszystkich opłat, jakie kategorie płaci?"
+],
+[
+"Impersonate User",
+"",
+null
+],
+[
+"In an emergency, please try and contact the adult family members listed below first. If these cannot be reached, then try the emergency contacts below.",
+"",
+"W nagłych wypadkach spróbuj najpierw skontaktować się z wymienionymi poniżej członkami rodziny dorosłych. Jeśli nie można ich uzyskać, spróbuj poniższych kontaktów alarmowych."
+],
+[
+"Include In Curriculum Map",
+"",
+"Uwzględnij na podglądzie"
+],
+[
+"Include all staff, regardless of status, start date, end date, etc.",
+"",
+"Uwzględnij cały personel, bez względu na jego status, datę rozpoczęcia, datę zakończenia itp."
+],
+[
+"Include all students, regardless of status and current enrolment. Some data may not display.",
+"",
+"Uwzględnij wszystkich uczniów, niezależnie od ich statusu i aktualnej rejestracji. Niektóre dane mogą nie być wyświetlane."
+],
+[
+"Initials",
+"",
+"Inicjały"
+],
+[
+"Invoice",
+"",
+"Informacja płatnicza"
+],
+[
+"Invoice To",
+"",
+"Dokument finansowy do"
+],
+[
+"Invoice Total",
+"",
+"Podsumowanie"
+],
+[
+"Issue Date",
+"",
+"Data wydania"
+],
+[
+"Job Title",
+"",
+"Stanowisko"
+],
+[
+"Last",
+"",
+"ostatnie"
+],
+[
+"Last Episode Date",
+"",
+"Data ostatniego odcinka"
+],
+[
+"Last Episode Treatment",
+"",
+"Last Episode Treatment"
+],
+[
+"Last IP Address",
+"",
+"Ostatni adres IP"
+],
+[
+"Last Login: IP",
+"",
+null
+],
+[
+"Last Login: Time",
+"",
+null
+],
+[
+"Last School",
+"",
+"Poprzednia szkoła"
+],
+[
+"Last Updated",
+"",
+"Ostatnio zaktualizowany"
+],
+[
+"Layers",
+"",
+null
+],
+[
+"Learning Area",
+"",
+"Obszar nauki"
+],
+[
+"Legend",
+"",
+"Legenda"
+],
+[
+"Lesson",
+"",
+"Lekcja"
+],
+[
+"Lesson Content",
+"",
+"Treść lekcji"
+],
+[
+"Level",
+"",
+"Poziom"
+],
+[
+"Locker Number",
+"",
+"Numer szafki"
+],
+[
+"Login Troubleshooting",
+"",
+"Rozwiązywanie problemów z logowaniem"
+],
+[
+"Logout",
+"",
+"Wyloguj"
+],
+[
+"Long-Term Medication?",
+"",
+"Leki długoterminowe?"
+],
+[
+"Mail?",
+"",
+"Poczta?"
+],
+[
+"Manage",
+"",
+"Zarządzanie"
+],
+[
+"Manage Courses & Classes",
+"",
+"Zarządzaj oddziałami klasowymi i lekcjami"
+],
+[
+"Manage Families",
+"",
+"Zarządzaj rodzinami"
+],
+[
+"Manage School Years",
+"",
+"Zarządzaj latami szkolnymi"
+],
+[
+"Manage Special Days",
+"",
+"Zarządzaj dni specjalne"
+],
+[
+"Manage Staff",
+"",
+"Zarządzaj personelem"
+],
+[
+"Manage Terms",
+"",
+"Zarządzaj warunkami"
+],
+[
+"Manage Users",
+"",
+"Zarządzaj użytkownikami"
+],
+[
+"Markbook",
+"",
+"Dziennik ocen"
+],
+[
+"Maximum Enrolment",
+"",
+null
+],
+[
+"Medical Conditions",
+"",
+"Warunki medyczne"
+],
+[
+"Medication",
+"",
+"Lek"
+],
+[
+"Medication Details",
+"",
+"Szczegóły dotyczące leków"
+],
+[
+"Message Wall",
+"",
+"Spis wiadomości"
+],
+[
+"Messages",
+"",
+"Wiadomości"
+],
+[
+"Minimum Enrolment",
+"",
+null
+],
+[
+"Miscellaneous",
+"",
+"Rekomendacje"
+],
+[
+"Mobile",
+"",
+"mobilny"
+],
+[
+"Most common name, alias, nickname, etc.",
+"",
+"(np.Jakub -Kuba, Stanisław- Stasiek)"
+],
+[
+"Must be unique for this course.",
+"",
+"Musi być unikalny dla tego oddziału klasowego."
+],
+[
+"Must be unique for this school year.",
+"",
+"Musi być niepowtarzalny na ten rok szkolny"
+],
+[
+"Must be unique if set.",
+"",
+"Musi być unikalny, jeśli jest ustawiony."
+],
+[
+"My Classes",
+"",
+"Moje lekcje"
+],
+[
+"My Data Updates",
+"",
+"Moje aktualizacje danych"
+],
+[
+"My Form Group",
+"",
+null
+],
+[
+"My Timetable",
+"",
+"Mój harmonogram"
+],
+[
+"N/A",
+"",
+"Nie dotyczy"
+],
+[
+"Name",
+"",
+"Nazwa"
+],
+[
+"Name In Characters",
+"",
+"miejsce urodzenia"
+],
+[
+"Negative",
+"",
+"Negatywne"
+],
+[
+"New Condition",
+"",
+"nowy warunek"
+],
+[
+"Next",
+"",
+"następne"
+],
+[
+"Next School",
+"",
+"Następna szkoła"
+],
+[
+"No",
+"",
+"Nie"
+],
+[
+"No data",
+"",
+"Brak danych"
+],
+[
+"No upcoming due dates!",
+"",
+null
+],
+[
+"Not Reportable",
+"",
+null
+],
+[
+"Not Taken",
+"",
+"Nie wzięty"
+],
+[
+"Notes",
+"",
+"Notatki"
+],
+[
+"Notifications",
+"",
+"Powiadomienia"
+],
+[
+"Number",
+"",
+"Numer"
+],
+[
+"Number 1",
+"",
+"Numer 1"
+],
+[
+"Number 2",
+"",
+"Numer 2"
+],
+[
+"Off Timetable",
+"",
+null
+],
+[
+"Official Name",
+"",
+"Nazwisko rodowe"
+],
+[
+"Order",
+"",
+"Inne"
+],
+[
+"Other",
+"",
+"Inne"
+],
+[
+"Over Enrolled",
+"",
+null
+],
+[
+"Pager",
+"",
+"Pager"
+],
+[
+"Paid",
+"",
+"Zapłacone"
+],
+[
+"Parent Dashboard",
+"",
+"Konto rodzica"
+],
+[
+"Partial",
+"",
+"Częściowo"
+],
+[
+"Password",
+"",
+"hasło"
+],
+[
+"Pay Now",
+"",
+"Zapłać teraz"
+],
+[
+"Payment Details",
+"",
+"Szczegóły płatności"
+],
+[
+"Person",
+"",
+"Osoba"
+],
+[
+"Personal",
+"",
+"Dane osobowe"
+],
+[
+"Phone",
+"",
+"Telefon"
+],
+[
+"Planner",
+"",
+"Rozkład zajęć"
+],
+[
+"Positive",
+"",
+"Pozytywny"
+],
+[
+"Preferred Name",
+"",
+"Imię używane"
+],
+[
+"Present",
+"",
+"Obecny"
+],
+[
+"Previous",
+"",
+"poprzednie"
+],
+[
+"Priority",
+"",
+"Priorytet"
+],
+[
+"Privacy",
+"",
+"Prywatność"
+],
+[
+"Privacy not required or not set.",
+"",
+"Prywatność nie jest wymagana lub nie jest ustawiona."
+],
+[
+"Privacy required:",
+"",
+"Wymagana prywatność:"
+],
+[
+"Profession",
+"",
+"Zawód"
+],
+[
+"Qualifications",
+"",
+"Kwalifikacje"
+],
+[
+"Reaction",
+"",
+"Reakcja"
+],
+[
+"Receipt",
+"",
+"Paragon"
+],
+[
+"Receipt To",
+"",
+"Odbiór do"
+],
+[
+"Receive non-emergency SMS messages from school?",
+"",
+"Otrzymujesz wiadomości SMS ze szkoły, które nie są awaryjne?"
+],
+[
+"Receive non-emergency emails from school?",
+"",
+"Odbieranie wiadomości e-mail innych niż awaryjne ze szkoły?"
+],
+[
+"Receive non-emergency phone calls from school?",
+"",
+"Odbieranie połączeń telefonicznych w sytuacjach awaryjnych ze szkoły?"
+],
+[
+"Receive postage mail from school?",
+"",
+"Otrzymujesz pocztą pocztową ze szkoły?"
+],
+[
+"Relationship Unknown",
+"",
+"Relacja Nieznane"
+],
+[
+"Religion",
+"",
+"Religia"
+],
+[
+"Remove",
+"",
+"Usunąć"
+],
+[
+"Report",
+"",
+"Raport"
+],
+[
+"Reportable",
+"",
+"Raporty"
+],
+[
+"Reportable?",
+"",
+"Raportować?"
+],
+[
+"Reports",
+"",
+"Raporty"
+],
+[
+"Required",
+"",
+"wymagany"
+],
+[
+"Reset Password",
+"",
+"Zresetuj hasło"
+],
+[
+"Reset User Password",
+"",
+"Zresetuj hasło użytkownika"
+],
+[
+"Response",
+"",
+"Odpowiedź"
+],
+[
+"Risk",
+"",
+"Ryzyko"
+],
+[
+"Role",
+"",
+"Uprawnienia"
+],
+[
+"Role Switcher",
+"",
+"Przełącznik roli"
+],
+[
+"Roll Order",
+"",
+"Wyświetl"
+],
+[
+"SMS?",
+"",
+"SMS?"
+],
+[
+"Save",
+"",
+"Zapisz"
+],
+[
+"Schedule",
+"",
+"Harmonogram"
+],
+[
+"School Closed",
+"",
+"Szkoła zamknięta"
+],
+[
+"School Closure",
+"",
+"Zamknięcie szkoły"
+],
+[
+"School Day",
+"",
+"Dzień szkolny"
+],
+[
+"School History",
+"",
+"Historia szkoły"
+],
+[
+"School Information",
+"",
+"Informacje o szkole"
+],
+[
+"School Year",
+"",
+"rok szkolny"
+],
+[
+"Second Language",
+"",
+"Drugi język"
+],
+[
+"Select Students",
+"",
+null
+],
+[
+"Selected",
+"",
+"Wybrany"
+],
+[
+"Send Invoices To",
+"",
+"Wyślij dokument finansowy do"
+],
+[
+"Settings",
+"",
+"Ustawienia"
+],
+[
+"Short Name",
+"",
+"skrót"
+],
+[
+"Should all items be billed to the specified company, or just some?",
+"",
+"Czy wszystkie produkty powinny być rozliczane do określonej firmy, czy tylko niektóre?"
+],
+[
+"Should the family be sent a copy of billing emails?",
+"",
+"Czy rodzina powinna otrzymać kopię e-maili rozliczeniowych?"
+],
+[
+"Should this student be automatically enrolled in courses for their Form Group?",
+"",
+null
+],
+[
+"Siblings",
+"",
+"Rodzeństwo"
+],
+[
+"Sort By",
+"",
+"Sortuj według"
+],
+[
+"Staff",
+"",
+"Pracownicy"
+],
+[
+"Staff Directory",
+"",
+"Katalog pracowników"
+],
+[
+"Start Date",
+"",
+"Data rozpoczęcia"
+],
+[
+"Status",
+"",
+"Stan"
+],
+[
+"Student",
+"",
+"Uczeń"
+],
+[
+"Student Agreements",
+"",
+"Porozumienia studenckie"
+],
+[
+"Student Enrolment",
+"",
+"Rejestracja uczniów"
+],
+[
+"Student ID",
+"",
+"legitymacja szkolna"
+],
+[
+"Student Profile",
+"",
+"Profil ucznia"
+],
+[
+"Student Recorded Homework",
+"",
+"Opcja dostępna tylko dla nauczyciela"
+],
+[
+"Students",
+"",
+"Uczniowie"
+],
+[
+"Submit",
+"",
+"Zatwierdź"
+],
+[
+"Summary",
+"",
+"Podsumowanie"
+],
+[
+"Support",
+"",
+"Wsparcie"
+],
+[
+"Surname",
+"",
+"Nazwisko"
+],
+[
+"Switch",
+"",
+"Przełącznik"
+],
+[
+"System Access",
+"",
+"Dostęp do systemu"
+],
+[
+"System login name.",
+"",
+"Nazwa logowania do systemu."
+],
+[
+"Take Attendance",
+"",
+"Obecność"
+],
+[
+"Teachers",
+"",
+"Nauczyciele"
+],
+[
+"Teaching",
+"",
+"Nauczanie"
+],
+[
+"Term",
+"",
+"Semestr"
+],
+[
+"There are no lessons for this class.",
+"",
+null
+],
+[
+"There are no lessons on this date.",
+"",
+null
+],
+[
+"These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.",
+"",
+"Te szczegóły są używane, gdy nie można osiągnąć bezpośredniego członka rodziny (np. Rodzica, małżonka). Staraj się unikać umieszczania bezpośrednich członków rodziny."
+],
+[
+"Third Language",
+"",
+"Trzeci język"
+],
+[
+"This determines visibility within the system.",
+"",
+"To określa widoczność w systemie."
+],
+[
+"This lesson has not had any content assigned to it.",
+"",
+"W tej lekcji nie zostały przypisane żadne treści."
+],
+[
+"This student has one or more {level} risk medical conditions.",
+"",
+null
+],
+[
+"Time",
+"",
+"Czas"
+],
+[
+"Timetable",
+"",
+"Plan lekcji"
+],
+[
+"Timing Change",
+"",
+"Zmiana czasu"
+],
+[
+"Title",
+"",
+"Tytuł"
+],
+[
+"Today",
+"",
+"Dzisiaj"
+],
+[
+"Today's Lessons",
+"",
+"Lekcje na dzisiaj"
+],
+[
+"Today's Messages",
+"",
+"Dzisiejsze wiadomości"
+],
+[
+"Total",
+"",
+"Całkowity"
+],
+[
+"Track Attendance?",
+"",
+"Śledzenie obecności?"
+],
+[
+"Transaction ID",
+"",
+"Identyfikator transakcji"
+],
+[
+"Transport",
+"",
+"Środek transportu do szkoły"
+],
+[
+"Triggers",
+"",
+"Wyzwalacze"
+],
+[
+"Tutor",
+"",
+"Korepetytor"
+],
+[
+"Type",
+"",
+"Typ"
+],
+[
+"Under Enrolled",
+"",
+null
+],
+[
+"Unit",
+"",
+"Działy rozkładu materiału"
+],
+[
+"Unit, Building, Street",
+"",
+"Miasto, kod pocztowy, ulica, numer domu/mieszkania"
+],
+[
+"Up to date",
+"",
+"Aktualny"
+],
+[
+"Update Family Data",
+"",
+"Zaktualizuj dane rodziny"
+],
+[
+"Update Finance Data",
+"",
+"Zaktualizuj dane finansowe"
+],
+[
+"Update Medical Data",
+"",
+"Zaktualizuj dane medyczne"
+],
+[
+"Update Personal Data",
+"",
+"Zaktualizuj dane osobowe"
+],
+[
+"Update Required",
+"",
+"Wymagana aktualizacja"
+],
+[
+"Update Staff Data",
+"",
+null
+],
+[
+"User Account",
+"",
+"Konto użytkownika"
+],
+[
+"User Photo",
+"",
+"Zdjęcie użytkownika"
+],
+[
+"User will be prompted on next login.",
+"",
+"Użytkownik zostanie poproszony o kolejne logowanie."
+],
+[
+"Username",
+"",
+"login"
+],
+[
+"Vehicle Registration",
+"",
+"Rejestracja pojazdu"
+],
+[
+"Version",
+"",
+"wersja"
+],
+[
+"View",
+"",
+"Wyświetl"
+],
+[
+"View Invoices",
+"",
+"Zobacz informacje płatnicze"
+],
+[
+"View Planner",
+"",
+"Rozkład zajęć"
+],
+[
+"View Reports",
+"",
+"Wyświetl raporty"
+],
+[
+"Website",
+"",
+"strona www"
+],
+[
+"Work",
+"",
+"Praca"
+],
+[
+"Year Group",
+"",
+"Klasa wychowawcza"
+],
+[
+"Yes",
+"",
+"Tak"
+],
+[
+"You do not have access to this action.",
+"",
+"Nie masz uprawnień"
+],
+[
+"You have multiple roles within the system. Use the list below to switch role:",
+"",
+"Masz wiele ról w systemie. Użyj poniższej listy, aby zmienić rolę:"
+],
+[
+"Your active session will be switched to the selected user.",
+"",
+null
+],
+[
+"students",
+"",
+"studenci"
+]
+]
