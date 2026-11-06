@@ -2170,7 +2170,7 @@ msgstr "Όνομα διεύθυνσης"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Admin"
-msgstr "Διαχείριση"
+msgstr "Διαχείριση συστήματος"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Admissions"
