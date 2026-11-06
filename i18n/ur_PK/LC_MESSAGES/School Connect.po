@@ -1511,12 +1511,12 @@ msgstr "لگ گئی"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:1055
 msgid "Taken at {time}"
-msgstr "{time} بجے لگی"
+msgstr "{time} پر لگی"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
-msgstr "آج {time} بجے لگی۔ دیکھنے یا تبدیل کرنے کے لیے ٹیپ کریں"
+msgstr "آج {time} پر لگی۔ دیکھنے یا تبدیل کرنے کے لیے ٹیپ کریں"
 
 #: lib/screens/data_updates_screen.dart:105
 msgid "Tap to edit"
@@ -2124,11 +2124,11 @@ msgstr "آخری تاریخ قریب"
 
 # Gibbon core string: missing from its file for this language
 msgid "Due at {time} on {date}"
-msgstr "آخری تاریخ: {date}، {time} بجے"
+msgstr "آخری تاریخ: {date}، {time}"
 
 # Gibbon core string: missing from its file for this language
 msgid "Due on {date} at {time}."
-msgstr "آخری تاریخ: {date}، {time} بجے۔"
+msgstr "آخری تاریخ: {date}، {time}۔"
 
 # Gibbon core string: missing from its file for this language
 msgid "Enrolment should not exceed this number of students."
