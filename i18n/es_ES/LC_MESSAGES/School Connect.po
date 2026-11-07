@@ -42,7 +42,7 @@ msgstr "Añadir Participante"
 
 #: lib/screens/student_homework_section.dart:280
 msgid "Add homework?"
-msgstr "¿Añadir trabajo en casa?"
+msgstr "¿Añadir tarea?"
 
 #: lib/screens/admin_screen.dart:142
 msgid "Add, edit, and remove closures"
@@ -273,7 +273,7 @@ msgstr "No se pudo añadir al adulto"
 
 #: lib/screens/family_detail_screen.dart:118
 msgid "Could not add child"
-msgstr "No se pudo añadir al niño"
+msgstr "No se pudo añadir al hijo"
 
 #: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
 msgid "Could not delete user"
@@ -302,7 +302,7 @@ msgstr "No se pudo cargar la asistencia"
 
 #: lib/screens/view_reports_screen.dart:47
 msgid "Could not load children"
-msgstr "No se pudieron cargar los niños"
+msgstr "No se pudieron cargar los hijos"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:50
 msgid "Could not load classes"
@@ -381,11 +381,11 @@ msgstr "No se pudieron cargar las calificaciones"
 #: lib/screens/student_homework_section.dart:117
 #: lib/screens/student_homework_section.dart:87
 msgid "Could not load homework"
-msgstr "No se pudo cargar el trabajo en casa"
+msgstr "No se pudieron cargar las tareas"
 
 #: lib/screens/homework_calendar_screen.dart:138
 msgid "Could not load homework calendar"
-msgstr "No se pudo cargar el calendario de trabajo en casa"
+msgstr "No se pudo cargar el calendario de tareas"
 
 #: lib/screens/finance_invoice_detail_screen.dart:59
 msgid "Could not load invoice"
@@ -560,7 +560,7 @@ msgstr "No se pudo guardar el usuario"
 #: lib/screens/impersonate_user_screen.dart:134
 #: lib/screens/impersonate_user_screen.dart:171
 msgid "Could not start impersonating this user"
-msgstr "No se pudo suplantar a este usuario"
+msgstr "No se pudo acceder como este usuario"
 
 #: lib/screens/data_family_edit_screen.dart:130
 #: lib/screens/data_family_edit_screen.dart:138
@@ -604,7 +604,7 @@ msgstr "Año actual"
 #: lib/screens/dashboard_screen.dart:380
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
-msgstr "Panel"
+msgstr "Inicio"
 
 #: lib/screens/student_profile_screen.dart:200
 msgid "Day Absent"
@@ -650,7 +650,7 @@ msgstr "Entrega"
 
 #: lib/screens/student_homework_section.dart:124
 msgid "Due date and details are required."
-msgstr "La fecha de vencimiento y los detalles son obligatorios."
+msgstr "La fecha de entrega y los detalles son obligatorios."
 
 #: lib/screens/family_detail_screen.dart:543
 msgid "Editable"
@@ -738,8 +738,8 @@ msgstr "Los números más altos suben al personal en el orden de su grupo."
 msgid ""
 "Highlighted in red: marked 'Full' but outside their start/end date range."
 msgstr ""
-"Resaltados en rojo: marcados como 'Full' pero fuera de su rango de fechas de"
-" inicio y fin."
+"Resaltados en rojo: marcados como 'Activo' pero fuera de su rango de fechas "
+"de inicio y fin."
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
@@ -755,15 +755,15 @@ msgstr "Calendario de Trabajo en Casa"
 #: lib/screens/homework_calendar_screen.dart:203
 #: lib/screens/homework_calendar_screen.dart:381
 msgid "Homework due"
-msgstr "Trabajo en casa por entregar"
+msgstr "Tareas por entregar"
 
 #: lib/screens/student_homework_section.dart:151
 msgid "Homework removed."
-msgstr "Trabajo en casa eliminado."
+msgstr "Tarea eliminada."
 
 #: lib/screens/student_homework_section.dart:151
 msgid "Homework saved."
-msgstr "Trabajo en casa guardado."
+msgstr "Tarea guardada."
 
 #: lib/screens/data_finance_edit_screen.dart:212
 msgid ""
@@ -777,15 +777,15 @@ msgstr ""
 
 #: lib/screens/impersonate_user_screen.dart:116
 msgid "Impersonate"
-msgstr "Suplantar"
+msgstr "Acceder como Usuario"
 
 #: lib/screens/impersonate_user_screen.dart:69
 msgid ""
 "Impersonate User needs School Connect module 1.16.09 or later on the school "
 "server."
 msgstr ""
-"Suplantar usuario requiere el módulo School Connect 1.16.09 o posterior en "
-"el servidor del centro."
+"Acceder como otro usuario requiere el módulo School Connect 1.16.09 o "
+"posterior en el servidor del centro."
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/about_screen.dart:88
@@ -920,15 +920,15 @@ msgstr ""
 
 #: lib/screens/view_reports_screen.dart:64
 msgid "No children found"
-msgstr "No se encontraron niños"
+msgstr "No se encontraron hijos"
 
 #: lib/screens/family_detail_screen.dart:344
 msgid "No children linked"
-msgstr "No hay niños vinculados"
+msgstr "No hay hijos vinculados"
 
 #: lib/screens/parent_dashboard_screen.dart:269
 msgid "No children linked to this account"
-msgstr "No hay niños vinculados a esta cuenta"
+msgstr "No hay hijos vinculados a esta cuenta"
 
 #: lib/screens/class_detail_screen.dart:202
 msgid "No class"
@@ -1000,7 +1000,7 @@ msgstr "No hay historial disponible"
 
 #: lib/screens/student_homework_section.dart:246
 msgid "No homework recorded."
-msgstr "No hay trabajo en casa registrado."
+msgstr "No hay tareas registradas."
 
 #: lib/screens/finance_invoices_screen.dart:126
 msgid "No invoices to display"
@@ -1379,9 +1379,9 @@ msgid ""
 "receive, store or see this information."
 msgstr ""
 "School Connect muestra información del propio sistema Gibbon de su centro: "
-"horarios, asistencia, calificaciones, trabajo en casa, boletines, mensajes y"
-" los datos de su familia. La app se conecta directa y únicamente al servidor"
-" Gibbon de su centro mediante una conexión cifrada (HTTPS). High Point "
+"horarios, asistencia, calificaciones, tareas, boletines, mensajes y los "
+"datos de su familia. La app se conecta directa y únicamente al servidor "
+"Gibbon de su centro mediante una conexión cifrada (HTTPS). High Point "
 "Education no recibe, almacena ni ve esta información."
 
 #: lib/screens/special_days_screen.dart:516
@@ -1533,7 +1533,8 @@ msgstr "Toque para editar"
 msgid ""
 "The impersonation ended after 2 hours. You are back in your own account."
 msgstr ""
-"La suplantación terminó después de 2 horas. Ha vuelto a su propia cuenta."
+"El acceso como otro usuario terminó después de 2 horas. Ha vuelto a su "
+"propia cuenta."
 
 #: lib/screens/family_detail_screen.dart:577
 msgid "The order in which the school should contact family members."
@@ -1585,9 +1586,9 @@ msgid ""
 "system for troubleshooting and testing purposes. The selected user will "
 "still be able to log in and out of their own account."
 msgstr ""
-"Esta opción permite a los administradores suplantar otra cuenta del sistema "
-"para resolver problemas y hacer pruebas. El usuario seleccionado podrá "
-"seguir iniciando y cerrando sesión en su propia cuenta."
+"Esta opción permite a los administradores acceder como otra cuenta del "
+"sistema para resolver problemas y hacer pruebas. El usuario seleccionado "
+"podrá seguir iniciando y cerrando sesión en su propia cuenta."
 
 #: lib/screens/course_detail_screen.dart:125
 msgid ""
@@ -1730,7 +1731,7 @@ msgstr "Ver calificaciones de la clase"
 
 #: lib/screens/admin_screen.dart:53
 msgid "View families, contacts, and children"
-msgstr "Ver familias, contactos y niños"
+msgstr "Ver familias, contactos e hijos"
 
 #: lib/screens/class_detail_screen.dart:269
 msgid "View lesson plans for this class"
@@ -1800,7 +1801,7 @@ msgstr ""
 
 #: lib/screens/student_homework_section.dart:226
 msgid "You can use this section to record your own homework."
-msgstr "Puede usar esta sección para registrar su propio trabajo en casa."
+msgstr "Puede usar esta sección para registrar sus propias tareas."
 
 #: lib/screens/data_family_edit_screen.dart:183
 msgid ""
@@ -2103,21 +2104,21 @@ msgid "Layers"
 msgstr "Capas"
 
 # Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Profesor/a"
+
+# Gibbon core string: missing from its file for this language
 msgid "This student has one or more {level} risk medical conditions."
 msgstr ""
 "Este estudiante tiene una o más condiciones médicas de riesgo {level}."
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Teacher"
-msgstr "Profesor/a"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Due at {time} on {date}"
-msgstr "Vence a las {time} del {date}"
+msgstr "Entrega el {date} a las {time}"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Due on {date} at {time}."
-msgstr "Vence el {date} a las {time}."
+msgstr "Entrega el {date} a las {time}."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Select Students"
@@ -2129,135 +2130,11 @@ msgstr "Certificación de Primeros Auxilios"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Due Soon"
-msgstr "Vence Pronto"
+msgstr "Entrega Próxima"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Add Course"
-msgstr "Añadir Asignatura"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "After End Date"
-msgstr "Después de la Fecha de Finalización"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Alternate Email"
-msgstr "Email Alternativo"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Choose A Class"
-msgstr "Elegir una Clase"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Company Emails"
-msgstr "Emails de la Empresa"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Course Enrolment by Class"
-msgstr "Matrícula en Asignaturas por Clase"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Course Enrolment by Person"
-msgstr "Matrícula en Asignaturas por Persona"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Days of the Week"
-msgstr "Días de la Semana"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Edit Course"
-msgstr "Editar Asignatura"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Edit User"
-msgstr "Editar Usuario"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Head of Year"
-msgstr "Coordinador de Nivel"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Invoice Total"
-msgstr "Total de la Factura"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Last Login: IP"
-msgstr "Último Inicio de Sesión: IP"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Last Login: Time"
-msgstr "Último Inicio de Sesión: Hora"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Login Troubleshooting"
-msgstr "Solución de Problemas de Inicio de Sesión"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Manage Courses & Classes"
-msgstr "Gestionar Asignaturas y Clases"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Maximum Enrolment"
-msgstr "Matrícula Máxima"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Minimum Enrolment"
-msgstr "Matrícula Mínima"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "My Classes"
-msgstr "Mis Clases"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "My Data Updates"
-msgstr "Mis Actualizaciones de Datos"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Not Reportable"
-msgstr "Fuera de Boletines"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Off Timetable"
-msgstr "Fuera de Horario"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Over Enrolled"
-msgstr "Exceso de Matrícula"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Preferred Name"
-msgstr "Nombre Preferido"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "School Closure"
-msgstr "Cierre de la Escuela"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Student Recorded Homework"
-msgstr "Trabajo en Casa Registrado por el Estudiante"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Under Enrolled"
-msgstr "Matrícula Insuficiente"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Update Family Data"
-msgstr "Actualizar Datos de la Familia"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Update Finance Data"
-msgstr "Actualizar Datos Financieros"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Update Personal Data"
-msgstr "Actualizar Datos Personales"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Update Staff Data"
-msgstr "Actualizar Datos del Personal"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "View Reports"
-msgstr "Ver Informes"
+msgid "Access data on family's children?"
+msgstr "¿Acceder a los datos de los hijos de la familia?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Activities"
@@ -2273,11 +2150,15 @@ msgstr "Añadir Adulto"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Child"
-msgstr "Añadir Niño"
+msgstr "Añadir Hijo"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Class"
 msgstr "Añadir Clase"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "Añadir Asignatura"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Medical Condition"
@@ -2300,8 +2181,20 @@ msgid "Add User"
 msgstr "Añadir Usuario"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "Administración"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "Después de la Fecha de Finalización"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Students"
 msgstr "Todos los Estudiantes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "Email Alternativo"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Apply"
@@ -2320,8 +2213,16 @@ msgid "Cancel Activities?"
 msgstr "¿Cancelar Actividades?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "Hijos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Chinese or other character-based name."
 msgstr "Nombre en chino u otra escritura de caracteres."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Elegir una Clase"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Class Of"
@@ -2344,6 +2245,10 @@ msgid "Company All?"
 msgstr "¿Todo a la Empresa?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Emails"
+msgstr "Emails de la Empresa"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Company Fee Categories"
 msgstr "Categorías de Cuotas de la Empresa"
 
@@ -2364,12 +2269,36 @@ msgid "Course"
 msgstr "Asignatura"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Matrícula en Asignaturas por Clase"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "Matrícula en Asignaturas por Persona"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data Access?"
 msgstr "¿Acceso a los Datos?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Days of the Week"
+msgstr "Días de la Semana"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Departure Reason"
 msgstr "Motivo de la Baja"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Fecha de Entrega"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Course"
+msgstr "Editar Asignatura"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit User"
+msgstr "Editar Usuario"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Email?"
@@ -2400,18 +2329,38 @@ msgid "Force Reset Password?"
 msgstr "¿Forzar Restablecimiento de Contraseña?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Activo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Coordinador de Nivel"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Higher priority substitutes appear first when booking coverage."
 msgstr ""
 "Los sustitutos con mayor prioridad aparecen primero al reservar una "
 "sustitución."
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "Particular"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home Languages"
 msgstr "Idiomas del Hogar"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "Tareas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Homework Details"
-msgstr "Detalles del Trabajo en Casa"
+msgstr "Detalles de la Tarea"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Impersonate User"
+msgstr "Acceder como Usuario"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2442,6 +2391,10 @@ msgid "Invoice To"
 msgstr "Facturar a"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "Total de la Factura"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Job Title"
 msgstr "Cargo"
 
@@ -2450,8 +2403,20 @@ msgid "Last Episode Treatment"
 msgstr "Tratamiento del Último Episodio"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: IP"
+msgstr "Último Inicio de Sesión: IP"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: Time"
+msgstr "Último Inicio de Sesión: Hora"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Locker Number"
 msgstr "Número de Taquilla"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Solución de Problemas de Inicio de Sesión"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Logout"
@@ -2459,11 +2424,23 @@ msgstr "Cerrar Sesión"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage"
-msgstr "Administración"
+msgstr "Gestión"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Gestionar Asignaturas y Clases"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "Matrícula Máxima"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Message Wall"
 msgstr "Muro de Mensajes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "Matrícula Mínima"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Miscellaneous"
@@ -2474,8 +2451,12 @@ msgid "Mobile"
 msgstr "Móvil"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Name In Characters"
-msgstr "Nombre en Caracteres no Latinos"
+msgid "My Classes"
+msgstr "Mis Clases"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Data Updates"
+msgstr "Mis Actualizaciones de Datos"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Negative"
@@ -2483,15 +2464,43 @@ msgstr "Negativo"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "No upcoming due dates!"
-msgstr "¡No hay vencimientos próximos!"
+msgstr "¡No hay entregas próximas!"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Reportable"
+msgstr "Fuera de Boletines"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Off Timetable"
+msgstr "Fuera de Horario"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Over Enrolled"
+msgstr "Exceso de Matrícula"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Pager"
 msgstr "Buscapersonas"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "Padre/Madre"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Parent Dashboard"
 msgstr "Panel de Padres"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Asistencia Parcial"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "Datos Personales"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "Nombre Preferido"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Previous"
@@ -2519,7 +2528,7 @@ msgstr "Quitar"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Report"
-msgstr "Informe"
+msgstr "Boletín"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable"
@@ -2528,6 +2537,10 @@ msgstr "En Boletines"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable?"
 msgstr "¿En Boletines?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Boletines"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Required"
@@ -2540,6 +2553,10 @@ msgstr "Cambiar de Rol"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Roll Order"
 msgstr "Número de Lista"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "Cierre de la Escuela"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "School History"
@@ -2568,6 +2585,10 @@ msgstr ""
 "curso?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "Hermanos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Sort By"
 msgstr "Ordenar por"
 
@@ -2580,8 +2601,24 @@ msgid "Student Enrolment"
 msgstr "Matrícula de Estudiante"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "N.º de Estudiante"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "Tareas Registradas por el Estudiante"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "Apoyo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "System login name."
 msgstr "Nombre de inicio de sesión en el sistema."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teaching"
+msgstr "Docente"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Term"
@@ -2604,6 +2641,10 @@ msgid "Timing Change"
 msgstr "Cambio de Horario"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Tratamiento"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Track Attendance?"
 msgstr "¿Registrar Asistencia?"
 
@@ -2612,16 +2653,44 @@ msgid "Triggers"
 msgstr "Desencadenantes"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "Matrícula Insuficiente"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Unit, Building, Street"
 msgstr "Piso, Edificio, Calle"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "Actualizar Datos de la Familia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "Actualizar Datos Financieros"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Update Medical Data"
 msgstr "Actualizar Datos Médicos"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "Actualizar Datos Personales"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "Actualizar Datos del Personal"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "User will be prompted on next login."
 msgstr "Se le pedirá al usuario en su próximo inicio de sesión."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "Matrícula del Vehículo"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Ver Boletines"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Website"
