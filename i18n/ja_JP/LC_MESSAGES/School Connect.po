@@ -152,7 +152,7 @@ msgstr "教職員の当番をキャンセルしますか？"
 
 #: lib/screens/data_medical_edit_screen.dart:250
 msgid "Cancel new condition"
-msgstr "新しい症状を取り消す"
+msgstr "新しい疾患の追加を取り消す"
 
 #: lib/screens/facility_list_screen.dart:278
 msgid "Cap"
@@ -1994,7 +1994,7 @@ msgstr "未分類"
 
 # Gibbon core string: missing from its file for this language
 msgid "Cancel Activities?"
-msgstr "活動をキャンセルしますか？"
+msgstr "課外活動を中止しますか？"
 
 # Gibbon core string: missing from its file for this language
 msgid "Class should not run below this number of students."
@@ -2018,7 +2018,7 @@ msgstr "代行の対象外にしますか？"
 
 # Gibbon core string: missing from its file for this language
 msgid "Impersonate User"
-msgstr "ユーザーとしてログイン"
+msgstr "他のユーザーとしてログイン"
 
 # Gibbon core string: missing from its file for this language
 msgid "Last Login: IP"
@@ -2061,6 +2061,10 @@ msgid "Over Enrolled"
 msgstr "定員超過"
 
 # Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "教員"
+
+# Gibbon core string: missing from its file for this language
 msgid "There are no lessons for this class."
 msgstr "このクラスの授業はありません。"
 
@@ -2070,7 +2074,7 @@ msgstr "この日の授業はありません。"
 
 # Gibbon core string: missing from its file for this language
 msgid "This student has one or more {level} risk medical conditions."
-msgstr "この生徒には、リスク {level} の健康上の症状が1つ以上あります。"
+msgstr "この生徒には、リスク「{level}」の疾患が1つ以上あります。"
 
 # Gibbon core string: missing from its file for this language
 msgid "Under Enrolled"
@@ -2081,96 +2085,24 @@ msgid "Your active session will be switched to the selected user."
 msgstr "現在のセッションを選択したユーザーに切り替えます。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Form Group"
-msgstr "ホームルーム"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Enrolment"
 msgstr "登録"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Due Soon"
-msgstr "まもなく期限"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "School Year"
-msgstr "年度"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Tutor"
-msgstr "担任"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Class"
-msgstr "クラス"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "My Classes"
-msgstr "マイクラス"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Attendance"
-msgstr "出欠"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Late"
-msgstr "遅刻"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Remove"
-msgstr "外す"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Parent"
-msgstr "保護者"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Staff"
-msgstr "教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Facility"
 msgstr "施設"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Role"
-msgstr "役割"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Behaviour"
-msgstr "行動"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Planner"
-msgstr "授業計画"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "View Planner"
-msgstr "授業計画を見る"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Markbook"
-msgstr "成績簿"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Admin"
-msgstr "システム管理"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "You do not have access to this action."
-msgstr "この操作を行う権限がありません。"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Homework + Due Dates"
-msgstr "宿題と提出期限"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Learning Area"
-msgstr "教科領域"
+msgid "Late"
+msgstr "遅刻"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"
-msgstr "家族の子どものデータへのアクセス"
+msgstr "家族の子どものデータにアクセス可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Activities"
+msgstr "課外活動"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add"
@@ -2194,7 +2126,7 @@ msgstr "科目を追加"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Medical Condition"
-msgstr "症状を追加"
+msgstr "疾患を追加"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Special Day"
@@ -2211,6 +2143,10 @@ msgstr "生徒の登録を追加"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add User"
 msgstr "ユーザーを追加"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "管理ツール"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Adult"
@@ -2249,16 +2185,20 @@ msgid "Assessment"
 msgstr "評価"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attendance"
+msgstr "出欠"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Auto-Enrol Courses?"
 msgstr "科目に自動登録しますか？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Background Information"
-msgstr "背景情報"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Basic Information"
 msgstr "基本情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Behaviour"
+msgstr "行動記録"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Biography"
@@ -2281,6 +2221,10 @@ msgid "Can Login?"
 msgstr "ログイン可？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "新しい疾患を追加する場合はチェックを入れてください"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Children"
 msgstr "子ども"
 
@@ -2297,12 +2241,12 @@ msgid "Choose Students"
 msgstr "生徒を選択"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Class Of"
-msgstr "卒業年"
+msgid "Class"
+msgstr "クラス"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Clear"
-msgstr "クリア"
+msgid "Class Of"
+msgstr "卒業年"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Clear Filters"
@@ -2330,19 +2274,23 @@ msgstr "完了"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Condition"
-msgstr "症状"
+msgstr "疾患"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Condition Name"
-msgstr "症状名"
+msgstr "疾患名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact 1 Number 1"
 msgstr "連絡先1 番号1"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 1 Number 2"
-msgstr "連絡先1 番号2"
+msgid "Contact 1 Relationship"
+msgstr "連絡先1 続柄"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "連絡先2 続柄"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact By Email"
@@ -2357,6 +2305,10 @@ msgid "Contact By SMS"
 msgstr "SMS で連絡"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "連絡先情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact Priority"
 msgstr "連絡の優先順位"
 
@@ -2369,6 +2321,10 @@ msgid "Country Of Origin"
 msgstr "出身国"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country of Birth"
+msgstr "出生国"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "County, State, District"
 msgstr "郡、州・都道府県、地区"
 
@@ -2379,6 +2335,10 @@ msgstr "クラス別の科目登録"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Course Enrolment by Person"
 msgstr "個人別の科目登録"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "相互評価"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data Access?"
@@ -2398,19 +2358,31 @@ msgstr "生年月日"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Departure Reason"
-msgstr "退学理由"
+msgstr "退籍理由"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Descriptor"
-msgstr "記述子"
+msgstr "評価の記述"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Details"
 msgstr "詳細"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "メールでの連絡はご遠慮ください。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Do not contact by phone."
 msgstr "電話での連絡はご遠慮ください。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "提出期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "まもなく提出期限"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Due at {time} on {date}"
@@ -2497,6 +2469,14 @@ msgid "First name as shown in ID documents."
 msgstr "身分証明書に記載の名。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "ホームルーム"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Formal Assessment"
+msgstr "外部評価"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Full name as shown in ID documents."
 msgstr "身分証明書に記載の氏名。"
 
@@ -2529,6 +2509,18 @@ msgid "Higher priority substitutes appear first when booking coverage."
 msgstr "代行を手配するとき、優先度の高い代行者が先に表示されます。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "自宅"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address"
+msgstr "自宅住所"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (Country)"
+msgstr "自宅住所（国）"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home Language - Primary"
 msgstr "家庭での言語 - 主"
 
@@ -2541,12 +2533,39 @@ msgid "Home Languages"
 msgstr "家庭での言語"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "宿題と提出期限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Homework Details"
 msgstr "宿題の詳細"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "House"
-msgstr "ハウス"
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr "指定の会社がすべての料金を支払わない場合、どのカテゴリーの料金を支払いますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr "緊急時には、まず下記の成人のご家族に連絡してください。連絡がつかない場合は、下記の緊急連絡先にご連絡ください。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr "ステータス、開始日、終了日などに関係なく、すべての教職員を含めます。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr "ステータスや現在の登録状況に関係なく、すべての生徒を含めます。一部のデータが表示されない場合があります。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "個別支援"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Invoice"
@@ -2557,16 +2576,24 @@ msgid "Invoice To"
 msgstr "請求先"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice Total"
+msgstr "請求合計"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Job Title"
 msgstr "役職"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Last Episode Date"
-msgstr "最後の発作日"
+msgstr "最終発症日"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Last Episode Treatment"
-msgstr "最後の発作の処置"
+msgstr "最終発症時の処置"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Learning Area"
+msgstr "教科領域"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Legend"
@@ -2589,10 +2616,6 @@ msgid "Manage Courses & Classes"
 msgstr "科目とクラスの管理"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Manage Families"
-msgstr "家族の管理"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage School Years"
 msgstr "年度の管理"
 
@@ -2613,8 +2636,12 @@ msgid "Manage Users"
 msgstr "ユーザーの管理"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "成績簿"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Medical Conditions"
-msgstr "健康上の症状"
+msgstr "疾患・持病"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Medication"
@@ -2623,6 +2650,18 @@ msgstr "服薬"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Medication Details"
 msgstr "服薬の詳細"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Message Wall"
+msgstr "掲示板"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "メッセージ配信"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Miscellaneous"
+msgstr "その他の情報"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Most common name, alias, nickname, etc."
@@ -2637,16 +2676,16 @@ msgid "Must be unique if set."
 msgstr "入力する場合は重複不可。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "マイクラス"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "My Data Updates"
 msgstr "自分のデータ更新"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "My Timetable"
-msgstr "自分の時間割"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Name"
-msgstr "名前"
+msgid "N/A"
+msgstr "該当なし"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Name In Characters"
@@ -2658,19 +2697,23 @@ msgstr "ネガティブ"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "New Condition"
-msgstr "新しい症状"
+msgstr "新しい疾患"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Next"
 msgstr "次へ"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Next School"
+msgstr "進学先"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "No upcoming due dates!"
-msgstr "近い提出期限はありません！"
+msgstr "近日中の提出期限はありません！"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Not Taken"
-msgstr "未取得"
+msgstr "未記録"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Notes"
@@ -2693,8 +2736,16 @@ msgid "Order"
 msgstr "順番"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Other"
+msgstr "その他"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Paid"
 msgstr "支払済み"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent"
+msgstr "保護者"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Parent Dashboard"
@@ -2702,7 +2753,7 @@ msgstr "保護者ダッシュボード"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Partial"
-msgstr "一部"
+msgstr "一部出席"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Payment Details"
@@ -2710,7 +2761,11 @@ msgstr "支払いの詳細"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Personal"
-msgstr "個人"
+msgstr "個人情報"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "授業計画"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Preferred Name"
@@ -2765,6 +2820,14 @@ msgid "Relationship Unknown"
 msgstr "続柄不明"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "外す"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "通知表"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable"
 msgstr "通知表の対象"
 
@@ -2773,8 +2836,16 @@ msgid "Reportable?"
 msgstr "通知表の対象？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "通知表"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Response"
 msgstr "対応"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Role"
+msgstr "役割"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Role Switcher"
@@ -2787,6 +2858,10 @@ msgstr "出席番号"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "SMS?"
 msgstr "SMS可？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Admin"
+msgstr "学校管理"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "School Closed"
@@ -2809,6 +2884,10 @@ msgid "School Information"
 msgstr "学校情報"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Year"
+msgstr "年度"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Select Students"
 msgstr "生徒を選択"
 
@@ -2825,6 +2904,10 @@ msgid "Should all items be billed to the specified company, or just some?"
 msgstr "すべての項目を指定の会社に請求しますか、それとも一部のみですか？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "家族にも請求メールのコピーを送りますか？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
 "Should this student be automatically enrolled in courses for their Form "
 "Group?"
@@ -2833,6 +2916,10 @@ msgstr "この生徒をホームルームの科目に自動登録しますか？
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Siblings"
 msgstr "きょうだい"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Staff Directory"
@@ -2859,8 +2946,24 @@ msgid "Student Recorded Homework"
 msgstr "生徒が記録した宿題"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submit"
+msgstr "送信"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Summary"
+msgstr "概要"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "事務・支援職員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Surname"
 msgstr "姓"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Admin"
+msgstr "システム管理"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Take Attendance"
@@ -2868,11 +2971,18 @@ msgstr "出欠を取る"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teachers"
-msgstr "先生"
+msgstr "教員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teaching"
 msgstr "授業担当"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"These details are used when immediate family members (e.g. parent, spouse) "
+"cannot be reached first. Please try to avoid listing immediate family "
+"members."
+msgstr "これらの情報は、近親者（例：親、配偶者）に連絡が取れない場合に使用されます。近親者はなるべく記載しないでください。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "This lesson has not had any content assigned to it."
@@ -2880,7 +2990,7 @@ msgstr "この授業にはまだ内容が登録されていません。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Timing Change"
-msgstr "時間の変更"
+msgstr "時程の変更"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Title"
@@ -2899,6 +3009,10 @@ msgid "Track Attendance?"
 msgstr "出欠を記録しますか？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tracking"
+msgstr "学習状況の追跡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Transaction ID"
 msgstr "取引 ID"
 
@@ -2911,6 +3025,10 @@ msgid "Triggers"
 msgstr "誘因"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "担任"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Unit, Building, Street"
 msgstr "部屋番号、建物名、番地"
 
@@ -2920,11 +3038,11 @@ msgstr "最新"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Update Family Data"
-msgstr "家族のデータを更新"
+msgstr "家族データの更新"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Update Finance Data"
-msgstr "会計データを更新"
+msgstr "会計データの更新"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Update Required"
@@ -2932,11 +3050,15 @@ msgstr "更新が必要"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Update Staff Data"
-msgstr "教職員のデータを更新"
+msgstr "教職員データの更新"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "User Photo"
 msgstr "ユーザーの写真"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "次回ログイン時に変更を求められます。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Username"
@@ -2951,8 +3073,24 @@ msgid "View Invoices"
 msgstr "請求書を見る"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "授業計画を見る"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "通知表を見る"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Website"
 msgstr "ウェブサイト"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "職場"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "この操作を行う権限がありません。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2994,11 +3132,11 @@ msgstr "日"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student - Left"
-msgstr "生徒 - 退出"
+msgstr "生徒 - 退籍"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teacher - Left"
-msgstr "先生 - 退出"
+msgstr "教員 - 退職"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Full"
@@ -3014,11 +3152,11 @@ msgstr "技術職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Finance"
-msgstr "財務"
+msgstr "会計"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Admissions"
-msgstr "入学手続き"
+msgstr "入学受付"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Timetable Admin"
