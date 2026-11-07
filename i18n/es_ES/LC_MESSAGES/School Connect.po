@@ -749,7 +749,7 @@ msgstr "Festivo"
 
 #: lib/screens/homework_calendar_screen.dart:28
 msgid "Homework Calendar"
-msgstr "Calendario de Trabajo en Casa"
+msgstr "Calendario de Tareas"
 
 #: lib/screens/homework_calendar_screen.dart:202
 #: lib/screens/homework_calendar_screen.dart:203
@@ -1289,7 +1289,7 @@ msgstr "Quitar Adulto"
 
 #: lib/screens/family_detail_screen.dart:127
 msgid "Remove Child"
-msgstr "Quitar Niño"
+msgstr "Quitar Hijo"
 
 #: lib/screens/person_enrolment_screen.dart:74
 msgid "Remove Class"
@@ -1715,7 +1715,7 @@ msgstr "Ver Calificaciones"
 
 #: lib/screens/homework_due_dates_card.dart:83
 msgid "View Homework Calendar"
-msgstr "Ver Calendario de Trabajo en Casa"
+msgstr "Ver Calendario de Tareas"
 
 #: lib/screens/staff_directory_screen.dart:488
 msgid "View Timetable"
@@ -2068,6 +2068,16 @@ msgstr "— Ninguno —"
 
 # Database label the app shows (default attendance code or calendar legend);
 # not in Gibbon's files
+msgid "Formative"
+msgstr "Formativa"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Sin clasificar"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
 msgid "Present - Late"
 msgstr "Presente - Tarde"
 
@@ -2078,18 +2088,8 @@ msgstr "Presente - Fuera del centro"
 
 # Database label the app shows (default attendance code or calendar legend);
 # not in Gibbon's files
-msgid "Formative"
-msgstr "Formativa"
-
-# Database label the app shows (default attendance code or calendar legend);
-# not in Gibbon's files
 msgid "Summative"
 msgstr "Sumativa"
-
-# Database label the app shows (default attendance code or calendar legend);
-# not in Gibbon's files
-msgid "Not Classified"
-msgstr "Sin clasificar"
 
 # Gibbon core string: missing from its file for this language
 msgid "By Form Group"
@@ -2097,7 +2097,7 @@ msgstr "Por curso"
 
 # Gibbon core string: missing from its file for this language
 msgid "Homework + Due Dates"
-msgstr "Trabajo en Casa + Vencimientos"
+msgstr "Tareas y Fechas de Entrega"
 
 # Gibbon core string: missing from its file for this language
 msgid "Layers"
@@ -2111,26 +2111,6 @@ msgstr "Profesor/a"
 msgid "This student has one or more {level} risk medical conditions."
 msgstr ""
 "Este estudiante tiene una o más condiciones médicas de riesgo {level}."
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Due at {time} on {date}"
-msgstr "Entrega el {date} a las {time}"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Due on {date} at {time}."
-msgstr "Entrega el {date} a las {time}."
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Select Students"
-msgstr "Seleccionar Estudiantes"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "First Aid Qualification"
-msgstr "Certificación de Primeros Auxilios"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Due Soon"
-msgstr "Entrega Próxima"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"
@@ -2293,6 +2273,18 @@ msgid "Due Date"
 msgstr "Fecha de Entrega"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Soon"
+msgstr "Entrega Próxima"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due at {time} on {date}"
+msgstr "Entrega el {date} a las {time}"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "Entrega el {date} a las {time}."
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Course"
 msgstr "Editar Asignatura"
 
@@ -2315,6 +2307,10 @@ msgstr "¿Excluir de las sustituciones?"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Fee Table"
 msgstr "Tabla de Cuotas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "Certificación de Primeros Auxilios"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "First Language"
@@ -2561,6 +2557,10 @@ msgstr "Cierre de la Escuela"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "School History"
 msgstr "Historial Escolar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Select Students"
+msgstr "Seleccionar Estudiantes"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Send Invoices To"

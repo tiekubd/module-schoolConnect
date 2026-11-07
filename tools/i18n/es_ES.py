@@ -653,30 +653,36 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'Taken today at {time}. Tap to review or change': 'Tomada hoy a las {time}. Toque para revisar o cambiar',
  '{label}: ': '{label}: '}
 
-P = {
-'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
-'Behaviour records saved for {count} student!': ('¡Registro de comportamiento guardado para {count} estudiante!', '¡Registros de comportamiento guardados para {count} estudiantes!'),
-'Day Absent': ('Día ausente', 'Días ausente'),
-'Day Present': ('Día presente', 'Días presente'),
-'Trial — {count} day left': ('Prueba — queda {count} día', 'Prueba — quedan {count} días'),
-'{count} assessment': ('{count} evaluación', '{count} evaluaciones'),
-'{count} class': ('{count} clase', '{count} clases'),
-'{count} day': ('{count} día', '{count} días'),
-'{count} facility': ('{count} dependencia', '{count} dependencias'),
-'{count} family': ('{count} familia', '{count} familias'),
-'{count} school day in term': ('{count} día lectivo en el período', '{count} días lectivos en el período'),
-'{count} school day in the school year': ('{count} día lectivo en el año escolar', '{count} días lectivos en el año escolar'),
-'{count} session': ('{count} sesión', '{count} sesiones'),
-'{count} staff member': ('{count} miembro del personal', '{count} miembros del personal'),
-'{count} student': ('{count} estudiante', '{count} estudiantes'),
-'{count} student enrolled': ('{count} estudiante matriculado', '{count} estudiantes matriculados'),
-'{count} time': ('{count} vez', '{count} veces'),
-'{count} user': ('{count} usuario', '{count} usuarios'),
-}
+P = {'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
+ 'Behaviour records saved for {count} student!': ('¡Registro de comportamiento guardado para {count} estudiante!', '¡Registros de comportamiento guardados para {count} estudiantes!'),
+ 'Day Absent': ('Día Ausente', 'Días Ausente'),
+ 'Day Present': ('Día Presente', 'Días Presente'),
+ 'Trial — {count} day left': ('Prueba — queda {count} día', 'Prueba — quedan {count} días'),
+ '{count} assessment': ('{count} evaluación', '{count} evaluaciones'),
+ '{count} class': ('{count} clase', '{count} clases'),
+ '{count} day': ('{count} día', '{count} días'),
+ '{count} facility': ('{count} dependencia', '{count} dependencias'),
+ '{count} family': ('{count} familia', '{count} familias'),
+ '{count} school day in term': ('{count} día lectivo en el período', '{count} días lectivos en el período'),
+ '{count} school day in the school year': ('{count} día lectivo en el año escolar', '{count} días lectivos en el año escolar'),
+ '{count} session': ('{count} sesión', '{count} sesiones'),
+ '{count} staff member': ('{count} miembro del personal', '{count} miembros del personal'),
+ '{count} student': ('{count} estudiante', '{count} estudiantes'),
+ '{count} student enrolled': ('{count} estudiante matriculado', '{count} estudiantes matriculados'),
+ '{count} time': ('{count} vez', '{count} veces'),
+ '{count} user': ('{count} usuario', '{count} usuarios'),
+ '{count} absent': ('{count} ausente', '{count} ausentes'),
+ '{count} late': ('{count} con retraso', '{count} con retraso'),
+ 'All {count} class done for today': ('{count} clase terminada por hoy', 'Las {count} clases han terminado por hoy'),
+ 'Saved for {count}, but failed for: {names}': ('Guardado para {count}, pero falló para: {names}', 'Guardado para {count}, pero falló para: {names}'),
+ '{count} assess.': ('{count} eval.', '{count} eval.'),
+ '{count} class remaining · {done} done': ('Queda {count} clase · {done} terminada(s)', 'Quedan {count} clases · {done} terminada(s)'),
+ '{count} class today': ('{count} clase hoy', '{count} clases hoy'),
+ '{count} due': ('{count} por entregar', '{count} por entregar'),
+ '{count} item': ('{count} elemento', '{count} elementos'),
+ '{count} more class after this · {total} today': ('{count} clase más después de esta · {total} hoy', '{count} clases más después de esta · {total} hoy')}
 
-# Database labels (default attendance codes, calendar legend); not in Gibbon's files.
-EXTRA = {'Present - Late': 'Presente - Tarde', 'Present - Offsite': 'Presente - Fuera del centro',
-         'Formative': 'Formativa', 'Summative': 'Sumativa', 'Not Classified': 'Sin clasificar'}
+EXTRA = {'Formative': 'Formativa', 'Not Classified': 'Sin clasificar', 'Present - Late': 'Presente - Tarde', 'Present - Offsite': 'Presente - Fuera del centro', 'Summative': 'Sumativa'}
 
 # Gibbon core strings the app uses that Gibbon's es_ES file leaves untranslated.
 GAPS = {'By Form Group': 'Por curso',
@@ -688,102 +694,3 @@ GAPS = {'By Form Group': 'Por curso',
 OVERRIDES = {}
 
 # Gibbon-style capitalization for labels, titles and buttons (matches Gibbon's es_ES)
-T['About & Privacy'] = 'Acerca de y Privacidad'
-T['Add More'] = 'Añadir Más'
-T['Add Participant'] = 'Añadir Participante'
-T['All Types'] = 'Todos los Tipos'
-T['All Year Groups'] = 'Todos los Niveles'
-T['Attendance This Year'] = 'Asistencia Este Año'
-T['By Class'] = 'Por Clase'
-T['By Date'] = 'Por Fecha'
-T['Class Absences'] = 'Ausencias en la Clase'
-T['Class Enrolments'] = 'Matrículas en Clases'
-T['Class Roster'] = 'Lista de la Clase'
-T['Confirm Password *'] = 'Confirme su Contraseña *'
-T['Contact Info'] = 'Datos de Contacto'
-T['Country of Origin'] = 'País de Origen'
-T['Coverage Priority'] = 'Prioridad de Sustitución'
-T['Delete Class'] = 'Eliminar Clase'
-T['Delete Course'] = 'Eliminar Asignatura'
-T['Delete Special Day'] = 'Eliminar Día Especial'
-T['Delete User'] = 'Eliminar Usuario'
-T['Enrolable Year Groups'] = 'Niveles con Matrícula Abierta'
-T['Filter by Year Group'] = 'Filtrar por Nivel'
-T['First Name *'] = 'Primer Nombre *'
-T['Gateway'] = 'Pasarela de Pago'
-T['Homework Calendar'] = 'Calendario de Trabajo en Casa'
-T['Join Virtual Class'] = 'Unirse a la Clase Virtual'
-T['Log Behaviour'] = 'Registrar Comportamiento'
-T['Logged in as'] = 'Sesión Iniciada como'
-T['Master Timetable'] = 'Horario General'
-T['My Form Groups'] = 'Mis Cursos'
-T['No Learning Area'] = 'Sin Área de Aprendizaje'
-T['Not a School Day'] = 'No es Día Lectivo'
-T['Official Name *'] = 'Nombre Oficial *'
-T['Primary Role *'] = 'Rol Principal *'
-T['Quick Access'] = 'Acceso Rápido'
-T['Receipt ID'] = 'N.º de Recibo'
-T['Recent Attendance'] = 'Asistencia Reciente'
-T['Remove Adult'] = 'Quitar Adulto'
-T['Remove Child'] = 'Quitar Niño'
-T['Remove Class'] = 'Quitar Clase'
-T['Remove Enrolment'] = 'Quitar Matrícula'
-T['Remove Staff Record'] = 'Quitar Registro de Personal'
-T['Role: Can Login'] = 'Rol: Puede Iniciar Sesión'
-T['Roll'] = 'N.º de Lista'
-T['Select Student'] = 'Seleccionar Estudiante'
-T['Staff Profile'] = 'Perfil del Personal'
-T['Staff Type *'] = 'Tipo de Personal *'
-T['Student List'] = 'Lista de Estudiantes'
-T['Switch Role'] = 'Cambiar de Rol'
-T['Switch School Year'] = 'Cambiar de Año Escolar'
-T['Timetable by Facility'] = 'Horario por Dependencia'
-T["Today's Timetable"] = 'Horario de Hoy'
-T['Unknown Year'] = 'Año Desconocido'
-T['Unused'] = 'Sin Uso'
-T['User: Can Login'] = 'Usuario: Puede Iniciar Sesión'
-T['User: Failed Logins'] = 'Usuario: Inicios de Sesión Fallidos'
-T['User: Status'] = 'Usuario: Estado'
-T['Username *'] = 'Nombre de Usuario *'
-T['View Attendance'] = 'Ver Asistencia'
-T['View Full Timetable'] = 'Ver Horario Completo'
-T['View Grades'] = 'Ver Calificaciones'
-T['View Homework Calendar'] = 'Ver Calendario de Trabajo en Casa'
-T['View Timetable'] = 'Ver Horario'
-T['Virtual Classroom'] = 'Aula Virtual'
-P['Day Absent'] = ('Día Ausente', 'Días Ausente')
-P['Day Present'] = ('Día Presente', 'Días Presente')
-OVERRIDES['Teacher'] = 'Profesor/a'   # Gibbon's es_ES puts the plural 'Profesores/as' in the singular
-
-T['an app for Gibbon™'] = 'una app para Gibbon™'
-T['Taken at {time}'] = 'Tomada a las {time}'
-P['{count} absent'] = ('{count} ausente', '{count} ausentes')
-P['{count} late'] = ('{count} con retraso', '{count} con retraso')
-T['About & Privacy'] = 'Información y Privacidad'
-T['Logged in as'] = 'Sesión iniciada como'
-GAPS['Homework + Due Dates'] = 'Trabajo en Casa + Vencimientos'
-
-# Added: lesson summary, homework badges, attendance menu, behaviour save errors
-T['Could not save for: {names}'] = 'No se pudo guardar para: {names}'
-T['Last class of the day'] = 'Última clase del día'
-T['Taken today at {time}. Tap to review or change'] = 'Tomada hoy a las {time}. Toque para revisar o cambiar'
-P['All {count} class done for today'] = ('{count} clase terminada por hoy', 'Las {count} clases han terminado por hoy')
-P['Saved for {count}, but failed for: {names}'] = ('Guardado para {count}, pero falló para: {names}', 'Guardado para {count}, pero falló para: {names}')
-P['{count} assess.'] = ('{count} eval.', '{count} eval.')
-P['{count} class remaining · {done} done'] = ('Queda {count} clase · {done} terminada(s)', 'Quedan {count} clases · {done} terminada(s)')
-P['{count} class today'] = ('{count} clase hoy', '{count} clases hoy')
-P['{count} due'] = ('{count} por entregar', '{count} por entregar')
-P['{count} item'] = ('{count} elemento', '{count} elementos')
-P['{count} more class after this · {total} today'] = ('{count} clase más después de esta · {total} hoy', '{count} clases más después de esta · {total} hoy')
-
-# Label before its value (trLabel in the app): "Role: Teacher".
-T['{label}: '] = '{label}: '
-
-# Gibbon's es_ES reads 'Vencimiento en {time} en {date}' (and 'en {date} en {time}'), which is not natural Spanish.
-OVERRIDES['Due at {time} on {date}'] = 'Vence a las {time} del {date}'
-OVERRIDES['Due on {date} at {time}.'] = 'Vence el {date} a las {time}.'
-
-# More corrections to Gibbon's es_ES wording, for the app (es_DO had the same).
-OVERRIDES['Select Students'] = 'Seleccionar Estudiantes'   # Gibbon: 'estudantes'
-OVERRIDES['First Aid Qualification'] = 'Certificación de Primeros Auxilios'   # Gibbon: 'Calificación' (= a mark)
-OVERRIDES['Due Soon'] = 'Vence Pronto'   # Gibbon: 'Próximamente' (= coming soon)
