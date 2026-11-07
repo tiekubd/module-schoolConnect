@@ -409,4 +409,5 @@ FINAL = {
 'Timetable Admin': 'Quản trị Thời gian biểu',
 'Tracking': 'Theo dõi',
 'User Admin': 'Quản trị Người dùng',
+'{count} min': '{count} phút',   # Gibbon: empty (planner lesson length)
 }

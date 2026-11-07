@@ -10,407 +10,641 @@
 # Sentence case, as Polish interfaces use. Buttons in the imperative (Dodaj, Zapisz).
 # Four plural forms, as in Gibbon's pl_PL file: 1 | 2-4 (not 12-14) | 5+ and 12-14 | fractions.
 
-T = {
-'A punctuation mark or space': 'Znak interpunkcyjny lub spacja',
-"A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Token logowania, przechowywany w bezpiecznym magazynie urządzenia (pęku kluczy iOS lub Android Keystore)',
-'About & Privacy': 'O aplikacji i prywatność',
-'Add More': 'Dodaj więcej',
-'Add Participant': 'Dodaj uczestnika',
-'Add homework?': 'Dodać zadanie domowe?',
-'Add, edit, and remove closures': 'Dodawaj, edytuj i usuwaj dni wolne',
-'Add, edit, and remove user accounts': 'Dodawaj, edytuj i usuwaj konta użytkowników',
-'Adjusts arrangement of courses in reports.': 'Ustala kolejność przedmiotów w raportach.',
-'Adult settings updated': 'Zaktualizowano ustawienia osoby dorosłej',
-'All Types': 'Wszystkie typy',
-'All Year Groups': 'Wszystkie roczniki',
-'An uppercase and a lowercase letter': 'Wielka i mała litera',
-'App version, connected school and your data': 'Wersja aplikacji, połączona szkoła i Twoje dane',
-'Assessments': 'Sprawdziany',
-'At least one number': 'Co najmniej jedna cyfra',
-'Attendance This Year': 'Frekwencja w tym roku',
-'Attendance not taken yet today': 'Obecność nie została dziś jeszcze sprawdzona',
-'Behaviour record saved!': 'Zapisano wpis o zachowaniu!',
-'Browse staff profiles': 'Przeglądaj profile pracowników',
-'By Class': 'Według zajęć',
-'By Date': 'Według daty',
-'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Aparat i zdjęcia: tylko gdy zdecydujesz się dołączyć zdjęcie do wniosku o aktualizację danych. Aplikacja najpierw pyta o zgodę i możesz odmówić.',
-'Cancel Bookings?': 'Anulować rezerwacje?',
-'Cancel Classes?': 'Odwołać zajęcia?',
-'Cancel Staff Duty?': 'Odwołać dyżury pracowników?',
-'Cancel new condition': 'Anuluj nowe schorzenie',
-'Cap': 'Poj.',
-'Chinese or other character-based name': 'Imię i nazwisko w znakach chińskich lub innym piśmie znakowym',
-'Choose a class above': 'Wybierz zajęcia powyżej',
-'Choose any Form Group': 'Wybierz dowolną klasę',
-'Choose any of your classes': 'Wybierz dowolne ze swoich zajęć',
-'Choose at least one student first': 'Najpierw wybierz co najmniej jednego ucznia',
-'Choose one of your Form Groups': 'Wybierz jedną ze swoich klas',
-'Class Absences': 'Nieobecności na zajęciach',
-'Class Enrolments': 'Zapisy na zajęcia',
-'Class Roster': 'Lista uczniów',
-'Click Update next to School Connect in System Admin > Manage Modules.': 'Kliknij Aktualizuj obok School Connect w Administrator systemu > Zarządzaj modułami.',
-'Closed at': 'Zamknięte o',
-'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'Połączona nazwa skrócona „{name}” ma ponad 16 znaków — może to powodować problemy z wyświetlaniem w planie lekcji i na listach rozwijanych.',
-'Combined short name exceeds 16 characters': 'Połączona nazwa skrócona ma ponad 16 znaków',
-'Comma-separated list of email addresses': 'Adresy e-mail oddzielone przecinkami',
-'Confirm Password *': 'Potwierdź hasło *',
-'Connected school': 'Połączona szkoła',
-'Connecting...': 'Łączenie...',
-'Contact Info': 'Dane kontaktowe',
-'Contact {number} — not on record': 'Kontakt {number} — brak danych',
-'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Treści w lekcjach: filmy lub obrazy dodane przez nauczyciela (na przykład z YouTube) wczytują się z tych serwisów po ich otwarciu',
-'Control what shows up in the app for everyone': 'Decyduj, co wszyscy widzą w aplikacji',
-'Could not add': 'Nie udało się dodać',
-'Could not add adult': 'Nie udało się dodać osoby dorosłej',
-'Could not add child': 'Nie udało się dodać dziecka',
-'Could not delete user': 'Nie udało się usunąć użytkownika',
-'Could not download report': 'Nie udało się pobrać raportu',
-'Could not generate username': 'Nie udało się wygenerować loginu',
-'Could not load Form Groups': 'Nie udało się wczytać klas',
-'Could not load activities': 'Nie udało się wczytać zajęć dodatkowych',
-'Could not load attendance': 'Nie udało się wczytać frekwencji',
-'Could not load children': 'Nie udało się wczytać dzieci',
-'Could not load classes': 'Nie udało się wczytać zajęć',
-'Could not load course': 'Nie udało się wczytać przedmiotu',
-'Could not load courses': 'Nie udało się wczytać przedmiotów',
-'Could not load data': 'Nie udało się wczytać danych',
-'Could not load data updates': 'Nie udało się wczytać aktualizacji danych',
-'Could not load days of the week': 'Nie udało się wczytać dni tygodnia',
-'Could not load emergency contacts': 'Nie udało się wczytać kontaktów alarmowych',
-'Could not load enrolment': 'Nie udało się wczytać zapisu',
-'Could not load enrolments': 'Nie udało się wczytać zapisów',
-'Could not load facilities': 'Nie udało się wczytać sal',
-'Could not load families': 'Nie udało się wczytać rodzin',
-'Could not load family': 'Nie udało się wczytać rodziny',
-'Could not load family data': 'Nie udało się wczytać danych rodziny',
-'Could not load finance data': 'Nie udało się wczytać danych finansowych',
-'Could not load form': 'Nie udało się wczytać formularza',
-'Could not load form data': 'Nie udało się wczytać danych formularza',
-'Could not load grades': 'Nie udało się wczytać ocen',
-'Could not load homework': 'Nie udało się wczytać zadań domowych',
-'Could not load homework calendar': 'Nie udało się wczytać kalendarza zadań domowych',
-'Could not load invoice': 'Nie udało się wczytać faktury',
-'Could not load invoices': 'Nie udało się wczytać faktur',
-'Could not load lesson': 'Nie udało się wczytać lekcji',
-'Could not load lessons': 'Nie udało się wczytać lekcji',
-'Could not load markbook': 'Nie udało się wczytać dziennika ocen',
-'Could not load master timetable': 'Nie udało się wczytać głównego planu lekcji',
-'Could not load medical data': 'Nie udało się wczytać danych medycznych',
-'Could not load messages': 'Nie udało się wczytać wiadomości',
-'Could not load notifications': 'Nie udało się wczytać powiadomień',
-'Could not load password policy': 'Nie udało się wczytać zasad haseł',
-'Could not load people': 'Nie udało się wczytać osób',
-'Could not load personal data': 'Nie udało się wczytać danych osobowych',
-'Could not load personal information': 'Nie udało się wczytać informacji osobistych',
-'Could not load profile': 'Nie udało się wczytać profilu',
-'Could not load report': 'Nie udało się wczytać raportu',
-'Could not load reports': 'Nie udało się wczytać raportów',
-'Could not load roles': 'Nie udało się wczytać ról',
-'Could not load roster': 'Nie udało się wczytać listy uczniów',
-'Could not load school years': 'Nie udało się wczytać lat szkolnych',
-'Could not load settings': 'Nie udało się wczytać ustawień',
-'Could not load special day': 'Nie udało się wczytać dnia specjalnego',
-'Could not load staff': 'Nie udało się wczytać pracowników',
-'Could not load staff data': 'Nie udało się wczytać danych pracownika',
-'Could not load students': 'Nie udało się wczytać uczniów',
-'Could not load terms': 'Nie udało się wczytać semestrów',
-'Could not load timetable': 'Nie udało się wczytać planu lekcji',
-'Could not load timetables': 'Nie udało się wczytać planów lekcji',
-'Could not load user': 'Nie udało się wczytać użytkownika',
-'Could not load users': 'Nie udało się wczytać użytkowników',
-'Could not load your children': 'Nie udało się wczytać Twoich dzieci',
-'Could not open payment page': 'Nie udało się otworzyć strony płatności',
-'Could not open the video call': 'Nie udało się otworzyć połączenia wideo',
-'Could not remove': 'Nie udało się usunąć',
-'Could not reset password': 'Nie udało się zresetować hasła',
-'Could not save': 'Nie udało się zapisać',
-'Could not save attendance': 'Nie udało się zapisać frekwencji',
-'Could not save for: {names}': 'Nie udało się zapisać dla: {names}',
-'Could not save setting': 'Nie udało się zapisać ustawienia',
-'Could not save user': 'Nie udało się zapisać użytkownika',
-'Could not start impersonating this user': 'Nie udało się zalogować jako ten użytkownik',
-'Could not submit update': 'Nie udało się wysłać aktualizacji',
-'Could not switch role': 'Nie udało się zmienić roli',
-'Could not switch school year': 'Nie udało się zmienić roku szkolnego',
-'Could not update': 'Nie udało się zaktualizować',
-'Country of Origin': 'Kraj pochodzenia',
-'Coverage Priority': 'Priorytet zastępstw',
-'Create linked staff record': 'Utwórz powiązany rekord pracownika',
-'Create linked student enrolment': 'Utwórz powiązany zapis ucznia',
-'Current year': 'Bieżący rok',
-'Dashboard': 'Pulpit',
-'Delete Class': 'Usuń zajęcia',
-'Delete Course': 'Usuń przedmiot',
-'Delete Special Day': 'Usuń dzień specjalny',
-'Delete User': 'Usuń użytkownika',
-'Developed by High Point Education': 'Opracowane przez High Point Education',
-'Done': 'Gotowe',
-'Due': 'Termin',
-'Due date and details are required.': 'Termin i szczegóły są wymagane.',
-'Editable': 'Edytowalne',
-'Email: Must be unique': 'E-mail: musi być unikalny',
-'Enrolable Year Groups': 'Roczniki, które można zapisać',
-'Enroll existing students into the active school year': 'Zapisz istniejących uczniów na bieżący rok szkolny',
-'Family name as shown in ID documents': 'Nazwisko jak w dokumencie tożsamości',
-'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Najpierw wypełnij imię, nazwisko, imię używane i rolę główną',
-'Filter by Year Group': 'Filtruj według rocznika',
-'First Name *': 'Imię *',
-'First name as shown in ID documents': 'Imię jak w dokumencie tożsamości',
-'Form Group *': 'Klasa *',
-'Formal name to address parents with': 'Oficjalna forma zwracania się do rodziców',
-'Full name as shown in ID documents': 'Imię i nazwisko jak w dokumencie tożsamości',
-'Gateway': 'Operator płatności',
-'Gender *': 'Płeć *',
-'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ jest znakiem towarowym Gibbon Education Ltd. (Hongkong), używanym za zgodą.',
-'Google Sign-In, only if your school uses it and you choose it': 'Logowanie przez Google, tylko jeśli Twoja szkoła z niego korzysta i je wybierzesz',
-'Grades': 'Oceny',
-'Higher numbers move staff up the order within their grouping.': 'Wyższe liczby przesuwają pracowników wyżej w obrębie ich grupy.',
-"Highlighted in red: marked 'Full' but outside their start/end date range.": 'Wyróżnione na czerwono: oznaczone jako „Pełny”, ale poza zakresem dat rozpoczęcia i zakończenia.',
-'Holiday': 'Dzień wolny',
-'Homework Calendar': 'Kalendarz zadań domowych',
-'Homework due': 'Termin zadania domowego',
-'Homework removed.': 'Usunięto zadanie domowe.',
-'Homework saved.': 'Zapisano zadanie domowe.',
-"If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Jeśli wybierzesz Rodzina, przyszłe faktury będą wysyłane zgodnie z preferencjami kontaktowymi Twojej rodziny. Jeśli wybierzesz Firma, możesz wskazać, czy wszystkie, czy tylko niektóre opłaty pokrywa podana firma.',
-'Impersonate': 'Zaloguj jako',
-'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Funkcja Zaloguj jako użytkownik wymaga modułu School Connect w wersji 1.16.09 lub nowszej na serwerze szkoły.',
-'Installed version is {version}.': 'Zainstalowana wersja to {version}.',
-'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Kończy się po 2 godzinach. Aby wrócić wcześniej, użyj opcji Wróć do mojego konta u góry ekranu.',
-'Jitsi': 'Jitsi',
-'Join Virtual Class': 'Dołącz do zajęć online',
-'Join Virtual Class is hidden everywhere it would normally appear': 'Przycisk Dołącz do zajęć online jest ukryty we wszystkich miejscach',
-'Join Virtual Class shows on the timetable and planner': 'Przycisk Dołącz do zajęć online jest widoczny w planie lekcji i planerze',
-'Last 10 school days': 'Ostatnie 10 dni nauki',
-'Last 10 school days — per period': 'Ostatnie 10 dni nauki — według lekcji',
-'Last 20 school days': 'Ostatnie 20 dni nauki',
-'Last class of the day': 'Ostatnia lekcja dnia',
-'Lesson planning is coming soon': 'Planowanie lekcji wkrótce',
-'Licence check': 'Sprawdzanie licencji',
-'Link staff-role people to their staff record': 'Powiąż osoby z rolą pracownika z ich rekordem pracownika',
-'Log Behaviour': 'Dodaj wpis o zachowaniu',
-'Logged in as': 'Zalogowano jako',
-'Manage users and school settings': 'Zarządzaj użytkownikami i ustawieniami szkoły',
-'Mark all read': 'Oznacz wszystkie jako przeczytane',
-'Mark as complete': 'Oznacz jako wykonane',
-'Mark attendance for today': 'Sprawdź dzisiejszą obecność',
-'Mark read': 'Oznacz jako przeczytane',
-'Master Timetable': 'Główny plan lekcji',
-'Must be unique if set': 'Jeśli podano, musi być unikalny',
-'My Form Groups': 'Moje klasy',
-'Name and Short Name are required': 'Nazwa i nazwa skrócona są wymagane',
-'No Form Groups found': 'Nie znaleziono klas',
-'No Learning Area': 'Brak obszaru nauczania',
-'No activities on record': 'Brak zajęć dodatkowych',
-'No adults linked': 'Brak powiązanych osób dorosłych',
-'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Bez reklam, analityki, śledzenia, raportowania awarii i usług powiadomień push. Aplikacja nigdy nie sprzedaje ani nie udostępnia Twoich danych.',
-'No children found': 'Nie znaleziono dzieci',
-'No children linked': 'Brak powiązanych dzieci',
-'No children linked to this account': 'Brak dzieci powiązanych z tym kontem',
-'No class': 'Brak zajęć',
-'No classes found': 'Nie znaleziono zajęć',
-'No classes in this room today': 'Brak zajęć w tej sali dzisiaj',
-'No classes scheduled': 'Brak zaplanowanych zajęć',
-'No classes scheduled today': 'Brak zaplanowanych zajęć na dziś',
-'No classes yet': 'Brak zajęć',
-'No courses found': 'Nie znaleziono przedmiotów',
-'No data for this term': 'Brak danych za ten semestr',
-'No data updates found': 'Nie znaleziono aktualizacji danych',
-'No department': 'Brak zespołu przedmiotowego',
-'No facilities found': 'Nie znaleziono sal',
-'No families found': 'Nie znaleziono rodzin',
-'No family members on record': 'Brak członków rodziny',
-'No family record found': 'Nie znaleziono rekordu rodziny',
-'No grades available': 'Brak ocen',
-'No history available': 'Brak historii',
-'No homework recorded.': 'Brak zadań domowych.',
-'No invoices to display': 'Brak faktur do wyświetlenia',
-'No markbook entries yet': 'Brak wpisów w dzienniku ocen',
-'No matches found': 'Brak wyników',
-'No notifications': 'Brak powiadomień',
-'No participants yet': 'Brak uczestników',
-'No people found': 'Nie znaleziono osób',
-'No phone on record': 'Brak numeru telefonu',
-'No record': 'Brak wpisu',
-'No reports available yet': 'Brak dostępnych raportów',
-'No school days this week': 'Brak dni nauki w tym tygodniu',
-'No staff found': 'Nie znaleziono pracowników',
-'No students enrolled this year': 'Brak uczniów zapisanych w tym roku',
-'No students found': 'Nie znaleziono uczniów',
-'No terms found for this school year': 'Nie znaleziono semestrów w tym roku szkolnym',
-'No timetable data found': 'Nie znaleziono danych planu lekcji',
-'No timetable for this day': 'Brak planu lekcji na ten dzień',
-'No timetable for today': 'Brak planu lekcji na dziś',
-'No users found': 'Nie znaleziono użytkowników',
-"Non-reportable participants won't display in reports.": 'Uczestnicy wyłączeni z raportów nie będą w nich widoczni.',
-'Non-school day': 'Dzień wolny od nauki',
-'Not a School Day': 'Dzień wolny od nauki',
-'Not currently enrolled': 'Obecnie niezapisany',
-'Not enrolled in any classes yet': 'Brak zapisów na zajęcia',
-'Not reported: update the School Connect module': 'Brak danych: zaktualizuj moduł School Connect',
-'Not taken yet today': 'Dziś jeszcze nie sprawdzono',
-'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Jeszcze niedostępne tutaj — zapis tutaj nie dodaje automatycznie przedmiotów. W razie potrzeby dokończ zapisy na przedmioty na stronie internetowej.',
-'Nothing scheduled': 'Nic nie zaplanowano',
-'Now': 'Teraz',
-'Official Name *': 'Pełne imię i nazwisko *',
-"Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Raz dziennie serwer Twojej szkoły przekazuje High Point wyłącznie swój adres internetowy, aby potwierdzić subskrypcję szkoły. Żadne dane osobowe nie są wysyłane.',
-'Only includes people with a Staff role not already staff.': 'Obejmuje tylko osoby z rolą pracownika, które nie mają jeszcze rekordu pracownika.',
-'Only includes students not enrolled in this school year.': 'Obejmuje tylko uczniów niezapisanych na ten rok szkolny.',
-'Opens at': 'Otwarcie o',
-'Other services you may see': 'Inne usługi, które możesz zobaczyć',
-'Password *': 'Hasło *',
-'Password must be filled in and match': 'Hasło musi być wypełnione i zgodne',
-'Password reset successfully': 'Hasło zostało zresetowane',
-'Passwords do not match': 'Hasła nie są zgodne',
-'Passwords must be filled in and match': 'Hasła muszą być wypełnione i zgodne',
-'Permanently delete': 'Usuń na stałe',
-'Permanently delete "{name}" and all of its classes?': 'Usunąć na stałe „{name}” wraz ze wszystkimi zajęciami?',
-'Permissions': 'Uprawnienia',
-'Person *': 'Osoba *',
-'Please enter a Staff Type': 'Podaj typ pracownika',
-'Please fill in all required fields (name, official name, gender, role, username)': 'Wypełnij wszystkie wymagane pola (imię, pełne imię i nazwisko, płeć, rola, login)',
-'Please select a Type': 'Wybierz typ',
-'Please select a Year Group and Form Group': 'Wybierz rocznik i klasę',
-'Please select a class and a role': 'Wybierz zajęcia i rolę',
-'Please select a person': 'Wybierz osobę',
-'Please select a person and a role': 'Wybierz osobę i rolę',
-'Please select a student': 'Wybierz ucznia',
-'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Poświęć chwilę na przejrzenie wymaganych aktualizacji poniżej. Nawet jeśli nic się nie zmieniło, wysłanie potwierdza, że Twoje dane są poprawne.',
-'Powered by Gibbon': 'Działa w oparciu o Gibbon',
-'Preferred Name *': 'Imię używane *',
-'Primary Role *': 'Rola główna *',
-'Priority 1 contacts always receive all contact types.': 'Kontakty z priorytetem 1 zawsze otrzymują wszystkie rodzaje kontaktu.',
-'Qualified': 'Wykwalifikowany',
-'Quick Access': 'Szybki dostęp',
-'Read the full privacy policy': 'Przeczytaj pełną politykę prywatności',
-'Receipt ID': 'Numer potwierdzenia',
-'Recent Attendance': 'Ostatnia frekwencja',
-'Remove "{name}" from the calendar?': 'Usunąć „{name}” z kalendarza?',
-'Remove Adult': 'Usuń osobę dorosłą',
-'Remove Child': 'Usuń dziecko',
-'Remove Class': 'Usuń zajęcia',
-'Remove Enrolment': 'Usuń zapis',
-'Remove Staff Record': 'Usuń rekord pracownika',
-'Remove enrolment in {class}?': 'Usunąć zapis na {class}?',
-'Remove from Class': 'Usuń z zajęć',
-'Remove {name} from staff?': 'Usunąć {name} z pracowników?',
-'Remove {name} from this class?': 'Usunąć {name} z tych zajęć?',
-'Remove {name} from this family?': 'Usunąć {name} z tej rodziny?',
-'Report-card PDFs, only while you view or share them': 'Raporty w formacie PDF, tylko podczas ich przeglądania lub udostępniania',
-'Return to my account': 'Wróć do mojego konta',
-'Role: Can Login': 'Rola: może się logować',
-'Roll': 'Nr',
-'Save failed': 'Zapisywanie nie powiodło się',
-'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School Connect to aplikacja firmy zewnętrznej, zgodna z Gibbon — bezpłatną platformą do zarządzania szkołą o otwartym kodzie źródłowym. Nie jest oficjalnym wydaniem Gibbon Foundation ani nie jest z nią powiązana ani przez nią popierana.',
-'School Connect module on the school server': 'Moduł School Connect na serwerze szkoły',
-"School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School Connect wyświetla informacje z systemu Gibbon Twojej szkoły: plany lekcji, frekwencję, oceny, zadania domowe, raporty, wiadomości i dane Twojej rodziny. Aplikacja łączy się bezpośrednio i wyłącznie z serwerem Gibbon Twojej szkoły przez szyfrowane połączenie (HTTPS). High Point Education nie otrzymuje, nie przechowuje ani nie widzi tych informacji.',
-"School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'Godzin otwarcia, rozpoczęcia, zakończenia i zamknięcia szkoły nie ustawia się tutaj — uzupełnij je na stronie internetowej.',
-'Search and view student profiles': 'Wyszukuj i przeglądaj profile uczniów',
-'Search by course name...': 'Szukaj po nazwie przedmiotu...',
-'Search by course or class name...': 'Szukaj po nazwie przedmiotu lub zajęć...',
-'Search by family name...': 'Szukaj po nazwie rodziny...',
-'Search by name or initials...': 'Szukaj po nazwisku lub inicjałach...',
-'Search by name or student ID...': 'Szukaj po nazwisku lub numerze ucznia...',
-'Search by name or username...': 'Szukaj po nazwisku lub loginie...',
-'Search by name, username, email, student ID...': 'Szukaj po nazwisku, loginie, e-mailu, numerze ucznia...',
-'Search classes...': 'Szukaj zajęć...',
-'Search rooms...': 'Szukaj sal...',
-'Search students...': 'Szukaj uczniów...',
-'Select Student': 'Wybierz ucznia',
-'Sessions marked Out this year': 'Lekcje oznaczone w tym roku jako nieobecność',
-'Share': 'Udostępnij',
-'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Wylogowanie usuwa token logowania, Twój login i pobrane raporty. Odinstalowanie aplikacji usuwa wszystko inne.',
-'Staff Profile': 'Profil pracownika',
-'Staff Type *': 'Typ pracownika *',
-'Staff record created': 'Utworzono rekord pracownika',
-'Student *': 'Uczeń *',
-'Student List': 'Lista uczniów',
-'Student enrolled successfully': 'Uczeń został zapisany',
-'Submitted': 'Wysłano',
-'Surname *': 'Nazwisko *',
-'Switch Role': 'Zmień rolę',
-'Switch School Year': 'Zmień rok szkolny',
-'Take attendance for this class': 'Sprawdź obecność na tych zajęciach',
-'Taken': 'Sprawdzono',
-'Taken at {time}': 'Sprawdzono o {time}',
-'Taken today at {time}. Tap to review or change': 'Sprawdzono dziś o {time}. Dotknij, aby przejrzeć lub zmienić',
-'Tap to edit': 'Dotknij, aby edytować',
-'The impersonation ended after 2 hours. You are back in your own account.': 'Logowanie jako inny użytkownik zakończyło się po 2 godzinach. Jesteś z powrotem na swoim koncie.',
-'The order in which the school should contact family members.': 'Kolejność, w jakiej szkoła powinna kontaktować się z członkami rodziny.',
-'Their user account is not affected.': 'Nie ma to wpływu na konto użytkownika tej osoby.',
-'There are no messages to display.': 'Brak wiadomości do wyświetlenia.',
-'This affects the timetable:': 'Ma to wpływ na plan lekcji:',
-'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Spowoduje to również usunięcie wszystkich zapisów i danych planu lekcji dla tych zajęć. Tej operacji nie można cofnąć.',
-'This cannot be undone.': 'Tej operacji nie można cofnąć.',
-'This class is not scheduled on {date}. You can still save attendance if needed.': 'Te zajęcia nie są zaplanowane na {date}. W razie potrzeby nadal możesz zapisać frekwencję.',
-'This does not delete their user account.': 'Nie powoduje to usunięcia konta użytkownika tej osoby.',
-'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Ta opcja pozwala administratorom zalogować się jako inne konto w systemie w celu rozwiązywania problemów i testowania. Wybrany użytkownik nadal będzie mógł logować się na swoje konto i z niego wylogowywać.',
-'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Spowoduje to usunięcie wszystkich zapisów i danych planu lekcji dla tych zajęć. Tej operacji nie można cofnąć.',
-'Timetable by Facility': 'Plan lekcji według sali',
-"Today's Timetable": 'Dzisiejszy plan lekcji',
-'Trial access': 'Dostęp próbny',
-'Troubleshoot by seeing the app as another user': 'Rozwiązuj problemy, oglądając aplikację jako inny użytkownik',
-'Tutor 2': 'Wychowawca 2',
-'Type *': 'Typ *',
-'Type and Name are required': 'Typ i nazwa są wymagane',
-'Type at least 2 characters': 'Wpisz co najmniej 2 znaki',
-'Type, country code, number': 'Typ, kod kraju, numer',
-'Unenroll {name} from this school year?': 'Wypisać {name} z tego roku szkolnego?',
-'Unknown Year': 'Nieznany rok',
-'Unused': 'Nieużywana',
-'Used to group staff in a staff directory.': 'Służy do grupowania pracowników w katalogu pracowników.',
-'User created successfully': 'Utworzono użytkownika',
-'User updated successfully': 'Zaktualizowano użytkownika',
-'User: Can Login': 'Użytkownik: może się logować',
-'User: Failed Logins': 'Użytkownik: nieudane logowania',
-'User: Status': 'Użytkownik: status',
-'Username *': 'Login *',
-'Username already taken': 'Login jest już zajęty',
-'Username available': 'Login jest dostępny',
-"Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Lekcje wideo: zajęcia online korzystają z usługi wideo wybranej przez Twoją szkołę (domyślnie z publicznej usługi Jitsi Meet)',
-'View Attendance': 'Zobacz frekwencję',
-'View Full Timetable': 'Zobacz pełny plan lekcji',
-'View Grades': 'Zobacz oceny',
-'View Homework Calendar': 'Zobacz kalendarz zadań domowych',
-'View Timetable': 'Zobacz plan lekcji',
-'View and manage Form Groups': 'Przeglądaj klasy i zarządzaj nimi',
-'View class grades': 'Zobacz oceny z zajęć',
-'View families, contacts, and children': 'Przeglądaj rodziny, kontakty i dzieci',
-'View lesson plans for this class': 'Zobacz plany lekcji dla tych zajęć',
-'View students in this class': 'Zobacz uczniów na tych zajęciach',
-'View your grades': 'Zobacz swoje oceny',
-'View your report cards': 'Zobacz swoje raporty',
-'Viewing as {name}': 'Widok jako {name}',
-'Virtual Classroom': 'Wirtualna klasa',
-'Welcome, {name}!': 'Witaj, {name}!',
-'What the app does not do': 'Czego aplikacja nie robi',
-'What the app keeps on this device': 'Co aplikacja przechowuje na tym urządzeniu',
-'Year Group *': 'Rocznik *',
-"Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Nie ustawia się tutaj, których roczników i klas to dotyczy — do czasu uzupełnienia na stronie internetowej będzie to dotyczyć wszystkich.',
-'You are back in your own account.': 'Jesteś z powrotem na swoim koncie.',
-'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Przeglądasz rok szkolny {year}, który nie jest bieżącym rokiem. Dane mogą nie wyglądać całkiem poprawnie (na przykład uczniowie, którzy opuścili szkołę, nie pojawią się w poprzednich latach).',
-'You can use this section to record your own homework.': 'W tej sekcji możesz zapisywać własne zadania domowe.',
-"You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Wniosek został już wysłany i czeka na sprawdzenie przez administratora. Nadal możesz wprowadzać zmiany poniżej, ale Twoje dane nie pojawią się w systemie, dopóki wniosek nie zostanie rozpatrzony.',
-'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Wniosek został już wysłany i czeka na sprawdzenie przez administratora. Nadal możesz wprowadzać zmiany poniżej.',
-'Your data is up to date.': 'Twoje dane są aktualne.',
-'Your data stays with your school': 'Twoje dane pozostają w Twojej szkole',
-"Your last username and the last three school addresses you used, so you don't have to retype them": 'Twój ostatni login i trzy ostatnio używane adresy szkół, aby nie trzeba było wpisywać ich ponownie',
-'Your rights and questions': 'Twoje prawa i pytania',
-"Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Za Twoje dane osobowe w Gibbon odpowiada Twoja szkoła. Aby je zobaczyć, poprawić lub usunąć, skontaktuj się z inspektorem ochrony danych w szkole. W sprawie samej aplikacji napisz na adres {email}.',
-'Your session will be switched to {name} ({role}).': 'Twoja sesja zostanie przełączona na {name} ({role}).',
-'a previous year': 'poprzedni rok',
-'an app for Gibbon™': 'aplikacja dla Gibbon™',
-'optional': 'opcjonalnie',
-'primary': 'główny',
-'until {time}': 'do {time}',
-'{absent} absent of {total} sessions recorded': 'Nieobecności: {absent} z {total} odnotowanych lekcji',
-'{count}d ago': '{count} dn. temu',
-'{count}h ago': '{count} godz. temu',
-'{count}m ago': '{count} min temu',
-'{label}: ': '{label}: ',
-'— None —': '— Brak —',
-}
+T = {'A punctuation mark or space': 'Znak interpunkcyjny lub spacja',
+ "A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Token logowania, przechowywany w bezpiecznym magazynie urządzenia (pęku kluczy iOS lub Android Keystore)',
+ 'About & Privacy': 'O aplikacji i prywatność',
+ 'Add More': 'Dodaj więcej',
+ 'Add Participant': 'Dodaj uczestnika',
+ 'Add homework?': 'Dodać zadanie domowe?',
+ 'Add, edit, and remove closures': 'Dodawaj, edytuj i usuwaj dni wolne',
+ 'Add, edit, and remove user accounts': 'Dodawaj, edytuj i usuwaj konta użytkowników',
+ 'Adjusts arrangement of courses in reports.': 'Ustala kolejność przedmiotów w raportach.',
+ 'Adult settings updated': 'Zaktualizowano ustawienia osoby dorosłej',
+ 'All Types': 'Wszystkie typy',
+ 'All Year Groups': 'Wszystkie roczniki',
+ 'An uppercase and a lowercase letter': 'Wielka i mała litera',
+ 'App version, connected school and your data': 'Wersja aplikacji, połączona szkoła i Twoje dane',
+ 'Assessments': 'Sprawdziany',
+ 'At least one number': 'Co najmniej jedna cyfra',
+ 'Attendance This Year': 'Frekwencja w tym roku',
+ 'Attendance not taken yet today': 'Obecność nie została dziś jeszcze sprawdzona',
+ 'Behaviour record saved!': 'Zapisano wpis o zachowaniu!',
+ 'Browse staff profiles': 'Przeglądaj profile pracowników',
+ 'By Class': 'Według zajęć',
+ 'By Date': 'Według daty',
+ 'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Aparat i zdjęcia: tylko gdy zdecydujesz się dołączyć zdjęcie do '
+                                                                                                                                 'wniosku o aktualizację danych. Aplikacja najpierw pyta o zgodę i '
+                                                                                                                                 'możesz odmówić.',
+ 'Cancel Bookings?': 'Anulować rezerwacje?',
+ 'Cancel Classes?': 'Odwołać zajęcia?',
+ 'Cancel Staff Duty?': 'Odwołać dyżury pracowników?',
+ 'Cancel new condition': 'Anuluj nowe schorzenie',
+ 'Cap': 'Poj.',
+ 'Chinese or other character-based name': 'Imię i nazwisko w znakach chińskich lub innym piśmie znakowym',
+ 'Choose a class above': 'Wybierz zajęcia powyżej',
+ 'Choose any Form Group': 'Wybierz dowolną klasę',
+ 'Choose any of your classes': 'Wybierz dowolne ze swoich zajęć',
+ 'Choose at least one student first': 'Najpierw wybierz co najmniej jednego ucznia',
+ 'Choose one of your Form Groups': 'Wybierz jedną ze swoich klas',
+ 'Class Absences': 'Nieobecności na zajęciach',
+ 'Class Enrolments': 'Zapisy na zajęcia',
+ 'Class Roster': 'Lista uczniów',
+ 'Click Update next to School Connect in System Admin > Manage Modules.': 'Kliknij Aktualizuj obok School Connect w Administrator systemu > Zarządzaj modułami.',
+ 'Closed at': 'Zamknięte o',
+ 'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'Połączona nazwa skrócona „{name}” ma ponad 16 znaków — może to '
+                                                                                                                                 'powodować problemy z wyświetlaniem w planie lekcji i na listach '
+                                                                                                                                 'rozwijanych.',
+ 'Combined short name exceeds 16 characters': 'Połączona nazwa skrócona ma ponad 16 znaków',
+ 'Comma-separated list of email addresses': 'Adresy e-mail oddzielone przecinkami',
+ 'Confirm Password *': 'Potwierdź hasło *',
+ 'Connected school': 'Połączona szkoła',
+ 'Connecting...': 'Łączenie...',
+ 'Contact Info': 'Dane kontaktowe',
+ 'Contact {number} — not on record': 'Kontakt {number} — brak danych',
+ 'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Treści w lekcjach: filmy lub obrazy dodane przez nauczyciela (na przykład z '
+                                                                                                                       'YouTube) wczytują się z tych serwisów po ich otwarciu',
+ 'Control what shows up in the app for everyone': 'Decyduj, co wszyscy widzą w aplikacji',
+ 'Could not add': 'Nie udało się dodać',
+ 'Could not add adult': 'Nie udało się dodać osoby dorosłej',
+ 'Could not add child': 'Nie udało się dodać dziecka',
+ 'Could not delete user': 'Nie udało się usunąć użytkownika',
+ 'Could not download report': 'Nie udało się pobrać raportu',
+ 'Could not generate username': 'Nie udało się wygenerować loginu',
+ 'Could not load Form Groups': 'Nie udało się wczytać klas',
+ 'Could not load activities': 'Nie udało się wczytać zajęć dodatkowych',
+ 'Could not load attendance': 'Nie udało się wczytać frekwencji',
+ 'Could not load children': 'Nie udało się wczytać dzieci',
+ 'Could not load classes': 'Nie udało się wczytać zajęć',
+ 'Could not load course': 'Nie udało się wczytać przedmiotu',
+ 'Could not load courses': 'Nie udało się wczytać przedmiotów',
+ 'Could not load data': 'Nie udało się wczytać danych',
+ 'Could not load data updates': 'Nie udało się wczytać aktualizacji danych',
+ 'Could not load days of the week': 'Nie udało się wczytać dni tygodnia',
+ 'Could not load emergency contacts': 'Nie udało się wczytać kontaktów alarmowych',
+ 'Could not load enrolment': 'Nie udało się wczytać zapisu',
+ 'Could not load enrolments': 'Nie udało się wczytać zapisów',
+ 'Could not load facilities': 'Nie udało się wczytać sal',
+ 'Could not load families': 'Nie udało się wczytać rodzin',
+ 'Could not load family': 'Nie udało się wczytać rodziny',
+ 'Could not load family data': 'Nie udało się wczytać danych rodziny',
+ 'Could not load finance data': 'Nie udało się wczytać danych finansowych',
+ 'Could not load form': 'Nie udało się wczytać formularza',
+ 'Could not load form data': 'Nie udało się wczytać danych formularza',
+ 'Could not load grades': 'Nie udało się wczytać ocen',
+ 'Could not load homework': 'Nie udało się wczytać zadań domowych',
+ 'Could not load homework calendar': 'Nie udało się wczytać kalendarza zadań domowych',
+ 'Could not load invoice': 'Nie udało się wczytać faktury',
+ 'Could not load invoices': 'Nie udało się wczytać faktur',
+ 'Could not load lesson': 'Nie udało się wczytać lekcji',
+ 'Could not load lessons': 'Nie udało się wczytać lekcji',
+ 'Could not load markbook': 'Nie udało się wczytać dziennika ocen',
+ 'Could not load master timetable': 'Nie udało się wczytać głównego planu lekcji',
+ 'Could not load medical data': 'Nie udało się wczytać danych medycznych',
+ 'Could not load messages': 'Nie udało się wczytać wiadomości',
+ 'Could not load notifications': 'Nie udało się wczytać powiadomień',
+ 'Could not load password policy': 'Nie udało się wczytać zasad haseł',
+ 'Could not load people': 'Nie udało się wczytać osób',
+ 'Could not load personal data': 'Nie udało się wczytać danych osobowych',
+ 'Could not load personal information': 'Nie udało się wczytać informacji osobistych',
+ 'Could not load profile': 'Nie udało się wczytać profilu',
+ 'Could not load report': 'Nie udało się wczytać raportu',
+ 'Could not load reports': 'Nie udało się wczytać raportów',
+ 'Could not load roles': 'Nie udało się wczytać ról',
+ 'Could not load roster': 'Nie udało się wczytać listy uczniów',
+ 'Could not load school years': 'Nie udało się wczytać lat szkolnych',
+ 'Could not load settings': 'Nie udało się wczytać ustawień',
+ 'Could not load special day': 'Nie udało się wczytać dnia specjalnego',
+ 'Could not load staff': 'Nie udało się wczytać pracowników',
+ 'Could not load staff data': 'Nie udało się wczytać danych pracownika',
+ 'Could not load students': 'Nie udało się wczytać uczniów',
+ 'Could not load terms': 'Nie udało się wczytać semestrów',
+ 'Could not load timetable': 'Nie udało się wczytać planu lekcji',
+ 'Could not load timetables': 'Nie udało się wczytać planów lekcji',
+ 'Could not load user': 'Nie udało się wczytać użytkownika',
+ 'Could not load users': 'Nie udało się wczytać użytkowników',
+ 'Could not load your children': 'Nie udało się wczytać Twoich dzieci',
+ 'Could not open payment page': 'Nie udało się otworzyć strony płatności',
+ 'Could not open the video call': 'Nie udało się otworzyć połączenia wideo',
+ 'Could not remove': 'Nie udało się usunąć',
+ 'Could not reset password': 'Nie udało się zresetować hasła',
+ 'Could not save': 'Nie udało się zapisać',
+ 'Could not save attendance': 'Nie udało się zapisać frekwencji',
+ 'Could not save for: {names}': 'Nie udało się zapisać dla: {names}',
+ 'Could not save setting': 'Nie udało się zapisać ustawienia',
+ 'Could not save user': 'Nie udało się zapisać użytkownika',
+ 'Could not start impersonating this user': 'Nie udało się zalogować jako ten użytkownik',
+ 'Could not submit update': 'Nie udało się wysłać aktualizacji',
+ 'Could not switch role': 'Nie udało się zmienić roli',
+ 'Could not switch school year': 'Nie udało się zmienić roku szkolnego',
+ 'Could not update': 'Nie udało się zaktualizować',
+ 'Country of Origin': 'Kraj pochodzenia',
+ 'Coverage Priority': 'Priorytet zastępstw',
+ 'Create linked staff record': 'Utwórz powiązany rekord pracownika',
+ 'Create linked student enrolment': 'Utwórz powiązany zapis ucznia',
+ 'Current year': 'Bieżący rok',
+ 'Dashboard': 'Pulpit',
+ 'Delete Class': 'Usuń zajęcia',
+ 'Delete Course': 'Usuń przedmiot',
+ 'Delete Special Day': 'Usuń dzień specjalny',
+ 'Delete User': 'Usuń użytkownika',
+ 'Developed by High Point Education': 'Opracowane przez High Point Education',
+ 'Done': 'Gotowe',
+ 'Due': 'Termin',
+ 'Due date and details are required.': 'Termin i szczegóły są wymagane.',
+ 'Editable': 'Edytowalne',
+ 'Email: Must be unique': 'E-mail: musi być unikalny',
+ 'Enrolable Year Groups': 'Roczniki, które można zapisać',
+ 'Enroll existing students into the active school year': 'Zapisz istniejących uczniów na bieżący rok szkolny',
+ 'Family name as shown in ID documents': 'Nazwisko jak w dokumencie tożsamości',
+ 'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Najpierw wypełnij imię, nazwisko, imię używane i rolę główną',
+ 'Filter by Year Group': 'Filtruj według rocznika',
+ 'First Name *': 'Imię *',
+ 'First name as shown in ID documents': 'Imię jak w dokumencie tożsamości',
+ 'Form Group *': 'Klasa *',
+ 'Formal name to address parents with': 'Oficjalna forma zwracania się do rodziców',
+ 'Full name as shown in ID documents': 'Imię i nazwisko jak w dokumencie tożsamości',
+ 'Gateway': 'Operator płatności',
+ 'Gender *': 'Płeć *',
+ 'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ jest znakiem towarowym Gibbon Education Ltd. (Hongkong), używanym za zgodą.',
+ 'Google Sign-In, only if your school uses it and you choose it': 'Logowanie przez Google, tylko jeśli Twoja szkoła z niego korzysta i je wybierzesz',
+ 'Grades': 'Oceny',
+ 'Higher numbers move staff up the order within their grouping.': 'Wyższe liczby przesuwają pracowników wyżej w obrębie ich grupy.',
+ "Highlighted in red: marked 'Full' but outside their start/end date range.": 'Wyróżnione na czerwono: oznaczone jako „Pełny”, ale poza zakresem dat rozpoczęcia i zakończenia.',
+ 'Holiday': 'Dzień wolny',
+ 'Homework Calendar': 'Kalendarz zadań domowych',
+ 'Homework due': 'Termin zadania domowego',
+ 'Homework removed.': 'Usunięto zadanie domowe.',
+ 'Homework saved.': 'Zapisano zadanie domowe.',
+ "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Jeśli '
+                                                                                                                                                                                                               'wybierzesz '
+                                                                                                                                                                                                               'Rodzina, '
+                                                                                                                                                                                                               'przyszłe '
+                                                                                                                                                                                                               'faktury '
+                                                                                                                                                                                                               'będą '
+                                                                                                                                                                                                               'wysyłane '
+                                                                                                                                                                                                               'zgodnie '
+                                                                                                                                                                                                               'z '
+                                                                                                                                                                                                               'preferencjami '
+                                                                                                                                                                                                               'kontaktowymi '
+                                                                                                                                                                                                               'Twojej '
+                                                                                                                                                                                                               'rodziny. '
+                                                                                                                                                                                                               'Jeśli '
+                                                                                                                                                                                                               'wybierzesz '
+                                                                                                                                                                                                               'Firma, '
+                                                                                                                                                                                                               'możesz '
+                                                                                                                                                                                                               'wskazać, '
+                                                                                                                                                                                                               'czy '
+                                                                                                                                                                                                               'wszystkie, '
+                                                                                                                                                                                                               'czy '
+                                                                                                                                                                                                               'tylko '
+                                                                                                                                                                                                               'niektóre '
+                                                                                                                                                                                                               'opłaty '
+                                                                                                                                                                                                               'pokrywa '
+                                                                                                                                                                                                               'podana '
+                                                                                                                                                                                                               'firma.',
+ 'Impersonate': 'Zaloguj jako',
+ 'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Funkcja Zaloguj jako użytkownik wymaga modułu School Connect w wersji 1.16.09 lub nowszej na serwerze szkoły.',
+ 'Installed version is {version}.': 'Zainstalowana wersja to {version}.',
+ 'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Kończy się po 2 godzinach. Aby wrócić wcześniej, użyj opcji Wróć do mojego konta u góry ekranu.',
+ 'Jitsi': 'Jitsi',
+ 'Join Virtual Class': 'Dołącz do zajęć online',
+ 'Join Virtual Class is hidden everywhere it would normally appear': 'Przycisk Dołącz do zajęć online jest ukryty we wszystkich miejscach',
+ 'Join Virtual Class shows on the timetable and planner': 'Przycisk Dołącz do zajęć online jest widoczny w planie lekcji i planerze',
+ 'Last 10 school days': 'Ostatnie 10 dni nauki',
+ 'Last 10 school days — per period': 'Ostatnie 10 dni nauki — według lekcji',
+ 'Last 20 school days': 'Ostatnie 20 dni nauki',
+ 'Last class of the day': 'Ostatnia lekcja dnia',
+ 'Lesson planning is coming soon': 'Planowanie lekcji wkrótce',
+ 'Licence check': 'Sprawdzanie licencji',
+ 'Link staff-role people to their staff record': 'Powiąż osoby z rolą pracownika z ich rekordem pracownika',
+ 'Log Behaviour': 'Dodaj wpis o zachowaniu',
+ 'Logged in as': 'Zalogowano jako',
+ 'Manage users and school settings': 'Zarządzaj użytkownikami i ustawieniami szkoły',
+ 'Mark all read': 'Oznacz wszystkie jako przeczytane',
+ 'Mark as complete': 'Oznacz jako wykonane',
+ 'Mark attendance for today': 'Sprawdź dzisiejszą obecność',
+ 'Mark read': 'Oznacz jako przeczytane',
+ 'Master Timetable': 'Główny plan lekcji',
+ 'Must be unique if set': 'Jeśli podano, musi być unikalny',
+ 'My Form Groups': 'Moje klasy',
+ 'Name and Short Name are required': 'Nazwa i nazwa skrócona są wymagane',
+ 'No Form Groups found': 'Nie znaleziono klas',
+ 'No Learning Area': 'Brak obszaru nauczania',
+ 'No activities on record': 'Brak zajęć dodatkowych',
+ 'No adults linked': 'Brak powiązanych osób dorosłych',
+ 'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Bez reklam, analityki, śledzenia, raportowania awarii i '
+                                                                                                                                              'usług powiadomień push. Aplikacja nigdy nie sprzedaje '
+                                                                                                                                              'ani nie udostępnia Twoich danych.',
+ 'No children found': 'Nie znaleziono dzieci',
+ 'No children linked': 'Brak powiązanych dzieci',
+ 'No children linked to this account': 'Brak dzieci powiązanych z tym kontem',
+ 'No class': 'Brak zajęć',
+ 'No classes found': 'Nie znaleziono zajęć',
+ 'No classes in this room today': 'Brak zajęć w tej sali dzisiaj',
+ 'No classes scheduled': 'Brak zaplanowanych zajęć',
+ 'No classes scheduled today': 'Brak zaplanowanych zajęć na dziś',
+ 'No classes yet': 'Brak zajęć',
+ 'No courses found': 'Nie znaleziono przedmiotów',
+ 'No data for this term': 'Brak danych za ten semestr',
+ 'No data updates found': 'Nie znaleziono aktualizacji danych',
+ 'No department': 'Brak zespołu przedmiotowego',
+ 'No facilities found': 'Nie znaleziono sal',
+ 'No families found': 'Nie znaleziono rodzin',
+ 'No family members on record': 'Brak członków rodziny',
+ 'No family record found': 'Nie znaleziono rekordu rodziny',
+ 'No grades available': 'Brak ocen',
+ 'No history available': 'Brak historii',
+ 'No homework recorded.': 'Brak zadań domowych.',
+ 'No invoices to display': 'Brak faktur do wyświetlenia',
+ 'No markbook entries yet': 'Brak wpisów w dzienniku ocen',
+ 'No matches found': 'Brak wyników',
+ 'No notifications': 'Brak powiadomień',
+ 'No participants yet': 'Brak uczestników',
+ 'No people found': 'Nie znaleziono osób',
+ 'No phone on record': 'Brak numeru telefonu',
+ 'No record': 'Brak wpisu',
+ 'No reports available yet': 'Brak dostępnych raportów',
+ 'No school days this week': 'Brak dni nauki w tym tygodniu',
+ 'No staff found': 'Nie znaleziono pracowników',
+ 'No students enrolled this year': 'Brak uczniów zapisanych w tym roku',
+ 'No students found': 'Nie znaleziono uczniów',
+ 'No terms found for this school year': 'Nie znaleziono semestrów w tym roku szkolnym',
+ 'No timetable data found': 'Nie znaleziono danych planu lekcji',
+ 'No timetable for this day': 'Brak planu lekcji na ten dzień',
+ 'No timetable for today': 'Brak planu lekcji na dziś',
+ 'No users found': 'Nie znaleziono użytkowników',
+ "Non-reportable participants won't display in reports.": 'Uczestnicy wyłączeni z raportów nie będą w nich widoczni.',
+ 'Non-school day': 'Dzień wolny od nauki',
+ 'Not a School Day': 'Dzień wolny od nauki',
+ 'Not currently enrolled': 'Obecnie niezapisany',
+ 'Not enrolled in any classes yet': 'Brak zapisów na zajęcia',
+ 'Not reported: update the School Connect module': 'Brak danych: zaktualizuj moduł School Connect',
+ 'Not taken yet today': 'Dziś jeszcze nie sprawdzono',
+ 'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Jeszcze niedostępne tutaj — zapis tutaj nie dodaje '
+                                                                                                                                       'automatycznie przedmiotów. W razie potrzeby dokończ zapisy na '
+                                                                                                                                       'przedmioty na stronie internetowej.',
+ 'Nothing scheduled': 'Nic nie zaplanowano',
+ 'Now': 'Teraz',
+ 'Official Name *': 'Pełne imię i nazwisko *',
+ "Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Raz dziennie serwer Twojej szkoły przekazuje '
+                                                                                                                                                       'High Point wyłącznie swój adres internetowy, '
+                                                                                                                                                       'aby potwierdzić subskrypcję szkoły. Żadne dane '
+                                                                                                                                                       'osobowe nie są wysyłane.',
+ 'Only includes people with a Staff role not already staff.': 'Obejmuje tylko osoby z rolą pracownika, które nie mają jeszcze rekordu pracownika.',
+ 'Only includes students not enrolled in this school year.': 'Obejmuje tylko uczniów niezapisanych na ten rok szkolny.',
+ 'Opens at': 'Otwarcie o',
+ 'Other services you may see': 'Inne usługi, które możesz zobaczyć',
+ 'Password *': 'Hasło *',
+ 'Password must be filled in and match': 'Hasło musi być wypełnione i zgodne',
+ 'Password reset successfully': 'Hasło zostało zresetowane',
+ 'Passwords do not match': 'Hasła nie są zgodne',
+ 'Passwords must be filled in and match': 'Hasła muszą być wypełnione i zgodne',
+ 'Permanently delete': 'Usuń na stałe',
+ 'Permanently delete "{name}" and all of its classes?': 'Usunąć na stałe „{name}” wraz ze wszystkimi zajęciami?',
+ 'Permissions': 'Uprawnienia',
+ 'Person *': 'Osoba *',
+ 'Please enter a Staff Type': 'Podaj typ pracownika',
+ 'Please fill in all required fields (name, official name, gender, role, username)': 'Wypełnij wszystkie wymagane pola (imię, pełne imię i nazwisko, płeć, rola, login)',
+ 'Please select a Type': 'Wybierz typ',
+ 'Please select a Year Group and Form Group': 'Wybierz rocznik i klasę',
+ 'Please select a class and a role': 'Wybierz zajęcia i rolę',
+ 'Please select a person': 'Wybierz osobę',
+ 'Please select a person and a role': 'Wybierz osobę i rolę',
+ 'Please select a student': 'Wybierz ucznia',
+ 'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Poświęć chwilę na przejrzenie wymaganych aktualizacji poniżej. '
+                                                                                                                                      'Nawet jeśli nic się nie zmieniło, wysłanie potwierdza, że Twoje '
+                                                                                                                                      'dane są poprawne.',
+ 'Powered by Gibbon': 'Działa w oparciu o Gibbon',
+ 'Preferred Name *': 'Imię używane *',
+ 'Primary Role *': 'Rola główna *',
+ 'Priority 1 contacts always receive all contact types.': 'Kontakty z priorytetem 1 zawsze otrzymują wszystkie rodzaje kontaktu.',
+ 'Qualified': 'Wykwalifikowany',
+ 'Quick Access': 'Szybki dostęp',
+ 'Read the full privacy policy': 'Przeczytaj pełną politykę prywatności',
+ 'Receipt ID': 'Numer potwierdzenia',
+ 'Recent Attendance': 'Ostatnia frekwencja',
+ 'Remove "{name}" from the calendar?': 'Usunąć „{name}” z kalendarza?',
+ 'Remove Adult': 'Usuń osobę dorosłą',
+ 'Remove Child': 'Usuń dziecko',
+ 'Remove Class': 'Usuń zajęcia',
+ 'Remove Enrolment': 'Usuń zapis',
+ 'Remove Staff Record': 'Usuń rekord pracownika',
+ 'Remove enrolment in {class}?': 'Usunąć zapis na {class}?',
+ 'Remove from Class': 'Usuń z zajęć',
+ 'Remove {name} from staff?': 'Usunąć {name} z pracowników?',
+ 'Remove {name} from this class?': 'Usunąć {name} z tych zajęć?',
+ 'Remove {name} from this family?': 'Usunąć {name} z tej rodziny?',
+ 'Report-card PDFs, only while you view or share them': 'Raporty w formacie PDF, tylko podczas ich przeglądania lub udostępniania',
+ 'Return to my account': 'Wróć do mojego konta',
+ 'Role: Can Login': 'Rola: może się logować',
+ 'Roll': 'Nr',
+ 'Save failed': 'Zapisywanie nie powiodło się',
+ 'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School '
+                                                                                                                                                                                                                                                      'Connect '
+                                                                                                                                                                                                                                                      'to '
+                                                                                                                                                                                                                                                      'aplikacja '
+                                                                                                                                                                                                                                                      'firmy '
+                                                                                                                                                                                                                                                      'zewnętrznej, '
+                                                                                                                                                                                                                                                      'zgodna '
+                                                                                                                                                                                                                                                      'z '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      '— '
+                                                                                                                                                                                                                                                      'bezpłatną '
+                                                                                                                                                                                                                                                      'platformą '
+                                                                                                                                                                                                                                                      'do '
+                                                                                                                                                                                                                                                      'zarządzania '
+                                                                                                                                                                                                                                                      'szkołą '
+                                                                                                                                                                                                                                                      'o '
+                                                                                                                                                                                                                                                      'otwartym '
+                                                                                                                                                                                                                                                      'kodzie '
+                                                                                                                                                                                                                                                      'źródłowym. '
+                                                                                                                                                                                                                                                      'Nie '
+                                                                                                                                                                                                                                                      'jest '
+                                                                                                                                                                                                                                                      'oficjalnym '
+                                                                                                                                                                                                                                                      'wydaniem '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      'Foundation '
+                                                                                                                                                                                                                                                      'ani '
+                                                                                                                                                                                                                                                      'nie '
+                                                                                                                                                                                                                                                      'jest '
+                                                                                                                                                                                                                                                      'z '
+                                                                                                                                                                                                                                                      'nią '
+                                                                                                                                                                                                                                                      'powiązana '
+                                                                                                                                                                                                                                                      'ani '
+                                                                                                                                                                                                                                                      'przez '
+                                                                                                                                                                                                                                                      'nią '
+                                                                                                                                                                                                                                                      'popierana.',
+ 'School Connect module on the school server': 'Moduł School Connect na serwerze szkoły',
+ "School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School '
+                                                                                                                                                                                                                                                                                                                                                'Connect '
+                                                                                                                                                                                                                                                                                                                                                'wyświetla '
+                                                                                                                                                                                                                                                                                                                                                'informacje '
+                                                                                                                                                                                                                                                                                                                                                'z '
+                                                                                                                                                                                                                                                                                                                                                'systemu '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon '
+                                                                                                                                                                                                                                                                                                                                                'Twojej '
+                                                                                                                                                                                                                                                                                                                                                'szkoły: '
+                                                                                                                                                                                                                                                                                                                                                'plany '
+                                                                                                                                                                                                                                                                                                                                                'lekcji, '
+                                                                                                                                                                                                                                                                                                                                                'frekwencję, '
+                                                                                                                                                                                                                                                                                                                                                'oceny, '
+                                                                                                                                                                                                                                                                                                                                                'zadania '
+                                                                                                                                                                                                                                                                                                                                                'domowe, '
+                                                                                                                                                                                                                                                                                                                                                'raporty, '
+                                                                                                                                                                                                                                                                                                                                                'wiadomości '
+                                                                                                                                                                                                                                                                                                                                                'i '
+                                                                                                                                                                                                                                                                                                                                                'dane '
+                                                                                                                                                                                                                                                                                                                                                'Twojej '
+                                                                                                                                                                                                                                                                                                                                                'rodziny. '
+                                                                                                                                                                                                                                                                                                                                                'Aplikacja '
+                                                                                                                                                                                                                                                                                                                                                'łączy '
+                                                                                                                                                                                                                                                                                                                                                'się '
+                                                                                                                                                                                                                                                                                                                                                'bezpośrednio '
+                                                                                                                                                                                                                                                                                                                                                'i '
+                                                                                                                                                                                                                                                                                                                                                'wyłącznie '
+                                                                                                                                                                                                                                                                                                                                                'z '
+                                                                                                                                                                                                                                                                                                                                                'serwerem '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon '
+                                                                                                                                                                                                                                                                                                                                                'Twojej '
+                                                                                                                                                                                                                                                                                                                                                'szkoły '
+                                                                                                                                                                                                                                                                                                                                                'przez '
+                                                                                                                                                                                                                                                                                                                                                'szyfrowane '
+                                                                                                                                                                                                                                                                                                                                                'połączenie '
+                                                                                                                                                                                                                                                                                                                                                '(HTTPS). '
+                                                                                                                                                                                                                                                                                                                                                'High '
+                                                                                                                                                                                                                                                                                                                                                'Point '
+                                                                                                                                                                                                                                                                                                                                                'Education '
+                                                                                                                                                                                                                                                                                                                                                'nie '
+                                                                                                                                                                                                                                                                                                                                                'otrzymuje, '
+                                                                                                                                                                                                                                                                                                                                                'nie '
+                                                                                                                                                                                                                                                                                                                                                'przechowuje '
+                                                                                                                                                                                                                                                                                                                                                'ani '
+                                                                                                                                                                                                                                                                                                                                                'nie '
+                                                                                                                                                                                                                                                                                                                                                'widzi '
+                                                                                                                                                                                                                                                                                                                                                'tych '
+                                                                                                                                                                                                                                                                                                                                                'informacji.',
+ "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'Godzin otwarcia, rozpoczęcia, zakończenia i zamknięcia szkoły nie ustawia się tutaj — uzupełnij je '
+                                                                                                 'na stronie internetowej.',
+ 'Search and view student profiles': 'Wyszukuj i przeglądaj profile uczniów',
+ 'Search by course name...': 'Szukaj po nazwie przedmiotu...',
+ 'Search by course or class name...': 'Szukaj po nazwie przedmiotu lub zajęć...',
+ 'Search by family name...': 'Szukaj po nazwie rodziny...',
+ 'Search by name or initials...': 'Szukaj po nazwisku lub inicjałach...',
+ 'Search by name or student ID...': 'Szukaj po nazwisku lub numerze ucznia...',
+ 'Search by name or username...': 'Szukaj po nazwisku lub loginie...',
+ 'Search by name, username, email, student ID...': 'Szukaj po nazwisku, loginie, e-mailu, numerze ucznia...',
+ 'Search classes...': 'Szukaj zajęć...',
+ 'Search rooms...': 'Szukaj sal...',
+ 'Search students...': 'Szukaj uczniów...',
+ 'Select Student': 'Wybierz ucznia',
+ 'Sessions marked Out this year': 'Lekcje oznaczone w tym roku jako nieobecność',
+ 'Share': 'Udostępnij',
+ 'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Wylogowanie usuwa token logowania, Twój login i pobrane '
+                                                                                                                                        'raporty. Odinstalowanie aplikacji usuwa wszystko inne.',
+ 'Staff Profile': 'Profil pracownika',
+ 'Staff Type *': 'Typ pracownika *',
+ 'Staff record created': 'Utworzono rekord pracownika',
+ 'Student *': 'Uczeń *',
+ 'Student List': 'Lista uczniów',
+ 'Student enrolled successfully': 'Uczeń został zapisany',
+ 'Submitted': 'Wysłano',
+ 'Surname *': 'Nazwisko *',
+ 'Switch Role': 'Zmień rolę',
+ 'Switch School Year': 'Zmień rok szkolny',
+ 'Take attendance for this class': 'Sprawdź obecność na tych zajęciach',
+ 'Taken': 'Sprawdzono',
+ 'Taken at {time}': 'Sprawdzono o {time}',
+ 'Taken today at {time}. Tap to review or change': 'Sprawdzono dziś o {time}. Dotknij, aby przejrzeć lub zmienić',
+ 'Tap to edit': 'Dotknij, aby edytować',
+ 'The impersonation ended after 2 hours. You are back in your own account.': 'Logowanie jako inny użytkownik zakończyło się po 2 godzinach. Jesteś z powrotem na swoim koncie.',
+ 'The order in which the school should contact family members.': 'Kolejność, w jakiej szkoła powinna kontaktować się z członkami rodziny.',
+ 'Their user account is not affected.': 'Nie ma to wpływu na konto użytkownika tej osoby.',
+ 'There are no messages to display.': 'Brak wiadomości do wyświetlenia.',
+ 'This affects the timetable:': 'Ma to wpływ na plan lekcji:',
+ 'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Spowoduje to również usunięcie wszystkich zapisów i danych planu lekcji dla tych zajęć. Tej operacji '
+                                                                                                 'nie można cofnąć.',
+ 'This cannot be undone.': 'Tej operacji nie można cofnąć.',
+ 'This class is not scheduled on {date}. You can still save attendance if needed.': 'Te zajęcia nie są zaplanowane na {date}. W razie potrzeby nadal możesz zapisać frekwencję.',
+ 'This does not delete their user account.': 'Nie powoduje to usunięcia konta użytkownika tej osoby.',
+ 'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Ta '
+                                                                                                                                                                                                           'opcja '
+                                                                                                                                                                                                           'pozwala '
+                                                                                                                                                                                                           'administratorom '
+                                                                                                                                                                                                           'zalogować '
+                                                                                                                                                                                                           'się '
+                                                                                                                                                                                                           'jako '
+                                                                                                                                                                                                           'inne '
+                                                                                                                                                                                                           'konto '
+                                                                                                                                                                                                           'w '
+                                                                                                                                                                                                           'systemie '
+                                                                                                                                                                                                           'w '
+                                                                                                                                                                                                           'celu '
+                                                                                                                                                                                                           'rozwiązywania '
+                                                                                                                                                                                                           'problemów '
+                                                                                                                                                                                                           'i '
+                                                                                                                                                                                                           'testowania. '
+                                                                                                                                                                                                           'Wybrany '
+                                                                                                                                                                                                           'użytkownik '
+                                                                                                                                                                                                           'nadal '
+                                                                                                                                                                                                           'będzie '
+                                                                                                                                                                                                           'mógł '
+                                                                                                                                                                                                           'logować '
+                                                                                                                                                                                                           'się '
+                                                                                                                                                                                                           'na '
+                                                                                                                                                                                                           'swoje '
+                                                                                                                                                                                                           'konto '
+                                                                                                                                                                                                           'i '
+                                                                                                                                                                                                           'z '
+                                                                                                                                                                                                           'niego '
+                                                                                                                                                                                                           'wylogowywać.',
+ 'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Spowoduje to usunięcie wszystkich zapisów i danych planu lekcji dla tych zajęć. Tej operacji nie można '
+                                                                                         'cofnąć.',
+ 'Timetable by Facility': 'Plan lekcji według sali',
+ "Today's Timetable": 'Dzisiejszy plan lekcji',
+ 'Trial access': 'Dostęp próbny',
+ 'Troubleshoot by seeing the app as another user': 'Rozwiązuj problemy, oglądając aplikację jako inny użytkownik',
+ 'Tutor 2': 'Wychowawca 2',
+ 'Type *': 'Typ *',
+ 'Type and Name are required': 'Typ i nazwa są wymagane',
+ 'Type at least 2 characters': 'Wpisz co najmniej 2 znaki',
+ 'Type, country code, number': 'Typ, kod kraju, numer',
+ 'Unenroll {name} from this school year?': 'Wypisać {name} z tego roku szkolnego?',
+ 'Unknown Year': 'Nieznany rok',
+ 'Unused': 'Nieużywana',
+ 'Used to group staff in a staff directory.': 'Służy do grupowania pracowników w katalogu pracowników.',
+ 'User created successfully': 'Utworzono użytkownika',
+ 'User updated successfully': 'Zaktualizowano użytkownika',
+ 'User: Can Login': 'Użytkownik: może się logować',
+ 'User: Failed Logins': 'Użytkownik: nieudane logowania',
+ 'User: Status': 'Użytkownik: status',
+ 'Username *': 'Login *',
+ 'Username already taken': 'Login jest już zajęty',
+ 'Username available': 'Login jest dostępny',
+ "Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Lekcje wideo: zajęcia online korzystają z usługi wideo wybranej przez Twoją '
+                                                                                                                     'szkołę (domyślnie z publicznej usługi Jitsi Meet)',
+ 'View Attendance': 'Zobacz frekwencję',
+ 'View Full Timetable': 'Zobacz pełny plan lekcji',
+ 'View Grades': 'Zobacz oceny',
+ 'View Homework Calendar': 'Zobacz kalendarz zadań domowych',
+ 'View Timetable': 'Zobacz plan lekcji',
+ 'View and manage Form Groups': 'Przeglądaj klasy i zarządzaj nimi',
+ 'View class grades': 'Zobacz oceny z zajęć',
+ 'View families, contacts, and children': 'Przeglądaj rodziny, kontakty i dzieci',
+ 'View lesson plans for this class': 'Zobacz plany lekcji dla tych zajęć',
+ 'View students in this class': 'Zobacz uczniów na tych zajęciach',
+ 'View your grades': 'Zobacz swoje oceny',
+ 'View your report cards': 'Zobacz swoje raporty',
+ 'Viewing as {name}': 'Widok jako {name}',
+ 'Virtual Classroom': 'Wirtualna klasa',
+ 'Welcome, {name}!': 'Witaj, {name}!',
+ 'What the app does not do': 'Czego aplikacja nie robi',
+ 'What the app keeps on this device': 'Co aplikacja przechowuje na tym urządzeniu',
+ 'Year Group *': 'Rocznik *',
+ "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Nie ustawia się tutaj, których roczników i klas to dotyczy — do czasu uzupełnienia na '
+                                                                                                              'stronie internetowej będzie to dotyczyć wszystkich.',
+ 'You are back in your own account.': 'Jesteś z powrotem na swoim koncie.',
+ 'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Przeglądasz '
+                                                                                                                                                                                         'rok szkolny '
+                                                                                                                                                                                         '{year}, '
+                                                                                                                                                                                         'który nie '
+                                                                                                                                                                                         'jest '
+                                                                                                                                                                                         'bieżącym '
+                                                                                                                                                                                         'rokiem. Dane '
+                                                                                                                                                                                         'mogą nie '
+                                                                                                                                                                                         'wyglądać '
+                                                                                                                                                                                         'całkiem '
+                                                                                                                                                                                         'poprawnie '
+                                                                                                                                                                                         '(na przykład '
+                                                                                                                                                                                         'uczniowie, '
+                                                                                                                                                                                         'którzy '
+                                                                                                                                                                                         'opuścili '
+                                                                                                                                                                                         'szkołę, nie '
+                                                                                                                                                                                         'pojawią się '
+                                                                                                                                                                                         'w '
+                                                                                                                                                                                         'poprzednich '
+                                                                                                                                                                                         'latach).',
+ 'You can use this section to record your own homework.': 'W tej sekcji możesz zapisywać własne zadania domowe.',
+ "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Wniosek '
+                                                                                                                                                                                              'został '
+                                                                                                                                                                                              'już '
+                                                                                                                                                                                              'wysłany '
+                                                                                                                                                                                              'i czeka '
+                                                                                                                                                                                              'na '
+                                                                                                                                                                                              'sprawdzenie '
+                                                                                                                                                                                              'przez '
+                                                                                                                                                                                              'administratora. '
+                                                                                                                                                                                              'Nadal '
+                                                                                                                                                                                              'możesz '
+                                                                                                                                                                                              'wprowadzać '
+                                                                                                                                                                                              'zmiany '
+                                                                                                                                                                                              'poniżej, '
+                                                                                                                                                                                              'ale '
+                                                                                                                                                                                              'Twoje '
+                                                                                                                                                                                              'dane '
+                                                                                                                                                                                              'nie '
+                                                                                                                                                                                              'pojawią '
+                                                                                                                                                                                              'się w '
+                                                                                                                                                                                              'systemie, '
+                                                                                                                                                                                              'dopóki '
+                                                                                                                                                                                              'wniosek '
+                                                                                                                                                                                              'nie '
+                                                                                                                                                                                              'zostanie '
+                                                                                                                                                                                              'rozpatrzony.',
+ 'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Wniosek został już wysłany i czeka na sprawdzenie przez administratora. '
+                                                                                                                          'Nadal możesz wprowadzać zmiany poniżej.',
+ 'Your data is up to date.': 'Twoje dane są aktualne.',
+ 'Your data stays with your school': 'Twoje dane pozostają w Twojej szkole',
+ "Your last username and the last three school addresses you used, so you don't have to retype them": 'Twój ostatni login i trzy ostatnio używane adresy szkół, aby nie trzeba było wpisywać ich '
+                                                                                                      'ponownie',
+ 'Your rights and questions': 'Twoje prawa i pytania',
+ "Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Za '
+                                                                                                                                                                                                   'Twoje '
+                                                                                                                                                                                                   'dane '
+                                                                                                                                                                                                   'osobowe '
+                                                                                                                                                                                                   'w '
+                                                                                                                                                                                                   'Gibbon '
+                                                                                                                                                                                                   'odpowiada '
+                                                                                                                                                                                                   'Twoja '
+                                                                                                                                                                                                   'szkoła. '
+                                                                                                                                                                                                   'Aby '
+                                                                                                                                                                                                   'je '
+                                                                                                                                                                                                   'zobaczyć, '
+                                                                                                                                                                                                   'poprawić '
+                                                                                                                                                                                                   'lub '
+                                                                                                                                                                                                   'usunąć, '
+                                                                                                                                                                                                   'skontaktuj '
+                                                                                                                                                                                                   'się '
+                                                                                                                                                                                                   'z '
+                                                                                                                                                                                                   'inspektorem '
+                                                                                                                                                                                                   'ochrony '
+                                                                                                                                                                                                   'danych '
+                                                                                                                                                                                                   'w '
+                                                                                                                                                                                                   'szkole. '
+                                                                                                                                                                                                   'W '
+                                                                                                                                                                                                   'sprawie '
+                                                                                                                                                                                                   'samej '
+                                                                                                                                                                                                   'aplikacji '
+                                                                                                                                                                                                   'napisz '
+                                                                                                                                                                                                   'na '
+                                                                                                                                                                                                   'adres '
+                                                                                                                                                                                                   '{email}.',
+ 'Your session will be switched to {name} ({role}).': 'Twoja sesja zostanie przełączona na {name} ({role}).',
+ 'a previous year': 'poprzedni rok',
+ 'an app for Gibbon™': 'aplikacja dla Gibbon™',
+ 'optional': 'opcjonalnie',
+ 'primary': 'główny',
+ 'until {time}': 'do {time}',
+ '{absent} absent of {total} sessions recorded': 'Nieobecności: {absent} z {total} odnotowanych lekcji',
+ '{count}d ago': '{count} dn. temu',
+ '{count}h ago': '{count} godz. temu',
+ '{count}m ago': '{count} min temu',
+ '{label}: ': '{label}: ',
+ '— None —': '— Brak —',
+ 'Attendance saved!': 'Frekwencja zapisana!',
+ 'Class now: {class}': 'Teraz: {class}',
+ 'Next class: {class}': 'Następne zajęcia: {class}',
+ 'Left (user status)': 'Odszedł'}
 
-# Four forms: 1 | 2-4 (not 12-14) | 0, 5-21, 12-14, 25-31... | fractions (never used for counts here).
 P = {
 'All {count} class done for today': ('Zakończono dzisiejszą lekcję', 'Zakończono wszystkie dzisiejsze lekcje ({count})', 'Zakończono wszystkie dzisiejsze lekcje ({count})', 'Zakończono wszystkie dzisiejsze lekcje ({count})'),
 'At least {count} character': ('Co najmniej {count} znak', 'Co najmniej {count} znaki', 'Co najmniej {count} znaków', 'Co najmniej {count} znaku'),
@@ -476,5 +710,6 @@ GAPS = {'Apply': 'Zastosuj',
  'This student has one or more {level} risk medical conditions.': 'Ten uczeń ma co najmniej jedno schorzenie o poziomie ryzyka: {level}.',
  'Under Enrolled': 'Za mało zapisanych',
  'Update Staff Data': 'Zaktualizuj dane pracownika',
- 'Your active session will be switched to the selected user.': 'Twoja bieżąca sesja zostanie przełączona na wybranego użytkownika.'}
+ 'Your active session will be switched to the selected user.': 'Twoja bieżąca sesja zostanie przełączona na wybranego użytkownika.',
+ '{count} min': '{count} min'}
 OVERRIDES = {}

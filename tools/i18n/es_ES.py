@@ -651,7 +651,11 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'Could not save for: {names}': 'No se pudo guardar para: {names}',
  'Last class of the day': 'Última clase del día',
  'Taken today at {time}. Tap to review or change': 'Tomada hoy a las {time}. Toque para revisar o cambiar',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': '¡Asistencia guardada!',
+ 'Class now: {class}': 'Clase actual: {class}',
+ 'Next class: {class}': 'Próxima clase: {class}',
+ 'Left (user status)': 'Retirado'}
 
 P = {'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
  'Behaviour records saved for {count} student!': ('¡Registro de comportamiento guardado para {count} estudiante!', '¡Registros de comportamiento guardados para {count} estudiantes!'),
@@ -689,7 +693,8 @@ GAPS = {'By Form Group': 'Por curso',
  'Homework + Due Dates': 'Tareas y Fechas de Entrega',
  'Layers': 'Capas',
  'Teacher': 'Profesor/a',
- 'This student has one or more {level} risk medical conditions.': 'Este estudiante tiene una o más condiciones médicas de riesgo {level}.'}
+ 'This student has one or more {level} risk medical conditions.': 'Este estudiante tiene una o más condiciones médicas de riesgo {level}.',
+ '{count} min': '{count} min'}
 
 OVERRIDES = {}
 

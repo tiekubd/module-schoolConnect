@@ -410,4 +410,5 @@ FINAL = {
 'Timetable Admin': 'Satničar',
 'Tracking': 'Praćenje',
 'User Admin': 'Administrator korisnika',
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

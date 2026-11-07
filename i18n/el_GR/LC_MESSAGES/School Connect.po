@@ -27,7 +27,7 @@ msgstr ""
 "Ένα διακριτικό σύνδεσης, που φυλάσσεται στον ασφαλή χώρο αποθήκευσης της "
 "συσκευής (iOS Keychain ή Android Keystore)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Σχετικά & απόρρητο"
@@ -72,7 +72,7 @@ msgid "All Year Groups"
 msgstr "Όλες οι τάξεις"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Το σημερινό μάθημα ολοκληρώθηκε"
@@ -83,7 +83,7 @@ msgstr[1] "Και τα {count} σημερινά μαθήματα ολοκληρ�
 msgid "An uppercase and a lowercase letter"
 msgstr "Ένα κεφαλαίο και ένα πεζό γράμμα"
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr "Έκδοση εφαρμογής, συνδεδεμένο σχολείο και τα δεδομένα σας"
 
@@ -109,9 +109,14 @@ msgstr[1] "Τουλάχιστον {count} χαρακτήρες"
 msgid "Attendance This Year"
 msgstr "Παρουσίες φέτος"
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
 msgstr "Δεν έχουν ληφθεί ακόμη παρουσίες σήμερα"
+
+#: lib/screens/attendance_screen.dart:134
+#: lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
+msgstr "Οι παρουσίες αποθηκεύτηκαν!"
 
 #: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
@@ -124,7 +129,7 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "Η καταγραφή συμπεριφοράς αποθηκεύτηκε για {count} μαθητή!"
 msgstr[1] "Οι καταγραφές συμπεριφοράς αποθηκεύτηκαν για {count} μαθητές!"
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr "Περιήγηση στα προφίλ του προσωπικού"
 
@@ -190,7 +195,7 @@ msgstr "Επιλέξτε πρώτα τουλάχιστον έναν μαθητή
 msgid "Choose one of your Form Groups"
 msgstr "Επιλέξτε ένα από τα τμήματά σας"
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr "Απουσίες από μαθήματα"
 
@@ -201,6 +206,11 @@ msgstr "Εγγραφές σε ομάδες μαθημάτων"
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
 msgstr "Κατάλογος μαθητών"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "Τώρα: {class}"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -535,9 +545,9 @@ msgstr "Δεν ήταν δυνατή η αφαίρεση"
 msgid "Could not reset password"
 msgstr "Δεν ήταν δυνατή η επαναφορά του κωδικού"
 
+#: lib/screens/attendance_screen.dart:134
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
-#: lib/screens/course_detail_screen.dart:321
 msgid "Could not save"
 msgstr "Δεν ήταν δυνατή η αποθήκευση"
 
@@ -725,7 +735,7 @@ msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr ""
 "Σύνδεση με Google, μόνο αν το χρησιμοποιεί το σχολείο σας και την επιλέξετε"
 
-#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/dashboard_screen.dart:817
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -746,7 +756,7 @@ msgstr ""
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
-#: lib/screens/student_attendance_screen.dart:452
+#: lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr "Αργία"
 
@@ -834,9 +844,13 @@ msgstr "Τελευταίες 10 σχολικές ημέρες — ανά ώρα"
 msgid "Last 20 school days"
 msgstr "Τελευταίες 20 σχολικές ημέρες"
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr "Τελευταίο μάθημα της ημέρας"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "Αποχώρησε"
 
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
@@ -850,7 +864,7 @@ msgstr "Έλεγχος άδειας"
 msgid "Link staff-role people to their staff record"
 msgstr "Σύνδεση ατόμων με ρόλο προσωπικού με την εγγραφή προσωπικού τους"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Καταγραφή συμπεριφοράς"
@@ -859,7 +873,7 @@ msgstr "Καταγραφή συμπεριφοράς"
 msgid "Logged in as"
 msgstr "Συνδεδεμένος ως"
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr "Διαχείριση χρηστών και ρυθμίσεων σχολείου"
 
@@ -879,7 +893,7 @@ msgstr "Λήψη σημερινών παρουσιών"
 msgid "Mark read"
 msgstr "Σήμανση ως αναγνωσμένο"
 
-#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/dashboard_screen.dart:713
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Γενικό πρόγραμμα"
@@ -888,8 +902,8 @@ msgstr "Γενικό πρόγραμμα"
 msgid "Must be unique if set"
 msgstr "Αν οριστεί, πρέπει να είναι μοναδικό"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Τα τμήματά μου"
@@ -898,6 +912,12 @@ msgstr "Τα τμήματά μου"
 #: lib/screens/course_manage_list_screen.dart:232
 msgid "Name and Short Name are required"
 msgstr "Το όνομα και το σύντομο όνομα είναι υποχρεωτικά"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:683
+msgid "Next class: {class}"
+msgstr "Επόμενο: {class}"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
@@ -954,7 +974,7 @@ msgstr "Δεν υπάρχουν μαθήματα σε αυτή την αίθου
 msgid "No classes scheduled"
 msgstr "Δεν υπάρχουν προγραμματισμένα μαθήματα"
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr "Δεν υπάρχουν προγραμματισμένα μαθήματα σήμερα"
 
@@ -967,7 +987,7 @@ msgid "No courses found"
 msgstr "Δεν βρέθηκαν μαθήματα"
 
 #: lib/screens/homework_calendar_screen.dart:339
-#: lib/screens/student_attendance_screen.dart:397
+#: lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr "Δεν υπάρχουν δεδομένα για αυτή την περίοδο"
 
@@ -1037,7 +1057,7 @@ msgstr "Δεν βρέθηκαν άτομα"
 msgid "No phone on record"
 msgstr "Δεν υπάρχει τηλέφωνο"
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr "Δεν υπάρχει εγγραφή"
 
@@ -1076,7 +1096,7 @@ msgstr "Δεν βρέθηκαν δεδομένα προγράμματος"
 msgid "No timetable for this day"
 msgstr "Δεν υπάρχει πρόγραμμα για αυτή την ημέρα"
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr "Δεν υπάρχει πρόγραμμα για σήμερα"
 
@@ -1269,7 +1289,7 @@ msgstr ""
 msgid "Qualified"
 msgstr "Πιστοποιημένος"
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr "Γρήγορη πρόσβαση"
 
@@ -1401,7 +1421,7 @@ msgstr ""
 "Οι ώρες ανοίγματος, έναρξης, λήξης και κλεισίματος του σχολείου δεν "
 "ορίζονται εδώ — συμπληρώστε τες στον ιστότοπο."
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr "Αναζήτηση και προβολή προφίλ μαθητών"
 
@@ -1453,7 +1473,7 @@ msgstr "Αναζήτηση μαθητών..."
 msgid "Select Student"
 msgstr "Επιλογή μαθητή"
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr "Ώρες που σημειώθηκαν φέτος ως απουσία"
 
@@ -1504,12 +1524,12 @@ msgstr "Υποβλήθηκε"
 msgid "Surname *"
 msgstr "Επώνυμο *"
 
-#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/dashboard_screen.dart:424
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Αλλαγή ρόλου"
 
-#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/dashboard_screen.dart:430
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1525,7 +1545,7 @@ msgid "Taken"
 msgstr "Ελήφθησαν"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 msgid "Taken at {time}"
 msgstr "Ελήφθησαν στις {time}"
 
@@ -1607,21 +1627,21 @@ msgstr ""
 "Αφαιρούνται όλα τα δεδομένα εγγραφών και προγράμματος αυτής της ομάδας "
 "μαθήματος. Η ενέργεια δεν αναιρείται."
 
-#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/dashboard_screen.dart:722
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Πρόγραμμα ανά αίθουσα"
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr "Σημερινό πρόγραμμα"
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr "Δοκιμαστική πρόσβαση"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Δοκιμαστική περίοδος — απομένει {count} ημέρα"
@@ -1714,7 +1734,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Προβολή παρουσιών"
 
-#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/dashboard_screen.dart:938
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Προβολή πλήρους προγράμματος"
@@ -1731,7 +1751,7 @@ msgstr "Προβολή ημερολογίου εργασιών"
 msgid "View Timetable"
 msgstr "Προβολή προγράμματος"
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "Προβολή και διαχείριση τμημάτων"
 
@@ -1751,11 +1771,11 @@ msgstr "Προβολή σχεδίων μαθήματος για αυτή την 
 msgid "View students in this class"
 msgstr "Προβολή μαθητών αυτής της ομάδας"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr "Δείτε τους βαθμούς σας"
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr "Δείτε τους ελέγχους προόδου σας"
 
@@ -1769,7 +1789,7 @@ msgid "Virtual Classroom"
 msgstr "Εικονική τάξη"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 msgid "Welcome, {name}!"
 msgstr "Καλώς ήρθατε, {name}!"
 
@@ -1896,12 +1916,12 @@ msgid "until {time}"
 msgstr "έως {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} απουσίες σε {total} καταγεγραμμένες ώρες"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} απών"
@@ -1924,6 +1944,7 @@ msgstr[1] "{count} αξιολογήσεις"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
@@ -1931,23 +1952,23 @@ msgstr[0] "{count} ομάδα μαθήματος"
 msgstr[1] "{count} ομάδες μαθημάτων"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "Απομένει {count} μάθημα · ολοκληρώθηκαν: {done}"
 msgstr[1] "Απομένουν {count} μαθήματα · ολοκληρώθηκαν: {done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} μάθημα σήμερα"
 msgstr[1] "{count} μαθήματα σήμερα"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:360
-#: lib/screens/student_attendance_screen.dart:363
-#: lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
 msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} ημέρα"
@@ -1982,28 +2003,28 @@ msgstr[0] "{count} στοιχείο"
 msgstr[1] "{count} στοιχεία"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} καθυστέρηση"
 msgstr[1] "{count} καθυστερήσεις"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/dashboard_screen.dart:992
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Ακόμη {count} μάθημα μετά από αυτό · σύνολο σήμερα: {total}"
 msgstr[1] "Ακόμη {count} μαθήματα μετά από αυτό · σύνολο σήμερα: {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] "{count} σχολική ημέρα στην περίοδο"
 msgstr[1] "{count} σχολικές ημέρες στην περίοδο"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"
 msgstr[0] "{count} σχολική ημέρα στο σχολικό έτος"
@@ -2139,6 +2160,10 @@ msgstr ""
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Η τρέχουσα συνεδρία σας θα αλλάξει στον επιλεγμένο χρήστη."
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} λεπ."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"

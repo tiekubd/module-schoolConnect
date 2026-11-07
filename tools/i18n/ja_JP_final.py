@@ -415,4 +415,5 @@ FINAL = {
 'Timetable Admin': '時間割管理',
 'Tracking': '学習状況の追跡',   # Gibbon/earlier: トラッキング (web tracking)
 'User Admin': 'ユーザー管理',
+'{count} min': '{count}分',   # Gibbon: empty (planner lesson length)
 }

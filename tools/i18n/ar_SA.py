@@ -595,7 +595,11 @@ T = {'A punctuation mark or space': 'علامة ترقيم أو مسافة',
  'Could not save for: {names}': 'تعذّر الحفظ لـ: {names}',
  'Last class of the day': 'آخر حصة في اليوم',
  'Taken today at {time}. Tap to review or change': 'سُجّل اليوم في {time}. اضغط للمراجعة أو التعديل',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'تم حفظ الحضور!',
+ 'Class now: {class}': 'الحصة الحالية: {class}',
+ 'Next class: {class}': 'الحصة التالية: {class}',
+ 'Left (user status)': 'غادر'}
 
 P = {'At least {count} character': ('{count} حرف على الأقل', 'حرف واحد على الأقل', 'حرفان على الأقل', '{count} أحرف على الأقل', '{count} حرفًا على الأقل', '{count} حرف على الأقل'),
  'Behaviour records saved for {count} student!': ('تم حفظ سجلات السلوك لـ {count} طالب!',
@@ -686,7 +690,8 @@ GAPS = {'Auto-Enrol Courses?': 'التسجيل التلقائي في المنا�
  'Teacher': 'معلم/معلمة',
  'Up to date': 'محدّث',
  'Update Staff Data': 'تحديث بيانات الموظف',
- 'Your active session will be switched to the selected user.': 'سيتم تبديل جلستك النشطة إلى المستخدم المحدد.'}
+ 'Your active session will be switched to the selected user.': 'سيتم تبديل جلستك النشطة إلى المستخدم المحدد.',
+ '{count} min': '{count} د'}
 
 OVERRIDES = {}
 

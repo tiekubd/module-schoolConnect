@@ -594,7 +594,11 @@ T = {'A punctuation mark or space': 'Bir noktalama işareti veya boşluk',
  'Could not save for: {names}': 'Şunlar için kaydedilemedi: {names}',
  'Last class of the day': 'Günün son dersi',
  'Taken today at {time}. Tap to review or change': 'Bugün {time} saatinde alındı. Gözden geçirmek veya değiştirmek için dokunun',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'Yoklama kaydedildi!',
+ 'Class now: {class}': 'Şu anki ders: {class}',
+ 'Next class: {class}': 'Sonraki ders: {class}',
+ 'Left (user status)': 'Ayrıldı'}
 
 P = {'At least {count} character': ('En az {count} karakter', 'En az {count} karakter'),
  'Behaviour records saved for {count} student!': ('{count} öğrenci için davranış kaydı kaydedildi!', '{count} öğrenci için davranış kayıtları kaydedildi!'),
@@ -654,7 +658,8 @@ GAPS = {'By Form Group': 'Şubeye Göre',
  'This student has one or more {level} risk medical conditions.': 'Bu öğrencinin {level} risk düzeyinde bir veya daha fazla sağlık durumu var.',
  "Today's Lessons": 'Bugünün Dersleri',
  'Under Enrolled': 'Kontenjan Dolmadı',
- 'Your active session will be switched to the selected user.': 'Etkin oturumunuz seçilen kullanıcıya geçirilecek.'}
+ 'Your active session will be switched to the selected user.': 'Etkin oturumunuz seçilen kullanıcıya geçirilecek.',
+ '{count} min': '{count} dk'}
 
 # Corrections to Gibbon's tr_TR, for the app only (more in tr_TR_review.py).
 OVERRIDES = {'Facility': 'Mekân'}

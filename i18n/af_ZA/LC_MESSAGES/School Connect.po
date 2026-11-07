@@ -27,7 +27,7 @@ msgstr ""
 "'n Aanmeldtoken, gestoor in die toestel se veilige berging (iOS Keychain of "
 "Android Keystore)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Oor en privaatheid"
@@ -72,7 +72,7 @@ msgid "All Year Groups"
 msgstr "Alle grade"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Vandag se klas is klaar"
@@ -83,7 +83,7 @@ msgstr[1] "Al {count} klasse vir vandag is klaar"
 msgid "An uppercase and a lowercase letter"
 msgstr "'n Hoofletter en 'n kleinletter"
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr "Toepassingweergawe, gekoppelde skool en jou data"
 
@@ -109,9 +109,14 @@ msgstr[1] "Minstens {count} karakters"
 msgid "Attendance This Year"
 msgstr "Bywoning vanjaar"
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
 msgstr "Bywoning is nog nie vandag geneem nie"
+
+#: lib/screens/attendance_screen.dart:134
+#: lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
+msgstr "Bywoning gestoor!"
 
 #: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
@@ -124,7 +129,7 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "Gedragsinskrywing gestoor vir {count} leerder!"
 msgstr[1] "Gedragsinskrywings gestoor vir {count} leerders!"
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr "Blaai deur personeelprofiele"
 
@@ -190,7 +195,7 @@ msgstr "Kies eers minstens een leerder"
 msgid "Choose one of your Form Groups"
 msgstr "Kies een van jou registerklasse"
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr "Klasafwesighede"
 
@@ -201,6 +206,11 @@ msgstr "Klasinskrywings"
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
 msgstr "Klaslys"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "Klas nou: {class}"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -532,9 +542,9 @@ msgstr "Kon nie verwyder nie"
 msgid "Could not reset password"
 msgstr "Kon nie die wagwoord herstel nie"
 
+#: lib/screens/attendance_screen.dart:134
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
-#: lib/screens/course_detail_screen.dart:321
 msgid "Could not save"
 msgstr "Kon nie stoor nie"
 
@@ -721,7 +731,7 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Aanmelding met Google, slegs as jou skool dit gebruik en jy dit kies"
 
-#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/dashboard_screen.dart:817
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -738,7 +748,7 @@ msgstr "In rooi: gemerk as “Aktief” maar buite hul begin-/einddatums."
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
-#: lib/screens/student_attendance_screen.dart:452
+#: lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr "Vakansiedag"
 
@@ -823,9 +833,13 @@ msgstr "Laaste 10 skooldae — per periode"
 msgid "Last 20 school days"
 msgstr "Laaste 20 skooldae"
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr "Laaste klas van die dag"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "Vertrek"
 
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
@@ -839,7 +853,7 @@ msgstr "Lisensiekontrole"
 msgid "Link staff-role people to their staff record"
 msgstr "Koppel mense met die personeelrol aan hul personeelrekord"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Teken gedrag aan"
@@ -848,7 +862,7 @@ msgstr "Teken gedrag aan"
 msgid "Logged in as"
 msgstr "Aangemeld as"
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr "Bestuur gebruikers en skoolinstellings"
 
@@ -868,7 +882,7 @@ msgstr "Neem vandag se bywoning"
 msgid "Mark read"
 msgstr "Merk as gelees"
 
-#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/dashboard_screen.dart:713
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Hoofrooster"
@@ -877,8 +891,8 @@ msgstr "Hoofrooster"
 msgid "Must be unique if set"
 msgstr "Moet uniek wees indien ingevul"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "My registerklasse"
@@ -887,6 +901,12 @@ msgstr "My registerklasse"
 #: lib/screens/course_manage_list_screen.dart:232
 msgid "Name and Short Name are required"
 msgstr "Naam en kort naam word vereis"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:683
+msgid "Next class: {class}"
+msgstr "Volgende klas: {class}"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
@@ -943,7 +963,7 @@ msgstr "Geen klasse vandag in hierdie lokaal nie"
 msgid "No classes scheduled"
 msgstr "Geen klasse geskeduleer nie"
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr "Geen klasse vandag geskeduleer nie"
 
@@ -956,7 +976,7 @@ msgid "No courses found"
 msgstr "Geen vakke gevind nie"
 
 #: lib/screens/homework_calendar_screen.dart:339
-#: lib/screens/student_attendance_screen.dart:397
+#: lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr "Geen data vir hierdie kwartaal nie"
 
@@ -1026,7 +1046,7 @@ msgstr "Geen mense gevind nie"
 msgid "No phone on record"
 msgstr "Geen telefoonnommer nie"
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr "Geen rekord nie"
 
@@ -1065,7 +1085,7 @@ msgstr "Geen roosterdata gevind nie"
 msgid "No timetable for this day"
 msgstr "Geen rooster vir hierdie dag nie"
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr "Geen rooster vir vandag nie"
 
@@ -1255,7 +1275,7 @@ msgstr "Kontakte met prioriteit 1 ontvang altyd alle soorte kontak."
 msgid "Qualified"
 msgstr "Gekwalifiseer"
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr "Vinnige toegang"
 
@@ -1386,7 +1406,7 @@ msgstr ""
 "Die skool se oop-, begin-, eind- en sluitingstye word nie hier ingestel nie "
 "— voltooi dit op die webwerf."
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr "Soek en bekyk leerderprofiele"
 
@@ -1438,7 +1458,7 @@ msgstr "Soek leerders..."
 msgid "Select Student"
 msgstr "Kies leerder"
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr "Periodes vanjaar as afwesig gemerk"
 
@@ -1488,12 +1508,12 @@ msgstr "Ingedien"
 msgid "Surname *"
 msgstr "Van *"
 
-#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/dashboard_screen.dart:424
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Wissel van rol"
 
-#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/dashboard_screen.dart:430
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1509,7 +1529,7 @@ msgid "Taken"
 msgstr "Geneem"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 msgid "Taken at {time}"
 msgstr "Geneem om {time}"
 
@@ -1590,21 +1610,21 @@ msgstr ""
 "Dit verwyder alle inskrywings- en roosterdata vir hierdie klas. Dit kan nie "
 "ontdoen word nie."
 
-#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/dashboard_screen.dart:722
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Rooster per lokaal"
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr "Vandag se rooster"
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr "Proeftoegang"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Proeftydperk — {count} dag oor"
@@ -1696,7 +1716,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Bekyk bywoning"
 
-#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/dashboard_screen.dart:938
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Bekyk volle rooster"
@@ -1713,7 +1733,7 @@ msgstr "Bekyk huiswerkkalender"
 msgid "View Timetable"
 msgstr "Bekyk rooster"
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "Bekyk en bestuur registerklasse"
 
@@ -1733,11 +1753,11 @@ msgstr "Bekyk lesplanne vir hierdie klas"
 msgid "View students in this class"
 msgstr "Bekyk leerders in hierdie klas"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr "Bekyk jou punte"
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr "Bekyk jou rapporte"
 
@@ -1751,7 +1771,7 @@ msgid "Virtual Classroom"
 msgstr "Aanlynklaskamer"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 msgid "Welcome, {name}!"
 msgstr "Welkom, {name}!"
 
@@ -1875,12 +1895,12 @@ msgid "until {time}"
 msgstr "tot {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} afwesig uit {total} aangetekende periodes"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} afwesig"
@@ -1903,6 +1923,7 @@ msgstr[1] "{count} assesserings"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
@@ -1910,23 +1931,23 @@ msgstr[0] "{count} klas"
 msgstr[1] "{count} klasse"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "{count} klas oor · {done} klaar"
 msgstr[1] "{count} klasse oor · {done} klaar"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} klas vandag"
 msgstr[1] "{count} klasse vandag"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:360
-#: lib/screens/student_attendance_screen.dart:363
-#: lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
 msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} dag"
@@ -1961,28 +1982,28 @@ msgstr[0] "{count} item"
 msgstr[1] "{count} items"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} laat"
 msgstr[1] "{count} laat"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/dashboard_screen.dart:992
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Nog {count} klas hierna · {total} vandag"
 msgstr[1] "Nog {count} klasse hierna · {total} vandag"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] "{count} skooldag in die kwartaal"
 msgstr[1] "{count} skooldae in die kwartaal"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"
 msgstr[0] "{count} skooldag in die skooljaar"
@@ -2142,6 +2163,10 @@ msgstr ""
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Jou huidige sessie sal na die gekose gebruiker oorgeskakel word."
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} min"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"

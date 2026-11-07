@@ -408,4 +408,5 @@ FINAL = {
 'Timetable Admin': 'Tvarkaraščio administratorius',
 'Tracking': 'Stebėjimas',
 'User Admin': 'Naudotojų administratorius',
+'{count} min': '{count} min.',   # Gibbon: empty (planner lesson length)
 }

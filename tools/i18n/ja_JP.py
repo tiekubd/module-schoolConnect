@@ -428,7 +428,11 @@ T = {'A punctuation mark or space': '句読点またはスペース',
  'Last class of the day': '本日最後の授業',
  'Taken today at {time}. Tap to review or change': '本日 {time} に取得。タップして確認・変更',
  '{label}: ': '{label}：',
- '{count} due': '提出期限 {count}件'}
+ '{count} due': '提出期限 {count}件',
+ 'Attendance saved!': '出欠を保存しました！',
+ 'Class now: {class}': '現在の授業：{class}',
+ 'Next class: {class}': '次の授業：{class}',
+ 'Left (user status)': '退籍'}
 
 P = {
 'At least {count} character': ('{count}文字以上',),
@@ -487,7 +491,8 @@ GAPS = {'Cancel Activities?': '課外活動を中止しますか？',
  'There are no lessons on this date.': 'この日の授業はありません。',
  'This student has one or more {level} risk medical conditions.': 'この生徒には、リスク「{level}」の疾患が1つ以上あります。',
  'Under Enrolled': '定員不足',
- 'Your active session will be switched to the selected user.': '現在のセッションを選択したユーザーに切り替えます。'}
+ 'Your active session will be switched to the selected user.': '現在のセッションを選択したユーザーに切り替えます。',
+ '{count} min': '{count}分'}
 
 # Corrections to Gibbon's ja_JP, for the app only (more in ja_JP_review.py).
 OVERRIDES = {'Enrolment': '登録', 'Facility': '施設', 'Late': '遅刻'}

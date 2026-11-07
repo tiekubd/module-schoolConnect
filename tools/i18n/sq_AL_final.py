@@ -408,4 +408,5 @@ FINAL = {
 'Timetable Admin': 'Admin i Orarit',            # Gibbon: Orari i Admin (the admin's timetable)
 'Tracking': 'Ndjekja',
 'User Admin': 'Admin i Përdoruesve',
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

@@ -70,13 +70,13 @@ msgstr "Homeroom *"
 msgid "Licence check"
 msgstr "License check"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Log Behavior"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "My Homerooms"
@@ -127,7 +127,7 @@ msgstr ""
 "This removes all enrollment and timetable data for this class. This cannot "
 "be undone."
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "View and manage Homerooms"
 

@@ -416,4 +416,5 @@ FINAL = {
 'Timetable Admin': 'Administração de Horário',
 'Tracking': 'Monitorização',   # Gibbon: Rastreamento (tracking a parcel)
 'User Admin': 'Administração de Utilizadores',
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

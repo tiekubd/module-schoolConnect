@@ -425,7 +425,11 @@ T = {'A punctuation mark or space': '一个标点符号或空格',
  '{count}h ago': '{count} 小时前',
  '{count}m ago': '{count} 分钟前',
  '{label}: ': '{label}：',
- '— None —': '— 无 —'}
+ '— None —': '— 无 —',
+ 'Attendance saved!': '考勤已保存！',
+ 'Class now: {class}': '当前课程：{class}',
+ 'Next class: {class}': '下一节课：{class}',
+ 'Left (user status)': '离校'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 节已完成',),
  'At least {count} character': ('至少 {count} 个字符',),
@@ -462,7 +466,8 @@ GAPS = {'Impersonate User': '以其他用户身份登录',
  'Layers': '图层',
  'Teacher': '教师',
  'This student has one or more {level} risk medical conditions.': '此学生有一项或多项{level}风险的病况。',
- 'Your active session will be switched to the selected user.': '您当前的会话将切换至所选用户。'}
+ 'Your active session will be switched to the selected user.': '您当前的会话将切换至所选用户。',
+ '{count} min': '{count} 分钟'}
 
 OVERRIDES = {}
 

@@ -667,7 +667,11 @@ T = {'A punctuation mark or space': 'Un signe de ponctuation ou une espace',
  'Could not save for: {names}': 'Enregistrement impossible pour\xa0: {names}',
  'Last class of the day': 'Dernier cours de la journée',
  'Taken today at {time}. Tap to review or change': 'Prises aujourd’hui à {time}. Touchez pour vérifier ou modifier',
- '{label}: ': '{label}\xa0: '}
+ '{label}: ': '{label}\xa0: ',
+ 'Attendance saved!': 'Présences enregistrées !',
+ 'Class now: {class}': 'En ce moment : {class}',
+ 'Next class: {class}': 'Prochain cours : {class}',
+ 'Left (user status)': 'Parti'}
 
 P = {'At least {count} character': ('Au moins {count} caractère', 'Au moins {count} caractères'),
  'Behaviour records saved for {count} student!': ('Fiche de comportement enregistrée pour {count} élève\xa0!', 'Fiches de comportement enregistrées pour {count} élèves\xa0!'),
@@ -707,7 +711,8 @@ GAPS = {'By Form Group': 'Par classe',
  'Should this student be automatically enrolled in courses for their Form Group?': 'Cet élève doit-il être inscrit automatiquement aux matières de sa classe\u202f?',
  'Teacher': 'Enseignant(e)',
  'This student has one or more {level} risk medical conditions.': 'Cet élève a un ou plusieurs problèmes de santé à risque {level}.',
- 'Your active session will be switched to the selected user.': 'Votre session active passera à l’utilisateur choisi.'}
+ 'Your active session will be switched to the selected user.': 'Votre session active passera à l’utilisateur choisi.',
+ '{count} min': '{count} min'}
 
 # Corrections to Gibbon's French, for the app only (the module file wins).
 OVERRIDES = {}

@@ -1,6 +1,5 @@
 # pl_PL: review of Gibbon's own translations as the app shows them (build_po applies both).
-# Gibbon's Polish file needed most strings corrected (Klasa wychowawcza for year group, Przedmiot for class,
-# Korepetytor for tutor, Nazwisko rodowe for official name, Terminarz for homework...). Source: pl_PL_final.py.
+# Source: pl_PL_final.py (comments there say what Gibbon had where it matters).
 
 AUTO = {}
 

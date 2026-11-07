@@ -407,4 +407,5 @@ FINAL = {
 'Timetable Admin': 'Διαχειριστής προγράμματος',
 'Tracking': 'Παρακολούθηση',
 'User Admin': 'Διαχειριστής χρηστών',
+'{count} min': '{count} λεπ.',   # Gibbon: empty (planner lesson length)
 }

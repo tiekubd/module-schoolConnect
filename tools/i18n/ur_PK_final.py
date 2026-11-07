@@ -409,4 +409,5 @@ FINAL = {
 'Timetable Admin': 'ٹائم ٹیبل ایڈمن',
 'Tracking': 'پیش رفت کی نگرانی',
 'User Admin': 'یوزر ایڈمن',
+'{count} min': '{count} منٹ',   # Gibbon: empty (planner lesson length)
 }

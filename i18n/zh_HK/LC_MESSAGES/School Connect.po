@@ -25,7 +25,7 @@ msgid ""
 "Android Keystore)"
 msgstr "登入憑證，儲存在裝置的安全儲存區（iOS 鑰匙圈或 Android Keystore）"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "關於及私隱"
@@ -70,7 +70,7 @@ msgid "All Year Groups"
 msgstr "所有年級"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "今天全部 {count} 節已完成"
@@ -80,7 +80,7 @@ msgstr[0] "今天全部 {count} 節已完成"
 msgid "An uppercase and a lowercase letter"
 msgstr "一個大寫字母及一個小寫字母"
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr "App 版本、已連接的學校及你的資料"
 
@@ -105,9 +105,14 @@ msgstr[0] "最少 {count} 個字元"
 msgid "Attendance This Year"
 msgstr "本年出席"
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
 msgstr "今天尚未點名"
+
+#: lib/screens/attendance_screen.dart:134
+#: lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
+msgstr "出席紀錄已儲存！"
 
 #: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
@@ -119,7 +124,7 @@ msgid "Behaviour records saved for {count} student!"
 msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "已為 {count} 名學生儲存行為紀錄！"
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr "瀏覽教職員檔案"
 
@@ -182,7 +187,7 @@ msgstr "請先選擇最少一名學生"
 msgid "Choose one of your Form Groups"
 msgstr "選擇你的其中一個班別"
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr "課堂缺席"
 
@@ -193,6 +198,11 @@ msgstr "科目班報名"
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
 msgstr "科目班名單"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "現正上課：{class}"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -519,9 +529,9 @@ msgstr "無法移除"
 msgid "Could not reset password"
 msgstr "無法重設密碼"
 
+#: lib/screens/attendance_screen.dart:134
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
-#: lib/screens/course_detail_screen.dart:321
 msgid "Could not save"
 msgstr "無法儲存"
 
@@ -704,7 +714,7 @@ msgstr "Gibbon™ 是 Gibbon Education Ltd.（香港）的商標，經許可使�
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Google 登入，只限學校有使用而你亦選擇使用時"
 
-#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/dashboard_screen.dart:817
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -721,7 +731,7 @@ msgstr "紅色標示：已標記為 'Full'，但不在開始／結束日期範�
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
-#: lib/screens/student_attendance_screen.dart:452
+#: lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr "假期"
 
@@ -799,9 +809,13 @@ msgstr "最近 10 個上課日 — 按節數"
 msgid "Last 20 school days"
 msgstr "最近 20 個上課日"
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr "今天最後一節"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "離校"
 
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
@@ -815,7 +829,7 @@ msgstr "授權檢查"
 msgid "Link staff-role people to their staff record"
 msgstr "將教職員角色的人員連結至其教職員紀錄"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "記錄行為"
@@ -824,7 +838,7 @@ msgstr "記錄行為"
 msgid "Logged in as"
 msgstr "登入身分"
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr "管理用戶及學校設定"
 
@@ -844,7 +858,7 @@ msgstr "為今天點名"
 msgid "Mark read"
 msgstr "標示為已讀"
 
-#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/dashboard_screen.dart:713
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "總時間表"
@@ -853,8 +867,8 @@ msgstr "總時間表"
 msgid "Must be unique if set"
 msgstr "如有填寫則不可重複"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "我的班別"
@@ -863,6 +877,12 @@ msgstr "我的班別"
 #: lib/screens/course_manage_list_screen.dart:232
 msgid "Name and Short Name are required"
 msgstr "必須填寫名稱及簡稱"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:683
+msgid "Next class: {class}"
+msgstr "下一節課：{class}"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
@@ -916,7 +936,7 @@ msgstr "今天此課室沒有課"
 msgid "No classes scheduled"
 msgstr "沒有編排課堂"
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr "今天沒有編排課堂"
 
@@ -929,7 +949,7 @@ msgid "No courses found"
 msgstr "找不到課程"
 
 #: lib/screens/homework_calendar_screen.dart:339
-#: lib/screens/student_attendance_screen.dart:397
+#: lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr "本學期沒有資料"
 
@@ -999,7 +1019,7 @@ msgstr "找不到人員"
 msgid "No phone on record"
 msgstr "沒有電話紀錄"
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr "沒有紀錄"
 
@@ -1038,7 +1058,7 @@ msgstr "找不到時間表資料"
 msgid "No timetable for this day"
 msgstr "當天沒有時間表"
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr "今天沒有時間表"
 
@@ -1215,7 +1235,7 @@ msgstr "第一優先聯絡人會收到所有類型的聯絡。"
 msgid "Qualified"
 msgstr "合資格"
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr "快捷功能"
 
@@ -1338,7 +1358,7 @@ msgid ""
 " on the website."
 msgstr "學校開門、上課、放學及關門時間不在此設定 — 請在網站完成這些詳情。"
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr "搜尋及查看學生資料"
 
@@ -1390,7 +1410,7 @@ msgstr "搜尋學生…"
 msgid "Select Student"
 msgstr "選擇學生"
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr "本年標示為缺席的節數"
 
@@ -1438,12 +1458,12 @@ msgstr "已提交"
 msgid "Surname *"
 msgstr "姓氏 *"
 
-#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/dashboard_screen.dart:424
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "切換角色"
 
-#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/dashboard_screen.dart:430
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1459,7 +1479,7 @@ msgid "Taken"
 msgstr "已點名"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 msgid "Taken at {time}"
 msgstr "{time} 已點名"
 
@@ -1529,21 +1549,21 @@ msgid ""
 " undone."
 msgstr "這會刪除此科目班的所有報名及時間表資料。此操作無法復原。"
 
-#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/dashboard_screen.dart:722
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "場地時間表"
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr "今天的時間表"
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr "試用"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "試用 — 尚餘 {count} 天"
@@ -1632,7 +1652,7 @@ msgstr "視像課堂：網上課堂使用學校選擇的視像服務（預設為
 msgid "View Attendance"
 msgstr "查看出席"
 
-#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/dashboard_screen.dart:938
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "查看完整時間表"
@@ -1649,7 +1669,7 @@ msgstr "查看家庭作業日曆"
 msgid "View Timetable"
 msgstr "查看時間表"
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "查看及管理班別"
 
@@ -1669,11 +1689,11 @@ msgstr "查看此科目班的課堂計劃"
 msgid "View students in this class"
 msgstr "查看此科目班的學生"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr "查看你的成績"
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr "查看你的成績報告"
 
@@ -1687,7 +1707,7 @@ msgid "Virtual Classroom"
 msgstr "網上課室"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 msgid "Welcome, {name}!"
 msgstr "歡迎，{name}！"
 
@@ -1797,12 +1817,12 @@ msgid "until {time}"
 msgstr "至 {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "已記錄 {total} 節中缺席 {absent} 節"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} 人缺席"
@@ -1822,27 +1842,28 @@ msgstr[0] "{count} 項評估"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} 個科目班"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "尚餘 {count} 節 · 已完成 {done} 節"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "今天 {count} 節"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:360
-#: lib/screens/student_attendance_screen.dart:363
-#: lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
 msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} 天"
@@ -1872,25 +1893,25 @@ msgid_plural "{count} items"
 msgstr[0] "{count} 項"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} 人遲到"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/dashboard_screen.dart:992
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "之後尚有 {count} 節 · 今天共 {total} 節"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] "本學期 {count} 個上課日"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"
 msgstr[0] "本學年 {count} 個上課日"
@@ -2236,6 +2257,10 @@ msgstr "查看成績報告"
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "你目前的工作階段將切換至所選用戶。"
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} 分鐘"
 
 # Gibbon core string: missing from its file for this language
 msgid "Tracking"
