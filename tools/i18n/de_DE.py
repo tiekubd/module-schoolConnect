@@ -648,7 +648,7 @@ P = {'At least {count} character': ('Mindestens {count} Zeichen', 'Mindestens {c
  'Behaviour records saved for {count} student!': ('Verhaltenseintrag für {count} Schüler/in gespeichert!', 'Verhaltenseinträge für {count} Schüler/innen gespeichert!'),
  'Day Absent': ('Tag abwesend', 'Tage abwesend'),
  'Day Present': ('Tag anwesend', 'Tage anwesend'),
- 'Trial — {count} day left': ('Test — noch {count} Tag', 'Test — noch {count} Tage'),
+ 'Trial — {count} day left': ('Testphase — noch {count} Tag', 'Testphase — noch {count} Tage'),
  '{count} assessment': ('{count} Leistungsnachweis', '{count} Leistungsnachweise'),
  '{count} class': ('{count} Lerngruppe', '{count} Lerngruppen'),
  '{count} day': ('{count} Tag', '{count} Tage'),

@@ -1618,8 +1618,8 @@ msgstr "Testzugang"
 #: lib/screens/dashboard_screen.dart:529
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
-msgstr[0] "Test — noch {count} Tag"
-msgstr[1] "Test — noch {count} Tage"
+msgstr[0] "Testphase — noch {count} Tag"
+msgstr[1] "Testphase — noch {count} Tage"
 
 #: lib/screens/admin_screen.dart:167
 msgid "Troubleshoot by seeing the app as another user"
