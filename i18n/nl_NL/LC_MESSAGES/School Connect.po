@@ -54,7 +54,7 @@ msgstr "Gebruikersaccounts toevoegen, bewerken en verwijderen"
 
 #: lib/screens/course_manage_list_screen.dart:303
 msgid "Adjusts arrangement of courses in reports."
-msgstr "Bepaalt de volgorde van cursussen in rapporten."
+msgstr "Bepaalt de volgorde van vakken in rapporten."
 
 #: lib/screens/family_detail_screen.dart:178
 msgid "Adult settings updated"
@@ -69,7 +69,7 @@ msgstr "Alle typen"
 #: lib/screens/course_manage_list_screen.dart:120
 #: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
 msgid "All Year Groups"
-msgstr "Alle jaargangen"
+msgstr "Alle leerjaren"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:998
@@ -121,8 +121,8 @@ msgstr "Gedragsnotitie opgeslagen!"
 #: lib/screens/log_behaviour_screen.dart:219
 msgid "Behaviour records saved for {count} student!"
 msgid_plural "Behaviour records saved for {count} students!"
-msgstr[0] "Gedragsnotitie opgeslagen voor {count} student!"
-msgstr[1] "Gedragsnotities opgeslagen voor {count} studenten!"
+msgstr[0] "Gedragsnotitie opgeslagen voor {count} leerling!"
+msgstr[1] "Gedragsnotities opgeslagen voor {count} leerlingen!"
 
 #: lib/screens/dashboard_screen.dart:795
 msgid "Browse staff profiles"
@@ -131,7 +131,7 @@ msgstr "Profielen van personeel bekijken"
 #: lib/screens/attendance_menu_screen.dart:71
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
-msgstr "Per vak"
+msgstr "Per lesgroep"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -171,7 +171,7 @@ msgstr "Naam in Chinees of een ander tekenschrift"
 
 #: lib/screens/planner_list_screen.dart:189
 msgid "Choose a class above"
-msgstr "Kies hierboven een vak"
+msgstr "Kies hierboven een lesgroep"
 
 #: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
@@ -179,11 +179,11 @@ msgstr "Kies een klas"
 
 #: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
-msgstr "Kies een van je vakken"
+msgstr "Kies een van je lesgroepen"
 
 #: lib/screens/log_behaviour_screen.dart:161
 msgid "Choose at least one student first"
-msgstr "Kies eerst minstens één student"
+msgstr "Kies eerst minstens één leerling"
 
 #: lib/screens/attendance_menu_screen.dart:84
 msgid "Choose one of your Form Groups"
@@ -191,15 +191,15 @@ msgstr "Kies een van je klassen"
 
 #: lib/screens/student_attendance_screen.dart:205
 msgid "Class Absences"
-msgstr "Afwezigheid in vak"
+msgstr "Afwezigheid bij lessen"
 
 #: lib/screens/person_enrolment_screen.dart:97
 msgid "Class Enrolments"
-msgstr "Inschrijvingen voor vakken"
+msgstr "Inschrijvingen voor lesgroepen"
 
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
-msgstr "Leerlingenlijst van vak"
+msgstr "Leerlingenlijst van lesgroep"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -305,16 +305,16 @@ msgstr "Kinderen laden mislukt"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:50
 msgid "Could not load classes"
-msgstr "Vakken laden mislukt"
+msgstr "Lesgroepen laden mislukt"
 
 #: lib/screens/course_detail_screen.dart:57
 msgid "Could not load course"
-msgstr "Cursus laden mislukt"
+msgstr "Vak laden mislukt"
 
 #: lib/screens/course_manage_list_screen.dart:64
 #: lib/screens/courses_screen.dart:58
 msgid "Could not load courses"
-msgstr "Cursussen laden mislukt"
+msgstr "Vakken laden mislukt"
 
 #: lib/screens/attendance_screen.dart:118
 #: lib/screens/form_group_attendance_screen.dart:110
@@ -380,11 +380,11 @@ msgstr "Cijfers laden mislukt"
 #: lib/screens/student_homework_section.dart:117
 #: lib/screens/student_homework_section.dart:87
 msgid "Could not load homework"
-msgstr "Opdrachten laden mislukt"
+msgstr "Huiswerk laden mislukt"
 
 #: lib/screens/homework_calendar_screen.dart:138
 msgid "Could not load homework calendar"
-msgstr "Opdrachtenkalender laden mislukt"
+msgstr "Huiswerkkalender laden mislukt"
 
 #: lib/screens/finance_invoice_detail_screen.dart:59
 msgid "Could not load invoice"
@@ -487,7 +487,7 @@ msgstr "Personeelsgegevens laden mislukt"
 #: lib/screens/student_search_screen.dart:99
 #: lib/screens/students_screen.dart:66
 msgid "Could not load students"
-msgstr "Studenten laden mislukt"
+msgstr "Leerlingen laden mislukt"
 
 #: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
@@ -594,7 +594,7 @@ msgstr "Gekoppeld personeelsrecord aanmaken"
 
 #: lib/screens/user_edit_screen.dart:685
 msgid "Create linked student enrolment"
-msgstr "Gekoppelde inschrijving van student aanmaken"
+msgstr "Gekoppelde inschrijving van leerling aanmaken"
 
 #: lib/screens/school_year_picker_screen.dart:114
 msgid "Current year"
@@ -619,11 +619,11 @@ msgstr[1] "Dagen aanwezig"
 
 #: lib/screens/course_detail_screen.dart:124
 msgid "Delete Class"
-msgstr "Vak verwijderen"
+msgstr "Lesgroep verwijderen"
 
 #: lib/screens/course_detail_screen.dart:74
 msgid "Delete Course"
-msgstr "Cursus verwijderen"
+msgstr "Vak verwijderen"
 
 #: lib/screens/special_days_screen.dart:427
 msgid "Delete Special Day"
@@ -661,11 +661,11 @@ msgstr "E-mail: moet uniek zijn"
 
 #: lib/screens/course_manage_list_screen.dart:321
 msgid "Enrolable Year Groups"
-msgstr "Jaargangen met open inschrijving"
+msgstr "Leerjaren met open inschrijving"
 
 #: lib/screens/admin_screen.dart:79
 msgid "Enroll existing students into the active school year"
-msgstr "Bestaande studenten inschrijven in het actieve schooljaar"
+msgstr "Bestaande leerlingen inschrijven in het actieve schooljaar"
 
 #: lib/screens/data_personal_edit_screen.dart:414
 msgid "Family name as shown in ID documents"
@@ -677,7 +677,7 @@ msgstr "Vul eerst voornaam, achternaam, roepnaam en primaire rol in"
 
 #: lib/screens/course_manage_list_screen.dart:115
 msgid "Filter by Year Group"
-msgstr "Filteren op jaargang"
+msgstr "Filteren op leerjaar"
 
 #: lib/screens/user_edit_screen.dart:497
 msgid "First Name *"
@@ -748,13 +748,13 @@ msgstr "Vakantie"
 
 #: lib/screens/homework_calendar_screen.dart:28
 msgid "Homework Calendar"
-msgstr "Opdrachtenkalender"
+msgstr "Huiswerkkalender"
 
 #: lib/screens/homework_calendar_screen.dart:202
 #: lib/screens/homework_calendar_screen.dart:203
 #: lib/screens/homework_calendar_screen.dart:381
 msgid "Homework due"
-msgstr "In te leveren opdrachten"
+msgstr "In te leveren huiswerk"
 
 #: lib/screens/student_homework_section.dart:151
 msgid "Homework removed."
@@ -931,13 +931,13 @@ msgstr "Geen kinderen gekoppeld aan dit account"
 
 #: lib/screens/class_detail_screen.dart:202
 msgid "No class"
-msgstr "Geen vak"
+msgstr "Geen les"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
 #: lib/screens/courses_screen.dart:172
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
-msgstr "Geen vakken gevonden"
+msgstr "Geen lesgroepen gevonden"
 
 #: lib/screens/facility_timetable_screen.dart:204
 msgid "No classes in this room today"
@@ -953,11 +953,11 @@ msgstr "Vandaag geen lessen gepland"
 
 #: lib/screens/course_detail_screen.dart:185
 msgid "No classes yet"
-msgstr "Nog geen vakken"
+msgstr "Nog geen lesgroepen"
 
 #: lib/screens/course_manage_list_screen.dart:133
 msgid "No courses found"
-msgstr "Geen cursussen gevonden"
+msgstr "Geen vakken gevonden"
 
 #: lib/screens/homework_calendar_screen.dart:339
 #: lib/screens/student_attendance_screen.dart:397
@@ -999,7 +999,7 @@ msgstr "Geen geschiedenis beschikbaar"
 
 #: lib/screens/student_homework_section.dart:246
 msgid "No homework recorded."
-msgstr "Geen opdrachten geregistreerd."
+msgstr "Geen huiswerk geregistreerd."
 
 #: lib/screens/finance_invoices_screen.dart:126
 msgid "No invoices to display"
@@ -1049,13 +1049,13 @@ msgstr "Geen personeel gevonden"
 
 #: lib/screens/student_enrolment_list_screen.dart:170
 msgid "No students enrolled this year"
-msgstr "Dit jaar geen studenten ingeschreven"
+msgstr "Dit jaar geen leerlingen ingeschreven"
 
 #: lib/screens/form_group_detail_screen.dart:229
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
-msgstr "Geen studenten gevonden"
+msgstr "Geen leerlingen gevonden"
 
 #: lib/screens/special_days_screen.dart:156
 msgid "No terms found for this school year"
@@ -1097,7 +1097,7 @@ msgstr "Momenteel niet ingeschreven"
 
 #: lib/screens/person_enrolment_screen.dart:112
 msgid "Not enrolled in any classes yet"
-msgstr "Nog voor geen enkel vak ingeschreven"
+msgstr "Nog voor geen enkele lesgroep ingeschreven"
 
 #: lib/screens/about_screen.dart:78
 msgid "Not reported: update the School Connect module"
@@ -1113,8 +1113,8 @@ msgid ""
 "course enrolment on the website if this student needs it."
 msgstr ""
 "Hier nog niet beschikbaar — inschrijven via de app voegt niet automatisch "
-"cursussen toe. Rond de inschrijving voor cursussen af op de website als deze"
-" student dat nodig heeft."
+"vakken toe. Rond de inschrijving voor vakken af op de website als deze "
+"leerling dat nodig heeft."
 
 #: lib/screens/my_timetable_screen.dart:440
 msgid "Nothing scheduled"
@@ -1144,7 +1144,7 @@ msgstr "Alleen personen met een personeelsrol die nog geen personeel zijn."
 
 #: lib/screens/student_enrolment_edit_screen.dart:207
 msgid "Only includes students not enrolled in this school year."
-msgstr "Alleen studenten die niet in dit schooljaar zijn ingeschreven."
+msgstr "Alleen leerlingen die niet in dit schooljaar zijn ingeschreven."
 
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
@@ -1182,7 +1182,7 @@ msgstr "Definitief verwijderen"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_detail_screen.dart:75
 msgid "Permanently delete \"{name}\" and all of its classes?"
-msgstr "\"{name}\" en al zijn vakken definitief verwijderen?"
+msgstr "\"{name}\" en al zijn lesgroepen definitief verwijderen?"
 
 #: lib/screens/about_screen.dart:257
 msgid "Permissions"
@@ -1211,11 +1211,11 @@ msgstr "Kies een type"
 #: lib/screens/student_enrolment_edit_screen.dart:134
 #: lib/screens/user_edit_screen.dart:393
 msgid "Please select a Year Group and Form Group"
-msgstr "Kies een jaargang en een klas"
+msgstr "Kies een leerjaar en een klas"
 
 #: lib/screens/person_enrolment_screen.dart:200
 msgid "Please select a class and a role"
-msgstr "Kies een vak en een rol"
+msgstr "Kies een lesgroep en een rol"
 
 #: lib/screens/staff_edit_screen.dart:168
 msgid "Please select a person"
@@ -1227,7 +1227,7 @@ msgstr "Kies een persoon en een rol"
 
 #: lib/screens/student_enrolment_edit_screen.dart:130
 msgid "Please select a student"
-msgstr "Kies een student"
+msgstr "Kies een leerling"
 
 #: lib/screens/data_updates_screen.dart:174
 msgid ""
@@ -1289,7 +1289,7 @@ msgstr "Kind verwijderen"
 
 #: lib/screens/person_enrolment_screen.dart:74
 msgid "Remove Class"
-msgstr "Vak verwijderen"
+msgstr "Lesgroep verwijderen"
 
 #: lib/screens/student_enrolment_list_screen.dart:85
 msgid "Remove Enrolment"
@@ -1306,7 +1306,7 @@ msgstr "Inschrijving voor {class} verwijderen?"
 
 #: lib/screens/course_class_roster_screen.dart:74
 msgid "Remove from Class"
-msgstr "Uit vak verwijderen"
+msgstr "Uit lesgroep verwijderen"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/staff_manage_list_screen.dart:89
@@ -1316,7 +1316,7 @@ msgstr "{name} uit het personeel verwijderen?"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_class_roster_screen.dart:75
 msgid "Remove {name} from this class?"
-msgstr "{name} uit dit vak verwijderen?"
+msgstr "{name} uit deze lesgroep verwijderen?"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/family_detail_screen.dart:128
@@ -1375,7 +1375,7 @@ msgid ""
 "receive, store or see this information."
 msgstr ""
 "School Connect toont informatie uit het eigen Gibbon-systeem van je school: "
-"lesroosters, aanwezigheid, cijfers, opdrachten, rapporten, berichten en de "
+"lesroosters, aanwezigheid, cijfers, huiswerk, rapporten, berichten en de "
 "gegevens van je gezin. De app maakt rechtstreeks en alleen verbinding met de"
 " Gibbon-server van je school, via een versleutelde (HTTPS-)verbinding. High "
 "Point Education ontvangt, bewaart of ziet deze informatie niet."
@@ -1390,16 +1390,16 @@ msgstr ""
 
 #: lib/screens/dashboard_screen.dart:784
 msgid "Search and view student profiles"
-msgstr "Profielen van studenten zoeken en bekijken"
+msgstr "Profielen van leerlingen zoeken en bekijken"
 
 #: lib/screens/course_manage_list_screen.dart:97
 msgid "Search by course name..."
-msgstr "Zoeken op cursusnaam…"
+msgstr "Zoeken op vaknaam…"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:76
 #: lib/screens/person_enrolment_screen.dart:257
 msgid "Search by course or class name..."
-msgstr "Zoeken op naam van cursus of vak…"
+msgstr "Zoeken op naam van vak of lesgroep…"
 
 #: lib/screens/family_list_screen.dart:99
 msgid "Search by family name..."
@@ -1411,7 +1411,7 @@ msgstr "Zoeken op naam of initialen…"
 
 #: lib/screens/student_search_screen.dart:265
 msgid "Search by name or student ID..."
-msgstr "Zoeken op naam of studentnummer…"
+msgstr "Zoeken op naam of leerlingnummer…"
 
 #: lib/screens/course_class_roster_screen.dart:269
 #: lib/screens/course_enrolment_by_person_screen.dart:69
@@ -1421,11 +1421,11 @@ msgstr "Zoeken op naam of gebruikersnaam…"
 
 #: lib/screens/user_list_screen.dart:274
 msgid "Search by name, username, email, student ID..."
-msgstr "Zoeken op naam, gebruikersnaam, e-mail, studentnummer…"
+msgstr "Zoeken op naam, gebruikersnaam, e-mail, leerlingnummer…"
 
 #: lib/screens/courses_screen.dart:109
 msgid "Search classes..."
-msgstr "Vakken zoeken…"
+msgstr "Lesgroepen zoeken…"
 
 #: lib/screens/facility_list_screen.dart:139
 msgid "Search rooms..."
@@ -1434,11 +1434,11 @@ msgstr "Lokalen zoeken…"
 #: lib/screens/form_group_detail_screen.dart:208
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
-msgstr "Studenten zoeken…"
+msgstr "Leerlingen zoeken…"
 
 #: lib/screens/student_search_screen.dart:234
 msgid "Select Student"
-msgstr "Student kiezen"
+msgstr "Leerling kiezen"
 
 #: lib/screens/student_attendance_screen.dart:209
 msgid "Sessions marked Out this year"
@@ -1470,15 +1470,15 @@ msgstr "Personeelsrecord aangemaakt"
 
 #: lib/screens/student_enrolment_edit_screen.dart:207
 msgid "Student *"
-msgstr "Student *"
+msgstr "Leerling *"
 
 #: lib/screens/class_detail_screen.dart:223
 msgid "Student List"
-msgstr "Studentenlijst"
+msgstr "Leerlingenlijst"
 
 #: lib/screens/student_enrolment_list_screen.dart:123
 msgid "Student enrolled successfully"
-msgstr "Student ingeschreven"
+msgstr "Leerling ingeschreven"
 
 #: lib/screens/data_family_edit_screen.dart:126
 #: lib/screens/data_finance_edit_screen.dart:122
@@ -1503,7 +1503,7 @@ msgstr "Van schooljaar wisselen"
 
 #: lib/screens/attendance_menu_screen.dart:62
 msgid "Take attendance for this class"
-msgstr "Aanwezigheid voor dit vak registreren"
+msgstr "Aanwezigheid voor deze lesgroep registreren"
 
 #: lib/screens/class_detail_screen.dart:194
 #: lib/screens/form_group_detail_screen.dart:166
@@ -1553,8 +1553,8 @@ msgid ""
 "This also removes all enrolment and timetable data for those classes. This "
 "cannot be undone."
 msgstr ""
-"Dit verwijdert ook alle inschrijvingen en roostergegevens van die vakken. "
-"Dit kan niet ongedaan worden gemaakt."
+"Dit verwijdert ook alle inschrijvingen en roostergegevens van die "
+"lesgroepen. Dit kan niet ongedaan worden gemaakt."
 
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
@@ -1566,8 +1566,8 @@ msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr ""
-"Dit vak staat niet ingeroosterd op {date}. Je kunt de aanwezigheid zo nodig "
-"toch opslaan."
+"Deze lesgroep staat niet ingeroosterd op {date}. Je kunt de aanwezigheid zo "
+"nodig toch opslaan."
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1589,8 +1589,8 @@ msgid ""
 "This removes all enrolment and timetable data for this class. This cannot be"
 " undone."
 msgstr ""
-"Dit verwijdert alle inschrijvingen en roostergegevens van dit vak. Dit kan "
-"niet ongedaan worden gemaakt."
+"Dit verwijdert alle inschrijvingen en roostergegevens van deze lesgroep. Dit"
+" kan niet ongedaan worden gemaakt."
 
 #: lib/screens/dashboard_screen.dart:720
 #: lib/screens/facility_list_screen.dart:118
@@ -1709,7 +1709,7 @@ msgstr "Cijfers bekijken"
 
 #: lib/screens/homework_due_dates_card.dart:83
 msgid "View Homework Calendar"
-msgstr "Opdrachtenkalender bekijken"
+msgstr "Huiswerkkalender bekijken"
 
 #: lib/screens/staff_directory_screen.dart:488
 msgid "View Timetable"
@@ -1721,7 +1721,7 @@ msgstr "Klassen bekijken en beheren"
 
 #: lib/screens/class_detail_screen.dart:240
 msgid "View class grades"
-msgstr "Cijfers van het vak bekijken"
+msgstr "Cijfers van de lesgroep bekijken"
 
 #: lib/screens/admin_screen.dart:53
 msgid "View families, contacts, and children"
@@ -1729,11 +1729,11 @@ msgstr "Gezinnen, contacten en kinderen bekijken"
 
 #: lib/screens/class_detail_screen.dart:269
 msgid "View lesson plans for this class"
-msgstr "Lesplannen van dit vak bekijken"
+msgstr "Lesplannen van deze lesgroep bekijken"
 
 #: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
-msgstr "Studenten in dit vak bekijken"
+msgstr "Leerlingen in deze lesgroep bekijken"
 
 #: lib/screens/dashboard_screen.dart:817
 msgid "View your grades"
@@ -1768,15 +1768,15 @@ msgstr "Wat de app op dit apparaat bewaart"
 #: lib/screens/student_enrolment_edit_screen.dart:221
 #: lib/screens/user_edit_screen.dart:690
 msgid "Year Group *"
-msgstr "Jaargang *"
+msgstr "Leerjaar *"
 
 #: lib/screens/special_days_screen.dart:515
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
 msgstr ""
-"Je stelt hier niet in voor welke jaargang of klas dit geldt — het geldt voor"
-" iedereen totdat het op de website is afgerond."
+"Je stelt hier niet in voor welk leerjaar of klas dit geldt — het geldt voor "
+"iedereen totdat het op de website is afgerond."
 
 #: lib/screens/impersonation_banner.dart:75
 msgid "You are back in your own account."
@@ -1790,12 +1790,12 @@ msgid ""
 "not appear in previous years)."
 msgstr ""
 "Je bekijkt schooljaar {year}, dat niet het huidige jaar is. Gegevens kunnen "
-"afwijken (studenten die de school hebben verlaten, verschijnen bijvoorbeeld "
-"niet in eerdere jaren)."
+"afwijken (leerlingen die de school hebben verlaten, verschijnen bijvoorbeeld"
+" niet in eerdere jaren)."
 
 #: lib/screens/student_homework_section.dart:226
 msgid "You can use this section to record your own homework."
-msgstr "In dit onderdeel kun je je eigen opdrachten bijhouden."
+msgstr "In dit onderdeel kun je je eigen huiswerk bijhouden."
 
 #: lib/screens/data_family_edit_screen.dart:183
 msgid ""
@@ -1909,8 +1909,8 @@ msgstr[1] "{count} toetsen"
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
-msgstr[0] "{count} vak"
-msgstr[1] "{count} vakken"
+msgstr[0] "{count} lesgroep"
+msgstr[1] "{count} lesgroepen"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:994
@@ -2012,15 +2012,15 @@ msgstr[1] "{count} personeelsleden"
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"
 msgid_plural "{count} students"
-msgstr[0] "{count} student"
-msgstr[1] "{count} studenten"
+msgstr[0] "{count} leerling"
+msgstr[1] "{count} leerlingen"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/student_enrolment_list_screen.dart:152
 msgid "{count} student enrolled"
 msgid_plural "{count} students enrolled"
-msgstr[0] "{count} student ingeschreven"
-msgstr[1] "{count} studenten ingeschreven"
+msgstr[0] "{count} leerling ingeschreven"
+msgstr[1] "{count} leerlingen ingeschreven"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/notifications_screen.dart:253
@@ -2102,8 +2102,12 @@ msgid "Not Reportable"
 msgstr "Niet op rapport"
 
 # Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Docent"
+
+# Gibbon core string: missing from its file for this language
 msgid "There are no lessons for this class."
-msgstr "Er zijn geen lessen voor dit vak."
+msgstr "Er zijn geen lessen voor deze lesgroep."
 
 # Gibbon core string: missing from its file for this language
 msgid "There are no lessons on this date."
@@ -2112,87 +2116,11 @@ msgstr "Er zijn geen lessen op deze datum."
 # Gibbon core string: missing from its file for this language
 msgid "This student has one or more {level} risk medical conditions."
 msgstr ""
-"Deze student heeft een of meer medische aandoeningen met risico {level}."
+"Deze leerling heeft een of meer medische aandoeningen met risico {level}."
 
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Je actieve sessie wordt overgezet naar de gekozen gebruiker."
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Tutor"
-msgstr "Mentor"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Term"
-msgstr "Periode"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 1 Name"
-msgstr "Naam contact 1"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 1 Number 1"
-msgstr "Telefoon 1 contact 1"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 1 Number 2"
-msgstr "Telefoon 2 contact 1"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 1 Relationship"
-msgstr "Relatie contact 1"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 2 Name"
-msgstr "Naam contact 2"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 2 Number 1"
-msgstr "Telefoon 1 contact 2"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 2 Number 2"
-msgstr "Telefoon 2 contact 2"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Contact 2 Relationship"
-msgstr "Relatie contact 2"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "County, State, District"
-msgstr "Gemeente, provincie, district"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "First Aid Qualification"
-msgstr "EHBO-diploma"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Homework + Due Dates"
-msgstr "Opdrachten & deadlines"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Include In Curriculum Map"
-msgstr "Opnemen in curriculumoverzicht"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Login Troubleshooting"
-msgstr "Hulp bij inloggen"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Manage Courses & Classes"
-msgstr "Cursussen en vakken beheren"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Name In Characters"
-msgstr "Naam in chinese of andere karakters."
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Staff Directory"
-msgstr "Personeelsgids"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Unit, Building, Street"
-msgstr "Appartement, gebouw, straat"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add"
@@ -2207,6 +2135,14 @@ msgid "Add Child"
 msgstr "Kind toevoegen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Lesgroep toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Course"
+msgstr "Vak toevoegen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Medical Condition"
 msgstr "Medische aandoening toevoegen"
 
@@ -2216,7 +2152,7 @@ msgstr "Personeelslid toevoegen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Student Enrolment"
-msgstr "Inschrijving van student toevoegen"
+msgstr "Inschrijving van leerling toevoegen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Address Name"
@@ -2224,7 +2160,7 @@ msgstr "Adresnaam"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Admin"
-msgstr "Systeembeheer"
+msgstr "Administratie"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Roles"
@@ -2235,8 +2171,16 @@ msgid "All Staff"
 msgstr "Al het personeel"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "Alle leerlingen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Terms"
 msgstr "Alle periodes"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Auto-Enrol Courses?"
+msgstr "Automatisch inschrijven voor vakken?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Biography"
@@ -2251,12 +2195,28 @@ msgid "Chinese or other character-based name."
 msgstr "Naam in het Chinees of een ander tekenschrift."
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Kies een lesgroep"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "Kies leerlingen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Lesgroep"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Class Of"
 msgstr "Eindexamenjaar"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Class should not run below this number of students."
-msgstr "Het vak mag niet doorgaan met minder studenten dan dit aantal."
+msgstr "Het lesgroep mag niet doorgaan met minder leerlingen dan dit aantal."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Lesgroepen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Clear"
@@ -2291,6 +2251,38 @@ msgid "Confirm Password"
 msgstr "Wachtwoord bevestigen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Name"
+msgstr "Naam contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 1"
+msgstr "Telefoon 1 contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Number 2"
+msgstr "Telefoon 2 contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 1 Relationship"
+msgstr "Relatie contact 1"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "Naam contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 1"
+msgstr "Telefoon 1 contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Number 2"
+msgstr "Telefoon 2 contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Relationship"
+msgstr "Relatie contact 2"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact By Email"
 msgstr "Contact opnemen per e-mail"
 
@@ -2303,16 +2295,28 @@ msgid "Contact By SMS"
 msgstr "Contact opnemen per sms"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "Gemeente, provincie, district"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course"
+msgstr "Vak"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Course Enrolment by Class"
-msgstr "Cursusinschrijving per vak"
+msgstr "Vakinschrijving per lesgroep"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Course Enrolment by Person"
-msgstr "Cursusinschrijving per persoon"
+msgstr "Vakinschrijving per persoon"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data Updater"
 msgstr "Gegevens bijwerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Gegevens weergegeven in het volledige leerlingenprofiel"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Delete"
@@ -2347,8 +2351,12 @@ msgid "Due on {date} at {time}."
 msgstr "Inleveren op {date} om {time}."
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Lesgroep bewerken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Course"
-msgstr "Cursus bewerken"
+msgstr "Vak bewerken"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Enrolment"
@@ -2369,7 +2377,7 @@ msgstr "Werk"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Enrolment should not exceed this number of students."
 msgstr ""
-"Het aantal inschrijvingen mag dit aantal studenten niet overschrijden."
+"Het aantal inschrijvingen mag dit aantal leerlingen niet overschrijden."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Fee Table"
@@ -2380,8 +2388,16 @@ msgid "Fees"
 msgstr "Kosten"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualification"
+msgstr "EHBO-diploma"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Force Reset Password?"
 msgstr "Wachtwoordreset afdwingen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Actief"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Generate"
@@ -2392,12 +2408,20 @@ msgid "Head of Year"
 msgstr "Jaarcoördinator"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Home"
-msgstr "Start"
-
-# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home Address (Country)"
 msgstr "Thuisadres (land)"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework"
+msgstr "Huiswerk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "Huiswerk & deadlines"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "Huiswerkdetails"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2406,6 +2430,10 @@ msgid ""
 msgstr ""
 "Als het opgegeven bedrijf niet alle kosten betaalt, welke categorieën "
 "betaalt het dan wel?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "Opnemen in curriculumoverzicht"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Include all staff, regardless of status, start date, end date, etc."
@@ -2417,12 +2445,20 @@ msgid ""
 "Include all students, regardless of status and current enrolment. Some data "
 "may not display."
 msgstr ""
-"Alle studenten opnemen, ongeacht status en huidige inschrijving. Sommige "
+"Alle leerlingen opnemen, ongeacht status en huidige inschrijving. Sommige "
 "gegevens worden mogelijk niet getoond."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Login Troubleshooting"
+msgstr "Hulp bij inloggen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Long-Term Medication?"
 msgstr "Langdurige medicatie?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "Vakken en lesgroepen beheren"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Families"
@@ -2458,11 +2494,19 @@ msgstr "Meest gebruikte naam, alias, bijnaam, enz."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Must be unique for this course."
-msgstr "Moet uniek zijn voor deze cursus."
+msgstr "Moet uniek zijn voor dit vak."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Mijn lesgroepen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "N/A"
 msgstr "N.v.t."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "Naam in ander schrift"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "No data"
@@ -2509,12 +2553,20 @@ msgid "Remove"
 msgstr "Weghalen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Rapport"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable"
 msgstr "Op rapport"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable?"
 msgstr "Op rapport?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Rapporten"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reset User Password"
@@ -2529,8 +2581,16 @@ msgid "Roll Order"
 msgstr "Volgnummer in de klas"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Rubrics"
+msgstr "Rubrics"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "Schoolsluiting"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Select Students"
-msgstr "Studenten kiezen"
+msgstr "Leerlingen kiezen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Selected"
@@ -2547,20 +2607,52 @@ msgid ""
 "Should this student be automatically enrolled in courses for their Form "
 "Group?"
 msgstr ""
-"Moet deze student automatisch worden ingeschreven voor de cursussen van de "
+"Moet deze leerling automatisch worden ingeschreven voor de vakken van de "
 "eigen klas?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "Personeelsgids"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student"
+msgstr "Leerling"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student - Left"
+msgstr "Leerling - vertrokken"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student Agreements"
-msgstr "Studentovereenkomsten"
+msgstr "Leerlingovereenkomsten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Enrolment"
+msgstr "Leerlinginschrijving"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student ID"
-msgstr "Studentnummer"
+msgstr "Leerlingnummer"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "Leerlingenprofiel"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student Recorded Homework"
-msgstr "Door studenten bijgehouden opdrachten"
+msgstr "Door leerlingen bijgehouden huiswerk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Students"
+msgstr "Leerlingen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "Onderwijsondersteunend"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "Onderwijsondersteunend personeel"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Switch"
@@ -2576,15 +2668,27 @@ msgstr "Aanwezigheid registreren"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teaching"
-msgstr "Lesgeven"
+msgstr "Onderwijzend"
 
 # Gibbon core string: corrects Gibbon's translation for the app
-msgid "Track Attendance?"
-msgstr "Aanwezigheid bijhouden?"
+msgid "Term"
+msgstr "Periode"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tracking"
+msgstr "Voortgang volgen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Mentor"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Type"
 msgstr "Type"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Appartement, gebouw, straat"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Up to date"
@@ -2616,11 +2720,15 @@ msgstr "Planner bekijken"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "View Reports"
-msgstr "Rapportages bekijken"
+msgstr "Rapporten bekijken"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Work"
 msgstr "Werk"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Year Group"
+msgstr "Leerjaar"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2632,4 +2740,4 @@ msgstr ""
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "students"
-msgstr "studenten"
+msgstr "leerlingen"
