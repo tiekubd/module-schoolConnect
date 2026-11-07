@@ -9,7 +9,7 @@ MANUAL = {"Access data on family's children?": 'الوصول إلى بيانات
  'Add Child': 'إضافة ابن/ابنة',
  'Add Class': 'إضافة شعبة',
  'Add Student Enrolment': 'إضافة التحاق طالب',
- 'Admin': 'الإدارة',
+ 'Admin': 'أدوات الإدارة',
  'Adult': 'بالغ',
  'Adults': 'البالغون',
  'Age': 'العمر',

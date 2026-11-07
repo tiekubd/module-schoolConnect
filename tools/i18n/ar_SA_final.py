@@ -17,7 +17,7 @@ FINAL = {
 'Add User': 'إضافة مستخدم',
 'Address': 'العنوان',
 'Address Name': 'اسم العنوان',
-'Admin': 'الإدارة',
+'Admin': 'أدوات الإدارة',   # 'الإدارة' sat right under the section heading 'إدارة'
 'Adult': 'بالغ',
 'Adult Family Members': 'أفراد الأسرة البالغين',
 'Adults': 'البالغون',

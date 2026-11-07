@@ -2290,7 +2290,7 @@ msgstr "إضافة التحاق طالب"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Admin"
-msgstr "الإدارة"
+msgstr "أدوات الإدارة"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Adult"
