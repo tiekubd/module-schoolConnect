@@ -37,7 +37,10 @@ Using School Connect at a school requires an active School Connect subscription.
 
 ## Getting the app
 
-During the pilot, School Connect is available on the App Store and Google Play by invitation. Contact [tieku@highpointedu.com](mailto:tieku@highpointedu.com) for access.
+- **iPhone and iPad:** [School Connect by High Point on the App Store](https://apps.apple.com/app/id6801255384).
+- **Android:** available on Google Play by invitation while the app is in testing. Contact [tieku@highpointedu.com](mailto:tieku@highpointedu.com) for access.
+
+After installing, enter your school's Gibbon web address and sign in with your usual Gibbon account.
 
 ---
 
