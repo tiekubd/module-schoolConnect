@@ -1,8 +1,9 @@
 # Builds es_MX.py from es_ES.py: Mexican Spanish, following Gibbon's es_MX vocabulary.
 #   Homework -> Tareas, Term -> Período, Late -> Atrasado, school -> escuela,
 #   Add -> Agregar, Manage -> Administrar, report card -> boleta, video (no accent),
-#   rellenar -> llenar, contactar con -> contactar a. Form Group stays Curso,
-#   Year Group Nivel, as in Gibbon's es_MX. Formal "usted", Gibbon-style title case.
+#   rellenar -> llenar, contactar con -> contactar a. Form Group is Grupo and
+#   Year Group Grado (Mexican grado y grupo; Gibbon's es_MX copies Spain's Curso / Nivel). Formal "usted", Gibbon-style title case.
+# Since the 6 Nov 2026 review, run split_final.py es_MX after this script (it rewrites GAPS from es_MX_final.py).
 # Sentences whose grammar changes are rewritten by hand (EXACT); simple swaps by regex.
 import sys, re, pprint
 sys.path.insert(0, '.')
@@ -24,7 +25,7 @@ EXACT = {
     'Homework due': 'Tareas por entregar',
     'Homework removed.': 'Tarea eliminada.',
     'Homework saved.': 'Tarea guardada.',
-    'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Suplantar usuario requiere el módulo School Connect 1.16.09 o posterior en el servidor de la escuela.',
+    'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Acceder como otro usuario requiere el módulo School Connect 1.16.09 o posterior en el servidor de la escuela.',
     'Manage users and school settings': 'Administrar usuarios y configuración de la escuela',
     'No data for this term': 'No hay datos para este período',
     'No homework recorded.': 'No hay tareas registradas.',
@@ -57,6 +58,9 @@ SWAPS = [
     (r'\bvídeo', 'video'), (r'\bVídeo', 'Video'),
     (r'\bRellene\b', 'Llene'), (r'\brellenarse\b', 'llenarse'),
     (r'\bcontactar con\b', 'contactar a'), (r'\bcontacte con\b', 'contacte a'),
+    # Mexican schools: grado y grupo (3° A) -- form group = grupo, year group = grado (6 Nov 2026 review)
+    (r'\bCursos\b', 'Grupos'), (r'\bcursos\b', 'grupos'), (r'\bCurso\b', 'Grupo'), (r'\bcurso\b', 'grupo'),
+    (r'\bNiveles\b', 'Grados'), (r'\bniveles\b', 'grados'), (r'\bNivel\b', 'Grado'), (r'\bnivel\b', 'grado'),
 ]
 def swap(s):
     for a, b in SWAPS:
