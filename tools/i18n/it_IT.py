@@ -653,7 +653,11 @@ T = {'A punctuation mark or space': 'Un segno di punteggiatura o uno spazio',
  'Could not save for: {names}': 'Impossibile salvare per: {names}',
  'Last class of the day': 'Ultima lezione della giornata',
  'Taken today at {time}. Tap to review or change': 'Rilevate oggi alle {time}. Tocca per controllare o modificare',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'Presenze salvate!',
+ 'Class now: {class}': 'Ora: {class}',
+ 'Next class: {class}': 'Prossima lezione: {class}',
+ 'Left (user status)': 'Cessato'}
 
 P = {'At least {count} character': ('Almeno {count} carattere', 'Almeno {count} caratteri'),
  'Behaviour records saved for {count} student!': ('Nota di comportamento salvata per {count} studente!', 'Note di comportamento salvate per {count} studenti!'),
@@ -725,7 +729,8 @@ GAPS = {'Apply': 'Applica',
  'Under Enrolled': 'Pochi Iscritti',
  'Update Staff Data': 'Aggiorna Dati dello Staff',
  'View Reports': 'Visualizza Pagelle',
- 'Your active session will be switched to the selected user.': "La tua sessione attiva passerà all'utente selezionato."}
+ 'Your active session will be switched to the selected user.': "La tua sessione attiva passerà all'utente selezionato.",
+ '{count} min': '{count} min'}
 
 # Corrections to Gibbon's it_IT, for the app only. Several of its strings are
 # machine translations or typos.

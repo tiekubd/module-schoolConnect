@@ -429,7 +429,11 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  '{count}h ago': '{count} 小時前',
  '{count}m ago': '{count} 分鐘前',
  '— None —': '— 無 —',
- '{label}: ': '{label}：'}
+ '{label}: ': '{label}：',
+ 'Attendance saved!': '出席紀錄已儲存！',
+ 'Class now: {class}': '現正上課：{class}',
+ 'Next class: {class}': '下一節課：{class}',
+ 'Left (user status)': '離校'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),
@@ -529,7 +533,8 @@ GAPS = {'All Terms': '所有學期',
  'Update Required': '需要更新',
  'Update Staff Data': '更新教職員資料',
  'View Reports': '查看成績報告',
- 'Your active session will be switched to the selected user.': '你目前的工作階段將切換至所選用戶。'}
+ 'Your active session will be switched to the selected user.': '你目前的工作階段將切換至所選用戶。',
+ '{count} min': '{count} 分鐘'}
 
 OVERRIDES = {}
 

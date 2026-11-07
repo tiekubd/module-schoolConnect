@@ -409,4 +409,5 @@ FINAL = {
 'Timetable Admin': 'Roosteradmin',
 'Tracking': 'Vordering',                    # Gibbon: Opsporing (tracing, as of a suspect)
 'User Admin': 'Gebruikersadministrateur',
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

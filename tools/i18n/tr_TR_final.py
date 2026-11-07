@@ -415,4 +415,5 @@ FINAL = {
 'Timetable Admin': 'Ders Programı Yönetimi',
 'Tracking': 'İlerleme Takibi',   # Gibbon: Takip, same as Follow Up
 'User Admin': 'Kullanıcı Yönetimi',
+'{count} min': '{count} dk',   # Gibbon: empty (planner lesson length)
 }

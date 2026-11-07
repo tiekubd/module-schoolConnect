@@ -27,7 +27,7 @@ msgstr ""
 "Mã đăng nhập, được lưu trong bộ nhớ an toàn của thiết bị (iOS Keychain hoặc "
 "Android Keystore)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Giới thiệu và quyền riêng tư"
@@ -72,7 +72,7 @@ msgid "All Year Groups"
 msgstr "Tất cả các khối"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Đã xong cả {count} tiết học hôm nay"
@@ -82,7 +82,7 @@ msgstr[0] "Đã xong cả {count} tiết học hôm nay"
 msgid "An uppercase and a lowercase letter"
 msgstr "Một chữ hoa và một chữ thường"
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr "Phiên bản ứng dụng, trường đã kết nối và dữ liệu của bạn"
 
@@ -107,9 +107,14 @@ msgstr[0] "Ít nhất {count} ký tự"
 msgid "Attendance This Year"
 msgstr "Điểm danh năm nay"
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
 msgstr "Hôm nay chưa điểm danh"
+
+#: lib/screens/attendance_screen.dart:134
+#: lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
+msgstr "Đã lưu điểm danh!"
 
 #: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
@@ -121,7 +126,7 @@ msgid "Behaviour records saved for {count} student!"
 msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "Đã lưu ghi nhận hành vi cho {count} học sinh!"
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr "Xem hồ sơ nhân viên"
 
@@ -186,7 +191,7 @@ msgstr "Hãy chọn ít nhất một học sinh trước"
 msgid "Choose one of your Form Groups"
 msgstr "Chọn một lớp chủ nhiệm của bạn"
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr "Vắng mặt theo tiết"
 
@@ -197,6 +202,11 @@ msgstr "Ghi danh lớp học"
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
 msgstr "Danh sách lớp"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "Đang học: {class}"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -529,9 +539,9 @@ msgstr "Không thể xóa"
 msgid "Could not reset password"
 msgstr "Không thể đặt lại mật khẩu"
 
+#: lib/screens/attendance_screen.dart:134
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
-#: lib/screens/course_detail_screen.dart:321
 msgid "Could not save"
 msgstr "Không thể lưu"
 
@@ -716,7 +726,7 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Đăng nhập bằng Google, chỉ khi trường bạn dùng và bạn chọn"
 
-#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/dashboard_screen.dart:817
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -735,7 +745,7 @@ msgstr ""
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
-#: lib/screens/student_attendance_screen.dart:452
+#: lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr "Ngày nghỉ"
 
@@ -821,9 +831,13 @@ msgstr "10 ngày học gần nhất — theo tiết"
 msgid "Last 20 school days"
 msgstr "20 ngày học gần nhất"
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr "Tiết cuối của ngày"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "Rời trường"
 
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
@@ -837,7 +851,7 @@ msgstr "Kiểm tra giấy phép"
 msgid "Link staff-role people to their staff record"
 msgstr "Liên kết người có vai trò nhân viên với hồ sơ nhân viên"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Ghi nhận hành vi"
@@ -846,7 +860,7 @@ msgstr "Ghi nhận hành vi"
 msgid "Logged in as"
 msgstr "Đăng nhập với tư cách"
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr "Quản lý người dùng và cài đặt của trường"
 
@@ -866,7 +880,7 @@ msgstr "Điểm danh hôm nay"
 msgid "Mark read"
 msgstr "Đánh dấu đã đọc"
 
-#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/dashboard_screen.dart:713
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Thời khóa biểu chung"
@@ -875,8 +889,8 @@ msgstr "Thời khóa biểu chung"
 msgid "Must be unique if set"
 msgstr "Nếu có, không được trùng"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Các lớp chủ nhiệm của tôi"
@@ -885,6 +899,12 @@ msgstr "Các lớp chủ nhiệm của tôi"
 #: lib/screens/course_manage_list_screen.dart:232
 msgid "Name and Short Name are required"
 msgstr "Cần nhập tên và tên viết tắt"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:683
+msgid "Next class: {class}"
+msgstr "Tiết tiếp theo: {class}"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
@@ -941,7 +961,7 @@ msgstr "Hôm nay phòng này không có tiết học"
 msgid "No classes scheduled"
 msgstr "Không có tiết học nào theo lịch"
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr "Hôm nay không có tiết học nào"
 
@@ -954,7 +974,7 @@ msgid "No courses found"
 msgstr "Không tìm thấy môn học"
 
 #: lib/screens/homework_calendar_screen.dart:339
-#: lib/screens/student_attendance_screen.dart:397
+#: lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr "Không có dữ liệu cho học kỳ này"
 
@@ -1024,7 +1044,7 @@ msgstr "Không tìm thấy ai"
 msgid "No phone on record"
 msgstr "Chưa có số điện thoại"
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr "Chưa có dữ liệu"
 
@@ -1063,7 +1083,7 @@ msgstr "Không tìm thấy dữ liệu thời khóa biểu"
 msgid "No timetable for this day"
 msgstr "Ngày này không có thời khóa biểu"
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr "Hôm nay không có thời khóa biểu"
 
@@ -1249,7 +1269,7 @@ msgstr "Người liên hệ ưu tiên 1 luôn nhận mọi hình thức liên l�
 msgid "Qualified"
 msgstr "Đủ điều kiện"
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr "Truy cập nhanh"
 
@@ -1379,7 +1399,7 @@ msgstr ""
 "Giờ mở cửa, vào học, tan học và đóng cửa của trường không được cài đặt ở đây"
 " — hãy hoàn tất trên trang web."
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr "Tìm và xem hồ sơ học sinh"
 
@@ -1431,7 +1451,7 @@ msgstr "Tìm học sinh..."
 msgid "Select Student"
 msgstr "Chọn học sinh"
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr "Số tiết vắng mặt năm nay"
 
@@ -1481,12 +1501,12 @@ msgstr "Đã gửi"
 msgid "Surname *"
 msgstr "Họ *"
 
-#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/dashboard_screen.dart:424
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Chuyển vai trò"
 
-#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/dashboard_screen.dart:430
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1502,7 +1522,7 @@ msgid "Taken"
 msgstr "Đã điểm danh"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 msgid "Taken at {time}"
 msgstr "Đã điểm danh lúc {time}"
 
@@ -1582,21 +1602,21 @@ msgstr ""
 "Thao tác này xóa toàn bộ dữ liệu ghi danh và thời khóa biểu của lớp học này."
 " Không thể hoàn tác."
 
-#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/dashboard_screen.dart:722
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Thời khóa biểu theo phòng"
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr "Thời khóa biểu hôm nay"
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr "Truy cập dùng thử"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Dùng thử — còn {count} ngày"
@@ -1687,7 +1707,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Xem điểm danh"
 
-#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/dashboard_screen.dart:938
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Xem toàn bộ thời khóa biểu"
@@ -1704,7 +1724,7 @@ msgstr "Xem lịch bài tập về nhà"
 msgid "View Timetable"
 msgstr "Xem thời khóa biểu"
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "Xem và quản lý các lớp chủ nhiệm"
 
@@ -1724,11 +1744,11 @@ msgstr "Xem kế hoạch bài dạy của lớp học này"
 msgid "View students in this class"
 msgstr "Xem học sinh trong lớp học này"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr "Xem điểm của bạn"
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr "Xem phiếu báo điểm của bạn"
 
@@ -1742,7 +1762,7 @@ msgid "Virtual Classroom"
 msgstr "Lớp học trực tuyến"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 msgid "Welcome, {name}!"
 msgstr "Xin chào, {name}!"
 
@@ -1866,12 +1886,12 @@ msgid "until {time}"
 msgstr "đến {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "Vắng {absent} trên {total} tiết đã ghi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} vắng"
@@ -1891,27 +1911,28 @@ msgstr[0] "{count} bài đánh giá"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} lớp học"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "Còn {count} tiết · đã xong {done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} tiết học hôm nay"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:360
-#: lib/screens/student_attendance_screen.dart:363
-#: lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
 msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} ngày"
@@ -1941,25 +1962,25 @@ msgid_plural "{count} items"
 msgstr[0] "{count} mục"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} đi muộn"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/dashboard_screen.dart:992
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Sau tiết này còn {count} tiết · hôm nay có {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] "{count} ngày học trong học kỳ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"
 msgstr[0] "{count} ngày học trong năm học"
@@ -2241,6 +2262,10 @@ msgstr "Xem phiếu báo điểm"
 # Gibbon core string: missing from its file for this language
 msgid "Your active session will be switched to the selected user."
 msgstr "Phiên hiện tại của bạn sẽ chuyển sang người dùng đã chọn."
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} phút"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"

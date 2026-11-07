@@ -415,4 +415,5 @@ FINAL = {
 'Timetable Admin': 'Administration de l’emploi du temps',   # Gibbon: Emploi du temps, same as Timetable
 'Tracking': 'Suivi',   # Gibbon: Suivi/Graphique
 'User Admin': 'Administration des utilisateurs',   # Gibbon: Utilisateurs (users)
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

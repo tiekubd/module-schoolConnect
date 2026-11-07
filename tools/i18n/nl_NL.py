@@ -657,7 +657,11 @@ T = {'A punctuation mark or space': 'Een leesteken of een spatie',
  'Could not save for: {names}': 'Opslaan mislukt voor: {names}',
  'Last class of the day': 'Laatste les van de dag',
  'Taken today at {time}. Tap to review or change': 'Vandaag geregistreerd om {time}. Tik om te bekijken of te wijzigen',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'Aanwezigheid opgeslagen!',
+ 'Class now: {class}': 'Nu: {class}',
+ 'Next class: {class}': 'Volgende les: {class}',
+ 'Left (user status)': 'Vertrokken'}
 
 P = {'At least {count} character': ('Minstens {count} teken', 'Minstens {count} tekens'),
  'Behaviour records saved for {count} student!': ('Gedragsnotitie opgeslagen voor {count} leerling!', 'Gedragsnotities opgeslagen voor {count} leerlingen!'),
@@ -700,7 +704,8 @@ GAPS = {'Exclude from coverage?': 'Uitsluiten van vervanging?',
  'There are no lessons for this class.': 'Er zijn geen lessen voor deze lesgroep.',
  'There are no lessons on this date.': 'Er zijn geen lessen op deze datum.',
  'This student has one or more {level} risk medical conditions.': 'Deze leerling heeft een of meer medische aandoeningen met risico {level}.',
- 'Your active session will be switched to the selected user.': 'Je actieve sessie wordt overgezet naar de gekozen gebruiker.'}
+ 'Your active session will be switched to the selected user.': 'Je actieve sessie wordt overgezet naar de gekozen gebruiker.',
+ '{count} min': '{count} min'}
 
 # Corrections to Gibbon's nl_NL, for the app only (more in nl_NL_review.py).
 OVERRIDES = {}

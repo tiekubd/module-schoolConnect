@@ -642,7 +642,11 @@ T = {'A punctuation mark or space': 'Ein Satzzeichen oder ein Leerzeichen',
  'Could not save for: {names}': 'Speichern nicht möglich für: {names}',
  'Last class of the day': 'Letzte Stunde des Tages',
  'Taken today at {time}. Tap to review or change': 'Heute um {time} erfasst. Zum Prüfen oder Ändern tippen',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'Anwesenheit gespeichert!',
+ 'Class now: {class}': 'Jetzt: {class}',
+ 'Next class: {class}': 'Als Nächstes: {class}',
+ 'Left (user status)': 'Ausgeschieden'}
 
 P = {'At least {count} character': ('Mindestens {count} Zeichen', 'Mindestens {count} Zeichen'),
  'Behaviour records saved for {count} student!': ('Verhaltenseintrag für {count} Schüler/in gespeichert!', 'Verhaltenseinträge für {count} Schüler/innen gespeichert!'),
@@ -707,6 +711,7 @@ GAPS = {'Apply': 'Anwenden',
  'This student has one or more {level} risk medical conditions.': 'Diese/r Schüler/in hat eine oder mehrere Erkrankungen mit Risiko {level}.',
  'Under Enrolled': 'Unterbelegt',
  'Update Staff Data': 'Mitarbeiterdaten aktualisieren',
- 'Your active session will be switched to the selected user.': 'Ihre aktive Sitzung wird zur ausgewählten Person gewechselt.'}
+ 'Your active session will be switched to the selected user.': 'Ihre aktive Sitzung wird zur ausgewählten Person gewechselt.',
+ '{count} min': '{count} Min.'}
 
 OVERRIDES = {}

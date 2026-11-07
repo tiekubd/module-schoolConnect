@@ -664,7 +664,11 @@ T = {'A punctuation mark or space': 'Um sinal de pontuação ou um espaço',
  'Could not save for: {names}': 'Não foi possível guardar para: {names}',
  'Last class of the day': 'Última aula do dia',
  'Taken today at {time}. Tap to review or change': 'Marcadas hoje às {time}. Toque para rever ou alterar',
- '{label}: ': '{label}: '}
+ '{label}: ': '{label}: ',
+ 'Attendance saved!': 'Assiduidade guardada!',
+ 'Class now: {class}': 'Aula agora: {class}',
+ 'Next class: {class}': 'Próxima aula: {class}',
+ 'Left (user status)': 'Saiu'}
 
 P = {
 'At least {count} character': ('Pelo menos {count} caráter', 'Pelo menos {count} carateres'),
@@ -822,7 +826,8 @@ GAPS = {'Absent': 'Ausente',
  'Update Medical Data': 'Atualizar Dados Médicos',
  'User Account': 'Conta de Utilizador',
  'User will be prompted on next login.': 'Será pedido ao utilizador no próximo início de sessão.',
- 'Your active session will be switched to the selected user.': 'A sua sessão ativa passará para o utilizador selecionado.'}
+ 'Your active session will be switched to the selected user.': 'A sua sessão ativa passará para o utilizador selecionado.',
+ '{count} min': '{count} min'}
 
 # Corrections to Gibbon's pt_PT, for the app only.
 OVERRIDES = {}

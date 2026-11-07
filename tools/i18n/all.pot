@@ -12,11 +12,11 @@ msgstr ""
 msgid "A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)"
 msgstr ""
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849 lib/screens/parent_dashboard_screen.dart:247
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851 lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:140 lib/screens/student_attendance_screen.dart:367 lib/screens/student_attendance_screen.dart:444
+#: lib/screens/student_attendance_screen.dart:142 lib/screens/student_attendance_screen.dart:369 lib/screens/student_attendance_screen.dart:446
 msgid "Absent"
 msgstr ""
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Adjusts arrangement of courses in reports."
 msgstr ""
 
-#: lib/screens/admin_screen.dart:30 lib/screens/dashboard_screen.dart:773
+#: lib/screens/admin_screen.dart:30 lib/screens/dashboard_screen.dart:775
 msgid "Admin"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "All Year Groups"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 #. Keep {placeholders} exactly as they are.
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
@@ -175,7 +175,7 @@ msgstr ""
 msgid "An uppercase and a lowercase letter"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr ""
 
@@ -202,7 +202,7 @@ msgid_plural "At least {count} characters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/attendance_menu_screen.dart:93 lib/screens/attendance_screen.dart:155 lib/screens/dashboard_screen.dart:646
+#: lib/screens/attendance_menu_screen.dart:93 lib/screens/attendance_screen.dart:155 lib/screens/dashboard_screen.dart:648
 msgid "Attendance"
 msgstr ""
 
@@ -210,8 +210,12 @@ msgstr ""
 msgid "Attendance This Year"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
+msgstr ""
+
+#: lib/screens/attendance_screen.dart:134 lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
 msgstr ""
 
 #: lib/screens/student_enrolment_edit_screen.dart:244
@@ -245,7 +249,7 @@ msgstr[1] ""
 msgid "Biography"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr ""
 
@@ -353,7 +357,7 @@ msgstr ""
 msgid "Class"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr ""
 
@@ -367,6 +371,11 @@ msgstr ""
 
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
+msgstr ""
+
+#: lib/screens/attendance_menu_screen.dart:61
+#. Keep {placeholders} exactly as they are.
+msgid "Class now: {class}"
 msgstr ""
 
 #: lib/screens/course_detail_screen.dart:384
@@ -799,7 +808,7 @@ msgstr ""
 msgid "Could not reset password"
 msgstr ""
 
-#: lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371 lib/screens/course_detail_screen.dart:321
+#: lib/screens/attendance_screen.dart:134 lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr ""
 
@@ -1230,7 +1239,7 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:815 lib/screens/student_grades_screen.dart:104 lib/screens/student_profile_screen.dart:289
+#: lib/screens/dashboard_screen.dart:817 lib/screens/student_grades_screen.dart:104 lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr ""
 
@@ -1258,7 +1267,7 @@ msgstr ""
 msgid "Highlighted in red: marked 'Full' but outside their start/end date range."
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:388 lib/screens/homework_calendar_screen.dart:476 lib/screens/student_attendance_screen.dart:452
+#: lib/screens/homework_calendar_screen.dart:388 lib/screens/homework_calendar_screen.dart:476 lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr ""
 
@@ -1451,7 +1460,7 @@ msgstr ""
 msgid "Last Updated"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr ""
 
@@ -1461,6 +1470,10 @@ msgstr ""
 
 #: lib/screens/course_manage_list_screen.dart:281 lib/screens/student_grades_screen.dart:232
 msgid "Learning Area"
+msgstr ""
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
 msgstr ""
 
 #: lib/screens/attendance_screen.dart:216 lib/screens/form_group_attendance_screen.dart:193
@@ -1495,7 +1508,7 @@ msgstr ""
 msgid "Locker Number"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:699 lib/screens/log_behaviour_screen.dart:239
+#: lib/screens/dashboard_screen.dart:701 lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr ""
 
@@ -1507,7 +1520,7 @@ msgstr ""
 msgid "Login Troubleshooting"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:455 lib/screens/parent_dashboard_screen.dart:254
+#: lib/screens/dashboard_screen.dart:457 lib/screens/parent_dashboard_screen.dart:254
 msgid "Logout"
 msgstr ""
 
@@ -1519,7 +1532,7 @@ msgstr ""
 msgid "Mail?"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:761
+#: lib/screens/dashboard_screen.dart:763
 msgid "Manage"
 msgstr ""
 
@@ -1551,7 +1564,7 @@ msgstr ""
 msgid "Manage Users"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr ""
 
@@ -1575,7 +1588,7 @@ msgstr ""
 msgid "Markbook"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:711 lib/screens/master_timetable_screen.dart:116
+#: lib/screens/dashboard_screen.dart:713 lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr ""
 
@@ -1595,7 +1608,7 @@ msgstr ""
 msgid "Medication Details"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:413
+#: lib/screens/dashboard_screen.dart:414
 msgid "Message Wall"
 msgstr ""
 
@@ -1635,7 +1648,7 @@ msgstr ""
 msgid "Must be unique if set."
 msgstr ""
 
-#: lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:627
+#: lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:629
 msgid "My Classes"
 msgstr ""
 
@@ -1643,11 +1656,11 @@ msgstr ""
 msgid "My Data Updates"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:48 lib/screens/dashboard_screen.dart:1034
+#: lib/screens/attendance_menu_screen.dart:48 lib/screens/dashboard_screen.dart:1036
 msgid "My Form Group"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1034 lib/screens/dashboard_screen.dart:804 lib/screens/form_groups_screen.dart:49
+#: lib/screens/dashboard_screen.dart:1036 lib/screens/dashboard_screen.dart:806 lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr ""
 
@@ -1685,6 +1698,11 @@ msgstr ""
 
 #: lib/screens/student_personal_screen.dart:126
 msgid "Next School"
+msgstr ""
+
+#: lib/screens/attendance_menu_screen.dart:61 lib/screens/dashboard_screen.dart:683
+#. Keep {placeholders} exactly as they are.
+msgid "Next class: {class}"
 msgstr ""
 
 #: lib/screens/data_finance_edit_screen.dart:294 lib/screens/data_medical_edit_screen.dart:382 lib/screens/data_staff_edit_screen.dart:242
@@ -1739,7 +1757,7 @@ msgstr ""
 msgid "No classes scheduled"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr ""
 
@@ -1751,11 +1769,11 @@ msgstr ""
 msgid "No courses found"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:141 lib/screens/student_attendance_screen.dart:315 lib/screens/student_attendance_screen.dart:371
+#: lib/screens/student_attendance_screen.dart:143 lib/screens/student_attendance_screen.dart:317 lib/screens/student_attendance_screen.dart:373
 msgid "No data"
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:339 lib/screens/student_attendance_screen.dart:397
+#: lib/screens/homework_calendar_screen.dart:339 lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr ""
 
@@ -1823,7 +1841,7 @@ msgstr ""
 msgid "No phone on record"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr ""
 
@@ -1859,7 +1877,7 @@ msgstr ""
 msgid "No timetable for this day"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr ""
 
@@ -1919,7 +1937,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:442 lib/screens/notifications_screen.dart:111
+#: lib/screens/dashboard_screen.dart:444 lib/screens/notifications_screen.dart:111
 msgid "Notifications"
 msgstr ""
 
@@ -1995,7 +2013,7 @@ msgstr ""
 msgid "Parent Dashboard"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:140 lib/screens/student_attendance_screen.dart:363 lib/screens/student_attendance_screen.dart:442
+#: lib/screens/student_attendance_screen.dart:142 lib/screens/student_attendance_screen.dart:365 lib/screens/student_attendance_screen.dart:444
 msgid "Partial"
 msgstr ""
 
@@ -2060,7 +2078,7 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:268 lib/screens/dashboard_screen.dart:635 lib/screens/parent_dashboard_screen.dart:451
+#: lib/screens/class_detail_screen.dart:268 lib/screens/dashboard_screen.dart:637 lib/screens/parent_dashboard_screen.dart:451
 msgid "Planner"
 msgstr ""
 
@@ -2116,7 +2134,7 @@ msgstr ""
 msgid "Preferred Name *"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:140 lib/screens/student_attendance_screen.dart:360 lib/screens/student_attendance_screen.dart:440
+#: lib/screens/student_attendance_screen.dart:142 lib/screens/student_attendance_screen.dart:362 lib/screens/student_attendance_screen.dart:442
 msgid "Present"
 msgstr ""
 
@@ -2160,7 +2178,7 @@ msgstr ""
 msgid "Qualified"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr ""
 
@@ -2281,7 +2299,7 @@ msgstr ""
 msgid "Reportable?"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:833 lib/screens/reports_screen.dart:21 lib/screens/student_profile_screen.dart:407
+#: lib/screens/dashboard_screen.dart:835 lib/screens/reports_screen.dart:21 lib/screens/student_profile_screen.dart:407
 msgid "Reports"
 msgstr ""
 
@@ -2309,7 +2327,7 @@ msgstr ""
 msgid "Risk"
 msgstr ""
 
-#: lib/screens/course_class_roster_screen.dart:290 lib/screens/course_class_roster_screen.dart:392 lib/screens/dashboard_screen.dart:480
+#: lib/screens/course_class_roster_screen.dart:290 lib/screens/course_class_roster_screen.dart:392 lib/screens/dashboard_screen.dart:482
 msgid "Role"
 msgstr ""
 
@@ -2388,11 +2406,11 @@ msgstr ""
 msgid "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website."
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:172
+#: lib/screens/student_attendance_screen.dart:174
 msgid "School Year"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr ""
 
@@ -2456,7 +2474,7 @@ msgstr ""
 msgid "Send Invoices To"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr ""
 
@@ -2500,7 +2518,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:793 lib/screens/staff_directory_screen.dart:99
+#: lib/screens/dashboard_screen.dart:795 lib/screens/staff_directory_screen.dart:99
 msgid "Staff Directory"
 msgstr ""
 
@@ -2560,7 +2578,7 @@ msgstr ""
 msgid "Student enrolled successfully"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:210 lib/screens/course_enrolment_by_class_screen.dart:120 lib/screens/dashboard_screen.dart:782
+#: lib/screens/course_detail_screen.dart:210 lib/screens/course_enrolment_by_class_screen.dart:120 lib/screens/dashboard_screen.dart:784
 msgid "Students"
 msgstr ""
 
@@ -2592,11 +2610,11 @@ msgstr ""
 msgid "Switch"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:423 lib/screens/parent_dashboard_screen.dart:234
+#: lib/screens/dashboard_screen.dart:424 lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:429 lib/screens/parent_dashboard_screen.dart:239 lib/screens/school_year_picker_screen.dart:87
+#: lib/screens/dashboard_screen.dart:430 lib/screens/parent_dashboard_screen.dart:239 lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr ""
 
@@ -2608,7 +2626,7 @@ msgstr ""
 msgid "System login name."
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:253 lib/screens/dashboard_screen.dart:1093 lib/screens/dashboard_screen.dart:680
+#: lib/screens/class_detail_screen.dart:253 lib/screens/dashboard_screen.dart:1095 lib/screens/dashboard_screen.dart:682
 msgid "Take Attendance"
 msgstr ""
 
@@ -2620,7 +2638,7 @@ msgstr ""
 msgid "Taken"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 #. Keep {placeholders} exactly as they are.
 msgid "Taken at {time}"
 msgstr ""
@@ -2642,7 +2660,7 @@ msgstr ""
 msgid "Teaching"
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:292 lib/screens/special_days_screen.dart:167 lib/screens/student_attendance_screen.dart:156
+#: lib/screens/homework_calendar_screen.dart:292 lib/screens/special_days_screen.dart:167 lib/screens/student_attendance_screen.dart:158
 msgid "Term"
 msgstr ""
 
@@ -2728,7 +2746,7 @@ msgstr ""
 msgid "Timetable"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:720 lib/screens/facility_list_screen.dart:118
+#: lib/screens/dashboard_screen.dart:722 lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr ""
 
@@ -2752,7 +2770,7 @@ msgstr ""
 msgid "Today's Messages"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr ""
 
@@ -2772,11 +2790,11 @@ msgstr ""
 msgid "Transport"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 #. Keep {placeholders} exactly as they are.
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
@@ -2944,7 +2962,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:936 lib/screens/parent_dashboard_screen.dart:591
+#: lib/screens/dashboard_screen.dart:938 lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr ""
 
@@ -2972,7 +2990,7 @@ msgstr ""
 msgid "View Timetable"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr ""
 
@@ -2992,11 +3010,11 @@ msgstr ""
 msgid "View students in this class"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr ""
 
@@ -3013,7 +3031,7 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 #. Keep {placeholders} exactly as they are.
 msgid "Welcome, {name}!"
 msgstr ""
@@ -3130,12 +3148,12 @@ msgstr ""
 msgid "until {time}"
 msgstr ""
 
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 #. Keep {placeholders} exactly as they are.
 msgid "{absent} absent of {total} sessions recorded"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 #. Keep {placeholders} exactly as they are.
 msgid "{count} absent"
 msgid_plural "{count} absent"
@@ -3156,28 +3174,28 @@ msgid_plural "{count} assessments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/course_manage_list_screen.dart:143 lib/screens/master_timetable_screen.dart:278
+#: lib/screens/course_manage_list_screen.dart:143 lib/screens/courses_screen.dart:166 lib/screens/master_timetable_screen.dart:278
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/student_attendance_screen.dart:360 lib/screens/student_attendance_screen.dart:363 lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362 lib/screens/student_attendance_screen.dart:365 lib/screens/student_attendance_screen.dart:369
 #. Keep {placeholders} exactly as they are.
 msgid "{count} day"
 msgid_plural "{count} days"
@@ -3212,28 +3230,33 @@ msgid_plural "{count} items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 #. Keep {placeholders} exactly as they are.
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/planner_view_screen.dart:335
+#. Keep {placeholders} exactly as they are.
+msgid "{count} min"
+msgstr ""
+
+#: lib/screens/dashboard_screen.dart:992
 #. Keep {placeholders} exactly as they are.
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 #. Keep {placeholders} exactly as they are.
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 #. Keep {placeholders} exactly as they are.
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"

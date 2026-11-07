@@ -647,7 +647,11 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  '{count}h ago': 'hace {count} h',
  '{count}m ago': 'hace {count} min',
  '{label}: ': '{label}: ',
- '— None —': '— Ninguno —'}
+ '— None —': '— Ninguno —',
+ 'Attendance saved!': '¡Asistencia guardada!',
+ 'Class now: {class}': 'Clase actual: {class}',
+ 'Next class: {class}': 'Próxima clase: {class}',
+ 'Left (user status)': 'Retirado'}
 
 P = {'All {count} class done for today': ('{count} clase terminada por hoy', 'Las {count} clases han terminado por hoy'),
  'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
@@ -711,7 +715,8 @@ GAPS = {'Apply': 'Aplicar',
  'This student has one or more {level} risk medical conditions.': 'Este estudiante tiene una o más condiciones médicas de riesgo {level}.',
  'Under Enrolled': 'Bajo Cupo',
  'Update Staff Data': 'Actualizar Datos del Personal',
- 'Your active session will be switched to the selected user.': 'Su sesión activa se cambiará al usuario seleccionado.'}
+ 'Your active session will be switched to the selected user.': 'Su sesión activa se cambiará al usuario seleccionado.',
+ '{count} min': '{count} min'}
 
 OVERRIDES = {'Teacher': 'Profesor/a'}
 

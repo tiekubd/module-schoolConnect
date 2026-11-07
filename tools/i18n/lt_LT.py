@@ -11,407 +11,613 @@
 # Buttons in the infinitive, as Gibbon's Lithuanian has (Pridėti, Išsaugoti); formal "Jūs".
 # Three plural forms, as in Gibbon's lt_LT file: 1, 21, 31... | 2-9, 22-29... | 0, 10-20, 30...
 
-T = {
-'A punctuation mark or space': 'Skyrybos ženklas arba tarpas',
-"A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Prisijungimo raktas, laikomas saugioje įrenginio saugykloje (iOS Keychain arba Android Keystore)',
-'About & Privacy': 'Apie programėlę ir privatumas',
-'Add More': 'Pridėti daugiau',
-'Add Participant': 'Pridėti dalyvį',
-'Add homework?': 'Pridėti namų darbą?',
-'Add, edit, and remove closures': 'Pridėkite, redaguokite ir šalinkite nedarbo dienas',
-'Add, edit, and remove user accounts': 'Pridėkite, redaguokite ir šalinkite naudotojų paskyras',
-'Adjusts arrangement of courses in reports.': 'Nustato dalykų tvarką pažangos ataskaitose.',
-'Adult settings updated': 'Suaugusio asmens nustatymai atnaujinti',
-'All Types': 'Visi tipai',
-'All Year Groups': 'Visi klasių srautai',
-'An uppercase and a lowercase letter': 'Didžioji ir mažoji raidė',
-'App version, connected school and your data': 'Programėlės versija, prijungta mokykla ir Jūsų duomenys',
-'Assessments': 'Vertinimai',
-'At least one number': 'Bent vienas skaitmuo',
-'Attendance This Year': 'Lankomumas šiais metais',
-'Attendance not taken yet today': 'Šiandien lankomumas dar nepažymėtas',
-'Behaviour record saved!': 'Elgesio įrašas išsaugotas!',
-'Browse staff profiles': 'Peržiūrėkite darbuotojų profilius',
-'By Class': 'Pagal grupę',
-'By Date': 'Pagal datą',
-'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie duomenų atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir galite atsisakyti.',
-'Cancel Bookings?': 'Atšaukti rezervacijas?',
-'Cancel Classes?': 'Atšaukti pamokas?',
-'Cancel Staff Duty?': 'Atšaukti darbuotojų budėjimus?',
-'Cancel new condition': 'Atšaukti naują sveikatos sutrikimą',
-'Cap': 'Talp.',
-'Chinese or other character-based name': 'Vardas kinų ar kitais hieroglifais',
-'Choose a class above': 'Pasirinkite grupę viršuje',
-'Choose any Form Group': 'Pasirinkite bet kurią klasę',
-'Choose any of your classes': 'Pasirinkite bet kurią savo grupę',
-'Choose at least one student first': 'Pirmiausia pasirinkite bent vieną mokinį',
-'Choose one of your Form Groups': 'Pasirinkite vieną iš savo klasių',
-'Class Absences': 'Praleistos pamokos',
-'Class Enrolments': 'Registracijos į grupes',
-'Class Roster': 'Grupės sąrašas',
-'Click Update next to School Connect in System Admin > Manage Modules.': 'Spustelėkite „Atnaujinti“ šalia School Connect, skiltyje Sistemos administratorius > Tvarkyti modulius.',
-'Closed at': 'Uždaryta',
-'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'Sujungtas trumpas pavadinimas „{name}“ ilgesnis nei 16 simbolių — tvarkaraštyje ir išskleidžiamuosiuose sąrašuose jis gali būti rodomas netinkamai.',
-'Combined short name exceeds 16 characters': 'Sujungtas trumpas pavadinimas ilgesnis nei 16 simbolių',
-'Comma-separated list of email addresses': 'El. pašto adresai, atskirti kableliais',
-'Confirm Password *': 'Pakartokite slaptažodį *',
-'Connected school': 'Prijungta mokykla',
-'Connecting...': 'Jungiamasi...',
-'Contact Info': 'Kontaktai',
-'Contact {number} — not on record': 'Kontaktas {number} — duomenų nėra',
-'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Pamokų turinys: mokytojo pridėti vaizdo įrašai ar paveikslėliai (pavyzdžiui, iš YouTube) įkeliami iš tų svetainių, kai juos atidarote',
-'Control what shows up in the app for everyone': 'Nustatykite, ką programėlėje mato visi',
-'Could not add': 'Nepavyko pridėti',
-'Could not add adult': 'Nepavyko pridėti suaugusio asmens',
-'Could not add child': 'Nepavyko pridėti vaiko',
-'Could not delete user': 'Nepavyko ištrinti naudotojo',
-'Could not download report': 'Nepavyko atsisiųsti pažangos ataskaitos',
-'Could not generate username': 'Nepavyko sukurti prisijungimo vardo',
-'Could not load Form Groups': 'Nepavyko įkelti klasių',
-'Could not load activities': 'Nepavyko įkelti būrelių',
-'Could not load attendance': 'Nepavyko įkelti lankomumo',
-'Could not load children': 'Nepavyko įkelti vaikų',
-'Could not load classes': 'Nepavyko įkelti grupių',
-'Could not load course': 'Nepavyko įkelti dalyko',
-'Could not load courses': 'Nepavyko įkelti dalykų',
-'Could not load data': 'Nepavyko įkelti duomenų',
-'Could not load data updates': 'Nepavyko įkelti duomenų atnaujinimų',
-'Could not load days of the week': 'Nepavyko įkelti savaitės dienų',
-'Could not load emergency contacts': 'Nepavyko įkelti skubios pagalbos kontaktų',
-'Could not load enrolment': 'Nepavyko įkelti registracijos',
-'Could not load enrolments': 'Nepavyko įkelti registracijų',
-'Could not load facilities': 'Nepavyko įkelti kabinetų',
-'Could not load families': 'Nepavyko įkelti šeimų',
-'Could not load family': 'Nepavyko įkelti šeimos',
-'Could not load family data': 'Nepavyko įkelti šeimos duomenų',
-'Could not load finance data': 'Nepavyko įkelti finansinių duomenų',
-'Could not load form': 'Nepavyko įkelti formos',
-'Could not load form data': 'Nepavyko įkelti formos duomenų',
-'Could not load grades': 'Nepavyko įkelti pažymių',
-'Could not load homework': 'Nepavyko įkelti namų darbų',
-'Could not load homework calendar': 'Nepavyko įkelti namų darbų kalendoriaus',
-'Could not load invoice': 'Nepavyko įkelti sąskaitos',
-'Could not load invoices': 'Nepavyko įkelti sąskaitų',
-'Could not load lesson': 'Nepavyko įkelti pamokos',
-'Could not load lessons': 'Nepavyko įkelti pamokų',
-'Could not load markbook': 'Nepavyko įkelti pažymių dienyno',
-'Could not load master timetable': 'Nepavyko įkelti bendro tvarkaraščio',
-'Could not load medical data': 'Nepavyko įkelti sveikatos duomenų',
-'Could not load messages': 'Nepavyko įkelti žinučių',
-'Could not load notifications': 'Nepavyko įkelti pranešimų',
-'Could not load password policy': 'Nepavyko įkelti slaptažodžių taisyklių',
-'Could not load people': 'Nepavyko įkelti asmenų',
-'Could not load personal data': 'Nepavyko įkelti asmens duomenų',
-'Could not load personal information': 'Nepavyko įkelti asmeninės informacijos',
-'Could not load profile': 'Nepavyko įkelti profilio',
-'Could not load report': 'Nepavyko įkelti pažangos ataskaitos',
-'Could not load reports': 'Nepavyko įkelti pažangos ataskaitų',
-'Could not load roles': 'Nepavyko įkelti vaidmenų',
-'Could not load roster': 'Nepavyko įkelti grupės sąrašo',
-'Could not load school years': 'Nepavyko įkelti mokslo metų',
-'Could not load settings': 'Nepavyko įkelti nustatymų',
-'Could not load special day': 'Nepavyko įkelti ypatingos dienos',
-'Could not load staff': 'Nepavyko įkelti darbuotojų',
-'Could not load staff data': 'Nepavyko įkelti darbuotojo duomenų',
-'Could not load students': 'Nepavyko įkelti mokinių',
-'Could not load terms': 'Nepavyko įkelti pusmečių',
-'Could not load timetable': 'Nepavyko įkelti tvarkaraščio',
-'Could not load timetables': 'Nepavyko įkelti tvarkaraščių',
-'Could not load user': 'Nepavyko įkelti naudotojo',
-'Could not load users': 'Nepavyko įkelti naudotojų',
-'Could not load your children': 'Nepavyko įkelti Jūsų vaikų',
-'Could not open payment page': 'Nepavyko atidaryti mokėjimo puslapio',
-'Could not open the video call': 'Nepavyko atidaryti vaizdo skambučio',
-'Could not remove': 'Nepavyko pašalinti',
-'Could not reset password': 'Nepavyko atkurti slaptažodžio',
-'Could not save': 'Nepavyko išsaugoti',
-'Could not save attendance': 'Nepavyko išsaugoti lankomumo',
-'Could not save for: {names}': 'Nepavyko išsaugoti: {names}',
-'Could not save setting': 'Nepavyko išsaugoti nustatymo',
-'Could not save user': 'Nepavyko išsaugoti naudotojo',
-'Could not start impersonating this user': 'Nepavyko prisijungti šio naudotojo vardu',
-'Could not submit update': 'Nepavyko pateikti atnaujinimo',
-'Could not switch role': 'Nepavyko pakeisti vaidmens',
-'Could not switch school year': 'Nepavyko pakeisti mokslo metų',
-'Could not update': 'Nepavyko atnaujinti',
-'Country of Origin': 'Kilmės šalis',
-'Coverage Priority': 'Pavadavimo prioritetas',
-'Create linked staff record': 'Sukurti susietą darbuotojo įrašą',
-'Create linked student enrolment': 'Sukurti susietą mokinio registraciją',
-'Current year': 'Einamieji metai',
-'Dashboard': 'Pradžia',
-'Delete Class': 'Ištrinti grupę',
-'Delete Course': 'Ištrinti dalyką',
-'Delete Special Day': 'Ištrinti ypatingą dieną',
-'Delete User': 'Ištrinti naudotoją',
-'Developed by High Point Education': 'Sukūrė High Point Education',
-'Done': 'Atlikta',
-'Due': 'Terminas',
-'Due date and details are required.': 'Būtina nurodyti terminą ir aprašymą.',
-'Editable': 'Redaguojamas',
-'Email: Must be unique': 'El. paštas: turi būti unikalus',
-'Enrolable Year Groups': 'Klasių srautai, į kuriuos galima registruoti',
-'Enroll existing students into the active school year': 'Registruokite esamus mokinius į einamuosius mokslo metus',
-'Family name as shown in ID documents': 'Pavardė, kaip nurodyta asmens dokumente',
-'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Pirmiausia įveskite vardą, pavardę, kreipinio vardą ir pagrindinį vaidmenį',
-'Filter by Year Group': 'Filtruoti pagal klasių srautą',
-'First Name *': 'Vardas *',
-'First name as shown in ID documents': 'Vardas, kaip nurodyta asmens dokumente',
-'Form Group *': 'Klasė *',
-'Formal name to address parents with': 'Oficialus kreipinys į tėvus',
-'Full name as shown in ID documents': 'Vardas ir pavardė, kaip nurodyta asmens dokumente',
-'Gateway': 'Mokėjimų paslauga',
-'Gender *': 'Lytis *',
-'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ yra Gibbon Education Ltd. (Honkongas) prekių ženklas, naudojamas gavus leidimą.',
-'Google Sign-In, only if your school uses it and you choose it': 'Prisijungimas per Google, tik jei Jūsų mokykla jį naudoja ir Jūs jį pasirenkate',
-'Grades': 'Pažymiai',
-'Higher numbers move staff up the order within their grouping.': 'Didesni skaičiai perkelia darbuotoją aukščiau jo grupės sąraše.',
-"Highlighted in red: marked 'Full' but outside their start/end date range.": 'Raudonai pažymėti: būsena „Aktyvus“, bet už pradžios ir pabaigos datų ribų.',
-'Holiday': 'Šventinė diena',
-'Homework Calendar': 'Namų darbų kalendorius',
-'Homework due': 'Namų darbų terminas',
-'Homework removed.': 'Namų darbas pašalintas.',
-'Homework saved.': 'Namų darbas išsaugotas.',
-"If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Pasirinkus „Šeima“, būsimos sąskaitos bus siunčiamos pagal Jūsų šeimos kontaktų nustatymus. Pasirinkus „Įmonė“, galite nurodyti, ar įmonė apmoka visus, ar tik kai kuriuos mokesčius.',
-'Impersonate': 'Prisijungti kaip',
-'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Funkcijai „Prisijungti kaip naudotojas“ mokyklos serveryje reikia School Connect modulio 1.16.09 ar naujesnės versijos.',
-'Installed version is {version}.': 'Įdiegta versija: {version}.',
-'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Baigiasi po 2 valandų. Norėdami grįžti anksčiau, ekrano viršuje spustelėkite „Grįžti į savo paskyrą“.',
-'Jitsi': 'Jitsi',
-'Join Virtual Class': 'Prisijungti prie nuotolinės pamokos',
-'Join Virtual Class is hidden everywhere it would normally appear': 'Mygtukas „Prisijungti prie nuotolinės pamokos“ paslėptas visur',
-'Join Virtual Class shows on the timetable and planner': 'Mygtukas „Prisijungti prie nuotolinės pamokos“ rodomas tvarkaraštyje ir planuoklyje',
-'Last 10 school days': 'Paskutinės 10 mokslo dienų',
-'Last 10 school days — per period': 'Paskutinės 10 mokslo dienų — pagal pamokas',
-'Last 20 school days': 'Paskutinės 20 mokslo dienų',
-'Last class of the day': 'Paskutinė dienos pamoka',
-'Lesson planning is coming soon': 'Pamokų planavimas netrukus',
-'Licence check': 'Licencijos patikra',
-'Link staff-role people to their staff record': 'Susiekite asmenis su darbuotojo vaidmeniu su jų darbuotojo įrašais',
-'Log Behaviour': 'Įrašyti elgesį',
-'Logged in as': 'Prisijungta kaip',
-'Manage users and school settings': 'Tvarkykite naudotojus ir mokyklos nustatymus',
-'Mark all read': 'Pažymėti visus kaip perskaitytus',
-'Mark as complete': 'Pažymėti kaip atliktą',
-'Mark attendance for today': 'Pažymėti šiandienos lankomumą',
-'Mark read': 'Pažymėti kaip perskaitytą',
-'Master Timetable': 'Bendras tvarkaraštis',
-'Must be unique if set': 'Jei nurodytas, turi būti unikalus',
-'My Form Groups': 'Mano klasės',
-'Name and Short Name are required': 'Būtina nurodyti pavadinimą ir trumpą pavadinimą',
-'No Form Groups found': 'Klasių nerasta',
-'No Learning Area': 'Be ugdymo srities',
-'No activities on record': 'Būrelių nėra',
-'No adults linked': 'Susietų suaugusiųjų nėra',
-'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Jokių reklamų, analitikos, sekimo, klaidų ataskaitų ir tiesioginių pranešimų paslaugų. Programėlė niekada neparduoda ir nesidalija Jūsų duomenimis.',
-'No children found': 'Vaikų nerasta',
-'No children linked': 'Susietų vaikų nėra',
-'No children linked to this account': 'Su šia paskyra nesusietas joks vaikas',
-'No class': 'Pamokos nėra',
-'No classes found': 'Grupių nerasta',
-'No classes in this room today': 'Šiandien šiame kabinete pamokų nėra',
-'No classes scheduled': 'Suplanuotų pamokų nėra',
-'No classes scheduled today': 'Šiandien suplanuotų pamokų nėra',
-'No classes yet': 'Grupių dar nėra',
-'No courses found': 'Dalykų nerasta',
-'No data for this term': 'Šio pusmečio duomenų nėra',
-'No data updates found': 'Duomenų atnaujinimų nerasta',
-'No department': 'Be metodinės grupės',
-'No facilities found': 'Kabinetų nerasta',
-'No families found': 'Šeimų nerasta',
-'No family members on record': 'Šeimos narių nėra',
-'No family record found': 'Šeimos įrašas nerastas',
-'No grades available': 'Pažymių nėra',
-'No history available': 'Istorijos nėra',
-'No homework recorded.': 'Namų darbų nėra.',
-'No invoices to display': 'Sąskaitų nėra',
-'No markbook entries yet': 'Pažymių dienyne įrašų dar nėra',
-'No matches found': 'Atitikmenų nerasta',
-'No notifications': 'Pranešimų nėra',
-'No participants yet': 'Dalyvių dar nėra',
-'No people found': 'Asmenų nerasta',
-'No phone on record': 'Telefono numerio nėra',
-'No record': 'Įrašo nėra',
-'No reports available yet': 'Pažangos ataskaitų dar nėra',
-'No school days this week': 'Šią savaitę mokslo dienų nėra',
-'No staff found': 'Darbuotojų nerasta',
-'No students enrolled this year': 'Šiais metais užregistruotų mokinių nėra',
-'No students found': 'Mokinių nerasta',
-'No terms found for this school year': 'Šiems mokslo metams pusmečių nerasta',
-'No timetable data found': 'Tvarkaraščio duomenų nerasta',
-'No timetable for this day': 'Šiai dienai tvarkaraščio nėra',
-'No timetable for today': 'Šiandienai tvarkaraščio nėra',
-'No users found': 'Naudotojų nerasta',
-"Non-reportable participants won't display in reports.": 'Į pažangos ataskaitas neįtraukti dalyviai jose nerodomi.',
-'Non-school day': 'Nemokslo diena',
-'Not a School Day': 'Ne mokslo diena',
-'Not currently enrolled': 'Šiuo metu neužregistruotas',
-'Not enrolled in any classes yet': 'Dar neužregistruotas jokioje grupėje',
-'Not reported: update the School Connect module': 'Duomenų nėra: atnaujinkite School Connect modulį',
-'Not taken yet today': 'Šiandien dar nepažymėta',
-'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Čia dar neprieinama — registruojant čia dalykai automatiškai nepridedami. Jei reikia, užbaikite registraciją į dalykus svetainėje.',
-'Nothing scheduled': 'Nieko nesuplanuota',
-'Now': 'Dabar',
-'Official Name *': 'Oficialus vardas ir pavardė *',
-"Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Kartą per dieną Jūsų mokyklos serveris praneša High Point tik savo interneto adresą, kad patvirtintų mokyklos prenumeratą. Jokia asmeninė informacija nesiunčiama.',
-'Only includes people with a Staff role not already staff.': 'Įtraukiami tik asmenys su darbuotojo vaidmeniu, dar neturintys darbuotojo įrašo.',
-'Only includes students not enrolled in this school year.': 'Įtraukiami tik mokiniai, neužregistruoti šiems mokslo metams.',
-'Opens at': 'Atidaroma',
-'Other services you may see': 'Kitos paslaugos, kurias galite matyti',
-'Password *': 'Slaptažodis *',
-'Password must be filled in and match': 'Slaptažodis turi būti įvestas ir sutapti',
-'Password reset successfully': 'Slaptažodis atkurtas',
-'Passwords do not match': 'Slaptažodžiai nesutampa',
-'Passwords must be filled in and match': 'Slaptažodžiai turi būti įvesti ir sutapti',
-'Permanently delete': 'Ištrinti visam laikui',
-'Permanently delete "{name}" and all of its classes?': 'Visam laikui ištrinti „{name}“ ir visas jo grupes?',
-'Permissions': 'Leidimai',
-'Person *': 'Asmuo *',
-'Please enter a Staff Type': 'Nurodykite darbuotojo tipą',
-'Please fill in all required fields (name, official name, gender, role, username)': 'Užpildykite visus privalomus laukus (vardas, oficialus vardas, lytis, vaidmuo, prisijungimo vardas)',
-'Please select a Type': 'Pasirinkite tipą',
-'Please select a Year Group and Form Group': 'Pasirinkite klasių srautą ir klasę',
-'Please select a class and a role': 'Pasirinkite grupę ir vaidmenį',
-'Please select a person': 'Pasirinkite asmenį',
-'Please select a person and a role': 'Pasirinkite asmenį ir vaidmenį',
-'Please select a student': 'Pasirinkite mokinį',
-'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Peržiūrėkite toliau nurodytus reikalingus atnaujinimus. Net jei niekas nepasikeitė, pateikdami patvirtinate, kad Jūsų duomenys teisingi.',
-'Powered by Gibbon': 'Veikia su Gibbon',
-'Preferred Name *': 'Kreipinio vardas *',
-'Primary Role *': 'Pagrindinis vaidmuo *',
-'Priority 1 contacts always receive all contact types.': '1 prioriteto kontaktai visada gauna visų tipų pranešimus.',
-'Qualified': 'Kvalifikuotas',
-'Quick Access': 'Greita prieiga',
-'Read the full privacy policy': 'Skaityti visą privatumo politiką',
-'Receipt ID': 'Kvito numeris',
-'Recent Attendance': 'Naujausias lankomumas',
-'Remove "{name}" from the calendar?': 'Pašalinti „{name}“ iš kalendoriaus?',
-'Remove Adult': 'Pašalinti suaugusįjį',
-'Remove Child': 'Pašalinti vaiką',
-'Remove Class': 'Pašalinti grupę',
-'Remove Enrolment': 'Pašalinti registraciją',
-'Remove Staff Record': 'Pašalinti darbuotojo įrašą',
-'Remove enrolment in {class}?': 'Pašalinti registraciją į {class}?',
-'Remove from Class': 'Pašalinti iš grupės',
-'Remove {name} from staff?': 'Pašalinti {name} iš darbuotojų?',
-'Remove {name} from this class?': 'Pašalinti {name} iš šios grupės?',
-'Remove {name} from this family?': 'Pašalinti {name} iš šios šeimos?',
-'Report-card PDFs, only while you view or share them': 'Pažangos ataskaitos PDF formatu, tik kol jas peržiūrite ar bendrinate',
-'Return to my account': 'Grįžti į savo paskyrą',
-'Role: Can Login': 'Vaidmuo: gali prisijungti',
-'Roll': 'Nr.',
-'Save failed': 'Nepavyko išsaugoti',
-'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School Connect yra trečiosios šalies programėlė, suderinama su Gibbon — nemokama atvirojo kodo mokyklų valdymo platforma. Tai nėra oficialus Gibbon Foundation leidinys, ji nėra susijusi su Gibbon Foundation ir jos nėra patvirtinta.',
-'School Connect module on the school server': 'School Connect modulis mokyklos serveryje',
-"School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School Connect rodo informaciją iš Jūsų mokyklos Gibbon sistemos: tvarkaraščius, lankomumą, pažymius, namų darbus, pažangos ataskaitas, pranešimus ir Jūsų šeimos duomenis. Programėlė jungiasi tiesiogiai ir tik prie Jūsų mokyklos Gibbon serverio šifruotu (HTTPS) ryšiu. High Point Education šios informacijos negauna, nesaugo ir nemato.',
-"School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'Mokyklos atidarymo, pamokų pradžios, pabaigos ir uždarymo laikas čia nenustatomas — užbaikite tai svetainėje.',
-'Search and view student profiles': 'Ieškokite ir peržiūrėkite mokinių profilius',
-'Search by course name...': 'Ieškoti pagal dalyko pavadinimą...',
-'Search by course or class name...': 'Ieškoti pagal dalyko ar grupės pavadinimą...',
-'Search by family name...': 'Ieškoti pagal šeimos pavadinimą...',
-'Search by name or initials...': 'Ieškoti pagal vardą ar inicialus...',
-'Search by name or student ID...': 'Ieškoti pagal vardą ar mokinio numerį...',
-'Search by name or username...': 'Ieškoti pagal vardą ar prisijungimo vardą...',
-'Search by name, username, email, student ID...': 'Ieškoti pagal vardą, prisijungimo vardą, el. paštą, mokinio numerį...',
-'Search classes...': 'Ieškoti grupių...',
-'Search rooms...': 'Ieškoti kabinetų...',
-'Search students...': 'Ieškoti mokinių...',
-'Select Student': 'Pasirinkti mokinį',
-'Sessions marked Out this year': 'Šiais metais praleistos pamokos',
-'Share': 'Bendrinti',
-'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Atsijungus pašalinamas prisijungimo raktas, Jūsų prisijungimo vardas ir atsisiųstos pažangos ataskaitos. Pašalinus programėlę, ištrinama visa kita.',
-'Staff Profile': 'Darbuotojo profilis',
-'Staff Type *': 'Darbuotojo tipas *',
-'Staff record created': 'Darbuotojo įrašas sukurtas',
-'Student *': 'Mokinys *',
-'Student List': 'Mokinių sąrašas',
-'Student enrolled successfully': 'Mokinys užregistruotas',
-'Submitted': 'Pateikta',
-'Surname *': 'Pavardė *',
-'Switch Role': 'Keisti vaidmenį',
-'Switch School Year': 'Keisti mokslo metus',
-'Take attendance for this class': 'Pažymėti šios grupės lankomumą',
-'Taken': 'Pažymėta',
-'Taken at {time}': 'Pažymėta {time}',
-'Taken today at {time}. Tap to review or change': 'Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte',
-'Tap to edit': 'Bakstelėkite, kad redaguotumėte',
-'The impersonation ended after 2 hours. You are back in your own account.': 'Prisijungimas kito naudotojo vardu baigėsi po 2 valandų. Grįžote į savo paskyrą.',
-'The order in which the school should contact family members.': 'Tvarka, kuria mokykla turi kreiptis į šeimos narius.',
-'Their user account is not affected.': 'Šio asmens naudotojo paskyra nepaveikiama.',
-'There are no messages to display.': 'Žinučių nėra.',
-'This affects the timetable:': 'Tai paveikia tvarkaraštį:',
-'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Taip pat bus pašalinti visi šių grupių registracijos ir tvarkaraščio duomenys. To atšaukti negalima.',
-'This cannot be undone.': 'To atšaukti negalima.',
-'This class is not scheduled on {date}. You can still save attendance if needed.': 'Ši grupė {date} neturi pamokų. Jei reikia, lankomumą vis tiek galite išsaugoti.',
-'This does not delete their user account.': 'Šio asmens naudotojo paskyra neištrinama.',
-'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Ši parinktis leidžia administratoriams prisijungti kitos sistemos paskyros vardu, kad išspręstų problemas ir atliktų bandymus. Pasirinktas naudotojas ir toliau galės prisijungti prie savo paskyros ir atsijungti.',
-'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Bus pašalinti visi šios grupės registracijos ir tvarkaraščio duomenys. To atšaukti negalima.',
-'Timetable by Facility': 'Tvarkaraštis pagal kabinetą',
-"Today's Timetable": 'Šiandienos tvarkaraštis',
-'Trial access': 'Bandomoji prieiga',
-'Troubleshoot by seeing the app as another user': 'Spręskite problemas matydami programėlę kito naudotojo akimis',
-'Tutor 2': 'Klasės vadovas 2',
-'Type *': 'Tipas *',
-'Type and Name are required': 'Būtina nurodyti tipą ir pavadinimą',
-'Type at least 2 characters': 'Įveskite bent 2 simbolius',
-'Type, country code, number': 'Tipas, šalies kodas, numeris',
-'Unenroll {name} from this school year?': 'Išregistruoti {name} iš šių mokslo metų?',
-'Unknown Year': 'Nežinomi metai',
-'Unused': 'Nenaudojama',
-'Used to group staff in a staff directory.': 'Naudojama darbuotojams grupuoti darbuotojų kataloge.',
-'User created successfully': 'Naudotojas sukurtas',
-'User updated successfully': 'Naudotojas atnaujintas',
-'User: Can Login': 'Naudotojas: gali prisijungti',
-'User: Failed Logins': 'Naudotojas: nesėkmingi prisijungimai',
-'User: Status': 'Naudotojas: būsena',
-'Username *': 'Prisijungimo vardas *',
-'Username already taken': 'Šis prisijungimo vardas jau užimtas',
-'Username available': 'Prisijungimo vardas laisvas',
-"Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Vaizdo pamokos: nuotolinėms pamokoms naudojama Jūsų mokyklos pasirinkta vaizdo paslauga (numatytoji — viešoji Jitsi Meet paslauga)',
-'View Attendance': 'Peržiūrėti lankomumą',
-'View Full Timetable': 'Peržiūrėti visą tvarkaraštį',
-'View Grades': 'Peržiūrėti pažymius',
-'View Homework Calendar': 'Peržiūrėti namų darbų kalendorių',
-'View Timetable': 'Peržiūrėti tvarkaraštį',
-'View and manage Form Groups': 'Peržiūrėkite ir tvarkykite klases',
-'View class grades': 'Peržiūrėti grupės pažymius',
-'View families, contacts, and children': 'Peržiūrėkite šeimas, kontaktus ir vaikus',
-'View lesson plans for this class': 'Peržiūrėti šios grupės pamokų planus',
-'View students in this class': 'Peržiūrėti šios grupės mokinius',
-'View your grades': 'Peržiūrėkite savo pažymius',
-'View your report cards': 'Peržiūrėkite savo pažangos ataskaitas',
-'Viewing as {name}': 'Peržiūrima kaip {name}',
-'Virtual Classroom': 'Virtuali klasė',
-'Welcome, {name}!': 'Sveiki, {name}!',
-'What the app does not do': 'Ko programėlė nedaro',
-'What the app keeps on this device': 'Ką programėlė saugo šiame įrenginyje',
-'Year Group *': 'Klasių srautas *',
-"Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Klasių srautai ir klasės čia nenurodomi — kol to nepadarysite svetainėje, tai bus taikoma visiems.',
-'You are back in your own account.': 'Grįžote į savo paskyrą.',
-'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Peržiūrite {year} mokslo metus, kurie nėra einamieji. Duomenys gali būti ne visai tikslūs (pavyzdžiui, iš mokyklos išėję mokiniai ankstesniuose metuose nerodomi).',
-'You can use this section to record your own homework.': 'Šioje skiltyje galite įrašyti savo namų darbus.',
-"You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Jau pateikėte prašymą, kurį turi peržiūrėti administratorius. Toliau dar galite daryti pakeitimus, tačiau Jūsų duomenys sistemoje atsiras tik apdorojus prašymą.',
-'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Jau pateikėte prašymą, kurį turi peržiūrėti administratorius. Toliau dar galite daryti pakeitimus.',
-'Your data is up to date.': 'Jūsų duomenys atnaujinti.',
-'Your data stays with your school': 'Jūsų duomenys lieka Jūsų mokykloje',
-"Your last username and the last three school addresses you used, so you don't have to retype them": 'Paskutinis Jūsų prisijungimo vardas ir trys paskutiniai naudoti mokyklų adresai, kad nereikėtų jų įvesti iš naujo',
-'Your rights and questions': 'Jūsų teisės ir klausimai',
-"Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Už Jūsų asmens duomenis Gibbon sistemoje atsako Jūsų mokykla. Norėdami juos peržiūrėti, ištaisyti ar ištrinti, kreipkitės į mokyklos duomenų apsaugos pareigūną. Klausimais apie pačią programėlę rašykite {email}.',
-'Your session will be switched to {name} ({role}).': 'Jūsų sesija bus perjungta į {name} ({role}).',
-'a previous year': 'ankstesni metai',
-'an app for Gibbon™': 'programėlė Gibbon™ sistemai',
-'optional': 'neprivaloma',
-'primary': 'pagrindinis',
-'until {time}': 'iki {time}',
-'{absent} absent of {total} sessions recorded': 'Praleista {absent} iš {total} pažymėtų pamokų',
-'{count}d ago': 'prieš {count} d.',
-'{count}h ago': 'prieš {count} val.',
-'{count}m ago': 'prieš {count} min.',
-'{label}: ': '{label}: ',
-'— None —': '— Nėra —',
-}
+T = {'A punctuation mark or space': 'Skyrybos ženklas arba tarpas',
+ "A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Prisijungimo raktas, laikomas saugioje įrenginio saugykloje (iOS Keychain arba Android Keystore)',
+ 'About & Privacy': 'Apie programėlę ir privatumas',
+ 'Add More': 'Pridėti daugiau',
+ 'Add Participant': 'Pridėti dalyvį',
+ 'Add homework?': 'Pridėti namų darbą?',
+ 'Add, edit, and remove closures': 'Pridėkite, redaguokite ir šalinkite nedarbo dienas',
+ 'Add, edit, and remove user accounts': 'Pridėkite, redaguokite ir šalinkite naudotojų paskyras',
+ 'Adjusts arrangement of courses in reports.': 'Nustato dalykų tvarką pažangos ataskaitose.',
+ 'Adult settings updated': 'Suaugusio asmens nustatymai atnaujinti',
+ 'All Types': 'Visi tipai',
+ 'All Year Groups': 'Visi klasių srautai',
+ 'An uppercase and a lowercase letter': 'Didžioji ir mažoji raidė',
+ 'App version, connected school and your data': 'Programėlės versija, prijungta mokykla ir Jūsų duomenys',
+ 'Assessments': 'Vertinimai',
+ 'At least one number': 'Bent vienas skaitmuo',
+ 'Attendance This Year': 'Lankomumas šiais metais',
+ 'Attendance not taken yet today': 'Šiandien lankomumas dar nepažymėtas',
+ 'Behaviour record saved!': 'Elgesio įrašas išsaugotas!',
+ 'Browse staff profiles': 'Peržiūrėkite darbuotojų profilius',
+ 'By Class': 'Pagal grupę',
+ 'By Date': 'Pagal datą',
+ 'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie '
+                                                                                                                                 'duomenų atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir '
+                                                                                                                                 'galite atsisakyti.',
+ 'Cancel Bookings?': 'Atšaukti rezervacijas?',
+ 'Cancel Classes?': 'Atšaukti pamokas?',
+ 'Cancel Staff Duty?': 'Atšaukti darbuotojų budėjimus?',
+ 'Cancel new condition': 'Atšaukti naują sveikatos sutrikimą',
+ 'Cap': 'Talp.',
+ 'Chinese or other character-based name': 'Vardas kinų ar kitais hieroglifais',
+ 'Choose a class above': 'Pasirinkite grupę viršuje',
+ 'Choose any Form Group': 'Pasirinkite bet kurią klasę',
+ 'Choose any of your classes': 'Pasirinkite bet kurią savo grupę',
+ 'Choose at least one student first': 'Pirmiausia pasirinkite bent vieną mokinį',
+ 'Choose one of your Form Groups': 'Pasirinkite vieną iš savo klasių',
+ 'Class Absences': 'Praleistos pamokos',
+ 'Class Enrolments': 'Registracijos į grupes',
+ 'Class Roster': 'Grupės sąrašas',
+ 'Click Update next to School Connect in System Admin > Manage Modules.': 'Spustelėkite „Atnaujinti“ šalia School Connect, skiltyje Sistemos administratorius > Tvarkyti modulius.',
+ 'Closed at': 'Uždaryta',
+ 'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'Sujungtas trumpas pavadinimas „{name}“ ilgesnis nei 16 simbolių — '
+                                                                                                                                 'tvarkaraštyje ir išskleidžiamuosiuose sąrašuose jis gali būti '
+                                                                                                                                 'rodomas netinkamai.',
+ 'Combined short name exceeds 16 characters': 'Sujungtas trumpas pavadinimas ilgesnis nei 16 simbolių',
+ 'Comma-separated list of email addresses': 'El. pašto adresai, atskirti kableliais',
+ 'Confirm Password *': 'Pakartokite slaptažodį *',
+ 'Connected school': 'Prijungta mokykla',
+ 'Connecting...': 'Jungiamasi...',
+ 'Contact Info': 'Kontaktai',
+ 'Contact {number} — not on record': 'Kontaktas {number} — duomenų nėra',
+ 'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Pamokų turinys: mokytojo pridėti vaizdo įrašai ar paveikslėliai (pavyzdžiui, '
+                                                                                                                       'iš YouTube) įkeliami iš tų svetainių, kai juos atidarote',
+ 'Control what shows up in the app for everyone': 'Nustatykite, ką programėlėje mato visi',
+ 'Could not add': 'Nepavyko pridėti',
+ 'Could not add adult': 'Nepavyko pridėti suaugusio asmens',
+ 'Could not add child': 'Nepavyko pridėti vaiko',
+ 'Could not delete user': 'Nepavyko ištrinti naudotojo',
+ 'Could not download report': 'Nepavyko atsisiųsti pažangos ataskaitos',
+ 'Could not generate username': 'Nepavyko sukurti prisijungimo vardo',
+ 'Could not load Form Groups': 'Nepavyko įkelti klasių',
+ 'Could not load activities': 'Nepavyko įkelti būrelių',
+ 'Could not load attendance': 'Nepavyko įkelti lankomumo',
+ 'Could not load children': 'Nepavyko įkelti vaikų',
+ 'Could not load classes': 'Nepavyko įkelti grupių',
+ 'Could not load course': 'Nepavyko įkelti dalyko',
+ 'Could not load courses': 'Nepavyko įkelti dalykų',
+ 'Could not load data': 'Nepavyko įkelti duomenų',
+ 'Could not load data updates': 'Nepavyko įkelti duomenų atnaujinimų',
+ 'Could not load days of the week': 'Nepavyko įkelti savaitės dienų',
+ 'Could not load emergency contacts': 'Nepavyko įkelti skubios pagalbos kontaktų',
+ 'Could not load enrolment': 'Nepavyko įkelti registracijos',
+ 'Could not load enrolments': 'Nepavyko įkelti registracijų',
+ 'Could not load facilities': 'Nepavyko įkelti kabinetų',
+ 'Could not load families': 'Nepavyko įkelti šeimų',
+ 'Could not load family': 'Nepavyko įkelti šeimos',
+ 'Could not load family data': 'Nepavyko įkelti šeimos duomenų',
+ 'Could not load finance data': 'Nepavyko įkelti finansinių duomenų',
+ 'Could not load form': 'Nepavyko įkelti formos',
+ 'Could not load form data': 'Nepavyko įkelti formos duomenų',
+ 'Could not load grades': 'Nepavyko įkelti pažymių',
+ 'Could not load homework': 'Nepavyko įkelti namų darbų',
+ 'Could not load homework calendar': 'Nepavyko įkelti namų darbų kalendoriaus',
+ 'Could not load invoice': 'Nepavyko įkelti sąskaitos',
+ 'Could not load invoices': 'Nepavyko įkelti sąskaitų',
+ 'Could not load lesson': 'Nepavyko įkelti pamokos',
+ 'Could not load lessons': 'Nepavyko įkelti pamokų',
+ 'Could not load markbook': 'Nepavyko įkelti pažymių dienyno',
+ 'Could not load master timetable': 'Nepavyko įkelti bendro tvarkaraščio',
+ 'Could not load medical data': 'Nepavyko įkelti sveikatos duomenų',
+ 'Could not load messages': 'Nepavyko įkelti žinučių',
+ 'Could not load notifications': 'Nepavyko įkelti pranešimų',
+ 'Could not load password policy': 'Nepavyko įkelti slaptažodžių taisyklių',
+ 'Could not load people': 'Nepavyko įkelti asmenų',
+ 'Could not load personal data': 'Nepavyko įkelti asmens duomenų',
+ 'Could not load personal information': 'Nepavyko įkelti asmeninės informacijos',
+ 'Could not load profile': 'Nepavyko įkelti profilio',
+ 'Could not load report': 'Nepavyko įkelti pažangos ataskaitos',
+ 'Could not load reports': 'Nepavyko įkelti pažangos ataskaitų',
+ 'Could not load roles': 'Nepavyko įkelti vaidmenų',
+ 'Could not load roster': 'Nepavyko įkelti grupės sąrašo',
+ 'Could not load school years': 'Nepavyko įkelti mokslo metų',
+ 'Could not load settings': 'Nepavyko įkelti nustatymų',
+ 'Could not load special day': 'Nepavyko įkelti ypatingos dienos',
+ 'Could not load staff': 'Nepavyko įkelti darbuotojų',
+ 'Could not load staff data': 'Nepavyko įkelti darbuotojo duomenų',
+ 'Could not load students': 'Nepavyko įkelti mokinių',
+ 'Could not load terms': 'Nepavyko įkelti pusmečių',
+ 'Could not load timetable': 'Nepavyko įkelti tvarkaraščio',
+ 'Could not load timetables': 'Nepavyko įkelti tvarkaraščių',
+ 'Could not load user': 'Nepavyko įkelti naudotojo',
+ 'Could not load users': 'Nepavyko įkelti naudotojų',
+ 'Could not load your children': 'Nepavyko įkelti Jūsų vaikų',
+ 'Could not open payment page': 'Nepavyko atidaryti mokėjimo puslapio',
+ 'Could not open the video call': 'Nepavyko atidaryti vaizdo skambučio',
+ 'Could not remove': 'Nepavyko pašalinti',
+ 'Could not reset password': 'Nepavyko atkurti slaptažodžio',
+ 'Could not save': 'Nepavyko išsaugoti',
+ 'Could not save attendance': 'Nepavyko išsaugoti lankomumo',
+ 'Could not save for: {names}': 'Nepavyko išsaugoti: {names}',
+ 'Could not save setting': 'Nepavyko išsaugoti nustatymo',
+ 'Could not save user': 'Nepavyko išsaugoti naudotojo',
+ 'Could not start impersonating this user': 'Nepavyko prisijungti šio naudotojo vardu',
+ 'Could not submit update': 'Nepavyko pateikti atnaujinimo',
+ 'Could not switch role': 'Nepavyko pakeisti vaidmens',
+ 'Could not switch school year': 'Nepavyko pakeisti mokslo metų',
+ 'Could not update': 'Nepavyko atnaujinti',
+ 'Country of Origin': 'Kilmės šalis',
+ 'Coverage Priority': 'Pavadavimo prioritetas',
+ 'Create linked staff record': 'Sukurti susietą darbuotojo įrašą',
+ 'Create linked student enrolment': 'Sukurti susietą mokinio registraciją',
+ 'Current year': 'Einamieji metai',
+ 'Dashboard': 'Pradžia',
+ 'Delete Class': 'Ištrinti grupę',
+ 'Delete Course': 'Ištrinti dalyką',
+ 'Delete Special Day': 'Ištrinti ypatingą dieną',
+ 'Delete User': 'Ištrinti naudotoją',
+ 'Developed by High Point Education': 'Sukūrė High Point Education',
+ 'Done': 'Atlikta',
+ 'Due': 'Terminas',
+ 'Due date and details are required.': 'Būtina nurodyti terminą ir aprašymą.',
+ 'Editable': 'Redaguojamas',
+ 'Email: Must be unique': 'El. paštas: turi būti unikalus',
+ 'Enrolable Year Groups': 'Klasių srautai, į kuriuos galima registruoti',
+ 'Enroll existing students into the active school year': 'Registruokite esamus mokinius į einamuosius mokslo metus',
+ 'Family name as shown in ID documents': 'Pavardė, kaip nurodyta asmens dokumente',
+ 'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Pirmiausia įveskite vardą, pavardę, kreipinio vardą ir pagrindinį vaidmenį',
+ 'Filter by Year Group': 'Filtruoti pagal klasių srautą',
+ 'First Name *': 'Vardas *',
+ 'First name as shown in ID documents': 'Vardas, kaip nurodyta asmens dokumente',
+ 'Form Group *': 'Klasė *',
+ 'Formal name to address parents with': 'Oficialus kreipinys į tėvus',
+ 'Full name as shown in ID documents': 'Vardas ir pavardė, kaip nurodyta asmens dokumente',
+ 'Gateway': 'Mokėjimų paslauga',
+ 'Gender *': 'Lytis *',
+ 'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ yra Gibbon Education Ltd. (Honkongas) prekių ženklas, naudojamas gavus leidimą.',
+ 'Google Sign-In, only if your school uses it and you choose it': 'Prisijungimas per Google, tik jei Jūsų mokykla jį naudoja ir Jūs jį pasirenkate',
+ 'Grades': 'Pažymiai',
+ 'Higher numbers move staff up the order within their grouping.': 'Didesni skaičiai perkelia darbuotoją aukščiau jo grupės sąraše.',
+ "Highlighted in red: marked 'Full' but outside their start/end date range.": 'Raudonai pažymėti: būsena „Aktyvus“, bet už pradžios ir pabaigos datų ribų.',
+ 'Holiday': 'Šventinė diena',
+ 'Homework Calendar': 'Namų darbų kalendorius',
+ 'Homework due': 'Namų darbų terminas',
+ 'Homework removed.': 'Namų darbas pašalintas.',
+ 'Homework saved.': 'Namų darbas išsaugotas.',
+ "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Pasirinkus '
+                                                                                                                                                                                                               '„Šeima“, '
+                                                                                                                                                                                                               'būsimos '
+                                                                                                                                                                                                               'sąskaitos '
+                                                                                                                                                                                                               'bus '
+                                                                                                                                                                                                               'siunčiamos '
+                                                                                                                                                                                                               'pagal '
+                                                                                                                                                                                                               'Jūsų '
+                                                                                                                                                                                                               'šeimos '
+                                                                                                                                                                                                               'kontaktų '
+                                                                                                                                                                                                               'nustatymus. '
+                                                                                                                                                                                                               'Pasirinkus '
+                                                                                                                                                                                                               '„Įmonė“, '
+                                                                                                                                                                                                               'galite '
+                                                                                                                                                                                                               'nurodyti, '
+                                                                                                                                                                                                               'ar '
+                                                                                                                                                                                                               'įmonė '
+                                                                                                                                                                                                               'apmoka '
+                                                                                                                                                                                                               'visus, '
+                                                                                                                                                                                                               'ar '
+                                                                                                                                                                                                               'tik '
+                                                                                                                                                                                                               'kai '
+                                                                                                                                                                                                               'kuriuos '
+                                                                                                                                                                                                               'mokesčius.',
+ 'Impersonate': 'Prisijungti kaip',
+ 'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Funkcijai „Prisijungti kaip naudotojas“ mokyklos serveryje reikia School Connect modulio 1.16.09 ar naujesnės '
+                                                                                        'versijos.',
+ 'Installed version is {version}.': 'Įdiegta versija: {version}.',
+ 'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Baigiasi po 2 valandų. Norėdami grįžti anksčiau, ekrano viršuje spustelėkite „Grįžti į savo '
+                                                                                                  'paskyrą“.',
+ 'Jitsi': 'Jitsi',
+ 'Join Virtual Class': 'Prisijungti prie nuotolinės pamokos',
+ 'Join Virtual Class is hidden everywhere it would normally appear': 'Mygtukas „Prisijungti prie nuotolinės pamokos“ paslėptas visur',
+ 'Join Virtual Class shows on the timetable and planner': 'Mygtukas „Prisijungti prie nuotolinės pamokos“ rodomas tvarkaraštyje ir planuoklyje',
+ 'Last 10 school days': 'Paskutinės 10 mokslo dienų',
+ 'Last 10 school days — per period': 'Paskutinės 10 mokslo dienų — pagal pamokas',
+ 'Last 20 school days': 'Paskutinės 20 mokslo dienų',
+ 'Last class of the day': 'Paskutinė dienos pamoka',
+ 'Lesson planning is coming soon': 'Pamokų planavimas netrukus',
+ 'Licence check': 'Licencijos patikra',
+ 'Link staff-role people to their staff record': 'Susiekite asmenis su darbuotojo vaidmeniu su jų darbuotojo įrašais',
+ 'Log Behaviour': 'Įrašyti elgesį',
+ 'Logged in as': 'Prisijungta kaip',
+ 'Manage users and school settings': 'Tvarkykite naudotojus ir mokyklos nustatymus',
+ 'Mark all read': 'Pažymėti visus kaip perskaitytus',
+ 'Mark as complete': 'Pažymėti kaip atliktą',
+ 'Mark attendance for today': 'Pažymėti šiandienos lankomumą',
+ 'Mark read': 'Pažymėti kaip perskaitytą',
+ 'Master Timetable': 'Bendras tvarkaraštis',
+ 'Must be unique if set': 'Jei nurodytas, turi būti unikalus',
+ 'My Form Groups': 'Mano klasės',
+ 'Name and Short Name are required': 'Būtina nurodyti pavadinimą ir trumpą pavadinimą',
+ 'No Form Groups found': 'Klasių nerasta',
+ 'No Learning Area': 'Be ugdymo srities',
+ 'No activities on record': 'Būrelių nėra',
+ 'No adults linked': 'Susietų suaugusiųjų nėra',
+ 'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Jokių reklamų, analitikos, sekimo, klaidų ataskaitų ir '
+                                                                                                                                              'tiesioginių pranešimų paslaugų. Programėlė niekada '
+                                                                                                                                              'neparduoda ir nesidalija Jūsų duomenimis.',
+ 'No children found': 'Vaikų nerasta',
+ 'No children linked': 'Susietų vaikų nėra',
+ 'No children linked to this account': 'Su šia paskyra nesusietas joks vaikas',
+ 'No class': 'Pamokos nėra',
+ 'No classes found': 'Grupių nerasta',
+ 'No classes in this room today': 'Šiandien šiame kabinete pamokų nėra',
+ 'No classes scheduled': 'Suplanuotų pamokų nėra',
+ 'No classes scheduled today': 'Šiandien suplanuotų pamokų nėra',
+ 'No classes yet': 'Grupių dar nėra',
+ 'No courses found': 'Dalykų nerasta',
+ 'No data for this term': 'Šio pusmečio duomenų nėra',
+ 'No data updates found': 'Duomenų atnaujinimų nerasta',
+ 'No department': 'Be metodinės grupės',
+ 'No facilities found': 'Kabinetų nerasta',
+ 'No families found': 'Šeimų nerasta',
+ 'No family members on record': 'Šeimos narių nėra',
+ 'No family record found': 'Šeimos įrašas nerastas',
+ 'No grades available': 'Pažymių nėra',
+ 'No history available': 'Istorijos nėra',
+ 'No homework recorded.': 'Namų darbų nėra.',
+ 'No invoices to display': 'Sąskaitų nėra',
+ 'No markbook entries yet': 'Pažymių dienyne įrašų dar nėra',
+ 'No matches found': 'Atitikmenų nerasta',
+ 'No notifications': 'Pranešimų nėra',
+ 'No participants yet': 'Dalyvių dar nėra',
+ 'No people found': 'Asmenų nerasta',
+ 'No phone on record': 'Telefono numerio nėra',
+ 'No record': 'Įrašo nėra',
+ 'No reports available yet': 'Pažangos ataskaitų dar nėra',
+ 'No school days this week': 'Šią savaitę mokslo dienų nėra',
+ 'No staff found': 'Darbuotojų nerasta',
+ 'No students enrolled this year': 'Šiais metais užregistruotų mokinių nėra',
+ 'No students found': 'Mokinių nerasta',
+ 'No terms found for this school year': 'Šiems mokslo metams pusmečių nerasta',
+ 'No timetable data found': 'Tvarkaraščio duomenų nerasta',
+ 'No timetable for this day': 'Šiai dienai tvarkaraščio nėra',
+ 'No timetable for today': 'Šiandienai tvarkaraščio nėra',
+ 'No users found': 'Naudotojų nerasta',
+ "Non-reportable participants won't display in reports.": 'Į pažangos ataskaitas neįtraukti dalyviai jose nerodomi.',
+ 'Non-school day': 'Nemokslo diena',
+ 'Not a School Day': 'Ne mokslo diena',
+ 'Not currently enrolled': 'Šiuo metu neužregistruotas',
+ 'Not enrolled in any classes yet': 'Dar neužregistruotas jokioje grupėje',
+ 'Not reported: update the School Connect module': 'Duomenų nėra: atnaujinkite School Connect modulį',
+ 'Not taken yet today': 'Šiandien dar nepažymėta',
+ 'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Čia dar neprieinama — registruojant čia dalykai automatiškai '
+                                                                                                                                       'nepridedami. Jei reikia, užbaikite registraciją į dalykus '
+                                                                                                                                       'svetainėje.',
+ 'Nothing scheduled': 'Nieko nesuplanuota',
+ 'Now': 'Dabar',
+ 'Official Name *': 'Oficialus vardas ir pavardė *',
+ "Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Kartą per dieną Jūsų mokyklos serveris praneša '
+                                                                                                                                                       'High Point tik savo interneto adresą, kad '
+                                                                                                                                                       'patvirtintų mokyklos prenumeratą. Jokia '
+                                                                                                                                                       'asmeninė informacija nesiunčiama.',
+ 'Only includes people with a Staff role not already staff.': 'Įtraukiami tik asmenys su darbuotojo vaidmeniu, dar neturintys darbuotojo įrašo.',
+ 'Only includes students not enrolled in this school year.': 'Įtraukiami tik mokiniai, neužregistruoti šiems mokslo metams.',
+ 'Opens at': 'Atidaroma',
+ 'Other services you may see': 'Kitos paslaugos, kurias galite matyti',
+ 'Password *': 'Slaptažodis *',
+ 'Password must be filled in and match': 'Slaptažodis turi būti įvestas ir sutapti',
+ 'Password reset successfully': 'Slaptažodis atkurtas',
+ 'Passwords do not match': 'Slaptažodžiai nesutampa',
+ 'Passwords must be filled in and match': 'Slaptažodžiai turi būti įvesti ir sutapti',
+ 'Permanently delete': 'Ištrinti visam laikui',
+ 'Permanently delete "{name}" and all of its classes?': 'Visam laikui ištrinti „{name}“ ir visas jo grupes?',
+ 'Permissions': 'Leidimai',
+ 'Person *': 'Asmuo *',
+ 'Please enter a Staff Type': 'Nurodykite darbuotojo tipą',
+ 'Please fill in all required fields (name, official name, gender, role, username)': 'Užpildykite visus privalomus laukus (vardas, oficialus vardas, lytis, vaidmuo, prisijungimo vardas)',
+ 'Please select a Type': 'Pasirinkite tipą',
+ 'Please select a Year Group and Form Group': 'Pasirinkite klasių srautą ir klasę',
+ 'Please select a class and a role': 'Pasirinkite grupę ir vaidmenį',
+ 'Please select a person': 'Pasirinkite asmenį',
+ 'Please select a person and a role': 'Pasirinkite asmenį ir vaidmenį',
+ 'Please select a student': 'Pasirinkite mokinį',
+ 'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Peržiūrėkite toliau nurodytus reikalingus atnaujinimus. Net jei '
+                                                                                                                                      'niekas nepasikeitė, pateikdami patvirtinate, kad Jūsų duomenys '
+                                                                                                                                      'teisingi.',
+ 'Powered by Gibbon': 'Veikia su Gibbon',
+ 'Preferred Name *': 'Kreipinio vardas *',
+ 'Primary Role *': 'Pagrindinis vaidmuo *',
+ 'Priority 1 contacts always receive all contact types.': '1 prioriteto kontaktai visada gauna visų tipų pranešimus.',
+ 'Qualified': 'Kvalifikuotas',
+ 'Quick Access': 'Greita prieiga',
+ 'Read the full privacy policy': 'Skaityti visą privatumo politiką',
+ 'Receipt ID': 'Kvito numeris',
+ 'Recent Attendance': 'Naujausias lankomumas',
+ 'Remove "{name}" from the calendar?': 'Pašalinti „{name}“ iš kalendoriaus?',
+ 'Remove Adult': 'Pašalinti suaugusįjį',
+ 'Remove Child': 'Pašalinti vaiką',
+ 'Remove Class': 'Pašalinti grupę',
+ 'Remove Enrolment': 'Pašalinti registraciją',
+ 'Remove Staff Record': 'Pašalinti darbuotojo įrašą',
+ 'Remove enrolment in {class}?': 'Pašalinti registraciją į {class}?',
+ 'Remove from Class': 'Pašalinti iš grupės',
+ 'Remove {name} from staff?': 'Pašalinti {name} iš darbuotojų?',
+ 'Remove {name} from this class?': 'Pašalinti {name} iš šios grupės?',
+ 'Remove {name} from this family?': 'Pašalinti {name} iš šios šeimos?',
+ 'Report-card PDFs, only while you view or share them': 'Pažangos ataskaitos PDF formatu, tik kol jas peržiūrite ar bendrinate',
+ 'Return to my account': 'Grįžti į savo paskyrą',
+ 'Role: Can Login': 'Vaidmuo: gali prisijungti',
+ 'Roll': 'Nr.',
+ 'Save failed': 'Nepavyko išsaugoti',
+ 'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School '
+                                                                                                                                                                                                                                                      'Connect '
+                                                                                                                                                                                                                                                      'yra '
+                                                                                                                                                                                                                                                      'trečiosios '
+                                                                                                                                                                                                                                                      'šalies '
+                                                                                                                                                                                                                                                      'programėlė, '
+                                                                                                                                                                                                                                                      'suderinama '
+                                                                                                                                                                                                                                                      'su '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      '— '
+                                                                                                                                                                                                                                                      'nemokama '
+                                                                                                                                                                                                                                                      'atvirojo '
+                                                                                                                                                                                                                                                      'kodo '
+                                                                                                                                                                                                                                                      'mokyklų '
+                                                                                                                                                                                                                                                      'valdymo '
+                                                                                                                                                                                                                                                      'platforma. '
+                                                                                                                                                                                                                                                      'Tai '
+                                                                                                                                                                                                                                                      'nėra '
+                                                                                                                                                                                                                                                      'oficialus '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      'Foundation '
+                                                                                                                                                                                                                                                      'leidinys, '
+                                                                                                                                                                                                                                                      'ji '
+                                                                                                                                                                                                                                                      'nėra '
+                                                                                                                                                                                                                                                      'susijusi '
+                                                                                                                                                                                                                                                      'su '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      'Foundation '
+                                                                                                                                                                                                                                                      'ir '
+                                                                                                                                                                                                                                                      'jos '
+                                                                                                                                                                                                                                                      'nėra '
+                                                                                                                                                                                                                                                      'patvirtinta.',
+ 'School Connect module on the school server': 'School Connect modulis mokyklos serveryje',
+ "School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School '
+                                                                                                                                                                                                                                                                                                                                                'Connect '
+                                                                                                                                                                                                                                                                                                                                                'rodo '
+                                                                                                                                                                                                                                                                                                                                                'informaciją '
+                                                                                                                                                                                                                                                                                                                                                'iš '
+                                                                                                                                                                                                                                                                                                                                                'Jūsų '
+                                                                                                                                                                                                                                                                                                                                                'mokyklos '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon '
+                                                                                                                                                                                                                                                                                                                                                'sistemos: '
+                                                                                                                                                                                                                                                                                                                                                'tvarkaraščius, '
+                                                                                                                                                                                                                                                                                                                                                'lankomumą, '
+                                                                                                                                                                                                                                                                                                                                                'pažymius, '
+                                                                                                                                                                                                                                                                                                                                                'namų '
+                                                                                                                                                                                                                                                                                                                                                'darbus, '
+                                                                                                                                                                                                                                                                                                                                                'pažangos '
+                                                                                                                                                                                                                                                                                                                                                'ataskaitas, '
+                                                                                                                                                                                                                                                                                                                                                'pranešimus '
+                                                                                                                                                                                                                                                                                                                                                'ir '
+                                                                                                                                                                                                                                                                                                                                                'Jūsų '
+                                                                                                                                                                                                                                                                                                                                                'šeimos '
+                                                                                                                                                                                                                                                                                                                                                'duomenis. '
+                                                                                                                                                                                                                                                                                                                                                'Programėlė '
+                                                                                                                                                                                                                                                                                                                                                'jungiasi '
+                                                                                                                                                                                                                                                                                                                                                'tiesiogiai '
+                                                                                                                                                                                                                                                                                                                                                'ir '
+                                                                                                                                                                                                                                                                                                                                                'tik '
+                                                                                                                                                                                                                                                                                                                                                'prie '
+                                                                                                                                                                                                                                                                                                                                                'Jūsų '
+                                                                                                                                                                                                                                                                                                                                                'mokyklos '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon '
+                                                                                                                                                                                                                                                                                                                                                'serverio '
+                                                                                                                                                                                                                                                                                                                                                'šifruotu '
+                                                                                                                                                                                                                                                                                                                                                '(HTTPS) '
+                                                                                                                                                                                                                                                                                                                                                'ryšiu. '
+                                                                                                                                                                                                                                                                                                                                                'High '
+                                                                                                                                                                                                                                                                                                                                                'Point '
+                                                                                                                                                                                                                                                                                                                                                'Education '
+                                                                                                                                                                                                                                                                                                                                                'šios '
+                                                                                                                                                                                                                                                                                                                                                'informacijos '
+                                                                                                                                                                                                                                                                                                                                                'negauna, '
+                                                                                                                                                                                                                                                                                                                                                'nesaugo '
+                                                                                                                                                                                                                                                                                                                                                'ir '
+                                                                                                                                                                                                                                                                                                                                                'nemato.',
+ "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'Mokyklos atidarymo, pamokų pradžios, pabaigos ir uždarymo laikas čia nenustatomas — užbaikite tai '
+                                                                                                 'svetainėje.',
+ 'Search and view student profiles': 'Ieškokite ir peržiūrėkite mokinių profilius',
+ 'Search by course name...': 'Ieškoti pagal dalyko pavadinimą...',
+ 'Search by course or class name...': 'Ieškoti pagal dalyko ar grupės pavadinimą...',
+ 'Search by family name...': 'Ieškoti pagal šeimos pavadinimą...',
+ 'Search by name or initials...': 'Ieškoti pagal vardą ar inicialus...',
+ 'Search by name or student ID...': 'Ieškoti pagal vardą ar mokinio numerį...',
+ 'Search by name or username...': 'Ieškoti pagal vardą ar prisijungimo vardą...',
+ 'Search by name, username, email, student ID...': 'Ieškoti pagal vardą, prisijungimo vardą, el. paštą, mokinio numerį...',
+ 'Search classes...': 'Ieškoti grupių...',
+ 'Search rooms...': 'Ieškoti kabinetų...',
+ 'Search students...': 'Ieškoti mokinių...',
+ 'Select Student': 'Pasirinkti mokinį',
+ 'Sessions marked Out this year': 'Šiais metais praleistos pamokos',
+ 'Share': 'Bendrinti',
+ 'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Atsijungus pašalinamas prisijungimo raktas, Jūsų prisijungimo '
+                                                                                                                                        'vardas ir atsisiųstos pažangos ataskaitos. Pašalinus '
+                                                                                                                                        'programėlę, ištrinama visa kita.',
+ 'Staff Profile': 'Darbuotojo profilis',
+ 'Staff Type *': 'Darbuotojo tipas *',
+ 'Staff record created': 'Darbuotojo įrašas sukurtas',
+ 'Student *': 'Mokinys *',
+ 'Student List': 'Mokinių sąrašas',
+ 'Student enrolled successfully': 'Mokinys užregistruotas',
+ 'Submitted': 'Pateikta',
+ 'Surname *': 'Pavardė *',
+ 'Switch Role': 'Keisti vaidmenį',
+ 'Switch School Year': 'Keisti mokslo metus',
+ 'Take attendance for this class': 'Pažymėti šios grupės lankomumą',
+ 'Taken': 'Pažymėta',
+ 'Taken at {time}': 'Pažymėta {time}',
+ 'Taken today at {time}. Tap to review or change': 'Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte',
+ 'Tap to edit': 'Bakstelėkite, kad redaguotumėte',
+ 'The impersonation ended after 2 hours. You are back in your own account.': 'Prisijungimas kito naudotojo vardu baigėsi po 2 valandų. Grįžote į savo paskyrą.',
+ 'The order in which the school should contact family members.': 'Tvarka, kuria mokykla turi kreiptis į šeimos narius.',
+ 'Their user account is not affected.': 'Šio asmens naudotojo paskyra nepaveikiama.',
+ 'There are no messages to display.': 'Žinučių nėra.',
+ 'This affects the timetable:': 'Tai paveikia tvarkaraštį:',
+ 'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Taip pat bus pašalinti visi šių grupių registracijos ir tvarkaraščio duomenys. To atšaukti negalima.',
+ 'This cannot be undone.': 'To atšaukti negalima.',
+ 'This class is not scheduled on {date}. You can still save attendance if needed.': 'Ši grupė {date} neturi pamokų. Jei reikia, lankomumą vis tiek galite išsaugoti.',
+ 'This does not delete their user account.': 'Šio asmens naudotojo paskyra neištrinama.',
+ 'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Ši '
+                                                                                                                                                                                                           'parinktis '
+                                                                                                                                                                                                           'leidžia '
+                                                                                                                                                                                                           'administratoriams '
+                                                                                                                                                                                                           'prisijungti '
+                                                                                                                                                                                                           'kitos '
+                                                                                                                                                                                                           'sistemos '
+                                                                                                                                                                                                           'paskyros '
+                                                                                                                                                                                                           'vardu, '
+                                                                                                                                                                                                           'kad '
+                                                                                                                                                                                                           'išspręstų '
+                                                                                                                                                                                                           'problemas '
+                                                                                                                                                                                                           'ir '
+                                                                                                                                                                                                           'atliktų '
+                                                                                                                                                                                                           'bandymus. '
+                                                                                                                                                                                                           'Pasirinktas '
+                                                                                                                                                                                                           'naudotojas '
+                                                                                                                                                                                                           'ir '
+                                                                                                                                                                                                           'toliau '
+                                                                                                                                                                                                           'galės '
+                                                                                                                                                                                                           'prisijungti '
+                                                                                                                                                                                                           'prie '
+                                                                                                                                                                                                           'savo '
+                                                                                                                                                                                                           'paskyros '
+                                                                                                                                                                                                           'ir '
+                                                                                                                                                                                                           'atsijungti.',
+ 'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Bus pašalinti visi šios grupės registracijos ir tvarkaraščio duomenys. To atšaukti negalima.',
+ 'Timetable by Facility': 'Tvarkaraštis pagal kabinetą',
+ "Today's Timetable": 'Šiandienos tvarkaraštis',
+ 'Trial access': 'Bandomoji prieiga',
+ 'Troubleshoot by seeing the app as another user': 'Spręskite problemas matydami programėlę kito naudotojo akimis',
+ 'Tutor 2': 'Klasės vadovas 2',
+ 'Type *': 'Tipas *',
+ 'Type and Name are required': 'Būtina nurodyti tipą ir pavadinimą',
+ 'Type at least 2 characters': 'Įveskite bent 2 simbolius',
+ 'Type, country code, number': 'Tipas, šalies kodas, numeris',
+ 'Unenroll {name} from this school year?': 'Išregistruoti {name} iš šių mokslo metų?',
+ 'Unknown Year': 'Nežinomi metai',
+ 'Unused': 'Nenaudojama',
+ 'Used to group staff in a staff directory.': 'Naudojama darbuotojams grupuoti darbuotojų kataloge.',
+ 'User created successfully': 'Naudotojas sukurtas',
+ 'User updated successfully': 'Naudotojas atnaujintas',
+ 'User: Can Login': 'Naudotojas: gali prisijungti',
+ 'User: Failed Logins': 'Naudotojas: nesėkmingi prisijungimai',
+ 'User: Status': 'Naudotojas: būsena',
+ 'Username *': 'Prisijungimo vardas *',
+ 'Username already taken': 'Šis prisijungimo vardas jau užimtas',
+ 'Username available': 'Prisijungimo vardas laisvas',
+ "Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Vaizdo pamokos: nuotolinėms pamokoms naudojama Jūsų mokyklos pasirinkta vaizdo '
+                                                                                                                     'paslauga (numatytoji — viešoji Jitsi Meet paslauga)',
+ 'View Attendance': 'Peržiūrėti lankomumą',
+ 'View Full Timetable': 'Peržiūrėti visą tvarkaraštį',
+ 'View Grades': 'Peržiūrėti pažymius',
+ 'View Homework Calendar': 'Peržiūrėti namų darbų kalendorių',
+ 'View Timetable': 'Peržiūrėti tvarkaraštį',
+ 'View and manage Form Groups': 'Peržiūrėkite ir tvarkykite klases',
+ 'View class grades': 'Peržiūrėti grupės pažymius',
+ 'View families, contacts, and children': 'Peržiūrėkite šeimas, kontaktus ir vaikus',
+ 'View lesson plans for this class': 'Peržiūrėti šios grupės pamokų planus',
+ 'View students in this class': 'Peržiūrėti šios grupės mokinius',
+ 'View your grades': 'Peržiūrėkite savo pažymius',
+ 'View your report cards': 'Peržiūrėkite savo pažangos ataskaitas',
+ 'Viewing as {name}': 'Peržiūrima kaip {name}',
+ 'Virtual Classroom': 'Virtuali klasė',
+ 'Welcome, {name}!': 'Sveiki, {name}!',
+ 'What the app does not do': 'Ko programėlė nedaro',
+ 'What the app keeps on this device': 'Ką programėlė saugo šiame įrenginyje',
+ 'Year Group *': 'Klasių srautas *',
+ "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Klasių srautai ir klasės čia nenurodomi — kol to nepadarysite svetainėje, tai bus '
+                                                                                                              'taikoma visiems.',
+ 'You are back in your own account.': 'Grįžote į savo paskyrą.',
+ 'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Peržiūrite '
+                                                                                                                                                                                         '{year} '
+                                                                                                                                                                                         'mokslo '
+                                                                                                                                                                                         'metus, kurie '
+                                                                                                                                                                                         'nėra '
+                                                                                                                                                                                         'einamieji. '
+                                                                                                                                                                                         'Duomenys '
+                                                                                                                                                                                         'gali būti ne '
+                                                                                                                                                                                         'visai '
+                                                                                                                                                                                         'tikslūs '
+                                                                                                                                                                                         '(pavyzdžiui, '
+                                                                                                                                                                                         'iš mokyklos '
+                                                                                                                                                                                         'išėję '
+                                                                                                                                                                                         'mokiniai '
+                                                                                                                                                                                         'ankstesniuose '
+                                                                                                                                                                                         'metuose '
+                                                                                                                                                                                         'nerodomi).',
+ 'You can use this section to record your own homework.': 'Šioje skiltyje galite įrašyti savo namų darbus.',
+ "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Jau '
+                                                                                                                                                                                              'pateikėte '
+                                                                                                                                                                                              'prašymą, '
+                                                                                                                                                                                              'kurį '
+                                                                                                                                                                                              'turi '
+                                                                                                                                                                                              'peržiūrėti '
+                                                                                                                                                                                              'administratorius. '
+                                                                                                                                                                                              'Toliau '
+                                                                                                                                                                                              'dar '
+                                                                                                                                                                                              'galite '
+                                                                                                                                                                                              'daryti '
+                                                                                                                                                                                              'pakeitimus, '
+                                                                                                                                                                                              'tačiau '
+                                                                                                                                                                                              'Jūsų '
+                                                                                                                                                                                              'duomenys '
+                                                                                                                                                                                              'sistemoje '
+                                                                                                                                                                                              'atsiras '
+                                                                                                                                                                                              'tik '
+                                                                                                                                                                                              'apdorojus '
+                                                                                                                                                                                              'prašymą.',
+ 'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Jau pateikėte prašymą, kurį turi peržiūrėti administratorius. Toliau dar '
+                                                                                                                          'galite daryti pakeitimus.',
+ 'Your data is up to date.': 'Jūsų duomenys atnaujinti.',
+ 'Your data stays with your school': 'Jūsų duomenys lieka Jūsų mokykloje',
+ "Your last username and the last three school addresses you used, so you don't have to retype them": 'Paskutinis Jūsų prisijungimo vardas ir trys paskutiniai naudoti mokyklų adresai, kad nereikėtų '
+                                                                                                      'jų įvesti iš naujo',
+ 'Your rights and questions': 'Jūsų teisės ir klausimai',
+ "Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Už '
+                                                                                                                                                                                                   'Jūsų '
+                                                                                                                                                                                                   'asmens '
+                                                                                                                                                                                                   'duomenis '
+                                                                                                                                                                                                   'Gibbon '
+                                                                                                                                                                                                   'sistemoje '
+                                                                                                                                                                                                   'atsako '
+                                                                                                                                                                                                   'Jūsų '
+                                                                                                                                                                                                   'mokykla. '
+                                                                                                                                                                                                   'Norėdami '
+                                                                                                                                                                                                   'juos '
+                                                                                                                                                                                                   'peržiūrėti, '
+                                                                                                                                                                                                   'ištaisyti '
+                                                                                                                                                                                                   'ar '
+                                                                                                                                                                                                   'ištrinti, '
+                                                                                                                                                                                                   'kreipkitės '
+                                                                                                                                                                                                   'į '
+                                                                                                                                                                                                   'mokyklos '
+                                                                                                                                                                                                   'duomenų '
+                                                                                                                                                                                                   'apsaugos '
+                                                                                                                                                                                                   'pareigūną. '
+                                                                                                                                                                                                   'Klausimais '
+                                                                                                                                                                                                   'apie '
+                                                                                                                                                                                                   'pačią '
+                                                                                                                                                                                                   'programėlę '
+                                                                                                                                                                                                   'rašykite '
+                                                                                                                                                                                                   '{email}.',
+ 'Your session will be switched to {name} ({role}).': 'Jūsų sesija bus perjungta į {name} ({role}).',
+ 'a previous year': 'ankstesni metai',
+ 'an app for Gibbon™': 'programėlė Gibbon™ sistemai',
+ 'optional': 'neprivaloma',
+ 'primary': 'pagrindinis',
+ 'until {time}': 'iki {time}',
+ '{absent} absent of {total} sessions recorded': 'Praleista {absent} iš {total} pažymėtų pamokų',
+ '{count}d ago': 'prieš {count} d.',
+ '{count}h ago': 'prieš {count} val.',
+ '{count}m ago': 'prieš {count} min.',
+ '{label}: ': '{label}: ',
+ '— None —': '— Nėra —',
+ 'Attendance saved!': 'Lankomumas išsaugotas!',
+ 'Class now: {class}': 'Dabar: {class}',
+ 'Next class: {class}': 'Kita pamoka: {class}',
+ 'Left (user status)': 'Išėjęs'}
 
-# Three forms: 1, 21, 31... | 2-9, 22-29... | 0, 10-20, 30...
 P = {
 'All {count} class done for today': ('Visos šiandienos pamokos baigtos ({count})',)*3,
 'At least {count} character': ('Bent {count} simbolis', 'Bent {count} simboliai', 'Bent {count} simbolių'),
@@ -464,5 +670,6 @@ GAPS = {'Cancel Activities?': 'Atšaukti būrelius?',
  'There are no lessons on this date.': 'Šią dieną pamokų nėra.',
  'This student has one or more {level} risk medical conditions.': 'Šis mokinys turi vieną ar daugiau sveikatos sutrikimų, kurių rizikos lygis: {level}.',
  'Under Enrolled': 'Per mažai mokinių',
- 'Your active session will be switched to the selected user.': 'Jūsų dabartinė sesija bus perjungta į pasirinktą naudotoją.'}
+ 'Your active session will be switched to the selected user.': 'Jūsų dabartinė sesija bus perjungta į pasirinktą naudotoją.',
+ '{count} min': '{count} min.'}
 OVERRIDES = {}

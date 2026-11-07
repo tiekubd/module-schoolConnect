@@ -27,7 +27,7 @@ msgstr ""
 "Un token de autentificare, păstrat în spațiul de stocare securizat al "
 "dispozitivului (iOS Keychain sau Android Keystore)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:849
+#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Despre aplicație și confidențialitate"
@@ -72,7 +72,7 @@ msgid "All Year Groups"
 msgstr "Toți anii de studiu"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1000
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Ora de azi s-a încheiat"
@@ -84,7 +84,7 @@ msgstr[2] "Toate cele {count} de ore de azi s-au încheiat"
 msgid "An uppercase and a lowercase letter"
 msgstr "O literă mare și una mică"
 
-#: lib/screens/dashboard_screen.dart:851
+#: lib/screens/dashboard_screen.dart:853
 msgid "App version, connected school and your data"
 msgstr "Versiunea aplicației, școala conectată și datele dvs."
 
@@ -111,9 +111,14 @@ msgstr[2] "Cel puțin {count} de caractere"
 msgid "Attendance This Year"
 msgstr "Prezența în acest an"
 
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1061
 msgid "Attendance not taken yet today"
 msgstr "Prezența nu a fost încă luată astăzi"
+
+#: lib/screens/attendance_screen.dart:134
+#: lib/screens/form_group_attendance_screen.dart:126
+msgid "Attendance saved!"
+msgstr "Prezența a fost salvată!"
 
 #: lib/screens/log_behaviour_screen.dart:218
 msgid "Behaviour record saved!"
@@ -127,7 +132,7 @@ msgstr[0] "Comportamentul a fost salvat pentru {count} elev!"
 msgstr[1] "Comportamentul a fost salvat pentru {count} elevi!"
 msgstr[2] "Comportamentul a fost salvat pentru {count} de elevi!"
 
-#: lib/screens/dashboard_screen.dart:795
+#: lib/screens/dashboard_screen.dart:797
 msgid "Browse staff profiles"
 msgstr "Răsfoiți profilurile personalului"
 
@@ -193,7 +198,7 @@ msgstr "Alegeți mai întâi cel puțin un elev"
 msgid "Choose one of your Form Groups"
 msgstr "Alegeți una dintre clasele dvs."
 
-#: lib/screens/student_attendance_screen.dart:205
+#: lib/screens/student_attendance_screen.dart:207
 msgid "Class Absences"
 msgstr "Absențe la ore"
 
@@ -204,6 +209,11 @@ msgstr "Înscrieri în grupe"
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
 msgstr "Lista grupei"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "Acum: {class}"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -536,9 +546,9 @@ msgstr "Eliminarea nu a reușit"
 msgid "Could not reset password"
 msgstr "Resetarea parolei nu a reușit"
 
+#: lib/screens/attendance_screen.dart:134
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
-#: lib/screens/course_detail_screen.dart:321
 msgid "Could not save"
 msgstr "Salvarea nu a reușit"
 
@@ -729,7 +739,7 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Autentificarea cu Google, doar dacă școala o folosește și o alegeți"
 
-#: lib/screens/dashboard_screen.dart:815
+#: lib/screens/dashboard_screen.dart:817
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
@@ -748,7 +758,7 @@ msgstr ""
 
 #: lib/screens/homework_calendar_screen.dart:388
 #: lib/screens/homework_calendar_screen.dart:476
-#: lib/screens/student_attendance_screen.dart:452
+#: lib/screens/student_attendance_screen.dart:454
 msgid "Holiday"
 msgstr "Vacanță"
 
@@ -834,9 +844,13 @@ msgstr "Ultimele 10 zile de școală — pe ore"
 msgid "Last 20 school days"
 msgstr "Ultimele 20 de zile de școală"
 
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:994
 msgid "Last class of the day"
 msgstr "Ultima oră a zilei"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "Plecat"
 
 #: lib/screens/my_timetable_screen.dart:601
 msgid "Lesson planning is coming soon"
@@ -850,7 +864,7 @@ msgstr "Verificarea licenței"
 msgid "Link staff-role people to their staff record"
 msgstr "Asociați persoanele cu rol de personal cu fișa lor de angajat"
 
-#: lib/screens/dashboard_screen.dart:699
+#: lib/screens/dashboard_screen.dart:701
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Notează comportamentul"
@@ -859,7 +873,7 @@ msgstr "Notează comportamentul"
 msgid "Logged in as"
 msgstr "Conectat ca"
 
-#: lib/screens/dashboard_screen.dart:774
+#: lib/screens/dashboard_screen.dart:776
 msgid "Manage users and school settings"
 msgstr "Gestionați utilizatorii și setările școlii"
 
@@ -879,7 +893,7 @@ msgstr "Luați prezența pentru astăzi"
 msgid "Mark read"
 msgstr "Marchează ca citit"
 
-#: lib/screens/dashboard_screen.dart:711
+#: lib/screens/dashboard_screen.dart:713
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Orar general"
@@ -888,8 +902,8 @@ msgstr "Orar general"
 msgid "Must be unique if set"
 msgstr "Trebuie să fie unic, dacă este completat"
 
-#: lib/screens/dashboard_screen.dart:1034
-#: lib/screens/dashboard_screen.dart:804
+#: lib/screens/dashboard_screen.dart:1036
+#: lib/screens/dashboard_screen.dart:806
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Clasele mele"
@@ -898,6 +912,12 @@ msgstr "Clasele mele"
 #: lib/screens/course_manage_list_screen.dart:232
 msgid "Name and Short Name are required"
 msgstr "Numele și numele scurt sunt obligatorii"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:683
+msgid "Next class: {class}"
+msgstr "Ora următoare: {class}"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
@@ -954,7 +974,7 @@ msgstr "Astăzi nu sunt ore în această sală"
 msgid "No classes scheduled"
 msgstr "Nicio oră programată"
 
-#: lib/screens/dashboard_screen.dart:962
+#: lib/screens/dashboard_screen.dart:964
 msgid "No classes scheduled today"
 msgstr "Astăzi nu sunt ore programate"
 
@@ -967,7 +987,7 @@ msgid "No courses found"
 msgstr "Nu s-au găsit materii"
 
 #: lib/screens/homework_calendar_screen.dart:339
-#: lib/screens/student_attendance_screen.dart:397
+#: lib/screens/student_attendance_screen.dart:399
 msgid "No data for this term"
 msgstr "Nu există date pentru acest semestru"
 
@@ -1037,7 +1057,7 @@ msgstr "Nu s-au găsit persoane"
 msgid "No phone on record"
 msgstr "Niciun telefon înregistrat"
 
-#: lib/screens/student_attendance_screen.dart:516
+#: lib/screens/student_attendance_screen.dart:518
 msgid "No record"
 msgstr "Nicio înregistrare"
 
@@ -1076,7 +1096,7 @@ msgstr "Nu s-au găsit date de orar"
 msgid "No timetable for this day"
 msgstr "Nu există orar pentru această zi"
 
-#: lib/screens/dashboard_screen.dart:956
+#: lib/screens/dashboard_screen.dart:958
 msgid "No timetable for today"
 msgstr "Nu există orar pentru astăzi"
 
@@ -1264,7 +1284,7 @@ msgstr ""
 msgid "Qualified"
 msgstr "Calificat"
 
-#: lib/screens/dashboard_screen.dart:731
+#: lib/screens/dashboard_screen.dart:733
 msgid "Quick Access"
 msgstr "Acces rapid"
 
@@ -1398,7 +1418,7 @@ msgstr ""
 "Orele de deschidere, începere, încheiere și închidere a școlii nu se setează"
 " aici — completați aceste detalii pe site."
 
-#: lib/screens/dashboard_screen.dart:784
+#: lib/screens/dashboard_screen.dart:786
 msgid "Search and view student profiles"
 msgstr "Căutați și vizualizați profilurile elevilor"
 
@@ -1450,7 +1470,7 @@ msgstr "Caută elevi..."
 msgid "Select Student"
 msgstr "Selectează elevul"
 
-#: lib/screens/student_attendance_screen.dart:209
+#: lib/screens/student_attendance_screen.dart:211
 msgid "Sessions marked Out this year"
 msgstr "Ore marcate ca absență în acest an"
 
@@ -1500,12 +1520,12 @@ msgstr "Trimis"
 msgid "Surname *"
 msgstr "Nume de familie *"
 
-#: lib/screens/dashboard_screen.dart:423
+#: lib/screens/dashboard_screen.dart:424
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Schimbă rolul"
 
-#: lib/screens/dashboard_screen.dart:429
+#: lib/screens/dashboard_screen.dart:430
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1521,7 +1541,7 @@ msgid "Taken"
 msgstr "Luată"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1057
 msgid "Taken at {time}"
 msgstr "Luată la {time}"
 
@@ -1602,21 +1622,21 @@ msgstr ""
 "Se șterg toate datele de înscriere și de orar pentru această grupă. Acțiunea"
 " nu poate fi anulată."
 
-#: lib/screens/dashboard_screen.dart:720
+#: lib/screens/dashboard_screen.dart:722
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Orar pe săli"
 
-#: lib/screens/dashboard_screen.dart:924
+#: lib/screens/dashboard_screen.dart:926
 msgid "Today's Timetable"
 msgstr "Orarul de azi"
 
-#: lib/screens/dashboard_screen.dart:530
+#: lib/screens/dashboard_screen.dart:532
 msgid "Trial access"
 msgstr "Acces de probă"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:529
+#: lib/screens/dashboard_screen.dart:531
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Perioadă de probă — a mai rămas {count} zi"
@@ -1709,7 +1729,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Vezi prezența"
 
-#: lib/screens/dashboard_screen.dart:936
+#: lib/screens/dashboard_screen.dart:938
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Vezi orarul complet"
@@ -1726,7 +1746,7 @@ msgstr "Vezi calendarul temelor"
 msgid "View Timetable"
 msgstr "Vezi orarul"
 
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:808
 msgid "View and manage Form Groups"
 msgstr "Vizualizați și gestionați clasele"
 
@@ -1746,11 +1766,11 @@ msgstr "Vizualizați planurile de lecție pentru această grupă"
 msgid "View students in this class"
 msgstr "Vizualizați elevii din această grupă"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:819
 msgid "View your grades"
 msgstr "Vizualizați-vă notele"
 
-#: lib/screens/dashboard_screen.dart:835
+#: lib/screens/dashboard_screen.dart:837
 msgid "View your report cards"
 msgstr "Vizualizați-vă situațiile școlare"
 
@@ -1764,7 +1784,7 @@ msgid "Virtual Classroom"
 msgstr "Clasă virtuală"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:477
+#: lib/screens/dashboard_screen.dart:479
 msgid "Welcome, {name}!"
 msgstr "Bun venit, {name}!"
 
@@ -1888,12 +1908,12 @@ msgid "until {time}"
 msgstr "până la {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:244
+#: lib/screens/student_attendance_screen.dart:246
 msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} absențe din {total} ore înregistrate"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1056
+#: lib/screens/dashboard_screen.dart:1058
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} absent"
@@ -1919,6 +1939,7 @@ msgstr[2] "{count} de evaluări"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
@@ -1927,7 +1948,7 @@ msgstr[1] "{count} grupe"
 msgstr[2] "{count} de grupe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:996
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "A mai rămas {count} oră · {done} încheiate"
@@ -1935,7 +1956,7 @@ msgstr[1] "Au mai rămas {count} ore · {done} încheiate"
 msgstr[2] "Au mai rămas {count} de ore · {done} încheiate"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:998
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} oră azi"
@@ -1943,9 +1964,9 @@ msgstr[1] "{count} ore azi"
 msgstr[2] "{count} de ore azi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:360
-#: lib/screens/student_attendance_screen.dart:363
-#: lib/screens/student_attendance_screen.dart:367
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
 msgid "{count} day"
 msgid_plural "{count} days"
 msgstr[0] "{count} zi"
@@ -1985,7 +2006,7 @@ msgstr[1] "{count} elemente"
 msgstr[2] "{count} de elemente"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1059
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} întârziat"
@@ -1993,7 +2014,7 @@ msgstr[1] "{count} întârziați"
 msgstr[2] "{count} de întârziați"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:990
+#: lib/screens/dashboard_screen.dart:992
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Încă {count} oră după aceasta · {total} azi"
@@ -2001,7 +2022,7 @@ msgstr[1] "Încă {count} ore după aceasta · {total} azi"
 msgstr[2] "Încă {count} de ore după aceasta · {total} azi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:377
+#: lib/screens/student_attendance_screen.dart:379
 msgid "{count} school day in term"
 msgid_plural "{count} school days in term"
 msgstr[0] "{count} zi de școală în semestru"
@@ -2009,7 +2030,7 @@ msgstr[1] "{count} zile de școală în semestru"
 msgstr[2] "{count} de zile de școală în semestru"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_attendance_screen.dart:376
+#: lib/screens/student_attendance_screen.dart:378
 msgid "{count} school day in the school year"
 msgid_plural "{count} school days in the school year"
 msgstr[0] "{count} zi de școală în anul școlar"
@@ -2452,6 +2473,10 @@ msgstr "Sesiunea activă va fi comutată pe utilizatorul selectat."
 # Gibbon core string: missing from its file for this language
 msgid "students"
 msgstr "elevi"
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} min"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left - Early"

@@ -384,4 +384,5 @@ FINAL = {
 'Student - Left': 'Uczeń - wypisany', 'Teacher - Left': 'Nauczyciel - wypisany',   # Gibbon: uczeń - wypisany, Były nauczyciel
 'Full': 'Aktywny',                 # user status; Gibbon: Pełny
 'Expected': 'Oczekiwany',
+'{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
 }

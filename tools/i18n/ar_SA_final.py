@@ -415,4 +415,5 @@ FINAL = {
 'Timetable Admin': 'إدارة الجدول المدرسي',
 'Tracking': 'تتبع التقدم',   # Gibbon: المتابعة, same as Follow Up
 'User Admin': 'إدارة المستخدمين',
+'{count} min': '{count} د',   # Gibbon: empty (planner lesson length)
 }
