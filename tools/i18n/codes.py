@@ -36,8 +36,8 @@ DB = {
               'Student - Left': 'Studente - Uscito', 'Teacher - Left': 'Insegnante - Uscito',
               'Monday': 'Lunedì', 'Tuesday': 'Martedì', 'Wednesday': 'Mercoledì', 'Thursday': 'Giovedì', 'Friday': 'Venerdì',
               'Finance': 'Finanze'},
-    'zh_HK': {'Sun': '星期日', 'Student - Left': '學生 - 已離校', 'Teacher - Left': '老師 - 已離校',   # Gibbon: 離開了, 走了
-              'Full': '正式', 'School Admin': '學校管理', 'Tracking': '追蹤'},
+    'zh_HK': {'Student - Left': '學生 - 已離校', 'Teacher - Left': '老師 - 已離校',   # Gibbon: 離開了, 走了
+              'Full': '正式', 'School Admin': '學校管理', 'Tracking': '學習追蹤'},
     'zh_CN': {'Support Staff': '后勤人员'},                # Gibbon: 技术支持人员 (tech support)
     'ja_JP': {'Mon': '月', 'Tue': '火', 'Fri': '金', 'Sun': '日',   # Gibbon: Mon, 火曜日, 金曜日, 太陽 (the sun)
               'Student - Left': '生徒 - 退出', 'Teacher - Left': '先生 - 退出',      # Gibbon: 学生 - 左
