@@ -40,9 +40,9 @@ DB = {
               'Full': '正式', 'School Admin': '學校管理', 'Tracking': '學習追蹤'},
     'zh_CN': {'Support Staff': '后勤人员'},                # Gibbon: 技术支持人员 (tech support)
     'ja_JP': {'Mon': '月', 'Tue': '火', 'Fri': '金', 'Sun': '日',   # Gibbon: Mon, 火曜日, 金曜日, 太陽 (the sun)
-              'Student - Left': '生徒 - 退出', 'Teacher - Left': '先生 - 退出',      # Gibbon: 学生 - 左
+              'Student - Left': '生徒 - 退籍', 'Teacher - Left': '教員 - 退職',      # Gibbon: 学生 - 左
               'Full': '在籍', 'Expected': '入学予定',          # Gibbon: フル, 期待 (hope)
-              'Technician': '技術職員', 'Finance': '財務', 'Admissions': '入学手続き',
+              'Technician': '技術職員', 'Finance': '会計', 'Admissions': '入学受付',
               'Timetable Admin': '時間割管理'},
 }
 for _l, _d in DB.items():
