@@ -27,8 +27,8 @@ DB = {
     'pt_BR': {'Student - Left': 'Aluno - Saiu', 'Teacher - Left': 'Professor - Saiu',   # Gibbon: Afastado (on leave)
               'Expected': 'Previsto',                      # Gibbon: Candidato (applicant)
               'Finance': 'Finanças', 'System Admin': 'Administrador do Sistema'},       # Gibbon: Finança; "Administador"
-    'pt_PT': {'Student - Left': 'Estudante - Saiu', 'Teacher - Left': 'Docente - Saiu', 'Full': 'Completo',
-              'Admissions': 'Admissões', 'Finance': 'Finanças', 'Messenger': 'Mensagens',
+    'pt_PT': {'Student - Left': 'Estudante - Saiu', 'Teacher - Left': 'Professor - Saiu', 'Full': 'Ativo',
+              'Admissions': 'Admissões', 'Finance': 'Finanças', 'Messenger': 'Envio de Mensagens',
               'User Admin': 'Administração de Utilizadores'},                           # Gibbon: "de Users"
     'de_DE': {'Student - Left': 'Schüler/in - Gegangen', 'Teacher - Left': 'Lehrer/in - Gegangen'},   # Gibbon: Verlassen
     'it_IT': {'Parent': 'Genitore',                        # Gibbon: Parente (a relative)

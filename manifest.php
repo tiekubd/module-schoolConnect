@@ -137,7 +137,7 @@ $version     = "1.16.11"; // Tracks the Flutter app's marketing version (pubspec
                           // pending review. Also corrected: other
                           // database values the app translates (day names, e.g. ja_JP 太陽 for
                           // Sun; role names, e.g. it_IT Parente for Parent; class roles such as
-                          // "Student - Left"; user status filters; module names in notifications). Simplified Chinese (zh_CN) re-reviewed line by line: mainland school terms (班级 form group, 教学班 class, 班主任, 教职工). Brazilian Portuguese (pt_BR) re-reviewed the same way (Turma for the form group, Classe for classes, Disciplina, Perfil).
+                          // "Student - Left"; user status filters; module names in notifications). Simplified Chinese (zh_CN) re-reviewed line by line: mainland school terms (班级 form group, 教学班 class, 班主任, 教职工). Brazilian Portuguese (pt_BR) re-reviewed the same way (Turma for the form group, Classe for classes, Disciplina, Perfil) and European Portuguese (pt_PT): Encarregado de Educação, Disciplina, Planificação.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
