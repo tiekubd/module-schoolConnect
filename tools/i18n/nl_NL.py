@@ -1,460 +1,706 @@
 # Dutch (nl_NL) draft for School Connect's app-only strings.
-# Vocabulary follows Gibbon core's nl_NL: klas (form group), vak (class), cursus (course),
-# jaargang (year group), opdrachten (homework), lesrooster, planner, cijferlijst (markbook),
+# Second pass 7 Nov 2026 (nl_NL_2nd.py): klas (form group), lesgroep (class), vak (course),
+# leerjaar (year group), leerling (student), huiswerk (homework), lesrooster, planner, cijferlijst (markbook),
 # cijfers (grades), personeel, student, ouder, kinderen, lesruimte (facility), studiegebied,
 # inschrijving, aanwezigheid, rol, rapporten (report cards). Corrected from Gibbon: mentor
 # (tutor; Gibbon "Leraar" = teacher) and periode (term; Gibbon "Termijn" = deadline).
 # Informal "je", sentence case, as Gibbon's nl_NL.
 
-T = {
-'A punctuation mark or space': 'Een leesteken of een spatie',
-"A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Een aanmeldtoken, bewaard in de beveiligde opslag van het apparaat (iOS-sleutelhanger of Android Keystore)',
-'About & Privacy': 'Over en privacy',
-'Add More': 'Meer toevoegen',
-'Add Participant': 'Deelnemer toevoegen',
-'Add homework?': 'Opdracht toevoegen?',
-'Add, edit, and remove closures': 'Sluitingen toevoegen, bewerken en verwijderen',
-'Add, edit, and remove user accounts': 'Gebruikersaccounts toevoegen, bewerken en verwijderen',
-'Adjusts arrangement of courses in reports.': 'Bepaalt de volgorde van cursussen in rapporten.',
-'Adult settings updated': 'Instellingen van volwassene bijgewerkt',
-'All Types': 'Alle typen',
-'All Year Groups': 'Alle jaargangen',
-'An uppercase and a lowercase letter': 'Een hoofdletter en een kleine letter',
-'App version, connected school and your data': 'App-versie, gekoppelde school en je gegevens',
-'Assessments': 'Toetsen',
-'At least one number': 'Minstens één cijfer',
-'Attendance This Year': 'Aanwezigheid dit jaar',
-'Attendance not taken yet today': 'Aanwezigheid vandaag nog niet geregistreerd',
-'Behaviour record saved!': 'Gedragsnotitie opgeslagen!',
-'Browse staff profiles': 'Profielen van personeel bekijken',
-'By Class': 'Per vak',
-'By Date': 'Per datum',
-'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Camera en foto’s: alleen als je zelf een foto toevoegt aan een verzoek om gegevens bij te werken. De app vraagt eerst toestemming en je kunt weigeren.',
-'Cancel Bookings?': 'Reserveringen annuleren?',
-'Cancel Classes?': 'Lessen annuleren?',
-'Cancel Staff Duty?': 'Diensten van personeel annuleren?',
-'Cancel new condition': 'Nieuwe aandoening annuleren',
-'Cap': 'Cap.',
-'Chinese or other character-based name': 'Naam in Chinees of een ander tekenschrift',
-'Choose a class above': 'Kies hierboven een vak',
-'Choose any Form Group': 'Kies een klas',
-'Choose any of your classes': 'Kies een van je vakken',
-'Choose at least one student first': 'Kies eerst minstens één student',
-'Choose one of your Form Groups': 'Kies een van je klassen',
-'Class Absences': 'Afwezigheid in vak',
-'Class Enrolments': 'Inschrijvingen voor vakken',
-'Class Roster': 'Leerlingenlijst van vak',
-'Click Update next to School Connect in System Admin > Manage Modules.': 'Klik op Bijwerken naast School Connect in Systeembeheer > Modules beheren.',
-'Closed at': 'Sluit om',
-'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'De gecombineerde korte naam "{name}" is langer dan 16 tekens — dit kan weergaveproblemen geven in het lesrooster en in keuzelijsten.',
-'Combined short name exceeds 16 characters': 'Gecombineerde korte naam is langer dan 16 tekens',
-'Comma-separated list of email addresses': 'Lijst van e-mailadressen, gescheiden door komma’s',
-'Confirm Password *': 'Wachtwoord bevestigen *',
-'Connected school': 'Gekoppelde school',
-'Connecting...': 'Verbinden…',
-'Contact Info': 'Contactgegevens',
-'Contact {number} — not on record': 'Contact {number} — niet geregistreerd',
-'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Inhoud van lessen: video’s of afbeeldingen die een leraar toevoegt (bijvoorbeeld van YouTube) worden geladen van die sites wanneer je ze opent',
-'Control what shows up in the app for everyone': 'Bepaal wat er voor iedereen in de app verschijnt',
-'Could not add': 'Toevoegen mislukt',
-'Could not add adult': 'Volwassene toevoegen mislukt',
-'Could not add child': 'Kind toevoegen mislukt',
-'Could not delete user': 'Gebruiker verwijderen mislukt',
-'Could not download report': 'Rapport downloaden mislukt',
-'Could not generate username': 'Gebruikersnaam aanmaken mislukt',
-'Could not load Form Groups': 'Klassen laden mislukt',
-'Could not load activities': 'Activiteiten laden mislukt',
-'Could not load attendance': 'Aanwezigheid laden mislukt',
-'Could not load children': 'Kinderen laden mislukt',
-'Could not load classes': 'Vakken laden mislukt',
-'Could not load course': 'Cursus laden mislukt',
-'Could not load courses': 'Cursussen laden mislukt',
-'Could not load data updates': 'Gegevensupdates laden mislukt',
-'Could not load days of the week': 'Dagen van de week laden mislukt',
-'Could not load emergency contacts': 'Noodcontacten laden mislukt',
-'Could not load enrolment': 'Inschrijving laden mislukt',
-'Could not load enrolments': 'Inschrijvingen laden mislukt',
-'Could not load facilities': 'Lesruimtes laden mislukt',
-'Could not load families': 'Gezinnen laden mislukt',
-'Could not load family': 'Gezin laden mislukt',
-'Could not load family data': 'Gezinsgegevens laden mislukt',
-'Could not load finance data': 'Financiële gegevens laden mislukt',
-'Could not load form': 'Formulier laden mislukt',
-'Could not load form data': 'Formuliergegevens laden mislukt',
-'Could not load grades': 'Cijfers laden mislukt',
-'Could not load homework': 'Opdrachten laden mislukt',
-'Could not load homework calendar': 'Opdrachtenkalender laden mislukt',
-'Could not load invoice': 'Factuur laden mislukt',
-'Could not load invoices': 'Facturen laden mislukt',
-'Could not load lesson': 'Les laden mislukt',
-'Could not load lessons': 'Lessen laden mislukt',
-'Could not load markbook': 'Cijferlijst laden mislukt',
-'Could not load master timetable': 'Algemeen lesrooster laden mislukt',
-'Could not load medical data': 'Medische gegevens laden mislukt',
-'Could not load messages': 'Berichten laden mislukt',
-'Could not load notifications': 'Meldingen laden mislukt',
-'Could not load password policy': 'Wachtwoordregels laden mislukt',
-'Could not load people': 'Personen laden mislukt',
-'Could not load personal data': 'Persoonsgegevens laden mislukt',
-'Could not load personal information': 'Persoonlijke informatie laden mislukt',
-'Could not load profile': 'Profiel laden mislukt',
-'Could not load report': 'Rapport laden mislukt',
-'Could not load reports': 'Rapporten laden mislukt',
-'Could not load roster': 'Lijst laden mislukt',
-'Could not load school years': 'Schooljaren laden mislukt',
-'Could not load settings': 'Instellingen laden mislukt',
-'Could not load special day': 'Speciale dag laden mislukt',
-'Could not load staff': 'Personeel laden mislukt',
-'Could not load staff data': 'Personeelsgegevens laden mislukt',
-'Could not load students': 'Studenten laden mislukt',
-'Could not load terms': 'Periodes laden mislukt',
-'Could not load timetable': 'Lesrooster laden mislukt',
-'Could not load timetables': 'Lesroosters laden mislukt',
-'Could not load user': 'Gebruiker laden mislukt',
-'Could not load users': 'Gebruikers laden mislukt',
-'Could not load your children': 'Je kinderen laden mislukt',
-'Could not open payment page': 'Betaalpagina openen mislukt',
-'Could not open the video call': 'Videogesprek openen mislukt',
-'Could not remove': 'Verwijderen mislukt',
-'Could not reset password': 'Wachtwoord resetten mislukt',
-'Could not save': 'Opslaan mislukt',
-'Could not save attendance': 'Aanwezigheid opslaan mislukt',
-'Could not save setting': 'Instelling opslaan mislukt',
-'Could not save user': 'Gebruiker opslaan mislukt',
-'Could not start impersonating this user': 'Inloggen als deze gebruiker mislukt',
-'Could not submit update': 'Update versturen mislukt',
-'Could not switch role': 'Van rol wisselen mislukt',
-'Could not switch school year': 'Van schooljaar wisselen mislukt',
-'Could not update': 'Bijwerken mislukt',
-'Country of Origin': 'Land van herkomst',
-'Coverage Priority': 'Prioriteit voor vervanging',
-'Create linked staff record': 'Gekoppeld personeelsrecord aanmaken',
-'Create linked student enrolment': 'Gekoppelde inschrijving van student aanmaken',
-'Current year': 'Huidig jaar',
-'Dashboard': 'Dashboard',
-'Delete Class': 'Vak verwijderen',
-'Delete Course': 'Cursus verwijderen',
-'Delete Special Day': 'Speciale dag verwijderen',
-'Delete User': 'Gebruiker verwijderen',
-'Developed by High Point Education': 'Ontwikkeld door High Point Education',
-'Done': 'Klaar',
-'Due': 'Inleveren',
-'Due date and details are required.': 'Inleverdatum en details zijn verplicht.',
-'Editable': 'Bewerkbaar',
-'Email: Must be unique': 'E-mail: moet uniek zijn',
-'Enrolable Year Groups': 'Jaargangen met open inschrijving',
-'Enroll existing students into the active school year': 'Bestaande studenten inschrijven in het actieve schooljaar',
-'Family name as shown in ID documents': 'Achternaam zoals in het identiteitsbewijs',
-'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Vul eerst voornaam, achternaam, roepnaam en primaire rol in',
-'Filter by Year Group': 'Filteren op jaargang',
-'First Name *': 'Voornaam *',
-'First name as shown in ID documents': 'Voornaam zoals in het identiteitsbewijs',
-'Form Group *': 'Klas *',
-'Formal name to address parents with': 'Formele naam om ouders mee aan te spreken',
-'Full name as shown in ID documents': 'Volledige naam zoals in het identiteitsbewijs',
-'Gateway': 'Gateway',
-'Gender *': 'Geslacht *',
-'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ is een handelsmerk van Gibbon Education Ltd. (Hongkong), gebruikt met toestemming.',
-'Google Sign-In, only if your school uses it and you choose it': 'Inloggen met Google, alleen als je school het gebruikt en jij ervoor kiest',
-'Grades': 'Cijfers',
-"Highlighted in red: marked 'Full' but outside their start/end date range.": "In rood: gemarkeerd als 'Full' maar buiten de periode tussen begin- en einddatum.",
-'Higher numbers move staff up the order within their grouping.': 'Hogere getallen plaatsen personeel hoger in de volgorde binnen hun groepering.',
-'Holiday': 'Vakantie',
-'Homework Calendar': 'Opdrachtenkalender',
-'Homework due': 'In te leveren opdrachten',
-'Homework removed.': 'Opdracht verwijderd.',
-'Homework saved.': 'Opdracht opgeslagen.',
-"If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Kies je Gezin, dan worden toekomstige facturen verstuurd volgens de contactvoorkeuren van je gezin. Kies je Bedrijf, dan kun je kiezen of het opgegeven bedrijf alle of slechts enkele kosten betaalt.',
-'Impersonate': 'Inloggen als',
-'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Inloggen als gebruiker vereist de School Connect-module 1.16.09 of nieuwer op de schoolserver.',
-'Installed version is {version}.': 'Geïnstalleerde versie is {version}.',
-'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Dit stopt na 2 uur. Gebruik Terug naar mijn account bovenaan het scherm om eerder terug te gaan.',
-'Jitsi': 'Jitsi',
-'Join Virtual Class': 'Deelnemen aan virtuele les',
-'Join Virtual Class is hidden everywhere it would normally appear': 'De knop Deelnemen aan virtuele les is overal verborgen',
-'Join Virtual Class shows on the timetable and planner': 'De knop Deelnemen aan virtuele les staat in het lesrooster en de planner',
-'Last 10 school days': 'Laatste 10 schooldagen',
-'Last 10 school days — per period': 'Laatste 10 schooldagen — per lesuur',
-'Last 20 school days': 'Laatste 20 schooldagen',
-'Lesson planning is coming soon': 'Lesplanning komt binnenkort',
-'Licence check': 'Licentiecontrole',
-'Link staff-role people to their staff record': 'Personen met een personeelsrol koppelen aan hun personeelsrecord',
-'Log Behaviour': 'Gedrag registreren',
-'Logged in as': 'Ingelogd als',
-'Manage users and school settings': 'Gebruikers en schoolinstellingen beheren',
-'Mark all read': 'Alles als gelezen markeren',
-'Mark as complete': 'Als voltooid markeren',
-'Mark attendance for today': 'Aanwezigheid van vandaag registreren',
-'Mark read': 'Als gelezen markeren',
-'Master Timetable': 'Algemeen lesrooster',
-'Must be unique if set': 'Moet uniek zijn, indien ingevuld',
-'My Form Groups': 'Mijn klassen',
-'Name and Short Name are required': 'Naam en korte naam zijn verplicht',
-'No Form Groups found': 'Geen klassen gevonden',
-'No Learning Area': 'Geen studiegebied',
-'No activities on record': 'Geen activiteiten geregistreerd',
-'No adults linked': 'Geen volwassenen gekoppeld',
-'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Geen advertenties, geen analyse, geen tracking, geen crashrapportage en geen pushmeldingsdiensten. De app verkoopt of deelt je gegevens nooit.',
-'No children found': 'Geen kinderen gevonden',
-'No children linked': 'Geen kinderen gekoppeld',
-'No children linked to this account': 'Geen kinderen gekoppeld aan dit account',
-'No class': 'Geen vak',
-'No classes found': 'Geen vakken gevonden',
-'No classes in this room today': 'Vandaag geen lessen in dit lokaal',
-'No classes scheduled': 'Geen lessen gepland',
-'No classes scheduled today': 'Vandaag geen lessen gepland',
-'No classes yet': 'Nog geen vakken',
-'No courses found': 'Geen cursussen gevonden',
-'No data for this term': 'Geen gegevens voor deze periode',
-'No data updates found': 'Geen gegevensupdates gevonden',
-'No department': 'Geen afdeling',
-'No facilities found': 'Geen lesruimtes gevonden',
-'No families found': 'Geen gezinnen gevonden',
-'No family members on record': 'Geen gezinsleden geregistreerd',
-'No family record found': 'Geen gezinsrecord gevonden',
-'No grades available': 'Geen cijfers beschikbaar',
-'No history available': 'Geen geschiedenis beschikbaar',
-'No homework recorded.': 'Geen opdrachten geregistreerd.',
-'No invoices to display': 'Geen facturen om te tonen',
-'No markbook entries yet': 'Nog geen cijfers in de cijferlijst',
-'No matches found': 'Geen resultaten',
-'No notifications': 'Geen meldingen',
-'No participants yet': 'Nog geen deelnemers',
-'No people found': 'Geen personen gevonden',
-'No phone on record': 'Geen telefoonnummer geregistreerd',
-'No record': 'Geen record',
-'No reports available yet': 'Nog geen rapporten beschikbaar',
-'No school days this week': 'Deze week geen schooldagen',
-'No staff found': 'Geen personeel gevonden',
-'No students enrolled this year': 'Dit jaar geen studenten ingeschreven',
-'No students found': 'Geen studenten gevonden',
-'No terms found for this school year': 'Geen periodes gevonden voor dit schooljaar',
-'No timetable data found': 'Geen roostergegevens gevonden',
-'No timetable for this day': 'Geen lesrooster voor deze dag',
-'No timetable for today': 'Geen lesrooster voor vandaag',
-'No users found': 'Geen gebruikers gevonden',
-"Non-reportable participants won't display in reports.": 'Deelnemers die niet op het rapport staan, worden niet in rapporten getoond.',
-'Non-school day': 'Geen schooldag',
-'Not a School Day': 'Geen schooldag',
-'Not currently enrolled': 'Momenteel niet ingeschreven',
-'Not enrolled in any classes yet': 'Nog voor geen enkel vak ingeschreven',
-'Not reported: update the School Connect module': 'Niet gemeld: werk de School Connect-module bij',
-'Not taken yet today': 'Vandaag nog niet geregistreerd',
-'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Hier nog niet beschikbaar — inschrijven via de app voegt niet automatisch cursussen toe. Rond de inschrijving voor cursussen af op de website als deze student dat nodig heeft.',
-'Nothing scheduled': 'Niets gepland',
-'Now': 'Nu',
-'Official Name *': 'Officiële naam *',
-"Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Eén keer per dag stuurt de server van je school alleen zijn eigen webadres naar High Point, om het abonnement van de school te bevestigen. Er worden geen persoonsgegevens verstuurd.',
-'Only includes people with a Staff role not already staff.': 'Alleen personen met een personeelsrol die nog geen personeel zijn.',
-'Only includes students not enrolled in this school year.': 'Alleen studenten die niet in dit schooljaar zijn ingeschreven.',
-'Opens at': 'Opent om',
-'Other services you may see': 'Andere diensten die je kunt tegenkomen',
-'Password *': 'Wachtwoord *',
-'Password must be filled in and match': 'Wachtwoord moet ingevuld zijn en overeenkomen',
-'Password reset successfully': 'Wachtwoord gereset',
-'Passwords do not match': 'Wachtwoorden komen niet overeen',
-'Passwords must be filled in and match': 'Wachtwoorden moeten ingevuld zijn en overeenkomen',
-'Permanently delete': 'Definitief verwijderen',
-'Permanently delete "{name}" and all of its classes?': '"{name}" en al zijn vakken definitief verwijderen?',
-'Permissions': 'Rechten',
-'Person *': 'Persoon *',
-'Please enter a Staff Type': 'Vul een personeelstype in',
-'Please fill in all required fields (name, official name, gender, role, username)': 'Vul alle verplichte velden in (naam, officiële naam, geslacht, rol, gebruikersnaam)',
-'Please select a Type': 'Kies een type',
-'Please select a Year Group and Form Group': 'Kies een jaargang en een klas',
-'Please select a class and a role': 'Kies een vak en een rol',
-'Please select a person': 'Kies een persoon',
-'Please select a person and a role': 'Kies een persoon en een rol',
-'Please select a student': 'Kies een student',
-'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Neem even de tijd om de gevraagde updates hieronder te controleren. Ook als er niets is veranderd, bevestig je met versturen dat je gegevens kloppen.',
-'Powered by Gibbon': 'Mogelijk gemaakt door Gibbon',
-'Preferred Name *': 'Roepnaam *',
-'Primary Role *': 'Primaire rol *',
-'Priority 1 contacts always receive all contact types.': 'Contacten met prioriteit 1 ontvangen altijd alle soorten berichten.',
-'Qualified': 'Gekwalificeerd',
-'Quick Access': 'Snelle toegang',
-'Read the full privacy policy': 'Lees het volledige privacybeleid',
-'Receipt ID': 'Ontvangstbewijsnr.',
-'Recent Attendance': 'Recente aanwezigheid',
-'Remove "{name}" from the calendar?': '"{name}" uit de kalender verwijderen?',
-'Remove Adult': 'Volwassene verwijderen',
-'Remove Child': 'Kind verwijderen',
-'Remove Class': 'Vak verwijderen',
-'Remove Enrolment': 'Inschrijving verwijderen',
-'Remove Staff Record': 'Personeelsrecord verwijderen',
-'Remove enrolment in {class}?': 'Inschrijving voor {class} verwijderen?',
-'Remove from Class': 'Uit vak verwijderen',
-'Remove {name} from staff?': '{name} uit het personeel verwijderen?',
-'Remove {name} from this class?': '{name} uit dit vak verwijderen?',
-'Remove {name} from this family?': '{name} uit dit gezin verwijderen?',
-'Report-card PDFs, only while you view or share them': 'Rapporten als pdf, alleen zolang je ze bekijkt of deelt',
-'Return to my account': 'Terug naar mijn account',
-'Role: Can Login': 'Rol: kan inloggen',
-'Roll': 'Nr.',
-'Save failed': 'Opslaan mislukt',
-'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School Connect is een app van een derde partij die werkt met Gibbon, het vrije en open-source platform voor schoolbeheer. Het is geen officiële uitgave van de Gibbon Foundation en is niet aan de Gibbon Foundation verbonden of door haar goedgekeurd.',
-'School Connect module on the school server': 'School Connect-module op de schoolserver',
-"School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School Connect toont informatie uit het eigen Gibbon-systeem van je school: lesroosters, aanwezigheid, cijfers, opdrachten, rapporten, berichten en de gegevens van je gezin. De app maakt rechtstreeks en alleen verbinding met de Gibbon-server van je school, via een versleutelde (HTTPS-)verbinding. High Point Education ontvangt, bewaart of ziet deze informatie niet.',
-"School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'De tijden voor openen, begin, einde en sluiten stel je hier niet in — rond die details af op de website.',
-'Search and view student profiles': 'Profielen van studenten zoeken en bekijken',
-'Search by course name...': 'Zoeken op cursusnaam…',
-'Search by course or class name...': 'Zoeken op naam van cursus of vak…',
-'Search by family name...': 'Zoeken op gezinsnaam…',
-'Search by name or initials...': 'Zoeken op naam of initialen…',
-'Search by name or student ID...': 'Zoeken op naam of studentnummer…',
-'Search by name or username...': 'Zoeken op naam of gebruikersnaam…',
-'Search by name, username, email, student ID...': 'Zoeken op naam, gebruikersnaam, e-mail, studentnummer…',
-'Search classes...': 'Vakken zoeken…',
-'Search rooms...': 'Lokalen zoeken…',
-'Search students...': 'Studenten zoeken…',
-'Select Student': 'Student kiezen',
-'Sessions marked Out this year': 'Lessen dit jaar gemarkeerd als Buiten',
-'Share': 'Delen',
-'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Uitloggen verwijdert het aanmeldtoken, je gebruikersnaam en gedownloade rapporten. De app verwijderen wist al het andere.',
-'Staff Profile': 'Profiel van personeelslid',
-'Staff Type *': 'Personeelstype *',
-'Staff record created': 'Personeelsrecord aangemaakt',
-'Student *': 'Student *',
-'Student List': 'Studentenlijst',
-'Student enrolled successfully': 'Student ingeschreven',
-'Submitted': 'Verstuurd',
-'Surname *': 'Achternaam *',
-'Switch Role': 'Van rol wisselen',
-'Switch School Year': 'Van schooljaar wisselen',
-'Take attendance for this class': 'Aanwezigheid voor dit vak registreren',
-'Taken': 'Geregistreerd',
-'Tap to edit': 'Tik om te bewerken',
-'The impersonation ended after 2 hours. You are back in your own account.': 'Het inloggen als een andere gebruiker is na 2 uur gestopt. Je bent terug in je eigen account.',
-'The order in which the school should contact family members.': 'De volgorde waarin de school gezinsleden moet benaderen.',
-'Their user account is not affected.': 'Het gebruikersaccount van deze persoon blijft ongewijzigd.',
-'There are no messages to display.': 'Er zijn geen berichten om te tonen.',
-'This affects the timetable:': 'Dit heeft invloed op het lesrooster:',
-'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Dit verwijdert ook alle inschrijvingen en roostergegevens van die vakken. Dit kan niet ongedaan worden gemaakt.',
-'This cannot be undone.': 'Dit kan niet ongedaan worden gemaakt.',
-'This class is not scheduled on {date}. You can still save attendance if needed.': 'Dit vak staat niet ingeroosterd op {date}. Je kunt de aanwezigheid zo nodig toch opslaan.',
-'This does not delete their user account.': 'Dit verwijdert het gebruikersaccount van deze persoon niet.',
-'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Met deze optie kunnen beheerders inloggen als een ander account in het systeem, om problemen op te lossen en te testen. De gekozen gebruiker kan gewoon in- en uitloggen op het eigen account.',
-'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Dit verwijdert alle inschrijvingen en roostergegevens van dit vak. Dit kan niet ongedaan worden gemaakt.',
-'Timetable by Facility': 'Lesrooster per lesruimte',
-"Today's Timetable": 'Lesrooster van vandaag',
-'Troubleshoot by seeing the app as another user': 'Problemen oplossen door de app als een andere gebruiker te bekijken',
-'Tutor 2': 'Mentor 2',
-'Type *': 'Type *',
-'Type and Name are required': 'Type en naam zijn verplicht',
-'Type at least 2 characters': 'Typ minstens 2 tekens',
-'Type, country code, number': 'Type, landcode, nummer',
-'Unenroll {name} from this school year?': '{name} uitschrijven voor dit schooljaar?',
-'Unknown Year': 'Onbekend jaar',
-'Unused': 'Ongebruikt',
-'Used to group staff in a staff directory.': 'Gebruikt om personeel te groeperen in de personeelsgids.',
-'User created successfully': 'Gebruiker aangemaakt',
-'User updated successfully': 'Gebruiker bijgewerkt',
-'User: Can Login': 'Gebruiker: kan inloggen',
-'User: Failed Logins': 'Gebruiker: mislukte aanmeldingen',
-'User: Status': 'Gebruiker: status',
-'Username *': 'Gebruikersnaam *',
-'Username already taken': 'Gebruikersnaam is al in gebruik',
-'Username available': 'Gebruikersnaam is beschikbaar',
-"Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Videolessen: virtuele lessen gebruiken de videodienst die je school heeft gekozen (standaard de openbare dienst Jitsi Meet)',
-'View Attendance': 'Aanwezigheid bekijken',
-'View Full Timetable': 'Volledig lesrooster bekijken',
-'View Grades': 'Cijfers bekijken',
-'View Homework Calendar': 'Opdrachtenkalender bekijken',
-'View Timetable': 'Lesrooster bekijken',
-'View and manage Form Groups': 'Klassen bekijken en beheren',
-'View class grades': 'Cijfers van het vak bekijken',
-'View families, contacts, and children': 'Gezinnen, contacten en kinderen bekijken',
-'View lesson plans for this class': 'Lesplannen van dit vak bekijken',
-'View students in this class': 'Studenten in dit vak bekijken',
-'View your grades': 'Je cijfers bekijken',
-'View your report cards': 'Je rapporten bekijken',
-'Viewing as {name}': 'Bekijken als {name}',
-'Virtual Classroom': 'Virtueel klaslokaal',
-'Welcome, {name}!': 'Welkom, {name}!',
-'What the app does not do': 'Wat de app niet doet',
-'What the app keeps on this device': 'Wat de app op dit apparaat bewaart',
-'Year Group *': 'Jaargang *',
-"Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Je stelt hier niet in voor welke jaargang of klas dit geldt — het geldt voor iedereen totdat het op de website is afgerond.',
-'You are back in your own account.': 'Je bent terug in je eigen account.',
-'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Je bekijkt schooljaar {year}, dat niet het huidige jaar is. Gegevens kunnen afwijken (studenten die de school hebben verlaten, verschijnen bijvoorbeeld niet in eerdere jaren).',
-'You can use this section to record your own homework.': 'In dit onderdeel kun je je eigen opdrachten bijhouden.',
-"You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Je hebt al een verzoek verstuurd dat wacht op beoordeling door een beheerder. Je kunt hieronder nog wijzigingen aanbrengen, maar je gegevens verschijnen pas in het systeem nadat ze zijn verwerkt.',
-'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Je hebt al een verzoek verstuurd dat wacht op beoordeling door een beheerder. Je kunt hieronder nog wijzigingen aanbrengen.',
-'Your data is up to date.': 'Je gegevens zijn bijgewerkt.',
-'Your data stays with your school': 'Je gegevens blijven bij je school',
-"Your last username and the last three school addresses you used, so you don't have to retype them": 'Je laatste gebruikersnaam en de laatste drie schooladressen die je gebruikte, zodat je ze niet opnieuw hoeft te typen',
-'Your rights and questions': 'Je rechten en vragen',
-"Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Je school is verantwoordelijk voor je persoonsgegevens in Gibbon. Neem contact op met de functionaris voor gegevensbescherming van je school om ze in te zien, te corrigeren of te verwijderen. Voor vragen over de app zelf kun je mailen naar {email}.',
-'Your session will be switched to {name} ({role}).': 'Je sessie wordt overgezet naar {name} ({role}).',
-'Trial access': 'Proeftoegang',
-'a previous year': 'een eerder jaar',
-'optional': 'optioneel',
-'primary': 'primair',
-'until {time}': 'tot {time}',
-'{absent} absent of {total} sessions recorded': '{absent} keer afwezig van {total} geregistreerde lessen',
-'— None —': '— Geen —',
-'{count}m ago': '{count} min geleden',
-'{count}h ago': '{count} u geleden',
-'{count}d ago': '{count} d geleden',
-'Could not load data': 'Gegevens laden mislukt',
-'Could not load roles': 'Rollen laden mislukt',
-'an app for Gibbon™': 'een app voor Gibbon™',
-'Taken at {time}': 'Geregistreerd om {time}',
-'Could not save for: {names}': 'Opslaan mislukt voor: {names}',
-'Last class of the day': 'Laatste les van de dag',
-'Taken today at {time}. Tap to review or change': 'Vandaag geregistreerd om {time}. Tik om te bekijken of te wijzigen',
-'{label}: ': '{label}: ',
-}
+T = {'A punctuation mark or space': 'Een leesteken of een spatie',
+ "A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)": 'Een aanmeldtoken, bewaard in de beveiligde opslag van het apparaat (iOS-sleutelhanger of Android '
+                                                                                            'Keystore)',
+ 'About & Privacy': 'Over en privacy',
+ 'Add More': 'Meer toevoegen',
+ 'Add Participant': 'Deelnemer toevoegen',
+ 'Add homework?': 'Opdracht toevoegen?',
+ 'Add, edit, and remove closures': 'Sluitingen toevoegen, bewerken en verwijderen',
+ 'Add, edit, and remove user accounts': 'Gebruikersaccounts toevoegen, bewerken en verwijderen',
+ 'Adjusts arrangement of courses in reports.': 'Bepaalt de volgorde van vakken in rapporten.',
+ 'Adult settings updated': 'Instellingen van volwassene bijgewerkt',
+ 'All Types': 'Alle typen',
+ 'All Year Groups': 'Alle leerjaren',
+ 'An uppercase and a lowercase letter': 'Een hoofdletter en een kleine letter',
+ 'App version, connected school and your data': 'App-versie, gekoppelde school en je gegevens',
+ 'Assessments': 'Toetsen',
+ 'At least one number': 'Minstens één cijfer',
+ 'Attendance This Year': 'Aanwezigheid dit jaar',
+ 'Attendance not taken yet today': 'Aanwezigheid vandaag nog niet geregistreerd',
+ 'Behaviour record saved!': 'Gedragsnotitie opgeslagen!',
+ 'Browse staff profiles': 'Profielen van personeel bekijken',
+ 'By Class': 'Per lesgroep',
+ 'By Date': 'Per datum',
+ 'Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no.': 'Camera en foto’s: alleen als je zelf een foto toevoegt aan een '
+                                                                                                                                 'verzoek om gegevens bij te werken. De app vraagt eerst toestemming '
+                                                                                                                                 'en je kunt weigeren.',
+ 'Cancel Bookings?': 'Reserveringen annuleren?',
+ 'Cancel Classes?': 'Lessen annuleren?',
+ 'Cancel Staff Duty?': 'Diensten van personeel annuleren?',
+ 'Cancel new condition': 'Nieuwe aandoening annuleren',
+ 'Cap': 'Cap.',
+ 'Chinese or other character-based name': 'Naam in Chinees of een ander tekenschrift',
+ 'Choose a class above': 'Kies hierboven een lesgroep',
+ 'Choose any Form Group': 'Kies een klas',
+ 'Choose any of your classes': 'Kies een van je lesgroepen',
+ 'Choose at least one student first': 'Kies eerst minstens één leerling',
+ 'Choose one of your Form Groups': 'Kies een van je klassen',
+ 'Class Absences': 'Afwezigheid bij lessen',
+ 'Class Enrolments': 'Inschrijvingen voor lesgroepen',
+ 'Class Roster': 'Leerlingenlijst van lesgroep',
+ 'Click Update next to School Connect in System Admin > Manage Modules.': 'Klik op Bijwerken naast School Connect in Systeembeheer > Modules beheren.',
+ 'Closed at': 'Sluit om',
+ 'Combined short name "{name}" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns.': 'De gecombineerde korte naam "{name}" is langer dan 16 tekens — dit '
+                                                                                                                                 'kan weergaveproblemen geven in het lesrooster en in keuzelijsten.',
+ 'Combined short name exceeds 16 characters': 'Gecombineerde korte naam is langer dan 16 tekens',
+ 'Comma-separated list of email addresses': 'Lijst van e-mailadressen, gescheiden door komma’s',
+ 'Confirm Password *': 'Wachtwoord bevestigen *',
+ 'Connected school': 'Gekoppelde school',
+ 'Connecting...': 'Verbinden…',
+ 'Contact Info': 'Contactgegevens',
+ 'Contact {number} — not on record': 'Contact {number} — niet geregistreerd',
+ 'Content in lessons: videos or images a teacher adds (for example YouTube) load from those sites when you open them': 'Inhoud van lessen: video’s of afbeeldingen die een leraar toevoegt '
+                                                                                                                       '(bijvoorbeeld van YouTube) worden geladen van die sites wanneer je ze opent',
+ 'Control what shows up in the app for everyone': 'Bepaal wat er voor iedereen in de app verschijnt',
+ 'Could not add': 'Toevoegen mislukt',
+ 'Could not add adult': 'Volwassene toevoegen mislukt',
+ 'Could not add child': 'Kind toevoegen mislukt',
+ 'Could not delete user': 'Gebruiker verwijderen mislukt',
+ 'Could not download report': 'Rapport downloaden mislukt',
+ 'Could not generate username': 'Gebruikersnaam aanmaken mislukt',
+ 'Could not load Form Groups': 'Klassen laden mislukt',
+ 'Could not load activities': 'Activiteiten laden mislukt',
+ 'Could not load attendance': 'Aanwezigheid laden mislukt',
+ 'Could not load children': 'Kinderen laden mislukt',
+ 'Could not load classes': 'Lesgroepen laden mislukt',
+ 'Could not load course': 'Vak laden mislukt',
+ 'Could not load courses': 'Vakken laden mislukt',
+ 'Could not load data updates': 'Gegevensupdates laden mislukt',
+ 'Could not load days of the week': 'Dagen van de week laden mislukt',
+ 'Could not load emergency contacts': 'Noodcontacten laden mislukt',
+ 'Could not load enrolment': 'Inschrijving laden mislukt',
+ 'Could not load enrolments': 'Inschrijvingen laden mislukt',
+ 'Could not load facilities': 'Lesruimtes laden mislukt',
+ 'Could not load families': 'Gezinnen laden mislukt',
+ 'Could not load family': 'Gezin laden mislukt',
+ 'Could not load family data': 'Gezinsgegevens laden mislukt',
+ 'Could not load finance data': 'Financiële gegevens laden mislukt',
+ 'Could not load form': 'Formulier laden mislukt',
+ 'Could not load form data': 'Formuliergegevens laden mislukt',
+ 'Could not load grades': 'Cijfers laden mislukt',
+ 'Could not load homework': 'Huiswerk laden mislukt',
+ 'Could not load homework calendar': 'Huiswerkkalender laden mislukt',
+ 'Could not load invoice': 'Factuur laden mislukt',
+ 'Could not load invoices': 'Facturen laden mislukt',
+ 'Could not load lesson': 'Les laden mislukt',
+ 'Could not load lessons': 'Lessen laden mislukt',
+ 'Could not load markbook': 'Cijferlijst laden mislukt',
+ 'Could not load master timetable': 'Algemeen lesrooster laden mislukt',
+ 'Could not load medical data': 'Medische gegevens laden mislukt',
+ 'Could not load messages': 'Berichten laden mislukt',
+ 'Could not load notifications': 'Meldingen laden mislukt',
+ 'Could not load password policy': 'Wachtwoordregels laden mislukt',
+ 'Could not load people': 'Personen laden mislukt',
+ 'Could not load personal data': 'Persoonsgegevens laden mislukt',
+ 'Could not load personal information': 'Persoonlijke informatie laden mislukt',
+ 'Could not load profile': 'Profiel laden mislukt',
+ 'Could not load report': 'Rapport laden mislukt',
+ 'Could not load reports': 'Rapporten laden mislukt',
+ 'Could not load roster': 'Lijst laden mislukt',
+ 'Could not load school years': 'Schooljaren laden mislukt',
+ 'Could not load settings': 'Instellingen laden mislukt',
+ 'Could not load special day': 'Speciale dag laden mislukt',
+ 'Could not load staff': 'Personeel laden mislukt',
+ 'Could not load staff data': 'Personeelsgegevens laden mislukt',
+ 'Could not load students': 'Leerlingen laden mislukt',
+ 'Could not load terms': 'Periodes laden mislukt',
+ 'Could not load timetable': 'Lesrooster laden mislukt',
+ 'Could not load timetables': 'Lesroosters laden mislukt',
+ 'Could not load user': 'Gebruiker laden mislukt',
+ 'Could not load users': 'Gebruikers laden mislukt',
+ 'Could not load your children': 'Je kinderen laden mislukt',
+ 'Could not open payment page': 'Betaalpagina openen mislukt',
+ 'Could not open the video call': 'Videogesprek openen mislukt',
+ 'Could not remove': 'Verwijderen mislukt',
+ 'Could not reset password': 'Wachtwoord resetten mislukt',
+ 'Could not save': 'Opslaan mislukt',
+ 'Could not save attendance': 'Aanwezigheid opslaan mislukt',
+ 'Could not save setting': 'Instelling opslaan mislukt',
+ 'Could not save user': 'Gebruiker opslaan mislukt',
+ 'Could not start impersonating this user': 'Inloggen als deze gebruiker mislukt',
+ 'Could not submit update': 'Update versturen mislukt',
+ 'Could not switch role': 'Van rol wisselen mislukt',
+ 'Could not switch school year': 'Van schooljaar wisselen mislukt',
+ 'Could not update': 'Bijwerken mislukt',
+ 'Country of Origin': 'Land van herkomst',
+ 'Coverage Priority': 'Prioriteit voor vervanging',
+ 'Create linked staff record': 'Gekoppeld personeelsrecord aanmaken',
+ 'Create linked student enrolment': 'Gekoppelde inschrijving van leerling aanmaken',
+ 'Current year': 'Huidig jaar',
+ 'Dashboard': 'Dashboard',
+ 'Delete Class': 'Lesgroep verwijderen',
+ 'Delete Course': 'Vak verwijderen',
+ 'Delete Special Day': 'Speciale dag verwijderen',
+ 'Delete User': 'Gebruiker verwijderen',
+ 'Developed by High Point Education': 'Ontwikkeld door High Point Education',
+ 'Done': 'Klaar',
+ 'Due': 'Inleveren',
+ 'Due date and details are required.': 'Inleverdatum en details zijn verplicht.',
+ 'Editable': 'Bewerkbaar',
+ 'Email: Must be unique': 'E-mail: moet uniek zijn',
+ 'Enrolable Year Groups': 'Leerjaren met open inschrijving',
+ 'Enroll existing students into the active school year': 'Bestaande leerlingen inschrijven in het actieve schooljaar',
+ 'Family name as shown in ID documents': 'Achternaam zoals in het identiteitsbewijs',
+ 'Fill in First Name, Surname, Preferred Name, and Primary Role first': 'Vul eerst voornaam, achternaam, roepnaam en primaire rol in',
+ 'Filter by Year Group': 'Filteren op leerjaar',
+ 'First Name *': 'Voornaam *',
+ 'First name as shown in ID documents': 'Voornaam zoals in het identiteitsbewijs',
+ 'Form Group *': 'Klas *',
+ 'Formal name to address parents with': 'Formele naam om ouders mee aan te spreken',
+ 'Full name as shown in ID documents': 'Volledige naam zoals in het identiteitsbewijs',
+ 'Gateway': 'Gateway',
+ 'Gender *': 'Geslacht *',
+ 'Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with permission.': 'Gibbon™ is een handelsmerk van Gibbon Education Ltd. (Hongkong), gebruikt met toestemming.',
+ 'Google Sign-In, only if your school uses it and you choose it': 'Inloggen met Google, alleen als je school het gebruikt en jij ervoor kiest',
+ 'Grades': 'Cijfers',
+ "Highlighted in red: marked 'Full' but outside their start/end date range.": "In rood: gemarkeerd als 'Full' maar buiten de periode tussen begin- en einddatum.",
+ 'Higher numbers move staff up the order within their grouping.': 'Hogere getallen plaatsen personeel hoger in de volgorde binnen hun groepering.',
+ 'Holiday': 'Vakantie',
+ 'Homework Calendar': 'Huiswerkkalender',
+ 'Homework due': 'In te leveren huiswerk',
+ 'Homework removed.': 'Opdracht verwijderd.',
+ 'Homework saved.': 'Opdracht opgeslagen.',
+ "If you choose Family, future invoices will be sent according to your family's contact preferences. If you choose Company, you can choose for all or only some fees to be covered by the specified company.": 'Kies '
+                                                                                                                                                                                                               'je '
+                                                                                                                                                                                                               'Gezin, '
+                                                                                                                                                                                                               'dan '
+                                                                                                                                                                                                               'worden '
+                                                                                                                                                                                                               'toekomstige '
+                                                                                                                                                                                                               'facturen '
+                                                                                                                                                                                                               'verstuurd '
+                                                                                                                                                                                                               'volgens '
+                                                                                                                                                                                                               'de '
+                                                                                                                                                                                                               'contactvoorkeuren '
+                                                                                                                                                                                                               'van '
+                                                                                                                                                                                                               'je '
+                                                                                                                                                                                                               'gezin. '
+                                                                                                                                                                                                               'Kies '
+                                                                                                                                                                                                               'je '
+                                                                                                                                                                                                               'Bedrijf, '
+                                                                                                                                                                                                               'dan '
+                                                                                                                                                                                                               'kun '
+                                                                                                                                                                                                               'je '
+                                                                                                                                                                                                               'kiezen '
+                                                                                                                                                                                                               'of '
+                                                                                                                                                                                                               'het '
+                                                                                                                                                                                                               'opgegeven '
+                                                                                                                                                                                                               'bedrijf '
+                                                                                                                                                                                                               'alle '
+                                                                                                                                                                                                               'of '
+                                                                                                                                                                                                               'slechts '
+                                                                                                                                                                                                               'enkele '
+                                                                                                                                                                                                               'kosten '
+                                                                                                                                                                                                               'betaalt.',
+ 'Impersonate': 'Inloggen als',
+ 'Impersonate User needs School Connect module 1.16.09 or later on the school server.': 'Inloggen als gebruiker vereist de School Connect-module 1.16.09 of nieuwer op de schoolserver.',
+ 'Installed version is {version}.': 'Geïnstalleerde versie is {version}.',
+ 'It ends after 2 hours. Use Return to my account at the top of the screen to come back sooner.': 'Dit stopt na 2 uur. Gebruik Terug naar mijn account bovenaan het scherm om eerder terug te gaan.',
+ 'Jitsi': 'Jitsi',
+ 'Join Virtual Class': 'Deelnemen aan virtuele les',
+ 'Join Virtual Class is hidden everywhere it would normally appear': 'De knop Deelnemen aan virtuele les is overal verborgen',
+ 'Join Virtual Class shows on the timetable and planner': 'De knop Deelnemen aan virtuele les staat in het lesrooster en de planner',
+ 'Last 10 school days': 'Laatste 10 schooldagen',
+ 'Last 10 school days — per period': 'Laatste 10 schooldagen — per lesuur',
+ 'Last 20 school days': 'Laatste 20 schooldagen',
+ 'Lesson planning is coming soon': 'Lesplanning komt binnenkort',
+ 'Licence check': 'Licentiecontrole',
+ 'Link staff-role people to their staff record': 'Personen met een personeelsrol koppelen aan hun personeelsrecord',
+ 'Log Behaviour': 'Gedrag registreren',
+ 'Logged in as': 'Ingelogd als',
+ 'Manage users and school settings': 'Gebruikers en schoolinstellingen beheren',
+ 'Mark all read': 'Alles als gelezen markeren',
+ 'Mark as complete': 'Als voltooid markeren',
+ 'Mark attendance for today': 'Aanwezigheid van vandaag registreren',
+ 'Mark read': 'Als gelezen markeren',
+ 'Master Timetable': 'Algemeen lesrooster',
+ 'Must be unique if set': 'Moet uniek zijn, indien ingevuld',
+ 'My Form Groups': 'Mijn klassen',
+ 'Name and Short Name are required': 'Naam en korte naam zijn verplicht',
+ 'No Form Groups found': 'Geen klassen gevonden',
+ 'No Learning Area': 'Geen studiegebied',
+ 'No activities on record': 'Geen activiteiten geregistreerd',
+ 'No adults linked': 'Geen volwassenen gekoppeld',
+ 'No advertising, no analytics, no tracking, no crash reporting and no push-notification services. The app never sells or shares your data.': 'Geen advertenties, geen analyse, geen tracking, geen '
+                                                                                                                                              'crashrapportage en geen pushmeldingsdiensten. De app '
+                                                                                                                                              'verkoopt of deelt je gegevens nooit.',
+ 'No children found': 'Geen kinderen gevonden',
+ 'No children linked': 'Geen kinderen gekoppeld',
+ 'No children linked to this account': 'Geen kinderen gekoppeld aan dit account',
+ 'No class': 'Geen les',
+ 'No classes found': 'Geen lesgroepen gevonden',
+ 'No classes in this room today': 'Vandaag geen lessen in dit lokaal',
+ 'No classes scheduled': 'Geen lessen gepland',
+ 'No classes scheduled today': 'Vandaag geen lessen gepland',
+ 'No classes yet': 'Nog geen lesgroepen',
+ 'No courses found': 'Geen vakken gevonden',
+ 'No data for this term': 'Geen gegevens voor deze periode',
+ 'No data updates found': 'Geen gegevensupdates gevonden',
+ 'No department': 'Geen afdeling',
+ 'No facilities found': 'Geen lesruimtes gevonden',
+ 'No families found': 'Geen gezinnen gevonden',
+ 'No family members on record': 'Geen gezinsleden geregistreerd',
+ 'No family record found': 'Geen gezinsrecord gevonden',
+ 'No grades available': 'Geen cijfers beschikbaar',
+ 'No history available': 'Geen geschiedenis beschikbaar',
+ 'No homework recorded.': 'Geen huiswerk geregistreerd.',
+ 'No invoices to display': 'Geen facturen om te tonen',
+ 'No markbook entries yet': 'Nog geen cijfers in de cijferlijst',
+ 'No matches found': 'Geen resultaten',
+ 'No notifications': 'Geen meldingen',
+ 'No participants yet': 'Nog geen deelnemers',
+ 'No people found': 'Geen personen gevonden',
+ 'No phone on record': 'Geen telefoonnummer geregistreerd',
+ 'No record': 'Geen record',
+ 'No reports available yet': 'Nog geen rapporten beschikbaar',
+ 'No school days this week': 'Deze week geen schooldagen',
+ 'No staff found': 'Geen personeel gevonden',
+ 'No students enrolled this year': 'Dit jaar geen leerlingen ingeschreven',
+ 'No students found': 'Geen leerlingen gevonden',
+ 'No terms found for this school year': 'Geen periodes gevonden voor dit schooljaar',
+ 'No timetable data found': 'Geen roostergegevens gevonden',
+ 'No timetable for this day': 'Geen lesrooster voor deze dag',
+ 'No timetable for today': 'Geen lesrooster voor vandaag',
+ 'No users found': 'Geen gebruikers gevonden',
+ "Non-reportable participants won't display in reports.": 'Deelnemers die niet op het rapport staan, worden niet in rapporten getoond.',
+ 'Non-school day': 'Geen schooldag',
+ 'Not a School Day': 'Geen schooldag',
+ 'Not currently enrolled': 'Momenteel niet ingeschreven',
+ 'Not enrolled in any classes yet': 'Nog voor geen enkele lesgroep ingeschreven',
+ 'Not reported: update the School Connect module': 'Niet gemeld: werk de School Connect-module bij',
+ 'Not taken yet today': 'Vandaag nog niet geregistreerd',
+ 'Not wired up here yet — enrolling here does not auto-add courses. Finish course enrolment on the website if this student needs it.': 'Hier nog niet beschikbaar — inschrijven via de app voegt niet '
+                                                                                                                                       'automatisch vakken toe. Rond de inschrijving voor vakken af op '
+                                                                                                                                       'de website als deze leerling dat nodig heeft.',
+ 'Nothing scheduled': 'Niets gepland',
+ 'Now': 'Nu',
+ 'Official Name *': 'Officiële naam *',
+ "Once a day, your school's server tells High Point only its own web address, to confirm the school's subscription. No personal information is sent.": 'Eén keer per dag stuurt de server van je '
+                                                                                                                                                       'school alleen zijn eigen webadres naar High '
+                                                                                                                                                       'Point, om het abonnement van de school te '
+                                                                                                                                                       'bevestigen. Er worden geen persoonsgegevens '
+                                                                                                                                                       'verstuurd.',
+ 'Only includes people with a Staff role not already staff.': 'Alleen personen met een personeelsrol die nog geen personeel zijn.',
+ 'Only includes students not enrolled in this school year.': 'Alleen leerlingen die niet in dit schooljaar zijn ingeschreven.',
+ 'Opens at': 'Opent om',
+ 'Other services you may see': 'Andere diensten die je kunt tegenkomen',
+ 'Password *': 'Wachtwoord *',
+ 'Password must be filled in and match': 'Wachtwoord moet ingevuld zijn en overeenkomen',
+ 'Password reset successfully': 'Wachtwoord gereset',
+ 'Passwords do not match': 'Wachtwoorden komen niet overeen',
+ 'Passwords must be filled in and match': 'Wachtwoorden moeten ingevuld zijn en overeenkomen',
+ 'Permanently delete': 'Definitief verwijderen',
+ 'Permanently delete "{name}" and all of its classes?': '"{name}" en al zijn lesgroepen definitief verwijderen?',
+ 'Permissions': 'Rechten',
+ 'Person *': 'Persoon *',
+ 'Please enter a Staff Type': 'Vul een personeelstype in',
+ 'Please fill in all required fields (name, official name, gender, role, username)': 'Vul alle verplichte velden in (naam, officiële naam, geslacht, rol, gebruikersnaam)',
+ 'Please select a Type': 'Kies een type',
+ 'Please select a Year Group and Form Group': 'Kies een leerjaar en een klas',
+ 'Please select a class and a role': 'Kies een lesgroep en een rol',
+ 'Please select a person': 'Kies een persoon',
+ 'Please select a person and a role': 'Kies een persoon en een rol',
+ 'Please select a student': 'Kies een leerling',
+ 'Please take a moment to review the required updates below. Even if nothing has changed, submitting confirms your data is correct.': 'Neem even de tijd om de gevraagde updates hieronder te '
+                                                                                                                                      'controleren. Ook als er niets is veranderd, bevestig je met '
+                                                                                                                                      'versturen dat je gegevens kloppen.',
+ 'Powered by Gibbon': 'Mogelijk gemaakt door Gibbon',
+ 'Preferred Name *': 'Roepnaam *',
+ 'Primary Role *': 'Primaire rol *',
+ 'Priority 1 contacts always receive all contact types.': 'Contacten met prioriteit 1 ontvangen altijd alle soorten berichten.',
+ 'Qualified': 'Gekwalificeerd',
+ 'Quick Access': 'Snelle toegang',
+ 'Read the full privacy policy': 'Lees het volledige privacybeleid',
+ 'Receipt ID': 'Ontvangstbewijsnr.',
+ 'Recent Attendance': 'Recente aanwezigheid',
+ 'Remove "{name}" from the calendar?': '"{name}" uit de kalender verwijderen?',
+ 'Remove Adult': 'Volwassene verwijderen',
+ 'Remove Child': 'Kind verwijderen',
+ 'Remove Class': 'Lesgroep verwijderen',
+ 'Remove Enrolment': 'Inschrijving verwijderen',
+ 'Remove Staff Record': 'Personeelsrecord verwijderen',
+ 'Remove enrolment in {class}?': 'Inschrijving voor {class} verwijderen?',
+ 'Remove from Class': 'Uit lesgroep verwijderen',
+ 'Remove {name} from staff?': '{name} uit het personeel verwijderen?',
+ 'Remove {name} from this class?': '{name} uit deze lesgroep verwijderen?',
+ 'Remove {name} from this family?': '{name} uit dit gezin verwijderen?',
+ 'Report-card PDFs, only while you view or share them': 'Rapporten als pdf, alleen zolang je ze bekijkt of deelt',
+ 'Return to my account': 'Terug naar mijn account',
+ 'Role: Can Login': 'Rol: kan inloggen',
+ 'Roll': 'Nr.',
+ 'Save failed': 'Opslaan mislukt',
+ 'School Connect is a third-party application that is compatible with Gibbon, the free and open-source school management platform. It is not an official Gibbon Foundation release and is not affiliated with or endorsed by the Gibbon Foundation.': 'School '
+                                                                                                                                                                                                                                                      'Connect '
+                                                                                                                                                                                                                                                      'is '
+                                                                                                                                                                                                                                                      'een '
+                                                                                                                                                                                                                                                      'app '
+                                                                                                                                                                                                                                                      'van '
+                                                                                                                                                                                                                                                      'een '
+                                                                                                                                                                                                                                                      'derde '
+                                                                                                                                                                                                                                                      'partij '
+                                                                                                                                                                                                                                                      'die '
+                                                                                                                                                                                                                                                      'werkt '
+                                                                                                                                                                                                                                                      'met '
+                                                                                                                                                                                                                                                      'Gibbon, '
+                                                                                                                                                                                                                                                      'het '
+                                                                                                                                                                                                                                                      'vrije '
+                                                                                                                                                                                                                                                      'en '
+                                                                                                                                                                                                                                                      'open-source '
+                                                                                                                                                                                                                                                      'platform '
+                                                                                                                                                                                                                                                      'voor '
+                                                                                                                                                                                                                                                      'schoolbeheer. '
+                                                                                                                                                                                                                                                      'Het '
+                                                                                                                                                                                                                                                      'is '
+                                                                                                                                                                                                                                                      'geen '
+                                                                                                                                                                                                                                                      'officiële '
+                                                                                                                                                                                                                                                      'uitgave '
+                                                                                                                                                                                                                                                      'van '
+                                                                                                                                                                                                                                                      'de '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      'Foundation '
+                                                                                                                                                                                                                                                      'en '
+                                                                                                                                                                                                                                                      'is '
+                                                                                                                                                                                                                                                      'niet '
+                                                                                                                                                                                                                                                      'aan '
+                                                                                                                                                                                                                                                      'de '
+                                                                                                                                                                                                                                                      'Gibbon '
+                                                                                                                                                                                                                                                      'Foundation '
+                                                                                                                                                                                                                                                      'verbonden '
+                                                                                                                                                                                                                                                      'of '
+                                                                                                                                                                                                                                                      'door '
+                                                                                                                                                                                                                                                      'haar '
+                                                                                                                                                                                                                                                      'goedgekeurd.',
+ 'School Connect module on the school server': 'School Connect-module op de schoolserver',
+ "School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information.": 'School '
+                                                                                                                                                                                                                                                                                                                                                'Connect '
+                                                                                                                                                                                                                                                                                                                                                'toont '
+                                                                                                                                                                                                                                                                                                                                                'informatie '
+                                                                                                                                                                                                                                                                                                                                                'uit '
+                                                                                                                                                                                                                                                                                                                                                'het '
+                                                                                                                                                                                                                                                                                                                                                'eigen '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon-systeem '
+                                                                                                                                                                                                                                                                                                                                                'van '
+                                                                                                                                                                                                                                                                                                                                                'je '
+                                                                                                                                                                                                                                                                                                                                                'school: '
+                                                                                                                                                                                                                                                                                                                                                'lesroosters, '
+                                                                                                                                                                                                                                                                                                                                                'aanwezigheid, '
+                                                                                                                                                                                                                                                                                                                                                'cijfers, '
+                                                                                                                                                                                                                                                                                                                                                'huiswerk, '
+                                                                                                                                                                                                                                                                                                                                                'rapporten, '
+                                                                                                                                                                                                                                                                                                                                                'berichten '
+                                                                                                                                                                                                                                                                                                                                                'en '
+                                                                                                                                                                                                                                                                                                                                                'de '
+                                                                                                                                                                                                                                                                                                                                                'gegevens '
+                                                                                                                                                                                                                                                                                                                                                'van '
+                                                                                                                                                                                                                                                                                                                                                'je '
+                                                                                                                                                                                                                                                                                                                                                'gezin. '
+                                                                                                                                                                                                                                                                                                                                                'De '
+                                                                                                                                                                                                                                                                                                                                                'app '
+                                                                                                                                                                                                                                                                                                                                                'maakt '
+                                                                                                                                                                                                                                                                                                                                                'rechtstreeks '
+                                                                                                                                                                                                                                                                                                                                                'en '
+                                                                                                                                                                                                                                                                                                                                                'alleen '
+                                                                                                                                                                                                                                                                                                                                                'verbinding '
+                                                                                                                                                                                                                                                                                                                                                'met '
+                                                                                                                                                                                                                                                                                                                                                'de '
+                                                                                                                                                                                                                                                                                                                                                'Gibbon-server '
+                                                                                                                                                                                                                                                                                                                                                'van '
+                                                                                                                                                                                                                                                                                                                                                'je '
+                                                                                                                                                                                                                                                                                                                                                'school, '
+                                                                                                                                                                                                                                                                                                                                                'via '
+                                                                                                                                                                                                                                                                                                                                                'een '
+                                                                                                                                                                                                                                                                                                                                                'versleutelde '
+                                                                                                                                                                                                                                                                                                                                                '(HTTPS-)verbinding. '
+                                                                                                                                                                                                                                                                                                                                                'High '
+                                                                                                                                                                                                                                                                                                                                                'Point '
+                                                                                                                                                                                                                                                                                                                                                'Education '
+                                                                                                                                                                                                                                                                                                                                                'ontvangt, '
+                                                                                                                                                                                                                                                                                                                                                'bewaart '
+                                                                                                                                                                                                                                                                                                                                                'of '
+                                                                                                                                                                                                                                                                                                                                                'ziet '
+                                                                                                                                                                                                                                                                                                                                                'deze '
+                                                                                                                                                                                                                                                                                                                                                'informatie '
+                                                                                                                                                                                                                                                                                                                                                'niet.',
+ "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website.": 'De tijden voor openen, begin, einde en sluiten stel je hier niet in — rond die details af op de '
+                                                                                                 'website.',
+ 'Search and view student profiles': 'Profielen van leerlingen zoeken en bekijken',
+ 'Search by course name...': 'Zoeken op vaknaam…',
+ 'Search by course or class name...': 'Zoeken op naam van vak of lesgroep…',
+ 'Search by family name...': 'Zoeken op gezinsnaam…',
+ 'Search by name or initials...': 'Zoeken op naam of initialen…',
+ 'Search by name or student ID...': 'Zoeken op naam of leerlingnummer…',
+ 'Search by name or username...': 'Zoeken op naam of gebruikersnaam…',
+ 'Search by name, username, email, student ID...': 'Zoeken op naam, gebruikersnaam, e-mail, leerlingnummer…',
+ 'Search classes...': 'Lesgroepen zoeken…',
+ 'Search rooms...': 'Lokalen zoeken…',
+ 'Search students...': 'Leerlingen zoeken…',
+ 'Select Student': 'Leerling kiezen',
+ 'Sessions marked Out this year': 'Lessen dit jaar gemarkeerd als Buiten',
+ 'Share': 'Delen',
+ 'Signing out removes the sign-in token, your username and any downloaded report cards. Uninstalling the app removes everything else.': 'Uitloggen verwijdert het aanmeldtoken, je gebruikersnaam en '
+                                                                                                                                        'gedownloade rapporten. De app verwijderen wist al het andere.',
+ 'Staff Profile': 'Profiel van personeelslid',
+ 'Staff Type *': 'Personeelstype *',
+ 'Staff record created': 'Personeelsrecord aangemaakt',
+ 'Student *': 'Leerling *',
+ 'Student List': 'Leerlingenlijst',
+ 'Student enrolled successfully': 'Leerling ingeschreven',
+ 'Submitted': 'Verstuurd',
+ 'Surname *': 'Achternaam *',
+ 'Switch Role': 'Van rol wisselen',
+ 'Switch School Year': 'Van schooljaar wisselen',
+ 'Take attendance for this class': 'Aanwezigheid voor deze lesgroep registreren',
+ 'Taken': 'Geregistreerd',
+ 'Tap to edit': 'Tik om te bewerken',
+ 'The impersonation ended after 2 hours. You are back in your own account.': 'Het inloggen als een andere gebruiker is na 2 uur gestopt. Je bent terug in je eigen account.',
+ 'The order in which the school should contact family members.': 'De volgorde waarin de school gezinsleden moet benaderen.',
+ 'Their user account is not affected.': 'Het gebruikersaccount van deze persoon blijft ongewijzigd.',
+ 'There are no messages to display.': 'Er zijn geen berichten om te tonen.',
+ 'This affects the timetable:': 'Dit heeft invloed op het lesrooster:',
+ 'This also removes all enrolment and timetable data for those classes. This cannot be undone.': 'Dit verwijdert ook alle inschrijvingen en roostergegevens van die lesgroepen. Dit kan niet ongedaan '
+                                                                                                 'worden gemaakt.',
+ 'This cannot be undone.': 'Dit kan niet ongedaan worden gemaakt.',
+ 'This class is not scheduled on {date}. You can still save attendance if needed.': 'Deze lesgroep staat niet ingeroosterd op {date}. Je kunt de aanwezigheid zo nodig toch opslaan.',
+ 'This does not delete their user account.': 'Dit verwijdert het gebruikersaccount van deze persoon niet.',
+ 'This option enables Administrators to impersonate another account in the system for troubleshooting and testing purposes. The selected user will still be able to log in and out of their own account.': 'Met '
+                                                                                                                                                                                                           'deze '
+                                                                                                                                                                                                           'optie '
+                                                                                                                                                                                                           'kunnen '
+                                                                                                                                                                                                           'beheerders '
+                                                                                                                                                                                                           'inloggen '
+                                                                                                                                                                                                           'als '
+                                                                                                                                                                                                           'een '
+                                                                                                                                                                                                           'ander '
+                                                                                                                                                                                                           'account '
+                                                                                                                                                                                                           'in '
+                                                                                                                                                                                                           'het '
+                                                                                                                                                                                                           'systeem, '
+                                                                                                                                                                                                           'om '
+                                                                                                                                                                                                           'problemen '
+                                                                                                                                                                                                           'op '
+                                                                                                                                                                                                           'te '
+                                                                                                                                                                                                           'lossen '
+                                                                                                                                                                                                           'en '
+                                                                                                                                                                                                           'te '
+                                                                                                                                                                                                           'testen. '
+                                                                                                                                                                                                           'De '
+                                                                                                                                                                                                           'gekozen '
+                                                                                                                                                                                                           'gebruiker '
+                                                                                                                                                                                                           'kan '
+                                                                                                                                                                                                           'gewoon '
+                                                                                                                                                                                                           'in- '
+                                                                                                                                                                                                           'en '
+                                                                                                                                                                                                           'uitloggen '
+                                                                                                                                                                                                           'op '
+                                                                                                                                                                                                           'het '
+                                                                                                                                                                                                           'eigen '
+                                                                                                                                                                                                           'account.',
+ 'This removes all enrolment and timetable data for this class. This cannot be undone.': 'Dit verwijdert alle inschrijvingen en roostergegevens van deze lesgroep. Dit kan niet ongedaan worden '
+                                                                                         'gemaakt.',
+ 'Timetable by Facility': 'Lesrooster per lesruimte',
+ "Today's Timetable": 'Lesrooster van vandaag',
+ 'Troubleshoot by seeing the app as another user': 'Problemen oplossen door de app als een andere gebruiker te bekijken',
+ 'Tutor 2': 'Mentor 2',
+ 'Type *': 'Type *',
+ 'Type and Name are required': 'Type en naam zijn verplicht',
+ 'Type at least 2 characters': 'Typ minstens 2 tekens',
+ 'Type, country code, number': 'Type, landcode, nummer',
+ 'Unenroll {name} from this school year?': '{name} uitschrijven voor dit schooljaar?',
+ 'Unknown Year': 'Onbekend jaar',
+ 'Unused': 'Ongebruikt',
+ 'Used to group staff in a staff directory.': 'Gebruikt om personeel te groeperen in de personeelsgids.',
+ 'User created successfully': 'Gebruiker aangemaakt',
+ 'User updated successfully': 'Gebruiker bijgewerkt',
+ 'User: Can Login': 'Gebruiker: kan inloggen',
+ 'User: Failed Logins': 'Gebruiker: mislukte aanmeldingen',
+ 'User: Status': 'Gebruiker: status',
+ 'Username *': 'Gebruikersnaam *',
+ 'Username already taken': 'Gebruikersnaam is al in gebruik',
+ 'Username available': 'Gebruikersnaam is beschikbaar',
+ "Video lessons: virtual classes use your school's chosen video service (by default the public Jitsi Meet service)": 'Videolessen: virtuele lessen gebruiken de videodienst die je school heeft '
+                                                                                                                     'gekozen (standaard de openbare dienst Jitsi Meet)',
+ 'View Attendance': 'Aanwezigheid bekijken',
+ 'View Full Timetable': 'Volledig lesrooster bekijken',
+ 'View Grades': 'Cijfers bekijken',
+ 'View Homework Calendar': 'Huiswerkkalender bekijken',
+ 'View Timetable': 'Lesrooster bekijken',
+ 'View and manage Form Groups': 'Klassen bekijken en beheren',
+ 'View class grades': 'Cijfers van de lesgroep bekijken',
+ 'View families, contacts, and children': 'Gezinnen, contacten en kinderen bekijken',
+ 'View lesson plans for this class': 'Lesplannen van deze lesgroep bekijken',
+ 'View students in this class': 'Leerlingen in deze lesgroep bekijken',
+ 'View your grades': 'Je cijfers bekijken',
+ 'View your report cards': 'Je rapporten bekijken',
+ 'Viewing as {name}': 'Bekijken als {name}',
+ 'Virtual Classroom': 'Virtueel klaslokaal',
+ 'Welcome, {name}!': 'Welkom, {name}!',
+ 'What the app does not do': 'Wat de app niet doet',
+ 'What the app keeps on this device': 'Wat de app op dit apparaat bewaart',
+ 'Year Group *': 'Leerjaar *',
+ "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website.": 'Je stelt hier niet in voor welk leerjaar of klas dit geldt — het geldt voor iedereen '
+                                                                                                              'totdat het op de website is afgerond.',
+ 'You are back in your own account.': 'Je bent terug in je eigen account.',
+ 'You are viewing school year {year}, which is not the current year. Data may not look quite right (for example, students who have left the school will not appear in previous years).': 'Je bekijkt '
+                                                                                                                                                                                         'schooljaar '
+                                                                                                                                                                                         '{year}, dat '
+                                                                                                                                                                                         'niet het '
+                                                                                                                                                                                         'huidige jaar '
+                                                                                                                                                                                         'is. Gegevens '
+                                                                                                                                                                                         'kunnen '
+                                                                                                                                                                                         'afwijken '
+                                                                                                                                                                                         '(leerlingen '
+                                                                                                                                                                                         'die de '
+                                                                                                                                                                                         'school '
+                                                                                                                                                                                         'hebben '
+                                                                                                                                                                                         'verlaten, '
+                                                                                                                                                                                         'verschijnen '
+                                                                                                                                                                                         'bijvoorbeeld '
+                                                                                                                                                                                         'niet in '
+                                                                                                                                                                                         'eerdere '
+                                                                                                                                                                                         'jaren).',
+ 'You can use this section to record your own homework.': 'In dit onderdeel kun je je eigen huiswerk bijhouden.',
+ "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed.": 'Je hebt '
+                                                                                                                                                                                              'al een '
+                                                                                                                                                                                              'verzoek '
+                                                                                                                                                                                              'verstuurd '
+                                                                                                                                                                                              'dat '
+                                                                                                                                                                                              'wacht '
+                                                                                                                                                                                              'op '
+                                                                                                                                                                                              'beoordeling '
+                                                                                                                                                                                              'door '
+                                                                                                                                                                                              'een '
+                                                                                                                                                                                              'beheerder. '
+                                                                                                                                                                                              'Je kunt '
+                                                                                                                                                                                              'hieronder '
+                                                                                                                                                                                              'nog '
+                                                                                                                                                                                              'wijzigingen '
+                                                                                                                                                                                              'aanbrengen, '
+                                                                                                                                                                                              'maar je '
+                                                                                                                                                                                              'gegevens '
+                                                                                                                                                                                              'verschijnen '
+                                                                                                                                                                                              'pas in '
+                                                                                                                                                                                              'het '
+                                                                                                                                                                                              'systeem '
+                                                                                                                                                                                              'nadat '
+                                                                                                                                                                                              'ze zijn '
+                                                                                                                                                                                              'verwerkt.',
+ 'You have already submitted a request, which is awaiting review by an administrator. You can still make changes below.': 'Je hebt al een verzoek verstuurd dat wacht op beoordeling door een '
+                                                                                                                          'beheerder. Je kunt hieronder nog wijzigingen aanbrengen.',
+ 'Your data is up to date.': 'Je gegevens zijn bijgewerkt.',
+ 'Your data stays with your school': 'Je gegevens blijven bij je school',
+ "Your last username and the last three school addresses you used, so you don't have to retype them": 'Je laatste gebruikersnaam en de laatste drie schooladressen die je gebruikte, zodat je ze niet '
+                                                                                                      'opnieuw hoeft te typen',
+ 'Your rights and questions': 'Je rechten en vragen',
+ "Your school is responsible for your personal data in Gibbon. To see, correct or delete it, contact your school's data protection officer. For questions about the app itself, contact {email}.": 'Je '
+                                                                                                                                                                                                   'school '
+                                                                                                                                                                                                   'is '
+                                                                                                                                                                                                   'verantwoordelijk '
+                                                                                                                                                                                                   'voor '
+                                                                                                                                                                                                   'je '
+                                                                                                                                                                                                   'persoonsgegevens '
+                                                                                                                                                                                                   'in '
+                                                                                                                                                                                                   'Gibbon. '
+                                                                                                                                                                                                   'Neem '
+                                                                                                                                                                                                   'contact '
+                                                                                                                                                                                                   'op '
+                                                                                                                                                                                                   'met '
+                                                                                                                                                                                                   'de '
+                                                                                                                                                                                                   'functionaris '
+                                                                                                                                                                                                   'voor '
+                                                                                                                                                                                                   'gegevensbescherming '
+                                                                                                                                                                                                   'van '
+                                                                                                                                                                                                   'je '
+                                                                                                                                                                                                   'school '
+                                                                                                                                                                                                   'om '
+                                                                                                                                                                                                   'ze '
+                                                                                                                                                                                                   'in '
+                                                                                                                                                                                                   'te '
+                                                                                                                                                                                                   'zien, '
+                                                                                                                                                                                                   'te '
+                                                                                                                                                                                                   'corrigeren '
+                                                                                                                                                                                                   'of '
+                                                                                                                                                                                                   'te '
+                                                                                                                                                                                                   'verwijderen. '
+                                                                                                                                                                                                   'Voor '
+                                                                                                                                                                                                   'vragen '
+                                                                                                                                                                                                   'over '
+                                                                                                                                                                                                   'de '
+                                                                                                                                                                                                   'app '
+                                                                                                                                                                                                   'zelf '
+                                                                                                                                                                                                   'kun '
+                                                                                                                                                                                                   'je '
+                                                                                                                                                                                                   'mailen '
+                                                                                                                                                                                                   'naar '
+                                                                                                                                                                                                   '{email}.',
+ 'Your session will be switched to {name} ({role}).': 'Je sessie wordt overgezet naar {name} ({role}).',
+ 'Trial access': 'Proeftoegang',
+ 'a previous year': 'een eerder jaar',
+ 'optional': 'optioneel',
+ 'primary': 'primair',
+ 'until {time}': 'tot {time}',
+ '{absent} absent of {total} sessions recorded': '{absent} keer afwezig van {total} geregistreerde lessen',
+ '— None —': '— Geen —',
+ '{count}m ago': '{count} min geleden',
+ '{count}h ago': '{count} u geleden',
+ '{count}d ago': '{count} d geleden',
+ 'Could not load data': 'Gegevens laden mislukt',
+ 'Could not load roles': 'Rollen laden mislukt',
+ 'an app for Gibbon™': 'een app voor Gibbon™',
+ 'Taken at {time}': 'Geregistreerd om {time}',
+ 'Could not save for: {names}': 'Opslaan mislukt voor: {names}',
+ 'Last class of the day': 'Laatste les van de dag',
+ 'Taken today at {time}. Tap to review or change': 'Vandaag geregistreerd om {time}. Tik om te bekijken of te wijzigen',
+ '{label}: ': '{label}: '}
 
-# Plurals: nplurals=2; plural=(n != 1), same shape as English.
-P = {
-'At least {count} character': ('Minstens {count} teken', 'Minstens {count} tekens'),
-'Behaviour records saved for {count} student!': ('Gedragsnotitie opgeslagen voor {count} student!', 'Gedragsnotities opgeslagen voor {count} studenten!'),
-'Day Absent': ('Dag afwezig', 'Dagen afwezig'),
-'Day Present': ('Dag aanwezig', 'Dagen aanwezig'),
-'Trial — {count} day left': ('Proefperiode — nog {count} dag', 'Proefperiode — nog {count} dagen'),
-'{count} class': ('{count} vak', '{count} vakken'),
-'{count} day': ('{count} dag', '{count} dagen'),
-'{count} facility': ('{count} lesruimte', '{count} lesruimtes'),
-'{count} family': ('{count} gezin', '{count} gezinnen'),
-'{count} school day in term': ('{count} schooldag in de periode', '{count} schooldagen in de periode'),
-'{count} school day in the school year': ('{count} schooldag in het schooljaar', '{count} schooldagen in het schooljaar'),
-'{count} session': ('{count} les', '{count} lessen'),
-'{count} staff member': ('{count} personeelslid', '{count} personeelsleden'),
-'{count} student': ('{count} student', '{count} studenten'),
-'{count} student enrolled': ('{count} student ingeschreven', '{count} studenten ingeschreven'),
-'{count} time': ('{count} keer', '{count} keer'),
-'{count} user': ('{count} gebruiker', '{count} gebruikers'),
-'{count} assessment': ('{count} toets', '{count} toetsen'),
-'{count} absent': ('{count} afwezig', '{count} afwezig'),
-'{count} late': ('{count} te laat', '{count} te laat'),
-'All {count} class done for today': ('{count} les klaar voor vandaag', 'Alle {count} lessen klaar voor vandaag'),
-'Saved for {count}, but failed for: {names}': ('Opgeslagen voor {count}, maar mislukt voor: {names}', 'Opgeslagen voor {count}, maar mislukt voor: {names}'),
-'{count} assess.': ('{count} toets', '{count} toetsen'),
-'{count} class remaining · {done} done': ('Nog {count} les · {done} klaar', 'Nog {count} lessen · {done} klaar'),
-'{count} class today': ('{count} les vandaag', '{count} lessen vandaag'),
-'{count} due': ('{count} in te leveren', '{count} in te leveren'),
-'{count} item': ('{count} item', '{count} items'),
-'{count} more class after this · {total} today': ('Nog {count} les hierna · {total} vandaag', 'Nog {count} lessen hierna · {total} vandaag'),
-}
+P = {'At least {count} character': ('Minstens {count} teken', 'Minstens {count} tekens'),
+ 'Behaviour records saved for {count} student!': ('Gedragsnotitie opgeslagen voor {count} leerling!', 'Gedragsnotities opgeslagen voor {count} leerlingen!'),
+ 'Day Absent': ('Dag afwezig', 'Dagen afwezig'),
+ 'Day Present': ('Dag aanwezig', 'Dagen aanwezig'),
+ 'Trial — {count} day left': ('Proefperiode — nog {count} dag', 'Proefperiode — nog {count} dagen'),
+ '{count} class': ('{count} lesgroep', '{count} lesgroepen'),
+ '{count} day': ('{count} dag', '{count} dagen'),
+ '{count} facility': ('{count} lesruimte', '{count} lesruimtes'),
+ '{count} family': ('{count} gezin', '{count} gezinnen'),
+ '{count} school day in term': ('{count} schooldag in de periode', '{count} schooldagen in de periode'),
+ '{count} school day in the school year': ('{count} schooldag in het schooljaar', '{count} schooldagen in het schooljaar'),
+ '{count} session': ('{count} les', '{count} lessen'),
+ '{count} staff member': ('{count} personeelslid', '{count} personeelsleden'),
+ '{count} student': ('{count} leerling', '{count} leerlingen'),
+ '{count} student enrolled': ('{count} leerling ingeschreven', '{count} leerlingen ingeschreven'),
+ '{count} time': ('{count} keer', '{count} keer'),
+ '{count} user': ('{count} gebruiker', '{count} gebruikers'),
+ '{count} assessment': ('{count} toets', '{count} toetsen'),
+ '{count} absent': ('{count} afwezig', '{count} afwezig'),
+ '{count} late': ('{count} te laat', '{count} te laat'),
+ 'All {count} class done for today': ('{count} les klaar voor vandaag', 'Alle {count} lessen klaar voor vandaag'),
+ 'Saved for {count}, but failed for: {names}': ('Opgeslagen voor {count}, maar mislukt voor: {names}', 'Opgeslagen voor {count}, maar mislukt voor: {names}'),
+ '{count} assess.': ('{count} toets', '{count} toetsen'),
+ '{count} class remaining · {done} done': ('Nog {count} les · {done} klaar', 'Nog {count} lessen · {done} klaar'),
+ '{count} class today': ('{count} les vandaag', '{count} lessen vandaag'),
+ '{count} due': ('{count} in te leveren', '{count} in te leveren'),
+ '{count} item': ('{count} item', '{count} items'),
+ '{count} more class after this · {total} today': ('Nog {count} les hierna · {total} vandaag', 'Nog {count} lessen hierna · {total} vandaag')}
 
 EXTRA = {'Present - Late': 'Aanwezig - te laat', 'Present - Offsite': 'Aanwezig - buiten school',
          'Formative': 'Formatief', 'Summative': 'Summatief', 'Not Classified': 'Niet ingedeeld'}
 
 # Gibbon core strings the app uses that Gibbon's nl_NL file leaves untranslated.
-GAPS = {
-'Exclude from coverage?': 'Uitsluiten van vervanging?',
-'Impersonate User': 'Inloggen als gebruiker',
-'Layers': 'Lagen',
-'Not Reportable': 'Niet op rapport',
-'There are no lessons for this class.': 'Er zijn geen lessen voor dit vak.',
-'There are no lessons on this date.': 'Er zijn geen lessen op deze datum.',
-'This student has one or more {level} risk medical conditions.': 'Deze student heeft een of meer medische aandoeningen met risico {level}.',
-'Your active session will be switched to the selected user.': 'Je actieve sessie wordt overgezet naar de gekozen gebruiker.',
-}
+GAPS = {'Exclude from coverage?': 'Uitsluiten van vervanging?',
+ 'Impersonate User': 'Inloggen als gebruiker',
+ 'Layers': 'Lagen',
+ 'Not Reportable': 'Niet op rapport',
+ 'Teacher': 'Docent',
+ 'There are no lessons for this class.': 'Er zijn geen lessen voor deze lesgroep.',
+ 'There are no lessons on this date.': 'Er zijn geen lessen op deze datum.',
+ 'This student has one or more {level} risk medical conditions.': 'Deze leerling heeft een of meer medische aandoeningen met risico {level}.',
+ 'Your active session will be switched to the selected user.': 'Je actieve sessie wordt overgezet naar de gekozen gebruiker.'}
 
 # Corrections to Gibbon's nl_NL, for the app only (more in nl_NL_review.py).
-OVERRIDES = {
-'Tutor': 'Mentor',          # Gibbon: 'Leraar' (= teacher)
-'Term': 'Periode',          # Gibbon: 'Termijn' (= deadline, instalment)
-}
+OVERRIDES = {}
