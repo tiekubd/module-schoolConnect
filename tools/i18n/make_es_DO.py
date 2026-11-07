@@ -70,7 +70,8 @@ GAPS = {k: lab(k, MX.GAPS[k]) for k in [
     'Your active session will be switched to the selected user.']}
 GAPS['Under Enrolled'] = 'Bajo cupo'
 
-# Corrections to Gibbon's es_DO wording, for the app only.
+# Corrections to Gibbon's es_DO wording now live in es_DO_final.py (7 Nov 2026 review); es_DO_2nd.py
+# clears this block after generation, and split_final.py es_DO must run after this script.
 OVERRIDES = {
     'Teacher': 'Profesor/a',                                  # Gibbon has it empty (only 'Profesores')
     'Due at {time} on {date}': 'Vence a las {time} del {date}',  # Gibbon: 'Vencimiento en {time} en {date}'
