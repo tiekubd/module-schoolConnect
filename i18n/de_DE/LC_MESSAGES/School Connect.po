@@ -131,7 +131,7 @@ msgstr "Profile der Mitarbeiter/innen durchsuchen"
 #: lib/screens/attendance_menu_screen.dart:71
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
-msgstr "Nach Klasse"
+msgstr "Nach Lerngruppe"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -171,15 +171,15 @@ msgstr "Name in chinesischen oder anderen Schriftzeichen"
 
 #: lib/screens/planner_list_screen.dart:189
 msgid "Choose a class above"
-msgstr "Wählen Sie oben eine Klasse"
+msgstr "Wählen Sie oben eine Lerngruppe"
 
 #: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
-msgstr "Beliebige Stammgruppe wählen"
+msgstr "Beliebige Klasse wählen"
 
 #: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
-msgstr "Eine Ihrer Klassen wählen"
+msgstr "Eine Ihrer Lerngruppen wählen"
 
 #: lib/screens/log_behaviour_screen.dart:161
 msgid "Choose at least one student first"
@@ -187,19 +187,19 @@ msgstr "Wählen Sie zuerst mindestens eine/n Schüler/in"
 
 #: lib/screens/attendance_menu_screen.dart:84
 msgid "Choose one of your Form Groups"
-msgstr "Eine Ihrer Stammgruppen wählen"
+msgstr "Eine Ihrer Klassen wählen"
 
 #: lib/screens/student_attendance_screen.dart:205
 msgid "Class Absences"
-msgstr "Fehlzeiten in der Klasse"
+msgstr "Fehlzeiten im Unterricht"
 
 #: lib/screens/person_enrolment_screen.dart:97
 msgid "Class Enrolments"
-msgstr "Klasseneinschreibungen"
+msgstr "Einschreibungen in Lerngruppen"
 
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
-msgstr "Klassenliste"
+msgstr "Lerngruppenliste"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -290,7 +290,7 @@ msgstr "Benutzername konnte nicht erzeugt werden"
 
 #: lib/screens/form_groups_screen.dart:41
 msgid "Could not load Form Groups"
-msgstr "Stammgruppen konnten nicht geladen werden"
+msgstr "Klassen konnten nicht geladen werden"
 
 #: lib/screens/parent_dashboard_screen.dart:386
 msgid "Could not load activities"
@@ -306,7 +306,7 @@ msgstr "Kinder konnten nicht geladen werden"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:50
 msgid "Could not load classes"
-msgstr "Klassen konnten nicht geladen werden"
+msgstr "Lerngruppen konnten nicht geladen werden"
 
 #: lib/screens/course_detail_screen.dart:57
 msgid "Could not load course"
@@ -620,7 +620,7 @@ msgstr[1] "Tage anwesend"
 
 #: lib/screens/course_detail_screen.dart:124
 msgid "Delete Class"
-msgstr "Klasse löschen"
+msgstr "Lerngruppe löschen"
 
 #: lib/screens/course_detail_screen.dart:74
 msgid "Delete Course"
@@ -692,7 +692,7 @@ msgstr "Vorname wie im Ausweis"
 #: lib/screens/student_enrolment_edit_screen.dart:225
 #: lib/screens/user_edit_screen.dart:694
 msgid "Form Group *"
-msgstr "Stammgruppe *"
+msgstr "Klasse *"
 
 #: lib/screens/data_family_edit_screen.dart:190
 msgid "Formal name to address parents with"
@@ -888,7 +888,7 @@ msgstr "Muss eindeutig sein, falls angegeben"
 #: lib/screens/dashboard_screen.dart:804
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
-msgstr "Meine Stammgruppen"
+msgstr "Meine Klassen"
 
 #: lib/screens/course_detail_screen.dart:298
 #: lib/screens/course_manage_list_screen.dart:232
@@ -897,7 +897,7 @@ msgstr "Name und Kurzname sind erforderlich"
 
 #: lib/screens/form_groups_screen.dart:58
 msgid "No Form Groups found"
-msgstr "Keine Stammgruppen gefunden"
+msgstr "Keine Klassen gefunden"
 
 #: lib/screens/course_manage_list_screen.dart:143
 msgid "No Learning Area"
@@ -940,7 +940,7 @@ msgstr "Kein Unterricht"
 #: lib/screens/courses_screen.dart:172
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
-msgstr "Keine Klassen gefunden"
+msgstr "Keine Lerngruppen gefunden"
 
 #: lib/screens/facility_timetable_screen.dart:204
 msgid "No classes in this room today"
@@ -956,7 +956,7 @@ msgstr "Heute kein Unterricht geplant"
 
 #: lib/screens/course_detail_screen.dart:185
 msgid "No classes yet"
-msgstr "Noch keine Klassen"
+msgstr "Noch keine Lerngruppen"
 
 #: lib/screens/course_manage_list_screen.dart:133
 msgid "No courses found"
@@ -1100,7 +1100,7 @@ msgstr "Derzeit nicht eingeschrieben"
 
 #: lib/screens/person_enrolment_screen.dart:112
 msgid "Not enrolled in any classes yet"
-msgstr "Noch in keiner Klasse eingeschrieben"
+msgstr "Noch in keiner Lerngruppe eingeschrieben"
 
 #: lib/screens/about_screen.dart:78
 msgid "Not reported: update the School Connect module"
@@ -1189,7 +1189,7 @@ msgstr "Endgültig löschen"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_detail_screen.dart:75
 msgid "Permanently delete \"{name}\" and all of its classes?"
-msgstr "„{name}“ und alle zugehörigen Klassen endgültig löschen?"
+msgstr "„{name}“ und alle zugehörigen Lerngruppen endgültig löschen?"
 
 #: lib/screens/about_screen.dart:257
 msgid "Permissions"
@@ -1218,11 +1218,11 @@ msgstr "Bitte wählen Sie eine Art"
 #: lib/screens/student_enrolment_edit_screen.dart:134
 #: lib/screens/user_edit_screen.dart:393
 msgid "Please select a Year Group and Form Group"
-msgstr "Bitte wählen Sie Jahrgangsstufe und Stammgruppe"
+msgstr "Bitte wählen Sie Jahrgangsstufe und Klasse"
 
 #: lib/screens/person_enrolment_screen.dart:200
 msgid "Please select a class and a role"
-msgstr "Bitte wählen Sie eine Klasse und eine Rolle"
+msgstr "Bitte wählen Sie eine Lerngruppe und eine Rolle"
 
 #: lib/screens/staff_edit_screen.dart:168
 msgid "Please select a person"
@@ -1296,7 +1296,7 @@ msgstr "Kind entfernen"
 
 #: lib/screens/person_enrolment_screen.dart:74
 msgid "Remove Class"
-msgstr "Klasse entfernen"
+msgstr "Lerngruppe entfernen"
 
 #: lib/screens/student_enrolment_list_screen.dart:85
 msgid "Remove Enrolment"
@@ -1313,7 +1313,7 @@ msgstr "Einschreibung in {class} entfernen?"
 
 #: lib/screens/course_class_roster_screen.dart:74
 msgid "Remove from Class"
-msgstr "Aus der Klasse entfernen"
+msgstr "Aus der Lerngruppe entfernen"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/staff_manage_list_screen.dart:89
@@ -1323,7 +1323,7 @@ msgstr "{name} aus den Mitarbeiter/innen entfernen?"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_class_roster_screen.dart:75
 msgid "Remove {name} from this class?"
-msgstr "{name} aus dieser Klasse entfernen?"
+msgstr "{name} aus dieser Lerngruppe entfernen?"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/family_detail_screen.dart:128
@@ -1407,7 +1407,7 @@ msgstr "Nach Kursname suchen …"
 #: lib/screens/course_enrolment_by_class_screen.dart:76
 #: lib/screens/person_enrolment_screen.dart:257
 msgid "Search by course or class name..."
-msgstr "Nach Kurs- oder Klassenname suchen …"
+msgstr "Nach Kurs- oder Lerngruppenname suchen …"
 
 #: lib/screens/family_list_screen.dart:99
 msgid "Search by family name..."
@@ -1433,7 +1433,7 @@ msgstr "Nach Name, Benutzername, E-Mail, Schülernummer suchen …"
 
 #: lib/screens/courses_screen.dart:109
 msgid "Search classes..."
-msgstr "Klassen suchen …"
+msgstr "Lerngruppen suchen …"
 
 #: lib/screens/facility_list_screen.dart:139
 msgid "Search rooms..."
@@ -1511,7 +1511,7 @@ msgstr "Schuljahr wechseln"
 
 #: lib/screens/attendance_menu_screen.dart:62
 msgid "Take attendance for this class"
-msgstr "Anwesenheit für diese Klasse erfassen"
+msgstr "Anwesenheit für diese Lerngruppe erfassen"
 
 #: lib/screens/class_detail_screen.dart:194
 #: lib/screens/form_group_detail_screen.dart:166
@@ -1562,8 +1562,8 @@ msgid ""
 "This also removes all enrolment and timetable data for those classes. This "
 "cannot be undone."
 msgstr ""
-"Dabei werden auch alle Einschreibungs- und Stundenplandaten dieser Klassen "
-"entfernt. Das kann nicht rückgängig gemacht werden."
+"Dabei werden auch alle Einschreibungs- und Stundenplandaten dieser "
+"Lerngruppen entfernt. Das kann nicht rückgängig gemacht werden."
 
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
@@ -1575,8 +1575,8 @@ msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr ""
-"Diese Klasse hat am {date} keinen Unterricht. Sie können die Anwesenheit bei"
-" Bedarf trotzdem speichern."
+"Diese Lerngruppe hat am {date} keinen Unterricht. Sie können die Anwesenheit"
+" bei Bedarf trotzdem speichern."
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1598,7 +1598,7 @@ msgid ""
 "This removes all enrolment and timetable data for this class. This cannot be"
 " undone."
 msgstr ""
-"Dabei werden alle Einschreibungs- und Stundenplandaten dieser Klasse "
+"Dabei werden alle Einschreibungs- und Stundenplandaten dieser Lerngruppe "
 "entfernt. Das kann nicht rückgängig gemacht werden."
 
 #: lib/screens/dashboard_screen.dart:720
@@ -1628,7 +1628,7 @@ msgstr "Fehlersuche durch Ansicht der App als anderer Benutzer"
 #: lib/screens/student_personal_screen.dart:119
 #: lib/screens/student_profile_screen.dart:179
 msgid "Tutor 2"
-msgstr "Tutor 2"
+msgstr "Klassenlehrer/in 2"
 
 #: lib/screens/staff_edit_screen.dart:260
 msgid "Type *"
@@ -1726,11 +1726,11 @@ msgstr "Stundenplan ansehen"
 
 #: lib/screens/dashboard_screen.dart:806
 msgid "View and manage Form Groups"
-msgstr "Stammgruppen ansehen und verwalten"
+msgstr "Klassen ansehen und verwalten"
 
 #: lib/screens/class_detail_screen.dart:240
 msgid "View class grades"
-msgstr "Noten der Klasse ansehen"
+msgstr "Noten der Lerngruppe ansehen"
 
 #: lib/screens/admin_screen.dart:53
 msgid "View families, contacts, and children"
@@ -1738,11 +1738,11 @@ msgstr "Familien, Kontakte und Kinder ansehen"
 
 #: lib/screens/class_detail_screen.dart:269
 msgid "View lesson plans for this class"
-msgstr "Unterrichtspläne dieser Klasse ansehen"
+msgstr "Unterrichtspläne dieser Lerngruppe ansehen"
 
 #: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
-msgstr "Schüler/innen dieser Klasse ansehen"
+msgstr "Schüler/innen dieser Lerngruppe ansehen"
 
 #: lib/screens/dashboard_screen.dart:817
 msgid "View your grades"
@@ -1784,8 +1784,8 @@ msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
 msgstr ""
-"Die Zuordnung zu Jahrgangsstufen/Stammgruppen wird hier nicht festgelegt — "
-"bis sie auf der Website ergänzt ist, gilt dies allgemein."
+"Die Zuordnung zu Jahrgangsstufen/Klassen wird hier nicht festgelegt — bis "
+"sie auf der Website ergänzt ist, gilt dies allgemein."
 
 #: lib/screens/impersonation_banner.dart:75
 msgid "You are back in your own account."
@@ -1918,8 +1918,8 @@ msgstr[1] "{count} Leistungsnachweise"
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
-msgstr[0] "{count} Klasse"
-msgstr[1] "{count} Klassen"
+msgstr[0] "{count} Lerngruppe"
+msgstr[1] "{count} Lerngruppen"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:994
@@ -2071,6 +2071,16 @@ msgstr "— Keine —"
 
 # Database label the app shows (default attendance code or calendar legend);
 # not in Gibbon's files
+msgid "Formative"
+msgstr "Formativ"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "Nicht klassifiziert"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
 msgid "Present - Late"
 msgstr "Anwesend - Verspätet"
 
@@ -2081,18 +2091,8 @@ msgstr "Anwesend - Außer Haus"
 
 # Database label the app shows (default attendance code or calendar legend);
 # not in Gibbon's files
-msgid "Formative"
-msgstr "Formativ"
-
-# Database label the app shows (default attendance code or calendar legend);
-# not in Gibbon's files
 msgid "Summative"
 msgstr "Summativ"
-
-# Database label the app shows (default attendance code or calendar legend);
-# not in Gibbon's files
-msgid "Not Classified"
-msgstr "Nicht klassifiziert"
 
 # Gibbon core string: missing from its file for this language
 msgid "Apply"
@@ -2100,7 +2100,7 @@ msgstr "Anwenden"
 
 # Gibbon core string: missing from its file for this language
 msgid "By Form Group"
-msgstr "Nach Stammgruppe"
+msgstr "Nach Klasse"
 
 # Gibbon core string: missing from its file for this language
 msgid "Cancel Activities?"
@@ -2108,15 +2108,19 @@ msgstr "Aktivitäten absagen?"
 
 # Gibbon core string: missing from its file for this language
 msgid "Class should not run below this number of students."
-msgstr "Die Klasse sollte nicht mit weniger Schüler/innen stattfinden."
+msgstr "Die Lerngruppe sollte nicht mit weniger Schüler/innen stattfinden."
 
 # Gibbon core string: missing from its file for this language
 msgid "Due Soon"
 msgstr "Bald fällig"
 
 # Gibbon core string: missing from its file for this language
+msgid "Due at {time} on {date}"
+msgstr "Abgabe am {date} um {time}"
+
+# Gibbon core string: missing from its file for this language
 msgid "Due on {date} at {time}."
-msgstr "Fällig am {date} um {time}."
+msgstr "Abgabe am {date} um {time}."
 
 # Gibbon core string: missing from its file for this language
 msgid "Enrolment should not exceed this number of students."
@@ -2132,7 +2136,7 @@ msgstr "Erste-Hilfe-Qualifikation"
 
 # Gibbon core string: missing from its file for this language
 msgid "Homework + Due Dates"
-msgstr "Hausaufgaben + Fälligkeiten"
+msgstr "Hausaufgaben und Abgabetermine"
 
 # Gibbon core string: missing from its file for this language
 msgid "Impersonate User"
@@ -2164,11 +2168,11 @@ msgstr "Minimale Einschreibung"
 
 # Gibbon core string: missing from its file for this language
 msgid "My Form Group"
-msgstr "Meine Stammgruppe"
+msgstr "Meine Klasse"
 
 # Gibbon core string: missing from its file for this language
 msgid "No upcoming due dates!"
-msgstr "Keine anstehenden Fälligkeiten!"
+msgstr "Keine anstehenden Abgabetermine!"
 
 # Gibbon core string: missing from its file for this language
 msgid "Not Reportable"
@@ -2191,12 +2195,16 @@ msgid ""
 "Should this student be automatically enrolled in courses for their Form "
 "Group?"
 msgstr ""
-"Soll diese/r Schüler/in automatisch in die Kurse der eigenen Stammgruppe "
+"Soll diese/r Schüler/in automatisch in die Kurse der eigenen Klasse "
 "eingeschrieben werden?"
 
 # Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "Lehrer/in"
+
+# Gibbon core string: missing from its file for this language
 msgid "There are no lessons for this class."
-msgstr "Für diese Klasse gibt es keine Stunden."
+msgstr "Für diese Lerngruppe gibt es keine Stunden."
 
 # Gibbon core string: missing from its file for this language
 msgid "There are no lessons on this date."
@@ -2219,13 +2227,13 @@ msgstr "Mitarbeiterdaten aktualisieren"
 msgid "Your active session will be switched to the selected user."
 msgstr "Ihre aktive Sitzung wird zur ausgewählten Person gewechselt."
 
-# Gibbon core string: missing from its file for this language
-msgid "Due at {time} on {date}"
-msgstr "Fällig um {time} am {date}"
-
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Adult"
 msgstr "Erwachsenen hinzufügen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "Lerngruppe hinzufügen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Medical Condition"
@@ -2240,6 +2248,18 @@ msgid "Address Name"
 msgstr "Adressname"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "Alle Mitarbeiter/innen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Students"
+msgstr "Alle Schüler/innen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "Unterrichtsassistenz"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Auto-Enrol Courses?"
 msgstr "Automatisch in Kurse einschreiben?"
 
@@ -2252,8 +2272,24 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "Wählen Sie eine Lerngruppe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose Students"
+msgstr "Schüler/innen auswählen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "Lerngruppe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Class Of"
 msgstr "Abschlussjahrgang"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "Lerngruppen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Clear"
@@ -2278,6 +2314,10 @@ msgstr "Firmenname"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Company Phone"
 msgstr "Firmentelefon"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Complete"
+msgstr "Abgeschlossen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Condition"
@@ -2344,12 +2384,32 @@ msgid "County, State, District"
 msgstr "Kreis, Bundesland, Bezirk"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "Kurseinschreibung nach Lerngruppe"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "Gemeinschaftsbewertung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data Updater"
 msgstr "Datenaktualisierung"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "Im vollständigen Schülerprofil angezeigte Daten"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Date of Birth"
 msgstr "Geburtsdatum"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Department"
+msgstr "Fachbereich"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Departments"
+msgstr "Fachbereiche"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Do not contact by SMS."
@@ -2362,6 +2422,14 @@ msgstr "Nicht per E-Mail kontaktieren."
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Do not contact by phone."
 msgstr "Nicht per Telefon kontaktieren."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "Abgabedatum"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "Lerngruppe bearbeiten"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Enrolment"
@@ -2396,12 +2464,20 @@ msgid "First name as shown in ID documents."
 msgstr "Vorname wie im Ausweisdokument."
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "Nachverfolgung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Force Reset Password?"
 msgstr "Zurücksetzen des Passworts erzwingen?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Form Group"
-msgstr "Stammgruppe"
+msgstr "Klasse"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full"
+msgstr "Aktiv"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Full name as shown in ID documents."
@@ -2416,13 +2492,17 @@ msgid "Grouping Priority"
 msgstr "Gruppierungspriorität"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "Jahrgangsstufenleitung"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Higher priority substitutes appear first when booking coverage."
 msgstr ""
 "Vertretungen mit höherer Priorität werden bei der Buchung zuerst angezeigt."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home"
-msgstr "Startseite"
+msgstr "Privat"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home Address (District)"
@@ -2449,8 +2529,30 @@ msgid "House"
 msgstr "Haus"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"If the specified company is not paying all fees, which categories are they "
+"paying?"
+msgstr ""
+"Wenn die angegebene Firma nicht alle Gebühren zahlt, welche Kategorien zahlt"
+" sie?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Include In Curriculum Map"
 msgstr "In Lehrplanübersicht aufnehmen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr ""
+"Alle Mitarbeiter/innen einbeziehen, unabhängig von Status, Startdatum, "
+"Enddatum usw."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr ""
+"Alle Schüler/innen einbeziehen, unabhängig von Status und aktueller "
+"Einschreibung. Einige Daten werden möglicherweise nicht angezeigt."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Job Title"
@@ -2482,7 +2584,7 @@ msgstr "Verwaltung"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Courses & Classes"
-msgstr "Kurse und Klassen verwalten"
+msgstr "Kurse und Lerngruppen verwalten"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Staff"
@@ -2503,6 +2605,10 @@ msgstr "Details zur Medikation"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Must be unique for this course."
 msgstr "Muss für diesen Kurs eindeutig sein."
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "Meine Lerngruppen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "My Data Updates"
@@ -2531,6 +2637,14 @@ msgstr "Notizen"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Parent Dashboard"
 msgstr "Elternübersicht"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "Teilweise anwesend"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "Persönliche Daten"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Priority"
@@ -2565,12 +2679,24 @@ msgid "Receive postage mail from school?"
 msgstr "Post von der Schule erhalten?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "Zeugnis"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable"
 msgstr "Zeugnisrelevant"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Reportable?"
 msgstr "Zeugnisrelevant?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "Zeugnisse"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reset User Password"
+msgstr "Benutzerpasswort zurücksetzen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Response"
@@ -2591,6 +2717,12 @@ msgstr "Schulschließung"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "School History"
 msgstr "Schullaufbahn"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr ""
+"Sollen alle Posten der angegebenen Firma in Rechnung gestellt werden oder "
+"nur einige?"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Sort By"
@@ -2614,15 +2746,23 @@ msgstr "Von Schüler/innen eingetragene Hausaufgaben"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Support"
-msgstr "Unterstützung"
+msgstr "Nicht-pädagogisch"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "Nicht-pädagogisches Personal"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "System login name."
 msgstr "Anmeldename im System."
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "Lehrkräfte"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Teaching"
-msgstr "Unterricht"
+msgstr "Pädagogisch"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "This lesson has not had any content assigned to it."
@@ -2633,12 +2773,24 @@ msgid "Timing Change"
 msgstr "Zeitänderung"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "Anrede"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Total"
 msgstr "Gesamt"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Track Attendance?"
 msgstr "Anwesenheit erfassen?"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "Klassenlehrer/in"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "Wohnung, Gebäude, Straße"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Up to date"
@@ -2665,12 +2817,28 @@ msgid "View"
 msgstr "Ansehen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "Zeugnisse ansehen"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Website"
+msgstr "Website"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Work"
+msgstr "Dienstlich"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
 "You have multiple roles within the system. Use the list below to switch "
 "role:"
 msgstr ""
 "Sie haben mehrere Rollen im System. Verwenden Sie die folgende Liste, um die"
 " Rolle zu wechseln:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "students"
+msgstr "Schüler/innen"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left"
