@@ -121,12 +121,12 @@ msgstr[0] "已為 {count} 名學生儲存行為紀錄！"
 
 #: lib/screens/dashboard_screen.dart:795
 msgid "Browse staff profiles"
-msgstr "瀏覽員工資料"
+msgstr "瀏覽教職員檔案"
 
 #: lib/screens/attendance_menu_screen.dart:71
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
-msgstr "按班級"
+msgstr "按科目班"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -148,7 +148,7 @@ msgstr "取消課堂？"
 
 #: lib/screens/special_days_screen.dart:527
 msgid "Cancel Staff Duty?"
-msgstr "取消員工當值？"
+msgstr "取消教職員當值？"
 
 #: lib/screens/data_medical_edit_screen.dart:250
 msgid "Cancel new condition"
@@ -164,7 +164,7 @@ msgstr "中文或其他文字的姓名"
 
 #: lib/screens/planner_list_screen.dart:189
 msgid "Choose a class above"
-msgstr "請在上方選擇班級"
+msgstr "請在上方選擇科目班"
 
 #: lib/screens/attendance_menu_screen.dart:83
 msgid "Choose any Form Group"
@@ -172,7 +172,7 @@ msgstr "選擇任何班別"
 
 #: lib/screens/attendance_menu_screen.dart:72
 msgid "Choose any of your classes"
-msgstr "選擇你的任何班級"
+msgstr "選擇你的任何科目班"
 
 #: lib/screens/log_behaviour_screen.dart:161
 msgid "Choose at least one student first"
@@ -184,15 +184,15 @@ msgstr "選擇你的其中一個班別"
 
 #: lib/screens/student_attendance_screen.dart:205
 msgid "Class Absences"
-msgstr "班級缺席"
+msgstr "課堂缺席"
 
 #: lib/screens/person_enrolment_screen.dart:97
 msgid "Class Enrolments"
-msgstr "班級報名"
+msgstr "科目班報名"
 
 #: lib/screens/course_class_roster_screen.dart:97
 msgid "Class Roster"
-msgstr "班級名單"
+msgstr "科目班名單"
 
 #: lib/screens/about_screen.dart:89
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
@@ -293,7 +293,7 @@ msgstr "無法載入子女"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:50
 msgid "Could not load classes"
-msgstr "無法載入班級"
+msgstr "無法載入科目班"
 
 #: lib/screens/course_detail_screen.dart:57
 msgid "Could not load course"
@@ -392,7 +392,7 @@ msgstr "無法載入課堂"
 
 #: lib/screens/class_markbook_screen.dart:50
 msgid "Could not load markbook"
-msgstr "無法載入成績表"
+msgstr "無法載入成績冊"
 
 #: lib/screens/master_timetable_screen.dart:103
 msgid "Could not load master timetable"
@@ -465,11 +465,11 @@ msgstr "無法載入特別日子"
 #: lib/screens/staff_directory_screen.dart:61
 #: lib/screens/staff_manage_list_screen.dart:57
 msgid "Could not load staff"
-msgstr "無法載入員工"
+msgstr "無法載入教職員"
 
 #: lib/screens/data_staff_edit_screen.dart:92
 msgid "Could not load staff data"
-msgstr "無法載入員工資料"
+msgstr "無法載入教職員資料"
 
 #: lib/screens/form_group_detail_screen.dart:89
 #: lib/screens/student_search_screen.dart:99
@@ -578,7 +578,7 @@ msgstr "代課優先次序"
 
 #: lib/screens/user_edit_screen.dart:660
 msgid "Create linked staff record"
-msgstr "建立相連的員工紀錄"
+msgstr "建立相連的教職員紀錄"
 
 #: lib/screens/user_edit_screen.dart:685
 msgid "Create linked student enrolment"
@@ -605,7 +605,7 @@ msgstr[0] "出席日數"
 
 #: lib/screens/course_detail_screen.dart:124
 msgid "Delete Class"
-msgstr "刪除班級"
+msgstr "刪除科目班"
 
 #: lib/screens/course_detail_screen.dart:74
 msgid "Delete Course"
@@ -712,7 +712,7 @@ msgstr "成績"
 
 #: lib/screens/staff_edit_screen.dart:292
 msgid "Higher numbers move staff up the order within their grouping."
-msgstr "數字越大，員工在所屬組別中的排序越前。"
+msgstr "數字越大，教職員在所屬組別中的排序越前。"
 
 #: lib/screens/student_enrolment_list_screen.dart:159
 msgid ""
@@ -813,7 +813,7 @@ msgstr "授權檢查"
 
 #: lib/screens/admin_screen.dart:67
 msgid "Link staff-role people to their staff record"
-msgstr "將員工角色的人員連結至其員工紀錄"
+msgstr "將教職員角色的人員連結至其教職員紀錄"
 
 #: lib/screens/dashboard_screen.dart:699
 #: lib/screens/log_behaviour_screen.dart:239
@@ -906,7 +906,7 @@ msgstr "沒有課"
 #: lib/screens/courses_screen.dart:172
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
-msgstr "找不到班級"
+msgstr "找不到科目班"
 
 #: lib/screens/facility_timetable_screen.dart:204
 msgid "No classes in this room today"
@@ -922,7 +922,7 @@ msgstr "今天沒有編排課堂"
 
 #: lib/screens/course_detail_screen.dart:185
 msgid "No classes yet"
-msgstr "暫時沒有班級"
+msgstr "暫時沒有科目班"
 
 #: lib/screens/course_manage_list_screen.dart:133
 msgid "No courses found"
@@ -976,7 +976,7 @@ msgstr "沒有可顯示的發票"
 
 #: lib/screens/class_markbook_screen.dart:77
 msgid "No markbook entries yet"
-msgstr "成績表暫時沒有紀錄"
+msgstr "成績冊暫時沒有紀錄"
 
 #: lib/screens/family_person_picker.dart:93
 #: lib/screens/impersonate_user_screen.dart:242
@@ -1014,7 +1014,7 @@ msgstr "本週沒有上課日"
 #: lib/screens/staff_directory_screen.dart:215
 #: lib/screens/staff_manage_list_screen.dart:194
 msgid "No staff found"
-msgstr "找不到員工"
+msgstr "找不到教職員"
 
 #: lib/screens/student_enrolment_list_screen.dart:170
 msgid "No students enrolled this year"
@@ -1065,7 +1065,7 @@ msgstr "目前未有報名"
 
 #: lib/screens/person_enrolment_screen.dart:112
 msgid "Not enrolled in any classes yet"
-msgstr "尚未報名任何班級"
+msgstr "尚未報名任何科目班"
 
 #: lib/screens/about_screen.dart:78
 msgid "Not reported: update the School Connect module"
@@ -1102,7 +1102,7 @@ msgstr "學校伺服器每天一次只向 High Point 提供其網址，以確認
 
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
-msgstr "只包括有員工角色但尚未成為員工的人員。"
+msgstr "只包括有教職員角色但尚未成為教職員的人員。"
 
 #: lib/screens/student_enrolment_edit_screen.dart:207
 msgid "Only includes students not enrolled in this school year."
@@ -1144,7 +1144,7 @@ msgstr "永久刪除"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_detail_screen.dart:75
 msgid "Permanently delete \"{name}\" and all of its classes?"
-msgstr "永久刪除「{name}」及其所有班級？"
+msgstr "永久刪除「{name}」及其所有科目班？"
 
 #: lib/screens/about_screen.dart:257
 msgid "Permissions"
@@ -1156,7 +1156,7 @@ msgstr "人員 *"
 
 #: lib/screens/user_edit_screen.dart:389
 msgid "Please enter a Staff Type"
-msgstr "請輸入員工類型"
+msgstr "請輸入教職員類型"
 
 #: lib/screens/user_edit_screen.dart:379
 msgid ""
@@ -1175,7 +1175,7 @@ msgstr "請選擇年級及班別"
 
 #: lib/screens/person_enrolment_screen.dart:200
 msgid "Please select a class and a role"
-msgstr "請選擇班級及角色"
+msgstr "請選擇科目班及角色"
 
 #: lib/screens/staff_edit_screen.dart:168
 msgid "Please select a person"
@@ -1247,7 +1247,7 @@ msgstr "移除子女"
 
 #: lib/screens/person_enrolment_screen.dart:74
 msgid "Remove Class"
-msgstr "移除班級"
+msgstr "移除科目班"
 
 #: lib/screens/student_enrolment_list_screen.dart:85
 msgid "Remove Enrolment"
@@ -1255,7 +1255,7 @@ msgstr "移除報名"
 
 #: lib/screens/staff_manage_list_screen.dart:88
 msgid "Remove Staff Record"
-msgstr "移除員工紀錄"
+msgstr "移除教職員紀錄"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/person_enrolment_screen.dart:75
@@ -1264,17 +1264,17 @@ msgstr "移除 {class} 的報名？"
 
 #: lib/screens/course_class_roster_screen.dart:74
 msgid "Remove from Class"
-msgstr "從班級移除"
+msgstr "從科目班移除"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/staff_manage_list_screen.dart:89
 msgid "Remove {name} from staff?"
-msgstr "將 {name} 從員工中移除？"
+msgstr "將 {name} 從教職員中移除？"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_class_roster_screen.dart:75
 msgid "Remove {name} from this class?"
-msgstr "將 {name} 從此班級移除？"
+msgstr "將 {name} 從此科目班移除？"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/family_detail_screen.dart:128
@@ -1349,7 +1349,7 @@ msgstr "按課程名稱搜尋…"
 #: lib/screens/course_enrolment_by_class_screen.dart:76
 #: lib/screens/person_enrolment_screen.dart:257
 msgid "Search by course or class name..."
-msgstr "按課程或班級名稱搜尋…"
+msgstr "按課程或科目班名稱搜尋…"
 
 #: lib/screens/family_list_screen.dart:99
 msgid "Search by family name..."
@@ -1375,7 +1375,7 @@ msgstr "按姓名、用戶名稱、電郵、學生編號搜尋…"
 
 #: lib/screens/courses_screen.dart:109
 msgid "Search classes..."
-msgstr "搜尋班級…"
+msgstr "搜尋科目班…"
 
 #: lib/screens/facility_list_screen.dart:139
 msgid "Search rooms..."
@@ -1406,15 +1406,15 @@ msgstr "登出會刪除登入憑證、你的用戶名稱及已下載的成績報
 
 #: lib/screens/staff_directory_screen.dart:350
 msgid "Staff Profile"
-msgstr "員工資料"
+msgstr "教職員檔案"
 
 #: lib/screens/user_edit_screen.dart:665
 msgid "Staff Type *"
-msgstr "員工類型 *"
+msgstr "教職員類型 *"
 
 #: lib/screens/staff_manage_list_screen.dart:126
 msgid "Staff record created"
-msgstr "已建立員工紀錄"
+msgstr "已建立教職員紀錄"
 
 #: lib/screens/student_enrolment_edit_screen.dart:207
 msgid "Student *"
@@ -1451,7 +1451,7 @@ msgstr "切換學年"
 
 #: lib/screens/attendance_menu_screen.dart:62
 msgid "Take attendance for this class"
-msgstr "為此班級點名"
+msgstr "為此科目班點名"
 
 #: lib/screens/class_detail_screen.dart:194
 #: lib/screens/form_group_detail_screen.dart:166
@@ -1498,7 +1498,7 @@ msgstr "這會影響時間表："
 msgid ""
 "This also removes all enrolment and timetable data for those classes. This "
 "cannot be undone."
-msgstr "這亦會刪除這些班級的所有報名及時間表資料。此操作無法復原。"
+msgstr "這亦會刪除這些科目班的所有報名及時間表資料。此操作無法復原。"
 
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
@@ -1509,7 +1509,7 @@ msgstr "此操作無法復原。"
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
-msgstr "此班級在 {date} 沒有編排課堂。如有需要，你仍可儲存出席紀錄。"
+msgstr "此科目班在 {date} 沒有編排課堂。如有需要，你仍可儲存出席紀錄。"
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1527,7 +1527,7 @@ msgstr "此選項讓管理員以系統中其他帳戶的身分登入，以作疑
 msgid ""
 "This removes all enrolment and timetable data for this class. This cannot be"
 " undone."
-msgstr "這會刪除此班級的所有報名及時間表資料。此操作無法復原。"
+msgstr "這會刪除此科目班的所有報名及時間表資料。此操作無法復原。"
 
 #: lib/screens/dashboard_screen.dart:720
 #: lib/screens/facility_list_screen.dart:118
@@ -1588,7 +1588,7 @@ msgstr "未使用"
 
 #: lib/screens/staff_edit_screen.dart:291
 msgid "Used to group staff in a staff directory."
-msgstr "用於在員工名錄中將員工分組。"
+msgstr "用於在教職員名錄中將教職員分組。"
 
 #: lib/screens/user_list_screen.dart:255
 msgid "User created successfully"
@@ -1655,7 +1655,7 @@ msgstr "查看及管理班別"
 
 #: lib/screens/class_detail_screen.dart:240
 msgid "View class grades"
-msgstr "查看班級成績"
+msgstr "查看科目班成績"
 
 #: lib/screens/admin_screen.dart:53
 msgid "View families, contacts, and children"
@@ -1663,11 +1663,11 @@ msgstr "查看家庭、聯絡人及子女"
 
 #: lib/screens/class_detail_screen.dart:269
 msgid "View lesson plans for this class"
-msgstr "查看此班級的課堂計劃"
+msgstr "查看此科目班的課堂計劃"
 
 #: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
-msgstr "查看此班級的學生"
+msgstr "查看此科目班的學生"
 
 #: lib/screens/dashboard_screen.dart:817
 msgid "View your grades"
@@ -1825,7 +1825,7 @@ msgstr[0] "{count} 項評估"
 #: lib/screens/master_timetable_screen.dart:278
 msgid "{count} class"
 msgid_plural "{count} classes"
-msgstr[0] "{count} 個班級"
+msgstr[0] "{count} 個科目班"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/dashboard_screen.dart:994
@@ -1906,7 +1906,7 @@ msgstr[0] "{count} 節"
 #: lib/screens/staff_manage_list_screen.dart:184
 msgid "{count} staff member"
 msgid_plural "{count} staff members"
-msgstr[0] "{count} 名員工"
+msgstr[0] "{count} 名教職員"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:189
@@ -2009,7 +2009,7 @@ msgstr "剔選此方格以新增病況"
 
 # Gibbon core string: missing from its file for this language
 msgid "Class should not run below this number of students."
-msgstr "班級人數不應少於此數目。"
+msgstr "科目班人數不應少於此數目。"
 
 # Gibbon core string: missing from its file for this language
 msgid "Clear"
@@ -2085,7 +2085,7 @@ msgstr "家庭語言"
 
 # Gibbon core string: missing from its file for this language
 msgid "Homework + Due Dates"
-msgstr "家庭作業 + 限期"
+msgstr "家庭作業及限期"
 
 # Gibbon core string: missing from its file for this language
 msgid "Impersonate User"
@@ -2157,7 +2157,7 @@ msgstr "家長主頁"
 
 # Gibbon core string: missing from its file for this language
 msgid "Partial"
-msgstr "部分"
+msgstr "部分出席"
 
 # Gibbon core string: missing from its file for this language
 msgid "Remove"
@@ -2179,15 +2179,19 @@ msgstr "是否自動為此學生報名其班別的課程？"
 
 # Gibbon core string: missing from its file for this language
 msgid "Staff Directory"
-msgstr "員工名錄"
+msgstr "教職員名錄"
 
 # Gibbon core string: missing from its file for this language
 msgid "System login name."
 msgstr "系統登入名稱。"
 
 # Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "老師"
+
+# Gibbon core string: missing from its file for this language
 msgid "There are no lessons for this class."
-msgstr "此班級沒有課堂。"
+msgstr "此科目班沒有課堂。"
 
 # Gibbon core string: missing from its file for this language
 msgid "There are no lessons on this date."
@@ -2223,7 +2227,7 @@ msgstr "需要更新"
 
 # Gibbon core string: missing from its file for this language
 msgid "Update Staff Data"
-msgstr "更新員工資料"
+msgstr "更新教職員資料"
 
 # Gibbon core string: missing from its file for this language
 msgid "View Reports"
@@ -2235,7 +2239,7 @@ msgstr "你目前的工作階段將切換至所選用戶。"
 
 # Gibbon core string: missing from its file for this language
 msgid "Tracking"
-msgstr "追蹤"
+msgstr "學習追蹤"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Access data on family's children?"
@@ -2255,7 +2259,7 @@ msgstr "新增子女"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Class"
-msgstr "新增班級"
+msgstr "新增科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Course"
@@ -2271,7 +2275,7 @@ msgstr "新增特別日子"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Staff"
-msgstr "新增員工"
+msgstr "新增教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Add Student Enrolment"
@@ -2286,12 +2290,24 @@ msgid "Admin"
 msgstr "系統管理"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admissions"
+msgstr "入學申請"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "After End Date"
+msgstr "結束日期後"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Learning Areas"
 msgstr "所有學習領域"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "All Roles"
 msgstr "所有角色"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All Staff"
+msgstr "所有教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Alternate Email"
@@ -2302,12 +2318,28 @@ msgid "Apply"
 msgstr "套用"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "助教"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attendance"
+msgstr "出席紀錄"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "個人簡介"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "CC Family?"
-msgstr "副本給家庭？"
+msgstr "副本送交家庭？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Can Login?"
-msgstr "可以登入？"
+msgstr "可登入？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Children"
+msgstr "子女"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Chinese or other character-based name."
@@ -2315,11 +2347,19 @@ msgstr "中文或其他文字的姓名。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Choose A Class"
-msgstr "選擇班級"
+msgstr "選擇科目班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Class Of"
 msgstr "畢業年份"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Clear Filters"
@@ -2378,8 +2418,16 @@ msgid "Contact 2 Relationship"
 msgstr "聯絡人 2 關係"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Email"
+msgstr "以電郵聯絡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact By Phone"
+msgstr "以電話聯絡"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact By SMS"
-msgstr "通過短訊聯絡"
+msgstr "以短訊聯絡"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Contact Information"
@@ -2390,20 +2438,36 @@ msgid "Contact Priority"
 msgstr "聯絡優先次序"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Controls what a user can do and see."
+msgstr "控制用戶可進行的操作及可查看的內容。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "原居地"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country of Birth"
+msgstr "出生地"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "County, State, District"
-msgstr "縣, 州, 地區"
+msgstr "州／省、縣、區"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Course Enrolment by Class"
-msgstr "按班級的課程報名"
+msgstr "按科目班的課程報名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Course Enrolment by Person"
 msgstr "按人士的課程報名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Crowd Assessment"
+msgstr "群體評估"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data Access?"
-msgstr "存取資料？"
+msgstr "可存取資料？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Data displayed in full Student Profile"
@@ -2414,24 +2478,60 @@ msgid "Description"
 msgstr "描述"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "描述詞"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Do not contact by SMS."
-msgstr "不要通過短訊聯絡。"
+msgstr "請勿以短訊聯絡。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by email."
+msgstr "請勿以電郵聯絡。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Do not contact by phone."
+msgstr "請勿以電話聯絡。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due Date"
+msgstr "限期"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Class"
-msgstr "編輯班級"
+msgstr "編輯科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Special Day"
 msgstr "編輯特別日子"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "編輯教職員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email"
+msgstr "電郵"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Email?"
+msgstr "電郵？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Emergency Contacts"
 msgstr "緊急聯絡人"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "僱主"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Employment"
 msgstr "就業"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "預計加入"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Family name as shown in ID documents."
@@ -2444,6 +2544,10 @@ msgstr "篩選"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Filters"
 msgstr "篩選條件"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Finance"
+msgstr "財務"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "First Aid Qualified?"
@@ -2462,6 +2566,10 @@ msgid "Force Reset Password?"
 msgstr "強制重設密碼？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "週五"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Full name as shown in ID documents."
 msgstr "身分證明文件上的全名。"
 
@@ -2476,6 +2584,10 @@ msgstr "名字"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Grouping Priority"
 msgstr "分組優先次序"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "住宅"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Home Address (District)"
@@ -2499,10 +2611,22 @@ msgid ""
 msgstr "如遇緊急情況，請先聯絡以下的成人家庭成員。如未能聯絡他們，請聯絡以下的緊急聯絡人。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr "包括所有教職員，不論狀態、開始日期、結束日期等。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
 "Include all students, regardless of status and current enrolment. Some data "
 "may not display."
 msgstr "包括所有學生，不論狀態及現時報名情況。部分資料可能不會顯示。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Individual Needs"
+msgstr "個別需要"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Initials"
+msgstr "姓名簡寫"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Invoice To"
@@ -2511,6 +2635,10 @@ msgstr "發票致"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Issue Date"
 msgstr "發出日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "職位"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Last Episode Treatment"
@@ -2538,7 +2666,7 @@ msgstr "郵寄？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Courses & Classes"
-msgstr "管理課程和班級"
+msgstr "管理課程和科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Special Days"
@@ -2546,11 +2674,19 @@ msgstr "管理特別日子"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Staff"
-msgstr "管理員工"
+msgstr "管理教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Users"
 msgstr "管理用戶"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "成績冊"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "病況"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Medication"
@@ -2563,6 +2699,18 @@ msgstr "訊息牆"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Messages"
 msgstr "訊息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Messenger"
+msgstr "訊息發送"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "週一"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Most common name, alias, nickname, etc."
+msgstr "最常用的名字、別名、綽號等。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Must be unique for this course."
@@ -2578,7 +2726,7 @@ msgstr "如有設定，必須是唯一的。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "My Classes"
-msgstr "我的班級"
+msgstr "我的科目班"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "N/A"
@@ -2605,8 +2753,16 @@ msgid "Number"
 msgstr "號碼"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "正式姓名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Order"
 msgstr "次序"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Paid"
+msgstr "已付款"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Pay Now"
@@ -2617,8 +2773,16 @@ msgid "Payment Details"
 msgstr "付款詳情"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "個人資料"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Positive"
 msgstr "正面"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "慣用名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Previous"
@@ -2639,6 +2803,10 @@ msgstr "不需要私隱設定或未設定。"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Privacy required:"
 msgstr "需要私隱設定："
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Qualifications"
+msgstr "學歷及資格"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Receipt To"
@@ -2669,6 +2837,10 @@ msgid "Reportable?"
 msgstr "列入成績報告？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "成績報告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Required"
 msgstr "必填"
 
@@ -2681,6 +2853,10 @@ msgid "Reset User Password"
 msgstr "重設用戶密碼"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "處理方法"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Roll Order"
 msgstr "學號"
 
@@ -2689,12 +2865,28 @@ msgid "SMS?"
 msgstr "短訊？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "週六"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Schedule"
+msgstr "日程"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "School Closed"
-msgstr "學校關閉"
+msgstr "停課"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "停課日"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "School History"
 msgstr "就學紀錄"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Selected"
+msgstr "已選"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Send Invoices To"
@@ -2705,12 +2897,20 @@ msgid "Should all items be billed to the specified company, or just some?"
 msgstr "所有項目都向指定公司收費，還是只收部分？"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "是否將帳單電郵副本發送給家庭？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Siblings"
 msgstr "兄弟姊妹"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Sort By"
 msgstr "排序方式"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "教職員"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student Agreements"
@@ -2721,6 +2921,10 @@ msgid "Student Enrolment"
 msgstr "學生報名"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "學生編號"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student Recorded Homework"
 msgstr "學生記錄的家庭作業"
 
@@ -2729,12 +2933,32 @@ msgid "Summary"
 msgstr "摘要"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "週日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "非教學"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "非教學人員"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Surname"
+msgstr "姓氏"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Switch"
 msgstr "切換"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "System Access"
 msgstr "系統存取"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Teachers"
+msgstr "老師"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2752,6 +2976,18 @@ msgid "This lesson has not had any content assigned to it."
 msgstr "這節課尚未加入任何內容。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "週四"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "時間調動"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Title"
+msgstr "稱謂"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Today's Messages"
 msgstr "今天的訊息"
 
@@ -2766,6 +3002,10 @@ msgstr "交通"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Triggers"
 msgstr "誘因"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "週二"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Unit, Building, Street"
@@ -2800,8 +3040,16 @@ msgid "View Planner"
 msgstr "查看計劃表"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "週三"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Work"
-msgstr "工作"
+msgstr "辦公室"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "You do not have access to this action."
+msgstr "你沒有權限執行此操作。"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
@@ -2820,10 +3068,6 @@ msgstr "離校"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Left - Early"
 msgstr "早退"
-
-# Gibbon core string: corrects Gibbon's translation for the app
-msgid "Sun"
-msgstr "星期日"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Student - Left"
