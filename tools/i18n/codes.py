@@ -32,7 +32,7 @@ DB = {
               'User Admin': 'Administração de Utilizadores'},                           # Gibbon: "de Users"
     'de_DE': {'Student - Left': 'Schüler/in - Gegangen', 'Teacher - Left': 'Lehrer/in - Gegangen'},   # Gibbon: Verlassen
     'it_IT': {'Parent': 'Genitore',                        # Gibbon: Parente (a relative)
-              'Support Staff': 'Personale di Supporto',
+              'Support Staff': 'Personale Non Docente',
               'Student - Left': 'Studente - Uscito', 'Teacher - Left': 'Insegnante - Uscito',
               'Monday': 'Lunedì', 'Tuesday': 'Martedì', 'Wednesday': 'Mercoledì', 'Thursday': 'Giovedì', 'Friday': 'Venerdì',
               'Finance': 'Finanze'},
