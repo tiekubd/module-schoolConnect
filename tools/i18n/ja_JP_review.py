@@ -225,6 +225,7 @@ MANUAL = {"Access data on family's children?": '家族の子どものデータ�
  'Submit': '送信',
  'Summary': '概要',
  'Sun': '日',
+ 'Support': '事務・支援',
  'Support Staff': '事務・支援職員',
  'Surname': '姓',
  'System Admin': 'システム管理',

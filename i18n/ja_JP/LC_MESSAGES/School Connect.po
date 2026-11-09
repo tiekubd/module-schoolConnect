@@ -2979,6 +2979,10 @@ msgid "Summary"
 msgstr "概要"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "事務・支援"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Support Staff"
 msgstr "事務・支援職員"
 

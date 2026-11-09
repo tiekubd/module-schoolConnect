@@ -317,7 +317,7 @@ FINAL = {
 'Students': '生徒',
 'Submit': '送信',   # Gibbon/earlier: 提出 (hand in homework); form button
 'Summary': '概要',
-'Support': 'サポート',
+'Support': '事務・支援',   # staff type; matches Support Staff 事務・支援職員
 'Surname': '姓',
 'Switch': '切り替え',
 'System Access': 'システムアクセス',
