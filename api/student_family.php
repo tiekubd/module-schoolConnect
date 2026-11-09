@@ -4,11 +4,18 @@ require_once __DIR__ . '/../../../config.php';
 header('Content-Type: application/json');
 
 // Read-only, per-student Family view — mirrors Gibbon core's own "Family"
-// tab on a student's profile (student_view_details.php, source verified),
-// NOT the same feature as admin_families.php/FamilyDetailScreen (that's a
-// separate, Admin-only family MANAGEMENT tool with real write actions —
-// this file is deliberately read-only and has a broader, multi-role
-// audience, same access model as student_attendance.php).
+// tab on a student's profile (Students/src/Profile/FamilyPage.php in v31,
+// formerly student_view_details.php; source verified), NOT the same feature
+// as admin_families.php/FamilyDetailScreen (that's a separate, Admin-only
+// family MANAGEMENT tool with real write actions — this file is
+// deliberately read-only and has a broader, multi-role audience, same
+// access model as student_attendance.php).
+//
+// Multi-family students: core shows EVERY family the student belongs to
+// (FamilyGateway::selectFamiliesByStudent, ordered by family name), e.g.
+// children of separated parents with two households. The full list is in
+// 'families'. The older top-level 'family' / 'adults' / 'siblings' keys are
+// kept (= the first family) so existing app builds keep working unchanged.
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['success' => false, 'message' => 'Method not allowed']);
@@ -62,7 +69,7 @@ try {
     // model: Parent/Student never see these regardless of who's viewing.
     $canSeeComments = in_array($role, ['Administrator', 'Teacher', 'Support Staff'], true);
 
-    // ── Find this student's family ───────────────────────────────────────────
+    // ── Every family this student belongs to (core: ordered by name) ─────────
     $familyStmt = $pdo->prepare("
         SELECT f.gibbonFamilyID, f.name, f.status, f.nameAddress, f.homeAddress,
                f.homeAddressDistrict, f.homeAddressCountry,
@@ -70,17 +77,15 @@ try {
         FROM gibbonFamilyChild fc
         JOIN gibbonFamily f ON f.gibbonFamilyID = fc.gibbonFamilyID
         WHERE fc.gibbonPersonID = ?
-        LIMIT 1
+        ORDER BY f.name
     ");
     $familyStmt->execute([$personID]);
-    $family = $familyStmt->fetch(PDO::FETCH_ASSOC);
+    $familyRows = $familyStmt->fetchAll(PDO::FETCH_ASSOC);
 
-    if (!$family) {
-        echo json_encode(['success' => true, 'family' => null, 'adults' => [], 'siblings' => []]);
+    if (empty($familyRows)) {
+        echo json_encode(['success' => true, 'family' => null, 'adults' => [], 'siblings' => [], 'families' => []]);
         exit;
     }
-
-    $familyID = $family['gibbonFamilyID'];
 
     // ── Adults, with per-STUDENT relationship (core: gibbonFamilyRelationship
     // is keyed per adult-child pair, since one adult can have a different
@@ -106,13 +111,6 @@ try {
         WHERE fa.gibbonFamilyID = ?
         ORDER BY fa.contactPriority, p.surname, p.preferredName
     ");
-    $adultStmt->execute([$personID, $familyID, $familyID]);
-    $adults = $adultStmt->fetchAll(PDO::FETCH_ASSOC);
-
-    if (!$canSeeComments) {
-        foreach ($adults as &$a) { $a['comment'] = null; }
-        unset($a);
-    }
 
     // ── Siblings — other children in the same family ────────────────────────
     $siblingStmt = $pdo->prepare("
@@ -122,14 +120,37 @@ try {
         WHERE fc.gibbonFamilyID = ? AND fc.gibbonPersonID != ?
         ORDER BY p.surname, p.preferredName
     ");
-    $siblingStmt->execute([$familyID, $personID]);
-    $siblings = $siblingStmt->fetchAll(PDO::FETCH_ASSOC);
+
+    $families = [];
+    foreach ($familyRows as $family) {
+        $familyID = $family['gibbonFamilyID'];
+
+        $adultStmt->execute([$personID, $familyID, $familyID]);
+        $adults = $adultStmt->fetchAll(PDO::FETCH_ASSOC);
+
+        if (!$canSeeComments) {
+            foreach ($adults as &$a) { $a['comment'] = null; }
+            unset($a);
+        }
+
+        $siblingStmt->execute([$familyID, $personID]);
+        $siblings = $siblingStmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $families[] = [
+            'family'   => $family,
+            'adults'   => $adults,
+            'siblings' => $siblings,
+        ];
+    }
 
     echo json_encode([
         'success'   => true,
-        'family'    => $family,
-        'adults'    => $adults,
-        'siblings'  => $siblings,
+        // Back-compat: first family, same shape as before
+        'family'    => $families[0]['family'],
+        'adults'    => $families[0]['adults'],
+        'siblings'  => $families[0]['siblings'],
+        // All families, in core's order
+        'families'  => $families,
     ]);
 
 } catch (PDOException $e) {

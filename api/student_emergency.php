@@ -4,16 +4,23 @@ require_once __DIR__ . '/../../../config.php';
 header('Content-Type: application/json');
 
 // Read-only Emergency Contacts view — mirrors Gibbon core's own
-// "Emergency Contacts" tab on a student's profile (student_view_details.php,
-// source verified). Deliberately does NOT include the "Follow-up Contacts"
-// section (a separate, more complex feature merging a configurable staff
-// list, related teachers, and email-opted-in family adults) — flagged as
-// its own scope decision, not silently dropped.
+// "Emergency Contacts" tab on a student's profile
+// (Students/src/Profile/EmergencyContactsPage.php in v31, formerly
+// student_view_details.php; source verified). Deliberately does NOT include
+// the "Follow-up Contacts" section (a separate, more complex feature merging
+// a configurable staff list, related teachers, and email-opted-in family
+// adults) — flagged as its own scope decision, not silently dropped.
 //
 // Important distinction from student_family.php: this NEVER checks
 // contactCall/contactSMS/contactEmail preference flags — core shows every
 // phone number unconditionally here, since in a genuine emergency you
 // contact everyone regardless of their stated non-emergency preference.
+//
+// Multi-family students: core lists the adults of EVERY family the student
+// belongs to, family by family (families ordered by name). 'adults' is
+// still one flat list (existing app builds keep working), now covering all
+// families; each adult carries gibbonFamilyID + familyName so the app can
+// group them. 'families' gives the same data grouped per family.
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['success' => false, 'message' => 'Method not allowed']);
@@ -75,43 +82,59 @@ try {
         exit;
     }
 
-    // ── Adult Family Members — same per-student relationship lookup as
-    //    student_family.php, but phones shown unconditionally (see note above) ──
+    // ── Adult Family Members of every family — same per-student relationship
+    //    lookup as student_family.php, but phones shown unconditionally
+    //    (see note above) ──────────────────────────────────────────────────────
     $familyStmt = $pdo->prepare("
-        SELECT f.gibbonFamilyID FROM gibbonFamilyChild fc
+        SELECT f.gibbonFamilyID, f.name FROM gibbonFamilyChild fc
         JOIN gibbonFamily f ON f.gibbonFamilyID = fc.gibbonFamilyID
-        WHERE fc.gibbonPersonID = ? LIMIT 1
+        WHERE fc.gibbonPersonID = ?
+        ORDER BY f.name
     ");
     $familyStmt->execute([$personID]);
-    $family = $familyStmt->fetch(PDO::FETCH_ASSOC);
+    $familyRows = $familyStmt->fetchAll(PDO::FETCH_ASSOC);
+
+    $adultStmt = $pdo->prepare("
+        SELECT p.gibbonPersonID, p.title, p.preferredName, p.surname,
+               p.phone1, p.phone1Type, p.phone1CountryCode,
+               p.phone2, p.phone2Type, p.phone2CountryCode,
+               p.phone3, p.phone3Type, p.phone3CountryCode,
+               p.phone4, p.phone4Type, p.phone4CountryCode,
+               fa.contactPriority, fr.relationship,
+               fa.gibbonFamilyID
+        FROM gibbonFamilyAdult fa
+        JOIN gibbonPerson p ON p.gibbonPersonID = fa.gibbonPersonID
+        LEFT JOIN gibbonFamilyRelationship fr ON (
+            fr.gibbonPersonID1 = fa.gibbonPersonID
+            AND fr.gibbonPersonID2 = ?
+            AND fr.gibbonFamilyID = ?
+        )
+        WHERE fa.gibbonFamilyID = ?
+        ORDER BY fa.contactPriority, p.surname, p.preferredName
+    ");
 
     $adults = [];
-    if ($family) {
+    $families = [];
+    foreach ($familyRows as $family) {
         $familyID = $family['gibbonFamilyID'];
-        $adultStmt = $pdo->prepare("
-            SELECT p.gibbonPersonID, p.title, p.preferredName, p.surname,
-                   p.phone1, p.phone1Type, p.phone1CountryCode,
-                   p.phone2, p.phone2Type, p.phone2CountryCode,
-                   p.phone3, p.phone3Type, p.phone3CountryCode,
-                   p.phone4, p.phone4Type, p.phone4CountryCode,
-                   fa.contactPriority, fr.relationship
-            FROM gibbonFamilyAdult fa
-            JOIN gibbonPerson p ON p.gibbonPersonID = fa.gibbonPersonID
-            LEFT JOIN gibbonFamilyRelationship fr ON (
-                fr.gibbonPersonID1 = fa.gibbonPersonID
-                AND fr.gibbonPersonID2 = ?
-                AND fr.gibbonFamilyID = ?
-            )
-            WHERE fa.gibbonFamilyID = ?
-            ORDER BY fa.contactPriority, p.surname, p.preferredName
-        ");
         $adultStmt->execute([$personID, $familyID, $familyID]);
-        $adults = $adultStmt->fetchAll(PDO::FETCH_ASSOC);
+        $familyAdults = $adultStmt->fetchAll(PDO::FETCH_ASSOC);
+
+        foreach ($familyAdults as &$a) { $a['familyName'] = $family['name']; }
+        unset($a);
+
+        $families[] = [
+            'gibbonFamilyID' => $familyID,
+            'name'           => $family['name'],
+            'adults'         => $familyAdults,
+        ];
+        $adults = array_merge($adults, $familyAdults);
     }
 
     echo json_encode([
         'success' => true,
         'adults' => $adults,
+        'families' => $families,
         'emergencyContacts' => $emergencyContacts,
     ]);
 
