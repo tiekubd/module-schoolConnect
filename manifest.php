@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.12"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.13"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -151,6 +151,16 @@ $version     = "1.16.12"; // Tracks the Flutter app's marketing version (pubspec
                           // array; the old keys still hold the first family, so older
                           // apps are unaffected). Released with app 1.16.12. No schema
                           // change, so no CHANGEDB.php entry.
+                          //
+                          // 1.16.13: The sign-in token is now read by one helper,
+                          // gibbonConnectBearerToken() in api/auth.php, which also
+                          // checks REDIRECT_HTTP_AUTHORIZATION and a new
+                          // X-School-Connect-Token header (sent by app 1.16.14+).
+                          // Fixes the app returning to the login screen on hosts
+                          // that strip the Authorization header (seen on Nginx in
+                          // front of Apache/PHP-CGI). roles.php and school_years.php
+                          // now use the token from gibbonConnectRequireAuth(); cors.php
+                          // allows the new header. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

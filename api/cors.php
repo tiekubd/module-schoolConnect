@@ -4,7 +4,7 @@
 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, Authorization');
+header('Access-Control-Allow-Headers: Content-Type, Authorization, X-School-Connect-Token');
 
 // Browsers send a preflight OPTIONS request before POST — handle it here
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {

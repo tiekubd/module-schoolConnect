@@ -69,10 +69,8 @@ try {
         // do, rather than pinning to a year that could later change status)
         $valueToStore = ($year['status'] === 'Current') ? null : $yearID;
 
-        $headers = function_exists('getallheaders') ? getallheaders() : [];
-        $authHeader = $headers['Authorization'] ?? $headers['authorization'] ?? ($_SERVER['HTTP_AUTHORIZATION'] ?? '');
-        preg_match('/Bearer\s+(\S+)/i', $authHeader, $m);
-        $token = $m[1];
+        // Same token gibbonConnectRequireAuth() accepted, whichever header carried it.
+        $token = $authUser['token'];
 
         $update = $pdo->prepare("UPDATE gibbonConnectSession SET selectedSchoolYearID = ? WHERE token = ?");
         $update->execute([$valueToStore, $token]);

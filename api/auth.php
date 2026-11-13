@@ -46,6 +46,42 @@ function gibbonConnectNow(): string {
     return date('Y-m-d H:i:s');
 }
 
+/**
+ * The app's sign-in token for this request, or '' if none was sent.
+ *
+ * The app sends it as "Authorization: Bearer <token>". Some hosting setups
+ * (seen on Nginx in front of Apache/PHP-CGI) strip the Authorization header
+ * before PHP runs, so the login works but every request after it fails and
+ * the app returns to the login screen. From app 1.16.14 the app also sends
+ * the token in a custom "X-School-Connect-Token" header, which servers pass
+ * through untouched. Checked here, in order:
+ *   1. Authorization via getallheaders() (either key casing)
+ *   2. $_SERVER['HTTP_AUTHORIZATION'] (PHP-FPM, or rewritten by .htaccess)
+ *   3. $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] (Apache after an internal redirect)
+ *   4. X-School-Connect-Token
+ */
+function gibbonConnectBearerToken(): string {
+    $headers = function_exists('getallheaders') ? getallheaders() : [];
+    $headers = is_array($headers) ? array_change_key_case($headers, CASE_LOWER) : [];
+
+    $candidates = [
+        $headers['authorization'] ?? '',
+        $_SERVER['HTTP_AUTHORIZATION'] ?? '',
+        $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] ?? '',
+    ];
+    foreach ($candidates as $value) {
+        if (is_string($value) && preg_match('/Bearer\s+([A-Za-z0-9]+)/i', $value, $m)) {
+            return $m[1];
+        }
+    }
+
+    $custom = $headers['x-school-connect-token'] ?? ($_SERVER['HTTP_X_SCHOOL_CONNECT_TOKEN'] ?? '');
+    if (is_string($custom) && preg_match('/^[A-Za-z0-9]+$/', trim($custom))) {
+        return trim($custom);
+    }
+    return '';
+}
+
 function gibbonConnectRequireAuth(PDO $pdo): array {
     // Defensive, self-healing table creation — see login.php for the full
     // rationale. Included here too as defense-in-depth: every legitimate
@@ -90,24 +126,12 @@ function gibbonConnectRequireAuth(PDO $pdo): array {
         $timezoneSet = true;
     }
 
-    $headers = function_exists('getallheaders') ? getallheaders() : [];
-
-    // getallheaders() key casing can vary by server/SAPI, so check both.
-    $authHeader = $headers['Authorization'] ?? $headers['authorization'] ?? '';
-
-    // Fallback for servers that strip the Authorization header from
-    // getallheaders() (some Apache/PHP-FPM configs do this) but still
-    // expose it via $_SERVER.
-    if (empty($authHeader) && isset($_SERVER['HTTP_AUTHORIZATION'])) {
-        $authHeader = $_SERVER['HTTP_AUTHORIZATION'];
-    }
-
-    if (!preg_match('/Bearer\s+(\S+)/i', $authHeader, $m)) {
+    $token = gibbonConnectBearerToken();
+    if ($token === '') {
         http_response_code(401);
         echo json_encode(['success' => false, 'message' => 'Missing or invalid Authorization header']);
         exit;
     }
-    $token = $m[1];
 
     $stmt = $pdo->prepare("
         SELECT gibbonPersonID, role, expires, selectedSchoolYearID, selectedRoleID

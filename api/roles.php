@@ -111,10 +111,8 @@ try {
         // rather than pinning to an ID that could theoretically change.
         $valueToStore = ($roleID === $primaryRoleID) ? null : $roleID;
 
-        $headers = function_exists('getallheaders') ? getallheaders() : [];
-        $authHeader = $headers['Authorization'] ?? $headers['authorization'] ?? ($_SERVER['HTTP_AUTHORIZATION'] ?? '');
-        preg_match('/Bearer\s+(\S+)/i', $authHeader, $m);
-        $token = $m[1];
+        // Same token gibbonConnectRequireAuth() accepted, whichever header carried it.
+        $token = $authUser['token'];
 
         $update = $pdo->prepare("UPDATE gibbonConnectSession SET selectedRoleID = ? WHERE token = ?");
         $update->execute([$valueToStore, $token]);
