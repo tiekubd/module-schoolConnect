@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.13"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.14"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -161,6 +161,18 @@ $version     = "1.16.13"; // Tracks the Flutter app's marketing version (pubspec
                           // front of Apache/PHP-CGI). roles.php and school_years.php
                           // now use the token from gibbonConnectRequireAuth(); cors.php
                           // allows the new header. No schema change.
+                          //
+                          // 1.16.14: Markbook grade entry. New api/markbook_entry.php,
+                          // ported from core's Enter Marks (markbook_edit_data.php,
+                          // its Process, MarkbookGate and the Academic alert
+                          // recalculation); accepts Edit Markbook_* and the proposed
+                          // Enter Markbook Data_* actions. The staff class markbook
+                          // now lists every column (marked or not) and every student,
+                          // as core's staff view does. My Classes and the timetable
+                          // treat any staff-category role other than Administrator
+                          // as a teacher (classes they teach) instead of returning
+                          // nothing for custom-named roles. Released with app
+                          // 1.16.15. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

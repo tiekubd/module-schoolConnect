@@ -29,6 +29,16 @@ try {
     $personID = $authUser['personID'];
     $role     = $authUser['role'];
 
+    // Any staff role other than Administrator lists the classes it teaches,
+    // as a Teacher does. Branching on the role's NAME alone sent a school's
+    // own staff roles ("Principal", "Head of Department", a limited admin
+    // copy such as "Admin2") to the student query below, so My Classes came
+    // back empty. Gibbon's role category is fixed whatever the role is
+    // called (see auth.php). Administrator keeps its "every class" list.
+    if ($role !== 'Administrator' && ($authUser['category'] ?? '') === 'Staff') {
+        $role = 'Teacher';
+    }
+
     // CHANGED: was a hardcoded "WHERE status='Current'" lookup. Now uses
     // whatever year the user has selected (defaults to Current — see auth.php).
     $schoolYearID = $authUser['schoolYearID'];

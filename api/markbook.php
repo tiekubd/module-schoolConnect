@@ -314,13 +314,18 @@ try {
             gibbonConnectDeny('Not permitted to view this markbook');
         }
 
-        // Get columns for this class
+        // Every column of the class, marked or not — as core's staff view
+        // (markbook_view_allClassesAllData.php) lists them, in its order.
+        // 'complete' tells the app which ones to label Unmarked. Students
+        // and parents still only ever see completed, live columns
+        // (student_grades above).
         $colStmt = $pdo->prepare("
             SELECT
                 gibbonMarkbookColumn.gibbonMarkbookColumnID,
                 gibbonMarkbookColumn.name AS columnName,
                 gibbonMarkbookColumn.type,
                 gibbonMarkbookColumn.date,
+                gibbonMarkbookColumn.complete,
                 gibbonMarkbookColumn.completeDate,
                 gibbonMarkbookColumn.attainment,
                 gibbonMarkbookColumn.effort,
@@ -331,8 +336,8 @@ try {
                 gibbonSchoolYearTerm.gibbonSchoolYearTermID = gibbonMarkbookColumn.gibbonSchoolYearTermID
             )
             WHERE gibbonMarkbookColumn.gibbonCourseClassID = ?
-            AND gibbonMarkbookColumn.complete = 'Y'
-            ORDER BY gibbonMarkbookColumn.sequenceNumber, gibbonMarkbookColumn.completeDate
+            ORDER BY gibbonMarkbookColumn.sequenceNumber, gibbonMarkbookColumn.date,
+                gibbonMarkbookColumn.complete, gibbonMarkbookColumn.completeDate
         ");
         $colStmt->execute([$classID]);
         $columns = $colStmt->fetchAll(PDO::FETCH_ASSOC);
@@ -356,24 +361,45 @@ try {
                 gibbonPerson.gibbonPersonID = gibbonMarkbookEntry.gibbonPersonIDStudent
             )
             WHERE gibbonMarkbookColumn.gibbonCourseClassID = ?
-            AND gibbonMarkbookColumn.complete = 'Y'
             ORDER BY gibbonPerson.surname, gibbonPerson.preferredName
         ");
         $entryStmt->execute([$classID]);
         $entries = $entryStmt->fetchAll(PDO::FETCH_ASSOC);
 
-        // Build student->column->grade map
+        // Every student in the class, graded or not, as core's view lists
+        // them: role Student, status Full, enrolled this school year.
         $studentMap = [];
+        $rosterStmt = $pdo->prepare("
+            SELECT gibbonPerson.gibbonPersonID, gibbonPerson.preferredName, gibbonPerson.surname
+            FROM gibbonCourseClassPerson
+            JOIN gibbonPerson ON (gibbonPerson.gibbonPersonID = gibbonCourseClassPerson.gibbonPersonID)
+            JOIN gibbonStudentEnrolment ON (gibbonStudentEnrolment.gibbonPersonID = gibbonPerson.gibbonPersonID
+                AND gibbonStudentEnrolment.gibbonSchoolYearID = ?)
+            WHERE gibbonCourseClassPerson.gibbonCourseClassID = ?
+            AND gibbonCourseClassPerson.role = 'Student'
+            AND gibbonPerson.status = 'Full'
+            AND (gibbonPerson.dateStart IS NULL OR gibbonPerson.dateStart <= ?)
+            AND (gibbonPerson.dateEnd IS NULL OR gibbonPerson.dateEnd >= ?)
+            ORDER BY gibbonPerson.surname, gibbonPerson.preferredName
+        ");
+        $today = date('Y-m-d');
+        $rosterStmt->execute([$authUser['schoolYearID'], $classID, $today, $today]);
+        foreach ($rosterStmt->fetchAll(PDO::FETCH_ASSOC) as $r) {
+            $studentMap[$r['gibbonPersonID']] = [
+                'personID'      => $r['gibbonPersonID'],
+                'preferredName' => $r['preferredName'],
+                'surname'       => $r['surname'],
+                'grades'        => [],
+            ];
+        }
+
+        // Add each student's grades. Like core's view, only students on
+        // the class list above appear (someone who has left is not shown).
         foreach ($entries as $e) {
             $pid = $e['gibbonPersonIDStudent'];
             $cid = $e['gibbonMarkbookColumnID'];
             if (!isset($studentMap[$pid])) {
-                $studentMap[$pid] = [
-                    'personID'      => $pid,
-                    'preferredName' => $e['preferredName'],
-                    'surname'       => $e['surname'],
-                    'grades'        => [],
-                ];
+                continue;
             }
             $studentMap[$pid]['grades'][$cid] = [
                 'attainmentValue'      => $e['attainmentValue'],
@@ -382,6 +408,13 @@ try {
                 'comment'              => $e['comment'],
             ];
         }
+
+        // A student with no grades yet must still send grades as a JSON
+        // object ({}), not an empty list ([]), so the app reads it as a map.
+        foreach ($studentMap as &$student) {
+            $student['grades'] = (object) $student['grades'];
+        }
+        unset($student);
 
         echo json_encode([
             'success'  => true,
