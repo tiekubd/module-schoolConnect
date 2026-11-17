@@ -37,7 +37,7 @@ try {
     // never trust a client-sent role, since that determines which query branch
     // (and therefore which classes) gets returned.
     $roleLookup = $pdo->prepare("
-        SELECT gibbonRole.name
+        SELECT gibbonRole.name, gibbonRole.category
         FROM gibbonPerson
         JOIN gibbonRole ON (gibbonRole.gibbonRoleID = gibbonPerson.gibbonRoleIDPrimary)
         WHERE gibbonPerson.gibbonPersonID = ?
@@ -46,6 +46,14 @@ try {
     $roleLookup->execute([$personID]);
     $roleRow = $roleLookup->fetch(PDO::FETCH_ASSOC);
     $role = $roleRow['name'] ?? 'Student';
+
+    // Any staff role other than Administrator gets a teacher's timetable
+    // (the classes they teach). By name alone, a school's own staff roles
+    // ("Principal", "Admin2", "Support Staff"…) matched no branch below and
+    // got an empty timetable. Same rule as courses.php.
+    if ($role !== 'Administrator' && ($roleRow['category'] ?? '') === 'Staff') {
+        $role = 'Teacher';
+    }
 
     // ── Get active school year ──────────────────────────────────────────────
     // CHANGED: was a hardcoded "WHERE status='Current'" lookup — now uses
