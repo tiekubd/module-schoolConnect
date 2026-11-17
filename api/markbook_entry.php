@@ -310,6 +310,359 @@ function gibbonConnectRecalculateAcademicAlert(PDO $pdo, $schoolYearID, $student
     }
 }
 
+/**
+ * The attainment / effort / comment fields a column shows on the entry form,
+ * from its scales and the school's Markbook settings. Shared by
+ * entry_column (class page) and entry_student (student page).
+ */
+function gibbonConnectColumnFields(PDO $pdo, array $column, array $s): array
+{
+    $hasAttainment = $column['attainment'] == 'Y';
+    $hasRawAttainment = $hasAttainment && $column['attainmentRaw'] == 'Y' && !empty($column['attainmentRawMax']) && $s['enableRawAttainment'] == 'Y';
+    // Core's form shows the effort dropdown whenever the column has effort
+    // on (the process then ignores it if enableEffort is off). Show it
+    // only when it will actually be saved.
+    $hasEffort = $column['effort'] == 'Y' && $s['enableEffort'] == 'Y';
+    $altAttainment = $s['attainmentName'] !== '' && $s['attainmentAbbrev'] !== '';
+    $altEffort = $s['effortName'] !== '' && $s['effortAbbrev'] !== '';
+
+    return [
+        'attainment' => !$hasAttainment ? null : [
+            'name' => $altAttainment ? $s['attainmentName'] : 'Attainment',
+            'abbrev' => $altAttainment ? $s['attainmentAbbrev'] : 'Att',
+            'scaleName' => $column['scaleNameAttainment'],
+            'usage' => $column['usageAttainment'],
+            'grades' => gibbonConnectScaleGrades($pdo, $column['gibbonScaleIDAttainment']),
+            'raw' => $hasRawAttainment,
+            'rawMax' => $hasRawAttainment ? (float) $column['attainmentRawMax'] : null,
+            // Core's script turns a raw mark into a percentage grade only
+            // for scales whose name contains "percent".
+            'percentScale' => $hasRawAttainment && stripos((string) $column['scaleNameAttainment'], 'percent') !== false,
+            'rubric' => !empty($column['gibbonRubricIDAttainment']) && $s['enableRubrics'] == 'Y',
+        ],
+        'effort' => !$hasEffort ? null : [
+            'name' => $altEffort ? $s['effortName'] : 'Effort',
+            'abbrev' => $altEffort ? $s['effortAbbrev'] : 'Eff',
+            'scaleName' => $column['scaleNameEffort'],
+            'usage' => $column['usageEffort'],
+            'grades' => gibbonConnectScaleGrades($pdo, $column['gibbonScaleIDEffort']),
+            'rubric' => !empty($column['gibbonRubricIDEffort']) && $s['enableRubrics'] == 'Y',
+        ],
+        'comment' => $column['comment'] == 'Y',
+    ];
+}
+
+/**
+ * Classes in the school year this person may enter marks for — the same
+ * MarkbookGate rule as gibbonConnectCanEnterMarkbook(), applied to a list:
+ *   whole-school action  -> every class of the year
+ *   otherwise            -> classes they teach, plus (with an "in
+ *                           department" action) their departments' classes
+ * 'teaches' marks the classes they teach themselves.
+ */
+function gibbonConnectEntryClasses(PDO $pdo, array $actions, $personID, $schoolYearID): array
+{
+    if (empty($actions) || empty($schoolYearID)) {
+        return [];
+    }
+    $wholeSchool = array_intersect([
+        'Edit Markbook_everything', 'Edit Markbook_multipleClassesAcrossSchool', 'Manage Weightings_everything',
+        'Enter Markbook Data_everything', 'Enter Markbook Data_multipleClassesAcrossSchool',
+    ], $actions);
+    $department = array_intersect(['Edit Markbook_multipleClassesInDepartment', 'Enter Markbook Data_multipleClassesInDepartment'], $actions);
+
+    $where = [];
+    $params = [':personID' => $personID, ':schoolYearID' => $schoolYearID];
+    if (!$wholeSchool) {
+        $where[] = "EXISTS (SELECT 1 FROM gibbonCourseClassPerson t WHERE t.gibbonCourseClassID = gibbonCourseClass.gibbonCourseClassID AND t.gibbonPersonID = :personID AND t.role = 'Teacher')";
+        if ($department) {
+            $where[] = "gibbonCourse.gibbonDepartmentID IN (SELECT gibbonDepartmentID FROM gibbonDepartmentStaff WHERE gibbonPersonID = :personID2 AND role IN ('Coordinator', 'Assistant Coordinator', 'Teacher (Curriculum)'))";
+            $params[':personID2'] = $personID;
+        }
+    }
+    $stmt = $pdo->prepare("
+        SELECT gibbonCourseClass.gibbonCourseClassID AS classID, gibbonCourse.name AS courseName,
+            gibbonCourse.nameShort AS courseShort, gibbonCourseClass.name AS className,
+            gibbonCourseClass.nameShort AS classShort,
+            EXISTS (SELECT 1 FROM gibbonCourseClassPerson t WHERE t.gibbonCourseClassID = gibbonCourseClass.gibbonCourseClassID
+                AND t.gibbonPersonID = :personIDTeach AND t.role = 'Teacher') AS teaches
+        FROM gibbonCourseClass
+        JOIN gibbonCourse ON (gibbonCourse.gibbonCourseID = gibbonCourseClass.gibbonCourseID)
+        WHERE gibbonCourse.gibbonSchoolYearID = :schoolYearID
+        " . ($where ? ' AND (' . implode(' OR ', $where) . ')' : '') . "
+        ORDER BY teaches DESC, gibbonCourse.nameShort, gibbonCourseClass.nameShort
+    ");
+    $params[':personIDTeach'] = $personID;
+    if ($wholeSchool) {
+        unset($params[':personID']);
+    }
+    $stmt->execute($params);
+    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($rows as &$r) {
+        $r['teaches'] = (bool) $r['teaches'];
+    }
+    unset($r);
+
+    return $rows;
+}
+
+/** The year's terms, and which one today falls in (null between terms). */
+function gibbonConnectTerms(PDO $pdo, $schoolYearID): array
+{
+    $stmt = $pdo->prepare("SELECT gibbonSchoolYearTermID AS termID, name, nameShort, firstDay, lastDay FROM gibbonSchoolYearTerm WHERE gibbonSchoolYearID = ? ORDER BY sequenceNumber");
+    $stmt->execute([$schoolYearID]);
+    $terms = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $today = date('Y-m-d');
+    $current = null;
+    foreach ($terms as $t) {
+        if ($t['firstDay'] <= $today && $t['lastDay'] >= $today) {
+            $current = $t['termID'];
+        }
+    }
+
+    return ['terms' => $terms, 'currentTermID' => $current];
+}
+
+/**
+ * Write one column's entries — the body of core's markbook_edit_dataProcess.php
+ * for the students given. Shared by entry_save (one column, many students)
+ * and entry_save_student (one student, many columns), so both save exactly
+ * the same way. Does NOT touch the column's complete/completeDate and does
+ * not recalculate alerts; the caller does those.
+ *
+ * $entries: [{personID, attainmentValue?, attainmentValueRaw?, effortValue?,
+ *             comment?, modifiedAssessment?, ...}] — a key left out keeps
+ *             that field's saved value. Extra keys (classID, columnID) are
+ *             ignored here.
+ * Returns ['saved' => int, 'failed' => [[personID, columnID, message]],
+ *          'savedStudentIDs' => int[]].
+ */
+function gibbonConnectWriteColumnEntries(PDO $pdo, array $column, string $classID, array $entries, array $settings, $schoolYearID, $personID): array
+{
+    $columnID = $column['gibbonMarkbookColumnID'];
+    $enableEffort = $settings['enableEffort'];
+    $enableRawAttainment = $settings['enableRawAttainment'];
+    $enableModifiedAssessment = $settings['enableModifiedAssessment'];
+    $personalisedWarnings = $settings['personalisedWarnings'];
+
+    $attainment = $column['attainment'];
+    $gibbonScaleIDAttainment = $column['gibbonScaleIDAttainment'] ?? '';
+    if ($enableEffort != 'Y') {
+        $effort = 'N';
+        $gibbonScaleIDEffort = '';
+    } else {
+        $effort = $column['effort'] ?? '';
+        $gibbonScaleIDEffort = $column['gibbonScaleIDEffort'] ?? '';
+    }
+    $comment = $column['comment'] ?? '';
+    $hasRawAttainment = $attainment == 'Y' && $column['attainmentRaw'] == 'Y' && !empty($column['attainmentRawMax']) && $enableRawAttainment == 'Y';
+    $gibbonScaleIDTarget = $column['gibbonScaleIDTarget'] ?? '';
+    $lowestAcceptableAttainment = $column['lowestAcceptableAttainment'] ?? '';
+    $lowestAcceptableEffort = $column['lowestAcceptableEffort'] ?? '';
+
+    // Grade lookups by value, for descriptor / sequence (core queries
+    // gibbonScaleGrade per student; one load per scale gives the same rows).
+    $attainmentGrades = [];
+    foreach (gibbonConnectScaleGrades($pdo, $gibbonScaleIDAttainment) as $g) {
+        $attainmentGrades[(string) $g['value']] = $g;
+    }
+    $effortGrades = [];
+    foreach (gibbonConnectScaleGrades($pdo, $gibbonScaleIDEffort) as $g) {
+        $effortGrades[(string) $g['value']] = $g;
+    }
+
+    // Only students on the entry form may be written.
+    $allowed = [];
+    foreach (gibbonConnectEntryStudents($pdo, $classID, $columnID, $schoolYearID) as $s) {
+        $allowed[(int) $s['gibbonPersonID']] = $s;
+    }
+
+    $inStudents = [];
+    if ($enableModifiedAssessment == 'Y' && !empty($allowed)) {
+        $ids = array_keys($allowed);
+        $placeholders = implode(',', array_fill(0, count($ids), '?'));
+        $inStmt = $pdo->prepare("SELECT DISTINCT gibbonPersonID FROM gibbonINPersonDescriptor WHERE gibbonPersonID IN ($placeholders)");
+        $inStmt->execute($ids);
+        $inStudents = array_flip(array_map('intval', $inStmt->fetchAll(PDO::FETCH_COLUMN)));
+    }
+
+    $targetStmt = $pdo->prepare("
+        SELECT gibbonScaleGrade.value, gibbonScaleGrade.sequenceNumber
+        FROM gibbonMarkbookTarget
+        JOIN gibbonScaleGrade ON (gibbonMarkbookTarget.gibbonScaleGradeID = gibbonScaleGrade.gibbonScaleGradeID)
+        WHERE gibbonMarkbookTarget.gibbonCourseClassID = ? AND gibbonMarkbookTarget.gibbonPersonIDStudent = ?
+    ");
+    $existingStmt = $pdo->prepare("SELECT * FROM gibbonMarkbookEntry WHERE gibbonMarkbookColumnID = ? AND gibbonPersonIDStudent = ? LIMIT 1");
+    $insertStmt = $pdo->prepare("
+        INSERT INTO gibbonMarkbookEntry SET gibbonMarkbookColumnID = :gibbonMarkbookColumnID, gibbonPersonIDStudent = :gibbonPersonIDStudent,
+            modifiedAssessment = :modifiedAssessment, attainmentValue = :attainmentValue, attainmentValueRaw = :attainmentValueRaw,
+            attainmentDescriptor = :attainmentDescriptor, attainmentConcern = :attainmentConcern, effortValue = :effortValue,
+            effortDescriptor = :effortDescriptor, effortConcern = :effortConcern, comment = :comment,
+            gibbonPersonIDLastEdit = :gibbonPersonIDLastEdit, response = :attachment
+    ");
+    $updateStmt = $pdo->prepare("
+        UPDATE gibbonMarkbookEntry SET modifiedAssessment = :modifiedAssessment, attainmentValue = :attainmentValue,
+            attainmentValueRaw = :attainmentValueRaw, attainmentDescriptor = :attainmentDescriptor,
+            attainmentConcern = :attainmentConcern, effortValue = :effortValue, effortDescriptor = :effortDescriptor,
+            effortConcern = :effortConcern, comment = :comment, gibbonPersonIDLastEdit = :gibbonPersonIDLastEdit,
+            response = :attachment
+        WHERE gibbonMarkbookEntryID = :gibbonMarkbookEntryID
+    ");
+
+    $saved = 0;
+    $failed = [];
+    $savedStudentIDs = [];
+
+    foreach ($entries as $entryIn) {
+        $studentID = (int) ($entryIn['personID'] ?? 0);
+        if (!isset($allowed[$studentID])) {
+            $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'columnID' => (string) $columnID, 'message' => 'Not a student in this class'];
+            continue;
+        }
+        $current = $allowed[$studentID];
+
+        $existingStmt->execute([$columnID, $studentID]);
+        $existing = $existingStmt->fetch(PDO::FETCH_ASSOC) ?: [];
+
+        // Field from the app, or the saved value when the app left it out.
+        $field = function (string $key) use ($entryIn, $existing) {
+            if (array_key_exists($key, $entryIn)) {
+                return $entryIn[$key] === null ? '' : trim((string) $entryIn[$key]);
+            }
+            return $existing[$key] ?? '';
+        };
+
+        // Modified assessment
+        if ($enableModifiedAssessment != 'Y') {
+            $modifiedAssessment = null;
+        } elseif (isset($inStudents[$studentID]) || $current['modifiedAssessment'] !== null) {
+            if (array_key_exists('modifiedAssessment', $entryIn)) {
+                $v = $entryIn['modifiedAssessment'];
+                $modifiedAssessment = ($v === true || $v === 'Y' || $v === 1 || $v === '1') ? 'Y' : 'N';
+            } else {
+                $modifiedAssessment = $existing['modifiedAssessment'] ?? 'N';
+            }
+        } else {
+            $modifiedAssessment = null; // core: checkbox not shown -> NULL
+        }
+
+        // Attainment
+        $attainmentDescriptor = null;
+        $attainmentConcern = null;
+        if ($attainment == 'N') {
+            $attainmentValue = null;
+            $attainmentValueRaw = null;
+        } elseif ($gibbonScaleIDAttainment == '') {
+            $attainmentValue = '';
+            $attainmentValueRaw = '';
+            $attainmentDescriptor = '';
+            $attainmentConcern = '';
+        } else {
+            $attainmentValue = $field('attainmentValue');
+            // Core posts the saved raw mark back as a hidden field when
+            // raw marks are off, so the stored value is kept.
+            $attainmentValueRaw = $hasRawAttainment ? $field('attainmentValueRaw') : ($existing['attainmentValueRaw'] ?? null);
+            if ($hasRawAttainment && $attainmentValueRaw !== '' && !is_numeric($attainmentValueRaw)) {
+                $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'columnID' => (string) $columnID, 'message' => 'Mark must be a number'];
+                continue;
+            }
+            if ($attainmentValue !== '' && !isset($attainmentGrades[$attainmentValue])) {
+                $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'columnID' => (string) $columnID, 'message' => 'Grade is not on the scale'];
+                continue;
+            }
+        }
+
+        // Effort
+        $effortDescriptor = null;
+        $effortConcern = null;
+        if ($effort == 'N') {
+            $effortValue = null;
+        } elseif ($gibbonScaleIDEffort == '') {
+            $effortValue = '';
+            $effortDescriptor = '';
+            $effortConcern = '';
+        } else {
+            $effortValue = $field('effortValue');
+            if ($effortValue !== '' && !isset($effortGrades[$effortValue])) {
+                $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'columnID' => (string) $columnID, 'message' => 'Effort is not on the scale'];
+                continue;
+            }
+        }
+
+        // Comment
+        $commentValue = $comment != 'Y' ? null : $field('comment');
+
+        // SET AND CALCULATE FOR ATTAINMENT
+        if ($attainment == 'Y' && $gibbonScaleIDAttainment != '') {
+            $targetStmt->execute([$classID, $studentID]);
+            $targets = $targetStmt->fetchAll(PDO::FETCH_ASSOC);
+
+            if ($personalisedWarnings == 'Y' && count($targets) == 1 && $attainmentValue != '' && $gibbonScaleIDAttainment == $gibbonScaleIDTarget) {
+                // With personal warnings
+                $attainmentConcern = 'N';
+                $attainmentDescriptor = '';
+                $grade = $attainmentGrades[$attainmentValue];
+                if ($grade['sequenceNumber'] > $targets[0]['sequenceNumber']) {
+                    $attainmentConcern = 'Y';
+                    $attainmentDescriptor = sprintf('Below personalised target of %1$s', $targets[0]['value']);
+                } else {
+                    $attainmentConcern = 'P';
+                    $attainmentDescriptor = sprintf('Equal to or above personalised target of %1$s', $targets[0]['value']);
+                }
+            } else {
+                // Without personal warnings
+                $attainmentConcern = 'N';
+                $attainmentDescriptor = '';
+                if ($attainmentValue != '') {
+                    $grade = $attainmentGrades[$attainmentValue];
+                    $attainmentDescriptor = $grade['descriptor'];
+                    if ($lowestAcceptableAttainment != '' && $grade['sequenceNumber'] != '' && $grade['sequenceNumber'] > $lowestAcceptableAttainment) {
+                        $attainmentConcern = 'Y';
+                    }
+                }
+            }
+        }
+
+        // SET AND CALCULATE FOR EFFORT
+        if ($effort == 'Y' && $gibbonScaleIDEffort != '') {
+            $effortConcern = 'N';
+            $effortDescriptor = '';
+            if ($effortValue != '') {
+                $grade = $effortGrades[$effortValue];
+                $effortDescriptor = $grade['descriptor'];
+                if ($lowestAcceptableEffort != '' && $grade['sequenceNumber'] != '' && $grade['sequenceNumber'] > $lowestAcceptableEffort) {
+                    $effortConcern = 'Y';
+                }
+            }
+        }
+
+        $data = [
+            'modifiedAssessment' => $modifiedAssessment,
+            'attainmentValue' => $attainmentValue,
+            'attainmentValueRaw' => $attainmentValueRaw,
+            'attainmentDescriptor' => $attainmentDescriptor,
+            'attainmentConcern' => $attainmentConcern,
+            'effortValue' => $effortValue,
+            'effortDescriptor' => $effortDescriptor,
+            'effortConcern' => $effortConcern,
+            'comment' => $commentValue,
+            'gibbonPersonIDLastEdit' => $personID,
+            // Uploaded responses are not handled in the app: keep what's there.
+            'attachment' => $existing['response'] ?? null,
+        ];
+
+        if (empty($existing)) {
+            $insertStmt->execute($data + ['gibbonMarkbookColumnID' => $columnID, 'gibbonPersonIDStudent' => $studentID]);
+        } else {
+            $updateStmt->execute($data + ['gibbonMarkbookEntryID' => $existing['gibbonMarkbookEntryID']]);
+        }
+        $saved++;
+        $savedStudentIDs[] = $studentID;
+    }
+
+    return ['saved' => $saved, 'failed' => $failed, 'savedStudentIDs' => $savedStudentIDs];
+}
+
 try {
     $pdo = new PDO(
         'mysql:host=' . $databaseServer . ';dbname=' . $databaseName . ';charset=utf8',
@@ -392,21 +745,286 @@ try {
     $enableRawAttainment = gibbonConnectSetting($pdo, 'Markbook', 'enableRawAttainment');
     $enableModifiedAssessment = gibbonConnectSetting($pdo, 'Markbook', 'enableModifiedAssessment');
     $personalisedWarnings = gibbonConnectSetting($pdo, 'Markbook', 'personalisedWarnings');
+    $fieldSettings = [
+        'enableEffort' => $enableEffort,
+        'enableRubrics' => $enableRubrics,
+        'enableRawAttainment' => $enableRawAttainment,
+        'attainmentName' => gibbonConnectSetting($pdo, 'Markbook', 'attainmentAlternativeName'),
+        'attainmentAbbrev' => gibbonConnectSetting($pdo, 'Markbook', 'attainmentAlternativeNameAbrev'),
+        'effortName' => gibbonConnectSetting($pdo, 'Markbook', 'effortAlternativeName'),
+        'effortAbbrev' => gibbonConnectSetting($pdo, 'Markbook', 'effortAlternativeNameAbrev'),
+    ];
+    $writeSettings = [
+        'enableEffort' => $enableEffort,
+        'enableRawAttainment' => $enableRawAttainment,
+        'enableModifiedAssessment' => $enableModifiedAssessment,
+        'personalisedWarnings' => $personalisedWarnings,
+    ];
+
+    // ═══ BY STUDENT ═════════════════════════════════════════════════════════
+    // Not in Gibbon core: one student, every class of theirs this teacher may
+    // enter marks for, all on one page. Each class is checked with the same
+    // MarkbookGate rule as the class page, and every save goes through the
+    // same writer (gibbonConnectWriteColumnEntries), so the website sees
+    // exactly what a class-page save would have written. The student page
+    // never changes a column's Assessment Complete / Go Live Date: those
+    // apply to the whole class, so they stay on the class page.
+
+    // ── ENTRY CLASSES: classes this person may enter marks for ──────────
+    if ($action === 'entry_classes') {
+        $classes = gibbonConnectEntryClasses($pdo, $entryActions, $personID, $schoolYearID);
+        echo json_encode(['success' => true, 'canEnter' => !empty($classes), 'classes' => $classes]);
+        exit;
+    }
+
+    // ── ENTRY STUDENTS: students in those classes ────────────────────────
+    // scope 'taught' (default) = classes they teach themselves;
+    // 'all' = every class they may enter marks for (department / whole
+    // school roles). 'hasMore' tells the app whether 'all' adds anything.
+    if ($action === 'entry_students') {
+        $classes = gibbonConnectEntryClasses($pdo, $entryActions, $personID, $schoolYearID);
+        $taught = array_values(array_filter($classes, fn($c) => $c['teaches']));
+        $scope = ($input['scope'] ?? '') === 'all' || empty($taught) ? 'all' : 'taught';
+        $use = $scope === 'all' ? $classes : $taught;
+        $students = [];
+        if (!empty($use)) {
+            $ids = array_column($use, 'classID');
+            $placeholders = implode(',', array_fill(0, count($ids), '?'));
+            $search = trim((string) ($input['search'] ?? ''));
+            $sql = "
+                SELECT gibbonPerson.gibbonPersonID AS personID, gibbonPerson.preferredName, gibbonPerson.surname,
+                    gibbonPerson.image_240, gibbonFormGroup.nameShort AS formGroup,
+                    COUNT(DISTINCT gibbonCourseClassPerson.gibbonCourseClassID) AS classCount
+                FROM gibbonCourseClassPerson
+                JOIN gibbonPerson ON (gibbonPerson.gibbonPersonID = gibbonCourseClassPerson.gibbonPersonID)
+                JOIN gibbonStudentEnrolment ON (gibbonStudentEnrolment.gibbonPersonID = gibbonPerson.gibbonPersonID
+                    AND gibbonStudentEnrolment.gibbonSchoolYearID = ?)
+                LEFT JOIN gibbonFormGroup ON (gibbonFormGroup.gibbonFormGroupID = gibbonStudentEnrolment.gibbonFormGroupID)
+                WHERE gibbonCourseClassPerson.gibbonCourseClassID IN ($placeholders)
+                AND gibbonCourseClassPerson.role = 'Student'
+                AND gibbonPerson.status = 'Full'
+                AND (gibbonPerson.dateStart IS NULL OR gibbonPerson.dateStart <= ?)
+                AND (gibbonPerson.dateEnd IS NULL OR gibbonPerson.dateEnd >= ?)";
+            $params = array_merge([$schoolYearID], $ids, [date('Y-m-d'), date('Y-m-d')]);
+            if ($search !== '') {
+                $sql .= " AND (gibbonPerson.preferredName LIKE ? OR gibbonPerson.surname LIKE ? OR CONCAT(gibbonPerson.preferredName, ' ', gibbonPerson.surname) LIKE ?)";
+                $like = '%' . $search . '%';
+                array_push($params, $like, $like, $like);
+            }
+            $sql .= " GROUP BY gibbonPerson.gibbonPersonID, gibbonPerson.preferredName, gibbonPerson.surname,
+                    gibbonPerson.image_240, gibbonFormGroup.nameShort
+                ORDER BY gibbonPerson.surname, gibbonPerson.preferredName";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute($params);
+            $students = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        }
+        echo json_encode([
+            'success' => true,
+            'canEnter' => !empty($classes),
+            'scope' => $scope,
+            'hasMore' => count($classes) > count($taught) && !empty($taught),
+            'students' => $students,
+        ]);
+        exit;
+    }
+
+    // Student-page actions: the student must be enrolled this year.
+    if ($action === 'entry_student' || $action === 'entry_save_student') {
+        $studentID = trim((string) ($input['personID'] ?? ''));
+        if ($studentID === '') {
+            echo json_encode(['success' => false, 'message' => 'personID required']);
+            exit;
+        }
+        // Classes of this student's that the user may enter marks for.
+        $allowedClasses = [];
+        foreach (gibbonConnectEntryClasses($pdo, $entryActions, $personID, $schoolYearID) as $c) {
+            $allowedClasses[(int) $c['classID']] = $c;
+        }
+        $studentStmt = $pdo->prepare("
+            SELECT gibbonPerson.gibbonPersonID, gibbonPerson.preferredName, gibbonPerson.surname, gibbonPerson.image_240,
+                gibbonFormGroup.nameShort AS formGroup
+            FROM gibbonPerson
+            JOIN gibbonStudentEnrolment ON (gibbonStudentEnrolment.gibbonPersonID = gibbonPerson.gibbonPersonID
+                AND gibbonStudentEnrolment.gibbonSchoolYearID = ?)
+            LEFT JOIN gibbonFormGroup ON (gibbonFormGroup.gibbonFormGroupID = gibbonStudentEnrolment.gibbonFormGroupID)
+            WHERE gibbonPerson.gibbonPersonID = ? AND gibbonPerson.status = 'Full'
+            LIMIT 1
+        ");
+        $studentStmt->execute([$schoolYearID, $studentID]);
+        $student = $studentStmt->fetch(PDO::FETCH_ASSOC);
+        $myClasses = [];
+        if ($student && !empty($allowedClasses)) {
+            $inClassStmt = $pdo->prepare("SELECT gibbonCourseClassID FROM gibbonCourseClassPerson WHERE gibbonPersonID = ? AND role = 'Student'");
+            $inClassStmt->execute([$studentID]);
+            foreach ($inClassStmt->fetchAll(PDO::FETCH_COLUMN) as $cid) {
+                if (isset($allowedClasses[(int) $cid])) {
+                    $myClasses[(int) $cid] = $allowedClasses[(int) $cid];
+                }
+            }
+        }
+        if (!$student || empty($myClasses)) {
+            gibbonConnectEntryDeny('Not permitted to enter grades for this student');
+        }
+    }
+
+    // ── ENTRY STUDENT: one student's columns in every class allowed ──────
+    // termID: '' = the current term (all terms between terms), 'all' = all.
+    // Term rule as core's staff markbook filter (MarkbookColumnGateway
+    // 'term'): the column's term is that term, OR its date falls inside it.
+    // Terms are only offered when the school groups the markbook by term.
+    if ($action === 'entry_student') {
+        $enableGroupByTerm = gibbonConnectSetting($pdo, 'Markbook', 'enableGroupByTerm') === 'Y';
+        $termInfo = $enableGroupByTerm ? gibbonConnectTerms($pdo, $schoolYearID) : ['terms' => [], 'currentTermID' => null];
+        $termIn = trim((string) ($input['termID'] ?? ''));
+        $term = null;
+        if ($enableGroupByTerm && $termIn !== 'all') {
+            $wanted = $termIn !== '' ? $termIn : $termInfo['currentTermID'];
+            foreach ($termInfo['terms'] as $t) {
+                if ($wanted !== null && (int) $t['termID'] === (int) $wanted) {
+                    $term = $t;
+                }
+            }
+        }
+
+        $inStmt = $pdo->prepare("SELECT 1 FROM gibbonINPersonDescriptor WHERE gibbonPersonID = ? LIMIT 1");
+        $inStmt->execute([$studentID]);
+        $hasIN = (bool) $inStmt->fetchColumn();
+
+        $colStmt = $pdo->prepare("
+            SELECT gibbonMarkbookColumn.gibbonMarkbookColumnID
+            FROM gibbonMarkbookColumn
+            " . ($term ? "WHERE gibbonMarkbookColumn.gibbonCourseClassID = ?
+                AND (gibbonMarkbookColumn.gibbonSchoolYearTermID = ?
+                    OR gibbonMarkbookColumn.date BETWEEN ? AND ?)" : "WHERE gibbonMarkbookColumn.gibbonCourseClassID = ?") . "
+            ORDER BY gibbonMarkbookColumn.sequenceNumber, gibbonMarkbookColumn.date, gibbonMarkbookColumn.gibbonMarkbookColumnID
+        ");
+        $entryStmt = $pdo->prepare("SELECT * FROM gibbonMarkbookEntry WHERE gibbonMarkbookColumnID = ? AND gibbonPersonIDStudent = ? LIMIT 1");
+        $targetStmt = $pdo->prepare("
+            SELECT gibbonScaleGrade.value FROM gibbonMarkbookTarget
+            JOIN gibbonScaleGrade ON (gibbonMarkbookTarget.gibbonScaleGradeID = gibbonScaleGrade.gibbonScaleGradeID)
+            WHERE gibbonMarkbookTarget.gibbonCourseClassID = ? AND gibbonMarkbookTarget.gibbonPersonIDStudent = ? LIMIT 1
+        ");
+
+        $classesOut = [];
+        foreach ($myClasses as $cid => $class) {
+            $colStmt->execute($term ? [$cid, $term['termID'], $term['firstDay'], $term['lastDay']] : [$cid]);
+            $columnsOut = [];
+            $target = null;
+            foreach ($colStmt->fetchAll(PDO::FETCH_COLUMN) as $colID) {
+                $column = gibbonConnectEntryColumn($pdo, $colID, $cid);
+                if (!$column) {
+                    continue;
+                }
+                if ($target === null && !empty($column['gibbonScaleIDTarget'])) {
+                    $targetStmt->execute([$cid, $studentID]);
+                    $target = $targetStmt->fetchColumn() ?: '';
+                }
+                $entryStmt->execute([$colID, $studentID]);
+                $e = $entryStmt->fetch(PDO::FETCH_ASSOC) ?: [];
+                $fields = gibbonConnectColumnFields($pdo, $column, $fieldSettings);
+                $columnsOut[] = [
+                    'columnID' => $column['gibbonMarkbookColumnID'],
+                    'name' => $column['name'],
+                    'type' => $column['type'],
+                    'date' => $column['date'],
+                    'complete' => $column['complete'],
+                    'completeDate' => $column['completeDate'],
+                    'viewableStudents' => $column['viewableStudents'],
+                    'viewableParents' => $column['viewableParents'],
+                    'attainment' => $fields['attainment'],
+                    'effort' => $fields['effort'],
+                    'comment' => $fields['comment'],
+                    'modifiedAssessmentEligible' => $enableModifiedAssessment == 'Y'
+                        && ($hasIN || (isset($e['modifiedAssessment']) && $e['modifiedAssessment'] !== null)),
+                    'entry' => [
+                        'modifiedAssessment' => $e['modifiedAssessment'] ?? null,
+                        'attainmentValue' => $e['attainmentValue'] ?? null,
+                        'attainmentValueRaw' => $e['attainmentValueRaw'] ?? null,
+                        'effortValue' => $e['effortValue'] ?? null,
+                        'comment' => $e['comment'] ?? null,
+                        'hasResponse' => !empty($e['response']),
+                    ],
+                ];
+            }
+            $classesOut[] = [
+                'classID' => (string) $class['classID'],
+                'courseName' => $class['courseName'],
+                'courseShort' => $class['courseShort'],
+                'classShort' => $class['classShort'],
+                'teaches' => $class['teaches'],
+                'target' => $target ?: null,
+                'columns' => $columnsOut,
+            ];
+        }
+
+        echo json_encode([
+            'success' => true,
+            'student' => [
+                'personID' => $student['gibbonPersonID'],
+                'preferredName' => $student['preferredName'],
+                'surname' => $student['surname'],
+                'formGroup' => $student['formGroup'],
+                'image_240' => $student['image_240'],
+            ],
+            'terms' => array_map(fn($t) => ['termID' => $t['termID'], 'name' => $t['name'], 'nameShort' => $t['nameShort']], $termInfo['terms']),
+            'currentTermID' => $termInfo['currentTermID'],
+            'termID' => $term ? $term['termID'] : 'all',
+            'modifiedAssessment' => $enableModifiedAssessment == 'Y',
+            'classes' => $classesOut,
+        ]);
+        exit;
+    }
+
+    // ── ENTRY SAVE STUDENT: one student, many columns ─────────────────────
+    // Input: personID, entries [{classID, columnID, attainmentValue?,
+    //   attainmentValueRaw?, effortValue?, comment?, modifiedAssessment?}]
+    // Each column is checked to belong to its class, and the class to be one
+    // this user may enter marks for and the student is in. Columns' complete
+    // and completeDate are left unchanged.
+    if ($action === 'entry_save_student') {
+        $entries = $input['entries'] ?? [];
+        if (!is_array($entries)) {
+            echo json_encode(['success' => false, 'message' => 'entries must be a list']);
+            exit;
+        }
+        $saved = 0;
+        $failed = [];
+        $savedAny = false;
+        foreach ($entries as $entryIn) {
+            $cid = (int) ($entryIn['classID'] ?? 0);
+            $colID = trim((string) ($entryIn['columnID'] ?? ''));
+            if (!isset($myClasses[$cid])) {
+                $failed[] = ['personID' => $studentID, 'columnID' => $colID, 'message' => 'Not permitted to enter grades for this class'];
+                continue;
+            }
+            $column = gibbonConnectEntryColumn($pdo, $colID, $cid);
+            if (!$column) {
+                $failed[] = ['personID' => $studentID, 'columnID' => $colID, 'message' => 'The selected column does not exist, or you do not have access to it.'];
+                continue;
+            }
+            $entryIn['personID'] = $studentID;
+            $result = gibbonConnectWriteColumnEntries($pdo, $column, (string) $cid, [$entryIn], $writeSettings, $schoolYearID, $personID);
+            $saved += $result['saved'];
+            $failed = array_merge($failed, $result['failed']);
+            $savedAny = $savedAny || $result['saved'] > 0;
+        }
+        if ($savedAny) {
+            gibbonConnectRecalculateAcademicAlert($pdo, $schoolYearID, $studentID);
+        }
+        echo json_encode([
+            'success' => empty($failed),
+            'saved' => $saved,
+            'failed' => $failed,
+            'message' => empty($failed)
+                ? 'Your request was completed successfully.'
+                : 'Your request was successful, but some data was not properly saved.',
+        ]);
+        exit;
+    }
 
     // ── ENTRY COLUMN: everything the entry form shows for one column ──────
     if ($action === 'entry_column') {
-        $hasAttainment = $column['attainment'] == 'Y';
-        $hasRawAttainment = $hasAttainment && $column['attainmentRaw'] == 'Y' && !empty($column['attainmentRawMax']) && $enableRawAttainment == 'Y';
-        // Core's form shows the effort dropdown whenever the column has effort
-        // on (the process then ignores it if enableEffort is off). Show it
-        // only when it will actually be saved.
-        $hasEffort = $column['effort'] == 'Y' && $enableEffort == 'Y';
-        $hasComment = $column['comment'] == 'Y';
-
-        $attainmentName = gibbonConnectSetting($pdo, 'Markbook', 'attainmentAlternativeName');
-        $attainmentAbbrev = gibbonConnectSetting($pdo, 'Markbook', 'attainmentAlternativeNameAbrev');
-        $effortName = gibbonConnectSetting($pdo, 'Markbook', 'effortAlternativeName');
-        $effortAbbrev = gibbonConnectSetting($pdo, 'Markbook', 'effortAlternativeNameAbrev');
+        $fields = gibbonConnectColumnFields($pdo, $column, $fieldSettings);
 
         $students = gibbonConnectEntryStudents($pdo, $classID, $columnID, $schoolYearID);
 
@@ -460,28 +1078,9 @@ try {
                 'viewableStudents' => $column['viewableStudents'],
                 'viewableParents' => $column['viewableParents'],
             ],
-            'attainment' => !$hasAttainment ? null : [
-                'name' => ($attainmentName !== '' && $attainmentAbbrev !== '') ? $attainmentName : 'Attainment',
-                'abbrev' => ($attainmentName !== '' && $attainmentAbbrev !== '') ? $attainmentAbbrev : 'Att',
-                'scaleName' => $column['scaleNameAttainment'],
-                'usage' => $column['usageAttainment'],
-                'grades' => gibbonConnectScaleGrades($pdo, $column['gibbonScaleIDAttainment']),
-                'raw' => $hasRawAttainment,
-                'rawMax' => $hasRawAttainment ? (float) $column['attainmentRawMax'] : null,
-                // Core's script turns a raw mark into a percentage grade only
-                // for scales whose name contains "percent".
-                'percentScale' => $hasRawAttainment && stripos((string) $column['scaleNameAttainment'], 'percent') !== false,
-                'rubric' => !empty($column['gibbonRubricIDAttainment']) && $enableRubrics == 'Y',
-            ],
-            'effort' => !$hasEffort ? null : [
-                'name' => ($effortName !== '' && $effortAbbrev !== '') ? $effortName : 'Effort',
-                'abbrev' => ($effortName !== '' && $effortAbbrev !== '') ? $effortAbbrev : 'Eff',
-                'scaleName' => $column['scaleNameEffort'],
-                'usage' => $column['usageEffort'],
-                'grades' => gibbonConnectScaleGrades($pdo, $column['gibbonScaleIDEffort']),
-                'rubric' => !empty($column['gibbonRubricIDEffort']) && $enableRubrics == 'Y',
-            ],
-            'comment' => $hasComment,
+            'attainment' => $fields['attainment'],
+            'effort' => $fields['effort'],
+            'comment' => $fields['comment'],
             'uploadedResponse' => $column['uploadedResponse'] == 'Y',
             'modifiedAssessment' => $enableModifiedAssessment == 'Y',
             'hasTarget' => $hasTarget,
@@ -523,220 +1122,10 @@ try {
             exit;
         }
 
-        $attainment = $column['attainment'];
-        $gibbonScaleIDAttainment = $column['gibbonScaleIDAttainment'] ?? '';
-        if ($enableEffort != 'Y') {
-            $effort = 'N';
-            $gibbonScaleIDEffort = '';
-        } else {
-            $effort = $column['effort'] ?? '';
-            $gibbonScaleIDEffort = $column['gibbonScaleIDEffort'] ?? '';
-        }
-        $comment = $column['comment'] ?? '';
-        $hasRawAttainment = $attainment == 'Y' && $column['attainmentRaw'] == 'Y' && !empty($column['attainmentRawMax']) && $enableRawAttainment == 'Y';
-        $gibbonScaleIDTarget = $column['gibbonScaleIDTarget'] ?? '';
-        $lowestAcceptableAttainment = $column['lowestAcceptableAttainment'] ?? '';
-        $lowestAcceptableEffort = $column['lowestAcceptableEffort'] ?? '';
-
-        // Grade lookups by value, for descriptor / sequence (core queries
-        // gibbonScaleGrade per student; one load per scale gives the same rows).
-        $attainmentGrades = [];
-        foreach (gibbonConnectScaleGrades($pdo, $gibbonScaleIDAttainment) as $g) {
-            $attainmentGrades[(string) $g['value']] = $g;
-        }
-        $effortGrades = [];
-        foreach (gibbonConnectScaleGrades($pdo, $gibbonScaleIDEffort) as $g) {
-            $effortGrades[(string) $g['value']] = $g;
-        }
-
-        // Only students on the entry form may be written.
-        $allowed = [];
-        foreach (gibbonConnectEntryStudents($pdo, $classID, $columnID, $schoolYearID) as $s) {
-            $allowed[(int) $s['gibbonPersonID']] = $s;
-        }
-
-        $inStudents = [];
-        if ($enableModifiedAssessment == 'Y' && !empty($allowed)) {
-            $ids = array_keys($allowed);
-            $placeholders = implode(',', array_fill(0, count($ids), '?'));
-            $inStmt = $pdo->prepare("SELECT DISTINCT gibbonPersonID FROM gibbonINPersonDescriptor WHERE gibbonPersonID IN ($placeholders)");
-            $inStmt->execute($ids);
-            $inStudents = array_flip(array_map('intval', $inStmt->fetchAll(PDO::FETCH_COLUMN)));
-        }
-
-        $targetStmt = $pdo->prepare("
-            SELECT gibbonScaleGrade.value, gibbonScaleGrade.sequenceNumber
-            FROM gibbonMarkbookTarget
-            JOIN gibbonScaleGrade ON (gibbonMarkbookTarget.gibbonScaleGradeID = gibbonScaleGrade.gibbonScaleGradeID)
-            WHERE gibbonMarkbookTarget.gibbonCourseClassID = ? AND gibbonMarkbookTarget.gibbonPersonIDStudent = ?
-        ");
-        $existingStmt = $pdo->prepare("SELECT * FROM gibbonMarkbookEntry WHERE gibbonMarkbookColumnID = ? AND gibbonPersonIDStudent = ? LIMIT 1");
-        $insertStmt = $pdo->prepare("
-            INSERT INTO gibbonMarkbookEntry SET gibbonMarkbookColumnID = :gibbonMarkbookColumnID, gibbonPersonIDStudent = :gibbonPersonIDStudent,
-                modifiedAssessment = :modifiedAssessment, attainmentValue = :attainmentValue, attainmentValueRaw = :attainmentValueRaw,
-                attainmentDescriptor = :attainmentDescriptor, attainmentConcern = :attainmentConcern, effortValue = :effortValue,
-                effortDescriptor = :effortDescriptor, effortConcern = :effortConcern, comment = :comment,
-                gibbonPersonIDLastEdit = :gibbonPersonIDLastEdit, response = :attachment
-        ");
-        $updateStmt = $pdo->prepare("
-            UPDATE gibbonMarkbookEntry SET modifiedAssessment = :modifiedAssessment, attainmentValue = :attainmentValue,
-                attainmentValueRaw = :attainmentValueRaw, attainmentDescriptor = :attainmentDescriptor,
-                attainmentConcern = :attainmentConcern, effortValue = :effortValue, effortDescriptor = :effortDescriptor,
-                effortConcern = :effortConcern, comment = :comment, gibbonPersonIDLastEdit = :gibbonPersonIDLastEdit,
-                response = :attachment
-            WHERE gibbonMarkbookEntryID = :gibbonMarkbookEntryID
-        ");
-
-        $saved = 0;
-        $failed = [];
-        $savedStudentIDs = [];
-
-        foreach ($entries as $entryIn) {
-            $studentID = (int) ($entryIn['personID'] ?? 0);
-            if (!isset($allowed[$studentID])) {
-                $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'message' => 'Not a student in this class'];
-                continue;
-            }
-            $current = $allowed[$studentID];
-
-            $existingStmt->execute([$columnID, $studentID]);
-            $existing = $existingStmt->fetch(PDO::FETCH_ASSOC) ?: [];
-
-            // Field from the app, or the saved value when the app left it out.
-            $field = function (string $key) use ($entryIn, $existing) {
-                if (array_key_exists($key, $entryIn)) {
-                    return $entryIn[$key] === null ? '' : trim((string) $entryIn[$key]);
-                }
-                return $existing[$key] ?? '';
-            };
-
-            // Modified assessment
-            if ($enableModifiedAssessment != 'Y') {
-                $modifiedAssessment = null;
-            } elseif (isset($inStudents[$studentID]) || $current['modifiedAssessment'] !== null) {
-                if (array_key_exists('modifiedAssessment', $entryIn)) {
-                    $v = $entryIn['modifiedAssessment'];
-                    $modifiedAssessment = ($v === true || $v === 'Y' || $v === 1 || $v === '1') ? 'Y' : 'N';
-                } else {
-                    $modifiedAssessment = $existing['modifiedAssessment'] ?? 'N';
-                }
-            } else {
-                $modifiedAssessment = null; // core: checkbox not shown -> NULL
-            }
-
-            // Attainment
-            $attainmentDescriptor = null;
-            $attainmentConcern = null;
-            if ($attainment == 'N') {
-                $attainmentValue = null;
-                $attainmentValueRaw = null;
-            } elseif ($gibbonScaleIDAttainment == '') {
-                $attainmentValue = '';
-                $attainmentValueRaw = '';
-                $attainmentDescriptor = '';
-                $attainmentConcern = '';
-            } else {
-                $attainmentValue = $field('attainmentValue');
-                // Core posts the saved raw mark back as a hidden field when
-                // raw marks are off, so the stored value is kept.
-                $attainmentValueRaw = $hasRawAttainment ? $field('attainmentValueRaw') : ($existing['attainmentValueRaw'] ?? null);
-                if ($hasRawAttainment && $attainmentValueRaw !== '' && !is_numeric($attainmentValueRaw)) {
-                    $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'message' => 'Mark must be a number'];
-                    continue;
-                }
-                if ($attainmentValue !== '' && !isset($attainmentGrades[$attainmentValue])) {
-                    $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'message' => 'Grade is not on the scale'];
-                    continue;
-                }
-            }
-
-            // Effort
-            $effortDescriptor = null;
-            $effortConcern = null;
-            if ($effort == 'N') {
-                $effortValue = null;
-            } elseif ($gibbonScaleIDEffort == '') {
-                $effortValue = '';
-                $effortDescriptor = '';
-                $effortConcern = '';
-            } else {
-                $effortValue = $field('effortValue');
-                if ($effortValue !== '' && !isset($effortGrades[$effortValue])) {
-                    $failed[] = ['personID' => (string) ($entryIn['personID'] ?? ''), 'message' => 'Effort is not on the scale'];
-                    continue;
-                }
-            }
-
-            // Comment
-            $commentValue = $comment != 'Y' ? null : $field('comment');
-
-            // SET AND CALCULATE FOR ATTAINMENT
-            if ($attainment == 'Y' && $gibbonScaleIDAttainment != '') {
-                $targetStmt->execute([$classID, $studentID]);
-                $targets = $targetStmt->fetchAll(PDO::FETCH_ASSOC);
-
-                if ($personalisedWarnings == 'Y' && count($targets) == 1 && $attainmentValue != '' && $gibbonScaleIDAttainment == $gibbonScaleIDTarget) {
-                    // With personal warnings
-                    $attainmentConcern = 'N';
-                    $attainmentDescriptor = '';
-                    $grade = $attainmentGrades[$attainmentValue];
-                    if ($grade['sequenceNumber'] > $targets[0]['sequenceNumber']) {
-                        $attainmentConcern = 'Y';
-                        $attainmentDescriptor = sprintf('Below personalised target of %1$s', $targets[0]['value']);
-                    } else {
-                        $attainmentConcern = 'P';
-                        $attainmentDescriptor = sprintf('Equal to or above personalised target of %1$s', $targets[0]['value']);
-                    }
-                } else {
-                    // Without personal warnings
-                    $attainmentConcern = 'N';
-                    $attainmentDescriptor = '';
-                    if ($attainmentValue != '') {
-                        $grade = $attainmentGrades[$attainmentValue];
-                        $attainmentDescriptor = $grade['descriptor'];
-                        if ($lowestAcceptableAttainment != '' && $grade['sequenceNumber'] != '' && $grade['sequenceNumber'] > $lowestAcceptableAttainment) {
-                            $attainmentConcern = 'Y';
-                        }
-                    }
-                }
-            }
-
-            // SET AND CALCULATE FOR EFFORT
-            if ($effort == 'Y' && $gibbonScaleIDEffort != '') {
-                $effortConcern = 'N';
-                $effortDescriptor = '';
-                if ($effortValue != '') {
-                    $grade = $effortGrades[$effortValue];
-                    $effortDescriptor = $grade['descriptor'];
-                    if ($lowestAcceptableEffort != '' && $grade['sequenceNumber'] != '' && $grade['sequenceNumber'] > $lowestAcceptableEffort) {
-                        $effortConcern = 'Y';
-                    }
-                }
-            }
-
-            $data = [
-                'modifiedAssessment' => $modifiedAssessment,
-                'attainmentValue' => $attainmentValue,
-                'attainmentValueRaw' => $attainmentValueRaw,
-                'attainmentDescriptor' => $attainmentDescriptor,
-                'attainmentConcern' => $attainmentConcern,
-                'effortValue' => $effortValue,
-                'effortDescriptor' => $effortDescriptor,
-                'effortConcern' => $effortConcern,
-                'comment' => $commentValue,
-                'gibbonPersonIDLastEdit' => $personID,
-                // Uploaded responses are not handled in the app: keep what's there.
-                'attachment' => $existing['response'] ?? null,
-            ];
-
-            if (empty($existing)) {
-                $insertStmt->execute($data + ['gibbonMarkbookColumnID' => $columnID, 'gibbonPersonIDStudent' => $studentID]);
-            } else {
-                $updateStmt->execute($data + ['gibbonMarkbookEntryID' => $existing['gibbonMarkbookEntryID']]);
-            }
-            $saved++;
-            $savedStudentIDs[] = $studentID;
-        }
+        $result = gibbonConnectWriteColumnEntries($pdo, $column, $classID, $entries, $writeSettings, $schoolYearID, $personID);
+        $saved = $result['saved'];
+        $failed = $result['failed'];
+        $savedStudentIDs = $result['savedStudentIDs'];
 
         // Update column
         $pdo->prepare("UPDATE gibbonMarkbookColumn SET completeDate = ?, complete = ? WHERE gibbonMarkbookColumnID = ?")
