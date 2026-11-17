@@ -53,30 +53,48 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
     ");
 
+    // Username, or email address if what was typed contains an @ — the
+    // same match as Gibbon core's login (UserGateway::
+    // selectLoginDetailsByUsername, v30.0.02). Like core, an email shared
+    // by more than one account is refused with the ordinary "invalid
+    // credentials" message (core: MultipleMatches -> loginReturn=fail1),
+    // so a login never guesses which person was meant and never reveals
+    // that an address is in use. Core's "Unique Email Address" setting
+    // only affects adding/editing users, not this check.
     $stmt = $pdo->prepare("
         SELECT gibbonPersonID, firstName, surname, email, username,
                passwordStrong, passwordStrongSalt, status, canLogin,
                gibbonRoleIDPrimary, image_240
         FROM gibbonPerson
-        WHERE username = ? AND status = 'Full' AND canLogin = 'Y'
-        LIMIT 1
+        WHERE (username = ? OR (LOCATE('@', ?) > 0 AND email = ?))
+        AND status = 'Full'
+        LIMIT 2
     ");
-    $stmt->execute([$username]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    $stmt->execute([$username, $username, $username]);
+    $matches = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    if (count($matches) > 1) {
+        echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
+        exit;
+    }
+    $user = $matches[0] ?? null;
+
+    if ($user && $user['canLogin'] !== 'Y') {
+        echo json_encode(['success' => false, 'message' => 'Login not permitted for this account']);
+        exit;
+    }
 
     if (!$user) {
-        // Check if account exists but is inactive/locked
-        $checkStmt = $pdo->prepare("SELECT status, canLogin FROM gibbonPerson WHERE username = ? LIMIT 1");
-        $checkStmt->execute([$username]);
-        $check = $checkStmt->fetch(PDO::FETCH_ASSOC);
-        if ($check) {
-            if ($check['status'] !== 'Full') {
-                echo json_encode(['success' => false, 'message' => 'Account is not active']);
-            } elseif ($check['canLogin'] !== 'Y') {
-                echo json_encode(['success' => false, 'message' => 'Login not permitted for this account']);
-            } else {
-                echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
-            }
+        // Check if the account exists but is not active
+        $checkStmt = $pdo->prepare("
+            SELECT status FROM gibbonPerson
+            WHERE (username = ? OR (LOCATE('@', ?) > 0 AND email = ?))
+            LIMIT 2
+        ");
+        $checkStmt->execute([$username, $username, $username]);
+        $checks = $checkStmt->fetchAll(PDO::FETCH_ASSOC);
+        if (count($checks) === 1 && $checks[0]['status'] !== 'Full') {
+            echo json_encode(['success' => false, 'message' => 'Account is not active']);
         } else {
             echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
         }
