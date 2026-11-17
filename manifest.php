@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.14"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.16"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -173,6 +173,17 @@ $version     = "1.16.14"; // Tracks the Flutter app's marketing version (pubspec
                           // as a teacher (classes they teach) instead of returning
                           // nothing for custom-named roles. Released with app
                           // 1.16.15. No schema change.
+                          //
+                          // 1.16.16: (1.16.15 skipped so module and app match.)
+                          // Sign in with username or email, as Gibbon core does
+                          // (an email shared by several accounts is refused).
+                          // markbook_entry.php: entry_classes / entry_students /
+                          // entry_student / entry_save_student — enter marks by
+                          // student across their classes (not in core), each
+                          // class checked with MarkbookGate's rule, saves through
+                          // the same writer as the class page, never changes a
+                          // column's Go Live Date. Released with app 1.16.16.
+                          // No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
