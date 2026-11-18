@@ -18,6 +18,16 @@ Full details are in the [School Connect privacy policy](https://highpointedu.com
 - PHP with the cURL extension (or `allow_url_fopen` enabled)
 - HTTPS on your Gibbon site
 
+## Compatibility
+
+Keep the module up to date: each app release is built for a module version, listed below. An older module still works with a newer app, but features that need newer server code are hidden. In the app, **About & Privacy** shows the school's module version and the version the app is built for.
+
+| App | Built for module |
+|---|---|
+| 1.16.17 | 1.16.16 |
+| 1.16.16 | 1.16.16 |
+| 1.16.15 | 1.16.14 |
+
 ## Installation
 
 1. Download the latest `School-Connect-x.y.zz.zip` from [Releases](../../releases).
