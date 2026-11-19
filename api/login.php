@@ -53,6 +53,12 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
     ");
 
+    // Gibbon core's sign-in rules: fail count and lockout, Can Login on
+    // the person and the role, maintenance mode, View Logs entries. See
+    // login_rules.php.
+    require_once __DIR__ . '/login_rules.php';
+    $logMethod = 'School Connect';
+
     // Username, or email address if what was typed contains an @ — the
     // same match as Gibbon core's login (UserGateway::
     // selectLoginDetailsByUsername, v30.0.02). Like core, an email shared
@@ -60,11 +66,13 @@ try {
     // credentials" message (core: MultipleMatches -> loginReturn=fail1),
     // so a login never guesses which person was meant and never reveals
     // that an address is in use. Core's "Unique Email Address" setting
-    // only affects adding/editing users, not this check.
+    // only affects adding/editing users, not this check. Also like core,
+    // an account that isn't Full counts as not found, with the same
+    // message, so the app never reveals whether an account exists.
     $stmt = $pdo->prepare("
         SELECT gibbonPersonID, firstName, surname, email, username,
                passwordStrong, passwordStrongSalt, status, canLogin,
-               gibbonRoleIDPrimary, image_240
+               gibbonRoleIDPrimary, gibbonRoleIDAll, failCount, mfaSecret, image_240
         FROM gibbonPerson
         WHERE (username = ? OR (LOCATE('@', ?) > 0 AND email = ?))
         AND status = 'Full'
@@ -74,30 +82,15 @@ try {
     $matches = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     if (count($matches) > 1) {
+        gcLogLoginAttempt($pdo, null, 'Login - Failed', $username, $logMethod, 'Multiple users with the same username or email');
         echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
         exit;
     }
     $user = $matches[0] ?? null;
 
-    if ($user && $user['canLogin'] !== 'Y') {
-        echo json_encode(['success' => false, 'message' => 'Login not permitted for this account']);
-        exit;
-    }
-
     if (!$user) {
-        // Check if the account exists but is not active
-        $checkStmt = $pdo->prepare("
-            SELECT status FROM gibbonPerson
-            WHERE (username = ? OR (LOCATE('@', ?) > 0 AND email = ?))
-            LIMIT 2
-        ");
-        $checkStmt->execute([$username, $username, $username]);
-        $checks = $checkStmt->fetchAll(PDO::FETCH_ASSOC);
-        if (count($checks) === 1 && $checks[0]['status'] !== 'Full') {
-            echo json_encode(['success' => false, 'message' => 'Account is not active']);
-        } else {
-            echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
-        }
+        gcLogLoginAttempt($pdo, null, 'Login - Failed', $username, $logMethod, 'Username does not exist');
+        echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
         exit;
     }
 
@@ -105,13 +98,35 @@ try {
     $storedHash = $user['passwordStrong'] ?? '';
     $salt       = $user['passwordStrongSalt'] ?? '';
 
-    if (!empty($storedHash) && !empty($salt)) {
-        $computed = hash('sha256', $salt . $password);
-        $passwordValid = ($computed === $storedHash);
+    if (empty($storedHash) || empty($salt)) {
+        gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $username, $logMethod, 'Database login error');
+        echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
+        exit;
     }
 
+    $computed = hash('sha256', $salt . $password);
+    $passwordValid = hash_equals($storedHash, $computed);
+
     if (!$passwordValid) {
-        echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
+        // Core: wrong password adds 1; reaching 3 refuses as too many.
+        $failCount = gcRecordFailedLogin($pdo, $user);
+        if ($failCount >= 3) {
+            gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $username, $logMethod, 'Too many failed logins');
+            echo json_encode(['success' => false, 'message' => gcTooManyFailedLoginsMessage()]);
+        } else {
+            gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $username, $logMethod, 'Incorrect password');
+            echo json_encode(['success' => false, 'message' => 'Invalid credentials']);
+        }
+        exit;
+    }
+
+    $refusal = gcCheckLoginAccess($pdo, $user);
+    if ($refusal !== null) {
+        [$message, $reason] = $refusal;
+        if ($reason !== null) {
+            gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $username, $logMethod, $reason);
+        }
+        echo json_encode(['success' => false, 'message' => $message]);
         exit;
     }
 
@@ -123,6 +138,8 @@ try {
     [$licenseAllowed, $licenseData] = gibbonConnectCheckLicense($pdo);
 
     if (!$licenseAllowed) {
+        gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $username, $logMethod,
+            'School Connect licence: ' . ($licenseData['reason'] ?? 'not allowed'));
         echo json_encode([
             'success' => false,
             'message' => gibbonConnectLicenseMessage($licenseData),
@@ -177,6 +194,9 @@ try {
     if (isset($licenseData['trial_expires'])) {
         $responseUser['trialExpires'] = $licenseData['trial_expires'];
     }
+
+    gcRecordSuccessfulLogin($pdo, $user);
+    gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Success', $username, $logMethod);
 
     echo json_encode([
         'success' => true,

@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.16"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.17"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -184,6 +184,16 @@ $version     = "1.16.16"; // Tracks the Flutter app's marketing version (pubspec
                           // the same writer as the class page, never changes a
                           // column's Go Live Date. Released with app 1.16.16.
                           // No schema change.
+                          //
+                          // 1.16.17: The app's sign-ins (login.php, login_google.php)
+                          // follow Gibbon core's rules (login_rules.php): failCount
+                          // and lockout after 3 wrong passwords, with core's admin
+                          // notification; Can Login on the person and on the
+                          // primary role; maintenance mode; and every attempt in
+                          // View Logs with core's titles and reasons. Accounts with
+                          // two-step verification (mfaSecret) are refused, since the
+                          // app can't ask for the code. Works with app 1.16.17; no
+                          // app change needed. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
