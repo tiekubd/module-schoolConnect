@@ -27,6 +27,16 @@ if (empty($idToken)) {
 //
 // EDIT THIS: fill in each of your app's Client IDs from Google Cloud
 // Credentials (Web, iOS, and both Android entries — debug + release).
+//
+// The Android clients must use the Android package name
+// com.highpointedu.gibbon_connect (with the underscore; the iOS bundle ID is
+// com.highpointedu.gibbonconnect), and:
+//   - debug client: the SHA-1 of the debug key on the PC that runs
+//     `flutter run` (keytool on %USERPROFILE%\.android\debug.keystore)
+//   - release client: the SHA-1 of the APP SIGNING key in Play Console >
+//     Test and release > App integrity > Play app signing — NOT the upload
+//     key, because Google re-signs every Play build with the app signing key.
+// A mismatch gives ApiException 10 on the phone, before this file is called.
 $GOOGLE_VALID_CLIENT_IDS = [
     '154495470461-3v99e853rcb2iru9du3haue9lo707ll4.apps.googleusercontent.com', // Web
     '154495470461-qghpeo022rt3ngrmssen6q939dh3g5p9.apps.googleusercontent.com', // iOS
@@ -102,20 +112,40 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
     ");
 
+    // Gibbon core's sign-in rules: lockout, Can Login on the person and
+    // the role, maintenance mode, View Logs entries. See login_rules.php.
+    require_once __DIR__ . '/login_rules.php';
+    $logMethod = 'School Connect (Google)';
+
     // Match by email — same join key Gibbon's own OAuthGoogleAdapter uses
     // for its browser-based Google SSO flow, so behaviour stays consistent
-    // between the web login page and this mobile endpoint.
+    // between the web login page and this mobile endpoint. Like core, an
+    // email shared by more than one account is refused, and Can Login is
+    // checked after the match (gcCheckLoginAccess) so the refusal is
+    // logged with core's reason.
     $stmt = $pdo->prepare("
         SELECT gibbonPersonID, firstName, surname, email, username,
-               status, canLogin, gibbonRoleIDPrimary, image_240
+               status, canLogin, gibbonRoleIDPrimary, gibbonRoleIDAll,
+               failCount, mfaSecret, image_240
         FROM gibbonPerson
-        WHERE email = ? AND status = 'Full' AND canLogin = 'Y'
-        LIMIT 1
+        WHERE email = ? AND status = 'Full'
+        LIMIT 2
     ");
     $stmt->execute([$email]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    $matches = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+    if (count($matches) > 1) {
+        gcLogLoginAttempt($pdo, null, 'Login - Failed', $email, $logMethod, 'Multiple users with the same username or email');
+        echo json_encode([
+            'success' => false,
+            'message' => 'More than one account uses this Google email. Please sign in with your username.',
+        ]);
+        exit;
+    }
+    $user = $matches[0] ?? null;
 
     if (!$user) {
+        gcLogLoginAttempt($pdo, null, 'OAuth Login - Failed', $email, $logMethod, 'No matching email found');
         // Distinct message/code so the app can show a dedicated explanation
         // rather than a generic "login failed" — this almost always means
         // the Google account's email doesn't match any gibbonPerson.email,
@@ -128,6 +158,19 @@ try {
         exit;
     }
 
+    // No password with Google, so no count is added for a wrong one; an
+    // account already locked by failed password attempts stays locked here
+    // too, as in core.
+    $refusal = gcCheckLoginAccess($pdo, $user);
+    if ($refusal !== null) {
+        [$message, $reason] = $refusal;
+        if ($reason !== null) {
+            gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $email, $logMethod, $reason);
+        }
+        echo json_encode(['success' => false, 'message' => $message]);
+        exit;
+    }
+
     // ── License check ────────────────────────────────────────────────────────
     // Shared with login.php and session_check.php — see license.php. Sends only this
     // server's host name, caches an "allowed" answer for 24 hours on this
@@ -136,6 +179,8 @@ try {
     [$licenseAllowed, $licenseData] = gibbonConnectCheckLicense($pdo);
 
     if (!$licenseAllowed) {
+        gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Failed', $email, $logMethod,
+            'School Connect licence: ' . ($licenseData['reason'] ?? 'not allowed'));
         echo json_encode([
             'success' => false,
             'message' => gibbonConnectLicenseMessage($licenseData),
@@ -183,6 +228,9 @@ try {
     if (isset($licenseData['trial_expires'])) {
         $responseUser['trialExpires'] = $licenseData['trial_expires'];
     }
+
+    gcRecordSuccessfulLogin($pdo, $user);
+    gcLogLoginAttempt($pdo, $user['gibbonPersonID'], 'Login - Success', $email, $logMethod);
 
     echo json_encode([
         'success' => true,
