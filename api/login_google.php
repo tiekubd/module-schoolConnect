@@ -27,6 +27,16 @@ if (empty($idToken)) {
 //
 // EDIT THIS: fill in each of your app's Client IDs from Google Cloud
 // Credentials (Web, iOS, and both Android entries — debug + release).
+//
+// The Android clients must use the Android package name
+// com.highpointedu.gibbon_connect (with the underscore; the iOS bundle ID is
+// com.highpointedu.gibbonconnect), and:
+//   - debug client: the SHA-1 of the debug key on the PC that runs
+//     `flutter run` (keytool on %USERPROFILE%\.android\debug.keystore)
+//   - release client: the SHA-1 of the APP SIGNING key in Play Console >
+//     Test and release > App integrity > Play app signing — NOT the upload
+//     key, because Google re-signs every Play build with the app signing key.
+// A mismatch gives ApiException 10 on the phone, before this file is called.
 $GOOGLE_VALID_CLIENT_IDS = [
     '154495470461-3v99e853rcb2iru9du3haue9lo707ll4.apps.googleusercontent.com', // Web
     '154495470461-qghpeo022rt3ngrmssen6q939dh3g5p9.apps.googleusercontent.com', // iOS
