@@ -24,6 +24,7 @@ Keep the module up to date: each app release is built for a module version, list
 
 | App | Built for module |
 |---|---|
+| 1.16.18 | 1.16.18 |
 | 1.16.17 | 1.16.16 |
 | 1.16.16 | 1.16.16 |
 | 1.16.15 | 1.16.14 |
