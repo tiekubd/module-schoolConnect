@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': 'Niet beoordeeld',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Je verzoek is uitgevoerd.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Je verzoek is gelukt, maar sommige gegevens zijn niet goed opgeslagen.',   # app 1.16.13–1.16.17
+    'Attainment': 'Resultaat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Inzet',   # markbook field default names (app 1.16.18)
 }

@@ -40,7 +40,7 @@ msgstr "הוספת עוד"
 msgid "Add Participant"
 msgstr "הוספת משתתף"
 
-#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/markbook_entry_screen.dart:731
 #: lib/screens/student_marks_screen.dart:545
 msgid "Add a comment"
 msgstr "הוספת הערה"
@@ -683,12 +683,12 @@ msgstr "מחיקת משתמש"
 msgid "Developed by High Point Education"
 msgstr "פותח על ידי High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/markbook_entry_screen.dart:309
 #: lib/screens/student_marks_screen.dart:161
 msgid "Discard"
 msgstr "ביטול השינויים"
 
-#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/markbook_entry_screen.dart:305
 #: lib/screens/student_marks_screen.dart:157
 msgid "Discard changes?"
 msgstr "לבטל את השינויים?"
@@ -789,7 +789,7 @@ msgstr "ציונים, מאמץ והערות לקבוצות הלימוד שלך"
 msgid "Hidden from students and parents"
 msgstr "מוסתר מתלמידים ומהורים"
 
-#: lib/screens/markbook_entry_screen.dart:536
+#: lib/screens/markbook_entry_screen.dart:537
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "מוסתר מתלמידים ומהורים. ההגדרה נקבעת באתר Gibbon."
 
@@ -1194,7 +1194,7 @@ msgstr "עדיין לא רשום לאף קבוצת לימוד"
 msgid "Not reported: update the School Connect module"
 msgstr "אין נתונים: יש לעדכן את מודול School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/markbook_entry_screen.dart:638
 #: lib/screens/student_marks_screen.dart:435
 msgid "Not saved yet"
 msgstr "עדיין לא נשמר"
@@ -1253,13 +1253,13 @@ msgid "Other services you may see"
 msgstr "שירותים נוספים שעשויים להופיע"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:560
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "ההורים רואים את הציונים האלה (גלויים מאז {date}). מוסתרים מהתלמידים."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:558
+#: lib/screens/markbook_entry_screen.dart:559
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "ההורים יראו את הציונים האלה מ-{date}. מוסתרים מהתלמידים."
 
@@ -1587,23 +1587,23 @@ msgid "Student enrolled successfully"
 msgstr "התלמיד נרשם בהצלחה"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:551
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "תלמידים והורים רואים את הציונים האלה (גלויים מאז {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:549
+#: lib/screens/markbook_entry_screen.dart:550
 msgid "Students and parents will see these grades from {date}."
 msgstr "תלמידים והורים יראו את הציונים האלה מ-{date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:556
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "התלמידים רואים את הציונים האלה (גלויים מאז {date}). מוסתרים מההורים."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:554
+#: lib/screens/markbook_entry_screen.dart:555
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "התלמידים יראו את הציונים האלה מ-{date}. מוסתרים מההורים."
 
@@ -1651,7 +1651,7 @@ msgstr "נבדק היום ב-{time}. הקשה לצפייה או לשינוי"
 msgid "Tap to edit"
 msgstr "הקשה לעריכה"
 
-#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/markbook_entry_screen.dart:306
 #: lib/screens/student_marks_screen.dart:158
 msgid "The grades you entered have not been saved."
 msgstr "הציונים שהזנת לא נשמרו."
@@ -1662,7 +1662,7 @@ msgid ""
 msgstr "ההתחברות בתור משתמש אחר הסתיימה לאחר שעתיים. חזרת לחשבון שלך."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/markbook_entry_screen.dart:709
 #: lib/screens/student_marks_screen.dart:523
 msgid "The mark works out to {grade}"
 msgstr "זה שווה ל-{grade}"
@@ -1708,7 +1708,7 @@ msgid ""
 msgstr ""
 "קבוצת לימוד זו לא מתוכננת ל-{date}. במידת הצורך עדיין אפשר לשמור נוכחות."
 
-#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/markbook_entry_screen.dart:383
 #: lib/screens/student_marks_screen.dart:469
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "עמודה זו משתמשת במחוון. יש למלא את המחוון באתר Gibbon."
@@ -1789,16 +1789,16 @@ msgstr "לבטל את הרישום של {name} לשנת לימודים זו?"
 msgid "Unknown Year"
 msgstr "שנה לא ידועה"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "טרם ניתן ציון: ההורים עדיין לא רואים את הציונים האלה. מוסתרים מהתלמידים."
 
-#: lib/screens/markbook_entry_screen.dart:539
+#: lib/screens/markbook_entry_screen.dart:540
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "טרם ניתן ציון: תלמידים והורים עדיין לא רואים את הציונים האלה."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:541
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "טרם ניתן ציון: התלמידים עדיין לא רואים את הציונים האלה. מוסתרים מההורים."
@@ -2147,7 +2147,7 @@ msgstr[0] "עוד שיעור אחד אחרי זה · {total} היום"
 msgstr[1] "עוד {count} שיעורים אחרי זה · {total} היום"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/markbook_entry_screen.dart:374
 #: lib/screens/student_marks_screen.dart:343
 #: lib/screens/student_marks_screen.dart:377
 msgid "{count} not saved yet"
@@ -2162,7 +2162,7 @@ msgid "{count} of {total} saved"
 msgstr "נשמרו {count} מתוך {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:363
+#: lib/screens/markbook_entry_screen.dart:364
 msgid "{count} of {total} students saved"
 msgstr "נשמרו {count} מתוך {total} תלמידים"
 

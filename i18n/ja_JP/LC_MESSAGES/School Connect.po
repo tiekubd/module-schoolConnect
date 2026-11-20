@@ -38,7 +38,7 @@ msgstr "さらに追加"
 msgid "Add Participant"
 msgstr "参加者を追加"
 
-#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/markbook_entry_screen.dart:731
 #: lib/screens/student_marks_screen.dart:545
 msgid "Add a comment"
 msgstr "コメントを追加"
@@ -668,12 +668,12 @@ msgstr "ユーザーを削除"
 msgid "Developed by High Point Education"
 msgstr "開発：High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/markbook_entry_screen.dart:309
 #: lib/screens/student_marks_screen.dart:161
 msgid "Discard"
 msgstr "破棄"
 
-#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/markbook_entry_screen.dart:305
 #: lib/screens/student_marks_screen.dart:157
 msgid "Discard changes?"
 msgstr "変更を破棄しますか？"
@@ -773,7 +773,7 @@ msgstr "クラスの成績・努力・コメント"
 msgid "Hidden from students and parents"
 msgstr "生徒と保護者には非公開"
 
-#: lib/screens/markbook_entry_screen.dart:536
+#: lib/screens/markbook_entry_screen.dart:537
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "生徒と保護者には非公開。この設定は Gibbon のウェブサイトで行います。"
 
@@ -1172,7 +1172,7 @@ msgstr "まだどのクラスにも登録されていません"
 msgid "Not reported: update the School Connect module"
 msgstr "未報告：School Connect モジュールを更新してください"
 
-#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/markbook_entry_screen.dart:638
 #: lib/screens/student_marks_screen.dart:435
 msgid "Not saved yet"
 msgstr "未保存"
@@ -1228,13 +1228,13 @@ msgid "Other services you may see"
 msgstr "その他に表示されることがあるサービス"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:560
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "保護者はこの成績を見られます（{date}から公開中）。生徒には非公開。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:558
+#: lib/screens/markbook_entry_screen.dart:559
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "保護者は{date}からこの成績を見られます。生徒には非公開。"
 
@@ -1554,23 +1554,23 @@ msgid "Student enrolled successfully"
 msgstr "生徒を登録しました"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:551
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "生徒と保護者はこの成績を見られます（{date}から公開中）。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:549
+#: lib/screens/markbook_entry_screen.dart:550
 msgid "Students and parents will see these grades from {date}."
 msgstr "生徒と保護者は{date}からこの成績を見られます。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:556
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "生徒はこの成績を見られます（{date}から公開中）。保護者には非公開。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:554
+#: lib/screens/markbook_entry_screen.dart:555
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "生徒は{date}からこの成績を見られます。保護者には非公開。"
 
@@ -1618,7 +1618,7 @@ msgstr "本日 {time} に取得。タップして確認・変更"
 msgid "Tap to edit"
 msgstr "タップして編集"
 
-#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/markbook_entry_screen.dart:306
 #: lib/screens/student_marks_screen.dart:158
 msgid "The grades you entered have not been saved."
 msgstr "入力した成績は保存されていません。"
@@ -1629,7 +1629,7 @@ msgid ""
 msgstr "他のユーザーとしてのログインは2時間で終了しました。自分のアカウントに戻りました。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/markbook_entry_screen.dart:709
 #: lib/screens/student_marks_screen.dart:523
 msgid "The mark works out to {grade}"
 msgstr "換算すると {grade}"
@@ -1672,7 +1672,7 @@ msgid ""
 "needed."
 msgstr "このクラスは {date} に予定されていません。必要に応じて出欠を保存することはできます。"
 
-#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/markbook_entry_screen.dart:383
 #: lib/screens/student_marks_screen.dart:469
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "この列はルーブリックを使用しています。ルーブリックは Gibbon のウェブサイトで評価してください。"
@@ -1749,15 +1749,15 @@ msgstr "{name} のこの年度の登録を解除しますか？"
 msgid "Unknown Year"
 msgstr "不明な年度"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "未評価：保護者にはまだ表示されません。生徒には非公開。"
 
-#: lib/screens/markbook_entry_screen.dart:539
+#: lib/screens/markbook_entry_screen.dart:540
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "未評価：生徒と保護者にはまだ表示されません。"
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:541
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "未評価：生徒にはまだ表示されません。保護者には非公開。"
 
@@ -2081,7 +2081,7 @@ msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "このあと{count}コマ · 本日{total}コマ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/markbook_entry_screen.dart:374
 #: lib/screens/student_marks_screen.dart:343
 #: lib/screens/student_marks_screen.dart:377
 msgid "{count} not saved yet"
@@ -2095,7 +2095,7 @@ msgid "{count} of {total} saved"
 msgstr "{total}件中{count}件を保存"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:363
+#: lib/screens/markbook_entry_screen.dart:364
 msgid "{count} of {total} students saved"
 msgstr "{total}人中{count}人を保存"
 
@@ -2398,6 +2398,10 @@ msgstr "予備のメールアドレス"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Assessment"
 msgstr "評価"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attainment"
+msgstr "到達度"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Attendance"

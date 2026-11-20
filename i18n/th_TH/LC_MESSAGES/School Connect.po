@@ -40,7 +40,7 @@ msgstr "เพิ่มอีก"
 msgid "Add Participant"
 msgstr "เพิ่มผู้เข้าร่วม"
 
-#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/markbook_entry_screen.dart:731
 #: lib/screens/student_marks_screen.dart:545
 msgid "Add a comment"
 msgstr "เพิ่มความคิดเห็น"
@@ -678,12 +678,12 @@ msgstr "ลบผู้ใช้"
 msgid "Developed by High Point Education"
 msgstr "พัฒนาโดย High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/markbook_entry_screen.dart:309
 #: lib/screens/student_marks_screen.dart:161
 msgid "Discard"
 msgstr "ทิ้ง"
 
-#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/markbook_entry_screen.dart:305
 #: lib/screens/student_marks_screen.dart:157
 msgid "Discard changes?"
 msgstr "ทิ้งการเปลี่ยนแปลงหรือไม่?"
@@ -785,7 +785,7 @@ msgstr "คะแนน ความพยายาม และความค�
 msgid "Hidden from students and parents"
 msgstr "ซ่อนจากนักเรียนและผู้ปกครอง"
 
-#: lib/screens/markbook_entry_screen.dart:536
+#: lib/screens/markbook_entry_screen.dart:537
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "ซ่อนจากนักเรียนและผู้ปกครอง ตั้งค่านี้บนเว็บไซต์ Gibbon"
 
@@ -1192,7 +1192,7 @@ msgstr "ยังไม่ได้ลงทะเบียนกลุ่มเ
 msgid "Not reported: update the School Connect module"
 msgstr "ไม่มีข้อมูล: อัปเดตโมดูล School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/markbook_entry_screen.dart:638
 #: lib/screens/student_marks_screen.dart:435
 msgid "Not saved yet"
 msgstr "ยังไม่ได้บันทึก"
@@ -1252,13 +1252,13 @@ msgid "Other services you may see"
 msgstr "บริการอื่นที่คุณอาจพบ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:560
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "ผู้ปกครองเห็นคะแนนเหล่านี้ (แสดงตั้งแต่ {date}) ซ่อนจากนักเรียน"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:558
+#: lib/screens/markbook_entry_screen.dart:559
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "ผู้ปกครองจะเห็นคะแนนเหล่านี้ตั้งแต่ {date} ซ่อนจากนักเรียน"
 
@@ -1590,23 +1590,23 @@ msgid "Student enrolled successfully"
 msgstr "ลงทะเบียนนักเรียนสำเร็จ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:551
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "นักเรียนและผู้ปกครองเห็นคะแนนเหล่านี้ (แสดงตั้งแต่ {date})"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:549
+#: lib/screens/markbook_entry_screen.dart:550
 msgid "Students and parents will see these grades from {date}."
 msgstr "นักเรียนและผู้ปกครองจะเห็นคะแนนเหล่านี้ตั้งแต่ {date}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:556
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "นักเรียนเห็นคะแนนเหล่านี้ (แสดงตั้งแต่ {date}) ซ่อนจากผู้ปกครอง"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:554
+#: lib/screens/markbook_entry_screen.dart:555
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "นักเรียนจะเห็นคะแนนเหล่านี้ตั้งแต่ {date} ซ่อนจากผู้ปกครอง"
 
@@ -1654,7 +1654,7 @@ msgstr "เช็คชื่อวันนี้เมื่อ {time} แต�
 msgid "Tap to edit"
 msgstr "แตะเพื่อแก้ไข"
 
-#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/markbook_entry_screen.dart:306
 #: lib/screens/student_marks_screen.dart:158
 msgid "The grades you entered have not been saved."
 msgstr "คะแนนที่คุณป้อนยังไม่ได้บันทึก"
@@ -1667,7 +1667,7 @@ msgstr ""
 "คุณกลับมาที่บัญชีของคุณแล้ว"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/markbook_entry_screen.dart:709
 #: lib/screens/student_marks_screen.dart:523
 msgid "The mark works out to {grade}"
 msgstr "คิดเป็น {grade}"
@@ -1713,7 +1713,7 @@ msgid ""
 msgstr ""
 "กลุ่มเรียนนี้ไม่มีตารางในวันที่ {date} แต่ยังบันทึกการเช็คชื่อได้หากจำเป็น"
 
-#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/markbook_entry_screen.dart:383
 #: lib/screens/student_marks_screen.dart:469
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "คอลัมน์นี้ใช้รูบริก ให้คะแนนตามรูบริกบนเว็บไซต์ Gibbon"
@@ -1793,15 +1793,15 @@ msgstr "ยกเลิกการลงทะเบียนของ {name} �
 msgid "Unknown Year"
 msgstr "ไม่ทราบปี"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "ยังไม่ได้ให้คะแนน: ผู้ปกครองยังไม่เห็นคะแนนเหล่านี้ ซ่อนจากนักเรียน"
 
-#: lib/screens/markbook_entry_screen.dart:539
+#: lib/screens/markbook_entry_screen.dart:540
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "ยังไม่ได้ให้คะแนน: นักเรียนและผู้ปกครองยังไม่เห็นคะแนนเหล่านี้"
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:541
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "ยังไม่ได้ให้คะแนน: นักเรียนยังไม่เห็นคะแนนเหล่านี้ ซ่อนจากผู้ปกครอง"
 
@@ -2135,7 +2135,7 @@ msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "หลังจากนี้อีก {count} คาบ · วันนี้ทั้งหมด {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/markbook_entry_screen.dart:374
 #: lib/screens/student_marks_screen.dart:343
 #: lib/screens/student_marks_screen.dart:377
 msgid "{count} not saved yet"
@@ -2149,7 +2149,7 @@ msgid "{count} of {total} saved"
 msgstr "บันทึกแล้ว {count} จาก {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:363
+#: lib/screens/markbook_entry_screen.dart:364
 msgid "{count} of {total} students saved"
 msgstr "บันทึกแล้ว {count} จาก {total} คน"
 
@@ -2695,6 +2695,10 @@ msgstr "แก้ไขรายวิชา"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Staff"
 msgstr "แก้ไขบุคลากร"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Effort"
+msgstr "ความพยายาม"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Email"

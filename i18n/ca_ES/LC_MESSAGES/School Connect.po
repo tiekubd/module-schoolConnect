@@ -40,7 +40,7 @@ msgstr "Afegeix-ne més"
 msgid "Add Participant"
 msgstr "Afegeix un participant"
 
-#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/markbook_entry_screen.dart:731
 #: lib/screens/student_marks_screen.dart:545
 msgid "Add a comment"
 msgstr "Afegiu un comentari"
@@ -687,12 +687,12 @@ msgstr "Suprimeix l'usuari"
 msgid "Developed by High Point Education"
 msgstr "Desenvolupat per High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/markbook_entry_screen.dart:309
 #: lib/screens/student_marks_screen.dart:161
 msgid "Discard"
 msgstr "Descarta"
 
-#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/markbook_entry_screen.dart:305
 #: lib/screens/student_marks_screen.dart:157
 msgid "Discard changes?"
 msgstr "Voleu descartar els canvis?"
@@ -796,7 +796,7 @@ msgstr "Notes, esforç i comentaris de les vostres classes"
 msgid "Hidden from students and parents"
 msgstr "Ocult per a alumnes i responsables"
 
-#: lib/screens/markbook_entry_screen.dart:536
+#: lib/screens/markbook_entry_screen.dart:537
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 "Ocult per a alumnes i responsables. Això es configura al lloc web del "
@@ -1208,7 +1208,7 @@ msgstr "Encara no està matriculat a cap classe"
 msgid "Not reported: update the School Connect module"
 msgstr "Sense dades: actualitzeu el mòdul School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/markbook_entry_screen.dart:638
 #: lib/screens/student_marks_screen.dart:435
 msgid "Not saved yet"
 msgstr "Encara no desat"
@@ -1269,7 +1269,7 @@ msgid "Other services you may see"
 msgstr "Altres serveis que podeu veure"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:560
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
@@ -1277,7 +1277,7 @@ msgstr ""
 "Ocultes per als alumnes."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:558
+#: lib/screens/markbook_entry_screen.dart:559
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr ""
 "Els responsables veuran aquestes notes a partir del {date}. Ocultes per als "
@@ -1612,20 +1612,20 @@ msgid "Student enrolled successfully"
 msgstr "S'ha matriculat l'alumne"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:551
 msgid "Students and parents can see these grades (live since {date})."
 msgstr ""
 "Els alumnes i els responsables poden veure aquestes notes (visibles des del "
 "{date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:549
+#: lib/screens/markbook_entry_screen.dart:550
 msgid "Students and parents will see these grades from {date}."
 msgstr ""
 "Els alumnes i els responsables veuran aquestes notes a partir del {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:556
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
@@ -1633,7 +1633,7 @@ msgstr ""
 "per als responsables."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:554
+#: lib/screens/markbook_entry_screen.dart:555
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
 "Els alumnes veuran aquestes notes a partir del {date}. Ocultes per als "
@@ -1683,7 +1683,7 @@ msgstr "Llista passada avui a les {time}. Toqueu per revisar-la o canviar-la"
 msgid "Tap to edit"
 msgstr "Toqueu per editar"
 
-#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/markbook_entry_screen.dart:306
 #: lib/screens/student_marks_screen.dart:158
 msgid "The grades you entered have not been saved."
 msgstr "Les notes introduïdes no s’han desat."
@@ -1696,7 +1696,7 @@ msgstr ""
 " vostre compte."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/markbook_entry_screen.dart:709
 #: lib/screens/student_marks_screen.dart:523
 msgid "The mark works out to {grade}"
 msgstr "Equival a {grade}"
@@ -1744,7 +1744,7 @@ msgstr ""
 "Aquesta classe no està programada el {date}. Si cal, igualment podeu desar "
 "l'assistència."
 
-#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/markbook_entry_screen.dart:383
 #: lib/screens/student_marks_screen.dart:469
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
@@ -1828,19 +1828,19 @@ msgstr "Voleu donar de baixa {name} d’aquest curs escolar?"
 msgid "Unknown Year"
 msgstr "Curs desconegut"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "Sense qualificar: els responsables encara no veuen aquestes notes. Ocultes "
 "per als alumnes."
 
-#: lib/screens/markbook_entry_screen.dart:539
+#: lib/screens/markbook_entry_screen.dart:540
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr ""
 "Sense qualificar: els alumnes i els responsables encara no veuen aquestes "
 "notes."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:541
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "Sense qualificar: els alumnes encara no veuen aquestes notes. Ocultes per "
@@ -2196,7 +2196,7 @@ msgstr[0] "{count} classe més després · {total} avui"
 msgstr[1] "{count} classes més després · {total} avui"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/markbook_entry_screen.dart:374
 #: lib/screens/student_marks_screen.dart:343
 #: lib/screens/student_marks_screen.dart:377
 msgid "{count} not saved yet"
@@ -2211,7 +2211,7 @@ msgid "{count} of {total} saved"
 msgstr "{count} de {total} desats"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:363
+#: lib/screens/markbook_entry_screen.dart:364
 msgid "{count} of {total} students saved"
 msgstr "{count} de {total} alumnes desats"
 
@@ -2378,6 +2378,10 @@ msgstr "S’ha completat l’avaluació?"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Assistant"
 msgstr "Auxiliar"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attainment"
+msgstr "Assoliment"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Auto-Enrol Courses?"

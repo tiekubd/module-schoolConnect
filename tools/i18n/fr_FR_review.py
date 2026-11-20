@@ -14,6 +14,7 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'All Terms': 'Tous les trimestres',
  'Alternate Email': 'E-mail secondaire',
  'Assessment Complete?': 'Évaluation terminée ?',
+ 'Attainment': 'Résultat',
  'Auto-Enrol Courses?': 'Inscription automatique aux matières\u202f?',
  'Background Information': 'Informations de contexte',
  'CC Family?': 'Famille en copie\xa0?',

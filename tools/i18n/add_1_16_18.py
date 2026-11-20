@@ -59,7 +59,7 @@ A=['Kommentar hinzufügen', 'Alle, die ich benoten darf',
    '„Bewertung abgeschlossen?“ und das Freigabedatum gelten für die ganze Lerngruppe und werden deshalb auf der Seite der Lerngruppe festgelegt.',
    'Nach Lerngruppe', 'Nach Schüler/in', 'Lerngruppen, die ich unterrichte',
    'Spalten werden auf der Gibbon-Website angelegt und bearbeitet. Wählen Sie eine Spalte, um Noten einzutragen.',
-   'Verwerfen', 'Änderungen verwerfen?', 'Noten, Aufwand und Kommentare für Ihre Lerngruppen',
+   'Verwerfen', 'Änderungen verwerfen?', 'Noten, Einsatz und Kommentare für Ihre Lerngruppen',
    'Für Schüler/innen und Eltern verborgen', 'Für Schüler/innen und Eltern verborgen. Dies wird auf der Gibbon-Website festgelegt.',
    'Große Fotos', 'Sichtbar ab {date}', 'Sichtbar seit {date}', 'Meine Lerngruppen', 'Keine Spalten in diesem Zeitraum.',
    'Noch nicht gespeichert', 'Andere Lerngruppen',
@@ -339,7 +339,7 @@ A=['Adăugați un comentariu', 'Toți cei pe care îi pot nota',
    '„Evaluare completă?” și data publicării se aplică întregii grupe, de aceea se setează din pagina grupei.',
    'După grupă', 'După elev', 'Grupe la care predau',
    'Coloanele se creează și se editează pe site-ul Gibbon. Alegeți o coloană pentru a introduce notele.',
-   'Renunță', 'Renunțați la modificări?', 'Note, randament și comentarii pentru grupele dvs.',
+   'Renunță', 'Renunțați la modificări?', 'Note, efort și comentarii pentru grupele dvs.',
    'Ascuns pentru elevi și părinți', 'Ascuns pentru elevi și părinți. Setarea se face pe site-ul Gibbon.',
    'Fotografii mari', 'Vizibil de la {date}', 'Vizibil din {date}', 'Grupele mele', 'Nu există coloane în acest semestru.',
    'Nesalvat încă', 'Alte grupe',
@@ -837,3 +837,29 @@ if __name__ == '__main__':
             f = f.rstrip()[:-1] + ''.join(f'    {k!r}: {v!r},   # app 1.16.13–1.16.17\n' for k, v in add.items()) + '}\n'
             open(f'{L}_final.py', 'w', encoding='utf-8').write(f)
         print(L, 'ok', len(add), 'Gibbon strings set')
+
+# Second part (19 Nov 2026): the default field names "Attainment" and "Effort", which the
+# module sends untranslated and app 1.16.18 now passes to tr(). Several Gibbon translations
+# were wrong here (ca Atenció, tr Erişim = access, pl Przyrost wiedzy, ro Randament,
+# zh_HK 成就 for Effort), so each language gets the school word.
+AE = {
+    'de_DE': ('Leistung', 'Einsatz'), 'fr_FR': ('Résultat', 'Effort'), 'es_ES': ('Logro', 'Esfuerzo'),
+    'es_MX': ('Logro', 'Esfuerzo'), 'es_DO': ('Logro', 'Esfuerzo'), 'pt_BR': ('Resultado', 'Esforço'),
+    'pt_PT': ('Aproveitamento', 'Empenho'), 'it_IT': ('Profitto', 'Impegno'), 'nl_NL': ('Resultaat', 'Inzet'),
+    'ca_ES': ('Assoliment', 'Esforç'), 'ro_RO': ('Rezultat', 'Efort'), 'pl_PL': ('Osiągnięcia', 'Wysiłek'),
+    'uk_UA': ('Досягнення', 'Зусилля'), 'hr_HR': ('Postignuće', 'Trud'), 'lt_LT': ('Pasiekimai', 'Pastangos'),
+    'el_GR': ('Επίδοση', 'Προσπάθεια'), 'tr_TR': ('Başarı', 'Çaba'), 'ar_SA': ('التحصيل الدراسي', 'الجهد'),
+    'he_IL': ('הישג', 'מאמץ'), 'ur_PK': ('کارکردگی', 'کوشش'), 'ja_JP': ('到達度', '努力'),
+    'zh_CN': ('学业水平', '努力'), 'zh_HK': ('學業水平', '努力'), 'th_TH': ('ผลสัมฤทธิ์ทางการเรียน', 'ความพยายาม'),
+    'vi_VN': ('Kết quả học tập', 'Nỗ lực'), 'af_ZA': ('Prestasie', 'Poging'), 'sq_AL': ('Arritja', 'Përpjekja'),
+}
+
+def add_attainment_effort():
+    for L, (att, eff) in AE.items():
+        f = open(f'{L}_final.py', encoding='utf-8').read()
+        ns = {}; exec(f, ns); FINAL = ns['FINAL']
+        add = {k: v for k, v in (('Attainment', att), ('Effort', eff)) if FINAL.get(k) != v}
+        if add:
+            f = f.rstrip()[:-1] + ''.join(f'    {k!r}: {v!r},   # markbook field default names (app 1.16.18)\n' for k, v in add.items()) + '}\n'
+            open(f'{L}_final.py', 'w', encoding='utf-8').write(f)
+        print(L, 'Attainment/Effort', add)

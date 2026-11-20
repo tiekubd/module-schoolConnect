@@ -40,7 +40,7 @@ msgstr "Dodaj więcej"
 msgid "Add Participant"
 msgstr "Dodaj uczestnika"
 
-#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/markbook_entry_screen.dart:731
 #: lib/screens/student_marks_screen.dart:545
 msgid "Add a comment"
 msgstr "Dodaj komentarz"
@@ -697,12 +697,12 @@ msgstr "Usuń użytkownika"
 msgid "Developed by High Point Education"
 msgstr "Opracowane przez High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/markbook_entry_screen.dart:309
 #: lib/screens/student_marks_screen.dart:161
 msgid "Discard"
 msgstr "Odrzuć"
 
-#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/markbook_entry_screen.dart:305
 #: lib/screens/student_marks_screen.dart:157
 msgid "Discard changes?"
 msgstr "Odrzucić zmiany?"
@@ -806,7 +806,7 @@ msgstr "Oceny, wysiłek i komentarze dla Twoich zajęć"
 msgid "Hidden from students and parents"
 msgstr "Ukryte przed uczniami i rodzicami"
 
-#: lib/screens/markbook_entry_screen.dart:536
+#: lib/screens/markbook_entry_screen.dart:537
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 "Ukryte przed uczniami i rodzicami. Ustawia się to na stronie internetowej "
@@ -1217,7 +1217,7 @@ msgstr "Brak zapisów na zajęcia"
 msgid "Not reported: update the School Connect module"
 msgstr "Brak danych: zaktualizuj moduł School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/markbook_entry_screen.dart:638
 #: lib/screens/student_marks_screen.dart:435
 msgid "Not saved yet"
 msgstr "Jeszcze niezapisane"
@@ -1280,13 +1280,13 @@ msgid "Other services you may see"
 msgstr "Inne usługi, które możesz zobaczyć"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:560
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "Rodzice widzą te oceny (widoczne od {date}). Ukryte przed uczniami."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:558
+#: lib/screens/markbook_entry_screen.dart:559
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "Rodzice zobaczą te oceny od {date}. Ukryte przed uczniami."
 
@@ -1621,24 +1621,24 @@ msgid "Student enrolled successfully"
 msgstr "Uczeń został zapisany"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:551
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Uczniowie i rodzice widzą te oceny (widoczne od {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:549
+#: lib/screens/markbook_entry_screen.dart:550
 msgid "Students and parents will see these grades from {date}."
 msgstr "Uczniowie i rodzice zobaczą te oceny od {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:556
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
 "Uczniowie widzą te oceny (widoczne od {date}). Ukryte przed rodzicami."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:554
+#: lib/screens/markbook_entry_screen.dart:555
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "Uczniowie zobaczą te oceny od {date}. Ukryte przed rodzicami."
 
@@ -1686,7 +1686,7 @@ msgstr "Sprawdzono dziś o {time}. Dotknij, aby przejrzeć lub zmienić"
 msgid "Tap to edit"
 msgstr "Dotknij, aby edytować"
 
-#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/markbook_entry_screen.dart:306
 #: lib/screens/student_marks_screen.dart:158
 msgid "The grades you entered have not been saved."
 msgstr "Wpisane oceny nie zostały zapisane."
@@ -1699,7 +1699,7 @@ msgstr ""
 "powrotem na swoim koncie."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/markbook_entry_screen.dart:709
 #: lib/screens/student_marks_screen.dart:523
 msgid "The mark works out to {grade}"
 msgstr "Daje to ocenę {grade}"
@@ -1747,7 +1747,7 @@ msgstr ""
 "Te zajęcia nie są zaplanowane na {date}. W razie potrzeby nadal możesz "
 "zapisać frekwencję."
 
-#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/markbook_entry_screen.dart:383
 #: lib/screens/student_marks_screen.dart:469
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
@@ -1833,16 +1833,16 @@ msgstr "Wypisać {name} z tego roku szkolnego?"
 msgid "Unknown Year"
 msgstr "Nieznany rok"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "Bez oceny: rodzice jeszcze nie widzą tych ocen. Ukryte przed uczniami."
 
-#: lib/screens/markbook_entry_screen.dart:539
+#: lib/screens/markbook_entry_screen.dart:540
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Bez oceny: uczniowie i rodzice jeszcze nie widzą tych ocen."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:541
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "Bez oceny: uczniowie jeszcze nie widzą tych ocen. Ukryte przed rodzicami."
@@ -2224,7 +2224,7 @@ msgstr[2] "Potem jeszcze {count} lekcji · łącznie dziś: {total}"
 msgstr[3] "Potem jeszcze {count} lekcji · łącznie dziś: {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/markbook_entry_screen.dart:374
 #: lib/screens/student_marks_screen.dart:343
 #: lib/screens/student_marks_screen.dart:377
 msgid "{count} not saved yet"
@@ -2241,7 +2241,7 @@ msgid "{count} of {total} saved"
 msgstr "Zapisano: {count} z {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:363
+#: lib/screens/markbook_entry_screen.dart:364
 msgid "{count} of {total} students saved"
 msgstr "Zapisani uczniowie: {count} z {total}"
 
@@ -2568,6 +2568,10 @@ msgid "Alternate Email"
 msgstr "Alternatywny e-mail"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attainment"
+msgstr "Osiągnięcia"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Auto-Enrol Courses?"
 msgstr "Automatycznie zapisać na przedmioty?"
 
@@ -2758,6 +2762,10 @@ msgstr "Edytuj zapis"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Edit Staff"
 msgstr "Edytuj pracownika"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Effort"
+msgstr "Wysiłek"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Email"

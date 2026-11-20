@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': 'Not Verilmemiş',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'İsteğiniz başarıyla tamamlandı.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'İsteğiniz başarılı oldu, ancak bazı veriler düzgün şekilde kaydedilmedi.',   # app 1.16.13–1.16.17
+    'Attainment': 'Başarı',   # markbook field default names (app 1.16.18)
+    'Effort': 'Çaba',   # markbook field default names (app 1.16.18)
 }

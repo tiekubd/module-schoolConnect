@@ -420,4 +420,6 @@ FINAL = {
     'Unmarked': 'טרם ניתן ציון',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'בקשתך הושלמה בהצלחה.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'הבקשה בוצעה, אך חלק מהנתונים לא נשמרו כראוי.',   # app 1.16.13–1.16.17
+    'Attainment': 'הישג',   # markbook field default names (app 1.16.18)
+    'Effort': 'מאמץ',   # markbook field default names (app 1.16.18)
 }

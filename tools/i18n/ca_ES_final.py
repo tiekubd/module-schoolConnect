@@ -424,4 +424,6 @@ FINAL = {
     'Unmarked': 'Sense qualificar',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'La sol·licitud s’ha completat correctament.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'La sol·licitud s’ha completat, però algunes dades no s’han desat correctament.',   # app 1.16.13–1.16.17
+    'Attainment': 'Assoliment',   # markbook field default names (app 1.16.18)
+    'Effort': 'Esforç',   # markbook field default names (app 1.16.18)
 }

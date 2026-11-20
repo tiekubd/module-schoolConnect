@@ -18,6 +18,7 @@ MANUAL = {"Access data on family's children?": 'Πρόσβαση στα δεδο
  'All Learning Areas': 'Όλα τα γνωστικά αντικείμενα',
  'All Terms': 'Όλες οι περίοδοι',
  'Apply': 'Εφαρμογή',
+ 'Attainment': 'Επίδοση',
  'Auto-Enrol Courses?': 'Αυτόματη εγγραφή σε μαθήματα;',
  'Before Start Date': 'Πριν την ημερομηνία έναρξης',
  'Biography': 'Βιογραφικό',

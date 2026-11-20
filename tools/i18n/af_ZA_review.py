@@ -13,6 +13,7 @@ MANUAL = {"Access data on family's children?": 'Toegang tot die gesin se kinders
  'All Students': 'Alle leerders',
  'All Terms': 'Alle kwartale',
  'Apply': 'Pas toe',
+ 'Attainment': 'Prestasie',
  'Auto-Enrol Courses?': 'Skryf outomaties vir vakke in?',
  'Before Start Date': 'Voor begindatum',
  'CC Family?': 'Afskrif aan gesin?',

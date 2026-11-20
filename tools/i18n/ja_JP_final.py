@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': '未評価',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': '要求が完了しました。',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': '要求は完了しましたが、一部のデータが正しく保存されませんでした。',   # app 1.16.13–1.16.17
+    'Attainment': '到達度',   # markbook field default names (app 1.16.18)
+    'Effort': '努力',   # markbook field default names (app 1.16.18)
 }

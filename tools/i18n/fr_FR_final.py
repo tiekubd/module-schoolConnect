@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': 'Pas encore noté',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Votre demande a été traitée avec succès.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Votre demande a abouti, mais certaines données n’ont pas été enregistrées correctement.',   # app 1.16.13–1.16.17
+    'Attainment': 'Résultat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Effort',   # markbook field default names (app 1.16.18)
 }

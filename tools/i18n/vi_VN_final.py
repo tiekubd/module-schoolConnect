@@ -425,4 +425,6 @@ FINAL = {
     'Unmarked': 'Chưa chấm',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Yêu cầu của bạn đã hoàn thành.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Yêu cầu của bạn đã thực hiện, nhưng một số dữ liệu không được lưu đúng cách.',   # app 1.16.13–1.16.17
+    'Attainment': 'Kết quả học tập',   # markbook field default names (app 1.16.18)
+    'Effort': 'Nỗ lực',   # markbook field default names (app 1.16.18)
 }

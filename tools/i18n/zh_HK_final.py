@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': '未評分',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': '你的要求已成功完成。',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': '你的要求已完成，但部分數據未能正確儲存。',   # app 1.16.13–1.16.17
+    'Attainment': '學業水平',   # markbook field default names (app 1.16.18)
+    'Effort': '努力',   # markbook field default names (app 1.16.18)
 }

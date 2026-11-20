@@ -431,4 +431,6 @@ FINAL = {
     'Unmarked': 'لم تُرصد',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'تم إكمال طلبك بنجاح.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'تم تنفيذ طلبك، لكن لم تُحفظ بعض البيانات بشكل صحيح.',   # app 1.16.13–1.16.17
+    'Attainment': 'التحصيل الدراسي',   # markbook field default names (app 1.16.18)
+    'Effort': 'الجهد',   # markbook field default names (app 1.16.18)
 }

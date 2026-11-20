@@ -423,4 +423,6 @@ FINAL = {
     'Unmarked': 'ยังไม่ได้ให้คะแนน',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'คำขอของคุณเสร็จสมบูรณ์แล้ว',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'คำขอของคุณสำเร็จ แต่ข้อมูลบางส่วนไม่ได้บันทึกอย่างถูกต้อง',   # app 1.16.13–1.16.17
+    'Attainment': 'ผลสัมฤทธิ์ทางการเรียน',   # markbook field default names (app 1.16.18)
+    'Effort': 'ความพยายาม',   # markbook field default names (app 1.16.18)
 }

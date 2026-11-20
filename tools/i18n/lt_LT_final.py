@@ -424,4 +424,6 @@ FINAL = {
     'Unmarked': 'Neįvertinta',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Jūsų užklausa sėkmingai įvykdyta.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Jūsų užklausa įvykdyta, tačiau kai kurie duomenys nebuvo tinkamai išsaugoti.',   # app 1.16.13–1.16.17
+    'Attainment': 'Pasiekimai',   # markbook field default names (app 1.16.18)
+    'Effort': 'Pastangos',   # markbook field default names (app 1.16.18)
 }

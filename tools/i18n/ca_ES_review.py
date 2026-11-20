@@ -15,6 +15,7 @@ MANUAL = {"Access data on family's children?": 'Accés a les dades dels fills de
  'Assessment': 'Avaluació',
  'Assessment Complete?': 'S’ha completat l’avaluació?',
  'Assistant': 'Auxiliar',
+ 'Attainment': 'Assoliment',
  'Auto-Enrol Courses?': 'Matricular automàticament a les matèries?',
  'Background Information': 'Informació de context',
  'By Form Group': 'Per grup classe',

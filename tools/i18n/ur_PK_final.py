@@ -425,4 +425,6 @@ FINAL = {
     'Unmarked': 'نمبر نہیں لگے',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'آپ کی درخواست کامیابی سے مکمل ہو گئی۔',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'آپ کی درخواست کامیاب رہی، لیکن کچھ ڈیٹا ٹھیک سے محفوظ نہیں ہوا۔',   # app 1.16.13–1.16.17
+    'Attainment': 'کارکردگی',   # markbook field default names (app 1.16.18)
+    'Effort': 'کوشش',   # markbook field default names (app 1.16.18)
 }

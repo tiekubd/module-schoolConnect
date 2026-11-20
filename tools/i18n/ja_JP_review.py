@@ -26,6 +26,7 @@ MANUAL = {"Access data on family's children?": '家族の子どものデータ�
  'All Terms': 'すべての学期',
  'Alternate Email': '予備のメールアドレス',
  'Assessment': '評価',
+ 'Attainment': '到達度',
  'Attendance': '出欠',
  'Auto-Enrol Courses?': '科目に自動登録しますか？',
  'Basic Information': '基本情報',

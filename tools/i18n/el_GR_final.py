@@ -423,4 +423,6 @@ FINAL = {
     'Unmarked': 'Αβαθμολόγητο',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Το αίτημά σας ολοκληρώθηκε επιτυχώς.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Το αίτημά σας ολοκληρώθηκε, αλλά ορισμένα δεδομένα δεν αποθηκεύτηκαν σωστά.',   # app 1.16.13–1.16.17
+    'Attainment': 'Επίδοση',   # markbook field default names (app 1.16.18)
+    'Effort': 'Προσπάθεια',   # markbook field default names (app 1.16.18)
 }

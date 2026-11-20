@@ -429,4 +429,6 @@ FINAL = {
     'Unmarked': 'Nenotat',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Cererea dvs. a fost finalizată cu succes.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Cererea a reușit, dar unele date nu au fost salvate corect.',   # app 1.16.13–1.16.17
+    'Attainment': 'Rezultat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Efort',   # markbook field default names (app 1.16.18)
 }

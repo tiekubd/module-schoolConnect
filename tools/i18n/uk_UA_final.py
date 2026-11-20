@@ -421,4 +421,6 @@ FINAL = {
     'Unmarked': 'Не оцінено',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Ваш запит успішно виконано.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Запит виконано, але деякі дані не збережено належним чином.',   # app 1.16.13–1.16.17
+    'Attainment': 'Досягнення',   # markbook field default names (app 1.16.18)
+    'Effort': 'Зусилля',   # markbook field default names (app 1.16.18)
 }

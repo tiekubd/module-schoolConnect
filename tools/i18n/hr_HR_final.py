@@ -426,4 +426,6 @@ FINAL = {
     'Unmarked': 'Neocijenjeno',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Vaš zahtjev je uspješno izvršen.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Vaš zahtjev je bio uspješan, ali dio podataka nije ispravno spremljen.',   # app 1.16.13–1.16.17
+    'Attainment': 'Postignuće',   # markbook field default names (app 1.16.18)
+    'Effort': 'Trud',   # markbook field default names (app 1.16.18)
 }

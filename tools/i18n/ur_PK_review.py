@@ -20,6 +20,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Alternate Email': 'متبادل ای میل',
  'Assessment': 'جائزہ',
  'Assistant': 'معاون',
+ 'Attainment': 'کارکردگی',
  'Auto-Enrol Courses?': 'مضامین میں خودکار داخلہ؟',
  'Biography': 'سوانح',
  'CC Family?': 'خاندان کو کاپی؟',

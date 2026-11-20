@@ -424,4 +424,6 @@ FINAL = {
     'Unmarked': 'Pa vlerësuar',   # app 1.16.13–1.16.17
     'Your request was completed successfully.': 'Kërkesa juaj u krye me sukses.',   # app 1.16.13–1.16.17
     'Your request was successful, but some data was not properly saved.': 'Kërkesa juaj u krye, por disa të dhëna nuk u ruajtën si duhet.',   # app 1.16.13–1.16.17
+    'Attainment': 'Arritja',   # markbook field default names (app 1.16.18)
+    'Effort': 'Përpjekja',   # markbook field default names (app 1.16.18)
 }
