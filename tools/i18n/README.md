@@ -41,3 +41,11 @@ in every other language (it happened for app 1.16.13–1.16.17; caught up in mod
 4. Copy each `LANG/LC_MESSAGES/School Connect.po/.mo` into `i18n/LANG/LC_MESSAGES/`, check every string in
    `all.pot` resolves for every language, and release with the module. No app rebuild is needed: apps fetch
    the new translations from the school's server by themselves.
+
+## Known gap, planned for module 1.16.19: messages from the server
+About 150 `'message' => '…'` strings in `api/*.php` (mostly errors, e.g. "The selected record does not exist,
+or you do not have access to it.") reach the app in English and are shown as they are; only the few that are also
+Gibbon strings get translated. Plan: extend the extractor to collect them from `api/*.php` into the pot, have the
+app pass every server message through `tr()` (unknown text falls back to itself), and translate them in all
+languages. Messages before sign-in (login.php, login_google.php, school check, licence) stay English like the
+screens they appear on.
