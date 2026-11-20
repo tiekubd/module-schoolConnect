@@ -201,7 +201,10 @@ $version     = "1.16.18"; // Tracks the Flutter app's marketing version (pubspec
                           // of the 15 Gibbon strings those screens use. Apps fetch
                           // the new text by themselves. Also the default Markbook
                           // field names Attainment and Effort (shown translated from
-                          // app 1.16.18). No schema change.
+                          // app 1.16.18). Attendance saved from the app is now
+                          // also written to View Logs ("Attendance taken", Type
+                          // School Connect), so app and website registers can be
+                          // told apart. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
