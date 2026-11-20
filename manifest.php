@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.17"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.18"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -194,6 +194,12 @@ $version     = "1.16.17"; // Tracks the Flutter app's marketing version (pubspec
                           // two-step verification (mfaSecret) are refused, since the
                           // app can't ask for the code. Works with app 1.16.17; no
                           // app change needed. No schema change.
+                          //
+                          // 1.16.18: Translations for everything added in app
+                          // 1.16.13–1.16.17 (marks entry, Enter Marks, attendance
+                          // photos, About), in all 28 languages, including a review
+                          // of the 15 Gibbon strings those screens use. Apps fetch
+                          // the new text by themselves. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

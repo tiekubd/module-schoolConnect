@@ -411,4 +411,19 @@ FINAL = {
 'Tracking': 'Praćenje',
 'User Admin': 'Administrator korisnika',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Procjena dovršena?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Unesite ocjene',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Datum objave',   # app 1.16.13–1.16.17
+    'Mark': 'Bodovi',   # app 1.16.13–1.16.17
+    'Marked on': 'Ocijenjeno',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Prilagođena procjena',   # app 1.16.13–1.16.17
+    'My Students': 'Moji učenici',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Osobna ciljna ocjena',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Broj bodova',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Predani rad',   # app 1.16.13–1.16.17
+    'Target': 'Cilj',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Nema zapisa za prikaz.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Neocijenjeno',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Vaš zahtjev je uspješno izvršen.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Vaš zahtjev je bio uspješan, ali dio podataka nije ispravno spremljen.',   # app 1.16.13–1.16.17
 }

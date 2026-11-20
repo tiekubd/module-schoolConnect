@@ -416,4 +416,19 @@ FINAL = {
 'Tracking': '學習追蹤',
 'User Admin': '用戶管理員',
 '{count} min': '{count} 分鐘',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': '評估已完成？',   # app 1.16.13–1.16.17
+    'Enter Marks': '輸入成績',   # app 1.16.13–1.16.17
+    'Go Live Date': '發佈日期',   # app 1.16.13–1.16.17
+    'Mark': '分數',   # app 1.16.13–1.16.17
+    'Marked on': '評分日期',   # app 1.16.13–1.16.17
+    'Modified Assessment': '調適評估',   # app 1.16.13–1.16.17
+    'My Students': '我的學生',   # app 1.16.13–1.16.17
+    'Personalised target grade': '個人目標成績',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': '原始分',   # app 1.16.13–1.16.17
+    'Submitted Work': '已提交的功課',   # app 1.16.13–1.16.17
+    'Target': '目標',   # app 1.16.13–1.16.17
+    'There are no records to display.': '沒有紀錄可顯示。',   # app 1.16.13–1.16.17
+    'Unmarked': '未評分',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': '你的要求已成功完成。',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': '你的要求已完成，但部分數據未能正確儲存。',   # app 1.16.13–1.16.17
 }

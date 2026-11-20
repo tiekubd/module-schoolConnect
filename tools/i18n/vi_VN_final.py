@@ -410,4 +410,19 @@ FINAL = {
 'Tracking': 'Theo dõi',
 'User Admin': 'Quản trị Người dùng',
 '{count} min': '{count} phút',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Đánh giá đã hoàn thành?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Nhập điểm',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Ngày công bố',   # app 1.16.13–1.16.17
+    'Mark': 'Điểm số',   # app 1.16.13–1.16.17
+    'Marked on': 'Chấm ngày',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Đánh giá điều chỉnh',   # app 1.16.13–1.16.17
+    'My Students': 'Học sinh của tôi',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Điểm mục tiêu cá nhân',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Điểm thô',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Bài đã nộp',   # app 1.16.13–1.16.17
+    'Target': 'Mục tiêu',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Không có dữ liệu để hiển thị.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Chưa chấm',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Yêu cầu của bạn đã hoàn thành.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Yêu cầu của bạn đã thực hiện, nhưng một số dữ liệu không được lưu đúng cách.',   # app 1.16.13–1.16.17
 }

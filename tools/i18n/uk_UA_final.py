@@ -406,4 +406,19 @@ FINAL = {
 'Tracking': 'Відстеження',
 'User Admin': 'Керування користувачами',
 '{count} min': '{count} хв',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Оцінювання завершено?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Ввести оцінки',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Дата публікації',   # app 1.16.13–1.16.17
+    'Mark': 'Бали',   # app 1.16.13–1.16.17
+    'Marked on': 'Оцінено',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Адаптоване оцінювання',   # app 1.16.13–1.16.17
+    'My Students': 'Мої учні',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Індивідуальна цільова оцінка',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Кількість балів',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Здана робота',   # app 1.16.13–1.16.17
+    'Target': 'Ціль',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Немає записів для відображення.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Не оцінено',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Ваш запит успішно виконано.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Запит виконано, але деякі дані не збережено належним чином.',   # app 1.16.13–1.16.17
 }

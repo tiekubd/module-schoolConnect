@@ -416,4 +416,19 @@ FINAL = {
 'Tracking': 'تتبع التقدم',   # Gibbon: المتابعة, same as Follow Up
 'User Admin': 'إدارة المستخدمين',
 '{count} min': '{count} د',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'اكتمل التقييم؟',   # app 1.16.13–1.16.17
+    'Enter Marks': 'إدخال الدرجات',   # app 1.16.13–1.16.17
+    'Go Live Date': 'تاريخ النشر',   # app 1.16.13–1.16.17
+    'Mark': 'الدرجة الخام',   # app 1.16.13–1.16.17
+    'Marked on': 'رُصدت في',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'تقييم معدَّل',   # app 1.16.13–1.16.17
+    'My Students': 'طلابي',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'الدرجة المستهدفة الفردية',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'الدرجة الخام',   # app 1.16.13–1.16.17
+    'Submitted Work': 'العمل المسلَّم',   # app 1.16.13–1.16.17
+    'Target': 'الهدف',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'لا توجد سجلات لعرضها.',   # app 1.16.13–1.16.17
+    'Unmarked': 'لم تُرصد',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'تم إكمال طلبك بنجاح.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'تم تنفيذ طلبك، لكن لم تُحفظ بعض البيانات بشكل صحيح.',   # app 1.16.13–1.16.17
 }

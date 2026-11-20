@@ -408,4 +408,19 @@ FINAL = {
 'Tracking': 'การติดตาม',
 'User Admin': 'ตั้งค่าผู้ใช้',
 '{count} min': '{count} นาที',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'การประเมินเสร็จสมบูรณ์?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'ป้อนคะแนน',   # app 1.16.13–1.16.17
+    'Go Live Date': 'วันที่เผยแพร่',   # app 1.16.13–1.16.17
+    'Mark': 'คะแนนดิบ',   # app 1.16.13–1.16.17
+    'Marked on': 'ให้คะแนนเมื่อ',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'การประเมินที่ปรับให้เหมาะสม',   # app 1.16.13–1.16.17
+    'My Students': 'นักเรียนของฉัน',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'เกรดเป้าหมายรายบุคคล',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'คะแนนดิบ',   # app 1.16.13–1.16.17
+    'Submitted Work': 'งานที่ส่ง',   # app 1.16.13–1.16.17
+    'Target': 'เป้าหมาย',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'ไม่มีรายการที่จะแสดง',   # app 1.16.13–1.16.17
+    'Unmarked': 'ยังไม่ได้ให้คะแนน',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'คำขอของคุณเสร็จสมบูรณ์แล้ว',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'คำขอของคุณสำเร็จ แต่ข้อมูลบางส่วนไม่ได้บันทึกอย่างถูกต้อง',   # app 1.16.13–1.16.17
 }

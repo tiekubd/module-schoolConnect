@@ -655,7 +655,45 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'Attendance saved!': '¡Asistencia guardada!',
  'Class now: {class}': 'Clase actual: {class}',
  'Next class: {class}': 'Próxima clase: {class}',
- 'Left (user status)': 'Retirado'}
+ 'Left (user status)': 'Retirado',
+ 'Add a comment': 'Añadir un comentario',
+ 'All I can mark': 'Todos los que puedo calificar',
+ 'Assessment Complete and the Go Live Date apply to the whole class, so they are set from the class page.': '«¿Evaluación completa?» y la Fecha de Publicación se aplican a toda la clase, por eso se '
+                                                                                                            'configuran desde la página de la clase.',
+ 'By class': 'Por clase',
+ 'By student': 'Por estudiante',
+ 'Classes I teach': 'Clases que imparto',
+ 'Columns are created and edited on the Gibbon website. Choose a column to enter grades.': 'Las columnas se crean y se editan en el sitio web de Gibbon. Elija una columna para introducir '
+                                                                                           'calificaciones.',
+ 'Discard': 'Descartar',
+ 'Discard changes?': '¿Descartar los cambios?',
+ 'Grades, effort and comments for your classes': 'Calificaciones, esfuerzo y comentarios de sus clases',
+ 'Hidden from students and parents': 'Oculto para estudiantes y padres',
+ 'Hidden from students and parents. This is set on the Gibbon website.': 'Oculto para estudiantes y padres. Esto se configura en el sitio web de Gibbon.',
+ 'Large photos': 'Fotos grandes',
+ 'Live from {date}': 'Visible a partir del {date}',
+ 'Live since {date}': 'Visible desde el {date}',
+ 'My classes': 'Mis clases',
+ 'No columns in this term.': 'No hay columnas en este período.',
+ 'Not saved yet': 'Sin guardar',
+ 'Other classes': 'Otras clases',
+ 'Parents can see these grades (live since {date}). Hidden from students.': 'Los padres pueden ver estas calificaciones (visibles desde el {date}). Ocultas para los estudiantes.',
+ 'Parents will see these grades from {date}. Hidden from students.': 'Los padres verán estas calificaciones a partir del {date}. Ocultas para los estudiantes.',
+ 'Students and parents can see these grades (live since {date}).': 'Los estudiantes y los padres pueden ver estas calificaciones (visibles desde el {date}).',
+ 'Students and parents will see these grades from {date}.': 'Los estudiantes y los padres verán estas calificaciones a partir del {date}.',
+ 'Students can see these grades (live since {date}). Hidden from parents.': 'Los estudiantes pueden ver estas calificaciones (visibles desde el {date}). Ocultas para los padres.',
+ 'Students will see these grades from {date}. Hidden from parents.': 'Los estudiantes verán estas calificaciones a partir del {date}. Ocultas para los padres.',
+ 'The grades you entered have not been saved.': 'Las calificaciones introducidas no se han guardado.',
+ 'The mark works out to {grade}': 'Equivale a {grade}',
+ 'This app is built for module': 'Esta aplicación está diseñada para el módulo',
+ 'This column uses a rubric. Mark the rubric on the Gibbon website.': 'Esta columna usa una rúbrica. Califique la rúbrica en el sitio web de Gibbon.',
+ 'Unmarked: parents do not see these grades yet. Hidden from students.': 'Sin calificar: los padres aún no ven estas calificaciones. Ocultas para los estudiantes.',
+ 'Unmarked: students and parents do not see these grades yet.': 'Sin calificar: los estudiantes y los padres aún no ven estas calificaciones.',
+ 'Unmarked: students do not see these grades yet. Hidden from parents.': 'Sin calificar: los estudiantes aún no ven estas calificaciones. Ocultas para los padres.',
+ 'Update the School Connect module to {version} for all features.': 'Actualice el módulo School Connect a la versión {version} para usar todas las funciones.',
+ 'View photo': 'Ver foto',
+ '{count} of {total} saved': '{count} de {total} guardados',
+ '{count} of {total} students saved': '{count} de {total} estudiantes guardados'}
 
 P = {'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
  'Behaviour records saved for {count} student!': ('¡Registro de comportamiento guardado para {count} estudiante!', '¡Registros de comportamiento guardados para {count} estudiantes!'),
@@ -684,7 +722,9 @@ P = {'At least {count} character': ('Al menos {count} carácter', 'Al menos {cou
  '{count} class today': ('{count} clase hoy', '{count} clases hoy'),
  '{count} due': ('{count} por entregar', '{count} por entregar'),
  '{count} item': ('{count} elemento', '{count} elementos'),
- '{count} more class after this · {total} today': ('{count} clase más después de esta · {total} hoy', '{count} clases más después de esta · {total} hoy')}
+ '{count} more class after this · {total} today': ('{count} clase más después de esta · {total} hoy', '{count} clases más después de esta · {total} hoy'),
+ '{count} entered': ('{count} introducida', '{count} introducidas'),
+ '{count} not saved yet': ('{count} sin guardar', '{count} sin guardar')}
 
 EXTRA = {'Formative': 'Formativa', 'Not Classified': 'Sin clasificar', 'Present - Late': 'Presente - Tarde', 'Present - Offsite': 'Presente - Fuera del centro', 'Summative': 'Sumativa'}
 

@@ -19,7 +19,7 @@ msgstr ""
 msgid "A punctuation mark or space"
 msgstr "Un semn de punctuație sau un spațiu"
 
-#: lib/screens/about_screen.dart:217
+#: lib/screens/about_screen.dart:244
 msgid ""
 "A sign-in token, kept in the device's secure storage (iOS Keychain or "
 "Android Keystore)"
@@ -27,7 +27,7 @@ msgstr ""
 "Un token de autentificare, păstrat în spațiul de stocare securizat al "
 "dispozitivului (iOS Keychain sau Android Keystore)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Despre aplicație și confidențialitate"
@@ -39,6 +39,11 @@ msgstr "Adaugă mai multe"
 #: lib/screens/course_class_roster_screen.dart:247
 msgid "Add Participant"
 msgstr "Adaugă participant"
+
+#: lib/screens/markbook_entry_screen.dart:730
+#: lib/screens/student_marks_screen.dart:545
+msgid "Add a comment"
+msgstr "Adăugați un comentariu"
 
 #: lib/screens/student_homework_section.dart:280
 msgid "Add homework?"
@@ -60,6 +65,10 @@ msgstr "Stabilește ordinea materiilor în situațiile școlare."
 msgid "Adult settings updated"
 msgstr "Setările adultului au fost actualizate"
 
+#: lib/screens/enter_marks_screen.dart:219
+msgid "All I can mark"
+msgstr "Toți cei pe care îi pot nota"
+
 #: lib/screens/facility_list_screen.dart:163
 #: lib/screens/facility_list_screen.dart:177
 #: lib/screens/staff_directory_screen.dart:142
@@ -72,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Toți anii de studiu"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1000
+#: lib/screens/dashboard_screen.dart:1057
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Ora de azi s-a încheiat"
@@ -84,9 +93,17 @@ msgstr[2] "Toate cele {count} de ore de azi s-au încheiat"
 msgid "An uppercase and a lowercase letter"
 msgstr "O literă mare și una mică"
 
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:900
 msgid "App version, connected school and your data"
 msgstr "Versiunea aplicației, școala conectată și datele dvs."
+
+#: lib/screens/student_marks_screen.dart:350
+msgid ""
+"Assessment Complete and the Go Live Date apply to the whole class, so they "
+"are set from the class page."
+msgstr ""
+"„Evaluare completă?” și data publicării se aplică întregii grupe, de aceea "
+"se setează din pagina grupei."
 
 #: lib/screens/homework_calendar_screen.dart:205
 #: lib/screens/homework_calendar_screen.dart:255
@@ -111,12 +128,12 @@ msgstr[2] "Cel puțin {count} de caractere"
 msgid "Attendance This Year"
 msgstr "Prezența în acest an"
 
-#: lib/screens/dashboard_screen.dart:1061
+#: lib/screens/dashboard_screen.dart:1118
 msgid "Attendance not taken yet today"
 msgstr "Prezența nu a fost încă luată astăzi"
 
-#: lib/screens/attendance_screen.dart:134
-#: lib/screens/form_group_attendance_screen.dart:126
+#: lib/screens/attendance_screen.dart:137
+#: lib/screens/form_group_attendance_screen.dart:129
 msgid "Attendance saved!"
 msgstr "Prezența a fost salvată!"
 
@@ -132,7 +149,7 @@ msgstr[0] "Comportamentul a fost salvat pentru {count} elev!"
 msgstr[1] "Comportamentul a fost salvat pentru {count} elevi!"
 msgstr[2] "Comportamentul a fost salvat pentru {count} de elevi!"
 
-#: lib/screens/dashboard_screen.dart:797
+#: lib/screens/dashboard_screen.dart:844
 msgid "Browse staff profiles"
 msgstr "Răsfoiți profilurile personalului"
 
@@ -145,7 +162,15 @@ msgstr "După grupă"
 msgid "By Date"
 msgstr "După dată"
 
-#: lib/screens/about_screen.dart:261
+#: lib/screens/dashboard_screen.dart:1260
+msgid "By class"
+msgstr "După grupă"
+
+#: lib/screens/dashboard_screen.dart:1269
+msgid "By student"
+msgstr "După elev"
+
+#: lib/screens/about_screen.dart:288
 msgid ""
 "Camera and photos: only when you choose to attach a photo to a Data Updater "
 "request. The app asks first, and you can say no."
@@ -215,7 +240,11 @@ msgstr "Lista grupei"
 msgid "Class now: {class}"
 msgstr "Acum: {class}"
 
-#: lib/screens/about_screen.dart:89
+#: lib/screens/enter_marks_screen.dart:156
+msgid "Classes I teach"
+msgstr "Grupe la care predau"
+
+#: lib/screens/about_screen.dart:104
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
 msgstr ""
 "Faceți clic pe \"Actualizare\" lângă School Connect în Administrare sistem >"
@@ -224,6 +253,14 @@ msgstr ""
 #: lib/screens/join_virtual_class_button.dart:212
 msgid "Closed at"
 msgstr "Se închide la"
+
+#: lib/screens/markbook_columns_screen.dart:124
+msgid ""
+"Columns are created and edited on the Gibbon website. Choose a column to "
+"enter grades."
+msgstr ""
+"Coloanele se creează și se editează pe site-ul Gibbon. Alegeți o coloană "
+"pentru a introduce notele."
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_detail_screen.dart:358
@@ -242,11 +279,11 @@ msgstr "Numele scurt combinat are peste 16 caractere"
 msgid "Comma-separated list of email addresses"
 msgstr "Adrese de e-mail separate prin virgulă"
 
-#: lib/screens/user_edit_screen.dart:734
+#: lib/screens/user_edit_screen.dart:735
 msgid "Confirm Password *"
 msgstr "Confirmă parola *"
 
-#: lib/screens/about_screen.dart:149
+#: lib/screens/about_screen.dart:170
 msgid "Connected school"
 msgstr "Școala conectată"
 
@@ -259,11 +296,11 @@ msgid "Contact Info"
 msgstr "Date de contact"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_emergency_screen.dart:183
+#: lib/screens/student_emergency_screen.dart:209
 msgid "Contact {number} — not on record"
 msgstr "Contactul {number} — neînregistrat"
 
-#: lib/screens/about_screen.dart:242
+#: lib/screens/about_screen.dart:269
 msgid ""
 "Content in lessons: videos or images a teacher adds (for example YouTube) "
 "load from those sites when you open them"
@@ -331,8 +368,8 @@ msgstr "Nu s-a putut încărca materia"
 msgid "Could not load courses"
 msgstr "Nu s-au putut încărca materiile"
 
-#: lib/screens/attendance_screen.dart:118
-#: lib/screens/form_group_attendance_screen.dart:110
+#: lib/screens/attendance_screen.dart:121
+#: lib/screens/form_group_attendance_screen.dart:113
 msgid "Could not load data"
 msgstr "Nu s-au putut încărca datele"
 
@@ -365,7 +402,7 @@ msgid "Could not load families"
 msgstr "Nu s-au putut încărca familiile"
 
 #: lib/screens/family_detail_screen.dart:51
-#: lib/screens/student_family_screen.dart:61
+#: lib/screens/student_family_screen.dart:83
 msgid "Could not load family"
 msgstr "Nu s-a putut încărca familia"
 
@@ -417,7 +454,9 @@ msgstr "Nu s-a putut încărca lecția"
 msgid "Could not load lessons"
 msgstr "Nu s-au putut încărca lecțiile"
 
-#: lib/screens/class_markbook_screen.dart:50
+#: lib/screens/class_markbook_screen.dart:91
+#: lib/screens/enter_marks_screen.dart:64
+#: lib/screens/enter_marks_screen.dart:70
 msgid "Could not load markbook"
 msgstr "Nu s-a putut încărca catalogul"
 
@@ -498,9 +537,9 @@ msgstr "Nu s-a putut încărca personalul"
 msgid "Could not load staff data"
 msgstr "Nu s-au putut încărca datele angajatului"
 
+#: lib/screens/enter_marks_screen.dart:90
+#: lib/screens/enter_marks_screen.dart:97
 #: lib/screens/form_group_detail_screen.dart:89
-#: lib/screens/student_search_screen.dart:99
-#: lib/screens/students_screen.dart:66
 msgid "Could not load students"
 msgstr "Nu s-au putut încărca elevii"
 
@@ -546,14 +585,14 @@ msgstr "Eliminarea nu a reușit"
 msgid "Could not reset password"
 msgstr "Resetarea parolei nu a reușit"
 
-#: lib/screens/attendance_screen.dart:134
+#: lib/screens/attendance_screen.dart:137
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Salvarea nu a reușit"
 
-#: lib/screens/attendance_screen.dart:144
-#: lib/screens/form_group_attendance_screen.dart:136
+#: lib/screens/attendance_screen.dart:147
+#: lib/screens/form_group_attendance_screen.dart:139
 msgid "Could not save attendance"
 msgstr "Salvarea prezenței nu a reușit"
 
@@ -607,7 +646,7 @@ msgstr "Prioritate la suplinire"
 msgid "Create linked staff record"
 msgstr "Creează fișa de angajat asociată"
 
-#: lib/screens/user_edit_screen.dart:685
+#: lib/screens/user_edit_screen.dart:686
 msgid "Create linked student enrolment"
 msgstr "Creează înscrierea de elev asociată"
 
@@ -615,7 +654,7 @@ msgstr "Creează înscrierea de elev asociată"
 msgid "Current year"
 msgstr "Anul curent"
 
-#: lib/screens/dashboard_screen.dart:380
+#: lib/screens/dashboard_screen.dart:401
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Acasă"
@@ -650,9 +689,19 @@ msgstr "Șterge ziua specială"
 msgid "Delete User"
 msgstr "Șterge utilizatorul"
 
-#: lib/screens/about_screen.dart:170
+#: lib/screens/about_screen.dart:197
 msgid "Developed by High Point Education"
 msgstr "Dezvoltat de High Point Education"
+
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:161
+msgid "Discard"
+msgstr "Renunță"
+
+#: lib/screens/markbook_entry_screen.dart:304
+#: lib/screens/student_marks_screen.dart:157
+msgid "Discard changes?"
+msgstr "Renunțați la modificări?"
 
 #: lib/screens/my_timetable_screen.dart:238
 #: lib/screens/student_search_screen.dart:245
@@ -707,7 +756,7 @@ msgid "First name as shown in ID documents"
 msgstr "Prenumele, ca în actele de identitate"
 
 #: lib/screens/student_enrolment_edit_screen.dart:225
-#: lib/screens/user_edit_screen.dart:694
+#: lib/screens/user_edit_screen.dart:695
 msgid "Form Group *"
 msgstr "Clasă *"
 
@@ -727,7 +776,7 @@ msgstr "Serviciu de plată"
 msgid "Gender *"
 msgstr "Sex *"
 
-#: lib/screens/about_screen.dart:313
+#: lib/screens/about_screen.dart:340
 msgid ""
 "Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
 "permission."
@@ -735,15 +784,27 @@ msgstr ""
 "Gibbon™ este o marcă înregistrată a Gibbon Education Ltd. (Hong Kong), "
 "folosită cu permisiune."
 
-#: lib/screens/about_screen.dart:239
+#: lib/screens/about_screen.dart:266
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Autentificarea cu Google, doar dacă școala o folosește și o alegeți"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:864
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Note"
+
+#: lib/screens/dashboard_screen.dart:1252
+msgid "Grades, effort and comments for your classes"
+msgstr "Note, randament și comentarii pentru grupele dvs."
+
+#: lib/screens/markbook_fields.dart:108
+msgid "Hidden from students and parents"
+msgstr "Ascuns pentru elevi și părinți"
+
+#: lib/screens/markbook_entry_screen.dart:536
+msgid "Hidden from students and parents. This is set on the Gibbon website."
+msgstr "Ascuns pentru elevi și părinți. Setarea se face pe site-ul Gibbon."
 
 #: lib/screens/staff_edit_screen.dart:292
 msgid "Higher numbers move staff up the order within their grouping."
@@ -803,7 +864,7 @@ msgstr ""
 "mai nou pe serverul școlii."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/about_screen.dart:88
+#: lib/screens/about_screen.dart:103
 msgid "Installed version is {version}."
 msgstr "Versiunea instalată este {version}."
 
@@ -832,6 +893,10 @@ msgstr ""
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "\"Intră la ora online\" apare în orar și în planificare"
 
+#: lib/screens/student_photo_avatar.dart:141
+msgid "Large photos"
+msgstr "Fotografii mari"
+
 #: lib/screens/class_detail_screen.dart:125
 msgid "Last 10 school days"
 msgstr "Ultimele 10 zile de școală"
@@ -844,7 +909,7 @@ msgstr "Ultimele 10 zile de școală — pe ore"
 msgid "Last 20 school days"
 msgstr "Ultimele 20 de zile de școală"
 
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:1051
 msgid "Last class of the day"
 msgstr "Ultima oră a zilei"
 
@@ -856,7 +921,7 @@ msgstr "Plecat"
 msgid "Lesson planning is coming soon"
 msgstr "Planificarea lecțiilor va fi disponibilă în curând"
 
-#: lib/screens/about_screen.dart:247
+#: lib/screens/about_screen.dart:274
 msgid "Licence check"
 msgstr "Verificarea licenței"
 
@@ -864,16 +929,26 @@ msgstr "Verificarea licenței"
 msgid "Link staff-role people to their staff record"
 msgstr "Asociați persoanele cu rol de personal cu fișa lor de angajat"
 
-#: lib/screens/dashboard_screen.dart:701
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live from {date}"
+msgstr "Vizibil de la {date}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live since {date}"
+msgstr "Vizibil din {date}"
+
+#: lib/screens/dashboard_screen.dart:748
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Notează comportamentul"
 
-#: lib/screens/about_screen.dart:164
+#: lib/screens/about_screen.dart:191
 msgid "Logged in as"
 msgstr "Conectat ca"
 
-#: lib/screens/dashboard_screen.dart:776
+#: lib/screens/dashboard_screen.dart:823
 msgid "Manage users and school settings"
 msgstr "Gestionați utilizatorii și setările școlii"
 
@@ -893,7 +968,7 @@ msgstr "Luați prezența pentru astăzi"
 msgid "Mark read"
 msgstr "Marchează ca citit"
 
-#: lib/screens/dashboard_screen.dart:713
+#: lib/screens/dashboard_screen.dart:760
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Orar general"
@@ -902,11 +977,15 @@ msgstr "Orar general"
 msgid "Must be unique if set"
 msgstr "Trebuie să fie unic, dacă este completat"
 
-#: lib/screens/dashboard_screen.dart:1036
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:1093
+#: lib/screens/dashboard_screen.dart:853
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Clasele mele"
+
+#: lib/screens/enter_marks_screen.dart:210
+msgid "My classes"
+msgstr "Grupele mele"
 
 #: lib/screens/course_detail_screen.dart:298
 #: lib/screens/course_manage_list_screen.dart:232
@@ -915,7 +994,7 @@ msgstr "Numele și numele scurt sunt obligatorii"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:683
+#: lib/screens/dashboard_screen.dart:730
 msgid "Next class: {class}"
 msgstr "Ora următoare: {class}"
 
@@ -935,7 +1014,7 @@ msgstr "Nu există activități înregistrate"
 msgid "No adults linked"
 msgstr "Niciun adult asociat"
 
-#: lib/screens/about_screen.dart:230
+#: lib/screens/about_screen.dart:257
 msgid ""
 "No advertising, no analytics, no tracking, no crash reporting and no push-"
 "notification services. The app never sells or shares your data."
@@ -974,13 +1053,17 @@ msgstr "Astăzi nu sunt ore în această sală"
 msgid "No classes scheduled"
 msgstr "Nicio oră programată"
 
-#: lib/screens/dashboard_screen.dart:964
+#: lib/screens/dashboard_screen.dart:1021
 msgid "No classes scheduled today"
 msgstr "Astăzi nu sunt ore programate"
 
 #: lib/screens/course_detail_screen.dart:185
 msgid "No classes yet"
 msgstr "Încă nu există grupe"
+
+#: lib/screens/student_marks_screen.dart:386
+msgid "No columns in this term."
+msgstr "Nu există coloane în acest semestru."
 
 #: lib/screens/course_manage_list_screen.dart:133
 msgid "No courses found"
@@ -1007,11 +1090,11 @@ msgstr "Nu s-au găsit săli"
 msgid "No families found"
 msgstr "Nu s-au găsit familii"
 
-#: lib/screens/student_emergency_screen.dart:116
+#: lib/screens/student_emergency_screen.dart:121
 msgid "No family members on record"
 msgstr "Nu există membri ai familiei înregistrați"
 
-#: lib/screens/student_family_screen.dart:113
+#: lib/screens/student_family_screen.dart:135
 msgid "No family record found"
 msgstr "Nu s-a găsit nicio fișă de familie"
 
@@ -1032,7 +1115,7 @@ msgstr "Nu sunt teme înregistrate."
 msgid "No invoices to display"
 msgstr "Nu sunt facturi de afișat"
 
-#: lib/screens/class_markbook_screen.dart:77
+#: lib/screens/class_markbook_screen.dart:135
 msgid "No markbook entries yet"
 msgstr "Încă nu există înregistrări în catalog"
 
@@ -1053,7 +1136,7 @@ msgstr "Încă nu există participanți"
 msgid "No people found"
 msgstr "Nu s-au găsit persoane"
 
-#: lib/screens/student_emergency_screen.dart:147
+#: lib/screens/student_emergency_screen.dart:172
 msgid "No phone on record"
 msgstr "Niciun telefon înregistrat"
 
@@ -1096,7 +1179,7 @@ msgstr "Nu s-au găsit date de orar"
 msgid "No timetable for this day"
 msgstr "Nu există orar pentru această zi"
 
-#: lib/screens/dashboard_screen.dart:958
+#: lib/screens/dashboard_screen.dart:1015
 msgid "No timetable for today"
 msgstr "Nu există orar pentru astăzi"
 
@@ -1125,9 +1208,14 @@ msgstr "Neînscris în prezent"
 msgid "Not enrolled in any classes yet"
 msgstr "Încă nu este înscris în nicio grupă"
 
-#: lib/screens/about_screen.dart:78
+#: lib/screens/about_screen.dart:90
 msgid "Not reported: update the School Connect module"
 msgstr "Indisponibil: actualizați modulul School Connect"
+
+#: lib/screens/markbook_entry_screen.dart:637
+#: lib/screens/student_marks_screen.dart:435
+msgid "Not saved yet"
+msgstr "Nesalvat încă"
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1154,7 +1242,7 @@ msgstr "Acum"
 msgid "Official Name *"
 msgstr "Nume oficial *"
 
-#: lib/screens/about_screen.dart:251
+#: lib/screens/about_screen.dart:278
 msgid ""
 "Once a day, your school's server tells High Point only its own web address, "
 "to confirm the school's subscription. No personal information is sent."
@@ -1175,9 +1263,25 @@ msgstr "Include doar elevii neînscriși în acest an școlar."
 msgid "Opens at"
 msgstr "Se deschide la"
 
-#: lib/screens/about_screen.dart:235
+#: lib/screens/enter_marks_screen.dart:158
+msgid "Other classes"
+msgstr "Alte grupe"
+
+#: lib/screens/about_screen.dart:262
 msgid "Other services you may see"
 msgstr "Alte servicii pe care le puteți vedea"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:559
+msgid ""
+"Parents can see these grades (live since {date}). Hidden from students."
+msgstr ""
+"Părinții pot vedea aceste note (vizibile din {date}). Ascunse pentru elevi."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:558
+msgid "Parents will see these grades from {date}. Hidden from students."
+msgstr "Părinții vor vedea aceste note de la {date}. Ascunse pentru elevi."
 
 #: lib/screens/user_edit_screen.dart:598
 msgid "Password *"
@@ -1191,7 +1295,7 @@ msgstr "Parola trebuie completată și trebuie să coincidă"
 msgid "Password reset successfully"
 msgstr "Parola a fost resetată"
 
-#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_edit_screen.dart:774
 #: lib/screens/user_password_screen.dart:300
 msgid "Passwords do not match"
 msgstr "Parolele nu coincid"
@@ -1209,7 +1313,7 @@ msgstr "Șterge definitiv"
 msgid "Permanently delete \"{name}\" and all of its classes?"
 msgstr "Ștergeți definitiv \"{name}\" și toate grupele sale?"
 
-#: lib/screens/about_screen.dart:257
+#: lib/screens/about_screen.dart:284
 msgid "Permissions"
 msgstr "Permisiuni"
 
@@ -1262,7 +1366,7 @@ msgstr ""
 "Vă rugăm să verificați actualizările necesare de mai jos. Chiar dacă nu s-a "
 "schimbat nimic, prin trimitere confirmați că datele dvs. sunt corecte."
 
-#: lib/screens/about_screen.dart:300
+#: lib/screens/about_screen.dart:327
 msgid "Powered by Gibbon"
 msgstr "Funcționează cu Gibbon"
 
@@ -1284,11 +1388,11 @@ msgstr ""
 msgid "Qualified"
 msgstr "Calificat"
 
-#: lib/screens/dashboard_screen.dart:733
+#: lib/screens/dashboard_screen.dart:780
 msgid "Quick Access"
 msgstr "Acces rapid"
 
-#: lib/screens/about_screen.dart:280
+#: lib/screens/about_screen.dart:307
 msgid "Read the full privacy policy"
 msgstr "Citiți politica de confidențialitate completă"
 
@@ -1350,7 +1454,7 @@ msgstr "Eliminați pe {name} din această grupă?"
 msgid "Remove {name} from this family?"
 msgstr "Eliminați pe {name} din această familie?"
 
-#: lib/screens/about_screen.dart:219
+#: lib/screens/about_screen.dart:246
 msgid "Report-card PDFs, only while you view or share them"
 msgstr ""
 "Situațiile școlare în format PDF, doar cât timp le vizualizați sau le "
@@ -1380,7 +1484,7 @@ msgstr[0] "Salvat pentru {count} persoană, dar nu a reușit pentru: {names}"
 msgstr[1] "Salvat pentru {count} persoane, dar nu a reușit pentru: {names}"
 msgstr[2] "Salvat pentru {count} de persoane, dar nu a reușit pentru: {names}"
 
-#: lib/screens/about_screen.dart:305
+#: lib/screens/about_screen.dart:332
 msgid ""
 "School Connect is a third-party application that is compatible with Gibbon, "
 "the free and open-source school management platform. It is not an official "
@@ -1392,11 +1496,11 @@ msgstr ""
 " a Gibbon Foundation și nu este afiliată cu Gibbon Foundation sau aprobată "
 "de aceasta."
 
-#: lib/screens/about_screen.dart:157
+#: lib/screens/about_screen.dart:178
 msgid "School Connect module on the school server"
 msgstr "Modulul School Connect de pe serverul școlii"
 
-#: lib/screens/about_screen.dart:198
+#: lib/screens/about_screen.dart:225
 msgid ""
 "School Connect shows information from your school's own Gibbon system: "
 "timetables, attendance, grades, homework, reports, messages and your "
@@ -1418,7 +1522,7 @@ msgstr ""
 "Orele de deschidere, începere, încheiere și închidere a școlii nu se setează"
 " aici — completați aceste detalii pe site."
 
-#: lib/screens/dashboard_screen.dart:786
+#: lib/screens/dashboard_screen.dart:833
 msgid "Search and view student profiles"
 msgstr "Căutați și vizualizați profilurile elevilor"
 
@@ -1461,6 +1565,7 @@ msgstr "Caută grupe..."
 msgid "Search rooms..."
 msgstr "Caută săli..."
 
+#: lib/screens/enter_marks_screen.dart:197
 #: lib/screens/form_group_detail_screen.dart:208
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
@@ -1478,7 +1583,7 @@ msgstr "Ore marcate ca absență în acest an"
 msgid "Share"
 msgstr "Partajează"
 
-#: lib/screens/about_screen.dart:221
+#: lib/screens/about_screen.dart:248
 msgid ""
 "Signing out removes the sign-in token, your username and any downloaded "
 "report cards. Uninstalling the app removes everything else."
@@ -1510,6 +1615,28 @@ msgstr "Lista elevilor"
 msgid "Student enrolled successfully"
 msgstr "Elevul a fost înscris"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:550
+msgid "Students and parents can see these grades (live since {date})."
+msgstr "Elevii și părinții pot vedea aceste note (vizibile din {date})."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:549
+msgid "Students and parents will see these grades from {date}."
+msgstr "Elevii și părinții vor vedea aceste note de la {date}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:555
+msgid ""
+"Students can see these grades (live since {date}). Hidden from parents."
+msgstr ""
+"Elevii pot vedea aceste note (vizibile din {date}). Ascunse pentru părinți."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:554
+msgid "Students will see these grades from {date}. Hidden from parents."
+msgstr "Elevii vor vedea aceste note de la {date}. Ascunse pentru părinți."
+
 #: lib/screens/data_family_edit_screen.dart:126
 #: lib/screens/data_finance_edit_screen.dart:122
 #: lib/screens/data_medical_edit_screen.dart:205
@@ -1520,12 +1647,12 @@ msgstr "Trimis"
 msgid "Surname *"
 msgstr "Nume de familie *"
 
-#: lib/screens/dashboard_screen.dart:424
+#: lib/screens/dashboard_screen.dart:445
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Schimbă rolul"
 
-#: lib/screens/dashboard_screen.dart:430
+#: lib/screens/dashboard_screen.dart:451
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1541,7 +1668,7 @@ msgid "Taken"
 msgstr "Luată"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1114
 msgid "Taken at {time}"
 msgstr "Luată la {time}"
 
@@ -1554,12 +1681,23 @@ msgstr "Luată astăzi la {time}. Atingeți pentru a verifica sau modifica"
 msgid "Tap to edit"
 msgstr "Atingeți pentru a edita"
 
+#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/student_marks_screen.dart:158
+msgid "The grades you entered have not been saved."
+msgstr "Notele introduse nu au fost salvate."
+
 #: lib/screens/impersonation_banner.dart:74
 msgid ""
 "The impersonation ended after 2 hours. You are back in your own account."
 msgstr ""
 "Vizualizarea ca alt utilizator s-a încheiat după 2 ore. Sunteți din nou în "
 "contul dvs."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:708
+#: lib/screens/student_marks_screen.dart:523
+msgid "The mark works out to {grade}"
+msgstr "Rezultă {grade}"
 
 #: lib/screens/family_detail_screen.dart:577
 msgid "The order in which the school should contact family members."
@@ -1586,18 +1724,29 @@ msgstr ""
 "Se șterg și toate datele de înscriere și de orar pentru acele grupe. "
 "Acțiunea nu poate fi anulată."
 
+#: lib/screens/about_screen.dart:185
+msgid "This app is built for module"
+msgstr "Această aplicație este făcută pentru modulul"
+
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
 msgstr "Acțiunea nu poate fi anulată."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:203
+#: lib/screens/attendance_screen.dart:237
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr ""
 "Grupa nu are oră programată pe {date}. Puteți totuși salva prezența, dacă "
 "este nevoie."
+
+#: lib/screens/markbook_entry_screen.dart:382
+#: lib/screens/student_marks_screen.dart:469
+msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
+msgstr ""
+"Această coloană folosește o grilă de evaluare. Completați grila pe site-ul "
+"Gibbon."
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1622,21 +1771,21 @@ msgstr ""
 "Se șterg toate datele de înscriere și de orar pentru această grupă. Acțiunea"
 " nu poate fi anulată."
 
-#: lib/screens/dashboard_screen.dart:722
+#: lib/screens/dashboard_screen.dart:769
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Orar pe săli"
 
-#: lib/screens/dashboard_screen.dart:926
+#: lib/screens/dashboard_screen.dart:974
 msgid "Today's Timetable"
 msgstr "Orarul de azi"
 
-#: lib/screens/dashboard_screen.dart:532
+#: lib/screens/dashboard_screen.dart:553
 msgid "Trial access"
 msgstr "Acces de probă"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:531
+#: lib/screens/dashboard_screen.dart:552
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Perioadă de probă — a mai rămas {count} zi"
@@ -1677,9 +1826,28 @@ msgstr "Retrageți înscrierea lui {name} din acest an școlar?"
 msgid "Unknown Year"
 msgstr "An necunoscut"
 
+#: lib/screens/markbook_entry_screen.dart:541
+msgid "Unmarked: parents do not see these grades yet. Hidden from students."
+msgstr "Nenotat: părinții nu văd încă aceste note. Ascunse pentru elevi."
+
+#: lib/screens/markbook_entry_screen.dart:539
+msgid "Unmarked: students and parents do not see these grades yet."
+msgstr "Nenotat: elevii și părinții nu văd încă aceste note."
+
+#: lib/screens/markbook_entry_screen.dart:540
+msgid "Unmarked: students do not see these grades yet. Hidden from parents."
+msgstr "Nenotat: elevii nu văd încă aceste note. Ascunse pentru părinți."
+
 #: lib/screens/facility_list_screen.dart:272
 msgid "Unused"
 msgstr "Nefolosit"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:108
+msgid "Update the School Connect module to {version} for all features."
+msgstr ""
+"Actualizați modulul School Connect la versiunea {version} pentru toate "
+"funcțiile."
 
 #: lib/screens/staff_edit_screen.dart:291
 msgid "Used to group staff in a staff directory."
@@ -1717,7 +1885,7 @@ msgstr "Numele de utilizator este deja folosit"
 msgid "Username available"
 msgstr "Numele de utilizator este disponibil"
 
-#: lib/screens/about_screen.dart:240
+#: lib/screens/about_screen.dart:267
 msgid ""
 "Video lessons: virtual classes use your school's chosen video service (by "
 "default the public Jitsi Meet service)"
@@ -1729,7 +1897,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Vezi prezența"
 
-#: lib/screens/dashboard_screen.dart:938
+#: lib/screens/dashboard_screen.dart:993
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Vezi orarul complet"
@@ -1746,7 +1914,7 @@ msgstr "Vezi calendarul temelor"
 msgid "View Timetable"
 msgstr "Vezi orarul"
 
-#: lib/screens/dashboard_screen.dart:808
+#: lib/screens/dashboard_screen.dart:855
 msgid "View and manage Form Groups"
 msgstr "Vizualizați și gestionați clasele"
 
@@ -1762,15 +1930,19 @@ msgstr "Vizualizați familiile, contactele și copiii"
 msgid "View lesson plans for this class"
 msgstr "Vizualizați planurile de lecție pentru această grupă"
 
+#: lib/screens/student_photo_avatar.dart:41
+msgid "View photo"
+msgstr "Vezi fotografia"
+
 #: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
 msgstr "Vizualizați elevii din această grupă"
 
-#: lib/screens/dashboard_screen.dart:819
+#: lib/screens/dashboard_screen.dart:866
 msgid "View your grades"
 msgstr "Vizualizați-vă notele"
 
-#: lib/screens/dashboard_screen.dart:837
+#: lib/screens/dashboard_screen.dart:884
 msgid "View your report cards"
 msgstr "Vizualizați-vă situațiile școlare"
 
@@ -1784,20 +1956,20 @@ msgid "Virtual Classroom"
 msgstr "Clasă virtuală"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:479
+#: lib/screens/dashboard_screen.dart:500
 msgid "Welcome, {name}!"
 msgstr "Bun venit, {name}!"
 
-#: lib/screens/about_screen.dart:226
+#: lib/screens/about_screen.dart:253
 msgid "What the app does not do"
 msgstr "Ce nu face aplicația"
 
-#: lib/screens/about_screen.dart:213
+#: lib/screens/about_screen.dart:240
 msgid "What the app keeps on this device"
 msgstr "Ce păstrează aplicația pe acest dispozitiv"
 
 #: lib/screens/student_enrolment_edit_screen.dart:221
-#: lib/screens/user_edit_screen.dart:690
+#: lib/screens/user_edit_screen.dart:691
 msgid "Year Group *"
 msgstr "An de studiu *"
 
@@ -1852,11 +2024,11 @@ msgstr ""
 msgid "Your data is up to date."
 msgstr "Datele dvs. sunt actualizate."
 
-#: lib/screens/about_screen.dart:192
+#: lib/screens/about_screen.dart:219
 msgid "Your data stays with your school"
 msgstr "Datele dvs. rămân la școală"
 
-#: lib/screens/about_screen.dart:218
+#: lib/screens/about_screen.dart:245
 msgid ""
 "Your last username and the last three school addresses you used, so you "
 "don't have to retype them"
@@ -1864,12 +2036,12 @@ msgstr ""
 "Ultimul nume de utilizator și ultimele trei adrese de școală folosite, ca să"
 " nu fie nevoie să le introduceți din nou"
 
-#: lib/screens/about_screen.dart:266
+#: lib/screens/about_screen.dart:293
 msgid "Your rights and questions"
 msgstr "Drepturile și întrebările dvs."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/about_screen.dart:271
+#: lib/screens/about_screen.dart:298
 msgid ""
 "Your school is responsible for your personal data in Gibbon. To see, correct"
 " or delete it, contact your school's data protection officer. For questions "
@@ -1888,7 +2060,7 @@ msgstr "Sesiunea dvs. va fi comutată pe {name} ({role})."
 msgid "a previous year"
 msgstr "un an anterior"
 
-#: lib/screens/about_screen.dart:133
+#: lib/screens/about_screen.dart:154
 msgid "an app for Gibbon™"
 msgstr "o aplicație pentru Gibbon™"
 
@@ -1898,7 +2070,7 @@ msgstr "o aplicație pentru Gibbon™"
 msgid "optional"
 msgstr "opțional"
 
-#: lib/screens/user_edit_screen.dart:857
+#: lib/screens/user_edit_screen.dart:858
 msgid "primary"
 msgstr "principal"
 
@@ -1913,7 +2085,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} absențe din {total} ore înregistrate"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1058
+#: lib/screens/dashboard_screen.dart:1115
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} absent"
@@ -1929,7 +2101,7 @@ msgstr[1] "{count} eval."
 msgstr[2] "{count} de eval."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/student_grades_screen.dart:156
 msgid "{count} assessment"
 msgid_plural "{count} assessments"
@@ -1939,8 +2111,7 @@ msgstr[2] "{count} de evaluări"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166
-#: lib/screens/master_timetable_screen.dart:278
+#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} grupă"
@@ -1948,7 +2119,7 @@ msgstr[1] "{count} grupe"
 msgstr[2] "{count} de grupe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:1053
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "A mai rămas {count} oră · {done} încheiate"
@@ -1956,7 +2127,7 @@ msgstr[1] "Au mai rămas {count} ore · {done} încheiate"
 msgstr[2] "Au mai rămas {count} de ore · {done} încheiate"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1055
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} oră azi"
@@ -1980,6 +2151,14 @@ msgid_plural "{count} due"
 msgstr[0] "{count} cu termen"
 msgstr[1] "{count} cu termen"
 msgstr[2] "{count} cu termen"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_columns_screen.dart:151
+msgid "{count} entered"
+msgid_plural "{count} entered"
+msgstr[0] "{count} introdusă"
+msgstr[1] "{count} introduse"
+msgstr[2] "{count} de introduse"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/facility_list_screen.dart:211
@@ -2006,7 +2185,7 @@ msgstr[1] "{count} elemente"
 msgstr[2] "{count} de elemente"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1116
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} întârziat"
@@ -2014,12 +2193,33 @@ msgstr[1] "{count} întârziați"
 msgstr[2] "{count} de întârziați"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:1049
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Încă {count} oră după aceasta · {total} azi"
 msgstr[1] "Încă {count} ore după aceasta · {total} azi"
 msgstr[2] "Încă {count} de ore după aceasta · {total} azi"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:373
+#: lib/screens/student_marks_screen.dart:343
+#: lib/screens/student_marks_screen.dart:377
+msgid "{count} not saved yet"
+msgid_plural "{count} not saved yet"
+msgstr[0] "{count} nesalvată"
+msgstr[1] "{count} nesalvate"
+msgstr[2] "{count} de nesalvate"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_marks_screen.dart:338
+#: lib/screens/student_marks_screen.dart:376
+msgid "{count} of {total} saved"
+msgstr "Salvate: {count} din {total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:363
+msgid "{count} of {total} students saved"
+msgstr "Elevi salvați: {count} din {total}"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:379
@@ -2055,8 +2255,8 @@ msgstr[1] "{count} angajați"
 msgstr[2] "{count} de angajați"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:189
-#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/attendance_screen.dart:217
+#: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"
 msgid_plural "{count} students"
@@ -2325,12 +2525,20 @@ msgid "Minimum Enrolment"
 msgstr "Număr minim de înscriși"
 
 # Gibbon core string: missing from its file for this language
+msgid "Modified Assessment"
+msgstr "Evaluare adaptată"
+
+# Gibbon core string: missing from its file for this language
 msgid "My Data Updates"
 msgstr "Actualizările mele de date"
 
 # Gibbon core string: missing from its file for this language
 msgid "My Form Group"
 msgstr "Clasa mea"
+
+# Gibbon core string: missing from its file for this language
+msgid "My Students"
+msgstr "Elevii mei"
 
 # Gibbon core string: missing from its file for this language
 msgid "N/A"
@@ -2369,6 +2577,14 @@ msgid "Payment Details"
 msgstr "Detalii plată"
 
 # Gibbon core string: missing from its file for this language
+msgid "Personalised target grade"
+msgstr "Notă-țintă personalizată"
+
+# Gibbon core string: missing from its file for this language
+msgid "Raw Attainment Mark"
+msgstr "Punctaj brut"
+
+# Gibbon core string: missing from its file for this language
 msgid "Remove"
 msgstr "Elimină"
 
@@ -2397,6 +2613,10 @@ msgstr "Lista personalului"
 # Gibbon core string: missing from its file for this language
 msgid "Student ID"
 msgstr "ID elev"
+
+# Gibbon core string: missing from its file for this language
+msgid "Submitted Work"
+msgstr "Lucrare predată"
 
 # Gibbon core string: missing from its file for this language
 msgid "Switch"
@@ -2445,6 +2665,10 @@ msgstr "Transport"
 # Gibbon core string: missing from its file for this language
 msgid "Under Enrolled"
 msgstr "Prea puțini înscriși"
+
+# Gibbon core string: missing from its file for this language
+msgid "Unmarked"
+msgstr "Nenotat"
 
 # Gibbon core string: missing from its file for this language
 msgid "Up to date"
@@ -2839,6 +3063,10 @@ msgid "General Information"
 msgstr "Informații generale"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Go Live Date"
+msgstr "Data publicării"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Grouping Priority"
 msgstr "Prioritate în grupare"
 
@@ -2974,6 +3202,14 @@ msgstr "Gestionare semestre"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Manage Users"
 msgstr "Gestionare utilizatori"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mark"
+msgstr "Punctaj"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Marked on"
+msgstr "Notat la"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Message Wall"
@@ -3272,6 +3508,10 @@ msgid "Term"
 msgstr "Semestru"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no records to display."
+msgstr "Nu există înregistrări de afișat."
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid ""
 "These details are used when immediate family members (e.g. parent, spouse) "
 "cannot be reached first. Please try to avoid listing immediate family "
@@ -3372,3 +3612,7 @@ msgid ""
 msgstr ""
 "Aveți mai multe roluri în sistem. Folosiți lista de mai jos pentru a schimba"
 " rolul:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Your request was successful, but some data was not properly saved."
+msgstr "Cererea a reușit, dar unele date nu au fost salvate corect."

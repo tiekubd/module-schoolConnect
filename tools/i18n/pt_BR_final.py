@@ -417,4 +417,19 @@ FINAL = {
 'Tracking': 'Monitoramento',
 'User Admin': 'Administrador de Usuários',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Avaliação completa?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Lançar Notas',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data de Publicação',   # app 1.16.13–1.16.17
+    'Mark': 'Pontos',   # app 1.16.13–1.16.17
+    'Marked on': 'Avaliado em',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Avaliação Adaptada',   # app 1.16.13–1.16.17
+    'My Students': 'Meus Alunos',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Nota-meta personalizada',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Nota Bruta',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Trabalho Entregue',   # app 1.16.13–1.16.17
+    'Target': 'Meta',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Não há registros para mostrar.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Não avaliado',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Sua solicitação foi concluída com sucesso.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Sua solicitação foi concluída, mas alguns dados não foram salvos corretamente.',   # app 1.16.13–1.16.17
 }

@@ -13,6 +13,7 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'All Learning Areas': 'Tous les domaines d’apprentissage',
  'All Terms': 'Tous les trimestres',
  'Alternate Email': 'E-mail secondaire',
+ 'Assessment Complete?': 'Évaluation terminée ?',
  'Auto-Enrol Courses?': 'Inscription automatique aux matières\u202f?',
  'Background Information': 'Informations de contexte',
  'CC Family?': 'Famille en copie\xa0?',
@@ -64,6 +65,7 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'Full': 'Actif',
  'Full name as shown in ID documents.': 'Nom complet tel qu’il figure sur les pièces d’identité.',
  'Generate': 'Générer',
+ 'Go Live Date': 'Date de publication',
  'Head of Year': 'Responsable de niveau',
  'Home': 'Domicile',
  'Home Address (Country)': 'Adresse de domicile (pays)',
@@ -99,9 +101,11 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'Manage': 'Gestion',
  'Manage Courses & Classes': 'Gérer les matières et les cours',
  'Manage Terms': 'Gérer les trimestres',
+ 'Mark': 'Points',
  'Markbook': 'Carnet de notes',
  'Medical Conditions': 'Problèmes de santé',
  'Message Wall': 'Mur de messages',
+ 'Modified Assessment': 'Évaluation adaptée',
  'Must be unique for this course.': 'Doit être unique pour cette matière.',
  'My Data Updates': 'Mes mises à jour de données',
  'My Form Group': 'Ma classe',
@@ -122,6 +126,7 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'Planner': 'Cahier de textes',
  'Preferred Name': 'Prénom d’usage',
  'Privacy required:': 'Confidentialité requise\xa0:',
+ 'Raw Attainment Mark': 'Note brute',
  'Receipt': 'Reçu',
  'Receipt To': 'Reçu à l’ordre de',
  'Receive non-emergency SMS messages from school?': "Recevoir les SMS ordinaires de l'école\xa0?",
@@ -146,13 +151,16 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'Siblings': 'Frères et sœurs',
  'Staff': 'Personnel',
  'Student Enrolment': 'Inscription de l’élève',
+ 'Submitted Work': 'Travail rendu',
  'Support': 'Non enseignant',
  'Support Staff': 'Personnel non enseignant',
  'System Access': 'Accès au système',
  'System Admin': 'Administration du système',
  'Take Attendance': 'Prendre les présences',
+ 'Target': 'Objectif',
  'Teaching': 'Enseignant',
  'Term': 'Trimestre',
+ 'There are no records to display.': 'Aucun enregistrement à afficher.',
  'These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.': 'Ces informations sont utilisées lorsque '
                                                                                                                                                               'les membres de la famille proche (p. '
                                                                                                                                                               'ex. parent, conjoint) ne peuvent pas '
@@ -184,4 +192,6 @@ MANUAL = {"Access data on family's children?": 'Accéder aux données des enfant
  'Year Group': 'Niveau',
  'You do not have access to this action.': 'Vous n’avez pas accès à cette action.',
  'You have multiple roles within the system. Use the list below to switch role:': "Vous avez plusieurs profils au sein du système. Utilisez la liste ci-dessous pour passer d'un profil à un autre\xa0"
-                                                                                  ':'}
+                                                                                  ':',
+ 'Your request was completed successfully.': 'Votre demande a été traitée avec succès.',
+ 'Your request was successful, but some data was not properly saved.': 'Votre demande a abouti, mais certaines données n’ont pas été enregistrées correctement.'}

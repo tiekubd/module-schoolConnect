@@ -410,4 +410,19 @@ FINAL = {
 'Tracking': 'پیش رفت کی نگرانی',
 'User Admin': 'یوزر ایڈمن',
 '{count} min': '{count} منٹ',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'کیا تشخیص مکمل ہے؟',   # app 1.16.13–1.16.17
+    'Enter Marks': 'نمبر درج کریں',   # app 1.16.13–1.16.17
+    'Go Live Date': 'اشاعت کی تاریخ',   # app 1.16.13–1.16.17
+    'Mark': 'نمبر',   # app 1.16.13–1.16.17
+    'Marked on': 'نمبر لگانے کی تاریخ',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'ترمیم شدہ تشخیص',   # app 1.16.13–1.16.17
+    'My Students': 'میرے طلبہ',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'ذاتی ہدف گریڈ',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'حاصل کردہ نمبر',   # app 1.16.13–1.16.17
+    'Submitted Work': 'جمع کردہ کام',   # app 1.16.13–1.16.17
+    'Target': 'ہدف',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'دکھانے کے لیے کوئی ریکارڈ نہیں۔',   # app 1.16.13–1.16.17
+    'Unmarked': 'نمبر نہیں لگے',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'آپ کی درخواست کامیابی سے مکمل ہو گئی۔',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'آپ کی درخواست کامیاب رہی، لیکن کچھ ڈیٹا ٹھیک سے محفوظ نہیں ہوا۔',   # app 1.16.13–1.16.17
 }

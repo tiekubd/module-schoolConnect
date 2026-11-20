@@ -416,4 +416,19 @@ FINAL = {
 'Tracking': 'İlerleme Takibi',   # Gibbon: Takip, same as Follow Up
 'User Admin': 'Kullanıcı Yönetimi',
 '{count} min': '{count} dk',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Değerlendirme Tamamlandı mı?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Not Gir',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Yayın Tarihi',   # app 1.16.13–1.16.17
+    'Mark': 'Puan',   # app 1.16.13–1.16.17
+    'Marked on': 'Not verilme tarihi',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Uyarlanmış Değerlendirme',   # app 1.16.13–1.16.17
+    'My Students': 'Öğrencilerim',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Kişisel hedef not',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Ham Puan',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Teslim Edilen Çalışma',   # app 1.16.13–1.16.17
+    'Target': 'Hedef',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Gösterilecek kayıt yok.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Not Verilmemiş',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'İsteğiniz başarıyla tamamlandı.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'İsteğiniz başarılı oldu, ancak bazı veriler düzgün şekilde kaydedilmedi.',   # app 1.16.13–1.16.17
 }

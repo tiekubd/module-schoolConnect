@@ -74,6 +74,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Employer': 'آجر',
  'Employment': 'ملازمت',
  'End Date': 'اختتامی تاریخ',
+ 'Enter Marks': 'نمبر درج کریں',
  'Family name as shown in ID documents.': 'خاندانی نام، جیسا شناختی دستاویزات میں درج ہے۔',
  'Finance': 'مالیات',
  'First Aid': 'ابتدائی طبی امداد',
@@ -89,6 +90,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Gender': 'جنس',
  'General Information': 'عمومی معلومات',
  'Generate': 'بنائیں',
+ 'Go Live Date': 'اشاعت کی تاریخ',
  'Grouping': 'گروپ',
  'Grouping Priority': 'گروپ میں ترجیح',
  'Head of Year': 'جماعت کا سربراہ',
@@ -144,6 +146,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Parent': 'والدین',
  'Password': 'پاس ورڈ',
  'Person': 'فرد',
+ 'Personalised target grade': 'ذاتی ہدف گریڈ',
  'Planner': 'پلانر',
  'Preferred Name': 'پسندیدہ نام',
  'Privacy not required or not set.': 'پرائیویسی کی ضرورت نہیں یا طے نہیں۔',
@@ -192,6 +195,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Teachers': 'اساتذہ',
  'Teaching': 'تدریسی',
  'Technician': 'ٹیکنیشن',
+ 'There are no records to display.': 'دکھانے کے لیے کوئی ریکارڈ نہیں۔',
  'These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.': 'یہ تفصیلات اس وقت استعمال ہوتی ہیں جب '
                                                                                                                                                               'قریبی رشتہ داروں (مثلاً والدین، شریکِ '
                                                                                                                                                               'حیات) سے رابطہ نہ ہو سکے۔ براہِ کرم '
@@ -205,6 +209,7 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Triggers': 'محرکات',
  'Tutor': 'کلاس انچارج',
  'Unit, Building, Street': 'مکان نمبر، عمارت، گلی',
+ 'Unmarked': 'نمبر نہیں لگے',
  'Update Family Data': 'خاندان کا ڈیٹا اپ ڈیٹ کریں',
  'Update Finance Data': 'مالیاتی ڈیٹا اپ ڈیٹ کریں',
  'Update Required': 'اپ ڈیٹ ضروری ہے',
@@ -216,4 +221,6 @@ MANUAL = {"Access data on family's children?": 'خاندان کے بچوں کے 
  'Work': 'دفتر',
  'Year Group': 'جماعت',
  'You do not have access to this action.': 'آپ کو اس عمل تک رسائی نہیں۔',
- 'You have multiple roles within the system. Use the list below to switch role:': 'سسٹم میں آپ کے ایک سے زیادہ رول ہیں۔ رول تبدیل کرنے کے لیے نیچے دی گئی فہرست استعمال کریں:'}
+ 'You have multiple roles within the system. Use the list below to switch role:': 'سسٹم میں آپ کے ایک سے زیادہ رول ہیں۔ رول تبدیل کرنے کے لیے نیچے دی گئی فہرست استعمال کریں:',
+ 'Your request was completed successfully.': 'آپ کی درخواست کامیابی سے مکمل ہو گئی۔',
+ 'Your request was successful, but some data was not properly saved.': 'آپ کی درخواست کامیاب رہی، لیکن کچھ ڈیٹا ٹھیک سے محفوظ نہیں ہوا۔'}
