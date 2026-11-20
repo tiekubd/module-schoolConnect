@@ -405,4 +405,21 @@ FINAL = {
 'Tracking': 'מעקב',
 'User Admin': 'ניהול משתמשים',
 '{count} min': '{count} דק׳',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'הערכה הושלמה?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'הזנת ציונים',   # app 1.16.13–1.16.17
+    'Go Live Date': 'תאריך פרסום',   # app 1.16.13–1.16.17
+    'Mark': 'נקודות',   # app 1.16.13–1.16.17
+    'Marked on': 'ניתן ציון ב-',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'הערכה מותאמת',   # app 1.16.13–1.16.17
+    'My Students': 'התלמידים שלי',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'ציון יעד אישי',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'מספר נקודות',   # app 1.16.13–1.16.17
+    'Submitted Work': 'עבודה שהוגשה',   # app 1.16.13–1.16.17
+    'Target': 'יעד',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'אין נתונים להצגה.',   # app 1.16.13–1.16.17
+    'Unmarked': 'טרם ניתן ציון',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'בקשתך הושלמה בהצלחה.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'הבקשה בוצעה, אך חלק מהנתונים לא נשמרו כראוי.',   # app 1.16.13–1.16.17
+    'Attainment': 'הישג',   # markbook field default names (app 1.16.18)
+    'Effort': 'מאמץ',   # markbook field default names (app 1.16.18)
 }

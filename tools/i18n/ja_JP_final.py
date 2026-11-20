@@ -416,4 +416,21 @@ FINAL = {
 'Tracking': '学習状況の追跡',   # Gibbon/earlier: トラッキング (web tracking)
 'User Admin': 'ユーザー管理',
 '{count} min': '{count}分',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': '評価は完了しましたか？',   # app 1.16.13–1.16.17
+    'Enter Marks': '成績を入力',   # app 1.16.13–1.16.17
+    'Go Live Date': '公開日',   # app 1.16.13–1.16.17
+    'Mark': '点数',   # app 1.16.13–1.16.17
+    'Marked on': '評価日',   # app 1.16.13–1.16.17
+    'Modified Assessment': '個別調整した評価',   # app 1.16.13–1.16.17
+    'My Students': '担当の生徒',   # app 1.16.13–1.16.17
+    'Personalised target grade': '個人の目標成績',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': '素点',   # app 1.16.13–1.16.17
+    'Submitted Work': '提出物',   # app 1.16.13–1.16.17
+    'Target': '目標',   # app 1.16.13–1.16.17
+    'There are no records to display.': '表示する記録がありません。',   # app 1.16.13–1.16.17
+    'Unmarked': '未評価',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': '要求が完了しました。',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': '要求は完了しましたが、一部のデータが正しく保存されませんでした。',   # app 1.16.13–1.16.17
+    'Attainment': '到達度',   # markbook field default names (app 1.16.18)
+    'Effort': '努力',   # markbook field default names (app 1.16.18)
 }

@@ -19,7 +19,7 @@ msgstr ""
 msgid "A punctuation mark or space"
 msgstr "Um sinal de pontuação ou um espaço"
 
-#: lib/screens/about_screen.dart:217
+#: lib/screens/about_screen.dart:244
 msgid ""
 "A sign-in token, kept in the device's secure storage (iOS Keychain or "
 "Android Keystore)"
@@ -27,7 +27,7 @@ msgstr ""
 "Um token de acesso, guardado no armazenamento seguro do aparelho (Keychain "
 "do iOS ou Keystore do Android)"
 
-#: lib/screens/about_screen.dart:119 lib/screens/dashboard_screen.dart:851
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Sobre e Privacidade"
@@ -39,6 +39,11 @@ msgstr "Adicionar Mais"
 #: lib/screens/course_class_roster_screen.dart:247
 msgid "Add Participant"
 msgstr "Adicionar Participante"
+
+#: lib/screens/markbook_entry_screen.dart:731
+#: lib/screens/student_marks_screen.dart:545
+msgid "Add a comment"
+msgstr "Adicionar um comentário"
 
 #: lib/screens/student_homework_section.dart:280
 msgid "Add homework?"
@@ -60,6 +65,10 @@ msgstr "Ajusta a ordem das disciplinas nos boletins."
 msgid "Adult settings updated"
 msgstr "Configurações do adulto atualizadas"
 
+#: lib/screens/enter_marks_screen.dart:219
+msgid "All I can mark"
+msgstr "Todos que posso avaliar"
+
 #: lib/screens/facility_list_screen.dart:163
 #: lib/screens/facility_list_screen.dart:177
 #: lib/screens/staff_directory_screen.dart:142
@@ -72,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Todos os Anos"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1000
+#: lib/screens/dashboard_screen.dart:1057
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "{count} aula concluída hoje"
@@ -83,9 +92,17 @@ msgstr[1] "Todas as {count} aulas concluídas hoje"
 msgid "An uppercase and a lowercase letter"
 msgstr "Uma letra maiúscula e uma minúscula"
 
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:900
 msgid "App version, connected school and your data"
 msgstr "Versão do app, escola conectada e seus dados"
+
+#: lib/screens/student_marks_screen.dart:350
+msgid ""
+"Assessment Complete and the Go Live Date apply to the whole class, so they "
+"are set from the class page."
+msgstr ""
+"“Avaliação completa?” e a Data de Publicação valem para a classe inteira, "
+"por isso são definidas na página da classe."
 
 #: lib/screens/homework_calendar_screen.dart:205
 #: lib/screens/homework_calendar_screen.dart:255
@@ -109,12 +126,12 @@ msgstr[1] "Pelo menos {count} caracteres"
 msgid "Attendance This Year"
 msgstr "Frequência Neste Ano"
 
-#: lib/screens/dashboard_screen.dart:1061
+#: lib/screens/dashboard_screen.dart:1118
 msgid "Attendance not taken yet today"
 msgstr "Chamada ainda não feita hoje"
 
-#: lib/screens/attendance_screen.dart:134
-#: lib/screens/form_group_attendance_screen.dart:126
+#: lib/screens/attendance_screen.dart:137
+#: lib/screens/form_group_attendance_screen.dart:129
 msgid "Attendance saved!"
 msgstr "Frequência salva!"
 
@@ -129,7 +146,7 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "Registro de comportamento salvo para {count} aluno!"
 msgstr[1] "Registros de comportamento salvos para {count} alunos!"
 
-#: lib/screens/dashboard_screen.dart:797
+#: lib/screens/dashboard_screen.dart:844
 msgid "Browse staff profiles"
 msgstr "Ver perfis dos funcionários"
 
@@ -142,7 +159,15 @@ msgstr "Por Classe"
 msgid "By Date"
 msgstr "Por Data"
 
-#: lib/screens/about_screen.dart:261
+#: lib/screens/dashboard_screen.dart:1260
+msgid "By class"
+msgstr "Por classe"
+
+#: lib/screens/dashboard_screen.dart:1269
+msgid "By student"
+msgstr "Por aluno"
+
+#: lib/screens/about_screen.dart:288
 msgid ""
 "Camera and photos: only when you choose to attach a photo to a Data Updater "
 "request. The app asks first, and you can say no."
@@ -211,7 +236,11 @@ msgstr "Lista da Classe"
 msgid "Class now: {class}"
 msgstr "Aula agora: {class}"
 
-#: lib/screens/about_screen.dart:89
+#: lib/screens/enter_marks_screen.dart:156
+msgid "Classes I teach"
+msgstr "Classes em que leciono"
+
+#: lib/screens/about_screen.dart:104
 msgid "Click Update next to School Connect in System Admin > Manage Modules."
 msgstr ""
 "Clique em Atualizar ao lado de School Connect em Administração do Sistema > "
@@ -220,6 +249,14 @@ msgstr ""
 #: lib/screens/join_virtual_class_button.dart:212
 msgid "Closed at"
 msgstr "Fecha às"
+
+#: lib/screens/markbook_columns_screen.dart:124
+msgid ""
+"Columns are created and edited on the Gibbon website. Choose a column to "
+"enter grades."
+msgstr ""
+"As colunas são criadas e editadas no site do Gibbon. Escolha uma coluna para"
+" lançar as notas."
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_detail_screen.dart:358
@@ -238,11 +275,11 @@ msgstr "O nome curto combinado passa de 16 caracteres"
 msgid "Comma-separated list of email addresses"
 msgstr "Lista de endereços de e-mail separados por vírgula"
 
-#: lib/screens/user_edit_screen.dart:734
+#: lib/screens/user_edit_screen.dart:735
 msgid "Confirm Password *"
 msgstr "Confirmar senha *"
 
-#: lib/screens/about_screen.dart:149
+#: lib/screens/about_screen.dart:170
 msgid "Connected school"
 msgstr "Escola conectada"
 
@@ -255,11 +292,11 @@ msgid "Contact Info"
 msgstr "Contato"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_emergency_screen.dart:183
+#: lib/screens/student_emergency_screen.dart:209
 msgid "Contact {number} — not on record"
 msgstr "Contato {number} — não cadastrado"
 
-#: lib/screens/about_screen.dart:242
+#: lib/screens/about_screen.dart:269
 msgid ""
 "Content in lessons: videos or images a teacher adds (for example YouTube) "
 "load from those sites when you open them"
@@ -327,8 +364,8 @@ msgstr "Não foi possível carregar a disciplina"
 msgid "Could not load courses"
 msgstr "Não foi possível carregar as disciplinas"
 
-#: lib/screens/attendance_screen.dart:118
-#: lib/screens/form_group_attendance_screen.dart:110
+#: lib/screens/attendance_screen.dart:121
+#: lib/screens/form_group_attendance_screen.dart:113
 msgid "Could not load data"
 msgstr "Não foi possível carregar os dados"
 
@@ -361,7 +398,7 @@ msgid "Could not load families"
 msgstr "Não foi possível carregar as famílias"
 
 #: lib/screens/family_detail_screen.dart:51
-#: lib/screens/student_family_screen.dart:61
+#: lib/screens/student_family_screen.dart:83
 msgid "Could not load family"
 msgstr "Não foi possível carregar a família"
 
@@ -413,7 +450,9 @@ msgstr "Não foi possível carregar a aula"
 msgid "Could not load lessons"
 msgstr "Não foi possível carregar as aulas"
 
-#: lib/screens/class_markbook_screen.dart:50
+#: lib/screens/class_markbook_screen.dart:91
+#: lib/screens/enter_marks_screen.dart:64
+#: lib/screens/enter_marks_screen.dart:70
 msgid "Could not load markbook"
 msgstr "Não foi possível carregar o diário de notas"
 
@@ -494,9 +533,9 @@ msgstr "Não foi possível carregar os funcionários"
 msgid "Could not load staff data"
 msgstr "Não foi possível carregar os dados do funcionário"
 
+#: lib/screens/enter_marks_screen.dart:90
+#: lib/screens/enter_marks_screen.dart:97
 #: lib/screens/form_group_detail_screen.dart:89
-#: lib/screens/student_search_screen.dart:99
-#: lib/screens/students_screen.dart:66
 msgid "Could not load students"
 msgstr "Não foi possível carregar os alunos"
 
@@ -542,14 +581,14 @@ msgstr "Não foi possível remover"
 msgid "Could not reset password"
 msgstr "Não foi possível redefinir a senha"
 
-#: lib/screens/attendance_screen.dart:134
+#: lib/screens/attendance_screen.dart:137
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Não foi possível salvar"
 
-#: lib/screens/attendance_screen.dart:144
-#: lib/screens/form_group_attendance_screen.dart:136
+#: lib/screens/attendance_screen.dart:147
+#: lib/screens/form_group_attendance_screen.dart:139
 msgid "Could not save attendance"
 msgstr "Não foi possível salvar a frequência"
 
@@ -603,7 +642,7 @@ msgstr "Prioridade de Substituição"
 msgid "Create linked staff record"
 msgstr "Criar o registro de funcionário vinculado"
 
-#: lib/screens/user_edit_screen.dart:685
+#: lib/screens/user_edit_screen.dart:686
 msgid "Create linked student enrolment"
 msgstr "Criar a matrícula do aluno vinculada"
 
@@ -611,7 +650,7 @@ msgstr "Criar a matrícula do aluno vinculada"
 msgid "Current year"
 msgstr "Ano atual"
 
-#: lib/screens/dashboard_screen.dart:380
+#: lib/screens/dashboard_screen.dart:401
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Início"
@@ -644,9 +683,19 @@ msgstr "Excluir Dia Especial"
 msgid "Delete User"
 msgstr "Excluir Usuário"
 
-#: lib/screens/about_screen.dart:170
+#: lib/screens/about_screen.dart:197
 msgid "Developed by High Point Education"
 msgstr "Desenvolvido por High Point Education"
+
+#: lib/screens/markbook_entry_screen.dart:309
+#: lib/screens/student_marks_screen.dart:161
+msgid "Discard"
+msgstr "Descartar"
+
+#: lib/screens/markbook_entry_screen.dart:305
+#: lib/screens/student_marks_screen.dart:157
+msgid "Discard changes?"
+msgstr "Descartar alterações?"
 
 #: lib/screens/my_timetable_screen.dart:238
 #: lib/screens/student_search_screen.dart:245
@@ -701,7 +750,7 @@ msgid "First name as shown in ID documents"
 msgstr "Primeiro nome como aparece nos documentos de identidade"
 
 #: lib/screens/student_enrolment_edit_screen.dart:225
-#: lib/screens/user_edit_screen.dart:694
+#: lib/screens/user_edit_screen.dart:695
 msgid "Form Group *"
 msgstr "Turma *"
 
@@ -721,7 +770,7 @@ msgstr "Gateway"
 msgid "Gender *"
 msgstr "Gênero *"
 
-#: lib/screens/about_screen.dart:313
+#: lib/screens/about_screen.dart:340
 msgid ""
 "Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
 "permission."
@@ -729,15 +778,27 @@ msgstr ""
 "Gibbon™ é uma marca registrada da Gibbon Education Ltd. (Hong Kong), usada "
 "com permissão."
 
-#: lib/screens/about_screen.dart:239
+#: lib/screens/about_screen.dart:266
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Login com o Google, só se a sua escola usar e você escolher"
 
-#: lib/screens/dashboard_screen.dart:817
+#: lib/screens/dashboard_screen.dart:864
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Notas"
+
+#: lib/screens/dashboard_screen.dart:1252
+msgid "Grades, effort and comments for your classes"
+msgstr "Notas, esforço e comentários das suas classes"
+
+#: lib/screens/markbook_fields.dart:108
+msgid "Hidden from students and parents"
+msgstr "Oculto para alunos e responsáveis"
+
+#: lib/screens/markbook_entry_screen.dart:537
+msgid "Hidden from students and parents. This is set on the Gibbon website."
+msgstr "Oculto para alunos e responsáveis. Isso é definido no site do Gibbon."
 
 #: lib/screens/staff_edit_screen.dart:292
 msgid "Higher numbers move staff up the order within their grouping."
@@ -798,7 +859,7 @@ msgstr ""
 "no servidor da escola."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/about_screen.dart:88
+#: lib/screens/about_screen.dart:103
 msgid "Installed version is {version}."
 msgstr "A versão instalada é {version}."
 
@@ -826,6 +887,10 @@ msgstr "O botão Entrar na aula virtual fica oculto em todos os lugares"
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "O botão Entrar na aula virtual aparece no horário e no planejamento"
 
+#: lib/screens/student_photo_avatar.dart:141
+msgid "Large photos"
+msgstr "Fotos grandes"
+
 #: lib/screens/class_detail_screen.dart:125
 msgid "Last 10 school days"
 msgstr "Últimos 10 dias letivos"
@@ -838,7 +903,7 @@ msgstr "Últimos 10 dias letivos — por período"
 msgid "Last 20 school days"
 msgstr "Últimos 20 dias letivos"
 
-#: lib/screens/dashboard_screen.dart:994
+#: lib/screens/dashboard_screen.dart:1051
 msgid "Last class of the day"
 msgstr "Última aula do dia"
 
@@ -850,7 +915,7 @@ msgstr "Desligado"
 msgid "Lesson planning is coming soon"
 msgstr "O planejamento de aulas chega em breve"
 
-#: lib/screens/about_screen.dart:247
+#: lib/screens/about_screen.dart:274
 msgid "Licence check"
 msgstr "Verificação de licença"
 
@@ -858,16 +923,26 @@ msgstr "Verificação de licença"
 msgid "Link staff-role people to their staff record"
 msgstr "Vincular pessoas com perfil de funcionário ao seu registro"
 
-#: lib/screens/dashboard_screen.dart:701
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live from {date}"
+msgstr "Visível a partir de {date}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live since {date}"
+msgstr "Visível desde {date}"
+
+#: lib/screens/dashboard_screen.dart:748
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Registrar Comportamento"
 
-#: lib/screens/about_screen.dart:164
+#: lib/screens/about_screen.dart:191
 msgid "Logged in as"
 msgstr "Conectado como"
 
-#: lib/screens/dashboard_screen.dart:776
+#: lib/screens/dashboard_screen.dart:823
 msgid "Manage users and school settings"
 msgstr "Gerenciar usuários e configurações da escola"
 
@@ -887,7 +962,7 @@ msgstr "Fazer a chamada de hoje"
 msgid "Mark read"
 msgstr "Marcar como lida"
 
-#: lib/screens/dashboard_screen.dart:713
+#: lib/screens/dashboard_screen.dart:760
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Horário Geral"
@@ -896,11 +971,15 @@ msgstr "Horário Geral"
 msgid "Must be unique if set"
 msgstr "Deve ser único, se preenchido"
 
-#: lib/screens/dashboard_screen.dart:1036
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:1093
+#: lib/screens/dashboard_screen.dart:853
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Minhas Turmas"
+
+#: lib/screens/enter_marks_screen.dart:210
+msgid "My classes"
+msgstr "Minhas classes"
 
 #: lib/screens/course_detail_screen.dart:298
 #: lib/screens/course_manage_list_screen.dart:232
@@ -909,7 +988,7 @@ msgstr "O nome e o nome curto são obrigatórios"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:683
+#: lib/screens/dashboard_screen.dart:730
 msgid "Next class: {class}"
 msgstr "Próxima aula: {class}"
 
@@ -929,7 +1008,7 @@ msgstr "Nenhuma atividade registrada"
 msgid "No adults linked"
 msgstr "Nenhum adulto vinculado"
 
-#: lib/screens/about_screen.dart:230
+#: lib/screens/about_screen.dart:257
 msgid ""
 "No advertising, no analytics, no tracking, no crash reporting and no push-"
 "notification services. The app never sells or shares your data."
@@ -967,13 +1046,17 @@ msgstr "Nenhuma aula nesta sala hoje"
 msgid "No classes scheduled"
 msgstr "Nenhuma aula programada"
 
-#: lib/screens/dashboard_screen.dart:964
+#: lib/screens/dashboard_screen.dart:1021
 msgid "No classes scheduled today"
 msgstr "Nenhuma aula programada hoje"
 
 #: lib/screens/course_detail_screen.dart:185
 msgid "No classes yet"
 msgstr "Nenhuma classe ainda"
+
+#: lib/screens/student_marks_screen.dart:386
+msgid "No columns in this term."
+msgstr "Nenhuma coluna neste período letivo."
 
 #: lib/screens/course_manage_list_screen.dart:133
 msgid "No courses found"
@@ -1000,11 +1083,11 @@ msgstr "Nenhum espaço encontrado"
 msgid "No families found"
 msgstr "Nenhuma família encontrada"
 
-#: lib/screens/student_emergency_screen.dart:116
+#: lib/screens/student_emergency_screen.dart:121
 msgid "No family members on record"
 msgstr "Nenhum membro da família registrado"
 
-#: lib/screens/student_family_screen.dart:113
+#: lib/screens/student_family_screen.dart:135
 msgid "No family record found"
 msgstr "Nenhum registro de família encontrado"
 
@@ -1025,7 +1108,7 @@ msgstr "Nenhum dever de casa registrado."
 msgid "No invoices to display"
 msgstr "Nenhuma fatura para mostrar"
 
-#: lib/screens/class_markbook_screen.dart:77
+#: lib/screens/class_markbook_screen.dart:135
 msgid "No markbook entries yet"
 msgstr "Nenhum lançamento no diário de notas ainda"
 
@@ -1046,7 +1129,7 @@ msgstr "Nenhum participante ainda"
 msgid "No people found"
 msgstr "Nenhuma pessoa encontrada"
 
-#: lib/screens/student_emergency_screen.dart:147
+#: lib/screens/student_emergency_screen.dart:172
 msgid "No phone on record"
 msgstr "Nenhum telefone cadastrado"
 
@@ -1089,7 +1172,7 @@ msgstr "Nenhum dado de horário encontrado"
 msgid "No timetable for this day"
 msgstr "Sem horário para este dia"
 
-#: lib/screens/dashboard_screen.dart:958
+#: lib/screens/dashboard_screen.dart:1015
 msgid "No timetable for today"
 msgstr "Sem horário para hoje"
 
@@ -1118,9 +1201,14 @@ msgstr "Não matriculado no momento"
 msgid "Not enrolled in any classes yet"
 msgstr "Ainda não matriculado em nenhuma classe"
 
-#: lib/screens/about_screen.dart:78
+#: lib/screens/about_screen.dart:90
 msgid "Not reported: update the School Connect module"
 msgstr "Não informado: atualize o módulo School Connect"
+
+#: lib/screens/markbook_entry_screen.dart:638
+#: lib/screens/student_marks_screen.dart:435
+msgid "Not saved yet"
+msgstr "Ainda não salvo"
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1148,7 +1236,7 @@ msgstr "Agora"
 msgid "Official Name *"
 msgstr "Nome Oficial *"
 
-#: lib/screens/about_screen.dart:251
+#: lib/screens/about_screen.dart:278
 msgid ""
 "Once a day, your school's server tells High Point only its own web address, "
 "to confirm the school's subscription. No personal information is sent."
@@ -1171,9 +1259,28 @@ msgstr "Inclui apenas alunos não matriculados neste ano letivo."
 msgid "Opens at"
 msgstr "Abre às"
 
-#: lib/screens/about_screen.dart:235
+#: lib/screens/enter_marks_screen.dart:158
+msgid "Other classes"
+msgstr "Outras classes"
+
+#: lib/screens/about_screen.dart:262
 msgid "Other services you may see"
 msgstr "Outros serviços que você pode ver"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:560
+msgid ""
+"Parents can see these grades (live since {date}). Hidden from students."
+msgstr ""
+"Os responsáveis podem ver estas notas (visíveis desde {date}). Ocultas para "
+"os alunos."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:559
+msgid "Parents will see these grades from {date}. Hidden from students."
+msgstr ""
+"Os responsáveis verão estas notas a partir de {date}. Ocultas para os "
+"alunos."
 
 #: lib/screens/user_edit_screen.dart:598
 msgid "Password *"
@@ -1187,7 +1294,7 @@ msgstr "A senha deve ser preenchida e coincidir"
 msgid "Password reset successfully"
 msgstr "Senha redefinida"
 
-#: lib/screens/user_edit_screen.dart:773
+#: lib/screens/user_edit_screen.dart:774
 #: lib/screens/user_password_screen.dart:300
 msgid "Passwords do not match"
 msgstr "As senhas não coincidem"
@@ -1205,7 +1312,7 @@ msgstr "Excluir permanentemente"
 msgid "Permanently delete \"{name}\" and all of its classes?"
 msgstr "Excluir permanentemente \"{name}\" e todas as suas classes?"
 
-#: lib/screens/about_screen.dart:257
+#: lib/screens/about_screen.dart:284
 msgid "Permissions"
 msgstr "Permissões"
 
@@ -1258,7 +1365,7 @@ msgstr ""
 "Reserve um momento para revisar as atualizações solicitadas abaixo. Mesmo "
 "que nada tenha mudado, enviar confirma que seus dados estão corretos."
 
-#: lib/screens/about_screen.dart:300
+#: lib/screens/about_screen.dart:327
 msgid "Powered by Gibbon"
 msgstr "Desenvolvido com Gibbon"
 
@@ -1279,11 +1386,11 @@ msgstr ""
 msgid "Qualified"
 msgstr "Qualificado"
 
-#: lib/screens/dashboard_screen.dart:733
+#: lib/screens/dashboard_screen.dart:780
 msgid "Quick Access"
 msgstr "Acesso Rápido"
 
-#: lib/screens/about_screen.dart:280
+#: lib/screens/about_screen.dart:307
 msgid "Read the full privacy policy"
 msgstr "Ler a política de privacidade completa"
 
@@ -1345,7 +1452,7 @@ msgstr "Remover {name} desta classe?"
 msgid "Remove {name} from this family?"
 msgstr "Remover {name} desta família?"
 
-#: lib/screens/about_screen.dart:219
+#: lib/screens/about_screen.dart:246
 msgid "Report-card PDFs, only while you view or share them"
 msgstr "Boletins em PDF, só enquanto você os vê ou compartilha"
 
@@ -1372,7 +1479,7 @@ msgid_plural "Saved for {count}, but failed for: {names}"
 msgstr[0] "Salvo para {count}, mas falhou para: {names}"
 msgstr[1] "Salvo para {count}, mas falhou para: {names}"
 
-#: lib/screens/about_screen.dart:305
+#: lib/screens/about_screen.dart:332
 msgid ""
 "School Connect is a third-party application that is compatible with Gibbon, "
 "the free and open-source school management platform. It is not an official "
@@ -1384,11 +1491,11 @@ msgstr ""
 "oficial da Gibbon Foundation e não tem vínculo nem aval da Gibbon "
 "Foundation."
 
-#: lib/screens/about_screen.dart:157
+#: lib/screens/about_screen.dart:178
 msgid "School Connect module on the school server"
 msgstr "Módulo School Connect no servidor da escola"
 
-#: lib/screens/about_screen.dart:198
+#: lib/screens/about_screen.dart:225
 msgid ""
 "School Connect shows information from your school's own Gibbon system: "
 "timetables, attendance, grades, homework, reports, messages and your "
@@ -1410,7 +1517,7 @@ msgstr ""
 "Os horários de abertura, início, término e fechamento não são definidos aqui"
 " — conclua esses detalhes pelo site."
 
-#: lib/screens/dashboard_screen.dart:786
+#: lib/screens/dashboard_screen.dart:833
 msgid "Search and view student profiles"
 msgstr "Buscar e ver perfis de alunos"
 
@@ -1453,6 +1560,7 @@ msgstr "Buscar classes…"
 msgid "Search rooms..."
 msgstr "Buscar salas…"
 
+#: lib/screens/enter_marks_screen.dart:197
 #: lib/screens/form_group_detail_screen.dart:208
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
@@ -1470,7 +1578,7 @@ msgstr "Aulas marcadas como Fora neste ano"
 msgid "Share"
 msgstr "Compartilhar"
 
-#: lib/screens/about_screen.dart:221
+#: lib/screens/about_screen.dart:248
 msgid ""
 "Signing out removes the sign-in token, your username and any downloaded "
 "report cards. Uninstalling the app removes everything else."
@@ -1502,6 +1610,31 @@ msgstr "Lista de Alunos"
 msgid "Student enrolled successfully"
 msgstr "Aluno matriculado"
 
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:551
+msgid "Students and parents can see these grades (live since {date})."
+msgstr "Alunos e responsáveis podem ver estas notas (visíveis desde {date})."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:550
+msgid "Students and parents will see these grades from {date}."
+msgstr "Alunos e responsáveis verão estas notas a partir de {date}."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:556
+msgid ""
+"Students can see these grades (live since {date}). Hidden from parents."
+msgstr ""
+"Os alunos podem ver estas notas (visíveis desde {date}). Ocultas para os "
+"responsáveis."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:555
+msgid "Students will see these grades from {date}. Hidden from parents."
+msgstr ""
+"Os alunos verão estas notas a partir de {date}. Ocultas para os "
+"responsáveis."
+
 #: lib/screens/data_family_edit_screen.dart:126
 #: lib/screens/data_finance_edit_screen.dart:122
 #: lib/screens/data_medical_edit_screen.dart:205
@@ -1512,12 +1645,12 @@ msgstr "Enviado"
 msgid "Surname *"
 msgstr "Sobrenome *"
 
-#: lib/screens/dashboard_screen.dart:424
+#: lib/screens/dashboard_screen.dart:445
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Alternar Perfil"
 
-#: lib/screens/dashboard_screen.dart:430
+#: lib/screens/dashboard_screen.dart:451
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
@@ -1533,7 +1666,7 @@ msgid "Taken"
 msgstr "Feita"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1114
 msgid "Taken at {time}"
 msgstr "Feita às {time}"
 
@@ -1546,12 +1679,23 @@ msgstr "Feita hoje às {time}. Toque para revisar ou alterar"
 msgid "Tap to edit"
 msgstr "Toque para editar"
 
+#: lib/screens/markbook_entry_screen.dart:306
+#: lib/screens/student_marks_screen.dart:158
+msgid "The grades you entered have not been saved."
+msgstr "As notas lançadas não foram salvas."
+
 #: lib/screens/impersonation_banner.dart:74
 msgid ""
 "The impersonation ended after 2 hours. You are back in your own account."
 msgstr ""
 "O acesso como outro usuário terminou após 2 horas. Você voltou para sua "
 "própria conta."
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:709
+#: lib/screens/student_marks_screen.dart:523
+msgid "The mark works out to {grade}"
+msgstr "Equivale a {grade}"
 
 #: lib/screens/family_detail_screen.dart:577
 msgid "The order in which the school should contact family members."
@@ -1578,18 +1722,27 @@ msgstr ""
 "Isso também remove todas as matrículas e dados de horário dessas classes. "
 "Não é possível desfazer."
 
+#: lib/screens/about_screen.dart:185
+msgid "This app is built for module"
+msgstr "Este aplicativo foi feito para o módulo"
+
 #: lib/screens/user_list_screen.dart:202
 msgid "This cannot be undone."
 msgstr "Não é possível desfazer."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:203
+#: lib/screens/attendance_screen.dart:237
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr ""
 "Esta classe não tem aula programada em {date}. Você ainda pode salvar a "
 "frequência, se precisar."
+
+#: lib/screens/markbook_entry_screen.dart:383
+#: lib/screens/student_marks_screen.dart:469
+msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
+msgstr "Esta coluna usa uma rubrica. Preencha a rubrica no site do Gibbon."
 
 #: lib/screens/family_detail_screen.dart:128
 msgid "This does not delete their user account."
@@ -1614,21 +1767,21 @@ msgstr ""
 "Isso remove todas as matrículas e dados de horário desta classe. Não é "
 "possível desfazer."
 
-#: lib/screens/dashboard_screen.dart:722
+#: lib/screens/dashboard_screen.dart:769
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Horário por Espaço"
 
-#: lib/screens/dashboard_screen.dart:926
+#: lib/screens/dashboard_screen.dart:974
 msgid "Today's Timetable"
 msgstr "Horário de Hoje"
 
-#: lib/screens/dashboard_screen.dart:532
+#: lib/screens/dashboard_screen.dart:553
 msgid "Trial access"
 msgstr "Acesso de teste"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:531
+#: lib/screens/dashboard_screen.dart:552
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Período de teste — falta {count} dia"
@@ -1668,9 +1821,32 @@ msgstr "Cancelar a matrícula de {name} neste ano letivo?"
 msgid "Unknown Year"
 msgstr "Ano Desconhecido"
 
+#: lib/screens/markbook_entry_screen.dart:542
+msgid "Unmarked: parents do not see these grades yet. Hidden from students."
+msgstr ""
+"Não avaliado: os responsáveis ainda não veem estas notas. Ocultas para os "
+"alunos."
+
+#: lib/screens/markbook_entry_screen.dart:540
+msgid "Unmarked: students and parents do not see these grades yet."
+msgstr "Não avaliado: alunos e responsáveis ainda não veem estas notas."
+
+#: lib/screens/markbook_entry_screen.dart:541
+msgid "Unmarked: students do not see these grades yet. Hidden from parents."
+msgstr ""
+"Não avaliado: os alunos ainda não veem estas notas. Ocultas para os "
+"responsáveis."
+
 #: lib/screens/facility_list_screen.dart:272
 msgid "Unused"
 msgstr "Sem Uso"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:108
+msgid "Update the School Connect module to {version} for all features."
+msgstr ""
+"Atualize o módulo School Connect para a versão {version} para usar todos os "
+"recursos."
 
 #: lib/screens/staff_edit_screen.dart:291
 msgid "Used to group staff in a staff directory."
@@ -1708,7 +1884,7 @@ msgstr "Nome de usuário já em uso"
 msgid "Username available"
 msgstr "Nome de usuário disponível"
 
-#: lib/screens/about_screen.dart:240
+#: lib/screens/about_screen.dart:267
 msgid ""
 "Video lessons: virtual classes use your school's chosen video service (by "
 "default the public Jitsi Meet service)"
@@ -1720,7 +1896,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Ver Frequência"
 
-#: lib/screens/dashboard_screen.dart:938
+#: lib/screens/dashboard_screen.dart:993
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Ver Horário Completo"
@@ -1737,7 +1913,7 @@ msgstr "Ver Calendário de Deveres"
 msgid "View Timetable"
 msgstr "Ver Horário"
 
-#: lib/screens/dashboard_screen.dart:808
+#: lib/screens/dashboard_screen.dart:855
 msgid "View and manage Form Groups"
 msgstr "Ver e gerenciar turmas"
 
@@ -1753,15 +1929,19 @@ msgstr "Ver famílias, contatos e filhos"
 msgid "View lesson plans for this class"
 msgstr "Ver planos de aula desta classe"
 
+#: lib/screens/student_photo_avatar.dart:41
+msgid "View photo"
+msgstr "Ver foto"
+
 #: lib/screens/class_detail_screen.dart:224
 msgid "View students in this class"
 msgstr "Ver alunos desta classe"
 
-#: lib/screens/dashboard_screen.dart:819
+#: lib/screens/dashboard_screen.dart:866
 msgid "View your grades"
 msgstr "Ver suas notas"
 
-#: lib/screens/dashboard_screen.dart:837
+#: lib/screens/dashboard_screen.dart:884
 msgid "View your report cards"
 msgstr "Ver seus boletins"
 
@@ -1775,20 +1955,20 @@ msgid "Virtual Classroom"
 msgstr "Sala de Aula Virtual"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:479
+#: lib/screens/dashboard_screen.dart:500
 msgid "Welcome, {name}!"
 msgstr "Bem-vindo(a), {name}!"
 
-#: lib/screens/about_screen.dart:226
+#: lib/screens/about_screen.dart:253
 msgid "What the app does not do"
 msgstr "O que o app não faz"
 
-#: lib/screens/about_screen.dart:213
+#: lib/screens/about_screen.dart:240
 msgid "What the app keeps on this device"
 msgstr "O que o app guarda neste aparelho"
 
 #: lib/screens/student_enrolment_edit_screen.dart:221
-#: lib/screens/user_edit_screen.dart:690
+#: lib/screens/user_edit_screen.dart:691
 msgid "Year Group *"
 msgstr "Ano *"
 
@@ -1844,11 +2024,11 @@ msgstr ""
 msgid "Your data is up to date."
 msgstr "Seus dados estão atualizados."
 
-#: lib/screens/about_screen.dart:192
+#: lib/screens/about_screen.dart:219
 msgid "Your data stays with your school"
 msgstr "Seus dados ficam com a sua escola"
 
-#: lib/screens/about_screen.dart:218
+#: lib/screens/about_screen.dart:245
 msgid ""
 "Your last username and the last three school addresses you used, so you "
 "don't have to retype them"
@@ -1856,12 +2036,12 @@ msgstr ""
 "Seu último nome de usuário e os três últimos endereços de escola usados, "
 "para você não precisar digitá-los de novo"
 
-#: lib/screens/about_screen.dart:266
+#: lib/screens/about_screen.dart:293
 msgid "Your rights and questions"
 msgstr "Seus direitos e dúvidas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/about_screen.dart:271
+#: lib/screens/about_screen.dart:298
 msgid ""
 "Your school is responsible for your personal data in Gibbon. To see, correct"
 " or delete it, contact your school's data protection officer. For questions "
@@ -1880,7 +2060,7 @@ msgstr "Sua sessão passará para {name} ({role})."
 msgid "a previous year"
 msgstr "um ano anterior"
 
-#: lib/screens/about_screen.dart:133
+#: lib/screens/about_screen.dart:154
 msgid "an app for Gibbon™"
 msgstr "um app para Gibbon™"
 
@@ -1890,7 +2070,7 @@ msgstr "um app para Gibbon™"
 msgid "optional"
 msgstr "opcional"
 
-#: lib/screens/user_edit_screen.dart:857
+#: lib/screens/user_edit_screen.dart:858
 msgid "primary"
 msgstr "principal"
 
@@ -1905,7 +2085,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} faltas em {total} aulas registradas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1058
+#: lib/screens/dashboard_screen.dart:1115
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} ausente"
@@ -1919,7 +2099,7 @@ msgstr[0] "{count} aval."
 msgstr[1] "{count} aval."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/student_grades_screen.dart:156
 msgid "{count} assessment"
 msgid_plural "{count} assessments"
@@ -1928,22 +2108,21 @@ msgstr[1] "{count} avaliações"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166
-#: lib/screens/master_timetable_screen.dart:278
+#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} classe"
 msgstr[1] "{count} classes"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:996
+#: lib/screens/dashboard_screen.dart:1053
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "{count} aula restante · {done} concluída(s)"
 msgstr[1] "{count} aulas restantes · {done} concluída(s)"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:998
+#: lib/screens/dashboard_screen.dart:1055
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} aula hoje"
@@ -1964,6 +2143,13 @@ msgid "{count} due"
 msgid_plural "{count} due"
 msgstr[0] "{count} para entregar"
 msgstr[1] "{count} para entregar"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_columns_screen.dart:151
+msgid "{count} entered"
+msgid_plural "{count} entered"
+msgstr[0] "{count} lançada"
+msgstr[1] "{count} lançadas"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/facility_list_screen.dart:211
@@ -1987,18 +2173,38 @@ msgstr[0] "{count} item"
 msgstr[1] "{count} itens"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1059
+#: lib/screens/dashboard_screen.dart:1116
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} atrasado"
 msgstr[1] "{count} atrasados"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:992
+#: lib/screens/dashboard_screen.dart:1049
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Mais {count} aula depois desta · {total} hoje"
 msgstr[1] "Mais {count} aulas depois desta · {total} hoje"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:374
+#: lib/screens/student_marks_screen.dart:343
+#: lib/screens/student_marks_screen.dart:377
+msgid "{count} not saved yet"
+msgid_plural "{count} not saved yet"
+msgstr[0] "{count} não salva"
+msgstr[1] "{count} não salvas"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_marks_screen.dart:338
+#: lib/screens/student_marks_screen.dart:376
+msgid "{count} of {total} saved"
+msgstr "{count} de {total} salvos"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:364
+msgid "{count} of {total} students saved"
+msgstr "{count} de {total} alunos salvos"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/student_attendance_screen.dart:379
@@ -2030,8 +2236,8 @@ msgstr[0] "{count} funcionário"
 msgstr[1] "{count} funcionários"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:189
-#: lib/screens/class_markbook_screen.dart:84
+#: lib/screens/attendance_screen.dart:217
+#: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"
 msgid_plural "{count} students"
@@ -2421,6 +2627,10 @@ msgid "End Date"
 msgstr "Data Final"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enter Marks"
+msgstr "Lançar Notas"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Fee Table"
 msgstr "Tabela de Taxas"
 
@@ -2459,6 +2669,10 @@ msgstr "Informações Gerais"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Given Name"
 msgstr "Prenome"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Go Live Date"
+msgstr "Data de Publicação"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Grouping Priority"
@@ -2571,6 +2785,10 @@ msgid "Manage Staff"
 msgstr "Gerenciar Funcionários"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mark"
+msgstr "Pontos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Maximum Enrolment"
 msgstr "Máximo de Matrículas"
 
@@ -2581,6 +2799,10 @@ msgstr "Mínimo de Matrículas"
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Miscellaneous"
 msgstr "Diversos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Modified Assessment"
+msgstr "Avaliação Adaptada"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Most common name, alias, nickname, etc."
@@ -2607,6 +2829,10 @@ msgid "My Form Group"
 msgstr "Minha Turma"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Students"
+msgstr "Meus Alunos"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Name In Characters"
 msgstr "Nome em Caracteres"
 
@@ -2631,12 +2857,20 @@ msgid "Pay Now"
 msgstr "Pagar Agora"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personalised target grade"
+msgstr "Nota-meta personalizada"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Planner"
 msgstr "Planejamento"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Preferred Name"
 msgstr "Nome Preferido"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Raw Attainment Mark"
+msgstr "Nota Bruta"
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "Receipt To"
@@ -2756,6 +2990,10 @@ msgid "Student Recorded Homework"
 msgstr "Dever de Casa Registrado pelo Aluno"
 
 # Gibbon core string: corrects Gibbon's translation for the app
+msgid "Submitted Work"
+msgstr "Trabalho Entregue"
+
+# Gibbon core string: corrects Gibbon's translation for the app
 msgid "Support"
 msgstr "Apoio"
 
@@ -2863,6 +3101,12 @@ msgid ""
 msgstr ""
 "Você tem vários perfis no sistema. Use a lista abaixo para alternar o "
 "perfil:"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Your request was successful, but some data was not properly saved."
+msgstr ""
+"Sua solicitação foi concluída, mas alguns dados não foram salvos "
+"corretamente."
 
 # Gibbon core string: corrects Gibbon's translation for the app
 msgid "students"

@@ -417,4 +417,21 @@ FINAL = {
 'Tracking': '学业追踪',
 'User Admin': '用户管理',
 '{count} min': '{count} 分钟',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': '评估已完成？',   # app 1.16.13–1.16.17
+    'Enter Marks': '录入成绩',   # app 1.16.13–1.16.17
+    'Go Live Date': '发布日期',   # app 1.16.13–1.16.17
+    'Mark': '分数',   # app 1.16.13–1.16.17
+    'Marked on': '评分日期',   # app 1.16.13–1.16.17
+    'Modified Assessment': '调整后的评估',   # app 1.16.13–1.16.17
+    'My Students': '我的学生',   # app 1.16.13–1.16.17
+    'Personalised target grade': '个人目标成绩',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': '原始分',   # app 1.16.13–1.16.17
+    'Submitted Work': '提交的作业',   # app 1.16.13–1.16.17
+    'Target': '目标',   # app 1.16.13–1.16.17
+    'There are no records to display.': '无可显示记录。',   # app 1.16.13–1.16.17
+    'Unmarked': '未评分',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': '您的请求已成功完成。',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': '您的请求已成功，但部分数据未正确保存。',   # app 1.16.13–1.16.17
+    'Attainment': '学业水平',   # markbook field default names (app 1.16.18)
+    'Effort': '努力',   # markbook field default names (app 1.16.18)
 }

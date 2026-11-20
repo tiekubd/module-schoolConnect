@@ -414,4 +414,21 @@ FINAL = {
 'Tracking': 'Monitorizare',
 'User Admin': 'Administrare utilizatori',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Evaluare completă?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Introduceți note',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data publicării',   # app 1.16.13–1.16.17
+    'Mark': 'Punctaj',   # app 1.16.13–1.16.17
+    'Marked on': 'Notat la',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Evaluare adaptată',   # app 1.16.13–1.16.17
+    'My Students': 'Elevii mei',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Notă-țintă personalizată',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Punctaj brut',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Lucrare predată',   # app 1.16.13–1.16.17
+    'Target': 'Obiectiv',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Nu există înregistrări de afișat.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Nenotat',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Cererea dvs. a fost finalizată cu succes.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Cererea a reușit, dar unele date nu au fost salvate corect.',   # app 1.16.13–1.16.17
+    'Attainment': 'Rezultat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Efort',   # markbook field default names (app 1.16.18)
 }

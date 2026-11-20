@@ -416,4 +416,21 @@ FINAL = {
 'Tracking': 'Seguimiento',
 'User Admin': 'Administración de Usuarios',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': '¿Evaluación Completa?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Capturar Calificaciones',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Fecha de Publicación',   # app 1.16.13–1.16.17
+    'Mark': 'Puntos',   # app 1.16.13–1.16.17
+    'Marked on': 'Calificado el',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Evaluación Adaptada',   # app 1.16.13–1.16.17
+    'My Students': 'Mis Estudiantes',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Calificación Objetivo Personalizada',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Puntuación Directa',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Trabajo Entregado',   # app 1.16.13–1.16.17
+    'Target': 'Objetivo',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'No hay registros para mostrar.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Sin Calificar',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Su solicitud se ha completado con éxito.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Su solicitud se completó, pero algunos datos no se guardaron correctamente.',   # app 1.16.13–1.16.17
+    'Attainment': 'Logro',   # markbook field default names (app 1.16.18)
+    'Effort': 'Esfuerzo',   # markbook field default names (app 1.16.18)
 }

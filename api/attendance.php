@@ -7,6 +7,28 @@ header('Access-Control-Allow-Headers: Content-Type');
 
 require_once __DIR__ . '/../../../config.php';
 
+// One row in System Admin > View Logs (Type: School Connect) each time
+// attendance is saved from the app, so a school can tell app registers from
+// website ones (Gibbon's attendance tables don't record which was used).
+// Logging never blocks the save.
+function gibbonConnectLogAttendance(PDO $pdo, $takerID, string $context, $id, string $date, int $count): void
+{
+    try {
+        $stmt = $pdo->prepare("INSERT INTO gibbonLog SET
+                gibbonSchoolYearID = (SELECT gibbonSchoolYearID FROM gibbonSchoolYear WHERE status = 'Current' LIMIT 1),
+                gibbonModuleID = (SELECT gibbonModuleID FROM gibbonModule WHERE name = 'School Connect'),
+                gibbonPersonID = :p, title = 'Attendance taken', serialisedArray = :a, ip = :ip");
+        $stmt->execute([
+            'p'  => $takerID,
+            'a'  => serialize(['context' => $context, ($context === 'Class' ? 'gibbonCourseClassID' : 'gibbonFormGroupID') => $id,
+                               'date' => $date, 'students' => $count, 'method' => 'School Connect']),
+            'ip' => substr((string) ($_SERVER['REMOTE_ADDR'] ?? ''), 0, 15),
+        ]);
+    } catch (Throwable $e) {
+        error_log('School Connect attendance log error: ' . $e->getMessage());
+    }
+}
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     echo json_encode(['success' => false, 'message' => 'Method not allowed']);
     exit;
@@ -145,6 +167,7 @@ try {
             VALUES (?, ?, ?, ?, '" . gibbonConnectNow() . "')
         ");
         $summaryInsert->execute([$classID, $ttSlotID, $takerID, $date]);
+        gibbonConnectLogAttendance($pdo, $takerID, 'Class', $classID, $date, count($records));
 
         echo json_encode(['success' => true, 'message' => 'Attendance saved successfully']);
         exit;
@@ -339,6 +362,7 @@ try {
             VALUES (?, ?, ?, '" . gibbonConnectNow() . "')
         ");
         $summaryInsert->execute([$formGroupID, $takerID, $date]);
+        gibbonConnectLogAttendance($pdo, $takerID, 'Form Group', $formGroupID, $date, count($records));
 
         echo json_encode(['success' => true, 'message' => 'Attendance saved successfully']);
         exit;

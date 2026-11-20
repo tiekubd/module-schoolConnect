@@ -409,4 +409,21 @@ FINAL = {
 'Tracking': 'Seguiment',
 'User Admin': "Administració de l'usuari",
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'S’ha completat l’avaluació?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Introdueix les notes',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data de publicació',   # app 1.16.13–1.16.17
+    'Mark': 'Punts',   # app 1.16.13–1.16.17
+    'Marked on': 'Qualificat el',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Avaluació adaptada',   # app 1.16.13–1.16.17
+    'My Students': 'Els meus alumnes',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Nota objectiu personalitzada',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Puntuació directa',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Treball lliurat',   # app 1.16.13–1.16.17
+    'Target': 'Objectiu',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'No hi ha registres per mostrar.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Sense qualificar',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'La sol·licitud s’ha completat correctament.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'La sol·licitud s’ha completat, però algunes dades no s’han desat correctament.',   # app 1.16.13–1.16.17
+    'Attainment': 'Assoliment',   # markbook field default names (app 1.16.18)
+    'Effort': 'Esforç',   # markbook field default names (app 1.16.18)
 }

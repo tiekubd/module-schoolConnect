@@ -21,6 +21,7 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'All Learning Areas': 'Toate ariile curriculare',
  'All Roles': 'Toate rolurile',
  'All Students': 'Toți elevii',
+ 'Attainment': 'Rezultat',
  'Background Information': 'Informații suplimentare',
  'CC Family?': 'Copie către familie?',
  'Call?': 'Apel?',
@@ -72,6 +73,7 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'Edit Special Day': 'Editează ziua specială',
  'Edit Staff': 'Editează angajatul',
  'Edit User': 'Editează utilizatorul',
+ 'Effort': 'Efort',
  'Email?': 'E-mail?',
  'Emergency Contacts': 'Contacte de urgență',
  'Employment': 'Loc de muncă',
@@ -92,6 +94,7 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'Full': 'Activ',
  'Full name as shown in ID documents.': 'Numele complet, ca în actele de identitate.',
  'General Information': 'Informații generale',
+ 'Go Live Date': 'Data publicării',
  'Grouping Priority': 'Prioritate în grupare',
  'Home': 'Acasă',
  'Home Address': 'Adresa de domiciliu',
@@ -126,6 +129,8 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'Manage Staff': 'Gestionare personal',
  'Manage Terms': 'Gestionare semestre',
  'Manage Users': 'Gestionare utilizatori',
+ 'Mark': 'Punctaj',
+ 'Marked on': 'Notat la',
  'Message Wall': 'Avizier',
  'Mobile': 'Mobil',
  'Mon': 'Lun',
@@ -200,6 +205,7 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'Teacher - Left': 'Profesor - Plecat',
  'Teaching': 'Didactic',
  'Term': 'Semestru',
+ 'There are no records to display.': 'Nu există înregistrări de afișat.',
  'These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members.': 'Aceste date se folosesc atunci când '
                                                                                                                                                               'membrii apropiați ai familiei (de ex. '
                                                                                                                                                               'părinte, soț/soție) nu pot fi '
@@ -226,4 +232,5 @@ MANUAL = {"Access data on family's children?": 'Acces la datele copiilor din fam
  'Website': 'Site web',
  'Wed': 'Mie',
  'Work': 'Serviciu',
- 'You have multiple roles within the system. Use the list below to switch role:': 'Aveți mai multe roluri în sistem. Folosiți lista de mai jos pentru a schimba rolul:'}
+ 'You have multiple roles within the system. Use the list below to switch role:': 'Aveți mai multe roluri în sistem. Folosiți lista de mai jos pentru a schimba rolul:',
+ 'Your request was successful, but some data was not properly saved.': 'Cererea a reușit, dar unele date nu au fost salvate corect.'}

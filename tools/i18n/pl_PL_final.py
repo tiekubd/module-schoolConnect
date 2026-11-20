@@ -385,4 +385,21 @@ FINAL = {
 'Full': 'Aktywny',                 # user status; Gibbon: Pełny
 'Expected': 'Oczekiwany',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Ocenianie ukończone?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Wpisz oceny',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data publikacji',   # app 1.16.13–1.16.17
+    'Mark': 'Punkty',   # app 1.16.13–1.16.17
+    'Marked on': 'Oceniono',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Ocenianie dostosowane',   # app 1.16.13–1.16.17
+    'My Students': 'Moi uczniowie',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Indywidualna ocena docelowa',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Liczba punktów',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Oddana praca',   # app 1.16.13–1.16.17
+    'Target': 'Cel',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Brak danych do wyświetlenia.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Bez oceny',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Twoja prośba została pomyślnie wykonana.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Prośba została wykonana, ale niektóre dane nie zostały poprawnie zapisane.',   # app 1.16.13–1.16.17
+    'Attainment': 'Osiągnięcia',   # markbook field default names (app 1.16.18)
+    'Effort': 'Wysiłek',   # markbook field default names (app 1.16.18)
 }

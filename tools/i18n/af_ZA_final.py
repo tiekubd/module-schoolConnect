@@ -410,4 +410,21 @@ FINAL = {
 'Tracking': 'Vordering',                    # Gibbon: Opsporing (tracing, as of a suspect)
 'User Admin': 'Gebruikersadministrateur',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Assessering voltooi?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Sleutel punte in',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Publikasiedatum',   # app 1.16.13–1.16.17
+    'Mark': 'Punt',   # app 1.16.13–1.16.17
+    'Marked on': 'Gemerk op',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Aangepaste assessering',   # app 1.16.13–1.16.17
+    'My Students': 'My leerders',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Persoonlike teikenpunt',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Rou punt',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Ingehandigde werk',   # app 1.16.13–1.16.17
+    'Target': 'Teiken',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Daar is geen rekords om te vertoon nie.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Nie gemerk nie',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Jou versoek is suksesvol voltooi.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Jou versoek was suksesvol, maar sommige data is nie behoorlik gestoor nie.',   # app 1.16.13–1.16.17
+    'Attainment': 'Prestasie',   # markbook field default names (app 1.16.18)
+    'Effort': 'Poging',   # markbook field default names (app 1.16.18)
 }

@@ -417,4 +417,21 @@ FINAL = {
 'Tracking': 'Monitorização',   # Gibbon: Rastreamento (tracking a parcel)
 'User Admin': 'Administração de Utilizadores',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Avaliação Concluída?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Lançar Classificações',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data de Publicação',   # app 1.16.13–1.16.17
+    'Mark': 'Pontos',   # app 1.16.13–1.16.17
+    'Marked on': 'Avaliado em',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Avaliação Adaptada',   # app 1.16.13–1.16.17
+    'My Students': 'Os Meus Estudantes',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Classificação-meta personalizada',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Nota Bruta de Aproveitamento',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Trabalho Entregue',   # app 1.16.13–1.16.17
+    'Target': 'Meta',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Não há registos para mostrar.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Não Avaliado',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'O seu pedido foi concluído com êxito.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'O seu pedido foi bem-sucedido, mas alguns dados não foram guardados corretamente.',   # app 1.16.13–1.16.17
+    'Attainment': 'Aproveitamento',   # markbook field default names (app 1.16.18)
+    'Effort': 'Empenho',   # markbook field default names (app 1.16.18)
 }

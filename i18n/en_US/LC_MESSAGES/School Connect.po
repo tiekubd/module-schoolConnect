@@ -49,11 +49,13 @@ msgstr "Could not load enrollment"
 msgid "Could not load enrolments"
 msgstr "Could not load enrollments"
 
-#: lib/screens/class_markbook_screen.dart:50
+#: lib/screens/class_markbook_screen.dart:91
+#: lib/screens/enter_marks_screen.dart:64
+#: lib/screens/enter_marks_screen.dart:70
 msgid "Could not load markbook"
 msgstr "Could not load gradebook"
 
-#: lib/screens/user_edit_screen.dart:685
+#: lib/screens/user_edit_screen.dart:686
 msgid "Create linked student enrolment"
 msgstr "Create linked student enrollment"
 
@@ -62,21 +64,21 @@ msgid "Enrolable Year Groups"
 msgstr "Enrollable Year Groups"
 
 #: lib/screens/student_enrolment_edit_screen.dart:225
-#: lib/screens/user_edit_screen.dart:694
+#: lib/screens/user_edit_screen.dart:695
 msgid "Form Group *"
 msgstr "Homeroom *"
 
-#: lib/screens/about_screen.dart:247
+#: lib/screens/about_screen.dart:274
 msgid "Licence check"
 msgstr "License check"
 
-#: lib/screens/dashboard_screen.dart:701
+#: lib/screens/dashboard_screen.dart:748
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Log Behavior"
 
-#: lib/screens/dashboard_screen.dart:1036
-#: lib/screens/dashboard_screen.dart:806
+#: lib/screens/dashboard_screen.dart:1093
+#: lib/screens/dashboard_screen.dart:853
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "My Homerooms"
@@ -85,7 +87,7 @@ msgstr "My Homerooms"
 msgid "No Form Groups found"
 msgstr "No Homerooms found"
 
-#: lib/screens/class_markbook_screen.dart:77
+#: lib/screens/class_markbook_screen.dart:135
 msgid "No markbook entries yet"
 msgstr "No gradebook entries yet"
 
@@ -127,7 +129,7 @@ msgstr ""
 "This removes all enrollment and timetable data for this class. This cannot "
 "be undone."
 
-#: lib/screens/dashboard_screen.dart:808
+#: lib/screens/dashboard_screen.dart:855
 msgid "View and manage Form Groups"
 msgstr "View and manage Homerooms"
 

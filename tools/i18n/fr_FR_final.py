@@ -416,4 +416,21 @@ FINAL = {
 'Tracking': 'Suivi',   # Gibbon: Suivi/Graphique
 'User Admin': 'Administration des utilisateurs',   # Gibbon: Utilisateurs (users)
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Évaluation terminée ?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Saisir les notes',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Date de publication',   # app 1.16.13–1.16.17
+    'Mark': 'Points',   # app 1.16.13–1.16.17
+    'Marked on': 'Noté le',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Évaluation adaptée',   # app 1.16.13–1.16.17
+    'My Students': 'Mes élèves',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Note cible personnalisée',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Note brute',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Travail rendu',   # app 1.16.13–1.16.17
+    'Target': 'Objectif',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Aucun enregistrement à afficher.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Pas encore noté',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Votre demande a été traitée avec succès.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Votre demande a abouti, mais certaines données n’ont pas été enregistrées correctement.',   # app 1.16.13–1.16.17
+    'Attainment': 'Résultat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Effort',   # markbook field default names (app 1.16.18)
 }

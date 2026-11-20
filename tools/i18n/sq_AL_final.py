@@ -409,4 +409,21 @@ FINAL = {
 'Tracking': 'Ndjekja',
 'User Admin': 'Admin i Përdoruesve',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Vlerësimi u përfundua?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Vendos notat',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Data e publikimit',   # app 1.16.13–1.16.17
+    'Mark': 'Pikë',   # app 1.16.13–1.16.17
+    'Marked on': 'Vlerësuar më',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Vlerësim i përshtatur',   # app 1.16.13–1.16.17
+    'My Students': 'Nxënësit e mi',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Nota e synuar personale',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Pikët e marra',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Puna e dorëzuar',   # app 1.16.13–1.16.17
+    'Target': 'Synimi',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Nuk ka të dhëna për të shfaqur.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Pa vlerësuar',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Kërkesa juaj u krye me sukses.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Kërkesa juaj u krye, por disa të dhëna nuk u ruajtën si duhet.',   # app 1.16.13–1.16.17
+    'Attainment': 'Arritja',   # markbook field default names (app 1.16.18)
+    'Effort': 'Përpjekja',   # markbook field default names (app 1.16.18)
 }

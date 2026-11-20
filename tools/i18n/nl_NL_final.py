@@ -416,4 +416,21 @@ FINAL = {
 'Tracking': 'Voortgang volgen',
 'User Admin': 'Gebruikersbeheer',
 '{count} min': '{count} min',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Beoordeling compleet?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Cijfers invoeren',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Publicatiedatum',   # app 1.16.13–1.16.17
+    'Mark': 'Punten',   # app 1.16.13–1.16.17
+    'Marked on': 'Beoordeeld op',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Aangepaste beoordeling',   # app 1.16.13–1.16.17
+    'My Students': 'Mijn leerlingen',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Persoonlijk streefcijfer',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Behaalde punten',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Ingeleverd werk',   # app 1.16.13–1.16.17
+    'Target': 'Doel',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Er zijn geen gegevens om weer te geven.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Niet beoordeeld',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Je verzoek is uitgevoerd.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Je verzoek is gelukt, maar sommige gegevens zijn niet goed opgeslagen.',   # app 1.16.13–1.16.17
+    'Attainment': 'Resultaat',   # markbook field default names (app 1.16.18)
+    'Effort': 'Inzet',   # markbook field default names (app 1.16.18)
 }

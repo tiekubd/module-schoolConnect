@@ -409,4 +409,21 @@ FINAL = {
 'Tracking': 'Stebėjimas',
 'User Admin': 'Naudotojų administratorius',
 '{count} min': '{count} min.',   # Gibbon: empty (planner lesson length)
+    'Assessment Complete?': 'Įvertinimas baigtas?',   # app 1.16.13–1.16.17
+    'Enter Marks': 'Įvesti pažymius',   # app 1.16.13–1.16.17
+    'Go Live Date': 'Paskelbimo data',   # app 1.16.13–1.16.17
+    'Mark': 'Taškai',   # app 1.16.13–1.16.17
+    'Marked on': 'Įvertinta',   # app 1.16.13–1.16.17
+    'Modified Assessment': 'Pritaikytas vertinimas',   # app 1.16.13–1.16.17
+    'My Students': 'Mano mokiniai',   # app 1.16.13–1.16.17
+    'Personalised target grade': 'Individualus siektinas pažymys',   # app 1.16.13–1.16.17
+    'Raw Attainment Mark': 'Surinkti taškai',   # app 1.16.13–1.16.17
+    'Submitted Work': 'Pateiktas darbas',   # app 1.16.13–1.16.17
+    'Target': 'Tikslas',   # app 1.16.13–1.16.17
+    'There are no records to display.': 'Nėra įrašų, kuriuos būtų galima rodyti.',   # app 1.16.13–1.16.17
+    'Unmarked': 'Neįvertinta',   # app 1.16.13–1.16.17
+    'Your request was completed successfully.': 'Jūsų užklausa sėkmingai įvykdyta.',   # app 1.16.13–1.16.17
+    'Your request was successful, but some data was not properly saved.': 'Jūsų užklausa įvykdyta, tačiau kai kurie duomenys nebuvo tinkamai išsaugoti.',   # app 1.16.13–1.16.17
+    'Attainment': 'Pasiekimai',   # markbook field default names (app 1.16.18)
+    'Effort': 'Pastangos',   # markbook field default names (app 1.16.18)
 }
