@@ -639,7 +639,8 @@ T = {'A punctuation mark or space': 'סימן פיסוק או רווח',
  'From the form group register': 'מנוכחות כיתת האם',
  'Recorded earlier today': 'נרשם מוקדם יותר היום',
  'Taken at {time} by {name}': 'נלקחה ב-{time} על ידי {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'הנוכחות לתאריך זה עדיין לא נלקחה. אלה ערכי ברירת מחדל ולא נוכחות שמורה.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'הנוכחות לתאריך זה עדיין לא נלקחה. אלה ערכי ברירת מחדל ולא נוכחות שמורה.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'אף אחד מקודי הנוכחות אינו זמין לתפקיד שלך, ולכן אינך יכול לקחת נוכחות זו.'}
 
 P = {'All {count} class done for today': ('השיעור של היום הסתיים', 'כל {count} השיעורים של היום הסתיימו'),
  'At least {count} character': ('לפחות תו אחד', 'לפחות {count} תווים'),

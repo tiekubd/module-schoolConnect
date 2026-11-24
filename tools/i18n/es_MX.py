@@ -695,7 +695,9 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'From the form group register': 'De la asistencia del grupo',
  'Recorded earlier today': 'Registrado hoy más temprano',
  'Taken at {time} by {name}': 'Tomada a las {time} por {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Aún no se ha tomado la asistencia de esta fecha. Son valores predeterminados, no asistencia guardada.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Aún no se ha tomado la asistencia de esta fecha. Son valores predeterminados, no asistencia guardada.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Ninguno de los códigos de asistencia está disponible para tu rol, así que no puedes tomar esta '
+                                                                                              'asistencia.'}
 
 P = {'All {count} class done for today': ('{count} clase terminada por hoy', 'Las {count} clases han terminado por hoy'),
  'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),

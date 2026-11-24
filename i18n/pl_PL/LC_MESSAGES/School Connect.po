@@ -766,11 +766,11 @@ msgstr "Klasa *"
 msgid "Formal name to address parents with"
 msgstr "Oficjalna forma zwracania się do rodziców"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Z obecności na zajęciach"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Z obecności klasy"
 
@@ -1209,6 +1209,14 @@ msgstr "Uczestnicy wyłączeni z raportów nie będą w nich widoczni."
 msgid "Non-school day"
 msgstr "Dzień wolny od nauki"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Żaden z kodów obecności nie jest dostępny dla Twojej roli, więc nie możesz "
+"sprawdzić tej obecności."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Dzień wolny od nauki"
@@ -1230,7 +1238,7 @@ msgstr "Brak danych: zaktualizuj moduł School Connect"
 msgid "Not saved yet"
 msgstr "Jeszcze niezapisane"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1426,7 +1434,7 @@ msgstr "Numer potwierdzenia"
 msgid "Recent Attendance"
 msgstr "Ostatnia frekwencja"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Zapisane wcześniej dzisiaj"
 
@@ -1604,7 +1612,7 @@ msgstr "Wybierz ucznia"
 msgid "Sessions marked Out this year"
 msgstr "Lekcje oznaczone w tym roku jako nieobecność"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Wpisane z wyprzedzeniem"
 
@@ -1702,7 +1710,7 @@ msgid "Taken at {time}"
 msgstr "Sprawdzono o {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Sprawdzono o {time}, {name}"
 

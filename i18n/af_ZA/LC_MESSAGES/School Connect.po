@@ -756,11 +756,11 @@ msgstr "Registerklas *"
 msgid "Formal name to address parents with"
 msgstr "Formele aanspreekvorm vir ouers"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Uit ’n klasregister"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Uit die registerklas se register"
 
@@ -1195,6 +1195,14 @@ msgstr ""
 msgid "Non-school day"
 msgstr "Nie-skooldag"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Geen van die bywoningskodes is vir jou rol beskikbaar nie, dus kan jy nie "
+"hierdie register neem nie."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Nie 'n skooldag nie"
@@ -1216,7 +1224,7 @@ msgstr "Nie beskikbaar nie: dateer die School Connect-module op"
 msgid "Not saved yet"
 msgstr "Nog nie gestoor nie"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1413,7 +1421,7 @@ msgstr "Kwitansienommer"
 msgid "Recent Attendance"
 msgstr "Onlangse bywoning"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Vroeër vandag aangeteken"
 
@@ -1588,7 +1596,7 @@ msgstr "Kies leerder"
 msgid "Sessions marked Out this year"
 msgstr "Periodes vanjaar as afwesig gemerk"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Vooraf ingestel"
 
@@ -1686,7 +1694,7 @@ msgid "Taken at {time}"
 msgstr "Geneem om {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Geneem om {time} deur {name}"
 

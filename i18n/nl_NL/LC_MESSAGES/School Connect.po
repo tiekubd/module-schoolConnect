@@ -755,11 +755,11 @@ msgstr "Klas *"
 msgid "Formal name to address parents with"
 msgstr "Formele naam om ouders mee aan te spreken"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Uit een lesgroepregistratie"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Uit de klasregistratie"
 
@@ -1199,6 +1199,14 @@ msgstr ""
 msgid "Non-school day"
 msgstr "Geen schooldag"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Geen van de aanwezigheidscodes is beschikbaar voor jouw rol, dus je kunt "
+"deze aanwezigheid niet registreren."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Geen schooldag"
@@ -1220,7 +1228,7 @@ msgstr "Niet gemeld: werk de School Connect-module bij"
 msgid "Not saved yet"
 msgstr "Nog niet opgeslagen"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1416,7 +1424,7 @@ msgstr "Ontvangstbewijsnr."
 msgid "Recent Attendance"
 msgstr "Recente aanwezigheid"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Eerder vandaag geregistreerd"
 
@@ -1591,7 +1599,7 @@ msgstr "Leerling kiezen"
 msgid "Sessions marked Out this year"
 msgstr "Lessen dit jaar gemarkeerd als Buiten"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Vooraf ingevoerd"
 
@@ -1690,7 +1698,7 @@ msgid "Taken at {time}"
 msgstr "Geregistreerd om {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Geregistreerd om {time} door {name}"
 

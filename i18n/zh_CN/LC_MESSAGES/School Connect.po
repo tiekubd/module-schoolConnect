@@ -737,11 +737,11 @@ msgstr "班级 *"
 msgid "Formal name to address parents with"
 msgstr "称呼家长时使用的正式名称"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "来自教学班考勤"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "来自班级考勤"
 
@@ -1162,6 +1162,12 @@ msgstr "不列入成绩报告的参加者不会在成绩报告中显示。"
 msgid "Non-school day"
 msgstr "非上课日"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr "您的角色无法使用任何考勤代码，因此无法记录此考勤。"
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "非上课日"
@@ -1183,7 +1189,7 @@ msgstr "未提供：请更新 School Connect 模块"
 msgid "Not saved yet"
 msgstr "尚未保存"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1365,7 +1371,7 @@ msgstr "收据编号"
 msgid "Recent Attendance"
 msgstr "最近考勤"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "今天早些时候已记录"
 
@@ -1532,7 +1538,7 @@ msgstr "选择学生"
 msgid "Sessions marked Out this year"
 msgstr "本年标记为缺席的节数"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "已提前登记"
 
@@ -1627,7 +1633,7 @@ msgid "Taken at {time}"
 msgstr "{time} 已考勤"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "{name} 于 {time} 记录"
 

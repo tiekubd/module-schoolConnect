@@ -737,11 +737,11 @@ msgstr "班別 *"
 msgid "Formal name to address parents with"
 msgstr "稱呼家長時使用的正式名稱"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "來自科目班點名"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "來自班別點名"
 
@@ -1162,6 +1162,12 @@ msgstr "不列入成績報告的參加者不會在成績報告中顯示。"
 msgid "Non-school day"
 msgstr "非上課日"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr "你的角色無法使用任何出席代碼，因此無法進行此點名。"
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "非上課日"
@@ -1183,7 +1189,7 @@ msgstr "未有提供：請更新 School Connect 模組"
 msgid "Not saved yet"
 msgstr "尚未儲存"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1365,7 +1371,7 @@ msgstr "收據編號"
 msgid "Recent Attendance"
 msgstr "最近出席"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "今天較早時已記錄"
 
@@ -1532,7 +1538,7 @@ msgstr "選擇學生"
 msgid "Sessions marked Out this year"
 msgstr "本年標示為缺席的節數"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "已預先登記"
 
@@ -1627,7 +1633,7 @@ msgid "Taken at {time}"
 msgstr "{time} 已點名"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "{name} 於 {time} 點名"
 

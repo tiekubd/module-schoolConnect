@@ -471,7 +471,8 @@ T = {'A punctuation mark or space': '一个标点符号或空格',
  'From the form group register': '来自班级考勤',
  'Recorded earlier today': '今天早些时候已记录',
  'Taken at {time} by {name}': '{name} 于 {time} 记录',
- 'Not taken yet for this date. These are default entries, not saved attendance.': '该日期尚未记录考勤。以下为默认值，并非已保存的考勤。'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': '该日期尚未记录考勤。以下为默认值，并非已保存的考勤。',
+ "None of the attendance codes are available to your role, so you can't take this register.": '您的角色无法使用任何考勤代码，因此无法记录此考勤。'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 节已完成',),
  'At least {count} character': ('至少 {count} 个字符',),

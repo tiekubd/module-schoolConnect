@@ -750,11 +750,11 @@ msgstr "Lớp chủ nhiệm *"
 msgid "Formal name to address parents with"
 msgstr "Cách xưng hô trang trọng với phụ huynh"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Từ điểm danh lớp học"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Từ điểm danh lớp chủ nhiệm"
 
@@ -1190,6 +1190,14 @@ msgstr "Người tham gia không đưa vào phiếu báo điểm sẽ không hi�
 msgid "Non-school day"
 msgstr "Ngày không đi học"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Không có mã điểm danh nào dành cho vai trò của bạn, nên bạn không thể điểm "
+"danh lớp này."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Không phải ngày học"
@@ -1211,7 +1219,7 @@ msgstr "Chưa có dữ liệu: hãy cập nhật mô-đun School Connect"
 msgid "Not saved yet"
 msgstr "Chưa lưu"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1405,7 +1413,7 @@ msgstr "Số biên lai"
 msgid "Recent Attendance"
 msgstr "Điểm danh gần đây"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Đã ghi nhận trước đó hôm nay"
 
@@ -1579,7 +1587,7 @@ msgstr "Chọn học sinh"
 msgid "Sessions marked Out this year"
 msgstr "Số tiết vắng mặt năm nay"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Đã đặt trước"
 
@@ -1677,7 +1685,7 @@ msgid "Taken at {time}"
 msgstr "Đã điểm danh lúc {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Điểm danh lúc {time} bởi {name}"
 

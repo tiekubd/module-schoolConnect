@@ -757,11 +757,11 @@ msgstr "Klasse *"
 msgid "Formal name to address parents with"
 msgstr "Förmlicher Name für die Anrede der Eltern"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Aus einer Lerngruppen-Anwesenheit"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Aus der Klassen-Anwesenheit"
 
@@ -1203,6 +1203,14 @@ msgstr ""
 msgid "Non-school day"
 msgstr "Schulfreier Tag"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Keiner der Anwesenheitscodes ist für deine Rolle verfügbar, daher kannst du "
+"diese Anwesenheit nicht erfassen."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Kein Schultag"
@@ -1224,7 +1232,7 @@ msgstr "Nicht gemeldet: Aktualisieren Sie das School-Connect-Modul"
 msgid "Not saved yet"
 msgstr "Noch nicht gespeichert"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1424,7 +1432,7 @@ msgstr "Belegnummer"
 msgid "Recent Attendance"
 msgstr "Letzte Anwesenheit"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Heute schon erfasst"
 
@@ -1600,7 +1608,7 @@ msgstr "Schüler/in wählen"
 msgid "Sessions marked Out this year"
 msgstr "In diesem Jahr als abwesend erfasste Stunden"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Im Voraus eingetragen"
 
@@ -1699,7 +1707,7 @@ msgid "Taken at {time}"
 msgstr "Erfasst um {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Erfasst um {time} von {name}"
 

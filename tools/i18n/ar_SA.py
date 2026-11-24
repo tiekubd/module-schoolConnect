@@ -641,7 +641,8 @@ T = {'A punctuation mark or space': 'علامة ترقيم أو مسافة',
  'From the form group register': 'من سجل حضور الصف الدراسي',
  'Recorded earlier today': 'سُجِّل في وقت سابق اليوم',
  'Taken at {time} by {name}': 'أُخذ الحضور الساعة {time} بواسطة {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'لم يُؤخذ الحضور لهذا التاريخ بعد. هذه قيم افتراضية وليست حضورًا محفوظًا.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'لم يُؤخذ الحضور لهذا التاريخ بعد. هذه قيم افتراضية وليست حضورًا محفوظًا.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'لا يتوفر أي رمز من رموز الحضور لدورك، لذا لا يمكنك أخذ هذا الحضور.'}
 
 P = {'At least {count} character': ('{count} حرف على الأقل', 'حرف واحد على الأقل', 'حرفان على الأقل', '{count} أحرف على الأقل', '{count} حرفًا على الأقل', '{count} حرف على الأقل'),
  'Behaviour records saved for {count} student!': ('تم حفظ سجلات السلوك لـ {count} طالب!',

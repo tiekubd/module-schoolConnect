@@ -766,11 +766,11 @@ msgstr "Клас *"
 msgid "Formal name to address parents with"
 msgstr "Офіційне звертання до батьків"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Із відвідуваності заняття"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Із відвідуваності класу"
 
@@ -1207,6 +1207,14 @@ msgstr "Учасники, не включені до звітів, у звіта
 msgid "Non-school day"
 msgstr "Неробочий день"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Жоден із кодів відвідуваності не доступний для вашої ролі, тож ви не можете "
+"відмітити цю відвідуваність."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Неробочий день"
@@ -1228,7 +1236,7 @@ msgstr "Немає даних: оновіть модуль School Connect"
 msgid "Not saved yet"
 msgstr "Ще не збережено"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1420,7 +1428,7 @@ msgstr "Номер квитанції"
 msgid "Recent Attendance"
 msgstr "Нещодавня відвідуваність"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Відмічено раніше сьогодні"
 
@@ -1597,7 +1605,7 @@ msgstr "Виберіть учня"
 msgid "Sessions marked Out this year"
 msgstr "Уроки, позначені цього року як відсутність"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Внесено заздалегідь"
 
@@ -1694,7 +1702,7 @@ msgid "Taken at {time}"
 msgstr "Відмічено о {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Відмічено о {time}, {name}"
 

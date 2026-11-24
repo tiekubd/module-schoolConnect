@@ -756,11 +756,11 @@ msgstr "Grup classe *"
 msgid "Formal name to address parents with"
 msgstr "Tractament formal per adreçar-se a les famílies"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "D’un registre de classe"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Del registre del grup classe"
 
@@ -1200,6 +1200,14 @@ msgstr "Els participants exclosos dels butlletins no hi apareixeran."
 msgid "Non-school day"
 msgstr "Dia no lectiu"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Cap dels codis d’assistència està disponible per al teu rol, així que no "
+"pots passar aquesta llista."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Dia no lectiu"
@@ -1221,7 +1229,7 @@ msgstr "Sense dades: actualitzeu el mòdul School Connect"
 msgid "Not saved yet"
 msgstr "Encara no desat"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1419,7 +1427,7 @@ msgstr "Número de rebut"
 msgid "Recent Attendance"
 msgstr "Assistència recent"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Registrat abans, avui"
 
@@ -1594,7 +1602,7 @@ msgstr "Selecciona un alumne"
 msgid "Sessions marked Out this year"
 msgstr "Sessions marcades com a absència aquest curs"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Establert per endavant"
 
@@ -1699,7 +1707,7 @@ msgid "Taken at {time}"
 msgstr "Passada a les {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Passada a les {time} per {name}"
 

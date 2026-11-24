@@ -686,7 +686,8 @@ T = {'A punctuation mark or space': 'Znak interpunkcyjny lub spacja',
  'From the form group register': 'Z obecności klasy',
  'Recorded earlier today': 'Zapisane wcześniej dzisiaj',
  'Taken at {time} by {name}': 'Sprawdzono o {time}, {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Obecność na ten dzień nie została jeszcze sprawdzona. To wartości domyślne, a nie zapisana frekwencja.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Obecność na ten dzień nie została jeszcze sprawdzona. To wartości domyślne, a nie zapisana frekwencja.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Żaden z kodów obecności nie jest dostępny dla Twojej roli, więc nie możesz sprawdzić tej obecności.'}
 
 P = {'All {count} class done for today': ('Zakończono dzisiejszą lekcję',
                                       'Zakończono wszystkie dzisiejsze lekcje ({count})',

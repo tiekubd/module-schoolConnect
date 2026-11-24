@@ -690,7 +690,9 @@ T = {'A punctuation mark or space': 'Ein Satzzeichen oder ein Leerzeichen',
  'From the form group register': 'Aus der Klassen-Anwesenheit',
  'Recorded earlier today': 'Heute schon erfasst',
  'Taken at {time} by {name}': 'Erfasst um {time} von {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Für dieses Datum noch nicht erfasst. Das sind Voreinstellungen, keine gespeicherte Anwesenheit.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Für dieses Datum noch nicht erfasst. Das sind Voreinstellungen, keine gespeicherte Anwesenheit.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Keiner der Anwesenheitscodes ist für deine Rolle verfügbar, daher kannst du diese Anwesenheit nicht '
+                                                                                              'erfassen.'}
 
 P = {'At least {count} character': ('Mindestens {count} Zeichen', 'Mindestens {count} Zeichen'),
  'Behaviour records saved for {count} student!': ('Verhaltenseintrag für {count} Schüler/in gespeichert!', 'Verhaltenseinträge für {count} Schüler/innen gespeichert!'),

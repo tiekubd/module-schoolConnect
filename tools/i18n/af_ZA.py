@@ -689,7 +689,8 @@ T = {'A punctuation mark or space': "'n Leesteken of spasie",
  'From the form group register': 'Uit die registerklas se register',
  'Recorded earlier today': 'Vroeër vandag aangeteken',
  'Taken at {time} by {name}': 'Geneem om {time} deur {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Nog nie vir hierdie datum geneem nie. Dit is standaardinskrywings, nie gestoorde bywoning nie.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Nog nie vir hierdie datum geneem nie. Dit is standaardinskrywings, nie gestoorde bywoning nie.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Geen van die bywoningskodes is vir jou rol beskikbaar nie, dus kan jy nie hierdie register neem nie.'}
 
 P = {'All {count} class done for today': ('Vandag se klas is klaar', 'Al {count} klasse vir vandag is klaar'),
  'At least {count} character': ('Minstens {count} karakter', 'Minstens {count} karakters'),

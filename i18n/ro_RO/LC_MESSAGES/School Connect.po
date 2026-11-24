@@ -764,11 +764,11 @@ msgstr "Clasă *"
 msgid "Formal name to address parents with"
 msgstr "Formula oficială de adresare către părinți"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Din prezența unei grupe"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Din prezența clasei"
 
@@ -1204,6 +1204,14 @@ msgstr "Participanții care nu se raportează nu vor apărea în rapoarte."
 msgid "Non-school day"
 msgstr "Zi liberă"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Niciunul dintre codurile de prezență nu este disponibil pentru rolul tău, "
+"deci nu poți face această prezență."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Nu este zi de școală"
@@ -1225,7 +1233,7 @@ msgstr "Indisponibil: actualizați modulul School Connect"
 msgid "Not saved yet"
 msgstr "Nesalvat încă"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1421,7 +1429,7 @@ msgstr "Număr chitanță"
 msgid "Recent Attendance"
 msgstr "Prezența recentă"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Înregistrat mai devreme azi"
 
@@ -1599,7 +1607,7 @@ msgstr "Selectează elevul"
 msgid "Sessions marked Out this year"
 msgstr "Ore marcate ca absență în acest an"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Introdus în avans"
 
@@ -1697,7 +1705,7 @@ msgid "Taken at {time}"
 msgstr "Luată la {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Luată la {time} de {name}"
 

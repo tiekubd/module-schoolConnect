@@ -712,7 +712,9 @@ T = {'A punctuation mark or space': 'Një shenjë pikësimi ose hapësirë',
  'From the form group register': 'Nga frekuentimi i klasës',
  'Recorded earlier today': 'Regjistruar më herët sot',
  'Taken at {time} by {name}': 'Marrë në {time} nga {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të paracaktuara, jo frekuentim i ruajtur.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të paracaktuara, jo frekuentim i ruajtur.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Asnjë nga kodet e frekuentimit nuk është i disponueshëm për rolin tuaj, prandaj nuk mund ta merrni këtë '
+                                                                                              'frekuentim.'}
 
 P = {'All {count} class done for today': ('Ora e sotme përfundoi', 'Të {count} orët e sotme përfunduan'),
  'At least {count} character': ('Të paktën {count} karakter', 'Të paktën {count} karaktere'),

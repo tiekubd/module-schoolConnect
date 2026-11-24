@@ -673,7 +673,9 @@ T = {'A punctuation mark or space': 'Розділовий знак або про
  'From the form group register': 'Із відвідуваності класу',
  'Recorded earlier today': 'Відмічено раніше сьогодні',
  'Taken at {time} by {name}': 'Відмічено о {time}, {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'Відвідуваність за цю дату ще не відмічено. Це типові значення, а не збережена відвідуваність.'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Відвідуваність за цю дату ще не відмічено. Це типові значення, а не збережена відвідуваність.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Жоден із кодів відвідуваності не доступний для вашої ролі, тож ви не можете відмітити цю '
+                                                                                              'відвідуваність.'}
 
 P = {'All {count} class done for today': ('Усі уроки на сьогодні завершено ({count})',
                                       'Усі уроки на сьогодні завершено ({count})',

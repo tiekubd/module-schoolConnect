@@ -758,11 +758,11 @@ msgstr "Turma *"
 msgid "Formal name to address parents with"
 msgstr "Nome formal para se dirigir aos responsáveis"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Da chamada de uma classe"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Da chamada da turma"
 
@@ -1197,6 +1197,14 @@ msgstr "Participantes fora dos boletins não aparecerão neles."
 msgid "Non-school day"
 msgstr "Dia sem aula"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Nenhum dos códigos de frequência está disponível para sua função, então você"
+" não pode fazer esta chamada."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Não é Dia Letivo"
@@ -1218,7 +1226,7 @@ msgstr "Não informado: atualize o módulo School Connect"
 msgid "Not saved yet"
 msgstr "Ainda não salvo"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1419,7 +1427,7 @@ msgstr "Nº do Recibo"
 msgid "Recent Attendance"
 msgstr "Frequência Recente"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Registrado mais cedo hoje"
 
@@ -1594,7 +1602,7 @@ msgstr "Selecionar Aluno"
 msgid "Sessions marked Out this year"
 msgstr "Aulas marcadas como Fora neste ano"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Registrado com antecedência"
 
@@ -1695,7 +1703,7 @@ msgid "Taken at {time}"
 msgstr "Feita às {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Chamada feita às {time} por {name}"
 

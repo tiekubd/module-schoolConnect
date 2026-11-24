@@ -761,11 +761,11 @@ msgstr "Razredni odjel *"
 msgid "Formal name to address parents with"
 msgstr "Službeno oslovljavanje roditelja"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Iz evidencije grupe"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Iz evidencije razrednog odjela"
 
@@ -1203,6 +1203,14 @@ msgstr "Sudionici koji nisu za izvještaj neće se prikazivati u izvještajima."
 msgid "Non-school day"
 msgstr "Nenastavni dan"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Nijedna oznaka prisutnosti nije dostupna vašoj ulozi pa ne možete "
+"evidentirati ovu prisutnost."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Nije nastavni dan"
@@ -1224,7 +1232,7 @@ msgstr "Nije dostupno: ažurirajte modul School Connect"
 msgid "Not saved yet"
 msgstr "Još nije spremljeno"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1417,7 +1425,7 @@ msgstr "Broj potvrde"
 msgid "Recent Attendance"
 msgstr "Nedavna prisutnost"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Zabilježeno ranije danas"
 
@@ -1593,7 +1601,7 @@ msgstr "Odaberi učenika"
 msgid "Sessions marked Out this year"
 msgstr "Sati označeni kao izostanak ove godine"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Uneseno unaprijed"
 
@@ -1690,7 +1698,7 @@ msgid "Taken at {time}"
 msgstr "Evidentirano u {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Evidentirano u {time}, {name}"
 

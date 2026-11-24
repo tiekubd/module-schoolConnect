@@ -214,7 +214,14 @@ $version     = "1.16.19"; // Tracks the Flutter app's marketing version (pubspec
                           // advance (same rules as core's Take Attendance pages,
                           // including Count Class Attendance as School Attendance
                           // and Cross-Fill Classes). Shown from app 1.16.20; older
-                          // apps ignore it. No schema change.
+                          // apps ignore it. Attendance codes limited to certain
+                          // roles ("Available to Roles") now work as on the
+                          // website: the app doesn't offer them to other roles,
+                          // and a mark already using one is locked. Saves are
+                          // checked on the server too, and future dates are
+                          // refused, as core does. Each save now adds a "taken"
+                          // row instead of replacing the earlier ones. No schema
+                          // change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

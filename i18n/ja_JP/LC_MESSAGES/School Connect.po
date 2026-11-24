@@ -737,11 +737,11 @@ msgstr "ホームルーム *"
 msgid "Formal name to address parents with"
 msgstr "保護者への正式な呼び方"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "クラスの出欠から"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "ホームルームの出欠から"
 
@@ -1164,6 +1164,12 @@ msgstr "通知表の対象外の参加者は通知表に表示されません。
 msgid "Non-school day"
 msgstr "休校日"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr "あなたの役割で使える出欠コードがないため、この出欠は記録できません。"
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "登校日ではありません"
@@ -1185,7 +1191,7 @@ msgstr "未報告：School Connect モジュールを更新してください"
 msgid "Not saved yet"
 msgstr "未保存"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1368,7 +1374,7 @@ msgstr "領収書番号"
 msgid "Recent Attendance"
 msgstr "最近の出欠"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "今日すでに記録済み"
 
@@ -1536,7 +1542,7 @@ msgstr "生徒を選択"
 msgid "Sessions marked Out this year"
 msgstr "今年度「外出」と記録された授業"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "事前に登録済み"
 
@@ -1632,7 +1638,7 @@ msgid "Taken at {time}"
 msgstr "{time} に取得"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "{time} に {name} が記録"
 

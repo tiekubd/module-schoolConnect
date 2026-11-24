@@ -756,11 +756,11 @@ msgstr "سیکشن *"
 msgid "Formal name to address parents with"
 msgstr "والدین کو مخاطب کرنے کا رسمی نام"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "کسی کلاس کی حاضری سے"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "سیکشن کی حاضری سے"
 
@@ -1196,6 +1196,14 @@ msgstr "جو شرکاء رپورٹ کے قابل نہیں وہ رپورٹس می
 msgid "Non-school day"
 msgstr "غیر تعلیمی دن"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"حاضری کا کوئی بھی کوڈ آپ کے کردار کے لیے دستیاب نہیں، اس لیے آپ یہ حاضری "
+"نہیں لگا سکتے۔"
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "تعلیمی دن نہیں"
@@ -1217,7 +1225,7 @@ msgstr "دستیاب نہیں: School Connect ماڈیول اپ ڈیٹ کریں"
 msgid "Not saved yet"
 msgstr "ابھی محفوظ نہیں ہوا"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1410,7 +1418,7 @@ msgstr "رسید نمبر"
 msgid "Recent Attendance"
 msgstr "حالیہ حاضری"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "آج پہلے درج کی گئی"
 
@@ -1586,7 +1594,7 @@ msgstr "طالب علم منتخب کریں"
 msgid "Sessions marked Out this year"
 msgstr "اس سال غیر حاضر درج پیریڈ"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "پہلے سے درج"
 
@@ -1684,7 +1692,7 @@ msgid "Taken at {time}"
 msgstr "{time} پر لگی"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "حاضری {time} بجے {name} نے لگائی"
 

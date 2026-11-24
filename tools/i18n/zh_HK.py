@@ -475,7 +475,8 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  'From the form group register': '來自班別點名',
  'Recorded earlier today': '今天較早時已記錄',
  'Taken at {time} by {name}': '{name} 於 {time} 點名',
- 'Not taken yet for this date. These are default entries, not saved attendance.': '該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': '該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。',
+ "None of the attendance codes are available to your role, so you can't take this register.": '你的角色無法使用任何出席代碼，因此無法進行此點名。'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

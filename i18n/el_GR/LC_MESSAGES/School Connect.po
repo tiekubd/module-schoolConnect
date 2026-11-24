@@ -759,11 +759,11 @@ msgstr "Τμήμα *"
 msgid "Formal name to address parents with"
 msgstr "Επίσημη προσφώνηση γονέων"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Από παρουσίες ομάδας μαθήματος"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Από τις παρουσίες του τμήματος"
 
@@ -1206,6 +1206,14 @@ msgstr ""
 msgid "Non-school day"
 msgstr "Μη σχολική ημέρα"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Κανένας από τους κωδικούς παρουσιών δεν είναι διαθέσιμος για τον ρόλο σας, "
+"οπότε δεν μπορείτε να καταχωρίσετε αυτές τις παρουσίες."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Μη σχολική ημέρα"
@@ -1227,7 +1235,7 @@ msgstr "Δεν αναφέρεται: ενημερώστε τη λειτουργ�
 msgid "Not saved yet"
 msgstr "Δεν αποθηκεύτηκε ακόμη"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1429,7 +1437,7 @@ msgstr "Αριθμός απόδειξης"
 msgid "Recent Attendance"
 msgstr "Πρόσφατες παρουσίες"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Καταχωρίστηκε νωρίτερα σήμερα"
 
@@ -1605,7 +1613,7 @@ msgstr "Επιλογή μαθητή"
 msgid "Sessions marked Out this year"
 msgstr "Ώρες που σημειώθηκαν φέτος ως απουσία"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Ορίστηκε εκ των προτέρων"
 
@@ -1707,7 +1715,7 @@ msgid "Taken at {time}"
 msgstr "Ελήφθησαν στις {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Καταχωρίστηκε στις {time} από {name}"
 

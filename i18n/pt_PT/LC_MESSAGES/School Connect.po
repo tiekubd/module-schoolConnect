@@ -758,11 +758,11 @@ msgstr "Turma *"
 msgid "Formal name to address parents with"
 msgstr "Nome formal para tratar os encarregados de educação"
 
-#: lib/screens/attendance_status.dart:62
+#: lib/screens/attendance_status.dart:66
 msgid "From a class register"
 msgstr "Das presenças de uma aula"
 
-#: lib/screens/attendance_status.dart:64
+#: lib/screens/attendance_status.dart:68
 msgid "From the form group register"
 msgstr "Das presenças da turma"
 
@@ -1202,6 +1202,14 @@ msgstr "Os participantes não incluídos nos boletins não aparecerão neles."
 msgid "Non-school day"
 msgstr "Dia não letivo"
 
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Nenhum dos códigos de assiduidade está disponível para a sua função, por "
+"isso não pode registar estas presenças."
+
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
 msgstr "Não é Dia Letivo"
@@ -1223,7 +1231,7 @@ msgstr "Não indicado: atualize o módulo School Connect"
 msgid "Not saved yet"
 msgstr "Ainda não guardado"
 
-#: lib/screens/attendance_status.dart:108
+#: lib/screens/attendance_status.dart:112
 msgid ""
 "Not taken yet for this date. These are default entries, not saved "
 "attendance."
@@ -1424,7 +1432,7 @@ msgstr "N.º do Recibo"
 msgid "Recent Attendance"
 msgstr "Assiduidade Recente"
 
-#: lib/screens/attendance_status.dart:66
+#: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "Registado hoje mais cedo"
 
@@ -1599,7 +1607,7 @@ msgstr "Selecionar Estudante"
 msgid "Sessions marked Out this year"
 msgstr "Sessões marcadas como Fora este ano"
 
-#: lib/screens/attendance_status.dart:60
+#: lib/screens/attendance_status.dart:64
 msgid "Set in advance"
 msgstr "Registado com antecedência"
 
@@ -1704,7 +1712,7 @@ msgid "Taken at {time}"
 msgstr "Marcadas às {time}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_status.dart:99
+#: lib/screens/attendance_status.dart:103
 msgid "Taken at {time} by {name}"
 msgstr "Marcadas às {time} por {name}"
 

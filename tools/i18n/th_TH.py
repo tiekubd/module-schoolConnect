@@ -525,7 +525,8 @@ T = {'A punctuation mark or space': 'เครื่องหมายวรร�
  'From the form group register': 'จากการเช็คชื่อของห้องประจำชั้น',
  'Recorded earlier today': 'บันทึกไว้แล้ววันนี้',
  'Taken at {time} by {name}': 'เช็คชื่อเวลา {time} โดย {name}',
- 'Not taken yet for this date. These are default entries, not saved attendance.': 'ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น ไม่ใช่การมาเรียนที่บันทึกแล้ว'}
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น ไม่ใช่การมาเรียนที่บันทึกแล้ว',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'ไม่มีรหัสการเข้าเรียนใดที่บทบาทของคุณใช้ได้ คุณจึงเช็คชื่อนี้ไม่ได้'}
 
 P = {'All {count} class done for today': ('วันนี้เรียนครบทั้ง {count} คาบแล้ว',),
  'At least {count} character': ('อย่างน้อย {count} ตัวอักษร',),
