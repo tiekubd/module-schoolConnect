@@ -653,7 +653,13 @@ T = {'A punctuation mark or space': 'Skyrybos ženklas arba tarpas',
  'Update the School Connect module to {version} for all features.': 'Atnaujinkite School Connect modulį iki {version} versijos, kad veiktų visos funkcijos.',
  'View photo': 'Peržiūrėti nuotrauką',
  '{count} of {total} saved': 'Išsaugota: {count} iš {total}',
- '{count} of {total} students saved': 'Išsaugota mokinių: {count} iš {total}'}
+ '{count} of {total} students saved': 'Išsaugota mokinių: {count} iš {total}',
+ 'Set in advance': 'Nustatyta iš anksto',
+ 'From a class register': 'Iš grupės lankomumo',
+ 'From the form group register': 'Iš klasės lankomumo',
+ 'Recorded earlier today': 'Pažymėta anksčiau šiandien',
+ 'Taken at {time} by {name}': 'Pažymėta {time}, {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne išsaugotas lankomumas.'}
 
 P = {'All {count} class done for today': ('Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})'),
  'At least {count} character': ('Bent {count} simbolis', 'Bent {count} simboliai', 'Bent {count} simbolių'),

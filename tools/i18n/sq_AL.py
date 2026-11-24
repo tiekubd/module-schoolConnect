@@ -706,7 +706,13 @@ T = {'A punctuation mark or space': 'Një shenjë pikësimi ose hapësirë',
  'Update the School Connect module to {version} for all features.': 'Përditësoni modulin School Connect në versionin {version} për të gjitha funksionet.',
  'View photo': 'Shiko foton',
  '{count} of {total} saved': '{count} nga {total} të ruajtura',
- '{count} of {total} students saved': '{count} nga {total} nxënës të ruajtur'}
+ '{count} of {total} students saved': '{count} nga {total} nxënës të ruajtur',
+ 'Set in advance': 'Vendosur paraprakisht',
+ 'From a class register': 'Nga frekuentimi i një grupi',
+ 'From the form group register': 'Nga frekuentimi i klasës',
+ 'Recorded earlier today': 'Regjistruar më herët sot',
+ 'Taken at {time} by {name}': 'Marrë në {time} nga {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të paracaktuara, jo frekuentim i ruajtur.'}
 
 P = {'All {count} class done for today': ('Ora e sotme përfundoi', 'Të {count} orët e sotme përfunduan'),
  'At least {count} character': ('Të paktën {count} karakter', 'Të paktën {count} karaktere'),

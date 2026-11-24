@@ -40,8 +40,8 @@ msgstr "Додати ще"
 msgid "Add Participant"
 msgstr "Додати учасника"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Додайте коментар"
 
@@ -98,7 +98,7 @@ msgstr "Велика й мала літери"
 msgid "App version, connected school and your data"
 msgstr "Версія застосунку, підключена школа та ваші дані"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -134,8 +134,8 @@ msgstr "Відвідуваність цього року"
 msgid "Attendance not taken yet today"
 msgstr "Сьогодні присутність ще не відмічено"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Відвідуваність збережено!"
 
@@ -181,15 +181,15 @@ msgstr ""
 "Камера та фото: лише коли ви вирішите додати фото до запиту на оновлення "
 "даних. Застосунок спершу запитує дозвіл, і ви можете відмовити."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Скасувати бронювання?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Скасувати заняття?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Скасувати чергування персоналу?"
 
@@ -370,8 +370,8 @@ msgstr "Не вдалося завантажити предмет"
 msgid "Could not load courses"
 msgstr "Не вдалося завантажити предмети"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Не вдалося завантажити дані"
 
@@ -526,7 +526,7 @@ msgstr "Не вдалося завантажити навчальні роки"
 msgid "Could not load settings"
 msgstr "Не вдалося завантажити налаштування"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Не вдалося завантажити особливий день"
 
@@ -545,7 +545,7 @@ msgstr "Не вдалося завантажити дані працівника
 msgid "Could not load students"
 msgstr "Не вдалося завантажити учнів"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Не вдалося завантажити семестри"
 
@@ -587,14 +587,14 @@ msgstr "Не вдалося видалити"
 msgid "Could not reset password"
 msgstr "Не вдалося скинути пароль"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Не вдалося зберегти"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Не вдалося зберегти відвідуваність"
 
@@ -685,7 +685,7 @@ msgstr "Видалити заняття"
 msgid "Delete Course"
 msgstr "Видалити предмет"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Видалити особливий день"
 
@@ -697,13 +697,13 @@ msgstr "Видалити користувача"
 msgid "Developed by High Point Education"
 msgstr "Розроблено High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Скасувати зміни"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Скасувати зміни?"
 
@@ -766,6 +766,14 @@ msgstr "Клас *"
 msgid "Formal name to address parents with"
 msgstr "Офіційне звертання до батьків"
 
+#: lib/screens/attendance_status.dart:62
+msgid "From a class register"
+msgstr "Із відвідуваності заняття"
+
+#: lib/screens/attendance_status.dart:64
+msgid "From the form group register"
+msgstr "Із відвідуваності класу"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Повне ім’я як у документі, що посвідчує особу"
@@ -805,7 +813,7 @@ msgstr "Оцінки, зусилля й коментарі для ваших з�
 msgid "Hidden from students and parents"
 msgstr "Приховано від учнів і батьків"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "Приховано від учнів і батьків. Це налаштовують на вебсайті Gibbon."
 
@@ -1064,7 +1072,7 @@ msgstr "На сьогодні занять не заплановано"
 msgid "No classes yet"
 msgstr "Ще немає занять"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "У цьому семестрі немає стовпців."
 
@@ -1170,7 +1178,7 @@ msgstr "Цього року немає зарахованих учнів"
 msgid "No students found"
 msgstr "Учнів не знайдено"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Для цього навчального року семестрів не знайдено"
 
@@ -1195,7 +1203,7 @@ msgstr "Користувачів не знайдено"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Учасники, не включені до звітів, у звітах не показуються."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Неробочий день"
 
@@ -1215,10 +1223,18 @@ msgstr "Ще не зараховано на жодне заняття"
 msgid "Not reported: update the School Connect module"
 msgstr "Немає даних: оновіть модуль School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Ще не збережено"
+
+#: lib/screens/attendance_status.dart:108
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Відвідуваність за цю дату ще не відмічено. Це типові значення, а не "
+"збережена відвідуваність."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1274,13 +1290,13 @@ msgid "Other services you may see"
 msgstr "Інші сервіси, які ви можете побачити"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "Батьки бачать ці оцінки (видно з {date}). Приховано від учнів."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "Батьки побачать ці оцінки з {date}. Приховано від учнів."
 
@@ -1404,8 +1420,12 @@ msgstr "Номер квитанції"
 msgid "Recent Attendance"
 msgstr "Нещодавня відвідуваність"
 
+#: lib/screens/attendance_status.dart:66
+msgid "Recorded earlier today"
+msgstr "Відмічено раніше сьогодні"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Видалити «{name}» з календаря?"
 
@@ -1512,7 +1532,7 @@ msgstr ""
 " через зашифроване з’єднання (HTTPS). High Point Education не отримує, не "
 "зберігає й не бачить цієї інформації."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1577,6 +1597,10 @@ msgstr "Виберіть учня"
 msgid "Sessions marked Out this year"
 msgstr "Уроки, позначені цього року як відсутність"
 
+#: lib/screens/attendance_status.dart:60
+msgid "Set in advance"
+msgstr "Внесено заздалегідь"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Поділитися"
@@ -1614,23 +1638,23 @@ msgid "Student enrolled successfully"
 msgstr "Учня успішно зараховано"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Учні й батьки бачать ці оцінки (видно з {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Учні й батьки побачать ці оцінки з {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "Учні бачать ці оцінки (видно з {date}). Приховано від батьків."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "Учні побачать ці оцінки з {date}. Приховано від батьків."
 
@@ -1670,6 +1694,11 @@ msgid "Taken at {time}"
 msgstr "Відмічено о {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:99
+msgid "Taken at {time} by {name}"
+msgstr "Відмічено о {time}, {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Відмічено сьогодні о {time}. Торкніться, щоб переглянути чи змінити"
@@ -1678,8 +1707,8 @@ msgstr "Відмічено сьогодні о {time}. Торкніться, щ�
 msgid "Tap to edit"
 msgstr "Торкніться, щоб редагувати"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Введені оцінки не збережено."
 
@@ -1691,8 +1720,8 @@ msgstr ""
 "своєму обліковому записі."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Це відповідає {grade}"
 
@@ -1709,7 +1738,7 @@ msgstr "Обліковий запис цієї особи не змінитьс�
 msgid "There are no messages to display."
 msgstr "Немає повідомлень для показу."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Це впливає на розклад:"
 
@@ -1730,7 +1759,7 @@ msgid "This cannot be undone."
 msgstr "Цю дію не можна скасувати."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1738,8 +1767,8 @@ msgstr ""
 "Це заняття не заплановано на {date}. За потреби відвідуваність усе одно "
 "можна зберегти."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "У цьому стовпці використано рубрику. Заповніть її на вебсайті Gibbon."
 
@@ -1801,7 +1830,7 @@ msgstr "Класний керівник 2"
 msgid "Type *"
 msgstr "Тип *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Тип і назва обов’язкові"
 
@@ -1822,15 +1851,15 @@ msgstr "Відрахувати {name} з цього навчального ро�
 msgid "Unknown Year"
 msgstr "Невідомий рік"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "Не оцінено: батьки ще не бачать ці оцінки. Приховано від учнів."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Не оцінено: учні й батьки ще не бачать ці оцінки."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "Не оцінено: учні ще не бачать ці оцінки. Приховано від батьків."
 
@@ -1968,7 +1997,7 @@ msgstr "Що застосунок зберігає на цьому пристр�
 msgid "Year Group *"
 msgstr "Паралель *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2208,9 +2237,9 @@ msgstr[2] "Після цього ще {count} уроків · усього сь�
 msgstr[3] "Після цього ще {count} уроку · усього сьогодні: {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} незбережена"
@@ -2219,13 +2248,13 @@ msgstr[2] "{count} незбережених"
 msgstr[3] "{count} незбереженої"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "Збережено: {count} з {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "Збережено учнів: {count} з {total}"
 
@@ -2267,7 +2296,7 @@ msgstr[2] "{count} працівників"
 msgstr[3] "{count} працівника"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

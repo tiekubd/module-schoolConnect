@@ -11,6 +11,83 @@ require_once __DIR__ . '/../../../config.php';
 // attendance is saved from the app, so a school can tell app registers from
 // website ones (Gibbon's attendance tables don't record which was used).
 // Logging never blocks the save.
+// ── "Taken" status and Gibbon's best-guess pre-fill ─────────────────────────
+// The same rules as Gibbon core v30's Take Attendance pages
+// (attendance_take_byFormGroup.php, attendance_take_byCourseClass.php):
+//   - taken: every summary row for the group and date (time, who), as the
+//     green "Attendance has been taken at the following times" message lists.
+//   - pre-fill, for a student with nothing saved in this register yet: the
+//     latest record for that student on that day in any context (an absence
+//     entered in advance, the form group register, another class), else the
+//     school's default code (Attendance settings). Form group: class records
+//     count only if "Count Class Attendance as School Attendance" is on, and a
+//     code whose Prefill is N from another form group or a class falls back to
+//     the default. Class: other classes count only if "Cross-Fill Classes" is
+//     on, and any code whose Prefill is N falls back to the default.
+function gibbonConnectAttendanceSetting(PDO $pdo, string $name): string
+{
+    $stmt = $pdo->prepare("SELECT value FROM gibbonSetting WHERE scope = 'Attendance' AND name = ?");
+    $stmt->execute([$name]);
+    return (string) ($stmt->fetchColumn() ?: '');
+}
+
+function gibbonConnectDefaultCodeID(PDO $pdo, string $settingName): ?string
+{
+    $name = gibbonConnectAttendanceSetting($pdo, $settingName);
+    if ($name === '') return null;
+    $stmt = $pdo->prepare("SELECT gibbonAttendanceCodeID FROM gibbonAttendanceCode WHERE name = ? AND active = 'Y' LIMIT 1");
+    $stmt->execute([$name]);
+    $id = $stmt->fetchColumn();
+    return $id === false ? null : (string) $id;
+}
+
+function gibbonConnectTakenLog(PDO $pdo, string $table, string $idColumn, string $id, string $date): array
+{
+    $stmt = $pdo->prepare("SELECT l.timestampTaken, p.preferredName, p.surname
+        FROM $table l JOIN gibbonPerson p ON p.gibbonPersonID = l.gibbonPersonIDTaker
+        WHERE l.$idColumn = ? AND l.date = ? ORDER BY l.timestampTaken");
+    $stmt->execute([$id, $date]);
+    $out = [];
+    foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $r) {
+        $out[] = ['time' => substr((string) $r['timestampTaken'], 11, 5),
+                  'takenBy' => trim($r['preferredName'] . ' ' . $r['surname'])];
+    }
+    return $out;
+}
+
+/**
+ * personID => ['codeID' => …, 'context' => …] for each student without a
+ * record in this register, from earlier records that day. Students left out
+ * get the default code.
+ */
+function gibbonConnectPrefill(PDO $pdo, array $personIDs, string $date, string $context, string $groupID): array
+{
+    $out = [];
+    if (!$personIDs) return $out;
+    if ($context === 'Form Group') {
+        $includeClass = gibbonConnectAttendanceSetting($pdo, 'countClassAsSchool') === 'Y';
+    } else {
+        $includeClass = gibbonConnectAttendanceSetting($pdo, 'crossFillClasses') === 'Y';
+    }
+    $stmt = $pdo->prepare("SELECT l.gibbonAttendanceCodeID, l.context, l.gibbonFormGroupID, c.prefill
+        FROM gibbonAttendanceLogPerson l
+        JOIN gibbonAttendanceCode c ON c.gibbonAttendanceCodeID = l.gibbonAttendanceCodeID
+        WHERE l.gibbonPersonID = ? AND l.date = ?" . ($includeClass ? '' : " AND NOT l.context = 'Class'") . "
+        ORDER BY l.timestampTaken DESC LIMIT 1");
+    foreach ($personIDs as $pid) {
+        $stmt->execute([$pid, $date]);
+        $log = $stmt->fetch(PDO::FETCH_ASSOC);
+        if (!$log) continue;
+        if ($log['prefill'] === 'N') {
+            if ($context === 'Class') continue;
+            if ($log['context'] === 'Class') continue;
+            if ($log['context'] === 'Form Group' && (string) (int) $log['gibbonFormGroupID'] !== (string) (int) $groupID) continue;
+        }
+        $out[(string) $pid] = ['codeID' => (string) $log['gibbonAttendanceCodeID'], 'context' => (string) $log['context']];
+    }
+    return $out;
+}
+
 function gibbonConnectLogAttendance(PDO $pdo, $takerID, string $context, $id, string $date, int $count): void
 {
     try {
@@ -85,9 +162,24 @@ try {
         foreach ($records as $r) {
             $byPerson[$r['gibbonPersonID']] = $r;
         }
+
+        // Taken status and pre-fill (app 1.16.19+; older apps ignore them).
+        $studentStmt = $pdo->prepare("SELECT gibbonPersonID FROM gibbonCourseClassPerson
+            WHERE gibbonCourseClassID = ? AND role = 'Student'");
+        $studentStmt->execute([$classID]);
+        $missing = array_values(array_filter($studentStmt->fetchAll(PDO::FETCH_COLUMN),
+            fn($pid) => !isset($byPerson[$pid])));
+
         // (object): with no marks saved yet, an empty PHP array would encode
         // as a JSON list [], which the app can't read as student -> mark.
-        echo json_encode(['success' => true, 'attendance' => (object) $byPerson, 'date' => $date]);
+        echo json_encode([
+            'success'       => true,
+            'attendance'    => (object) $byPerson,
+            'date'          => $date,
+            'taken'         => gibbonConnectTakenLog($pdo, 'gibbonAttendanceLogCourseClass', 'gibbonCourseClassID', $classID, $date),
+            'prefill'       => (object) gibbonConnectPrefill($pdo, $missing, $date, 'Class', $classID),
+            'defaultCodeID' => gibbonConnectDefaultCodeID($pdo, 'defaultClassAttendanceType'),
+        ]);
         exit;
     }
 
@@ -302,9 +394,28 @@ try {
         foreach ($records as $r) {
             $byPerson[$r['gibbonPersonID']] = $r;
         }
+
+        // Taken status and pre-fill (app 1.16.19+; older apps ignore them).
+        // Students enrolled in the form group on that date, as core lists them.
+        $studentStmt = $pdo->prepare("SELECT gibbonStudentEnrolment.gibbonPersonID
+            FROM gibbonStudentEnrolment JOIN gibbonPerson USING (gibbonPersonID)
+            WHERE gibbonStudentEnrolment.gibbonFormGroupID = ? AND gibbonPerson.status = 'Full'
+            AND (gibbonPerson.dateStart IS NULL OR gibbonPerson.dateStart <= ?)
+            AND (gibbonPerson.dateEnd IS NULL OR gibbonPerson.dateEnd >= ?)");
+        $studentStmt->execute([$formGroupID, $date, $date]);
+        $missing = array_values(array_filter($studentStmt->fetchAll(PDO::FETCH_COLUMN),
+            fn($pid) => !isset($byPerson[$pid])));
+
         // (object): with no marks saved yet, an empty PHP array would encode
         // as a JSON list [], which the app can't read as student -> mark.
-        echo json_encode(['success' => true, 'attendance' => (object) $byPerson, 'date' => $date]);
+        echo json_encode([
+            'success'       => true,
+            'attendance'    => (object) $byPerson,
+            'date'          => $date,
+            'taken'         => gibbonConnectTakenLog($pdo, 'gibbonAttendanceLogFormGroup', 'gibbonFormGroupID', $formGroupID, $date),
+            'prefill'       => (object) gibbonConnectPrefill($pdo, $missing, $date, 'Form Group', $formGroupID),
+            'defaultCodeID' => gibbonConnectDefaultCodeID($pdo, 'defaultFormGroupAttendanceType'),
+        ]);
         exit;
     }
 

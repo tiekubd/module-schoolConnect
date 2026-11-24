@@ -667,7 +667,13 @@ T = {'A punctuation mark or space': 'Розділовий знак або про
  'Update the School Connect module to {version} for all features.': 'Оновіть модуль School Connect до версії {version}, щоб мати всі функції.',
  'View photo': 'Переглянути фото',
  '{count} of {total} saved': 'Збережено: {count} з {total}',
- '{count} of {total} students saved': 'Збережено учнів: {count} з {total}'}
+ '{count} of {total} students saved': 'Збережено учнів: {count} з {total}',
+ 'Set in advance': 'Внесено заздалегідь',
+ 'From a class register': 'Із відвідуваності заняття',
+ 'From the form group register': 'Із відвідуваності класу',
+ 'Recorded earlier today': 'Відмічено раніше сьогодні',
+ 'Taken at {time} by {name}': 'Відмічено о {time}, {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Відвідуваність за цю дату ще не відмічено. Це типові значення, а не збережена відвідуваність.'}
 
 P = {'All {count} class done for today': ('Усі уроки на сьогодні завершено ({count})',
                                       'Усі уроки на сьогодні завершено ({count})',

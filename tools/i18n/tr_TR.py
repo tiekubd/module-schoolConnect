@@ -635,7 +635,13 @@ T = {'A punctuation mark or space': 'Bir noktalama işareti veya boşluk',
  'Update the School Connect module to {version} for all features.': 'Tüm özellikler için School Connect modülünü {version} sürümüne güncelleyin.',
  'View photo': 'Fotoğrafı göster',
  '{count} of {total} saved': '{total} kayıttan {count} tanesi kaydedildi',
- '{count} of {total} students saved': '{total} öğrenciden {count} tanesi kaydedildi'}
+ '{count} of {total} students saved': '{total} öğrenciden {count} tanesi kaydedildi',
+ 'Set in advance': 'Önceden girildi',
+ 'From a class register': 'Bir sınıfın yoklamasından',
+ 'From the form group register': 'Şube yoklamasından',
+ 'Recorded earlier today': 'Bugün daha önce girildi',
+ 'Taken at {time} by {name}': 'Yoklama {time} saatinde {name} tarafından alındı',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, kaydedilmiş yoklama değil.'}
 
 P = {'At least {count} character': ('En az {count} karakter', 'En az {count} karakter'),
  'Behaviour records saved for {count} student!': ('{count} öğrenci için davranış kaydı kaydedildi!', '{count} öğrenci için davranış kayıtları kaydedildi!'),

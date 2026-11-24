@@ -519,7 +519,13 @@ T = {'A punctuation mark or space': 'เครื่องหมายวรร�
  'Update the School Connect module to {version} for all features.': 'อัปเดตโมดูล School Connect เป็นเวอร์ชัน {version} เพื่อใช้ทุกฟีเจอร์',
  'View photo': 'ดูรูป',
  '{count} of {total} saved': 'บันทึกแล้ว {count} จาก {total}',
- '{count} of {total} students saved': 'บันทึกแล้ว {count} จาก {total} คน'}
+ '{count} of {total} students saved': 'บันทึกแล้ว {count} จาก {total} คน',
+ 'Set in advance': 'บันทึกไว้ล่วงหน้า',
+ 'From a class register': 'จากการเช็คชื่อของกลุ่มเรียน',
+ 'From the form group register': 'จากการเช็คชื่อของห้องประจำชั้น',
+ 'Recorded earlier today': 'บันทึกไว้แล้ววันนี้',
+ 'Taken at {time} by {name}': 'เช็คชื่อเวลา {time} โดย {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น ไม่ใช่การมาเรียนที่บันทึกแล้ว'}
 
 P = {'All {count} class done for today': ('วันนี้เรียนครบทั้ง {count} คาบแล้ว',),
  'At least {count} character': ('อย่างน้อย {count} ตัวอักษร',),

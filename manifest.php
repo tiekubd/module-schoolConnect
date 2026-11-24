@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.18"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.19"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -205,6 +205,16 @@ $version     = "1.16.18"; // Tracks the Flutter app's marketing version (pubspec
                           // also written to View Logs ("Attendance taken", Type
                           // School Connect), so app and website registers can be
                           // told apart. No schema change.
+                          //
+                          // 1.16.19: The attendance registers send whether the
+                          // register was already taken (each time and who) and
+                          // Gibbon's own best-guess pre-fill for students with
+                          // nothing saved yet: the school's default code, or an
+                          // earlier record that day such as an absence set in
+                          // advance (same rules as core's Take Attendance pages,
+                          // including Count Class Attendance as School Attendance
+                          // and Cross-Fill Classes). Shown from app 1.16.20; older
+                          // apps ignore it. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

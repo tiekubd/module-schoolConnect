@@ -683,7 +683,13 @@ T = {'A punctuation mark or space': "'n Leesteken of spasie",
  'Update the School Connect module to {version} for all features.': 'Dateer die School Connect-module op na {version} vir alle funksies.',
  'View photo': 'Bekyk foto',
  '{count} of {total} saved': '{count} van {total} gestoor',
- '{count} of {total} students saved': '{count} van {total} leerders gestoor'}
+ '{count} of {total} students saved': '{count} van {total} leerders gestoor',
+ 'Set in advance': 'Vooraf ingestel',
+ 'From a class register': 'Uit ’n klasregister',
+ 'From the form group register': 'Uit die registerklas se register',
+ 'Recorded earlier today': 'Vroeër vandag aangeteken',
+ 'Taken at {time} by {name}': 'Geneem om {time} deur {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Nog nie vir hierdie datum geneem nie. Dit is standaardinskrywings, nie gestoorde bywoning nie.'}
 
 P = {'All {count} class done for today': ('Vandag se klas is klaar', 'Al {count} klasse vir vandag is klaar'),
  'At least {count} character': ('Minstens {count} karakter', 'Minstens {count} karakters'),

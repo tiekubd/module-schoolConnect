@@ -38,8 +38,8 @@ msgstr "新增更多"
 msgid "Add Participant"
 msgstr "新增參加者"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "加入評語"
 
@@ -93,7 +93,7 @@ msgstr "一個大寫字母及一個小寫字母"
 msgid "App version, connected school and your data"
 msgstr "App 版本、已連接的學校及你的資料"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -124,8 +124,8 @@ msgstr "本年出席"
 msgid "Attendance not taken yet today"
 msgstr "今天尚未點名"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "出席紀錄已儲存！"
 
@@ -166,15 +166,15 @@ msgid ""
 "request. The app asks first, and you can say no."
 msgstr "相機及相片：只會在你選擇為更新資料申請附加相片時使用。App 會先詢問，你可以拒絕。"
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "取消預約？"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "取消課堂？"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "取消教職員當值？"
 
@@ -347,8 +347,8 @@ msgstr "無法載入課程"
 msgid "Could not load courses"
 msgstr "無法載入課程"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "無法載入資料"
 
@@ -503,7 +503,7 @@ msgstr "無法載入學年"
 msgid "Could not load settings"
 msgstr "無法載入設定"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "無法載入特別日子"
 
@@ -522,7 +522,7 @@ msgstr "無法載入教職員資料"
 msgid "Could not load students"
 msgstr "無法載入學生"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "無法載入學期"
 
@@ -564,14 +564,14 @@ msgstr "無法移除"
 msgid "Could not reset password"
 msgstr "無法重設密碼"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "無法儲存"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "無法儲存出席紀錄"
 
@@ -656,7 +656,7 @@ msgstr "刪除科目班"
 msgid "Delete Course"
 msgstr "刪除課程"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "刪除特別日子"
 
@@ -668,13 +668,13 @@ msgstr "刪除用戶"
 msgid "Developed by High Point Education"
 msgstr "由 High Point Education 開發"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "捨棄"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "捨棄更改？"
 
@@ -737,6 +737,14 @@ msgstr "班別 *"
 msgid "Formal name to address parents with"
 msgstr "稱呼家長時使用的正式名稱"
 
+#: lib/screens/attendance_status.dart:62
+msgid "From a class register"
+msgstr "來自科目班點名"
+
+#: lib/screens/attendance_status.dart:64
+msgid "From the form group register"
+msgstr "來自班別點名"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "身分證明文件上的全名"
@@ -773,7 +781,7 @@ msgstr "你的科目班的成績、努力和評語"
 msgid "Hidden from students and parents"
 msgstr "對學生和家長隱藏"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "對學生和家長隱藏。此項在 Gibbon 網站上設定。"
 
@@ -1019,7 +1027,7 @@ msgstr "今天沒有編排課堂"
 msgid "No classes yet"
 msgstr "暫時沒有科目班"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "本學期沒有欄目。"
 
@@ -1125,7 +1133,7 @@ msgstr "本學年沒有學生報名"
 msgid "No students found"
 msgstr "找不到學生"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "找不到本學年的學期"
 
@@ -1150,7 +1158,7 @@ msgstr "找不到用戶"
 msgid "Non-reportable participants won't display in reports."
 msgstr "不列入成績報告的參加者不會在成績報告中顯示。"
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "非上課日"
 
@@ -1170,10 +1178,16 @@ msgstr "尚未報名任何科目班"
 msgid "Not reported: update the School Connect module"
 msgstr "未有提供：請更新 School Connect 模組"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "尚未儲存"
+
+#: lib/screens/attendance_status.dart:108
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr "該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。"
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1225,13 +1239,13 @@ msgid "Other services you may see"
 msgstr "你可能看到的其他服務"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "家長可查看這些成績（自{date}起可見）。對學生隱藏。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "家長將由{date}起查看這些成績。對學生隱藏。"
 
@@ -1351,8 +1365,12 @@ msgstr "收據編號"
 msgid "Recent Attendance"
 msgstr "最近出席"
 
+#: lib/screens/attendance_status.dart:66
+msgid "Recorded earlier today"
+msgstr "今天較早時已記錄"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "從日曆移除「{name}」？"
 
@@ -1451,7 +1469,7 @@ msgstr ""
 "School Connect 顯示來自學校 Gibbon 系統的資料：時間表、出席、成績、家庭作業、成績報告、訊息及你家庭的資料。App "
 "只會透過加密連線（HTTPS）直接連接學校的 Gibbon 伺服器。High Point Education 不會接收、儲存或查看這些資料。"
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1514,6 +1532,10 @@ msgstr "選擇學生"
 msgid "Sessions marked Out this year"
 msgstr "本年標示為缺席的節數"
 
+#: lib/screens/attendance_status.dart:60
+msgid "Set in advance"
+msgstr "已預先登記"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "分享"
@@ -1549,23 +1571,23 @@ msgid "Student enrolled successfully"
 msgstr "學生已報名"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "學生和家長可查看這些成績（自{date}起可見）。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "學生和家長將由{date}起查看這些成績。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "學生可查看這些成績（自{date}起可見）。對家長隱藏。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "學生將由{date}起查看這些成績。對家長隱藏。"
 
@@ -1605,6 +1627,11 @@ msgid "Taken at {time}"
 msgstr "{time} 已點名"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:99
+msgid "Taken at {time} by {name}"
+msgstr "{name} 於 {time} 點名"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "今天 {time} 已點名。按此查看或修改"
@@ -1613,8 +1640,8 @@ msgstr "今天 {time} 已點名。按此查看或修改"
 msgid "Tap to edit"
 msgstr "按此編輯"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "你輸入的成績尚未儲存。"
 
@@ -1624,8 +1651,8 @@ msgid ""
 msgstr "以其他用戶身分登入已於 2 小時後結束。你已返回自己的帳戶。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "換算為 {grade}"
 
@@ -1642,7 +1669,7 @@ msgstr "其用戶帳戶不受影響。"
 msgid "There are no messages to display."
 msgstr "沒有可顯示的訊息。"
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "這會影響時間表："
 
@@ -1661,14 +1688,14 @@ msgid "This cannot be undone."
 msgstr "此操作無法復原。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr "此科目班在 {date} 沒有編排課堂。如有需要，你仍可儲存出席紀錄。"
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "此欄目使用評分準則。請在 Gibbon 網站上按準則評分。"
 
@@ -1722,7 +1749,7 @@ msgstr "班主任 2"
 msgid "Type *"
 msgstr "類型 *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "必須填寫類型及名稱"
 
@@ -1743,15 +1770,15 @@ msgstr "取消 {name} 在本學年的報名？"
 msgid "Unknown Year"
 msgstr "未知學年"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "未評分：家長尚未能查看這些成績。對學生隱藏。"
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "未評分：學生和家長尚未能查看這些成績。"
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "未評分：學生尚未能查看這些成績。對家長隱藏。"
 
@@ -1886,7 +1913,7 @@ msgstr "App 在此裝置上儲存的資料"
 msgid "Year Group *"
 msgstr "年級 *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2072,21 +2099,21 @@ msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "之後尚有 {count} 節 · 今天共 {total} 節"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} 項未儲存"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "已儲存 {count}/{total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "已儲存 {count}/{total} 名學生"
 
@@ -2116,7 +2143,7 @@ msgid_plural "{count} staff members"
 msgstr[0] "{count} 名教職員"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

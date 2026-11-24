@@ -40,8 +40,8 @@ msgstr "Προσθήκη κι άλλων"
 msgid "Add Participant"
 msgstr "Προσθήκη συμμετέχοντα"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Προσθέστε σχόλιο"
 
@@ -96,7 +96,7 @@ msgstr "Ένα κεφαλαίο και ένα πεζό γράμμα"
 msgid "App version, connected school and your data"
 msgstr "Έκδοση εφαρμογής, συνδεδεμένο σχολείο και τα δεδομένα σας"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -130,8 +130,8 @@ msgstr "Παρουσίες φέτος"
 msgid "Attendance not taken yet today"
 msgstr "Δεν έχουν ληφθεί ακόμη παρουσίες σήμερα"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Οι παρουσίες αποθηκεύτηκαν!"
 
@@ -176,15 +176,15 @@ msgstr ""
 "αίτημα ενημέρωσης δεδομένων. Η εφαρμογή ζητά πρώτα άδεια και μπορείτε να "
 "αρνηθείτε."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Ακύρωση κρατήσεων;"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Ακύρωση μαθημάτων;"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Ακύρωση εφημεριών προσωπικού;"
 
@@ -367,8 +367,8 @@ msgstr "Δεν ήταν δυνατή η φόρτωση του μαθήματος
 msgid "Could not load courses"
 msgstr "Δεν ήταν δυνατή η φόρτωση των μαθημάτων"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Δεν ήταν δυνατή η φόρτωση των δεδομένων"
 
@@ -523,7 +523,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των σχολικών �
 msgid "Could not load settings"
 msgstr "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Δεν ήταν δυνατή η φόρτωση της ειδικής ημέρας"
 
@@ -542,7 +542,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των στοιχείων
 msgid "Could not load students"
 msgstr "Δεν ήταν δυνατή η φόρτωση των μαθητών"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Δεν ήταν δυνατή η φόρτωση των περιόδων"
 
@@ -584,14 +584,14 @@ msgstr "Δεν ήταν δυνατή η αφαίρεση"
 msgid "Could not reset password"
 msgstr "Δεν ήταν δυνατή η επαναφορά του κωδικού"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Δεν ήταν δυνατή η αποθήκευση"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Δεν ήταν δυνατή η αποθήκευση των παρουσιών"
 
@@ -678,7 +678,7 @@ msgstr "Διαγραφή ομάδας μαθήματος"
 msgid "Delete Course"
 msgstr "Διαγραφή μαθήματος"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Διαγραφή ειδικής ημέρας"
 
@@ -690,13 +690,13 @@ msgstr "Διαγραφή χρήστη"
 msgid "Developed by High Point Education"
 msgstr "Ανάπτυξη: High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Απόρριψη"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Απόρριψη αλλαγών;"
 
@@ -759,6 +759,14 @@ msgstr "Τμήμα *"
 msgid "Formal name to address parents with"
 msgstr "Επίσημη προσφώνηση γονέων"
 
+#: lib/screens/attendance_status.dart:62
+msgid "From a class register"
+msgstr "Από παρουσίες ομάδας μαθήματος"
+
+#: lib/screens/attendance_status.dart:64
+msgid "From the form group register"
+msgstr "Από τις παρουσίες του τμήματος"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Ονοματεπώνυμο όπως στα έγγραφα ταυτοποίησης"
@@ -798,7 +806,7 @@ msgstr "Βαθμοί, προσπάθεια και σχόλια για τις ο�
 msgid "Hidden from students and parents"
 msgstr "Κρυφό από μαθητές και γονείς"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "Κρυφό από μαθητές και γονείς. Αυτό ορίζεται στον ιστότοπο του Gibbon."
 
@@ -1061,7 +1069,7 @@ msgstr "Δεν υπάρχουν προγραμματισμένα μαθήματ�
 msgid "No classes yet"
 msgstr "Δεν υπάρχουν ακόμη ομάδες μαθημάτων"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Δεν υπάρχουν στήλες σε αυτή την περίοδο."
 
@@ -1167,7 +1175,7 @@ msgstr "Δεν υπάρχουν εγγεγραμμένοι μαθητές φέτ
 msgid "No students found"
 msgstr "Δεν βρέθηκαν μαθητές"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Δεν βρέθηκαν περίοδοι για αυτό το σχολικό έτος"
 
@@ -1194,7 +1202,7 @@ msgstr ""
 "Οι συμμετέχοντες που εξαιρούνται από τους ελέγχους προόδου δεν εμφανίζονται "
 "σε αυτούς."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Μη σχολική ημέρα"
 
@@ -1214,10 +1222,18 @@ msgstr "Δεν έχει εγγραφεί ακόμη σε καμία ομάδα �
 msgid "Not reported: update the School Connect module"
 msgstr "Δεν αναφέρεται: ενημερώστε τη λειτουργία School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Δεν αποθηκεύτηκε ακόμη"
+
+#: lib/screens/attendance_status.dart:108
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι "
+"προεπιλογές, όχι αποθηκευμένες παρουσίες."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1278,7 +1294,7 @@ msgid "Other services you may see"
 msgstr "Άλλες υπηρεσίες που μπορεί να δείτε"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
@@ -1286,7 +1302,7 @@ msgstr ""
 "μαθητές."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr ""
 "Οι γονείς θα βλέπουν αυτούς τους βαθμούς από {date}. Κρυφοί από τους "
@@ -1413,8 +1429,12 @@ msgstr "Αριθμός απόδειξης"
 msgid "Recent Attendance"
 msgstr "Πρόσφατες παρουσίες"
 
+#: lib/screens/attendance_status.dart:66
+msgid "Recorded earlier today"
+msgstr "Καταχωρίστηκε νωρίτερα σήμερα"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Αφαίρεση του «{name}» από το ημερολόγιο;"
 
@@ -1520,7 +1540,7 @@ msgstr ""
 "σύνδεσης (HTTPS). Η High Point Education δεν λαμβάνει, δεν αποθηκεύει και "
 "δεν βλέπει αυτές τις πληροφορίες."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1585,6 +1605,10 @@ msgstr "Επιλογή μαθητή"
 msgid "Sessions marked Out this year"
 msgstr "Ώρες που σημειώθηκαν φέτος ως απουσία"
 
+#: lib/screens/attendance_status.dart:60
+msgid "Set in advance"
+msgstr "Ορίστηκε εκ των προτέρων"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Κοινοποίηση"
@@ -1623,17 +1647,17 @@ msgid "Student enrolled successfully"
 msgstr "Ο μαθητής εγγράφηκε"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Μαθητές και γονείς βλέπουν αυτούς τους βαθμούς (ορατοί από {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Μαθητές και γονείς θα βλέπουν αυτούς τους βαθμούς από {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
@@ -1641,7 +1665,7 @@ msgstr ""
 "γονείς."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
 "Οι μαθητές θα βλέπουν αυτούς τους βαθμούς από {date}. Κρυφοί από τους "
@@ -1683,6 +1707,11 @@ msgid "Taken at {time}"
 msgstr "Ελήφθησαν στις {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:99
+msgid "Taken at {time} by {name}"
+msgstr "Καταχωρίστηκε στις {time} από {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για έλεγχο ή αλλαγή"
@@ -1691,8 +1720,8 @@ msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για �
 msgid "Tap to edit"
 msgstr "Πατήστε για επεξεργασία"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Οι βαθμοί που καταχωρίσατε δεν αποθηκεύτηκαν."
 
@@ -1704,8 +1733,8 @@ msgstr ""
 "λογαριασμό σας."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Αντιστοιχεί σε {grade}"
 
@@ -1723,7 +1752,7 @@ msgstr "Ο λογαριασμός χρήστη του ατόμου δεν επη
 msgid "There are no messages to display."
 msgstr "Δεν υπάρχουν μηνύματα."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Αυτό επηρεάζει το πρόγραμμα:"
 
@@ -1744,7 +1773,7 @@ msgid "This cannot be undone."
 msgstr "Η ενέργεια δεν αναιρείται."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1752,8 +1781,8 @@ msgstr ""
 "Αυτή η ομάδα μαθήματος δεν έχει μάθημα στις {date}. Αν χρειάζεται, μπορείτε "
 "ακόμη να αποθηκεύσετε παρουσίες."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 "Αυτή η στήλη χρησιμοποιεί ρουμπρίκα. Συμπληρώστε τη ρουμπρίκα στον ιστότοπο "
@@ -1815,7 +1844,7 @@ msgstr "Υπεύθυνος τμήματος 2"
 msgid "Type *"
 msgstr "Τύπος *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Ο τύπος και το όνομα είναι υποχρεωτικά"
 
@@ -1836,18 +1865,18 @@ msgstr "Διαγραφή εγγραφής του/της {name} από αυτό �
 msgid "Unknown Year"
 msgstr "Άγνωστο έτος"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "Αβαθμολόγητο: οι γονείς δεν βλέπουν ακόμη αυτούς τους βαθμούς. Κρυφοί από "
 "τους μαθητές."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr ""
 "Αβαθμολόγητο: μαθητές και γονείς δεν βλέπουν ακόμη αυτούς τους βαθμούς."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "Αβαθμολόγητο: οι μαθητές δεν βλέπουν ακόμη αυτούς τους βαθμούς. Κρυφοί από "
@@ -1989,7 +2018,7 @@ msgstr "Τι κρατά η εφαρμογή σε αυτή τη συσκευή"
 msgid "Year Group *"
 msgstr "Τάξη *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2206,22 +2235,22 @@ msgstr[0] "Ακόμη {count} μάθημα μετά από αυτό · σύνο�
 msgstr[1] "Ακόμη {count} μαθήματα μετά από αυτό · σύνολο σήμερα: {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} μη αποθηκευμένο"
 msgstr[1] "{count} μη αποθηκευμένα"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "{count} από {total} αποθηκεύτηκαν"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "{count} από {total} μαθητές αποθηκεύτηκαν"
 
@@ -2255,7 +2284,7 @@ msgstr[0] "{count} μέλος προσωπικού"
 msgstr[1] "{count} μέλη προσωπικού"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

@@ -689,7 +689,13 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'Update the School Connect module to {version} for all features.': 'Actualice el módulo School Connect a la versión {version} para usar todas las funciones.',
  'View photo': 'Ver foto',
  '{count} of {total} saved': '{count} de {total} guardados',
- '{count} of {total} students saved': '{count} de {total} estudiantes guardados'}
+ '{count} of {total} students saved': '{count} de {total} estudiantes guardados',
+ 'Set in advance': 'Registrado con anticipación',
+ 'From a class register': 'De la asistencia de una clase',
+ 'From the form group register': 'De la asistencia del grupo',
+ 'Recorded earlier today': 'Registrado hoy más temprano',
+ 'Taken at {time} by {name}': 'Tomada a las {time} por {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Aún no se ha tomado la asistencia de esta fecha. Son valores predeterminados, no asistencia guardada.'}
 
 P = {'All {count} class done for today': ('{count} clase terminada por hoy', 'Las {count} clases han terminado por hoy'),
  'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),

@@ -743,7 +743,13 @@ T = {'A punctuation mark or space': 'Một dấu câu hoặc khoảng trắng',
  'Update the School Connect module to {version} for all features.': 'Hãy cập nhật module School Connect lên {version} để dùng đầy đủ tính năng.',
  'View photo': 'Xem ảnh',
  '{count} of {total} saved': 'Đã lưu {count}/{total}',
- '{count} of {total} students saved': 'Đã lưu {count}/{total} học sinh'}
+ '{count} of {total} students saved': 'Đã lưu {count}/{total} học sinh',
+ 'Set in advance': 'Đã đặt trước',
+ 'From a class register': 'Từ điểm danh lớp học',
+ 'From the form group register': 'Từ điểm danh lớp chủ nhiệm',
+ 'Recorded earlier today': 'Đã ghi nhận trước đó hôm nay',
+ 'Taken at {time} by {name}': 'Điểm danh lúc {time} bởi {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh đã lưu.'}
 
 P = {'All {count} class done for today': ('Đã xong cả {count} tiết học hôm nay',),
  'At least {count} character': ('Ít nhất {count} ký tự',),

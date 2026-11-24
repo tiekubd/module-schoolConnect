@@ -468,7 +468,13 @@ T = {'A punctuation mark or space': '句読点またはスペース',
  'Update the School Connect module to {version} for all features.': 'すべての機能を使うには、School Connect モジュールを {version} に更新してください。',
  'View photo': '写真を見る',
  '{count} of {total} saved': '{total}件中{count}件を保存',
- '{count} of {total} students saved': '{total}人中{count}人を保存'}
+ '{count} of {total} students saved': '{total}人中{count}人を保存',
+ 'Set in advance': '事前に登録済み',
+ 'From a class register': 'クラスの出欠から',
+ 'From the form group register': 'ホームルームの出欠から',
+ 'Recorded earlier today': '今日すでに記録済み',
+ 'Taken at {time} by {name}': '{time} に {name} が記録',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。'}
 
 P = {'At least {count} character': ('{count}文字以上',),
  'Behaviour records saved for {count} student!': ('{count}人の生徒の行動記録を保存しました！',),

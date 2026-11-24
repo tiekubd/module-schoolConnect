@@ -673,7 +673,13 @@ T = {'A punctuation mark or space': 'Interpunkcijski znak ili razmak',
  'Update the School Connect module to {version} for all features.': 'Ažurirajte modul School Connect na inačicu {version} za sve značajke.',
  'View photo': 'Prikaži fotografiju',
  '{count} of {total} saved': 'Spremljeno: {count} od {total}',
- '{count} of {total} students saved': 'Spremljeno učenika: {count} od {total}'}
+ '{count} of {total} students saved': 'Spremljeno učenika: {count} od {total}',
+ 'Set in advance': 'Uneseno unaprijed',
+ 'From a class register': 'Iz evidencije grupe',
+ 'From the form group register': 'Iz evidencije razrednog odjela',
+ 'Recorded earlier today': 'Zabilježeno ranije danas',
+ 'Taken at {time} by {name}': 'Evidentirano u {time}, {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Prisutnost za ovaj datum još nije evidentirana. Ovo su zadane vrijednosti, a ne spremljena prisutnost.'}
 
 P = {'All {count} class done for today': ('Današnja nastava je završena ({count} sat)', 'Današnja nastava je završena ({count} sata)', 'Današnja nastava je završena ({count} sati)'),
  'At least {count} character': ('Barem {count} znak', 'Barem {count} znaka', 'Barem {count} znakova'),

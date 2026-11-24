@@ -736,7 +736,13 @@ T = {'A punctuation mark or space': 'کوئی رموزِ اوقاف کا نشا�
  'Update the School Connect module to {version} for all features.': 'تمام سہولیات کے لیے School Connect ماڈیول کو ورژن {version} پر اپ ڈیٹ کریں۔',
  'View photo': 'تصویر دیکھیں',
  '{count} of {total} saved': '{total} میں سے {count} محفوظ',
- '{count} of {total} students saved': '{total} میں سے {count} طلبہ محفوظ'}
+ '{count} of {total} students saved': '{total} میں سے {count} طلبہ محفوظ',
+ 'Set in advance': 'پہلے سے درج',
+ 'From a class register': 'کسی کلاس کی حاضری سے',
+ 'From the form group register': 'سیکشن کی حاضری سے',
+ 'Recorded earlier today': 'آج پہلے درج کی گئی',
+ 'Taken at {time} by {name}': 'حاضری {time} بجے {name} نے لگائی',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'اس تاریخ کی حاضری ابھی نہیں لگی۔ یہ طے شدہ اندراجات ہیں، محفوظ حاضری نہیں۔'}
 
 P = {'All {count} class done for today': ('آج کا {count} پیریڈ مکمل ہو گیا', 'آج کے تمام {count} پیریڈ مکمل ہو گئے'),
  'At least {count} character': ('کم از کم {count} حرف', 'کم از کم {count} حروف'),

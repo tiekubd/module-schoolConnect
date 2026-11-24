@@ -40,8 +40,8 @@ msgstr "Thêm nữa"
 msgid "Add Participant"
 msgstr "Thêm người tham gia"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Thêm nhận xét"
 
@@ -95,7 +95,7 @@ msgstr "Một chữ hoa và một chữ thường"
 msgid "App version, connected school and your data"
 msgstr "Phiên bản ứng dụng, trường đã kết nối và dữ liệu của bạn"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -128,8 +128,8 @@ msgstr "Điểm danh năm nay"
 msgid "Attendance not taken yet today"
 msgstr "Hôm nay chưa điểm danh"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Đã lưu điểm danh!"
 
@@ -172,15 +172,15 @@ msgstr ""
 "Máy ảnh và ảnh: chỉ khi bạn chọn đính kèm ảnh vào yêu cầu cập nhật dữ liệu. "
 "Ứng dụng sẽ hỏi trước và bạn có thể từ chối."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Hủy đặt chỗ?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Hủy các tiết học?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Hủy ca trực của nhân viên?"
 
@@ -360,8 +360,8 @@ msgstr "Không thể tải môn học"
 msgid "Could not load courses"
 msgstr "Không thể tải các môn học"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Không thể tải dữ liệu"
 
@@ -516,7 +516,7 @@ msgstr "Không thể tải các năm học"
 msgid "Could not load settings"
 msgstr "Không thể tải cài đặt"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Không thể tải ngày đặc biệt"
 
@@ -535,7 +535,7 @@ msgstr "Không thể tải dữ liệu nhân viên"
 msgid "Could not load students"
 msgstr "Không thể tải danh sách học sinh"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Không thể tải các học kỳ"
 
@@ -577,14 +577,14 @@ msgstr "Không thể xóa"
 msgid "Could not reset password"
 msgstr "Không thể đặt lại mật khẩu"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Không thể lưu"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Không thể lưu điểm danh"
 
@@ -669,7 +669,7 @@ msgstr "Xóa lớp học"
 msgid "Delete Course"
 msgstr "Xóa môn học"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Xóa ngày đặc biệt"
 
@@ -681,13 +681,13 @@ msgstr "Xóa người dùng"
 msgid "Developed by High Point Education"
 msgstr "Phát triển bởi High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Bỏ"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Bỏ các thay đổi?"
 
@@ -750,6 +750,14 @@ msgstr "Lớp chủ nhiệm *"
 msgid "Formal name to address parents with"
 msgstr "Cách xưng hô trang trọng với phụ huynh"
 
+#: lib/screens/attendance_status.dart:62
+msgid "From a class register"
+msgstr "Từ điểm danh lớp học"
+
+#: lib/screens/attendance_status.dart:64
+msgid "From the form group register"
+msgstr "Từ điểm danh lớp chủ nhiệm"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Họ và tên như trên giấy tờ tùy thân"
@@ -788,7 +796,7 @@ msgstr "Điểm, nỗ lực và nhận xét cho các lớp học của bạn"
 msgid "Hidden from students and parents"
 msgstr "Ẩn với học sinh và phụ huynh"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "Ẩn với học sinh và phụ huynh. Mục này được đặt trên trang web Gibbon."
 
@@ -1047,7 +1055,7 @@ msgstr "Hôm nay không có tiết học nào"
 msgid "No classes yet"
 msgstr "Chưa có lớp học"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Không có cột nào trong học kỳ này."
 
@@ -1153,7 +1161,7 @@ msgstr "Năm nay chưa có học sinh ghi danh"
 msgid "No students found"
 msgstr "Không tìm thấy học sinh"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Không tìm thấy học kỳ nào trong năm học này"
 
@@ -1178,7 +1186,7 @@ msgstr "Không tìm thấy người dùng"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Người tham gia không đưa vào phiếu báo điểm sẽ không hiện trên đó."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Ngày không đi học"
 
@@ -1198,10 +1206,18 @@ msgstr "Chưa ghi danh vào lớp học nào"
 msgid "Not reported: update the School Connect module"
 msgstr "Chưa có dữ liệu: hãy cập nhật mô-đun School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Chưa lưu"
+
+#: lib/screens/attendance_status.dart:108
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh "
+"đã lưu."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1258,14 +1274,14 @@ msgid "Other services you may see"
 msgstr "Các dịch vụ khác bạn có thể thấy"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
 "Phụ huynh xem được các điểm này (hiển thị từ {date}). Ẩn với học sinh."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "Phụ huynh sẽ xem được các điểm này từ {date}. Ẩn với học sinh."
 
@@ -1389,8 +1405,12 @@ msgstr "Số biên lai"
 msgid "Recent Attendance"
 msgstr "Điểm danh gần đây"
 
+#: lib/screens/attendance_status.dart:66
+msgid "Recorded earlier today"
+msgstr "Đã ghi nhận trước đó hôm nay"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Xóa \"{name}\" khỏi lịch?"
 
@@ -1494,7 +1514,7 @@ msgstr ""
 "trường qua kết nối được mã hóa (HTTPS). High Point Education không nhận, "
 "không lưu trữ và không xem những thông tin này."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1559,6 +1579,10 @@ msgstr "Chọn học sinh"
 msgid "Sessions marked Out this year"
 msgstr "Số tiết vắng mặt năm nay"
 
+#: lib/screens/attendance_status.dart:60
+msgid "Set in advance"
+msgstr "Đã đặt trước"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Chia sẻ"
@@ -1596,24 +1620,24 @@ msgid "Student enrolled successfully"
 msgstr "Đã ghi danh học sinh"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Học sinh và phụ huynh xem được các điểm này (hiển thị từ {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Học sinh và phụ huynh sẽ xem được các điểm này từ {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
 "Học sinh xem được các điểm này (hiển thị từ {date}). Ẩn với phụ huynh."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "Học sinh sẽ xem được các điểm này từ {date}. Ẩn với phụ huynh."
 
@@ -1653,6 +1677,11 @@ msgid "Taken at {time}"
 msgstr "Đã điểm danh lúc {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:99
+msgid "Taken at {time} by {name}"
+msgstr "Điểm danh lúc {time} bởi {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Đã điểm danh hôm nay lúc {time}. Chạm để xem hoặc sửa"
@@ -1661,8 +1690,8 @@ msgstr "Đã điểm danh hôm nay lúc {time}. Chạm để xem hoặc sửa"
 msgid "Tap to edit"
 msgstr "Chạm để sửa"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Điểm bạn đã nhập chưa được lưu."
 
@@ -1674,8 +1703,8 @@ msgstr ""
 "khoản của mình."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Quy đổi thành {grade}"
 
@@ -1692,7 +1721,7 @@ msgstr "Tài khoản người dùng của họ không bị ảnh hưởng."
 msgid "There are no messages to display."
 msgstr "Không có tin nhắn nào."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Điều này ảnh hưởng đến thời khóa biểu:"
 
@@ -1713,15 +1742,15 @@ msgid "This cannot be undone."
 msgstr "Không thể hoàn tác."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
 msgstr ""
 "Lớp học này không có lịch vào {date}. Bạn vẫn có thể lưu điểm danh nếu cần."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 "Cột này dùng thang đánh giá (rubric). Hãy chấm theo rubric trên trang web "
@@ -1782,7 +1811,7 @@ msgstr "Giáo viên chủ nhiệm 2"
 msgid "Type *"
 msgstr "Loại *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Cần nhập loại và tên"
 
@@ -1803,15 +1832,15 @@ msgstr "Hủy ghi danh {name} khỏi năm học này?"
 msgid "Unknown Year"
 msgstr "Năm không xác định"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "Chưa chấm: phụ huynh chưa xem được các điểm này. Ẩn với học sinh."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Chưa chấm: học sinh và phụ huynh chưa xem được các điểm này."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "Chưa chấm: học sinh chưa xem được các điểm này. Ẩn với phụ huynh."
 
@@ -1949,7 +1978,7 @@ msgstr "Những gì ứng dụng lưu trên thiết bị này"
 msgid "Year Group *"
 msgstr "Khối *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2149,21 +2178,21 @@ msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Sau tiết này còn {count} tiết · hôm nay có {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} chưa lưu"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "Đã lưu {count}/{total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "Đã lưu {count}/{total} học sinh"
 
@@ -2193,7 +2222,7 @@ msgid_plural "{count} staff members"
 msgstr[0] "{count} nhân viên"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

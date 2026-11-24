@@ -680,7 +680,13 @@ T = {'A punctuation mark or space': 'Znak interpunkcyjny lub spacja',
  'Update the School Connect module to {version} for all features.': 'Zaktualizuj moduł School Connect do wersji {version}, aby mieć wszystkie funkcje.',
  'View photo': 'Pokaż zdjęcie',
  '{count} of {total} saved': 'Zapisano: {count} z {total}',
- '{count} of {total} students saved': 'Zapisani uczniowie: {count} z {total}'}
+ '{count} of {total} students saved': 'Zapisani uczniowie: {count} z {total}',
+ 'Set in advance': 'Wpisane z wyprzedzeniem',
+ 'From a class register': 'Z obecności na zajęciach',
+ 'From the form group register': 'Z obecności klasy',
+ 'Recorded earlier today': 'Zapisane wcześniej dzisiaj',
+ 'Taken at {time} by {name}': 'Sprawdzono o {time}, {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Obecność na ten dzień nie została jeszcze sprawdzona. To wartości domyślne, a nie zapisana frekwencja.'}
 
 P = {'All {count} class done for today': ('Zakończono dzisiejszą lekcję',
                                       'Zakończono wszystkie dzisiejsze lekcje ({count})',

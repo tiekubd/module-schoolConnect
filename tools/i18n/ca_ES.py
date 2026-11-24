@@ -697,7 +697,13 @@ T = {'A punctuation mark or space': 'Un signe de puntuació o un espai',
  'Update the School Connect module to {version} for all features.': 'Actualitzeu el mòdul School Connect a la versió {version} per tenir totes les funcions.',
  'View photo': 'Mostra la foto',
  '{count} of {total} saved': '{count} de {total} desats',
- '{count} of {total} students saved': '{count} de {total} alumnes desats'}
+ '{count} of {total} students saved': '{count} de {total} alumnes desats',
+ 'Set in advance': 'Establert per endavant',
+ 'From a class register': 'D’un registre de classe',
+ 'From the form group register': 'Del registre del grup classe',
+ 'Recorded earlier today': 'Registrat abans, avui',
+ 'Taken at {time} by {name}': 'Passada a les {time} per {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Encara no s’ha passat llista en aquesta data. Són valors per defecte, no assistència desada.'}
 
 P = {'All {count} class done for today': ("S'ha acabat la classe d'avui", "S'han acabat les {count} classes d'avui"),
  'At least {count} character': ('Com a mínim {count} caràcter', 'Com a mínim {count} caràcters'),

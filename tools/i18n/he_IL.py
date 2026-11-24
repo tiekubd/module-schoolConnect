@@ -633,7 +633,13 @@ T = {'A punctuation mark or space': 'סימן פיסוק או רווח',
  'Update the School Connect module to {version} for all features.': 'יש לעדכן את מודול School Connect לגרסה {version} כדי ליהנות מכל התכונות.',
  'View photo': 'הצגת התמונה',
  '{count} of {total} saved': 'נשמרו {count} מתוך {total}',
- '{count} of {total} students saved': 'נשמרו {count} מתוך {total} תלמידים'}
+ '{count} of {total} students saved': 'נשמרו {count} מתוך {total} תלמידים',
+ 'Set in advance': 'נקבע מראש',
+ 'From a class register': 'מנוכחות של קבוצת לימוד',
+ 'From the form group register': 'מנוכחות כיתת האם',
+ 'Recorded earlier today': 'נרשם מוקדם יותר היום',
+ 'Taken at {time} by {name}': 'נלקחה ב-{time} על ידי {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'הנוכחות לתאריך זה עדיין לא נלקחה. אלה ערכי ברירת מחדל ולא נוכחות שמורה.'}
 
 P = {'All {count} class done for today': ('השיעור של היום הסתיים', 'כל {count} השיעורים של היום הסתיימו'),
  'At least {count} character': ('לפחות תו אחד', 'לפחות {count} תווים'),

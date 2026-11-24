@@ -469,7 +469,13 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  'Update the School Connect module to {version} for all features.': '請將 School Connect 模組更新至 {version}，以使用全部功能。',
  'View photo': '查看相片',
  '{count} of {total} saved': '已儲存 {count}/{total}',
- '{count} of {total} students saved': '已儲存 {count}/{total} 名學生'}
+ '{count} of {total} students saved': '已儲存 {count}/{total} 名學生',
+ 'Set in advance': '已預先登記',
+ 'From a class register': '來自科目班點名',
+ 'From the form group register': '來自班別點名',
+ 'Recorded earlier today': '今天較早時已記錄',
+ 'Taken at {time} by {name}': '{name} 於 {time} 點名',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': '該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

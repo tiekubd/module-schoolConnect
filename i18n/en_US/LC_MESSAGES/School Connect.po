@@ -133,7 +133,7 @@ msgstr ""
 msgid "View and manage Form Groups"
 msgstr "View and manage Homerooms"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

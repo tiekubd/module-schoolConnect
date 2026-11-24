@@ -684,7 +684,13 @@ T = {'A punctuation mark or space': 'Ein Satzzeichen oder ein Leerzeichen',
  'Update the School Connect module to {version} for all features.': 'Aktualisieren Sie das School-Connect-Modul auf {version}, um alle Funktionen zu nutzen.',
  'View photo': 'Foto ansehen',
  '{count} of {total} saved': '{count} von {total} gespeichert',
- '{count} of {total} students saved': '{count} von {total} Schüler/innen gespeichert'}
+ '{count} of {total} students saved': '{count} von {total} Schüler/innen gespeichert',
+ 'Set in advance': 'Im Voraus eingetragen',
+ 'From a class register': 'Aus einer Lerngruppen-Anwesenheit',
+ 'From the form group register': 'Aus der Klassen-Anwesenheit',
+ 'Recorded earlier today': 'Heute schon erfasst',
+ 'Taken at {time} by {name}': 'Erfasst um {time} von {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Für dieses Datum noch nicht erfasst. Das sind Voreinstellungen, keine gespeicherte Anwesenheit.'}
 
 P = {'At least {count} character': ('Mindestens {count} Zeichen', 'Mindestens {count} Zeichen'),
  'Behaviour records saved for {count} student!': ('Verhaltenseintrag für {count} Schüler/in gespeichert!', 'Verhaltenseinträge für {count} Schüler/innen gespeichert!'),
