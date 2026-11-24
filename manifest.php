@@ -220,8 +220,12 @@ $version     = "1.16.19"; // Tracks the Flutter app's marketing version (pubspec
                           // and a mark already using one is locked. Saves are
                           // checked on the server too, and future dates are
                           // refused, as core does. Each save now adds a "taken"
-                          // row instead of replacing the earlier ones. No schema
-                          // change.
+                          // row instead of replacing the earlier ones. Who may
+                          // take a register now follows the school's Attendance
+                          // permissions (By Form Group all / my groups, By Class)
+                          // instead of the role names Teacher and Administrator,
+                          // so custom roles work; saves are checked too. No
+                          // schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 
