@@ -40,8 +40,8 @@ msgstr "Dodaj još"
 msgid "Add Participant"
 msgstr "Dodaj sudionika"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Dodajte komentar"
 
@@ -97,7 +97,7 @@ msgstr "Jedno veliko i jedno malo slovo"
 msgid "App version, connected school and your data"
 msgstr "Inačica aplikacije, povezana škola i vaši podaci"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -132,8 +132,8 @@ msgstr "Prisutnost ove godine"
 msgid "Attendance not taken yet today"
 msgstr "Prisutnost danas još nije evidentirana"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Prisutnost spremljena!"
 
@@ -178,15 +178,15 @@ msgstr ""
 "Kamera i fotografije: samo kada odlučite priložiti fotografiju zahtjevu za "
 "ažuriranje podataka. Aplikacija vas najprije pita, a vi možete odbiti."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Otkazati rezervacije?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Otkazati nastavu?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Otkazati dežurstva osoblja?"
 
@@ -367,8 +367,8 @@ msgstr "Učitavanje predmeta nije uspjelo"
 msgid "Could not load courses"
 msgstr "Učitavanje predmeta nije uspjelo"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Učitavanje podataka nije uspjelo"
 
@@ -523,7 +523,7 @@ msgstr "Učitavanje školskih godina nije uspjelo"
 msgid "Could not load settings"
 msgstr "Učitavanje postavki nije uspjelo"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Učitavanje posebnog dana nije uspjelo"
 
@@ -542,7 +542,7 @@ msgstr "Učitavanje podataka o djelatniku nije uspjelo"
 msgid "Could not load students"
 msgstr "Učitavanje učenika nije uspjelo"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Učitavanje polugodišta nije uspjelo"
 
@@ -584,14 +584,14 @@ msgstr "Uklanjanje nije uspjelo"
 msgid "Could not reset password"
 msgstr "Ponovno postavljanje lozinke nije uspjelo"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Spremanje nije uspjelo"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Spremanje prisutnosti nije uspjelo"
 
@@ -680,7 +680,7 @@ msgstr "Izbriši grupu"
 msgid "Delete Course"
 msgstr "Izbriši predmet"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Izbriši posebni dan"
 
@@ -692,13 +692,13 @@ msgstr "Izbriši korisnika"
 msgid "Developed by High Point Education"
 msgstr "Razvio High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Odbaci"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Odbaciti promjene?"
 
@@ -761,6 +761,14 @@ msgstr "Razredni odjel *"
 msgid "Formal name to address parents with"
 msgstr "Službeno oslovljavanje roditelja"
 
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr "Iz evidencije grupe"
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr "Iz evidencije razrednog odjela"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Ime i prezime kako piše u osobnim dokumentima"
@@ -800,7 +808,7 @@ msgstr "Ocjene, trud i komentari za vaše grupe"
 msgid "Hidden from students and parents"
 msgstr "Skriveno od učenika i roditelja"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 "Skriveno od učenika i roditelja. To se postavlja na web-stranici Gibbon."
@@ -1060,7 +1068,7 @@ msgstr "Danas nema zakazane nastave"
 msgid "No classes yet"
 msgstr "Još nema grupa"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Nema stupaca u ovom polugodištu."
 
@@ -1166,7 +1174,7 @@ msgstr "Ove godine nema upisanih učenika"
 msgid "No students found"
 msgstr "Nema učenika"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Za ovu školsku godinu nema polugodišta"
 
@@ -1191,9 +1199,17 @@ msgstr "Nema korisnika"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Sudionici koji nisu za izvještaj neće se prikazivati u izvještajima."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Nenastavni dan"
+
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Nijedna oznaka prisutnosti nije dostupna vašoj ulozi pa ne možete "
+"evidentirati ovu prisutnost."
 
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
@@ -1211,10 +1227,18 @@ msgstr "Još nije upisan ni u jednu grupu"
 msgid "Not reported: update the School Connect module"
 msgstr "Nije dostupno: ažurirajte modul School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Još nije spremljeno"
+
+#: lib/screens/attendance_status.dart:112
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Prisutnost za ovaj datum još nije evidentirana. Ovo su zadane vrijednosti, a"
+" ne spremljena prisutnost."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1271,13 +1295,13 @@ msgid "Other services you may see"
 msgstr "Druge usluge koje možete vidjeti"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "Roditelji vide ove ocjene (vidljive od {date}). Skriveno od učenika."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "Roditelji će vidjeti ove ocjene od {date}. Skriveno od učenika."
 
@@ -1401,8 +1425,12 @@ msgstr "Broj potvrde"
 msgid "Recent Attendance"
 msgstr "Nedavna prisutnost"
 
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr "Zabilježeno ranije danas"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Ukloniti \"{name}\" iz kalendara?"
 
@@ -1508,7 +1536,7 @@ msgstr ""
 " vaše škole putem šifrirane (HTTPS) veze. High Point Education ne prima, ne "
 "pohranjuje i ne vidi te podatke."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1573,6 +1601,10 @@ msgstr "Odaberi učenika"
 msgid "Sessions marked Out this year"
 msgstr "Sati označeni kao izostanak ove godine"
 
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr "Uneseno unaprijed"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Podijeli"
@@ -1610,23 +1642,23 @@ msgid "Student enrolled successfully"
 msgstr "Učenik je uspješno upisan"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Učenici i roditelji vide ove ocjene (vidljive od {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Učenici i roditelji vidjet će ove ocjene od {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "Učenici vide ove ocjene (vidljive od {date}). Skriveno od roditelja."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "Učenici će vidjeti ove ocjene od {date}. Skriveno od roditelja."
 
@@ -1666,6 +1698,11 @@ msgid "Taken at {time}"
 msgstr "Evidentirano u {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:103
+msgid "Taken at {time} by {name}"
+msgstr "Evidentirano u {time}, {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Evidentirano danas u {time}. Dodirnite za pregled ili izmjenu"
@@ -1674,8 +1711,8 @@ msgstr "Evidentirano danas u {time}. Dodirnite za pregled ili izmjenu"
 msgid "Tap to edit"
 msgstr "Dodirnite za uređivanje"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Unesene ocjene nisu spremljene."
 
@@ -1687,8 +1724,8 @@ msgstr ""
 "računu."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "To odgovara ocjeni {grade}"
 
@@ -1705,7 +1742,7 @@ msgstr "To ne utječe na njegov korisnički račun."
 msgid "There are no messages to display."
 msgstr "Nema poruka za prikaz."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "To utječe na raspored:"
 
@@ -1726,7 +1763,7 @@ msgid "This cannot be undone."
 msgstr "To se ne može poništiti."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1734,8 +1771,8 @@ msgstr ""
 "Ova grupa nema nastavu {date}. Prisutnost svejedno možete spremiti ako je "
 "potrebno."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr "Ovaj stupac koristi rubriku. Ispunite rubriku na web-stranici Gibbon."
 
@@ -1796,7 +1833,7 @@ msgstr "Razrednik 2"
 msgid "Type *"
 msgstr "Vrsta *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Vrsta i naziv su obavezni"
 
@@ -1817,15 +1854,15 @@ msgstr "Ispisati {name} iz ove školske godine?"
 msgid "Unknown Year"
 msgstr "Nepoznata godina"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "Neocijenjeno: roditelji još ne vide ove ocjene. Skriveno od učenika."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Neocijenjeno: učenici i roditelji još ne vide ove ocjene."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "Neocijenjeno: učenici još ne vide ove ocjene. Skriveno od roditelja."
 
@@ -1962,7 +1999,7 @@ msgstr "Što aplikacija sprema na ovom uređaju"
 msgid "Year Group *"
 msgstr "Razred *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2190,9 +2227,9 @@ msgstr[1] "Nakon ovoga još {count} sata · danas ukupno {total}"
 msgstr[2] "Nakon ovoga još {count} sati · danas ukupno {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} nespremljena"
@@ -2200,13 +2237,13 @@ msgstr[1] "{count} nespremljene"
 msgstr[2] "{count} nespremljenih"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "Spremljeno: {count} od {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "Spremljeno učenika: {count} od {total}"
 
@@ -2244,7 +2281,7 @@ msgstr[1] "{count} djelatnika"
 msgstr[2] "{count} djelatnika"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

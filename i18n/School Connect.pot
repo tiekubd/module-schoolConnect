@@ -24,7 +24,7 @@ msgstr ""
 msgid "Add Participant"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:731 lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733 lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr ""
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "App version, connected school and your data"
 msgstr ""
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid "Assessment Complete and the Go Live Date apply to the whole class, so they are set from the class page."
 msgstr ""
 
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Attendance not taken yet today"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:137 lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139 lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr ""
 
@@ -141,15 +141,15 @@ msgstr ""
 msgid "Camera and photos: only when you choose to attach a photo to a Data Updater request. The app asks first, and you can say no."
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Could not load courses"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:121 lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123 lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "Could not load settings"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr ""
 
@@ -472,7 +472,7 @@ msgstr ""
 msgid "Could not load students"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr ""
 
@@ -512,11 +512,11 @@ msgstr ""
 msgid "Could not reset password"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:137 lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/attendance_screen.dart:139 lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:147 lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152 lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr ""
 
@@ -597,7 +597,7 @@ msgstr ""
 msgid "Delete Course"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr ""
 
@@ -609,11 +609,11 @@ msgstr ""
 msgid "Developed by High Point Education"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:309 lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311 lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:305 lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307 lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr ""
 
@@ -673,6 +673,14 @@ msgstr ""
 msgid "Formal name to address parents with"
 msgstr ""
 
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr ""
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr ""
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr ""
@@ -705,7 +713,7 @@ msgstr ""
 msgid "Hidden from students and parents"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 
@@ -929,7 +937,7 @@ msgstr ""
 msgid "No classes yet"
 msgstr ""
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr ""
 
@@ -1029,7 +1037,7 @@ msgstr ""
 msgid "No students found"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr ""
 
@@ -1053,8 +1061,12 @@ msgstr ""
 msgid "Non-reportable participants won't display in reports."
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
+msgstr ""
+
+#: lib/screens/attendance_status.dart:208
+msgid "None of the attendance codes are available to your role, so you can't take this register."
 msgstr ""
 
 #: lib/screens/days_of_week_screen.dart:82
@@ -1073,8 +1085,12 @@ msgstr ""
 msgid "Not reported: update the School Connect module"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:638 lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640 lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
+msgstr ""
+
+#: lib/screens/attendance_status.dart:112
+msgid "Not taken yet for this date. These are default entries, not saved attendance."
 msgstr ""
 
 #: lib/screens/attendance_menu_screen.dart:51
@@ -1121,12 +1137,12 @@ msgstr ""
 msgid "Other services you may see"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 #. Keep {placeholders} exactly as they are.
 msgid "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 #. Keep {placeholders} exactly as they are.
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr ""
@@ -1240,7 +1256,11 @@ msgstr ""
 msgid "Recent Attendance"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr ""
+
+#: lib/screens/special_days_screen.dart:444
 #. Keep {placeholders} exactly as they are.
 msgid "Remove \"{name}\" from the calendar?"
 msgstr ""
@@ -1328,7 +1348,7 @@ msgstr ""
 msgid "School Connect shows information from your school's own Gibbon system: timetables, attendance, grades, homework, reports, messages and your family's details. The app connects directly and only to your school's Gibbon server over an encrypted (HTTPS) connection. High Point Education does not receive, store or see this information."
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website."
 msgstr ""
 
@@ -1384,6 +1404,10 @@ msgstr ""
 msgid "Sessions marked Out this year"
 msgstr ""
 
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr ""
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr ""
@@ -1416,22 +1440,22 @@ msgstr ""
 msgid "Student enrolled successfully"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 #. Keep {placeholders} exactly as they are.
 msgid "Students and parents can see these grades (live since {date})."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 #. Keep {placeholders} exactly as they are.
 msgid "Students and parents will see these grades from {date}."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 #. Keep {placeholders} exactly as they are.
 msgid "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 #. Keep {placeholders} exactly as they are.
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
@@ -1465,6 +1489,11 @@ msgstr ""
 msgid "Taken at {time}"
 msgstr ""
 
+#: lib/screens/attendance_status.dart:103
+#. Keep {placeholders} exactly as they are.
+msgid "Taken at {time} by {name}"
+msgstr ""
+
 #: lib/screens/attendance_menu_screen.dart:50
 #. Keep {placeholders} exactly as they are.
 msgid "Taken today at {time}. Tap to review or change"
@@ -1474,7 +1503,7 @@ msgstr ""
 msgid "Tap to edit"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:306 lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308 lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr ""
 
@@ -1482,7 +1511,7 @@ msgstr ""
 msgid "The impersonation ended after 2 hours. You are back in your own account."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:709 lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711 lib/screens/student_marks_screen.dart:525
 #. Keep {placeholders} exactly as they are.
 msgid "The mark works out to {grade}"
 msgstr ""
@@ -1499,7 +1528,7 @@ msgstr ""
 msgid "There are no messages to display."
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr ""
 
@@ -1515,12 +1544,12 @@ msgstr ""
 msgid "This cannot be undone."
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 #. Keep {placeholders} exactly as they are.
 msgid "This class is not scheduled on {date}. You can still save attendance if needed."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:383 lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385 lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 
@@ -1567,7 +1596,7 @@ msgstr ""
 msgid "Type *"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr ""
 
@@ -1588,15 +1617,15 @@ msgstr ""
 msgid "Unknown Year"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 
@@ -1727,7 +1756,7 @@ msgstr ""
 msgid "Year Group *"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website."
 msgstr ""
 
@@ -1902,19 +1931,19 @@ msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/markbook_entry_screen.dart:374 lib/screens/student_marks_screen.dart:343 lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376 lib/screens/student_marks_screen.dart:345 lib/screens/student_marks_screen.dart:379
 #. Keep {placeholders} exactly as they are.
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/student_marks_screen.dart:338 lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340 lib/screens/student_marks_screen.dart:378
 #. Keep {placeholders} exactly as they are.
 msgid "{count} of {total} saved"
 msgstr ""
 
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 #. Keep {placeholders} exactly as they are.
 msgid "{count} of {total} students saved"
 msgstr ""
@@ -1947,7 +1976,7 @@ msgid_plural "{count} staff members"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/attendance_screen.dart:217 lib/screens/class_markbook_screen.dart:142 lib/screens/courses_screen.dart:195
+#: lib/screens/attendance_screen.dart:222 lib/screens/class_markbook_screen.dart:142 lib/screens/courses_screen.dart:195
 #. Keep {placeholders} exactly as they are.
 msgid "{count} student"
 msgid_plural "{count} students"

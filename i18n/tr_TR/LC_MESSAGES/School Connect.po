@@ -40,8 +40,8 @@ msgstr "Daha Fazla Ekle"
 msgid "Add Participant"
 msgstr "Katılımcı Ekle"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Yorum ekleyin"
 
@@ -96,7 +96,7 @@ msgstr "Bir büyük ve bir küçük harf"
 msgid "App version, connected school and your data"
 msgstr "Uygulama sürümü, bağlı okul ve verileriniz"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -130,8 +130,8 @@ msgstr "Bu Yılki Yoklama"
 msgid "Attendance not taken yet today"
 msgstr "Bugün henüz yoklama alınmadı"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Yoklama kaydedildi!"
 
@@ -175,15 +175,15 @@ msgstr ""
 "Kamera ve fotoğraflar: yalnızca bir veri güncelleme talebine fotoğraf "
 "eklemeyi seçtiğinizde. Uygulama önce izin ister ve reddedebilirsiniz."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Rezervasyonlar iptal edilsin mi?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Dersler iptal edilsin mi?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Personel nöbetleri iptal edilsin mi?"
 
@@ -364,8 +364,8 @@ msgstr "Ders yüklenemedi"
 msgid "Could not load courses"
 msgstr "Dersler yüklenemedi"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Veriler yüklenemedi"
 
@@ -520,7 +520,7 @@ msgstr "Eğitim öğretim yılları yüklenemedi"
 msgid "Could not load settings"
 msgstr "Ayarlar yüklenemedi"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Özel gün yüklenemedi"
 
@@ -539,7 +539,7 @@ msgstr "Personel verileri yüklenemedi"
 msgid "Could not load students"
 msgstr "Öğrenciler yüklenemedi"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Dönemler yüklenemedi"
 
@@ -581,14 +581,14 @@ msgstr "Kaldırılamadı"
 msgid "Could not reset password"
 msgstr "Şifre sıfırlanamadı"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Kaydedilemedi"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Yoklama kaydedilemedi"
 
@@ -675,7 +675,7 @@ msgstr "Sınıfı Sil"
 msgid "Delete Course"
 msgstr "Dersi Sil"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Özel Günü Sil"
 
@@ -687,13 +687,13 @@ msgstr "Kullanıcıyı Sil"
 msgid "Developed by High Point Education"
 msgstr "High Point Education tarafından geliştirildi"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Vazgeç"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Değişikliklerden vazgeçilsin mi?"
 
@@ -756,6 +756,14 @@ msgstr "Şube *"
 msgid "Formal name to address parents with"
 msgstr "Velilere hitap ederken kullanılacak resmî ad"
 
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr "Bir sınıfın yoklamasından"
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr "Şube yoklamasından"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Kimlik belgesinde yazan tam ad"
@@ -795,7 +803,7 @@ msgstr "Sınıflarınız için notlar, çaba ve yorumlar"
 msgid "Hidden from students and parents"
 msgstr "Öğrencilerden ve velilerden gizli"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 "Öğrencilerden ve velilerden gizli. Bu, Gibbon web sitesinde ayarlanır."
@@ -1053,7 +1061,7 @@ msgstr "Bugün planlanmış ders yok"
 msgid "No classes yet"
 msgstr "Henüz sınıf yok"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Bu dönemde sütun yok."
 
@@ -1159,7 +1167,7 @@ msgstr "Bu yıl kayıtlı öğrenci yok"
 msgid "No students found"
 msgstr "Öğrenci bulunamadı"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Bu eğitim öğretim yılı için dönem bulunamadı"
 
@@ -1184,9 +1192,17 @@ msgstr "Kullanıcı bulunamadı"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Karneye dahil olmayan katılımcılar karnelerde gösterilmez."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Okul dışı gün"
+
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Yoklama kodlarının hiçbiri rolünüz için kullanılabilir değil, bu nedenle bu "
+"yoklamayı alamazsınız."
 
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
@@ -1204,10 +1220,18 @@ msgstr "Henüz hiçbir sınıfa kayıtlı değil"
 msgid "Not reported: update the School Connect module"
 msgstr "Bildirilmedi: School Connect modülünü güncelleyin"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Henüz kaydedilmedi"
+
+#: lib/screens/attendance_status.dart:112
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, "
+"kaydedilmiş yoklama değil."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1265,7 +1289,7 @@ msgid "Other services you may see"
 msgstr "Görebileceğiniz diğer hizmetler"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
@@ -1273,7 +1297,7 @@ msgstr ""
 " gizli."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr ""
 "Veliler bu notları {date} tarihinden itibaren görecek. Öğrencilerden gizli."
@@ -1398,8 +1422,12 @@ msgstr "Makbuz No"
 msgid "Recent Attendance"
 msgstr "Son Yoklamalar"
 
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr "Bugün daha önce girildi"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "\"{name}\" takvimden kaldırılsın mı?"
 
@@ -1504,7 +1532,7 @@ msgstr ""
 "okulunuzun Gibbon sunucusuna bağlanır. High Point Education bu bilgileri "
 "almaz, saklamaz veya görmez."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1569,6 +1597,10 @@ msgstr "Öğrenci Seç"
 msgid "Sessions marked Out this year"
 msgstr "Bu yıl Dışarıda olarak işaretlenen dersler"
 
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr "Önceden girildi"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Paylaş"
@@ -1606,18 +1638,18 @@ msgid "Student enrolled successfully"
 msgstr "Öğrenci kaydedildi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr ""
 "Öğrenciler ve veliler bu notları görebilir ({date} tarihinden beri görünür)."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Öğrenciler ve veliler bu notları {date} tarihinden itibaren görecek."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
@@ -1625,7 +1657,7 @@ msgstr ""
 " gizli."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
 "Öğrenciler bu notları {date} tarihinden itibaren görecek. Velilerden gizli."
@@ -1666,6 +1698,11 @@ msgid "Taken at {time}"
 msgstr "{time} saatinde alındı"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:103
+msgid "Taken at {time} by {name}"
+msgstr "Yoklama {time} saatinde {name} tarafından alındı"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
@@ -1675,8 +1712,8 @@ msgstr ""
 msgid "Tap to edit"
 msgstr "Düzenlemek için dokunun"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Girdiğiniz notlar kaydedilmedi."
 
@@ -1688,8 +1725,8 @@ msgstr ""
 "döndünüz."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Karşılığı: {grade}"
 
@@ -1706,7 +1743,7 @@ msgstr "Kişinin kullanıcı hesabı etkilenmez."
 msgid "There are no messages to display."
 msgstr "Gösterilecek mesaj yok."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Bu, ders programını etkiler:"
 
@@ -1727,7 +1764,7 @@ msgid "This cannot be undone."
 msgstr "Bu işlem geri alınamaz."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1735,8 +1772,8 @@ msgstr ""
 "Bu sınıfın {date} tarihinde dersi yok. Gerekirse yoklamayı yine de "
 "kaydedebilirsiniz."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 "Bu sütun bir dereceli puanlama anahtarı (rubrik) kullanıyor. Rubriği Gibbon "
@@ -1798,7 +1835,7 @@ msgstr "Rehber Öğretmen 2"
 msgid "Type *"
 msgstr "Tür *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Tür ve ad zorunludur"
 
@@ -1819,16 +1856,16 @@ msgstr "{name} bu eğitim öğretim yılından kaydı silinsin mi?"
 msgid "Unknown Year"
 msgstr "Bilinmeyen Yıl"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "Not verilmemiş: veliler bu notları henüz görmüyor. Öğrencilerden gizli."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Not verilmemiş: öğrenciler ve veliler bu notları henüz görmüyor."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "Not verilmemiş: öğrenciler bu notları henüz görmüyor. Velilerden gizli."
@@ -1967,7 +2004,7 @@ msgstr "Uygulamanın bu cihazda sakladıkları"
 msgid "Year Group *"
 msgstr "Sınıf Düzeyi *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2181,22 +2218,22 @@ msgstr[0] "Bundan sonra {count} ders daha · bugün {total}"
 msgstr[1] "Bundan sonra {count} ders daha · bugün {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} kaydedilmedi"
 msgstr[1] "{count} kaydedilmedi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "{total} kayıttan {count} tanesi kaydedildi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "{total} öğrenciden {count} tanesi kaydedildi"
 
@@ -2230,7 +2267,7 @@ msgstr[0] "{count} personel"
 msgstr[1] "{count} personel"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

@@ -709,7 +709,14 @@ T = {'A punctuation mark or space': 'Un signe de ponctuation ou une espace',
  'Update the School Connect module to {version} for all features.': 'Mettez à jour le module School Connect vers la version {version} pour profiter de toutes les fonctionnalités.',
  'View photo': 'Voir la photo',
  '{count} of {total} saved': '{count} sur {total} enregistrés',
- '{count} of {total} students saved': '{count} élèves enregistrés sur {total}'}
+ '{count} of {total} students saved': '{count} élèves enregistrés sur {total}',
+ 'Set in advance': 'Saisi à l’avance',
+ 'From a class register': 'D’un appel de cours',
+ 'From the form group register': 'De l’appel de la classe',
+ 'Recorded earlier today': 'Saisi plus tôt aujourd’hui',
+ 'Taken at {time} by {name}': 'Appel fait à {time} par {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'L’appel n’a pas encore été fait pour cette date. Ce sont des valeurs par défaut, pas des présences enregistrées.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Aucun des codes de présence n’est disponible pour votre rôle : vous ne pouvez donc pas faire cet appel.'}
 
 P = {'At least {count} character': ('Au moins {count} caractère', 'Au moins {count} caractères'),
  'Behaviour records saved for {count} student!': ('Fiche de comportement enregistrée pour {count} élève\xa0!', 'Fiches de comportement enregistrées pour {count} élèves\xa0!'),

@@ -1,0 +1,3039 @@
+# School Connect: Simplified Chinese (zh_CN) translation of the app-only interface text.
+# AI draft (November 2026), to be checked by a Simplified Chinese-speaking school before release.
+# Vocabulary follows Gibbon core's zh_CN file. Regenerate the template with
+# tools/extract_strings.py in the app repo.
+msgid ""
+msgstr ""
+"Project-Id-Version: School Connect\n"
+"PO-Revision-Date: 2026-11-04 14:00-0600\n"
+"Last-Translator: AI draft, pending review\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lib/screens/user_edit_screen.dart:149
+#: lib/screens/user_password_screen.dart:110
+msgid "A punctuation mark or space"
+msgstr "一个标点符号或空格"
+
+#: lib/screens/about_screen.dart:244
+msgid ""
+"A sign-in token, kept in the device's secure storage (iOS Keychain or "
+"Android Keystore)"
+msgstr "登录凭证，保存在设备的安全保存区（iOS 钥匙圈或 Android Keystore）"
+
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/parent_dashboard_screen.dart:247
+msgid "About & Privacy"
+msgstr "关于与隐私"
+
+#: lib/screens/log_behaviour_screen.dart:291
+msgid "Add More"
+msgstr "添加更多"
+
+#: lib/screens/course_class_roster_screen.dart:247
+msgid "Add Participant"
+msgstr "添加参加者"
+
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
+msgid "Add a comment"
+msgstr "添加评语"
+
+#: lib/screens/student_homework_section.dart:280
+msgid "Add homework?"
+msgstr "添加作业？"
+
+#: lib/screens/admin_screen.dart:142
+msgid "Add, edit, and remove closures"
+msgstr "添加、编辑和移除停课日"
+
+#: lib/screens/admin_screen.dart:44
+msgid "Add, edit, and remove user accounts"
+msgstr "添加、编辑和移除用户账户"
+
+#: lib/screens/course_manage_list_screen.dart:303
+msgid "Adjusts arrangement of courses in reports."
+msgstr "调整课程在成绩报告中的排列顺序。"
+
+#: lib/screens/family_detail_screen.dart:178
+msgid "Adult settings updated"
+msgstr "已更新成人的设置"
+
+#: lib/screens/enter_marks_screen.dart:219
+msgid "All I can mark"
+msgstr "我可评分的全部学生"
+
+#: lib/screens/facility_list_screen.dart:163
+#: lib/screens/facility_list_screen.dart:177
+#: lib/screens/staff_directory_screen.dart:142
+msgid "All Types"
+msgstr "所有类型"
+
+#: lib/screens/course_manage_list_screen.dart:120
+#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+msgid "All Year Groups"
+msgstr "所有年级"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1057
+msgid "All {count} class done for today"
+msgid_plural "All {count} classes done for today"
+msgstr[0] "今天全部 {count} 节已完成"
+
+#: lib/screens/user_edit_screen.dart:140
+#: lib/screens/user_password_screen.dart:101
+msgid "An uppercase and a lowercase letter"
+msgstr "一个大写字母和一个小写字母"
+
+#: lib/screens/dashboard_screen.dart:900
+msgid "App version, connected school and your data"
+msgstr "App 版本、已连接的学校和您的数据"
+
+#: lib/screens/student_marks_screen.dart:352
+msgid ""
+"Assessment Complete and the Go Live Date apply to the whole class, so they "
+"are set from the class page."
+msgstr "“评估已完成？”和发布日期适用于整个教学班，因此在教学班页面设置。"
+
+#: lib/screens/homework_calendar_screen.dart:205
+#: lib/screens/homework_calendar_screen.dart:255
+msgid "Assessments"
+msgstr "评估"
+
+#: lib/screens/user_edit_screen.dart:144
+#: lib/screens/user_password_screen.dart:105
+msgid "At least one number"
+msgstr "至少一个数字"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_edit_screen.dart:135
+#: lib/screens/user_password_screen.dart:96
+msgid "At least {count} character"
+msgid_plural "At least {count} characters"
+msgstr[0] "至少 {count} 个字符"
+
+#: lib/screens/student_profile_screen.dart:192
+msgid "Attendance This Year"
+msgstr "本年考勤"
+
+#: lib/screens/dashboard_screen.dart:1118
+msgid "Attendance not taken yet today"
+msgstr "今天尚未考勤"
+
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
+msgid "Attendance saved!"
+msgstr "考勤已保存！"
+
+#: lib/screens/log_behaviour_screen.dart:218
+msgid "Behaviour record saved!"
+msgstr "已保存表现记录！"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:219
+msgid "Behaviour records saved for {count} student!"
+msgid_plural "Behaviour records saved for {count} students!"
+msgstr[0] "已为 {count} 名学生保存表现记录！"
+
+#: lib/screens/dashboard_screen.dart:844
+msgid "Browse staff profiles"
+msgstr "浏览教职工档案"
+
+#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/planner_list_screen.dart:130
+msgid "By Class"
+msgstr "按教学班"
+
+#: lib/screens/planner_list_screen.dart:122
+msgid "By Date"
+msgstr "按日期"
+
+#: lib/screens/dashboard_screen.dart:1260
+msgid "By class"
+msgstr "按教学班"
+
+#: lib/screens/dashboard_screen.dart:1269
+msgid "By student"
+msgstr "按学生"
+
+#: lib/screens/about_screen.dart:288
+msgid ""
+"Camera and photos: only when you choose to attach a photo to a Data Updater "
+"request. The app asks first, and you can say no."
+msgstr "相机和照片：只会在您选择为信息更新申请附加照片时使用。App 会先询问，您可以拒绝。"
+
+#: lib/screens/special_days_screen.dart:544
+msgid "Cancel Bookings?"
+msgstr "取消预约？"
+
+#: lib/screens/special_days_screen.dart:541
+msgid "Cancel Classes?"
+msgstr "取消课堂？"
+
+#: lib/screens/special_days_screen.dart:543
+msgid "Cancel Staff Duty?"
+msgstr "取消教职工值班？"
+
+#: lib/screens/data_medical_edit_screen.dart:250
+msgid "Cancel new condition"
+msgstr "取消新病况"
+
+#: lib/screens/facility_list_screen.dart:278
+msgid "Cap"
+msgstr "容量"
+
+#: lib/screens/data_personal_edit_screen.dart:418
+msgid "Chinese or other character-based name"
+msgstr "中文或其他文字的姓名"
+
+#: lib/screens/planner_list_screen.dart:189
+msgid "Choose a class above"
+msgstr "请在上方选择教学班"
+
+#: lib/screens/attendance_menu_screen.dart:83
+msgid "Choose any Form Group"
+msgstr "选择任何班级"
+
+#: lib/screens/attendance_menu_screen.dart:72
+msgid "Choose any of your classes"
+msgstr "选择您的任何教学班"
+
+#: lib/screens/log_behaviour_screen.dart:161
+msgid "Choose at least one student first"
+msgstr "请先选择至少一名学生"
+
+#: lib/screens/attendance_menu_screen.dart:84
+msgid "Choose one of your Form Groups"
+msgstr "选择您的其中一个班级"
+
+#: lib/screens/student_attendance_screen.dart:207
+msgid "Class Absences"
+msgstr "课堂缺勤"
+
+#: lib/screens/person_enrolment_screen.dart:97
+msgid "Class Enrolments"
+msgstr "教学班注册"
+
+#: lib/screens/course_class_roster_screen.dart:97
+msgid "Class Roster"
+msgstr "教学班名单"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+msgid "Class now: {class}"
+msgstr "当前课程：{class}"
+
+#: lib/screens/enter_marks_screen.dart:156
+msgid "Classes I teach"
+msgstr "我任教的教学班"
+
+#: lib/screens/about_screen.dart:104
+msgid "Click Update next to School Connect in System Admin > Manage Modules."
+msgstr "请在“系统管理 > 管理模块”中，点击 School Connect 旁边的“更新”。"
+
+#: lib/screens/join_virtual_class_button.dart:212
+msgid "Closed at"
+msgstr "关闭时间"
+
+#: lib/screens/markbook_columns_screen.dart:124
+msgid ""
+"Columns are created and edited on the Gibbon website. Choose a column to "
+"enter grades."
+msgstr "专栏在 Gibbon 网站上创建和编辑。请选择一个专栏来录入成绩。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:358
+msgid ""
+"Combined short name \"{name}\" is longer than 16 characters — this may cause"
+" display issues on the timetable and in dropdowns."
+msgstr "合并简称“{name}”超过 16 个字符 — 可能使课程表和下拉菜单显示不正常。"
+
+#: lib/screens/course_detail_screen.dart:212
+msgid "Combined short name exceeds 16 characters"
+msgstr "合并简称超过 16 个字符"
+
+#: lib/screens/data_finance_edit_screen.dart:269
+msgid "Comma-separated list of email addresses"
+msgstr "以逗号分隔的电子邮件地址"
+
+#: lib/screens/user_edit_screen.dart:735
+msgid "Confirm Password *"
+msgstr "确认密码 *"
+
+#: lib/screens/about_screen.dart:170
+msgid "Connected school"
+msgstr "已连接的学校"
+
+#: lib/screens/join_virtual_class_button.dart:208
+msgid "Connecting..."
+msgstr "连接中…"
+
+#: lib/screens/family_detail_screen.dart:504
+msgid "Contact Info"
+msgstr "联系方式"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_emergency_screen.dart:209
+msgid "Contact {number} — not on record"
+msgstr "联系人 {number} — 没有记录"
+
+#: lib/screens/about_screen.dart:269
+msgid ""
+"Content in lessons: videos or images a teacher adds (for example YouTube) "
+"load from those sites when you open them"
+msgstr "课堂内容：教师添加的视频或图片（例如 YouTube）会在您打开时从相应网站加载"
+
+#: lib/screens/admin_screen.dart:179
+msgid "Control what shows up in the app for everyone"
+msgstr "控制所有人在 App 中看到的内容"
+
+#: lib/screens/course_class_roster_screen.dart:224
+#: lib/screens/course_class_roster_screen.dart:227
+#: lib/screens/person_enrolment_screen.dart:215
+msgid "Could not add"
+msgstr "无法添加"
+
+#: lib/screens/family_detail_screen.dart:100
+msgid "Could not add adult"
+msgstr "无法添加成人"
+
+#: lib/screens/family_detail_screen.dart:118
+msgid "Could not add child"
+msgstr "无法添加子女"
+
+#: lib/screens/user_list_screen.dart:224 lib/screens/user_list_screen.dart:233
+msgid "Could not delete user"
+msgstr "无法删除用户"
+
+#: lib/screens/report_pdf_viewer_screen.dart:117
+#: lib/screens/report_pdf_viewer_screen.dart:146
+msgid "Could not download report"
+msgstr "无法下载成绩报告"
+
+#: lib/screens/user_edit_screen.dart:179 lib/screens/user_edit_screen.dart:188
+msgid "Could not generate username"
+msgstr "无法生成用户名"
+
+#: lib/screens/form_groups_screen.dart:41
+msgid "Could not load Form Groups"
+msgstr "无法加载班级"
+
+#: lib/screens/parent_dashboard_screen.dart:386
+msgid "Could not load activities"
+msgstr "无法加载活动"
+
+#: lib/screens/student_attendance_screen.dart:67
+msgid "Could not load attendance"
+msgstr "无法加载考勤记录"
+
+#: lib/screens/view_reports_screen.dart:47
+msgid "Could not load children"
+msgstr "无法加载子女"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:50
+msgid "Could not load classes"
+msgstr "无法加载教学班"
+
+#: lib/screens/course_detail_screen.dart:57
+msgid "Could not load course"
+msgstr "无法加载课程"
+
+#: lib/screens/course_manage_list_screen.dart:64
+#: lib/screens/courses_screen.dart:58
+msgid "Could not load courses"
+msgstr "无法加载课程"
+
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
+msgid "Could not load data"
+msgstr "无法加载数据"
+
+#: lib/screens/data_updates_screen.dart:65
+msgid "Could not load data updates"
+msgstr "无法加载信息更新"
+
+#: lib/screens/days_of_week_screen.dart:39
+msgid "Could not load days of the week"
+msgstr "无法加载星期"
+
+#: lib/screens/student_emergency_screen.dart:59
+msgid "Could not load emergency contacts"
+msgstr "无法加载紧急联系人"
+
+#: lib/screens/person_enrolment_screen.dart:43
+msgid "Could not load enrolment"
+msgstr "无法加载注册数据"
+
+#: lib/screens/student_enrolment_list_screen.dart:55
+msgid "Could not load enrolments"
+msgstr "无法加载注册数据"
+
+#: lib/screens/facility_list_screen.dart:83
+msgid "Could not load facilities"
+msgstr "无法加载教室"
+
+#: lib/screens/family_list_screen.dart:54
+msgid "Could not load families"
+msgstr "无法加载家庭"
+
+#: lib/screens/family_detail_screen.dart:51
+#: lib/screens/student_family_screen.dart:83
+msgid "Could not load family"
+msgstr "无法加载家庭"
+
+#: lib/screens/data_family_edit_screen.dart:97
+msgid "Could not load family data"
+msgstr "无法加载家庭信息"
+
+#: lib/screens/data_finance_edit_screen.dart:92
+msgid "Could not load finance data"
+msgstr "无法加载财务信息"
+
+#: lib/screens/staff_edit_screen.dart:137
+#: lib/screens/student_enrolment_edit_screen.dart:106
+#: lib/screens/user_edit_screen.dart:343
+msgid "Could not load form"
+msgstr "无法加载表格"
+
+#: lib/screens/student_enrolment_edit_screen.dart:61
+#: lib/screens/user_edit_screen.dart:259
+msgid "Could not load form data"
+msgstr "无法加载表格数据"
+
+#: lib/screens/student_grades_screen.dart:87
+msgid "Could not load grades"
+msgstr "无法加载成绩"
+
+#: lib/screens/student_homework_section.dart:117
+#: lib/screens/student_homework_section.dart:87
+msgid "Could not load homework"
+msgstr "无法加载作业"
+
+#: lib/screens/homework_calendar_screen.dart:138
+msgid "Could not load homework calendar"
+msgstr "无法加载作业日历"
+
+#: lib/screens/finance_invoice_detail_screen.dart:59
+msgid "Could not load invoice"
+msgstr "无法加载发票"
+
+#: lib/screens/finance_invoices_screen.dart:69
+msgid "Could not load invoices"
+msgstr "无法加载发票"
+
+#: lib/screens/planner_view_screen.dart:90
+msgid "Could not load lesson"
+msgstr "无法加载课堂"
+
+#: lib/screens/planner_list_screen.dart:73
+msgid "Could not load lessons"
+msgstr "无法加载课堂"
+
+#: lib/screens/class_markbook_screen.dart:91
+#: lib/screens/enter_marks_screen.dart:64
+#: lib/screens/enter_marks_screen.dart:70
+msgid "Could not load markbook"
+msgstr "无法加载成绩册"
+
+#: lib/screens/master_timetable_screen.dart:103
+msgid "Could not load master timetable"
+msgstr "无法加载总课程表"
+
+#: lib/screens/data_medical_edit_screen.dart:177
+msgid "Could not load medical data"
+msgstr "无法加载医疗信息"
+
+#: lib/screens/message_wall_screen.dart:67
+msgid "Could not load messages"
+msgstr "无法加载消息"
+
+#: lib/screens/notifications_screen.dart:56
+msgid "Could not load notifications"
+msgstr "无法加载通知"
+
+#: lib/screens/user_password_screen.dart:79
+#: lib/screens/user_password_screen.dart:84
+msgid "Could not load password policy"
+msgstr "无法加载密码规则"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:50
+msgid "Could not load people"
+msgstr "无法加载人员"
+
+#: lib/screens/data_personal_edit_screen.dart:138
+msgid "Could not load personal data"
+msgstr "无法加载个人信息"
+
+#: lib/screens/student_personal_screen.dart:54
+msgid "Could not load personal information"
+msgstr "无法加载个人信息"
+
+#: lib/screens/staff_directory_screen.dart:342
+#: lib/screens/student_profile_screen.dart:62
+msgid "Could not load profile"
+msgstr "无法加载个人档案"
+
+#: lib/screens/report_pdf_viewer_screen.dart:100
+#: lib/screens/report_pdf_viewer_screen.dart:86
+msgid "Could not load report"
+msgstr "无法加载成绩报告"
+
+#: lib/screens/student_reports_screen.dart:55
+msgid "Could not load reports"
+msgstr "无法加载成绩报告"
+
+#: lib/screens/role_picker_screen.dart:50
+msgid "Could not load roles"
+msgstr "无法加载角色"
+
+#: lib/screens/course_class_roster_screen.dart:43
+msgid "Could not load roster"
+msgstr "无法加载名单"
+
+#: lib/screens/school_year_picker_screen.dart:42
+#: lib/screens/school_years_screen.dart:39
+msgid "Could not load school years"
+msgstr "无法加载学年"
+
+#: lib/screens/admin_settings_screen.dart:48
+msgid "Could not load settings"
+msgstr "无法加载设置"
+
+#: lib/screens/special_days_screen.dart:401
+msgid "Could not load special day"
+msgstr "无法加载特别日子"
+
+#: lib/screens/staff_directory_screen.dart:61
+#: lib/screens/staff_manage_list_screen.dart:57
+msgid "Could not load staff"
+msgstr "无法加载教职工"
+
+#: lib/screens/data_staff_edit_screen.dart:92
+msgid "Could not load staff data"
+msgstr "无法加载教职工信息"
+
+#: lib/screens/enter_marks_screen.dart:90
+#: lib/screens/enter_marks_screen.dart:97
+#: lib/screens/form_group_detail_screen.dart:89
+msgid "Could not load students"
+msgstr "无法加载学生"
+
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+msgid "Could not load terms"
+msgstr "无法加载学期"
+
+#: lib/screens/facility_timetable_screen.dart:81
+#: lib/screens/my_timetable_screen.dart:153
+msgid "Could not load timetable"
+msgstr "无法加载课程表"
+
+#: lib/screens/master_timetable_screen.dart:73
+msgid "Could not load timetables"
+msgstr "无法加载课程表"
+
+#: lib/screens/user_edit_screen.dart:280
+msgid "Could not load user"
+msgstr "无法加载用户"
+
+#: lib/screens/user_list_screen.dart:80
+msgid "Could not load users"
+msgstr "无法加载用户"
+
+#: lib/screens/parent_dashboard_screen.dart:99
+msgid "Could not load your children"
+msgstr "无法加载您的子女"
+
+#: lib/screens/finance_invoices_screen.dart:108
+msgid "Could not open payment page"
+msgstr "无法打开付款页面"
+
+#: lib/screens/join_virtual_class_button.dart:179
+msgid "Could not open the video call"
+msgstr "无法打开视频通话"
+
+#: lib/screens/family_detail_screen.dart:148
+msgid "Could not remove"
+msgstr "无法移除"
+
+#: lib/screens/user_password_screen.dart:163
+#: lib/screens/user_password_screen.dart:170
+msgid "Could not reset password"
+msgstr "无法重设密码"
+
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/course_class_roster_screen.dart:368
+#: lib/screens/course_class_roster_screen.dart:371
+msgid "Could not save"
+msgstr "无法保存"
+
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
+msgid "Could not save attendance"
+msgstr "无法保存考勤记录"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:226
+msgid "Could not save for: {names}"
+msgstr "以下人员无法保存：{names}"
+
+#: lib/screens/admin_settings_screen.dart:75
+#: lib/screens/admin_settings_screen.dart:85
+msgid "Could not save setting"
+msgstr "无法保存设置"
+
+#: lib/screens/user_edit_screen.dart:442 lib/screens/user_edit_screen.dart:450
+msgid "Could not save user"
+msgstr "无法保存用户"
+
+#: lib/screens/impersonate_user_screen.dart:134
+#: lib/screens/impersonate_user_screen.dart:171
+msgid "Could not start impersonating this user"
+msgstr "无法以此用户身份登录"
+
+#: lib/screens/data_family_edit_screen.dart:130
+#: lib/screens/data_family_edit_screen.dart:138
+#: lib/screens/data_finance_edit_screen.dart:126
+msgid "Could not submit update"
+msgstr "无法提交更新"
+
+#: lib/screens/role_picker_screen.dart:89
+msgid "Could not switch role"
+msgstr "无法切换角色"
+
+#: lib/screens/school_year_picker_screen.dart:67
+#: lib/screens/school_year_picker_screen.dart:76
+msgid "Could not switch school year"
+msgstr "无法切换学年"
+
+#: lib/screens/student_homework_section.dart:185
+msgid "Could not update"
+msgstr "无法更新"
+
+#: lib/screens/staff_edit_screen.dart:288
+msgid "Country of Origin"
+msgstr "原籍国"
+
+#: lib/screens/staff_edit_screen.dart:312
+msgid "Coverage Priority"
+msgstr "代课优先顺序"
+
+#: lib/screens/user_edit_screen.dart:660
+msgid "Create linked staff record"
+msgstr "建立关联的教职工记录"
+
+#: lib/screens/user_edit_screen.dart:686
+msgid "Create linked student enrolment"
+msgstr "建立关联的学生注册"
+
+#: lib/screens/school_year_picker_screen.dart:114
+msgid "Current year"
+msgstr "本学年"
+
+#: lib/screens/dashboard_screen.dart:401
+#: lib/widgets/dashboard_home_action.dart:18
+msgid "Dashboard"
+msgstr "首页"
+
+#: lib/screens/student_profile_screen.dart:200
+msgid "Day Absent"
+msgid_plural "Days Absent"
+msgstr[0] "缺勤天数"
+
+#: lib/screens/student_profile_screen.dart:198
+msgid "Day Present"
+msgid_plural "Days Present"
+msgstr[0] "出勤天数"
+
+#: lib/screens/course_detail_screen.dart:124
+msgid "Delete Class"
+msgstr "删除教学班"
+
+#: lib/screens/course_detail_screen.dart:74
+msgid "Delete Course"
+msgstr "删除课程"
+
+#: lib/screens/special_days_screen.dart:443
+msgid "Delete Special Day"
+msgstr "删除特别日子"
+
+#: lib/screens/user_list_screen.dart:201
+msgid "Delete User"
+msgstr "删除用户"
+
+#: lib/screens/about_screen.dart:197
+msgid "Developed by High Point Education"
+msgstr "由 High Point Education 开发"
+
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
+msgid "Discard"
+msgstr "放弃"
+
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
+msgid "Discard changes?"
+msgstr "放弃更改？"
+
+#: lib/screens/my_timetable_screen.dart:238
+#: lib/screens/student_search_screen.dart:245
+msgid "Done"
+msgstr "完成"
+
+#: lib/screens/homework_calendar_screen.dart:245
+#: lib/screens/student_homework_section.dart:251
+msgid "Due"
+msgstr "截止日期"
+
+#: lib/screens/student_homework_section.dart:124
+msgid "Due date and details are required."
+msgstr "必须填写截止日期和详情。"
+
+#: lib/screens/family_detail_screen.dart:543
+msgid "Editable"
+msgstr "可编辑"
+
+#: lib/screens/user_password_screen.dart:349
+msgid "Email: Must be unique"
+msgstr "电子邮件：不可重复"
+
+#: lib/screens/course_manage_list_screen.dart:321
+msgid "Enrolable Year Groups"
+msgstr "可注册的年级"
+
+#: lib/screens/admin_screen.dart:79
+msgid "Enroll existing students into the active school year"
+msgstr "为现有学生注册目前学年"
+
+#: lib/screens/data_personal_edit_screen.dart:414
+msgid "Family name as shown in ID documents"
+msgstr "身份证明文件上的姓氏"
+
+#: lib/screens/user_edit_screen.dart:161
+msgid "Fill in First Name, Surname, Preferred Name, and Primary Role first"
+msgstr "请先填写名字、姓氏、常用名和主要角色"
+
+#: lib/screens/course_manage_list_screen.dart:115
+msgid "Filter by Year Group"
+msgstr "按年级筛选"
+
+#: lib/screens/user_edit_screen.dart:497
+msgid "First Name *"
+msgstr "名字 *"
+
+#: lib/screens/data_personal_edit_screen.dart:415
+msgid "First name as shown in ID documents"
+msgstr "身份证明文件上的名字"
+
+#: lib/screens/student_enrolment_edit_screen.dart:225
+#: lib/screens/user_edit_screen.dart:695
+msgid "Form Group *"
+msgstr "班级 *"
+
+#: lib/screens/data_family_edit_screen.dart:190
+msgid "Formal name to address parents with"
+msgstr "称呼家长时使用的正式名称"
+
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr "来自教学班考勤"
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr "来自班级考勤"
+
+#: lib/screens/data_personal_edit_screen.dart:417
+msgid "Full name as shown in ID documents"
+msgstr "身份证明文件上的全名"
+
+#: lib/screens/finance_invoice_detail_screen.dart:320
+msgid "Gateway"
+msgstr "支付渠道"
+
+#: lib/screens/user_edit_screen.dart:505
+msgid "Gender *"
+msgstr "性别 *"
+
+#: lib/screens/about_screen.dart:340
+msgid ""
+"Gibbon™ is a trademark of Gibbon Education Ltd. (Hong Kong), used with "
+"permission."
+msgstr "Gibbon™ 是 Gibbon Education Ltd.（香港）的商标，经许可使用。"
+
+#: lib/screens/about_screen.dart:266
+msgid "Google Sign-In, only if your school uses it and you choose it"
+msgstr "Google 登录，仅限学校有使用而您也选择使用时"
+
+#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/student_grades_screen.dart:104
+#: lib/screens/student_profile_screen.dart:289
+msgid "Grades"
+msgstr "成绩"
+
+#: lib/screens/dashboard_screen.dart:1252
+msgid "Grades, effort and comments for your classes"
+msgstr "您教学班的成绩、努力程度和评语"
+
+#: lib/screens/markbook_fields.dart:108
+msgid "Hidden from students and parents"
+msgstr "对学生和家长隐藏"
+
+#: lib/screens/markbook_entry_screen.dart:539
+msgid "Hidden from students and parents. This is set on the Gibbon website."
+msgstr "对学生和家长隐藏。此项在 Gibbon 网站上设置。"
+
+#: lib/screens/staff_edit_screen.dart:292
+msgid "Higher numbers move staff up the order within their grouping."
+msgstr "数字越大，教职工在所属组别中的排序越前。"
+
+#: lib/screens/student_enrolment_list_screen.dart:159
+msgid ""
+"Highlighted in red: marked 'Full' but outside their start/end date range."
+msgstr "红色标记：状态为“正式”，但不在开始／结束日期范围内。"
+
+#: lib/screens/homework_calendar_screen.dart:388
+#: lib/screens/homework_calendar_screen.dart:476
+#: lib/screens/student_attendance_screen.dart:454
+msgid "Holiday"
+msgstr "假期"
+
+#: lib/screens/homework_calendar_screen.dart:28
+msgid "Homework Calendar"
+msgstr "作业日历"
+
+#: lib/screens/homework_calendar_screen.dart:202
+#: lib/screens/homework_calendar_screen.dart:203
+#: lib/screens/homework_calendar_screen.dart:381
+msgid "Homework due"
+msgstr "作业截止"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework removed."
+msgstr "已移除作业。"
+
+#: lib/screens/student_homework_section.dart:151
+msgid "Homework saved."
+msgstr "已保存作业。"
+
+#: lib/screens/data_finance_edit_screen.dart:212
+msgid ""
+"If you choose Family, future invoices will be sent according to your "
+"family's contact preferences. If you choose Company, you can choose for all "
+"or only some fees to be covered by the specified company."
+msgstr "如选择“家庭”，日后的发票会按您家庭的联系偏好发送。如选择“公司”，您可以选择由指定公司支付全部或部分费用。"
+
+#: lib/screens/impersonate_user_screen.dart:116
+msgid "Impersonate"
+msgstr "以此身份登录"
+
+#: lib/screens/impersonate_user_screen.dart:69
+msgid ""
+"Impersonate User needs School Connect module 1.16.09 or later on the school "
+"server."
+msgstr "以其他用户身份登录需要学校服务器安装 School Connect 模块 1.16.09 或更高版本。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:103
+msgid "Installed version is {version}."
+msgstr "已安装版本为 {version}。"
+
+#: lib/screens/impersonate_user_screen.dart:112
+msgid ""
+"It ends after 2 hours. Use Return to my account at the top of the screen to "
+"come back sooner."
+msgstr "会在 2 小时后结束。如要提前返回，请点击屏幕顶部的“返回我的账户”。"
+
+#: lib/screens/admin_settings_screen.dart:116
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: lib/screens/join_virtual_class_button.dart:213
+msgid "Join Virtual Class"
+msgstr "加入在线课堂"
+
+#: lib/screens/admin_settings_screen.dart:120
+msgid "Join Virtual Class is hidden everywhere it would normally appear"
+msgstr "“加入在线课堂”已在所有位置隐藏"
+
+#: lib/screens/admin_settings_screen.dart:119
+msgid "Join Virtual Class shows on the timetable and planner"
+msgstr "“加入在线课堂”会在课程表和计划中显示"
+
+#: lib/screens/student_photo_avatar.dart:141
+msgid "Large photos"
+msgstr "大照片"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days"
+msgstr "最近 10 个上课日"
+
+#: lib/screens/class_detail_screen.dart:125
+msgid "Last 10 school days — per period"
+msgstr "最近 10 个上课日 — 按节数"
+
+#: lib/screens/form_group_detail_screen.dart:130
+msgid "Last 20 school days"
+msgstr "最近 20 个上课日"
+
+#: lib/screens/dashboard_screen.dart:1051
+msgid "Last class of the day"
+msgstr "今天最后一节"
+
+#: lib/screens/string_store.dart
+msgid "Left (user status)"
+msgstr "离校"
+
+#: lib/screens/my_timetable_screen.dart:601
+msgid "Lesson planning is coming soon"
+msgstr "教学计划功能即将推出"
+
+#: lib/screens/about_screen.dart:274
+msgid "Licence check"
+msgstr "授权检查"
+
+#: lib/screens/admin_screen.dart:67
+msgid "Link staff-role people to their staff record"
+msgstr "将教职工角色的人员关联至其教职工记录"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live from {date}"
+msgstr "{date}起可见"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_fields.dart:110
+msgid "Live since {date}"
+msgstr "自{date}起可见"
+
+#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/log_behaviour_screen.dart:239
+msgid "Log Behaviour"
+msgstr "记录表现"
+
+#: lib/screens/about_screen.dart:191
+msgid "Logged in as"
+msgstr "登录身份"
+
+#: lib/screens/dashboard_screen.dart:823
+msgid "Manage users and school settings"
+msgstr "管理用户和学校设置"
+
+#: lib/screens/notifications_screen.dart:118
+msgid "Mark all read"
+msgstr "全部标记为已读"
+
+#: lib/screens/student_homework_section.dart:316
+msgid "Mark as complete"
+msgstr "标记为完成"
+
+#: lib/screens/class_detail_screen.dart:254
+msgid "Mark attendance for today"
+msgstr "记录今天的考勤"
+
+#: lib/screens/notifications_screen.dart:266
+msgid "Mark read"
+msgstr "标记为已读"
+
+#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/master_timetable_screen.dart:116
+msgid "Master Timetable"
+msgstr "总课程表"
+
+#: lib/screens/data_staff_edit_screen.dart:198
+msgid "Must be unique if set"
+msgstr "如有填写则不可重复"
+
+#: lib/screens/dashboard_screen.dart:1093
+#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/form_groups_screen.dart:49
+msgid "My Form Groups"
+msgstr "我的班级"
+
+#: lib/screens/enter_marks_screen.dart:210
+msgid "My classes"
+msgstr "我的教学班"
+
+#: lib/screens/course_detail_screen.dart:298
+#: lib/screens/course_manage_list_screen.dart:232
+msgid "Name and Short Name are required"
+msgstr "必须填写名称和简称"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/dashboard_screen.dart:730
+msgid "Next class: {class}"
+msgstr "下一节课：{class}"
+
+#: lib/screens/form_groups_screen.dart:58
+msgid "No Form Groups found"
+msgstr "找不到班级"
+
+#: lib/screens/course_manage_list_screen.dart:143
+msgid "No Learning Area"
+msgstr "没有学习领域"
+
+#: lib/screens/parent_dashboard_screen.dart:495
+msgid "No activities on record"
+msgstr "没有活动记录"
+
+#: lib/screens/family_detail_screen.dart:280
+msgid "No adults linked"
+msgstr "没有关联的成人"
+
+#: lib/screens/about_screen.dart:257
+msgid ""
+"No advertising, no analytics, no tracking, no crash reporting and no push-"
+"notification services. The app never sells or shares your data."
+msgstr "没有广告、没有分析、没有追踪、没有崩溃报告，也没有推送通知服务。App 绝不会出售或分享您的数据。"
+
+#: lib/screens/view_reports_screen.dart:64
+msgid "No children found"
+msgstr "找不到子女"
+
+#: lib/screens/family_detail_screen.dart:344
+msgid "No children linked"
+msgstr "没有关联的子女"
+
+#: lib/screens/parent_dashboard_screen.dart:269
+msgid "No children linked to this account"
+msgstr "此账户没有关联的子女"
+
+#: lib/screens/class_detail_screen.dart:202
+msgid "No class"
+msgstr "没有课"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:92
+#: lib/screens/courses_screen.dart:172
+#: lib/screens/student_profile_screen.dart:337
+msgid "No classes found"
+msgstr "找不到教学班"
+
+#: lib/screens/facility_timetable_screen.dart:204
+msgid "No classes in this room today"
+msgstr "今天此教室没有课"
+
+#: lib/screens/master_timetable_screen.dart:290
+msgid "No classes scheduled"
+msgstr "没有安排课堂"
+
+#: lib/screens/dashboard_screen.dart:1021
+msgid "No classes scheduled today"
+msgstr "今天没有安排课堂"
+
+#: lib/screens/course_detail_screen.dart:185
+msgid "No classes yet"
+msgstr "暂没有教学班"
+
+#: lib/screens/student_marks_screen.dart:388
+msgid "No columns in this term."
+msgstr "本学期没有专栏。"
+
+#: lib/screens/course_manage_list_screen.dart:133
+msgid "No courses found"
+msgstr "找不到课程"
+
+#: lib/screens/homework_calendar_screen.dart:339
+#: lib/screens/student_attendance_screen.dart:399
+msgid "No data for this term"
+msgstr "本学期没有数据"
+
+#: lib/screens/data_updates_screen.dart:188
+msgid "No data updates found"
+msgstr "找不到信息更新"
+
+#: lib/screens/courses_screen.dart:190
+msgid "No department"
+msgstr "没有部门"
+
+#: lib/screens/facility_list_screen.dart:220
+msgid "No facilities found"
+msgstr "找不到教室"
+
+#: lib/screens/family_list_screen.dart:124
+msgid "No families found"
+msgstr "找不到家庭"
+
+#: lib/screens/student_emergency_screen.dart:121
+msgid "No family members on record"
+msgstr "没有家庭成员记录"
+
+#: lib/screens/student_family_screen.dart:135
+msgid "No family record found"
+msgstr "找不到家庭记录"
+
+#: lib/screens/student_grades_screen.dart:123
+msgid "No grades available"
+msgstr "暂无成绩"
+
+#: lib/screens/class_detail_screen.dart:131
+#: lib/screens/form_group_detail_screen.dart:136
+msgid "No history available"
+msgstr "暂无记录"
+
+#: lib/screens/student_homework_section.dart:246
+msgid "No homework recorded."
+msgstr "没有作业记录。"
+
+#: lib/screens/finance_invoices_screen.dart:126
+msgid "No invoices to display"
+msgstr "没有可显示的发票"
+
+#: lib/screens/class_markbook_screen.dart:135
+msgid "No markbook entries yet"
+msgstr "成绩册暂没有记录"
+
+#: lib/screens/family_person_picker.dart:93
+#: lib/screens/impersonate_user_screen.dart:242
+msgid "No matches found"
+msgstr "找不到相符结果"
+
+#: lib/screens/notifications_screen.dart:136
+msgid "No notifications"
+msgstr "没有通知"
+
+#: lib/screens/course_class_roster_screen.dart:112
+msgid "No participants yet"
+msgstr "暂没有参加者"
+
+#: lib/screens/course_enrolment_by_person_screen.dart:85
+msgid "No people found"
+msgstr "找不到人员"
+
+#: lib/screens/student_emergency_screen.dart:172
+msgid "No phone on record"
+msgstr "没有电话记录"
+
+#: lib/screens/student_attendance_screen.dart:518
+msgid "No record"
+msgstr "没有记录"
+
+#: lib/screens/student_reports_screen.dart:82
+msgid "No reports available yet"
+msgstr "暂没有成绩报告"
+
+#: lib/screens/my_timetable_screen.dart:314
+msgid "No school days this week"
+msgstr "本周没有上课日"
+
+#: lib/screens/staff_directory_screen.dart:215
+#: lib/screens/staff_manage_list_screen.dart:194
+msgid "No staff found"
+msgstr "找不到教职工"
+
+#: lib/screens/student_enrolment_list_screen.dart:170
+msgid "No students enrolled this year"
+msgstr "本学年没有学生注册"
+
+#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/student_search_screen.dart:338
+#: lib/screens/students_screen.dart:116
+msgid "No students found"
+msgstr "找不到学生"
+
+#: lib/screens/special_days_screen.dart:172
+msgid "No terms found for this school year"
+msgstr "找不到本学年的学期"
+
+#: lib/screens/master_timetable_screen.dart:192
+msgid "No timetable data found"
+msgstr "找不到课程表数据"
+
+#: lib/screens/facility_timetable_screen.dart:203
+msgid "No timetable for this day"
+msgstr "当天没有课程表"
+
+#: lib/screens/dashboard_screen.dart:1015
+msgid "No timetable for today"
+msgstr "今天没有课程表"
+
+#: lib/screens/user_list_screen.dart:342
+msgid "No users found"
+msgstr "找不到用户"
+
+#: lib/screens/course_class_roster_screen.dart:403
+#: lib/screens/person_enrolment_screen.dart:391
+msgid "Non-reportable participants won't display in reports."
+msgstr "不列入成绩报告的参加者不会在成绩报告中显示。"
+
+#: lib/screens/special_days_screen.dart:203
+msgid "Non-school day"
+msgstr "非上课日"
+
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr "您的角色无法使用任何考勤代码，因此无法记录此考勤。"
+
+#: lib/screens/days_of_week_screen.dart:82
+msgid "Not a School Day"
+msgstr "非上课日"
+
+#: lib/screens/student_search_screen.dart:375
+msgid "Not currently enrolled"
+msgstr "目前未注册"
+
+#: lib/screens/person_enrolment_screen.dart:112
+msgid "Not enrolled in any classes yet"
+msgstr "尚未注册任何教学班"
+
+#: lib/screens/about_screen.dart:90
+msgid "Not reported: update the School Connect module"
+msgstr "未提供：请更新 School Connect 模块"
+
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
+msgid "Not saved yet"
+msgstr "尚未保存"
+
+#: lib/screens/attendance_status.dart:112
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr "该日期尚未记录考勤。以下为默认值，并非已保存的考勤。"
+
+#: lib/screens/attendance_menu_screen.dart:51
+msgid "Not taken yet today"
+msgstr "今天尚未考勤"
+
+#: lib/screens/student_enrolment_edit_screen.dart:263
+msgid ""
+"Not wired up here yet — enrolling here does not auto-add courses. Finish "
+"course enrolment on the website if this student needs it."
+msgstr "此处尚未支持 — 在这里注册不会自动加入课程。如学生需要，请在网站完成课程注册。"
+
+#: lib/screens/my_timetable_screen.dart:440
+msgid "Nothing scheduled"
+msgstr "没有安排"
+
+#: lib/screens/facility_timetable_screen.dart:393
+#: lib/screens/my_timetable_screen.dart:563
+msgid "Now"
+msgstr "现在"
+
+#: lib/screens/user_edit_screen.dart:501
+msgid "Official Name *"
+msgstr "正式名称 *"
+
+#: lib/screens/about_screen.dart:278
+msgid ""
+"Once a day, your school's server tells High Point only its own web address, "
+"to confirm the school's subscription. No personal information is sent."
+msgstr "学校服务器每天一次只向 High Point 提供其网址，以确认学校的订阅。不会传送任何个人信息。"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Only includes people with a Staff role not already staff."
+msgstr "只包括有教职工角色但尚未成为教职工的人员。"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Only includes students not enrolled in this school year."
+msgstr "只包括本学年尚未注册的学生。"
+
+#: lib/screens/join_virtual_class_button.dart:210
+msgid "Opens at"
+msgstr "开放时间"
+
+#: lib/screens/enter_marks_screen.dart:158
+msgid "Other classes"
+msgstr "其他教学班"
+
+#: lib/screens/about_screen.dart:262
+msgid "Other services you may see"
+msgstr "您可能看到的其他服务"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:562
+msgid ""
+"Parents can see these grades (live since {date}). Hidden from students."
+msgstr "家长可以查看这些成绩（自{date}起可见）。对学生隐藏。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:561
+msgid "Parents will see these grades from {date}. Hidden from students."
+msgstr "家长将从{date}起查看这些成绩。对学生隐藏。"
+
+#: lib/screens/user_edit_screen.dart:598
+msgid "Password *"
+msgstr "密码 *"
+
+#: lib/screens/user_password_screen.dart:148
+msgid "Password must be filled in and match"
+msgstr "必须填写密码，而且两次输入要相同"
+
+#: lib/screens/user_list_screen.dart:409
+msgid "Password reset successfully"
+msgstr "已重设密码"
+
+#: lib/screens/user_edit_screen.dart:774
+#: lib/screens/user_password_screen.dart:300
+msgid "Passwords do not match"
+msgstr "两次输入的密码不相同"
+
+#: lib/screens/user_edit_screen.dart:384
+msgid "Passwords must be filled in and match"
+msgstr "必须填写密码，而且两次输入要相同"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "Permanently delete"
+msgstr "永久删除"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_detail_screen.dart:75
+msgid "Permanently delete \"{name}\" and all of its classes?"
+msgstr "永久删除“{name}”及其所有教学班？"
+
+#: lib/screens/about_screen.dart:284
+msgid "Permissions"
+msgstr "权限"
+
+#: lib/screens/staff_edit_screen.dart:251
+msgid "Person *"
+msgstr "人员 *"
+
+#: lib/screens/user_edit_screen.dart:389
+msgid "Please enter a Staff Type"
+msgstr "请输入教职工类型"
+
+#: lib/screens/user_edit_screen.dart:379
+msgid ""
+"Please fill in all required fields (name, official name, gender, role, "
+"username)"
+msgstr "请填写所有必填字段（姓名、正式名称、性别、角色、用户名）"
+
+#: lib/screens/staff_edit_screen.dart:172
+msgid "Please select a Type"
+msgstr "请选择类型"
+
+#: lib/screens/student_enrolment_edit_screen.dart:134
+#: lib/screens/user_edit_screen.dart:393
+msgid "Please select a Year Group and Form Group"
+msgstr "请选择年级和班级"
+
+#: lib/screens/person_enrolment_screen.dart:200
+msgid "Please select a class and a role"
+msgstr "请选择教学班和角色"
+
+#: lib/screens/staff_edit_screen.dart:168
+msgid "Please select a person"
+msgstr "请选择人员"
+
+#: lib/screens/course_class_roster_screen.dart:209
+msgid "Please select a person and a role"
+msgstr "请选择人员和角色"
+
+#: lib/screens/student_enrolment_edit_screen.dart:130
+msgid "Please select a student"
+msgstr "请选择学生"
+
+#: lib/screens/data_updates_screen.dart:174
+msgid ""
+"Please take a moment to review the required updates below. Even if nothing "
+"has changed, submitting confirms your data is correct."
+msgstr "请花一点时间检查以下需要更新的项目。即使没有任何改变，提交也代表您确认信息正确。"
+
+#: lib/screens/about_screen.dart:327
+msgid "Powered by Gibbon"
+msgstr "由 Gibbon 驱动"
+
+#: lib/screens/user_edit_screen.dart:499
+msgid "Preferred Name *"
+msgstr "常用名 *"
+
+#: lib/screens/user_edit_screen.dart:559
+msgid "Primary Role *"
+msgstr "主要角色 *"
+
+#: lib/screens/family_detail_screen.dart:595
+msgid "Priority 1 contacts always receive all contact types."
+msgstr "第一优先联系人会收到所有类型的联系。"
+
+#: lib/screens/staff_directory_screen.dart:462
+msgid "Qualified"
+msgstr "合格"
+
+#: lib/screens/dashboard_screen.dart:780
+msgid "Quick Access"
+msgstr "快捷功能"
+
+#: lib/screens/about_screen.dart:307
+msgid "Read the full privacy policy"
+msgstr "阅读完整隐私政策"
+
+#: lib/screens/finance_invoice_detail_screen.dart:324
+msgid "Receipt ID"
+msgstr "收据编号"
+
+#: lib/screens/class_detail_screen.dart:122
+#: lib/screens/form_group_detail_screen.dart:127
+msgid "Recent Attendance"
+msgstr "最近考勤"
+
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr "今天早些时候已记录"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/special_days_screen.dart:444
+msgid "Remove \"{name}\" from the calendar?"
+msgstr "从日历移除“{name}”？"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Adult"
+msgstr "移除成人"
+
+#: lib/screens/family_detail_screen.dart:127
+msgid "Remove Child"
+msgstr "移除子女"
+
+#: lib/screens/person_enrolment_screen.dart:74
+msgid "Remove Class"
+msgstr "移除教学班"
+
+#: lib/screens/student_enrolment_list_screen.dart:85
+msgid "Remove Enrolment"
+msgstr "移除注册"
+
+#: lib/screens/staff_manage_list_screen.dart:88
+msgid "Remove Staff Record"
+msgstr "移除教职工记录"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/person_enrolment_screen.dart:75
+msgid "Remove enrolment in {class}?"
+msgstr "移除 {class} 的注册？"
+
+#: lib/screens/course_class_roster_screen.dart:74
+msgid "Remove from Class"
+msgstr "从教学班移除"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_manage_list_screen.dart:89
+msgid "Remove {name} from staff?"
+msgstr "将 {name} 从教职工中移除？"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_class_roster_screen.dart:75
+msgid "Remove {name} from this class?"
+msgstr "将 {name} 从此教学班移除？"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_detail_screen.dart:128
+msgid "Remove {name} from this family?"
+msgstr "将 {name} 从此家庭移除？"
+
+#: lib/screens/about_screen.dart:246
+msgid "Report-card PDFs, only while you view or share them"
+msgstr "成绩报告 PDF，仅限在您查看或分享期间"
+
+#: lib/screens/impersonation_banner.dart:119
+msgid "Return to my account"
+msgstr "返回我的账户"
+
+#: lib/screens/user_password_screen.dart:346
+msgid "Role: Can Login"
+msgstr "角色：可登录"
+
+#: lib/screens/student_enrolment_list_screen.dart:208
+msgid "Roll"
+msgstr "学号"
+
+#: lib/screens/student_homework_section.dart:158
+msgid "Save failed"
+msgstr "保存失败"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/log_behaviour_screen.dart:227
+msgid "Saved for {count}, but failed for: {names}"
+msgid_plural "Saved for {count}, but failed for: {names}"
+msgstr[0] "已为 {count} 人保存，以下人员保存失败：{names}"
+
+#: lib/screens/about_screen.dart:332
+msgid ""
+"School Connect is a third-party application that is compatible with Gibbon, "
+"the free and open-source school management platform. It is not an official "
+"Gibbon Foundation release and is not affiliated with or endorsed by the "
+"Gibbon Foundation."
+msgstr ""
+"School Connect 是与 Gibbon（免费开源的学校管理平台）兼容的第三方应用程序。它并非 Gibbon Foundation "
+"的官方版本，与 Gibbon Foundation 没有关连，也未获其认可。"
+
+#: lib/screens/about_screen.dart:178
+msgid "School Connect module on the school server"
+msgstr "学校服务器上的 School Connect 模块"
+
+#: lib/screens/about_screen.dart:225
+msgid ""
+"School Connect shows information from your school's own Gibbon system: "
+"timetables, attendance, grades, homework, reports, messages and your "
+"family's details. The app connects directly and only to your school's Gibbon"
+" server over an encrypted (HTTPS) connection. High Point Education does not "
+"receive, store or see this information."
+msgstr ""
+"School Connect 显示来自学校 Gibbon 系统的信息：课程表、考勤、成绩、作业、成绩报告、消息和您家庭的信息。App "
+"只会通过加密连接（HTTPS）直接连接学校的 Gibbon 服务器。High Point Education 不会接收、保存或查看这些信息。"
+
+#: lib/screens/special_days_screen.dart:532
+msgid ""
+"School Opens/Starts/Ends/Closes times aren't set here — finish those details"
+" on the website."
+msgstr "学校开门、上课、放学和关门时间不在此设置 — 请在网站完成这些详情。"
+
+#: lib/screens/dashboard_screen.dart:833
+msgid "Search and view student profiles"
+msgstr "搜索和查看学生档案"
+
+#: lib/screens/course_manage_list_screen.dart:97
+msgid "Search by course name..."
+msgstr "按课程名称搜索…"
+
+#: lib/screens/course_enrolment_by_class_screen.dart:76
+#: lib/screens/person_enrolment_screen.dart:257
+msgid "Search by course or class name..."
+msgstr "按课程或教学班名称搜索…"
+
+#: lib/screens/family_list_screen.dart:99
+msgid "Search by family name..."
+msgstr "按家庭名称搜索…"
+
+#: lib/screens/staff_directory_screen.dart:120
+msgid "Search by name or initials..."
+msgstr "按姓名或简称搜索…"
+
+#: lib/screens/student_search_screen.dart:265
+msgid "Search by name or student ID..."
+msgstr "按姓名或学生编号搜索…"
+
+#: lib/screens/course_class_roster_screen.dart:269
+#: lib/screens/course_enrolment_by_person_screen.dart:69
+#: lib/screens/family_person_picker.dart:76
+msgid "Search by name or username..."
+msgstr "按姓名或用户名搜索…"
+
+#: lib/screens/user_list_screen.dart:274
+msgid "Search by name, username, email, student ID..."
+msgstr "按姓名、用户名、电子邮件、学生编号搜索…"
+
+#: lib/screens/courses_screen.dart:109
+msgid "Search classes..."
+msgstr "搜索教学班…"
+
+#: lib/screens/facility_list_screen.dart:139
+msgid "Search rooms..."
+msgstr "搜索教室…"
+
+#: lib/screens/enter_marks_screen.dart:197
+#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/students_screen.dart:95
+msgid "Search students..."
+msgstr "搜索学生…"
+
+#: lib/screens/student_search_screen.dart:234
+msgid "Select Student"
+msgstr "选择学生"
+
+#: lib/screens/student_attendance_screen.dart:211
+msgid "Sessions marked Out this year"
+msgstr "本年标记为缺席的节数"
+
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr "已提前登记"
+
+#: lib/screens/finance_invoice_detail_screen.dart:165
+msgid "Share"
+msgstr "分享"
+
+#: lib/screens/about_screen.dart:248
+msgid ""
+"Signing out removes the sign-in token, your username and any downloaded "
+"report cards. Uninstalling the app removes everything else."
+msgstr "退出登录会删除登录凭证、您的用户名和已下载的成绩报告。卸载 App 会删除其余所有数据。"
+
+#: lib/screens/staff_directory_screen.dart:350
+msgid "Staff Profile"
+msgstr "教职工档案"
+
+#: lib/screens/user_edit_screen.dart:665
+msgid "Staff Type *"
+msgstr "教职工类型 *"
+
+#: lib/screens/staff_manage_list_screen.dart:126
+msgid "Staff record created"
+msgstr "已建立教职工记录"
+
+#: lib/screens/student_enrolment_edit_screen.dart:207
+msgid "Student *"
+msgstr "学生 *"
+
+#: lib/screens/class_detail_screen.dart:223
+msgid "Student List"
+msgstr "学生名单"
+
+#: lib/screens/student_enrolment_list_screen.dart:123
+msgid "Student enrolled successfully"
+msgstr "学生已注册"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:553
+msgid "Students and parents can see these grades (live since {date})."
+msgstr "学生和家长可以查看这些成绩（自{date}起可见）。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:552
+msgid "Students and parents will see these grades from {date}."
+msgstr "学生和家长将从{date}起查看这些成绩。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:558
+msgid ""
+"Students can see these grades (live since {date}). Hidden from parents."
+msgstr "学生可以查看这些成绩（自{date}起可见）。对家长隐藏。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:557
+msgid "Students will see these grades from {date}. Hidden from parents."
+msgstr "学生将从{date}起查看这些成绩。对家长隐藏。"
+
+#: lib/screens/data_family_edit_screen.dart:126
+#: lib/screens/data_finance_edit_screen.dart:122
+#: lib/screens/data_medical_edit_screen.dart:205
+msgid "Submitted"
+msgstr "已提交"
+
+#: lib/screens/user_edit_screen.dart:495
+msgid "Surname *"
+msgstr "姓氏 *"
+
+#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/parent_dashboard_screen.dart:234
+msgid "Switch Role"
+msgstr "切换角色"
+
+#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/parent_dashboard_screen.dart:239
+#: lib/screens/school_year_picker_screen.dart:87
+msgid "Switch School Year"
+msgstr "切换学年"
+
+#: lib/screens/attendance_menu_screen.dart:62
+msgid "Take attendance for this class"
+msgstr "记录此教学班的考勤"
+
+#: lib/screens/class_detail_screen.dart:194
+#: lib/screens/form_group_detail_screen.dart:166
+msgid "Taken"
+msgstr "已考勤"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1114
+msgid "Taken at {time}"
+msgstr "{time} 已考勤"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:103
+msgid "Taken at {time} by {name}"
+msgstr "{name} 于 {time} 记录"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_menu_screen.dart:50
+msgid "Taken today at {time}. Tap to review or change"
+msgstr "今天 {time} 已考勤。点击查看或修改"
+
+#: lib/screens/data_updates_screen.dart:105
+msgid "Tap to edit"
+msgstr "点击编辑"
+
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
+msgid "The grades you entered have not been saved."
+msgstr "您录入的成绩尚未保存。"
+
+#: lib/screens/impersonation_banner.dart:74
+msgid ""
+"The impersonation ended after 2 hours. You are back in your own account."
+msgstr "以其他用户身份登录已于 2 小时后结束。您已返回自己的账户。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
+msgid "The mark works out to {grade}"
+msgstr "折算为 {grade}"
+
+#: lib/screens/family_detail_screen.dart:577
+msgid "The order in which the school should contact family members."
+msgstr "学校联系家庭成员的顺序。"
+
+#: lib/screens/staff_manage_list_screen.dart:89
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Their user account is not affected."
+msgstr "其用户账户不受影响。"
+
+#: lib/screens/message_wall_screen.dart:165
+msgid "There are no messages to display."
+msgstr "没有可显示的消息。"
+
+#: lib/screens/special_days_screen.dart:540
+msgid "This affects the timetable:"
+msgstr "这会影响课程表："
+
+#: lib/screens/course_detail_screen.dart:76
+msgid ""
+"This also removes all enrolment and timetable data for those classes. This "
+"cannot be undone."
+msgstr "这也会删除这些教学班的所有注册和课程表数据。此操作无法复原。"
+
+#: lib/screens/about_screen.dart:185
+msgid "This app is built for module"
+msgstr "本应用适配的模块版本"
+
+#: lib/screens/user_list_screen.dart:202
+msgid "This cannot be undone."
+msgstr "此操作无法复原。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:242
+msgid ""
+"This class is not scheduled on {date}. You can still save attendance if "
+"needed."
+msgstr "此教学班在 {date} 没有安排课堂。如有需要，您仍可保存考勤记录。"
+
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
+msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
+msgstr "此专栏使用评分量表。请在 Gibbon 网站上按量表评分。"
+
+#: lib/screens/family_detail_screen.dart:128
+msgid "This does not delete their user account."
+msgstr "这不会删除其用户账户。"
+
+#: lib/screens/impersonate_user_screen.dart:111
+#: lib/screens/impersonate_user_screen.dart:216
+msgid ""
+"This option enables Administrators to impersonate another account in the "
+"system for troubleshooting and testing purposes. The selected user will "
+"still be able to log in and out of their own account."
+msgstr "此选项让管理员以系统中其他账户的身份登录，以作故障排除和测试。被选用户仍可正常登录和退出登录自己的账户。"
+
+#: lib/screens/course_detail_screen.dart:125
+msgid ""
+"This removes all enrolment and timetable data for this class. This cannot be"
+" undone."
+msgstr "这会删除此教学班的所有注册和课程表数据。此操作无法复原。"
+
+#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/facility_list_screen.dart:118
+msgid "Timetable by Facility"
+msgstr "教室课程表"
+
+#: lib/screens/dashboard_screen.dart:974
+msgid "Today's Timetable"
+msgstr "今天的课程表"
+
+#: lib/screens/dashboard_screen.dart:553
+msgid "Trial access"
+msgstr "试用期"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:552
+msgid "Trial — {count} day left"
+msgid_plural "Trial — {count} days left"
+msgstr[0] "试用期 — 剩余 {count} 天"
+
+#: lib/screens/admin_screen.dart:167
+msgid "Troubleshoot by seeing the app as another user"
+msgstr "以其他用户身份查看 App，以作故障排除"
+
+#: lib/screens/student_personal_screen.dart:119
+#: lib/screens/student_profile_screen.dart:179
+msgid "Tutor 2"
+msgstr "班主任 2"
+
+#: lib/screens/staff_edit_screen.dart:260
+msgid "Type *"
+msgstr "类型 *"
+
+#: lib/screens/special_days_screen.dart:407
+msgid "Type and Name are required"
+msgstr "必须填写类型和名称"
+
+#: lib/screens/family_person_picker.dart:92
+msgid "Type at least 2 characters"
+msgstr "请输入至少 2 个字符"
+
+#: lib/screens/data_personal_edit_screen.dart:294
+msgid "Type, country code, number"
+msgstr "类型、国家代码、号码"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:86
+msgid "Unenroll {name} from this school year?"
+msgstr "取消 {name} 在本学年的注册？"
+
+#: lib/screens/terms_screen.dart:49
+msgid "Unknown Year"
+msgstr "未知学年"
+
+#: lib/screens/markbook_entry_screen.dart:544
+msgid "Unmarked: parents do not see these grades yet. Hidden from students."
+msgstr "未评分：家长尚不能查看这些成绩。对学生隐藏。"
+
+#: lib/screens/markbook_entry_screen.dart:542
+msgid "Unmarked: students and parents do not see these grades yet."
+msgstr "未评分：学生和家长尚不能查看这些成绩。"
+
+#: lib/screens/markbook_entry_screen.dart:543
+msgid "Unmarked: students do not see these grades yet. Hidden from parents."
+msgstr "未评分：学生尚不能查看这些成绩。对家长隐藏。"
+
+#: lib/screens/facility_list_screen.dart:272
+msgid "Unused"
+msgstr "未使用"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:108
+msgid "Update the School Connect module to {version} for all features."
+msgstr "请将 School Connect 模块更新到 {version}，以使用全部功能。"
+
+#: lib/screens/staff_edit_screen.dart:291
+msgid "Used to group staff in a staff directory."
+msgstr "用于在教职工名录中将教职工分组。"
+
+#: lib/screens/user_list_screen.dart:255
+msgid "User created successfully"
+msgstr "已建立用户"
+
+#: lib/screens/user_list_screen.dart:427
+msgid "User updated successfully"
+msgstr "已更新用户"
+
+#: lib/screens/user_password_screen.dart:345
+msgid "User: Can Login"
+msgstr "用户：可登录"
+
+#: lib/screens/user_password_screen.dart:344
+msgid "User: Failed Logins"
+msgstr "用户：登录失败次数"
+
+#: lib/screens/user_password_screen.dart:343
+msgid "User: Status"
+msgstr "用户：状态"
+
+#: lib/screens/user_edit_screen.dart:567
+msgid "Username *"
+msgstr "用户名 *"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username already taken"
+msgstr "用户名已被使用"
+
+#: lib/screens/user_edit_screen.dart:589
+msgid "Username available"
+msgstr "用户名可以使用"
+
+#: lib/screens/about_screen.dart:267
+msgid ""
+"Video lessons: virtual classes use your school's chosen video service (by "
+"default the public Jitsi Meet service)"
+msgstr "视频课堂：在线课堂使用学校选择的视频服务（默认为公开的 Jitsi Meet 服务）"
+
+#: lib/screens/parent_dashboard_screen.dart:620
+msgid "View Attendance"
+msgstr "查看考勤"
+
+#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/parent_dashboard_screen.dart:591
+msgid "View Full Timetable"
+msgstr "查看完整课程表"
+
+#: lib/screens/parent_dashboard_screen.dart:641
+msgid "View Grades"
+msgstr "查看成绩"
+
+#: lib/screens/homework_due_dates_card.dart:83
+msgid "View Homework Calendar"
+msgstr "查看作业日历"
+
+#: lib/screens/staff_directory_screen.dart:488
+msgid "View Timetable"
+msgstr "查看课程表"
+
+#: lib/screens/dashboard_screen.dart:855
+msgid "View and manage Form Groups"
+msgstr "查看和管理班级"
+
+#: lib/screens/class_detail_screen.dart:240
+msgid "View class grades"
+msgstr "查看教学班成绩"
+
+#: lib/screens/admin_screen.dart:53
+msgid "View families, contacts, and children"
+msgstr "查看家庭、联系人和子女"
+
+#: lib/screens/class_detail_screen.dart:269
+msgid "View lesson plans for this class"
+msgstr "查看此教学班的教学计划"
+
+#: lib/screens/student_photo_avatar.dart:41
+msgid "View photo"
+msgstr "查看照片"
+
+#: lib/screens/class_detail_screen.dart:224
+msgid "View students in this class"
+msgstr "查看此教学班的学生"
+
+#: lib/screens/dashboard_screen.dart:866
+msgid "View your grades"
+msgstr "查看您的成绩"
+
+#: lib/screens/dashboard_screen.dart:884
+msgid "View your report cards"
+msgstr "查看您的成绩报告"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:105
+msgid "Viewing as {name}"
+msgstr "正以 {name} 身份查看"
+
+#: lib/screens/admin_settings_screen.dart:110
+msgid "Virtual Classroom"
+msgstr "在线教室"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:500
+msgid "Welcome, {name}!"
+msgstr "欢迎，{name}！"
+
+#: lib/screens/about_screen.dart:253
+msgid "What the app does not do"
+msgstr "App 不会做的事"
+
+#: lib/screens/about_screen.dart:240
+msgid "What the app keeps on this device"
+msgstr "App 在此设备上保存的数据"
+
+#: lib/screens/student_enrolment_edit_screen.dart:221
+#: lib/screens/user_edit_screen.dart:691
+msgid "Year Group *"
+msgstr "年级 *"
+
+#: lib/screens/special_days_screen.dart:531
+msgid ""
+"Year Group / Form Group targeting isn't set here — this will apply broadly "
+"until finished on the website."
+msgstr "年级／班级的对象设置不在此处 — 在网站完成设置前，会套用至所有人。"
+
+#: lib/screens/impersonation_banner.dart:75
+msgid "You are back in your own account."
+msgstr "您已返回自己的账户。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/school_year_banner.dart:31
+msgid ""
+"You are viewing school year {year}, which is not the current year. Data may "
+"not look quite right (for example, students who have left the school will "
+"not appear in previous years)."
+msgstr "您正在查看 {year} 学年，并非本学年。部分数据可能不太准确（例如已离校的学生不会在以往学年出现）。"
+
+#: lib/screens/student_homework_section.dart:226
+msgid "You can use this section to record your own homework."
+msgstr "您可以在此记录自己的作业。"
+
+#: lib/screens/data_family_edit_screen.dart:183
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below, but your data won't appear "
+"in the system until it's been processed."
+msgstr "您已提交申请，正等待管理员审批。您仍可在下方修改，但数据要在处理后才会在系统中显示。"
+
+#: lib/screens/data_finance_edit_screen.dart:197
+#: lib/screens/data_medical_edit_screen.dart:353
+#: lib/screens/data_personal_edit_screen.dart:404
+msgid ""
+"You have already submitted a request, which is awaiting review by an "
+"administrator. You can still make changes below."
+msgstr "您已提交申请，正等待管理员审批。您仍可在下方修改。"
+
+#: lib/screens/data_updates_screen.dart:175
+msgid "Your data is up to date."
+msgstr "您的信息已是最新。"
+
+#: lib/screens/about_screen.dart:219
+msgid "Your data stays with your school"
+msgstr "您的数据留在学校"
+
+#: lib/screens/about_screen.dart:245
+msgid ""
+"Your last username and the last three school addresses you used, so you "
+"don't have to retype them"
+msgstr "您最后使用的用户名和最近三个学校网址，让您不必再次输入"
+
+#: lib/screens/about_screen.dart:293
+msgid "Your rights and questions"
+msgstr "您的权利和疑问"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/about_screen.dart:298
+msgid ""
+"Your school is responsible for your personal data in Gibbon. To see, correct"
+" or delete it, contact your school's data protection officer. For questions "
+"about the app itself, contact {email}."
+msgstr ""
+"学校负责管理您在 Gibbon 中的个人信息。如要查阅、更正或删除，请联系学校的数据保护负责人。如对 App 本身有疑问，请发送邮件至 {email}。"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonate_user_screen.dart:110
+msgid "Your session will be switched to {name} ({role})."
+msgstr "您的会话将切换至 {name}（{role}）。"
+
+#: lib/screens/school_year_banner.dart:17
+msgid "a previous year"
+msgstr "以往学年"
+
+#: lib/screens/about_screen.dart:154
+msgid "an app for Gibbon™"
+msgstr "Gibbon™ 的 App"
+
+#: lib/screens/log_behaviour_screen.dart:342
+#: lib/screens/log_behaviour_screen.dart:359
+#: lib/screens/log_behaviour_screen.dart:375
+msgid "optional"
+msgstr "选填"
+
+#: lib/screens/user_edit_screen.dart:858
+msgid "primary"
+msgstr "主要"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/impersonation_banner.dart:106
+msgid "until {time}"
+msgstr "至 {time}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:246
+msgid "{absent} absent of {total} sessions recorded"
+msgstr "已记录 {total} 节中缺席 {absent} 节"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1115
+msgid "{count} absent"
+msgid_plural "{count} absent"
+msgstr[0] "{count} 人缺勤"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:462
+msgid "{count} assess."
+msgid_plural "{count} assess."
+msgstr[0] "{count} 项评估"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/class_markbook_screen.dart:142
+#: lib/screens/student_grades_screen.dart:156
+msgid "{count} assessment"
+msgid_plural "{count} assessments"
+msgstr[0] "{count} 项评估"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/course_manage_list_screen.dart:143
+#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+msgid "{count} class"
+msgid_plural "{count} classes"
+msgstr[0] "{count} 个教学班"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1053
+msgid "{count} class remaining · {done} done"
+msgid_plural "{count} classes remaining · {done} done"
+msgstr[0] "剩余 {count} 节 · 已完成 {done} 节"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1055
+msgid "{count} class today"
+msgid_plural "{count} classes today"
+msgstr[0] "今天 {count} 节"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:362
+#: lib/screens/student_attendance_screen.dart:365
+#: lib/screens/student_attendance_screen.dart:369
+msgid "{count} day"
+msgid_plural "{count} days"
+msgstr[0] "{count} 天"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:460
+msgid "{count} due"
+msgid_plural "{count} due"
+msgstr[0] "{count} 项到期"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_columns_screen.dart:151
+msgid "{count} entered"
+msgid_plural "{count} entered"
+msgstr[0] "已录入 {count}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:211
+msgid "{count} facility"
+msgid_plural "{count} facilities"
+msgstr[0] "{count} 个教室"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/family_list_screen.dart:114
+msgid "{count} family"
+msgid_plural "{count} families"
+msgstr[0] "{count} 个家庭"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/homework_calendar_screen.dart:464
+msgid "{count} item"
+msgid_plural "{count} items"
+msgstr[0] "{count} 项"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1116
+msgid "{count} late"
+msgid_plural "{count} late"
+msgstr[0] "{count} 人迟到"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/dashboard_screen.dart:1049
+msgid "{count} more class after this · {total} today"
+msgid_plural "{count} more classes after this · {total} today"
+msgstr[0] "之后还有 {count} 节 · 今天共 {total} 节"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
+msgid "{count} not saved yet"
+msgid_plural "{count} not saved yet"
+msgstr[0] "{count} 项未保存"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
+msgid "{count} of {total} saved"
+msgstr "已保存 {count}/{total}"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/markbook_entry_screen.dart:366
+msgid "{count} of {total} students saved"
+msgstr "已保存 {count}/{total} 名学生"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:379
+msgid "{count} school day in term"
+msgid_plural "{count} school days in term"
+msgstr[0] "本学期 {count} 个上课日"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_attendance_screen.dart:378
+msgid "{count} school day in the school year"
+msgid_plural "{count} school days in the school year"
+msgstr[0] "本学年 {count} 个上课日"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/facility_list_screen.dart:264
+msgid "{count} session"
+msgid_plural "{count} sessions"
+msgstr[0] "{count} 节"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/staff_directory_screen.dart:204
+#: lib/screens/staff_manage_list_screen.dart:184
+msgid "{count} staff member"
+msgid_plural "{count} staff members"
+msgstr[0] "{count} 名教职工"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_screen.dart:222
+#: lib/screens/class_markbook_screen.dart:142
+#: lib/screens/courses_screen.dart:195
+msgid "{count} student"
+msgid_plural "{count} students"
+msgstr[0] "{count} 名学生"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/student_enrolment_list_screen.dart:152
+msgid "{count} student enrolled"
+msgid_plural "{count} students enrolled"
+msgstr[0] "{count} 名学生已注册"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:253
+msgid "{count} time"
+msgid_plural "{count} times"
+msgstr[0] "{count} 次"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/user_list_screen.dart:332
+msgid "{count} user"
+msgid_plural "{count} users"
+msgstr[0] "{count} 名用户"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:100
+msgid "{count}d ago"
+msgstr "{count} 天前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:99
+msgid "{count}h ago"
+msgstr "{count} 小时前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/notifications_screen.dart:98
+msgid "{count}m ago"
+msgstr "{count} 分钟前"
+
+#. Keep {placeholders} exactly as they are.
+#: lib/screens/string_store.dart
+msgid "{label}: "
+msgstr "{label}："
+
+#: lib/screens/course_manage_list_screen.dart:283
+msgid "— None —"
+msgstr "— 无 —"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Formative"
+msgstr "进展性"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Not Classified"
+msgstr "未分类"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Late"
+msgstr "出勤 - 迟到"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Present - Offsite"
+msgstr "出勤 - 校外"
+
+# Database label the app shows (default attendance code or calendar legend);
+# not in Gibbon's files
+msgid "Summative"
+msgstr "总结性"
+
+# Gibbon core string: missing from its file for this language
+msgid "Impersonate User"
+msgstr "以其他用户身份登录"
+
+# Gibbon core string: missing from its file for this language
+msgid "Layers"
+msgstr "图层"
+
+# Gibbon core string: missing from its file for this language
+msgid "Teacher"
+msgstr "教师"
+
+# Gibbon core string: missing from its file for this language
+msgid "This student has one or more {level} risk medical conditions."
+msgstr "此学生有一项或多项{level}风险的病况。"
+
+# Gibbon core string: missing from its file for this language
+msgid "Your active session will be switched to the selected user."
+msgstr "您当前的会话将切换至所选用户。"
+
+# Gibbon core string: missing from its file for this language
+msgid "{count} min"
+msgstr "{count} 分钟"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Absent"
+msgstr "缺勤"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Access data on family's children?"
+msgstr "可访问家庭中子女的信息？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Class"
+msgstr "添加教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Medical Condition"
+msgstr "添加病况"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Special Day"
+msgstr "添加特殊日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Staff"
+msgstr "添加教职工"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Add Student Enrolment"
+msgstr "添加学生注册"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Address Name"
+msgstr "地址名称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Admin"
+msgstr "系统管理"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Adult Family Members"
+msgstr "家庭中的成年成员"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "All"
+msgstr "全部"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Alternate Email"
+msgstr "备用电子邮箱"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Apply"
+msgstr "应用"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Assistant"
+msgstr "助教"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Attainment"
+msgstr "学业水平"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Background Information"
+msgstr "背景信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Before Start Date"
+msgstr "开始日期前"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Biography"
+msgstr "个人简介"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "By Form Group"
+msgstr "按班级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "CC Family?"
+msgstr "抄送家庭？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Call?"
+msgstr "可否致电？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Can Login?"
+msgstr "可否登录？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Cancel Activities?"
+msgstr "取消活动？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Check the box to add a new medical condition"
+msgstr "勾选此框以添加新病况"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Chinese or other character-based name."
+msgstr "中文或其他文字的姓名。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Choose A Class"
+msgstr "选择教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class"
+msgstr "教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class Of"
+msgstr "毕业届别"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Class should not run below this number of students."
+msgstr "教学班人数不应少于此数。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Classes"
+msgstr "教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Comment"
+msgstr "评语"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company All?"
+msgstr "公司支付全部费用？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Company Name"
+msgstr "公司名称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition"
+msgstr "病况"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Condition Name"
+msgstr "病况名称"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact 2 Name"
+msgstr "联系人2 姓名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Information"
+msgstr "联系方式"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Contact Priority"
+msgstr "联系优先级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Country Of Origin"
+msgstr "原籍国家"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "County, State, District"
+msgstr "省、市、区"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Class"
+msgstr "按教学班注册课程"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Course Enrolment by Person"
+msgstr "按个人注册课程"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Access?"
+msgstr "可访问数据？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updater"
+msgstr "信息更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data Updates"
+msgstr "信息更新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Data displayed in full Student Profile"
+msgstr "在完整学生档案中显示的数据"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Days of the Week"
+msgstr "星期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Descriptor"
+msgstr "描述词"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Details"
+msgstr "详情"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Due on {date} at {time}."
+msgstr "截止时间：{date} {time}。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Class"
+msgstr "编辑教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Special Day"
+msgstr "编辑特殊日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Edit Staff"
+msgstr "编辑教职工"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Employer"
+msgstr "工作单位"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enrolment should not exceed this number of students."
+msgstr "注册人数不应超过此数。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Enter Marks"
+msgstr "录入成绩"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Ethnicity"
+msgstr "民族"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Exclude from coverage?"
+msgstr "不参与代课？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Expected"
+msgstr "待加入"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Family name as shown in ID documents."
+msgstr "身份证件上的姓氏。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fax"
+msgstr "传真"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Expiry"
+msgstr "急救证书到期日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First Aid Qualified?"
+msgstr "具备急救资格？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "First name as shown in ID documents."
+msgstr "身份证件上的名字。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Follow Up"
+msgstr "跟进"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Form Group"
+msgstr "班级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Fri"
+msgstr "周五"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Full name as shown in ID documents."
+msgstr "身份证件上的全名。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Gender"
+msgstr "性别"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Go Live Date"
+msgstr "发布日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Grouping Priority"
+msgstr "分组优先级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Head of Year"
+msgstr "年级组长"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Higher priority substitutes appear first when booking coverage."
+msgstr "安排代课时，优先级较高的代课教师排在前面。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home"
+msgstr "家庭电话"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Home Address (District)"
+msgstr "家庭地址（地区）"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework + Due Dates"
+msgstr "作业与截止日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Homework Details"
+msgstr "作业详情"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "House"
+msgstr "学院"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"In an emergency, please try and contact the adult family members listed "
+"below first. If these cannot be reached, then try the emergency contacts "
+"below."
+msgstr "紧急情况下，请先联系下列家庭中的成年成员。如无法联系上，再联系下列紧急联系人。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include In Curriculum Map"
+msgstr "纳入课程地图"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Include all staff, regardless of status, start date, end date, etc."
+msgstr "包括所有教职工，不论其状态、开始日期、结束日期等。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Include all students, regardless of status and current enrolment. Some data "
+"may not display."
+msgstr "包括所有学生，不论其状态和当前注册情况。部分数据可能无法显示。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Initials"
+msgstr "姓名缩写"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Invoice To"
+msgstr "开票对象"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Issue Date"
+msgstr "开具日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Job Title"
+msgstr "职位"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last"
+msgstr "最后"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Date"
+msgstr "最近一次发作日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Episode Treatment"
+msgstr "最近一次发作的治疗"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: IP"
+msgstr "上次登录：IP"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last Login: Time"
+msgstr "上次登录：时间"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Last School"
+msgstr "之前就读学校"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson"
+msgstr "课堂"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Lesson Content"
+msgstr "课堂内容"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mail?"
+msgstr "可否邮寄？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Courses & Classes"
+msgstr "管理课程和教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Special Days"
+msgstr "管理特殊日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Manage Staff"
+msgstr "管理教职工"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mark"
+msgstr "分数"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Markbook"
+msgstr "成绩册"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Marked on"
+msgstr "评分日期"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Maximum Enrolment"
+msgstr "注册人数上限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medical Conditions"
+msgstr "病况"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication"
+msgstr "药物"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Medication Details"
+msgstr "用药详情"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Minimum Enrolment"
+msgstr "注册人数下限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mobile"
+msgstr "手机"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Modified Assessment"
+msgstr "调整后的评估"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Mon"
+msgstr "周一"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Classes"
+msgstr "我的教学班"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Form Group"
+msgstr "我的班级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "My Timetable"
+msgstr "我的课程表"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "N/A"
+msgstr "不适用"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Name In Characters"
+msgstr "中文姓名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Negative"
+msgstr "负面"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "New Condition"
+msgstr "新病况"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "No upcoming due dates!"
+msgstr "近期没有截止日期！"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Reportable"
+msgstr "不计入报告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Not Taken"
+msgstr "未考勤"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Notes"
+msgstr "备注"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Number"
+msgstr "号码"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Off Timetable"
+msgstr "课程表外"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Official Name"
+msgstr "正式姓名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Over Enrolled"
+msgstr "超额注册"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pager"
+msgstr "传呼机"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Parent Dashboard"
+msgstr "家长主页"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Partial"
+msgstr "部分出勤"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Pay Now"
+msgstr "立即付款"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Person"
+msgstr "人员"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personal"
+msgstr "个人信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Personalised target grade"
+msgstr "个人目标成绩"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Phone"
+msgstr "电话"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Planner"
+msgstr "教学计划"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Positive"
+msgstr "正面"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Preferred Name"
+msgstr "常用名"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Previous"
+msgstr "上一个"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Priority"
+msgstr "优先级"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Privacy not required or not set."
+msgstr "无需隐私保护或未设置。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Raw Attainment Mark"
+msgstr "原始分"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Receipt To"
+msgstr "收据抬头"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Remove"
+msgstr "移除"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Report"
+msgstr "成绩报告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable"
+msgstr "计入报告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reportable?"
+msgstr "计入报告？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Reports"
+msgstr "成绩报告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Required"
+msgstr "必填"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Response"
+msgstr "处理方法"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Roll Order"
+msgstr "学号"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sat"
+msgstr "周六"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Schedule"
+msgstr "日程"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closed"
+msgstr "停课"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Closure"
+msgstr "停课日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School Day"
+msgstr "上课日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "School History"
+msgstr "就学记录"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Send Invoices To"
+msgstr "发票发送至"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should all items be billed to the specified company, or just some?"
+msgstr "所有项目都向指定公司收费，还是只收部分？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Should the family be sent a copy of billing emails?"
+msgstr "是否同时向家庭发送账单邮件副本？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid ""
+"Should this student be automatically enrolled in courses for their Form "
+"Group?"
+msgstr "是否自动为该学生注册其班级的课程？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Siblings"
+msgstr "兄弟姐妹"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff"
+msgstr "教职工"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Staff Directory"
+msgstr "教职工名录"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student ID"
+msgstr "学生编号"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Profile"
+msgstr "学生档案"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Student Recorded Homework"
+msgstr "学生自记作业"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Sun"
+msgstr "周日"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support"
+msgstr "后勤"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "System Access"
+msgstr "系统权限"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Take Attendance"
+msgstr "记录考勤"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no lessons for this class."
+msgstr "此教学班没有课堂。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "There are no lessons on this date."
+msgstr "当天没有课。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This determines visibility within the system."
+msgstr "这决定了在系统中的可见性。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "This lesson has not had any content assigned to it."
+msgstr "此课堂尚未添加内容。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Thu"
+msgstr "周四"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Timing Change"
+msgstr "时间调整"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Today's Messages"
+msgstr "今日消息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Track Attendance?"
+msgstr "记录考勤？"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tracking"
+msgstr "学业追踪"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Triggers"
+msgstr "诱因"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tue"
+msgstr "周二"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Tutor"
+msgstr "班主任"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Under Enrolled"
+msgstr "注册人数不足"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unit, Building, Street"
+msgstr "门牌、楼栋、街道"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Unmarked"
+msgstr "未评分"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Up to date"
+msgstr "已是最新"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Family Data"
+msgstr "更新家庭信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Finance Data"
+msgstr "更新财务信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Medical Data"
+msgstr "更新医疗信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Personal Data"
+msgstr "更新个人信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Update Staff Data"
+msgstr "更新教职工信息"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User Account"
+msgstr "用户账户"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "User will be prompted on next login."
+msgstr "用户将在下次登录时收到提示。"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Vehicle Registration"
+msgstr "车牌号码"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Planner"
+msgstr "查看教学计划"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "View Reports"
+msgstr "查看成绩报告"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Wed"
+msgstr "周三"
+
+# Gibbon core string: corrects Gibbon's translation for the app
+msgid "Support Staff"
+msgstr "后勤人员"

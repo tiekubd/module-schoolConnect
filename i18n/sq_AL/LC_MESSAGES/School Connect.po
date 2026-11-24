@@ -40,8 +40,8 @@ msgstr "Shto më shumë"
 msgid "Add Participant"
 msgstr "Shto pjesëmarrës"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Shtoni një koment"
 
@@ -96,7 +96,7 @@ msgstr "Një shkronjë e madhe dhe një e vogël"
 msgid "App version, connected school and your data"
 msgstr "Versioni i aplikacionit, shkolla e lidhur dhe të dhënat tuaja"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -130,8 +130,8 @@ msgstr "Frekuentimi këtë vit"
 msgid "Attendance not taken yet today"
 msgstr "Frekuentimi nuk është marrë ende sot"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Frekuentimi u ruajt!"
 
@@ -176,15 +176,15 @@ msgstr ""
 "kërkesë për përditësim të dhënash. Aplikacioni ju pyet më parë dhe mund të "
 "refuzoni."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Të anulohen rezervimet?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Të anulohen orët e mësimit?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Të anulohen kujdestaritë e stafit?"
 
@@ -365,8 +365,8 @@ msgstr "Lënda nuk u ngarkua dot"
 msgid "Could not load courses"
 msgstr "Lëndët nuk u ngarkuan dot"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Të dhënat nuk u ngarkuan dot"
 
@@ -521,7 +521,7 @@ msgstr "Vitet shkollore nuk u ngarkuan dot"
 msgid "Could not load settings"
 msgstr "Cilësimet nuk u ngarkuan dot"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Dita e veçantë nuk u ngarkua dot"
 
@@ -540,7 +540,7 @@ msgstr "Të dhënat e stafit nuk u ngarkuan dot"
 msgid "Could not load students"
 msgstr "Nxënësit nuk u ngarkuan dot"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Semestrat nuk u ngarkuan dot"
 
@@ -582,14 +582,14 @@ msgstr "Nuk u hoq dot"
 msgid "Could not reset password"
 msgstr "Fjalëkalimi nuk u rivendos dot"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Nuk u ruajt dot"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Frekuentimi nuk u ruajt dot"
 
@@ -676,7 +676,7 @@ msgstr "Fshi grupin"
 msgid "Delete Course"
 msgstr "Fshi lëndën"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Fshi ditën e veçantë"
 
@@ -688,13 +688,13 @@ msgstr "Fshi përdoruesin"
 msgid "Developed by High Point Education"
 msgstr "Zhvilluar nga High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Hidh poshtë"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Të hidhen poshtë ndryshimet?"
 
@@ -758,6 +758,14 @@ msgstr "Klasa *"
 msgid "Formal name to address parents with"
 msgstr "Mënyra zyrtare e drejtimit ndaj prindërve"
 
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr "Nga frekuentimi i një grupi"
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr "Nga frekuentimi i klasës"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Emri i plotë si në dokumentin e identitetit"
@@ -796,7 +804,7 @@ msgstr "Nota, përpjekje dhe komente për grupet tuaja"
 msgid "Hidden from students and parents"
 msgstr "E fshehur për nxënësit dhe prindërit"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr ""
 "E fshehur për nxënësit dhe prindërit. Kjo caktohet në faqen e internetit të "
@@ -1057,7 +1065,7 @@ msgstr "Sot nuk ka orë të planifikuara"
 msgid "No classes yet"
 msgstr "Ende nuk ka grupe"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Nuk ka kolona në këtë semestër."
 
@@ -1163,7 +1171,7 @@ msgstr "Këtë vit nuk ka nxënës të regjistruar"
 msgid "No students found"
 msgstr "Nuk u gjetën nxënës"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Nuk u gjetën semestra për këtë vit shkollor"
 
@@ -1188,9 +1196,17 @@ msgstr "Nuk u gjetën përdorues"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Pjesëmarrësit që nuk përfshihen në dëftesa nuk do të shfaqen në to."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Ditë pa mësim"
+
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Asnjë nga kodet e frekuentimit nuk është i disponueshëm për rolin tuaj, "
+"prandaj nuk mund ta merrni këtë frekuentim."
 
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
@@ -1208,10 +1224,18 @@ msgstr "Ende i paregjistruar në asnjë grup"
 msgid "Not reported: update the School Connect module"
 msgstr "Nuk ka të dhëna: përditësoni modulin School Connect"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Ende e paruajtur"
+
+#: lib/screens/attendance_status.dart:112
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të "
+"paracaktuara, jo frekuentim i ruajtur."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1270,7 +1294,7 @@ msgid "Other services you may see"
 msgstr "Shërbime të tjera që mund të shihni"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr ""
@@ -1278,7 +1302,7 @@ msgstr ""
 "nxënësit."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr ""
 "Prindërit do t’i shohin këto nota nga {date}. Të fshehura për nxënësit."
@@ -1404,8 +1428,12 @@ msgstr "Numri i mandatit"
 msgid "Recent Attendance"
 msgstr "Frekuentimi i fundit"
 
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr "Regjistruar më herët sot"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Të hiqet \"{name}\" nga kalendari?"
 
@@ -1510,7 +1538,7 @@ msgstr ""
 "Gibbon të shkollës suaj përmes një lidhjeje të enkriptuar (HTTPS). High "
 "Point Education nuk e merr, nuk e ruan dhe nuk e sheh këtë informacion."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1576,6 +1604,10 @@ msgstr "Zgjidh nxënësin"
 msgid "Sessions marked Out this year"
 msgstr "Orët e shënuara si mungesë këtë vit"
 
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr "Vendosur paraprakisht"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Ndaj"
@@ -1613,17 +1645,17 @@ msgid "Student enrolled successfully"
 msgstr "Nxënësi u regjistrua"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Nxënësit dhe prindërit i shohin këto nota (të dukshme që nga {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Nxënësit dhe prindërit do t’i shohin këto nota nga {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr ""
@@ -1631,7 +1663,7 @@ msgstr ""
 "prindërit."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
 "Nxënësit do t’i shohin këto nota nga {date}. Të fshehura për prindërit."
@@ -1672,6 +1704,11 @@ msgid "Taken at {time}"
 msgstr "U mor në {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:103
+msgid "Taken at {time} by {name}"
+msgstr "Marrë në {time} nga {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
@@ -1680,8 +1717,8 @@ msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
 msgid "Tap to edit"
 msgstr "Prekni për ta ndryshuar"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Notat që vendosët nuk janë ruajtur."
 
@@ -1693,8 +1730,8 @@ msgstr ""
 "tuaj."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Kjo del {grade}"
 
@@ -1711,7 +1748,7 @@ msgstr "Llogaria e tij/saj e përdoruesit nuk preket."
 msgid "There are no messages to display."
 msgstr "Nuk ka mesazhe."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Kjo ndikon në orar:"
 
@@ -1732,7 +1769,7 @@ msgid "This cannot be undone."
 msgstr "Nuk mund të zhbëhet."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1740,8 +1777,8 @@ msgstr ""
 "Ky grup nuk ka orë më {date}. Nëse nevojitet, mund ta ruani gjithsesi "
 "frekuentimin."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 "Kjo kolonë përdor një rubrikë. Plotësojeni rubrikën në faqen e internetit të"
@@ -1803,7 +1840,7 @@ msgstr "Mësuesi kujdestar 2"
 msgid "Type *"
 msgstr "Lloji *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Lloji dhe emri janë të detyrueshëm"
 
@@ -1824,17 +1861,17 @@ msgstr "Të çregjistrohet {name} nga ky vit shkollor?"
 msgid "Unknown Year"
 msgstr "Vit i panjohur"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr ""
 "Pa vlerësuar: prindërit nuk i shohin ende këto nota. Të fshehura për "
 "nxënësit."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Pa vlerësuar: nxënësit dhe prindërit nuk i shohin ende këto nota."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr ""
 "Pa vlerësuar: nxënësit nuk i shohin ende këto nota. Të fshehura për "
@@ -1975,7 +2012,7 @@ msgstr "Çfarë ruan aplikacioni në këtë pajisje"
 msgid "Year Group *"
 msgstr "Niveli *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2190,22 +2227,22 @@ msgstr[0] "Edhe {count} orë pas kësaj · gjithsej sot {total}"
 msgstr[1] "Edhe {count} orë pas kësaj · gjithsej sot {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "{count} e paruajtur"
 msgstr[1] "{count} të paruajtura"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "{count} nga {total} të ruajtura"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "{count} nga {total} nxënës të ruajtur"
 
@@ -2239,7 +2276,7 @@ msgstr[0] "{count} punonjës"
 msgstr[1] "{count} punonjës"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

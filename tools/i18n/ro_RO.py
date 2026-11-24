@@ -676,7 +676,15 @@ T = {'A punctuation mark or space': 'Un semn de punctuație sau un spațiu',
  'Update the School Connect module to {version} for all features.': 'Actualizați modulul School Connect la versiunea {version} pentru toate funcțiile.',
  'View photo': 'Vezi fotografia',
  '{count} of {total} saved': 'Salvate: {count} din {total}',
- '{count} of {total} students saved': 'Elevi salvați: {count} din {total}'}
+ '{count} of {total} students saved': 'Elevi salvați: {count} din {total}',
+ 'Set in advance': 'Introdus în avans',
+ 'From a class register': 'Din prezența unei grupe',
+ 'From the form group register': 'Din prezența clasei',
+ 'Recorded earlier today': 'Înregistrat mai devreme azi',
+ 'Taken at {time} by {name}': 'Luată la {time} de {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Prezența pentru această dată nu a fost luată încă. Acestea sunt valori implicite, nu prezență salvată.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Niciunul dintre codurile de prezență nu este disponibil pentru rolul tău, deci nu poți face această '
+                                                                                              'prezență.'}
 
 P = {'All {count} class done for today': ('Ora de azi s-a încheiat', 'Toate cele {count} ore de azi s-au încheiat', 'Toate cele {count} de ore de azi s-au încheiat'),
  'At least {count} character': ('Cel puțin {count} caracter', 'Cel puțin {count} caractere', 'Cel puțin {count} de caractere'),

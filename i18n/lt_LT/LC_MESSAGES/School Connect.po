@@ -40,8 +40,8 @@ msgstr "Pridėti daugiau"
 msgid "Add Participant"
 msgstr "Pridėti dalyvį"
 
-#: lib/screens/markbook_entry_screen.dart:731
-#: lib/screens/student_marks_screen.dart:545
+#: lib/screens/markbook_entry_screen.dart:733
+#: lib/screens/student_marks_screen.dart:547
 msgid "Add a comment"
 msgstr "Pridėkite komentarą"
 
@@ -97,7 +97,7 @@ msgstr "Didžioji ir mažoji raidė"
 msgid "App version, connected school and your data"
 msgstr "Programėlės versija, prijungta mokykla ir Jūsų duomenys"
 
-#: lib/screens/student_marks_screen.dart:350
+#: lib/screens/student_marks_screen.dart:352
 msgid ""
 "Assessment Complete and the Go Live Date apply to the whole class, so they "
 "are set from the class page."
@@ -132,8 +132,8 @@ msgstr "Lankomumas šiais metais"
 msgid "Attendance not taken yet today"
 msgstr "Šiandien lankomumas dar nepažymėtas"
 
-#: lib/screens/attendance_screen.dart:137
-#: lib/screens/form_group_attendance_screen.dart:129
+#: lib/screens/attendance_screen.dart:139
+#: lib/screens/form_group_attendance_screen.dart:132
 msgid "Attendance saved!"
 msgstr "Lankomumas išsaugotas!"
 
@@ -178,15 +178,15 @@ msgstr ""
 "Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie duomenų "
 "atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir galite atsisakyti."
 
-#: lib/screens/special_days_screen.dart:528
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Bookings?"
 msgstr "Atšaukti rezervacijas?"
 
-#: lib/screens/special_days_screen.dart:525
+#: lib/screens/special_days_screen.dart:541
 msgid "Cancel Classes?"
 msgstr "Atšaukti pamokas?"
 
-#: lib/screens/special_days_screen.dart:527
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Staff Duty?"
 msgstr "Atšaukti darbuotojų budėjimus?"
 
@@ -368,8 +368,8 @@ msgstr "Nepavyko įkelti dalyko"
 msgid "Could not load courses"
 msgstr "Nepavyko įkelti dalykų"
 
-#: lib/screens/attendance_screen.dart:121
-#: lib/screens/form_group_attendance_screen.dart:113
+#: lib/screens/attendance_screen.dart:123
+#: lib/screens/form_group_attendance_screen.dart:116
 msgid "Could not load data"
 msgstr "Nepavyko įkelti duomenų"
 
@@ -524,7 +524,7 @@ msgstr "Nepavyko įkelti mokslo metų"
 msgid "Could not load settings"
 msgstr "Nepavyko įkelti nustatymų"
 
-#: lib/screens/special_days_screen.dart:385
+#: lib/screens/special_days_screen.dart:401
 msgid "Could not load special day"
 msgstr "Nepavyko įkelti ypatingos dienos"
 
@@ -543,7 +543,7 @@ msgstr "Nepavyko įkelti darbuotojo duomenų"
 msgid "Could not load students"
 msgstr "Nepavyko įkelti mokinių"
 
-#: lib/screens/special_days_screen.dart:73 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Nepavyko įkelti pusmečių"
 
@@ -585,14 +585,14 @@ msgstr "Nepavyko pašalinti"
 msgid "Could not reset password"
 msgstr "Nepavyko atkurti slaptažodžio"
 
-#: lib/screens/attendance_screen.dart:137
+#: lib/screens/attendance_screen.dart:139
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Nepavyko išsaugoti"
 
-#: lib/screens/attendance_screen.dart:147
-#: lib/screens/form_group_attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:152
+#: lib/screens/form_group_attendance_screen.dart:145
 msgid "Could not save attendance"
 msgstr "Nepavyko išsaugoti lankomumo"
 
@@ -681,7 +681,7 @@ msgstr "Ištrinti grupę"
 msgid "Delete Course"
 msgstr "Ištrinti dalyką"
 
-#: lib/screens/special_days_screen.dart:427
+#: lib/screens/special_days_screen.dart:443
 msgid "Delete Special Day"
 msgstr "Ištrinti ypatingą dieną"
 
@@ -693,13 +693,13 @@ msgstr "Ištrinti naudotoją"
 msgid "Developed by High Point Education"
 msgstr "Sukūrė High Point Education"
 
-#: lib/screens/markbook_entry_screen.dart:309
-#: lib/screens/student_marks_screen.dart:161
+#: lib/screens/markbook_entry_screen.dart:311
+#: lib/screens/student_marks_screen.dart:162
 msgid "Discard"
 msgstr "Atmesti"
 
-#: lib/screens/markbook_entry_screen.dart:305
-#: lib/screens/student_marks_screen.dart:157
+#: lib/screens/markbook_entry_screen.dart:307
+#: lib/screens/student_marks_screen.dart:158
 msgid "Discard changes?"
 msgstr "Atmesti pakeitimus?"
 
@@ -763,6 +763,14 @@ msgstr "Klasė *"
 msgid "Formal name to address parents with"
 msgstr "Oficialus kreipinys į tėvus"
 
+#: lib/screens/attendance_status.dart:66
+msgid "From a class register"
+msgstr "Iš grupės lankomumo"
+
+#: lib/screens/attendance_status.dart:68
+msgid "From the form group register"
+msgstr "Iš klasės lankomumo"
+
 #: lib/screens/data_personal_edit_screen.dart:417
 msgid "Full name as shown in ID documents"
 msgstr "Vardas ir pavardė, kaip nurodyta asmens dokumente"
@@ -803,7 +811,7 @@ msgstr "Pažymiai, pastangos ir komentarai jūsų grupėms"
 msgid "Hidden from students and parents"
 msgstr "Paslėpta nuo mokinių ir tėvų"
 
-#: lib/screens/markbook_entry_screen.dart:537
+#: lib/screens/markbook_entry_screen.dart:539
 msgid "Hidden from students and parents. This is set on the Gibbon website."
 msgstr "Paslėpta nuo mokinių ir tėvų. Tai nustatoma Gibbon svetainėje."
 
@@ -1061,7 +1069,7 @@ msgstr "Šiandien suplanuotų pamokų nėra"
 msgid "No classes yet"
 msgstr "Grupių dar nėra"
 
-#: lib/screens/student_marks_screen.dart:386
+#: lib/screens/student_marks_screen.dart:388
 msgid "No columns in this term."
 msgstr "Šiame pusmetyje stulpelių nėra."
 
@@ -1167,7 +1175,7 @@ msgstr "Šiais metais užregistruotų mokinių nėra"
 msgid "No students found"
 msgstr "Mokinių nerasta"
 
-#: lib/screens/special_days_screen.dart:156
+#: lib/screens/special_days_screen.dart:172
 msgid "No terms found for this school year"
 msgstr "Šiems mokslo metams pusmečių nerasta"
 
@@ -1192,9 +1200,17 @@ msgstr "Naudotojų nerasta"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Į pažangos ataskaitas neįtraukti dalyviai jose nerodomi."
 
-#: lib/screens/special_days_screen.dart:187
+#: lib/screens/special_days_screen.dart:203
 msgid "Non-school day"
 msgstr "Nemokslo diena"
+
+#: lib/screens/attendance_status.dart:208
+msgid ""
+"None of the attendance codes are available to your role, so you can't take "
+"this register."
+msgstr ""
+"Nė vienas lankomumo kodas nėra prieinamas jūsų vaidmeniui, todėl negalite "
+"pažymėti šio lankomumo."
 
 #: lib/screens/days_of_week_screen.dart:82
 msgid "Not a School Day"
@@ -1212,10 +1228,18 @@ msgstr "Dar neužregistruotas jokioje grupėje"
 msgid "Not reported: update the School Connect module"
 msgstr "Duomenų nėra: atnaujinkite School Connect modulį"
 
-#: lib/screens/markbook_entry_screen.dart:638
-#: lib/screens/student_marks_screen.dart:435
+#: lib/screens/markbook_entry_screen.dart:640
+#: lib/screens/student_marks_screen.dart:437
 msgid "Not saved yet"
 msgstr "Dar neišsaugota"
+
+#: lib/screens/attendance_status.dart:112
+msgid ""
+"Not taken yet for this date. These are default entries, not saved "
+"attendance."
+msgstr ""
+"Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne "
+"išsaugotas lankomumas."
 
 #: lib/screens/attendance_menu_screen.dart:51
 msgid "Not taken yet today"
@@ -1274,13 +1298,13 @@ msgid "Other services you may see"
 msgstr "Kitos paslaugos, kurias galite matyti"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:560
+#: lib/screens/markbook_entry_screen.dart:562
 msgid ""
 "Parents can see these grades (live since {date}). Hidden from students."
 msgstr "Tėvai mato šiuos pažymius (matomi nuo {date}). Paslėpta nuo mokinių."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:559
+#: lib/screens/markbook_entry_screen.dart:561
 msgid "Parents will see these grades from {date}. Hidden from students."
 msgstr "Tėvai matys šiuos pažymius nuo {date}. Paslėpta nuo mokinių."
 
@@ -1404,8 +1428,12 @@ msgstr "Kvito numeris"
 msgid "Recent Attendance"
 msgstr "Naujausias lankomumas"
 
+#: lib/screens/attendance_status.dart:70
+msgid "Recorded earlier today"
+msgstr "Pažymėta anksčiau šiandien"
+
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:428
+#: lib/screens/special_days_screen.dart:444
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Pašalinti „{name}“ iš kalendoriaus?"
 
@@ -1511,7 +1539,7 @@ msgstr ""
 "prie Jūsų mokyklos Gibbon serverio šifruotu (HTTPS) ryšiu. High Point "
 "Education šios informacijos negauna, nesaugo ir nemato."
 
-#: lib/screens/special_days_screen.dart:516
+#: lib/screens/special_days_screen.dart:532
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1576,6 +1604,10 @@ msgstr "Pasirinkti mokinį"
 msgid "Sessions marked Out this year"
 msgstr "Šiais metais praleistos pamokos"
 
+#: lib/screens/attendance_status.dart:64
+msgid "Set in advance"
+msgstr "Nustatyta iš anksto"
+
 #: lib/screens/finance_invoice_detail_screen.dart:165
 msgid "Share"
 msgstr "Bendrinti"
@@ -1613,23 +1645,23 @@ msgid "Student enrolled successfully"
 msgstr "Mokinys užregistruotas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:551
+#: lib/screens/markbook_entry_screen.dart:553
 msgid "Students and parents can see these grades (live since {date})."
 msgstr "Mokiniai ir tėvai mato šiuos pažymius (matomi nuo {date})."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:550
+#: lib/screens/markbook_entry_screen.dart:552
 msgid "Students and parents will see these grades from {date}."
 msgstr "Mokiniai ir tėvai matys šiuos pažymius nuo {date}."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:556
+#: lib/screens/markbook_entry_screen.dart:558
 msgid ""
 "Students can see these grades (live since {date}). Hidden from parents."
 msgstr "Mokiniai mato šiuos pažymius (matomi nuo {date}). Paslėpta nuo tėvų."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:555
+#: lib/screens/markbook_entry_screen.dart:557
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr "Mokiniai matys šiuos pažymius nuo {date}. Paslėpta nuo tėvų."
 
@@ -1669,6 +1701,11 @@ msgid "Taken at {time}"
 msgstr "Pažymėta {time}"
 
 #. Keep {placeholders} exactly as they are.
+#: lib/screens/attendance_status.dart:103
+msgid "Taken at {time} by {name}"
+msgstr "Pažymėta {time}, {name}"
+
+#. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_menu_screen.dart:50
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
@@ -1678,8 +1715,8 @@ msgstr ""
 msgid "Tap to edit"
 msgstr "Bakstelėkite, kad redaguotumėte"
 
-#: lib/screens/markbook_entry_screen.dart:306
-#: lib/screens/student_marks_screen.dart:158
+#: lib/screens/markbook_entry_screen.dart:308
+#: lib/screens/student_marks_screen.dart:159
 msgid "The grades you entered have not been saved."
 msgstr "Įvesti pažymiai neišsaugoti."
 
@@ -1691,8 +1728,8 @@ msgstr ""
 "paskyrą."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:709
-#: lib/screens/student_marks_screen.dart:523
+#: lib/screens/markbook_entry_screen.dart:711
+#: lib/screens/student_marks_screen.dart:525
 msgid "The mark works out to {grade}"
 msgstr "Tai atitinka {grade}"
 
@@ -1709,7 +1746,7 @@ msgstr "Šio asmens naudotojo paskyra nepaveikiama."
 msgid "There are no messages to display."
 msgstr "Žinučių nėra."
 
-#: lib/screens/special_days_screen.dart:524
+#: lib/screens/special_days_screen.dart:540
 msgid "This affects the timetable:"
 msgstr "Tai paveikia tvarkaraštį:"
 
@@ -1730,7 +1767,7 @@ msgid "This cannot be undone."
 msgstr "To atšaukti negalima."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:237
+#: lib/screens/attendance_screen.dart:242
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1738,8 +1775,8 @@ msgstr ""
 "Ši grupė {date} neturi pamokų. Jei reikia, lankomumą vis tiek galite "
 "išsaugoti."
 
-#: lib/screens/markbook_entry_screen.dart:383
-#: lib/screens/student_marks_screen.dart:469
+#: lib/screens/markbook_entry_screen.dart:385
+#: lib/screens/student_marks_screen.dart:471
 msgid "This column uses a rubric. Mark the rubric on the Gibbon website."
 msgstr ""
 "Šiame stulpelyje naudojama vertinimo lentelė. Užpildykite ją Gibbon "
@@ -1802,7 +1839,7 @@ msgstr "Klasės vadovas 2"
 msgid "Type *"
 msgstr "Tipas *"
 
-#: lib/screens/special_days_screen.dart:391
+#: lib/screens/special_days_screen.dart:407
 msgid "Type and Name are required"
 msgstr "Būtina nurodyti tipą ir pavadinimą"
 
@@ -1823,15 +1860,15 @@ msgstr "Išregistruoti {name} iš šių mokslo metų?"
 msgid "Unknown Year"
 msgstr "Nežinomi metai"
 
-#: lib/screens/markbook_entry_screen.dart:542
+#: lib/screens/markbook_entry_screen.dart:544
 msgid "Unmarked: parents do not see these grades yet. Hidden from students."
 msgstr "Neįvertinta: tėvai šių pažymių dar nemato. Paslėpta nuo mokinių."
 
-#: lib/screens/markbook_entry_screen.dart:540
+#: lib/screens/markbook_entry_screen.dart:542
 msgid "Unmarked: students and parents do not see these grades yet."
 msgstr "Neįvertinta: mokiniai ir tėvai šių pažymių dar nemato."
 
-#: lib/screens/markbook_entry_screen.dart:541
+#: lib/screens/markbook_entry_screen.dart:543
 msgid "Unmarked: students do not see these grades yet. Hidden from parents."
 msgstr "Neįvertinta: mokiniai šių pažymių dar nemato. Paslėpta nuo tėvų."
 
@@ -1970,7 +2007,7 @@ msgstr "Ką programėlė saugo šiame įrenginyje"
 msgid "Year Group *"
 msgstr "Klasių srautas *"
 
-#: lib/screens/special_days_screen.dart:515
+#: lib/screens/special_days_screen.dart:531
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2198,9 +2235,9 @@ msgstr[1] "Po šios dar {count} pamokos · iš viso šiandien: {total}"
 msgstr[2] "Po šios dar {count} pamokų · iš viso šiandien: {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:374
-#: lib/screens/student_marks_screen.dart:343
-#: lib/screens/student_marks_screen.dart:377
+#: lib/screens/markbook_entry_screen.dart:376
+#: lib/screens/student_marks_screen.dart:345
+#: lib/screens/student_marks_screen.dart:379
 msgid "{count} not saved yet"
 msgid_plural "{count} not saved yet"
 msgstr[0] "Neišsaugota: {count}"
@@ -2208,13 +2245,13 @@ msgstr[1] "Neišsaugota: {count}"
 msgstr[2] "Neišsaugota: {count}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/student_marks_screen.dart:338
-#: lib/screens/student_marks_screen.dart:376
+#: lib/screens/student_marks_screen.dart:340
+#: lib/screens/student_marks_screen.dart:378
 msgid "{count} of {total} saved"
 msgstr "Išsaugota: {count} iš {total}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/markbook_entry_screen.dart:364
+#: lib/screens/markbook_entry_screen.dart:366
 msgid "{count} of {total} students saved"
 msgstr "Išsaugota mokinių: {count} iš {total}"
 
@@ -2252,7 +2289,7 @@ msgstr[1] "{count} darbuotojai"
 msgstr[2] "{count} darbuotojų"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:217
+#: lib/screens/attendance_screen.dart:222
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

@@ -708,7 +708,15 @@ T = {'A punctuation mark or space': 'Ένα σημείο στίξης ή κεν�
  'Update the School Connect module to {version} for all features.': 'Ενημερώστε τη λειτουργία School Connect στην έκδοση {version} για όλες τις δυνατότητες.',
  'View photo': 'Προβολή φωτογραφίας',
  '{count} of {total} saved': '{count} από {total} αποθηκεύτηκαν',
- '{count} of {total} students saved': '{count} από {total} μαθητές αποθηκεύτηκαν'}
+ '{count} of {total} students saved': '{count} από {total} μαθητές αποθηκεύτηκαν',
+ 'Set in advance': 'Ορίστηκε εκ των προτέρων',
+ 'From a class register': 'Από παρουσίες ομάδας μαθήματος',
+ 'From the form group register': 'Από τις παρουσίες του τμήματος',
+ 'Recorded earlier today': 'Καταχωρίστηκε νωρίτερα σήμερα',
+ 'Taken at {time} by {name}': 'Καταχωρίστηκε στις {time} από {name}',
+ 'Not taken yet for this date. These are default entries, not saved attendance.': 'Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι προεπιλογές, όχι αποθηκευμένες παρουσίες.',
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Κανένας από τους κωδικούς παρουσιών δεν είναι διαθέσιμος για τον ρόλο σας, οπότε δεν μπορείτε να '
+                                                                                              'καταχωρίσετε αυτές τις παρουσίες.'}
 
 P = {'All {count} class done for today': ('Το σημερινό μάθημα ολοκληρώθηκε', 'Και τα {count} σημερινά μαθήματα ολοκληρώθηκαν'),
  'At least {count} character': ('Τουλάχιστον {count} χαρακτήρας', 'Τουλάχιστον {count} χαρακτήρες'),
