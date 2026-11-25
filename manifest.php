@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.19"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.20"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -225,6 +225,13 @@ $version     = "1.16.19"; // Tracks the Flutter app's marketing version (pubspec
                           // permissions (By Form Group all / my groups, By Class)
                           // instead of the role names Teacher and Administrator,
                           // so custom roles work; saves are checked too. No
+                          // schema change.
+                          //
+                          // 1.16.20: Fix: adding or editing a user with a staff
+                          // record failed on servers with MySQL strict mode
+                          // ("1364 Field 'countryOfOrigin' doesn't have a default
+                          // value"). The gibbonStaff row now fills every required
+                          // column, as the gibbonPerson row already did. No
                           // schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

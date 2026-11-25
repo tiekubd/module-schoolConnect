@@ -207,6 +207,19 @@ function gibbonConnectAutoFillRequired(PDO $pdo, string $table, array $alreadyHa
     return ['sql' => implode(', ', $sqlParts), 'params' => $params];
 }
 
+// ── Staff record insert ─────────────────────────────────────────────────────
+// gibbonStaff has several NOT NULL columns with no default (countryOfOrigin,
+// qualifications, biography, biographicalGrouping, biographicalGroupingPriority).
+// With MySQL strict mode on, an insert that leaves them out fails with
+// "1364 Field 'countryOfOrigin' doesn't have a default value", so fill them
+// the same way as gibbonPerson above. (Core's Staff add form sends them blank.)
+function gibbonConnectInsertStaff(PDO $pdo, $personID, string $jobTitle, string $type): void {
+    $autoFill = gibbonConnectAutoFillRequired($pdo, 'gibbonStaff', ['gibbonPersonID', 'jobTitle', 'type']);
+    $pdo->prepare("INSERT INTO gibbonStaff SET gibbonPersonID = :pid, jobTitle = :jobTitle, type = :type"
+        . (!empty($autoFill['sql']) ? ', ' . $autoFill['sql'] : ''))
+        ->execute(array_merge(['pid' => $personID, 'jobTitle' => $jobTitle, 'type' => $type], $autoFill['params']));
+}
+
 // ── Username generator ──────────────────────────────────────────────────────
 // Faithful port of Gibbon\Data\UsernameGenerator (confirmed via the actual
 // source file), since that class lives inside Gibbon's own
@@ -682,12 +695,7 @@ try {
 
             // Staff sub-record
             if (($input['staffRecord'] ?? 'N') === 'Y') {
-                $staffInsert = $pdo->prepare("
-                    INSERT INTO gibbonStaff (gibbonPersonID, jobTitle, type) VALUES (?, ?, ?)
-                ");
-                $staffInsert->execute([
-                    $personID, trim($input['jobTitle'] ?? ''), trim($input['staffType'] ?? ''),
-                ]);
+                gibbonConnectInsertStaff($pdo, $personID, trim($input['jobTitle'] ?? ''), trim($input['staffType'] ?? ''));
             }
 
             // Student sub-record — enrolled in whichever year the admin is
@@ -837,8 +845,7 @@ try {
                     $pdo->prepare("UPDATE gibbonStaff SET jobTitle = ?, type = ? WHERE gibbonPersonID = ?")
                         ->execute([trim($input['jobTitle'] ?? ''), trim($input['staffType'] ?? ''), $personID]);
                 } else {
-                    $pdo->prepare("INSERT INTO gibbonStaff (gibbonPersonID, jobTitle, type) VALUES (?, ?, ?)")
-                        ->execute([$personID, trim($input['jobTitle'] ?? ''), trim($input['staffType'] ?? '')]);
+                    gibbonConnectInsertStaff($pdo, $personID, trim($input['jobTitle'] ?? ''), trim($input['staffType'] ?? ''));
                 }
             }
 
