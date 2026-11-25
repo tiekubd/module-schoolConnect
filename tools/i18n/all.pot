@@ -12,7 +12,7 @@ msgstr ""
 msgid "A sign-in token, kept in the device's secure storage (iOS Keychain or Android Keystore)"
 msgstr ""
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898 lib/screens/parent_dashboard_screen.dart:247
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914 lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr ""
 
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Absent"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:561
+#: lib/screens/family_detail_screen.dart:563
 msgid "Access data on family's children?"
 msgstr ""
 
@@ -28,7 +28,7 @@ msgstr ""
 msgid "Activities"
 msgstr ""
 
-#: lib/screens/course_class_roster_screen.dart:303 lib/screens/family_detail_screen.dart:273 lib/screens/family_detail_screen.dart:337
+#: lib/screens/course_class_roster_screen.dart:303 lib/screens/family_detail_screen.dart:274 lib/screens/family_detail_screen.dart:338
 msgid "Add"
 msgstr ""
 
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Add Course"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:418
+#: lib/screens/data_medical_edit_screen.dart:421
 msgid "Add Medical Condition"
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Add, edit, and remove user accounts"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:258 lib/screens/student_family_screen.dart:182
+#: lib/screens/family_detail_screen.dart:259 lib/screens/student_family_screen.dart:182
 msgid "Address"
 msgstr ""
 
@@ -100,11 +100,11 @@ msgstr ""
 msgid "Address Name"
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr ""
 
-#: lib/screens/admin_screen.dart:30 lib/screens/dashboard_screen.dart:822
+#: lib/screens/admin_screen.dart:30 lib/screens/dashboard_screen.dart:838
 msgid "Admin"
 msgstr ""
 
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Adult settings updated"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:269 lib/screens/family_list_screen.dart:151
+#: lib/screens/family_detail_screen.dart:270 lib/screens/family_list_screen.dart:151
 msgid "Adults"
 msgstr ""
 
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Age"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:321
+#: lib/screens/data_finance_edit_screen.dart:325
 msgid "All"
 msgstr ""
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "All Learning Areas"
 msgstr ""
 
-#: lib/screens/user_edit_screen.dart:848
+#: lib/screens/user_edit_screen.dart:851
 msgid "All Roles"
 msgstr ""
 
@@ -168,14 +168,14 @@ msgstr ""
 msgid "All Year Groups"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 #. Keep {placeholders} exactly as they are.
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/data_personal_edit_screen.dart:438 lib/screens/student_personal_screen.dart:112
+#: lib/screens/data_personal_edit_screen.dart:454 lib/screens/student_personal_screen.dart:112
 msgid "Alternate Email"
 msgstr ""
 
@@ -183,7 +183,7 @@ msgstr ""
 msgid "An uppercase and a lowercase letter"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr ""
 
@@ -222,7 +222,7 @@ msgstr[1] ""
 msgid "Attainment"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:93 lib/screens/attendance_screen.dart:181 lib/screens/dashboard_screen.dart:682
+#: lib/screens/attendance_menu_screen.dart:141 lib/screens/attendance_screen.dart:178 lib/screens/dashboard_screen.dart:698
 msgid "Attendance"
 msgstr ""
 
@@ -230,11 +230,11 @@ msgstr ""
 msgid "Attendance This Year"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:139 lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136 lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr ""
 
@@ -242,11 +242,11 @@ msgstr ""
 msgid "Auto-Enrol Courses?"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:446 lib/screens/student_personal_screen.dart:130
+#: lib/screens/data_personal_edit_screen.dart:462 lib/screens/student_personal_screen.dart:130
 msgid "Background Information"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:412 lib/screens/data_staff_edit_screen.dart:196 lib/screens/student_personal_screen.dart:99
+#: lib/screens/data_personal_edit_screen.dart:428 lib/screens/data_staff_edit_screen.dart:196 lib/screens/student_personal_screen.dart:99
 msgid "Basic Information"
 msgstr ""
 
@@ -265,15 +265,15 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/data_staff_edit_screen.dart:267 lib/screens/data_staff_edit_screen.dart:285 lib/screens/staff_directory_screen.dart:506
+#: lib/screens/data_staff_edit_screen.dart:270 lib/screens/data_staff_edit_screen.dart:289 lib/screens/staff_directory_screen.dart:506
 msgid "Biography"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:71 lib/screens/planner_list_screen.dart:130
+#: lib/screens/attendance_menu_screen.dart:119 lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr ""
 
@@ -281,23 +281,23 @@ msgstr ""
 msgid "By Date"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:81
+#: lib/screens/attendance_menu_screen.dart:129
 msgid "By Form Group"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:277
+#: lib/screens/data_finance_edit_screen.dart:281
 msgid "CC Family?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:599
+#: lib/screens/family_detail_screen.dart:601
 msgid "Call?"
 msgstr ""
 
@@ -313,19 +313,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:544
 msgid "Cancel Activities?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:546
 msgid "Cancel Bookings?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Classes?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:545
 msgid "Cancel Staff Duty?"
 msgstr ""
 
@@ -337,15 +337,15 @@ msgstr ""
 msgid "Cap"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:422
+#: lib/screens/data_medical_edit_screen.dart:425
 msgid "Check the box to add a new medical condition"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:333 lib/screens/family_list_screen.dart:152
+#: lib/screens/family_detail_screen.dart:334 lib/screens/family_list_screen.dart:152
 msgid "Children"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr ""
 
@@ -365,11 +365,11 @@ msgstr ""
 msgid "Choose a class above"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:131
 msgid "Choose any Form Group"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:120
 msgid "Choose any of your classes"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr ""
 msgid "Choose at least one student first"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:132
 msgid "Choose one of your Form Groups"
 msgstr ""
 
@@ -401,12 +401,12 @@ msgstr ""
 msgid "Class Roster"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:108
 #. Keep {placeholders} exactly as they are.
 msgid "Class now: {class}"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:384
+#: lib/screens/course_detail_screen.dart:386
 msgid "Class should not run below this number of students."
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr ""
 msgid "Columns are created and edited on the Gibbon website. Choose a column to enter grades."
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 #. Keep {placeholders} exactly as they are.
 msgid "Combined short name \"{name}\" is longer than 16 characters — this may cause display issues on the timetable and in dropdowns."
 msgstr ""
@@ -447,11 +447,11 @@ msgstr ""
 msgid "Combined short name exceeds 16 characters"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:308 lib/screens/data_medical_edit_screen.dart:400 lib/screens/family_detail_screen.dart:194
+#: lib/screens/data_medical_edit_screen.dart:309 lib/screens/data_medical_edit_screen.dart:402 lib/screens/family_detail_screen.dart:195
 msgid "Comment"
 msgstr ""
 
@@ -459,23 +459,23 @@ msgstr ""
 msgid "Company"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:260
+#: lib/screens/data_finance_edit_screen.dart:262
 msgid "Company Address"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:312
+#: lib/screens/data_finance_edit_screen.dart:316
 msgid "Company All?"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:252
+#: lib/screens/data_finance_edit_screen.dart:253
 msgid "Company Contact Person"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Company Emails"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:339
+#: lib/screens/data_finance_edit_screen.dart:343
 msgid "Company Fee Categories"
 msgstr ""
 
@@ -483,7 +483,7 @@ msgstr ""
 msgid "Company Name"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:303
+#: lib/screens/data_finance_edit_screen.dart:307
 msgid "Company Phone"
 msgstr ""
 
@@ -491,7 +491,7 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:413
+#: lib/screens/data_medical_edit_screen.dart:416
 msgid "Condition"
 msgstr ""
 
@@ -515,7 +515,7 @@ msgstr ""
 msgid "Connecting..."
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:358 lib/screens/student_emergency_screen.dart:225
+#: lib/screens/data_personal_edit_screen.dart:374 lib/screens/student_emergency_screen.dart:225
 msgid "Contact"
 msgstr ""
 
@@ -551,27 +551,27 @@ msgstr ""
 msgid "Contact 2 Relationship"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:512 lib/screens/student_family_screen.dart:323
+#: lib/screens/family_detail_screen.dart:513 lib/screens/student_family_screen.dart:323
 msgid "Contact By Email"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:510 lib/screens/student_family_screen.dart:321
+#: lib/screens/family_detail_screen.dart:511 lib/screens/student_family_screen.dart:321
 msgid "Contact By Phone"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:511 lib/screens/student_family_screen.dart:322
+#: lib/screens/family_detail_screen.dart:512 lib/screens/student_family_screen.dart:322
 msgid "Contact By SMS"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:436 lib/screens/student_personal_screen.dart:109
+#: lib/screens/data_personal_edit_screen.dart:452 lib/screens/student_personal_screen.dart:109
 msgid "Contact Information"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:576
+#: lib/screens/family_detail_screen.dart:578
 msgid "Contact Priority"
 msgstr ""
 
@@ -644,7 +644,7 @@ msgstr ""
 msgid "Could not load courses"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:123 lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120 lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr ""
 
@@ -800,7 +800,7 @@ msgstr ""
 msgid "Could not load staff data"
 msgstr ""
 
-#: lib/screens/enter_marks_screen.dart:90 lib/screens/enter_marks_screen.dart:97 lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/enter_marks_screen.dart:90 lib/screens/enter_marks_screen.dart:97 lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr ""
 
@@ -844,11 +844,11 @@ msgstr ""
 msgid "Could not reset password"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:139 lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371
+#: lib/screens/attendance_screen.dart:136 lib/screens/course_class_roster_screen.dart:368 lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:152 lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149 lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr ""
 
@@ -889,11 +889,11 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:269
+#: lib/screens/data_staff_edit_screen.dart:272
 msgid "Country Of Origin"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:450 lib/screens/student_personal_screen.dart:131
+#: lib/screens/data_personal_edit_screen.dart:466 lib/screens/student_personal_screen.dart:131
 msgid "Country of Birth"
 msgstr ""
 
@@ -901,7 +901,7 @@ msgstr ""
 msgid "Country of Origin"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:207 lib/screens/data_personal_edit_screen.dart:344
+#: lib/screens/data_family_edit_screen.dart:209 lib/screens/data_personal_edit_screen.dart:360
 msgid "County, State, District"
 msgstr ""
 
@@ -933,15 +933,15 @@ msgstr ""
 msgid "Current year"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:401 lib/widgets/dashboard_home_action.dart:18
+#: lib/screens/dashboard_screen.dart:423 lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:560
+#: lib/screens/family_detail_screen.dart:562
 msgid "Data Access?"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:420
+#: lib/screens/dashboard_screen.dart:442
 msgid "Data Updater"
 msgstr ""
 
@@ -949,7 +949,7 @@ msgstr ""
 msgid "Data Updates"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:195 lib/screens/family_detail_screen.dart:550
+#: lib/screens/family_detail_screen.dart:196 lib/screens/family_detail_screen.dart:552
 msgid "Data displayed in full Student Profile"
 msgstr ""
 
@@ -957,7 +957,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:425 lib/screens/student_personal_screen.dart:106 lib/screens/user_edit_screen.dart:513
+#: lib/screens/data_personal_edit_screen.dart:441 lib/screens/student_personal_screen.dart:106 lib/screens/user_edit_screen.dart:513
 msgid "Date of Birth"
 msgstr ""
 
@@ -1005,7 +1005,7 @@ msgstr ""
 msgid "Departure Reason"
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:309 lib/screens/special_days_screen.dart:511
+#: lib/screens/course_manage_list_screen.dart:312 lib/screens/special_days_screen.dart:513
 msgid "Description"
 msgstr ""
 
@@ -1029,15 +1029,15 @@ msgstr ""
 msgid "Discard changes?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:461 lib/screens/student_family_screen.dart:258
+#: lib/screens/family_detail_screen.dart:462 lib/screens/student_family_screen.dart:258
 msgid "Do not contact by SMS."
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:469 lib/screens/student_family_screen.dart:262
+#: lib/screens/family_detail_screen.dart:470 lib/screens/student_family_screen.dart:262
 msgid "Do not contact by email."
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:453 lib/screens/student_family_screen.dart:255
+#: lib/screens/family_detail_screen.dart:454 lib/screens/student_family_screen.dart:255
 msgid "Do not contact by phone."
 msgstr ""
 
@@ -1095,7 +1095,7 @@ msgstr ""
 msgid "Edit User"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr ""
 
@@ -1103,7 +1103,7 @@ msgstr ""
 msgid "Effort"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:437 lib/screens/staff_directory_screen.dart:448 lib/screens/student_personal_screen.dart:111
+#: lib/screens/data_personal_edit_screen.dart:453 lib/screens/staff_directory_screen.dart:448 lib/screens/student_personal_screen.dart:111
 msgid "Email"
 msgstr ""
 
@@ -1111,19 +1111,19 @@ msgstr ""
 msgid "Email: Must be unique"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:603
+#: lib/screens/family_detail_screen.dart:605
 msgid "Email?"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:458 lib/screens/student_emergency_screen.dart:188 lib/screens/student_emergency_screen.dart:88
+#: lib/screens/data_personal_edit_screen.dart:474 lib/screens/student_emergency_screen.dart:188 lib/screens/student_emergency_screen.dart:88
 msgid "Emergency Contacts"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:473 lib/screens/family_detail_screen.dart:515 lib/screens/student_family_screen.dart:326
+#: lib/screens/data_personal_edit_screen.dart:489 lib/screens/family_detail_screen.dart:516 lib/screens/student_family_screen.dart:326
 msgid "Employer"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:471
+#: lib/screens/data_personal_edit_screen.dart:487
 msgid "Employment"
 msgstr ""
 
@@ -1131,7 +1131,7 @@ msgstr ""
 msgid "End Date"
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr ""
 
@@ -1139,15 +1139,15 @@ msgstr ""
 msgid "Enroll existing students into the active school year"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:389
+#: lib/screens/course_detail_screen.dart:391
 msgid "Enrolment should not exceed this number of students."
 msgstr ""
 
-#: lib/screens/class_markbook_screen.dart:125 lib/screens/dashboard_screen.dart:1249 lib/screens/dashboard_screen.dart:711
+#: lib/screens/class_markbook_screen.dart:125 lib/screens/dashboard_screen.dart:1265 lib/screens/dashboard_screen.dart:727
 msgid "Enter Marks"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:452 lib/screens/data_personal_edit_screen.dart:453 lib/screens/student_personal_screen.dart:132
+#: lib/screens/data_personal_edit_screen.dart:468 lib/screens/data_personal_edit_screen.dart:469 lib/screens/student_personal_screen.dart:132
 msgid "Ethnicity"
 msgstr ""
 
@@ -1159,7 +1159,7 @@ msgstr ""
 msgid "Family"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr ""
 
@@ -1195,27 +1195,27 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:223 lib/screens/staff_directory_screen.dart:462
+#: lib/screens/data_staff_edit_screen.dart:225 lib/screens/staff_directory_screen.dart:462
 msgid "First Aid"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:259 lib/screens/staff_edit_screen.dart:282
+#: lib/screens/data_staff_edit_screen.dart:262 lib/screens/staff_edit_screen.dart:282
 msgid "First Aid Expiry"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:252 lib/screens/staff_edit_screen.dart:281
+#: lib/screens/data_staff_edit_screen.dart:254 lib/screens/staff_edit_screen.dart:281
 msgid "First Aid Qualification"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:225 lib/screens/staff_edit_screen.dart:273
+#: lib/screens/data_staff_edit_screen.dart:227 lib/screens/staff_edit_screen.dart:273
 msgid "First Aid Qualified?"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:447 lib/screens/family_detail_screen.dart:507 lib/screens/student_family_screen.dart:318
+#: lib/screens/data_personal_edit_screen.dart:463 lib/screens/family_detail_screen.dart:508 lib/screens/student_family_screen.dart:318
 msgid "First Language"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:415 lib/screens/student_personal_screen.dart:101
+#: lib/screens/data_personal_edit_screen.dart:431 lib/screens/student_personal_screen.dart:101
 msgid "First Name"
 msgstr ""
 
@@ -1223,7 +1223,7 @@ msgstr ""
 msgid "First Name *"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr ""
 
@@ -1231,7 +1231,7 @@ msgstr ""
 msgid "First name as shown in ID documents."
 msgstr ""
 
-#: lib/screens/log_behaviour_screen.dart:387
+#: lib/screens/log_behaviour_screen.dart:389
 msgid "Follow Up"
 msgstr ""
 
@@ -1259,7 +1259,7 @@ msgstr ""
 msgid "From the form group register"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr ""
 
@@ -1279,7 +1279,7 @@ msgstr ""
 msgid "Gender *"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:363
+#: lib/screens/data_medical_edit_screen.dart:364
 msgid "General Information"
 msgstr ""
 
@@ -1303,11 +1303,11 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:864 lib/screens/student_grades_screen.dart:104 lib/screens/student_profile_screen.dart:289
+#: lib/screens/dashboard_screen.dart:880 lib/screens/student_grades_screen.dart:104 lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr ""
 
@@ -1351,27 +1351,27 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:198
+#: lib/screens/data_family_edit_screen.dart:199
 msgid "Home Address"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:214
+#: lib/screens/data_family_edit_screen.dart:217
 msgid "Home Address (Country)"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:207
+#: lib/screens/data_family_edit_screen.dart:209
 msgid "Home Address (District)"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:224
+#: lib/screens/data_family_edit_screen.dart:227
 msgid "Home Language - Primary"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:234
+#: lib/screens/data_family_edit_screen.dart:237
 msgid "Home Language - Secondary"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:256 lib/screens/student_family_screen.dart:181
+#: lib/screens/family_detail_screen.dart:257 lib/screens/student_family_screen.dart:181
 msgid "Home Languages"
 msgstr ""
 
@@ -1387,7 +1387,7 @@ msgstr ""
 msgid "Homework Calendar"
 msgstr ""
 
-#: lib/screens/student_homework_section.dart:309
+#: lib/screens/student_homework_section.dart:310
 msgid "Homework Details"
 msgstr ""
 
@@ -1407,7 +1407,7 @@ msgstr ""
 msgid "House"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:339
+#: lib/screens/data_finance_edit_screen.dart:343
 msgid "If the specified company is not paying all fees, which categories are they paying?"
 msgstr ""
 
@@ -1431,7 +1431,7 @@ msgstr ""
 msgid "In an emergency, please try and contact the adult family members listed below first. If these cannot be reached, then try the emergency contacts below."
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:313
+#: lib/screens/course_manage_list_screen.dart:316
 msgid "Include In Curriculum Map"
 msgstr ""
 
@@ -1476,7 +1476,7 @@ msgstr ""
 msgid "Jitsi"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:474 lib/screens/data_staff_edit_screen.dart:214 lib/screens/family_detail_screen.dart:518
+#: lib/screens/data_personal_edit_screen.dart:490 lib/screens/data_staff_edit_screen.dart:215 lib/screens/family_detail_screen.dart:519
 msgid "Job Title"
 msgstr ""
 
@@ -1500,23 +1500,23 @@ msgstr ""
 msgid "Last"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr ""
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:299
+#: lib/screens/data_medical_edit_screen.dart:300
 msgid "Last Episode Date"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:305
+#: lib/screens/data_medical_edit_screen.dart:306
 msgid "Last Episode Treatment"
 msgstr ""
 
@@ -1540,7 +1540,7 @@ msgstr ""
 msgid "Last Updated"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr ""
 
@@ -1556,7 +1556,7 @@ msgstr ""
 msgid "Left (user status)"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:258 lib/screens/form_group_attendance_screen.dart:236
+#: lib/screens/attendance_screen.dart:255 lib/screens/form_group_attendance_screen.dart:235
 msgid "Legend"
 msgstr ""
 
@@ -1598,7 +1598,7 @@ msgstr ""
 msgid "Locker Number"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:748 lib/screens/log_behaviour_screen.dart:239
+#: lib/screens/dashboard_screen.dart:764 lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr ""
 
@@ -1610,19 +1610,19 @@ msgstr ""
 msgid "Login Troubleshooting"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:478 lib/screens/parent_dashboard_screen.dart:254
+#: lib/screens/dashboard_screen.dart:500 lib/screens/parent_dashboard_screen.dart:254
 msgid "Logout"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:365
+#: lib/screens/data_medical_edit_screen.dart:366
 msgid "Long-Term Medication?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:605
+#: lib/screens/family_detail_screen.dart:607
 msgid "Mail?"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:810
+#: lib/screens/dashboard_screen.dart:826
 msgid "Manage"
 msgstr ""
 
@@ -1654,7 +1654,7 @@ msgstr ""
 msgid "Manage Users"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr ""
 
@@ -1666,11 +1666,11 @@ msgstr ""
 msgid "Mark all read"
 msgstr ""
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr ""
 
@@ -1678,7 +1678,7 @@ msgstr ""
 msgid "Mark read"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:239 lib/screens/class_markbook_screen.dart:108
+#: lib/screens/class_detail_screen.dart:243 lib/screens/class_markbook_screen.dart:108
 msgid "Markbook"
 msgstr ""
 
@@ -1686,27 +1686,27 @@ msgstr ""
 msgid "Marked on"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:760 lib/screens/master_timetable_screen.dart:116
+#: lib/screens/dashboard_screen.dart:776 lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:389
+#: lib/screens/course_detail_screen.dart:391
 msgid "Maximum Enrolment"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:410
+#: lib/screens/data_medical_edit_screen.dart:413
 msgid "Medical Conditions"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:296
+#: lib/screens/data_medical_edit_screen.dart:297
 msgid "Medication"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:392
+#: lib/screens/data_medical_edit_screen.dart:393
 msgid "Medication Details"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:435
+#: lib/screens/dashboard_screen.dart:457
 msgid "Message Wall"
 msgstr ""
 
@@ -1714,7 +1714,7 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:384
+#: lib/screens/course_detail_screen.dart:386
 msgid "Minimum Enrolment"
 msgstr ""
 
@@ -1730,15 +1730,15 @@ msgstr ""
 msgid "Modified Assessment"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:416 lib/screens/user_edit_screen.dart:499
+#: lib/screens/data_personal_edit_screen.dart:432 lib/screens/user_edit_screen.dart:499
 msgid "Most common name, alias, nickname, etc."
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:346 lib/screens/course_detail_screen.dart:351
+#: lib/screens/course_detail_screen.dart:347 lib/screens/course_detail_screen.dart:353
 msgid "Must be unique for this course."
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:293
+#: lib/screens/course_manage_list_screen.dart:294
 msgid "Must be unique for this school year."
 msgstr ""
 
@@ -1750,7 +1750,7 @@ msgstr ""
 msgid "Must be unique if set."
 msgstr ""
 
-#: lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:663 lib/screens/enter_marks_screen.dart:126
+#: lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:679 lib/screens/enter_marks_screen.dart:126
 msgid "My Classes"
 msgstr ""
 
@@ -1758,11 +1758,11 @@ msgstr ""
 msgid "My Data Updates"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:48 lib/screens/dashboard_screen.dart:1093
+#: lib/screens/attendance_menu_screen.dart:95 lib/screens/dashboard_screen.dart:1109
 msgid "My Form Group"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1093 lib/screens/dashboard_screen.dart:853 lib/screens/form_groups_screen.dart:49
+#: lib/screens/dashboard_screen.dart:1109 lib/screens/dashboard_screen.dart:869 lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr ""
 
@@ -1782,11 +1782,11 @@ msgstr ""
 msgid "N/A"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:346 lib/screens/course_manage_list_screen.dart:293 lib/screens/special_days_screen.dart:506
+#: lib/screens/course_detail_screen.dart:347 lib/screens/course_manage_list_screen.dart:294 lib/screens/special_days_screen.dart:507
 msgid "Name"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:418 lib/screens/student_personal_screen.dart:104 lib/screens/user_edit_screen.dart:503
+#: lib/screens/data_personal_edit_screen.dart:434 lib/screens/student_personal_screen.dart:104 lib/screens/user_edit_screen.dart:503
 msgid "Name In Characters"
 msgstr ""
 
@@ -1798,7 +1798,7 @@ msgstr ""
 msgid "Negative"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:435
+#: lib/screens/data_medical_edit_screen.dart:438
 msgid "New Condition"
 msgstr ""
 
@@ -1810,12 +1810,12 @@ msgstr ""
 msgid "Next School"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:61 lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:108 lib/screens/dashboard_screen.dart:746
 #. Keep {placeholders} exactly as they are.
 msgid "Next class: {class}"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:294 lib/screens/data_medical_edit_screen.dart:382 lib/screens/data_staff_edit_screen.dart:242
+#: lib/screens/data_finance_edit_screen.dart:298 lib/screens/data_medical_edit_screen.dart:383 lib/screens/data_staff_edit_screen.dart:244
 msgid "No"
 msgstr ""
 
@@ -1831,7 +1831,7 @@ msgstr ""
 msgid "No activities on record"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr ""
 
@@ -1843,7 +1843,7 @@ msgstr ""
 msgid "No children found"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr ""
 
@@ -1851,7 +1851,7 @@ msgstr ""
 msgid "No children linked to this account"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr ""
 
@@ -1867,7 +1867,7 @@ msgstr ""
 msgid "No classes scheduled"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr ""
 
@@ -1919,7 +1919,7 @@ msgstr ""
 msgid "No grades available"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:131 lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135 lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr ""
 
@@ -1975,7 +1975,7 @@ msgstr ""
 msgid "No students enrolled this year"
 msgstr ""
 
-#: lib/screens/form_group_detail_screen.dart:229 lib/screens/student_search_screen.dart:338 lib/screens/students_screen.dart:116
+#: lib/screens/form_group_detail_screen.dart:232 lib/screens/student_search_screen.dart:338 lib/screens/students_screen.dart:116
 msgid "No students found"
 msgstr ""
 
@@ -1991,7 +1991,7 @@ msgstr ""
 msgid "No timetable for this day"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr ""
 
@@ -2019,7 +2019,7 @@ msgstr ""
 msgid "Not Reportable"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:198 lib/screens/form_group_detail_screen.dart:170
+#: lib/screens/class_detail_screen.dart:202 lib/screens/form_group_detail_screen.dart:173 lib/screens/register_calendar.dart:224
 msgid "Not Taken"
 msgstr ""
 
@@ -2047,7 +2047,7 @@ msgstr ""
 msgid "Not taken yet for this date. These are default entries, not saved attendance."
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:98
 msgid "Not taken yet today"
 msgstr ""
 
@@ -2063,7 +2063,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:465 lib/screens/notifications_screen.dart:111
+#: lib/screens/dashboard_screen.dart:487 lib/screens/notifications_screen.dart:111
 msgid "Notifications"
 msgstr ""
 
@@ -2071,7 +2071,7 @@ msgstr ""
 msgid "Now"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:323
+#: lib/screens/data_personal_edit_screen.dart:339
 msgid "Number"
 msgstr ""
 
@@ -2087,7 +2087,7 @@ msgstr ""
 msgid "Off Timetable"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:417 lib/screens/student_personal_screen.dart:103
+#: lib/screens/data_personal_edit_screen.dart:433 lib/screens/student_personal_screen.dart:103
 msgid "Official Name"
 msgstr ""
 
@@ -2111,7 +2111,7 @@ msgstr ""
 msgid "Opens at"
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Order"
 msgstr ""
 
@@ -2222,7 +2222,7 @@ msgstr ""
 msgid "Phone"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:268 lib/screens/dashboard_screen.dart:671 lib/screens/parent_dashboard_screen.dart:451
+#: lib/screens/class_detail_screen.dart:276 lib/screens/dashboard_screen.dart:687 lib/screens/parent_dashboard_screen.dart:451
 msgid "Planner"
 msgstr ""
 
@@ -2270,7 +2270,7 @@ msgstr ""
 msgid "Powered by Gibbon"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:416 lib/screens/student_personal_screen.dart:102
+#: lib/screens/data_personal_edit_screen.dart:432 lib/screens/student_personal_screen.dart:102
 msgid "Preferred Name"
 msgstr ""
 
@@ -2290,15 +2290,15 @@ msgstr ""
 msgid "Primary Role *"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:314 lib/screens/student_family_screen.dart:313
+#: lib/screens/family_detail_screen.dart:315 lib/screens/student_family_screen.dart:313
 msgid "Priority"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:481 lib/screens/student_personal_screen.dart:149
+#: lib/screens/data_personal_edit_screen.dart:497 lib/screens/student_personal_screen.dart:149
 msgid "Privacy"
 msgstr ""
 
@@ -2310,11 +2310,11 @@ msgstr ""
 msgid "Privacy required:"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:472 lib/screens/family_detail_screen.dart:514 lib/screens/student_family_screen.dart:325
+#: lib/screens/data_personal_edit_screen.dart:488 lib/screens/family_detail_screen.dart:515 lib/screens/student_family_screen.dart:325
 msgid "Profession"
 msgstr ""
 
-#: lib/screens/data_staff_edit_screen.dart:278 lib/screens/staff_directory_screen.dart:528 lib/screens/staff_edit_screen.dart:290
+#: lib/screens/data_staff_edit_screen.dart:281 lib/screens/staff_directory_screen.dart:528 lib/screens/staff_edit_screen.dart:290
 msgid "Qualifications"
 msgstr ""
 
@@ -2322,7 +2322,7 @@ msgstr ""
 msgid "Qualified"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr ""
 
@@ -2330,7 +2330,7 @@ msgstr ""
 msgid "Raw Attainment Mark"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:290
+#: lib/screens/data_medical_edit_screen.dart:291
 msgid "Reaction"
 msgstr ""
 
@@ -2350,24 +2350,28 @@ msgstr ""
 msgid "Receipt To"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:601
+#: lib/screens/family_detail_screen.dart:603
 msgid "Receive non-emergency SMS messages from school?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:603
+#: lib/screens/family_detail_screen.dart:605
 msgid "Receive non-emergency emails from school?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:599
+#: lib/screens/family_detail_screen.dart:601
 msgid "Receive non-emergency phone calls from school?"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:605
+#: lib/screens/family_detail_screen.dart:607
 msgid "Receive postage mail from school?"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:122 lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126 lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
+msgstr ""
+
+#: lib/screens/attendance_menu_screen.dart:190
+msgid "Recent History"
 msgstr ""
 
 #: lib/screens/attendance_status.dart:70
@@ -2378,7 +2382,7 @@ msgstr ""
 msgid "Relationship Unknown"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:455 lib/screens/data_personal_edit_screen.dart:456 lib/screens/student_personal_screen.dart:133
+#: lib/screens/data_personal_edit_screen.dart:471 lib/screens/data_personal_edit_screen.dart:472 lib/screens/student_personal_screen.dart:133
 msgid "Religion"
 msgstr ""
 
@@ -2447,15 +2451,15 @@ msgstr ""
 msgid "Reportable"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:365
+#: lib/screens/course_detail_screen.dart:367
 msgid "Reportable?"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:882 lib/screens/reports_screen.dart:21 lib/screens/student_profile_screen.dart:407
+#: lib/screens/dashboard_screen.dart:898 lib/screens/reports_screen.dart:21 lib/screens/student_profile_screen.dart:407
 msgid "Reports"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:194 lib/screens/data_family_edit_screen.dart:203 lib/screens/data_family_edit_screen.dart:210
+#: lib/screens/data_family_edit_screen.dart:195 lib/screens/data_family_edit_screen.dart:205 lib/screens/data_family_edit_screen.dart:213
 msgid "Required"
 msgstr ""
 
@@ -2467,7 +2471,7 @@ msgstr ""
 msgid "Reset User Password"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:293
+#: lib/screens/data_medical_edit_screen.dart:294
 msgid "Response"
 msgstr ""
 
@@ -2475,11 +2479,11 @@ msgstr ""
 msgid "Return to my account"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:262
+#: lib/screens/data_medical_edit_screen.dart:263
 msgid "Risk"
 msgstr ""
 
-#: lib/screens/course_class_roster_screen.dart:290 lib/screens/course_class_roster_screen.dart:392 lib/screens/dashboard_screen.dart:503
+#: lib/screens/course_class_roster_screen.dart:290 lib/screens/course_class_roster_screen.dart:392 lib/screens/dashboard_screen.dart:525
 msgid "Role"
 msgstr ""
 
@@ -2499,11 +2503,11 @@ msgstr ""
 msgid "Roll Order"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:601
+#: lib/screens/family_detail_screen.dart:603
 msgid "SMS?"
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:192 lib/screens/course_class_roster_screen.dart:423 lib/screens/course_detail_screen.dart:400
+#: lib/screens/attendance_screen.dart:189 lib/screens/course_class_roster_screen.dart:423 lib/screens/course_detail_screen.dart:402
 msgid "Save"
 msgstr ""
 
@@ -2554,7 +2558,7 @@ msgstr ""
 msgid "School Information"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:534
 msgid "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website."
 msgstr ""
 
@@ -2562,7 +2566,7 @@ msgstr ""
 msgid "School Year"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr ""
 
@@ -2602,11 +2606,11 @@ msgstr ""
 msgid "Search rooms..."
 msgstr ""
 
-#: lib/screens/enter_marks_screen.dart:197 lib/screens/form_group_detail_screen.dart:208 lib/screens/students_screen.dart:95
+#: lib/screens/enter_marks_screen.dart:197 lib/screens/form_group_detail_screen.dart:211 lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:448 lib/screens/family_detail_screen.dart:508 lib/screens/student_family_screen.dart:319
+#: lib/screens/data_personal_edit_screen.dart:464 lib/screens/family_detail_screen.dart:509 lib/screens/student_family_screen.dart:319
 msgid "Second Language"
 msgstr ""
 
@@ -2618,7 +2622,7 @@ msgstr ""
 msgid "Select Students"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:329
+#: lib/screens/data_finance_edit_screen.dart:333
 msgid "Selected"
 msgstr ""
 
@@ -2642,15 +2646,15 @@ msgstr ""
 msgid "Share"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:351 lib/screens/course_manage_list_screen.dart:298
+#: lib/screens/course_detail_screen.dart:353 lib/screens/course_manage_list_screen.dart:300
 msgid "Short Name"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:312
+#: lib/screens/data_finance_edit_screen.dart:316
 msgid "Should all items be billed to the specified company, or just some?"
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:277
+#: lib/screens/data_finance_edit_screen.dart:281
 msgid "Should the family be sent a copy of billing emails?"
 msgstr ""
 
@@ -2674,7 +2678,7 @@ msgstr ""
 msgid "Staff"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:842 lib/screens/staff_directory_screen.dart:99
+#: lib/screens/dashboard_screen.dart:858 lib/screens/staff_directory_screen.dart:99
 msgid "Staff Directory"
 msgstr ""
 
@@ -2718,7 +2722,7 @@ msgstr ""
 msgid "Student ID"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr ""
 
@@ -2734,7 +2738,7 @@ msgstr ""
 msgid "Student enrolled successfully"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:210 lib/screens/course_enrolment_by_class_screen.dart:120 lib/screens/dashboard_screen.dart:831
+#: lib/screens/course_detail_screen.dart:210 lib/screens/course_enrolment_by_class_screen.dart:120 lib/screens/dashboard_screen.dart:847
 msgid "Students"
 msgstr ""
 
@@ -2758,7 +2762,7 @@ msgstr ""
 msgid "Students will see these grades from {date}. Hidden from parents."
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:255 lib/screens/data_finance_edit_screen.dart:372 lib/screens/data_medical_edit_screen.dart:454
+#: lib/screens/data_family_edit_screen.dart:258 lib/screens/data_finance_edit_screen.dart:376 lib/screens/data_medical_edit_screen.dart:457
 msgid "Submit"
 msgstr ""
 
@@ -2778,7 +2782,7 @@ msgstr ""
 msgid "Support"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:414 lib/screens/student_personal_screen.dart:100 lib/screens/student_search_screen.dart:150
+#: lib/screens/data_personal_edit_screen.dart:430 lib/screens/student_personal_screen.dart:100 lib/screens/student_search_screen.dart:150
 msgid "Surname"
 msgstr ""
 
@@ -2790,11 +2794,11 @@ msgstr ""
 msgid "Switch"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:445 lib/screens/parent_dashboard_screen.dart:234
+#: lib/screens/dashboard_screen.dart:467 lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:451 lib/screens/parent_dashboard_screen.dart:239 lib/screens/school_year_picker_screen.dart:87
+#: lib/screens/dashboard_screen.dart:473 lib/screens/parent_dashboard_screen.dart:239 lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr ""
 
@@ -2806,19 +2810,19 @@ msgstr ""
 msgid "System login name."
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:253 lib/screens/dashboard_screen.dart:1152 lib/screens/dashboard_screen.dart:729
+#: lib/screens/class_detail_screen.dart:259 lib/screens/dashboard_screen.dart:1168 lib/screens/dashboard_screen.dart:745
 msgid "Take Attendance"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:109
 msgid "Take attendance for this class"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:194 lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198 lib/screens/form_group_detail_screen.dart:169 lib/screens/register_calendar.dart:222
 msgid "Taken"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 #. Keep {placeholders} exactly as they are.
 msgid "Taken at {time}"
 msgstr ""
@@ -2828,7 +2832,7 @@ msgstr ""
 msgid "Taken at {time} by {name}"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:97
 #. Keep {placeholders} exactly as they are.
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
@@ -2866,7 +2870,7 @@ msgstr ""
 msgid "The mark works out to {grade}"
 msgstr ""
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr ""
 
@@ -2890,15 +2894,15 @@ msgstr ""
 msgid "There are no records to display."
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:463
+#: lib/screens/data_personal_edit_screen.dart:479
 msgid "These details are used when immediate family members (e.g. parent, spouse) cannot be reached first. Please try to avoid listing immediate family members."
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:449 lib/screens/student_personal_screen.dart:136
+#: lib/screens/data_personal_edit_screen.dart:465 lib/screens/student_personal_screen.dart:136
 msgid "Third Language"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:542
 msgid "This affects the timetable:"
 msgstr ""
 
@@ -2914,7 +2918,7 @@ msgstr ""
 msgid "This cannot be undone."
 msgstr ""
 
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 #. Keep {placeholders} exactly as they are.
 msgid "This class is not scheduled on {date}. You can still save attendance if needed."
 msgstr ""
@@ -2956,7 +2960,7 @@ msgstr ""
 msgid "Timetable"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:769 lib/screens/facility_list_screen.dart:118
+#: lib/screens/dashboard_screen.dart:785 lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr ""
 
@@ -2964,11 +2968,11 @@ msgstr ""
 msgid "Timing Change"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:413 lib/screens/user_edit_screen.dart:494
+#: lib/screens/data_personal_edit_screen.dart:429 lib/screens/user_edit_screen.dart:494
 msgid "Title"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:212 lib/screens/facility_timetable_screen.dart:136 lib/screens/form_group_detail_screen.dart:176
+#: lib/screens/class_detail_screen.dart:216 lib/screens/facility_timetable_screen.dart:136 lib/screens/form_group_detail_screen.dart:179
 msgid "Today"
 msgstr ""
 
@@ -2980,7 +2984,7 @@ msgstr ""
 msgid "Today's Messages"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr ""
 
@@ -2988,7 +2992,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:373
+#: lib/screens/course_detail_screen.dart:375
 msgid "Track Attendance?"
 msgstr ""
 
@@ -3000,18 +3004,18 @@ msgstr ""
 msgid "Transport"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 #. Keep {placeholders} exactly as they are.
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/data_medical_edit_screen.dart:287
+#: lib/screens/data_medical_edit_screen.dart:288
 msgid "Triggers"
 msgstr ""
 
@@ -3027,7 +3031,7 @@ msgstr ""
 msgid "Tutor 2"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:302 lib/screens/data_staff_edit_screen.dart:205 lib/screens/log_behaviour_screen.dart:309
+#: lib/screens/data_personal_edit_screen.dart:318 lib/screens/data_staff_edit_screen.dart:206 lib/screens/log_behaviour_screen.dart:309
 msgid "Type"
 msgstr ""
 
@@ -3043,7 +3047,7 @@ msgstr ""
 msgid "Type at least 2 characters"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr ""
 
@@ -3060,7 +3064,7 @@ msgstr ""
 msgid "Unit"
 msgstr ""
 
-#: lib/screens/data_family_edit_screen.dart:198 lib/screens/data_personal_edit_screen.dart:343
+#: lib/screens/data_family_edit_screen.dart:199 lib/screens/data_personal_edit_screen.dart:359
 msgid "Unit, Building, Street"
 msgstr ""
 
@@ -3100,11 +3104,11 @@ msgstr ""
 msgid "Update Finance Data"
 msgstr ""
 
-#: lib/screens/data_medical_edit_screen.dart:320
+#: lib/screens/data_medical_edit_screen.dart:321
 msgid "Update Medical Data"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:371
+#: lib/screens/data_personal_edit_screen.dart:387
 msgid "Update Personal Data"
 msgstr ""
 
@@ -3173,7 +3177,7 @@ msgstr ""
 msgid "Username available"
 msgstr ""
 
-#: lib/screens/data_personal_edit_screen.dart:476 lib/screens/family_detail_screen.dart:519 lib/screens/student_family_screen.dart:330
+#: lib/screens/data_personal_edit_screen.dart:492 lib/screens/family_detail_screen.dart:520 lib/screens/student_family_screen.dart:330
 msgid "Vehicle Registration"
 msgstr ""
 
@@ -3193,7 +3197,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:993 lib/screens/parent_dashboard_screen.dart:591
+#: lib/screens/dashboard_screen.dart:1009 lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr ""
 
@@ -3221,11 +3225,11 @@ msgstr ""
 msgid "View Timetable"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr ""
 
@@ -3233,7 +3237,7 @@ msgstr ""
 msgid "View families, contacts, and children"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr ""
 
@@ -3241,15 +3245,15 @@ msgstr ""
 msgid "View photo"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr ""
 
@@ -3266,7 +3270,7 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 #. Keep {placeholders} exactly as they are.
 msgid "Welcome, {name}!"
 msgstr ""
@@ -3291,11 +3295,11 @@ msgstr ""
 msgid "Year Group *"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:533
 msgid "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website."
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:286 lib/screens/data_medical_edit_screen.dart:374 lib/screens/data_staff_edit_screen.dart:234
+#: lib/screens/data_finance_edit_screen.dart:290 lib/screens/data_medical_edit_screen.dart:375 lib/screens/data_staff_edit_screen.dart:236
 msgid "Yes"
 msgstr ""
 
@@ -3320,7 +3324,7 @@ msgstr ""
 msgid "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below, but your data won't appear in the system until it's been processed."
 msgstr ""
 
-#: lib/screens/data_finance_edit_screen.dart:197 lib/screens/data_medical_edit_screen.dart:353 lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_finance_edit_screen.dart:197 lib/screens/data_medical_edit_screen.dart:354 lib/screens/data_personal_edit_screen.dart:420
 msgid "You have already submitted a request, which is awaiting review by an administrator. You can still make changes below."
 msgstr ""
 
@@ -3374,11 +3378,11 @@ msgstr ""
 msgid "an app for Gibbon™"
 msgstr ""
 
-#: lib/screens/log_behaviour_screen.dart:342 lib/screens/log_behaviour_screen.dart:359 lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:342 lib/screens/log_behaviour_screen.dart:359 lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr ""
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr ""
 
@@ -3396,7 +3400,7 @@ msgstr ""
 msgid "{absent} absent of {total} sessions recorded"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 #. Keep {placeholders} exactly as they are.
 msgid "{count} absent"
 msgid_plural "{count} absent"
@@ -3424,14 +3428,14 @@ msgid_plural "{count} classes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 #. Keep {placeholders} exactly as they are.
 msgid "{count} class today"
 msgid_plural "{count} classes today"
@@ -3480,7 +3484,7 @@ msgid_plural "{count} items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 #. Keep {placeholders} exactly as they are.
 msgid "{count} late"
 msgid_plural "{count} late"
@@ -3492,7 +3496,7 @@ msgstr[1] ""
 msgid "{count} min"
 msgstr ""
 
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 #. Keep {placeholders} exactly as they are.
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
@@ -3544,7 +3548,7 @@ msgid_plural "{count} staff members"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/screens/attendance_screen.dart:222 lib/screens/class_markbook_screen.dart:142 lib/screens/courses_screen.dart:195
+#: lib/screens/attendance_screen.dart:219 lib/screens/class_markbook_screen.dart:142 lib/screens/courses_screen.dart:195
 #. Keep {placeholders} exactly as they are.
 msgid "{count} student"
 msgid_plural "{count} students"

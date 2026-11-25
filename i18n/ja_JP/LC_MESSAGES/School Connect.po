@@ -25,7 +25,7 @@ msgid ""
 "Android Keystore)"
 msgstr "デバイスの安全な保存領域（iOS のキーチェーンまたは Android Keystore）に保存されるサインイン用トークン"
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "このアプリについて・プライバシー"
@@ -55,7 +55,7 @@ msgstr "休校日の追加・編集・削除"
 msgid "Add, edit, and remove user accounts"
 msgstr "ユーザーアカウントの追加・編集・削除"
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr "通知表での科目の並び順を調整します。"
 
@@ -79,7 +79,7 @@ msgid "All Year Groups"
 msgstr "すべての学年"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "本日の授業 {count}コマすべて完了"
@@ -89,7 +89,7 @@ msgstr[0] "本日の授業 {count}コマすべて完了"
 msgid "An uppercase and a lowercase letter"
 msgstr "大文字と小文字を各1文字"
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr "バージョン、接続先の学校、あなたのデータ"
 
@@ -120,12 +120,12 @@ msgstr[0] "{count}文字以上"
 msgid "Attendance This Year"
 msgstr "今年度の出欠"
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr "本日はまだ出欠が取られていません"
 
-#: lib/screens/attendance_screen.dart:139
-#: lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136
+#: lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr "出欠を保存しました！"
 
@@ -139,11 +139,11 @@ msgid "Behaviour records saved for {count} student!"
 msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "{count}人の生徒の行動記録を保存しました！"
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr "教職員のプロフィールを見る"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:119
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "クラス別"
@@ -152,11 +152,11 @@ msgstr "クラス別"
 msgid "By Date"
 msgstr "日付別"
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr "クラス別"
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr "生徒別"
 
@@ -166,15 +166,15 @@ msgid ""
 "request. The app asks first, and you can say no."
 msgstr "カメラと写真：データ更新の申請に写真を添付する場合のみ使用します。アプリは事前に許可を求め、拒否することもできます。"
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:546
 msgid "Cancel Bookings?"
 msgstr "予約をキャンセルしますか？"
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Classes?"
 msgstr "授業をキャンセルしますか？"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:545
 msgid "Cancel Staff Duty?"
 msgstr "教職員の当番をキャンセルしますか？"
 
@@ -186,7 +186,7 @@ msgstr "新しい疾患の追加を取り消す"
 msgid "Cap"
 msgstr "定員"
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr "漢字などの文字による名前"
 
@@ -194,11 +194,11 @@ msgstr "漢字などの文字による名前"
 msgid "Choose a class above"
 msgstr "上でクラスを選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:131
 msgid "Choose any Form Group"
 msgstr "ホームルームを選択"
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:120
 msgid "Choose any of your classes"
 msgstr "担当クラスを選択"
 
@@ -206,7 +206,7 @@ msgstr "担当クラスを選択"
 msgid "Choose at least one student first"
 msgstr "まず生徒を1人以上選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:132
 msgid "Choose one of your Form Groups"
 msgstr "担当ホームルームを選択"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "クラス名簿"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:108
 msgid "Class now: {class}"
 msgstr "現在の授業：{class}"
 
@@ -246,7 +246,7 @@ msgid ""
 msgstr "列は Gibbon のウェブサイトで作成・編集します。成績を入力する列を選んでください。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 msgid ""
 "Combined short name \"{name}\" is longer than 16 characters — this may cause"
 " display issues on the timetable and in dropdowns."
@@ -256,7 +256,7 @@ msgstr "結合した略称「{name}」が16文字を超えています — 時�
 msgid "Combined short name exceeds 16 characters"
 msgstr "結合した略称が16文字を超えています"
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr "メールアドレスをカンマ区切りで入力"
 
@@ -272,7 +272,7 @@ msgstr "接続先の学校"
 msgid "Connecting..."
 msgstr "接続中…"
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr "連絡先"
 
@@ -347,8 +347,8 @@ msgstr "科目を読み込めませんでした"
 msgid "Could not load courses"
 msgstr "科目を読み込めませんでした"
 
-#: lib/screens/attendance_screen.dart:123
-#: lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120
+#: lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr "データを読み込めませんでした"
 
@@ -518,7 +518,7 @@ msgstr "教職員のデータを読み込めませんでした"
 
 #: lib/screens/enter_marks_screen.dart:90
 #: lib/screens/enter_marks_screen.dart:97
-#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr "生徒を読み込めませんでした"
 
@@ -564,14 +564,14 @@ msgstr "外せませんでした"
 msgid "Could not reset password"
 msgstr "パスワードをリセットできませんでした"
 
-#: lib/screens/attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:136
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "保存できませんでした"
 
-#: lib/screens/attendance_screen.dart:152
-#: lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149
+#: lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr "出欠を保存できませんでした"
 
@@ -633,7 +633,7 @@ msgstr "紐づく生徒の登録を作成"
 msgid "Current year"
 msgstr "今年度"
 
-#: lib/screens/dashboard_screen.dart:401
+#: lib/screens/dashboard_screen.dart:423
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "ダッシュボード"
@@ -692,7 +692,7 @@ msgstr "提出期限"
 msgid "Due date and details are required."
 msgstr "提出期限と詳細は必須です。"
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr "編集可"
 
@@ -700,7 +700,7 @@ msgstr "編集可"
 msgid "Email: Must be unique"
 msgstr "メール：重複不可"
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr "登録できる学年"
 
@@ -708,7 +708,7 @@ msgstr "登録できる学年"
 msgid "Enroll existing students into the active school year"
 msgstr "既存の生徒を現在の年度に登録"
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr "身分証明書に記載の姓"
 
@@ -724,7 +724,7 @@ msgstr "学年で絞り込み"
 msgid "First Name *"
 msgstr "名 *"
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr "身分証明書に記載の名"
 
@@ -745,7 +745,7 @@ msgstr "クラスの出欠から"
 msgid "From the form group register"
 msgstr "ホームルームの出欠から"
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr "身分証明書に記載の氏名"
 
@@ -767,13 +767,13 @@ msgstr "Gibbon™ は Gibbon Education Ltd.（香港）の商標であり、許�
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Google でのサインイン（学校が採用し、あなたが選んだ場合のみ）"
 
-#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/dashboard_screen.dart:880
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "成績"
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr "クラスの成績・努力・コメント"
 
@@ -867,19 +867,19 @@ msgstr "「オンライン授業に参加」ボタンを時間割と授業計画
 msgid "Large photos"
 msgstr "大きい写真"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr "直近10登校日"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr "直近10登校日 — 時限ごと"
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr "直近20登校日"
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr "本日最後の授業"
 
@@ -909,7 +909,7 @@ msgstr "{date}から公開"
 msgid "Live since {date}"
 msgstr "{date}から公開中"
 
-#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/dashboard_screen.dart:764
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "行動を記録"
@@ -918,7 +918,7 @@ msgstr "行動を記録"
 msgid "Logged in as"
 msgstr "ログイン中のユーザー"
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr "ユーザーと学校の設定を管理"
 
@@ -926,11 +926,11 @@ msgstr "ユーザーと学校の設定を管理"
 msgid "Mark all read"
 msgstr "すべて既読にする"
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr "完了にする"
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr "本日の出欠を取る"
 
@@ -938,7 +938,7 @@ msgstr "本日の出欠を取る"
 msgid "Mark read"
 msgstr "既読にする"
 
-#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/dashboard_screen.dart:776
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "全体時間割"
@@ -947,8 +947,8 @@ msgstr "全体時間割"
 msgid "Must be unique if set"
 msgstr "入力する場合は重複不可"
 
-#: lib/screens/dashboard_screen.dart:1093
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:1109
+#: lib/screens/dashboard_screen.dart:869
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "担当ホームルーム"
@@ -963,8 +963,8 @@ msgid "Name and Short Name are required"
 msgstr "名称と略称は必須です"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "次の授業：{class}"
 
@@ -980,7 +980,7 @@ msgstr "教科領域なし"
 msgid "No activities on record"
 msgstr "記録された活動はありません"
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr "紐づく保護者等はいません"
 
@@ -995,7 +995,7 @@ msgstr ""
 msgid "No children found"
 msgstr "子どもが見つかりません"
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr "紐づく子どもはいません"
 
@@ -1003,7 +1003,7 @@ msgstr "紐づく子どもはいません"
 msgid "No children linked to this account"
 msgstr "このアカウントに紐づく子どもはいません"
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr "クラスなし"
 
@@ -1021,7 +1021,7 @@ msgstr "本日この教室での授業はありません"
 msgid "No classes scheduled"
 msgstr "予定されている授業はありません"
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr "本日予定されている授業はありません"
 
@@ -1070,8 +1070,8 @@ msgstr "家族の記録が見つかりません"
 msgid "No grades available"
 msgstr "成績はありません"
 
-#: lib/screens/class_detail_screen.dart:131
-#: lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135
+#: lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr "履歴はありません"
 
@@ -1129,7 +1129,7 @@ msgstr "教職員が見つかりません"
 msgid "No students enrolled this year"
 msgstr "今年度登録されている生徒はいません"
 
-#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/form_group_detail_screen.dart:232
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
@@ -1147,7 +1147,7 @@ msgstr "時間割のデータが見つかりません"
 msgid "No timetable for this day"
 msgstr "この日の時間割はありません"
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr "本日の時間割はありません"
 
@@ -1197,7 +1197,7 @@ msgid ""
 "attendance."
 msgstr "この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。"
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:98
 msgid "Not taken yet today"
 msgstr "本日はまだ取られていません"
 
@@ -1349,7 +1349,7 @@ msgstr "呼び名 *"
 msgid "Primary Role *"
 msgstr "主な役割 *"
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr "優先度1の連絡先には、常にすべての種類の連絡が届きます。"
 
@@ -1357,7 +1357,7 @@ msgstr "優先度1の連絡先には、常にすべての種類の連絡が届�
 msgid "Qualified"
 msgstr "有資格"
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr "クイックアクセス"
 
@@ -1369,8 +1369,8 @@ msgstr "プライバシーポリシー全文を読む"
 msgid "Receipt ID"
 msgstr "領収書番号"
 
-#: lib/screens/class_detail_screen.dart:122
-#: lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "最近の出欠"
 
@@ -1479,13 +1479,13 @@ msgstr ""
 "システムの情報（時間割、出欠、成績、宿題、通知表、メッセージ、ご家族の情報）を表示します。アプリは暗号化された（HTTPS）接続で、学校の Gibbon"
 " サーバーにのみ直接接続します。High Point Education がこれらの情報を受け取ったり、保存したり、閲覧したりすることはありません。"
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:534
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
 msgstr "開門・始業・終業・閉門の時刻はここでは設定しません — ウェブサイトで設定してください。"
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr "生徒のプロフィールを検索・表示"
 
@@ -1529,7 +1529,7 @@ msgid "Search rooms..."
 msgstr "教室を検索…"
 
 #: lib/screens/enter_marks_screen.dart:197
-#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/form_group_detail_screen.dart:211
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "生徒を検索…"
@@ -1573,7 +1573,7 @@ msgstr "教職員記録を作成しました"
 msgid "Student *"
 msgstr "生徒 *"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr "生徒一覧"
 
@@ -1612,28 +1612,29 @@ msgstr "送信済み"
 msgid "Surname *"
 msgstr "姓 *"
 
-#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/dashboard_screen.dart:467
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "役割を切り替え"
 
-#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/dashboard_screen.dart:473
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "年度を切り替え"
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:109
 msgid "Take attendance for this class"
 msgstr "このクラスの出欠を取る"
 
-#: lib/screens/class_detail_screen.dart:194
-#: lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198
+#: lib/screens/form_group_detail_screen.dart:169
+#: lib/screens/register_calendar.dart:222
 msgid "Taken"
 msgstr "取得済み"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 msgid "Taken at {time}"
 msgstr "{time} に取得"
 
@@ -1643,7 +1644,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{time} に {name} が記録"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:97
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "本日 {time} に取得。タップして確認・変更"
 
@@ -1667,7 +1668,7 @@ msgstr "他のユーザーとしてのログインは2時間で終了しまし�
 msgid "The mark works out to {grade}"
 msgstr "換算すると {grade}"
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr "学校が家族に連絡する順番。"
 
@@ -1680,7 +1681,7 @@ msgstr "この人のユーザーアカウントには影響しません。"
 msgid "There are no messages to display."
 msgstr "表示するメッセージはありません。"
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:542
 msgid "This affects the timetable:"
 msgstr "時間割への影響："
 
@@ -1699,7 +1700,7 @@ msgid "This cannot be undone."
 msgstr "元に戻すことはできません。"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1729,21 +1730,21 @@ msgid ""
 " undone."
 msgstr "このクラスの登録と時間割のデータがすべて削除されます。元に戻すことはできません。"
 
-#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/dashboard_screen.dart:785
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "施設別の時間割"
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr "本日の時間割"
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr "試用アクセス"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "試用期間 — 残り{count}日"
@@ -1769,7 +1770,7 @@ msgstr "種類と名称は必須です"
 msgid "Type at least 2 characters"
 msgstr "2文字以上入力してください"
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr "種類、国番号、番号"
 
@@ -1849,7 +1850,7 @@ msgstr "ビデオ授業：オンライン授業には学校が選んだビデオ
 msgid "View Attendance"
 msgstr "出欠を見る"
 
-#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "時間割全体を見る"
@@ -1866,11 +1867,11 @@ msgstr "宿題カレンダーを見る"
 msgid "View Timetable"
 msgstr "時間割を見る"
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr "ホームルームの表示・管理"
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr "クラスの成績を見る"
 
@@ -1878,7 +1879,7 @@ msgstr "クラスの成績を見る"
 msgid "View families, contacts, and children"
 msgstr "家族、連絡先、子どもを見る"
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr "このクラスの授業計画を見る"
 
@@ -1886,15 +1887,15 @@ msgstr "このクラスの授業計画を見る"
 msgid "View photo"
 msgstr "写真を見る"
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr "このクラスの生徒を見る"
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr "自分の成績を見る"
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr "通知表を見る"
 
@@ -1908,7 +1909,7 @@ msgid "Virtual Classroom"
 msgstr "オンライン教室"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 msgid "Welcome, {name}!"
 msgstr "ようこそ、{name} さん！"
 
@@ -1925,7 +1926,7 @@ msgstr "アプリがこのデバイスに保存するもの"
 msgid "Year Group *"
 msgstr "学年 *"
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:533
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -1956,8 +1957,8 @@ msgid ""
 msgstr "申請は送信済みで、管理者の確認待ちです。以下で変更することもできますが、処理が終わるまでデータはシステムに反映されません。"
 
 #: lib/screens/data_finance_edit_screen.dart:197
-#: lib/screens/data_medical_edit_screen.dart:353
-#: lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_medical_edit_screen.dart:354
+#: lib/screens/data_personal_edit_screen.dart:420
 msgid ""
 "You have already submitted a request, which is awaiting review by an "
 "administrator. You can still make changes below."
@@ -2007,11 +2008,11 @@ msgstr "Gibbon™ 用アプリ"
 
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
-#: lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr "任意"
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr "主"
 
@@ -2026,7 +2027,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "記録された {total} 回中 {absent} 回欠席"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "欠席 {count}人"
@@ -2052,13 +2053,13 @@ msgid_plural "{count} classes"
 msgstr[0] "{count}クラス"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "残り{count}コマ · 完了{done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "本日の授業 {count}コマ"
@@ -2102,13 +2103,13 @@ msgid_plural "{count} items"
 msgstr[0] "{count}件"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "遅刻 {count}人"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "このあと{count}コマ · 本日{total}コマ"
@@ -2158,7 +2159,7 @@ msgid_plural "{count} staff members"
 msgstr[0] "教職員 {count}人"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:222
+#: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

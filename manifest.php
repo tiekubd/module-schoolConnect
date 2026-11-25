@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.20"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -233,6 +233,15 @@ $version     = "1.16.20"; // Tracks the Flutter app's marketing version (pubspec
                           // value"). The gibbonStaff row now fills every required
                           // column, as the gibbonPerson row already did. No
                           // schema change.
+                          //
+                          // 1.16.21: attendance.php `calendar`: whether each
+                          // register was taken, by date, coloured as Gibbon's
+                          // View Daily Attendance Recent History (school days;
+                          // classes: timetabled days). For app 1.16.22's
+                          // coloured date picker and Attendance menu strips.
+                          // "Recent History" added in Romanian, Urdu and Hong
+                          // Kong Chinese, where Gibbon has none. No schema
+                          // change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

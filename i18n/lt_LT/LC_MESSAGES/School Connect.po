@@ -27,7 +27,7 @@ msgstr ""
 "Prisijungimo raktas, laikomas saugioje įrenginio saugykloje (iOS Keychain "
 "arba Android Keystore)"
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Apie programėlę ir privatumas"
@@ -57,7 +57,7 @@ msgstr "Pridėkite, redaguokite ir šalinkite nedarbo dienas"
 msgid "Add, edit, and remove user accounts"
 msgstr "Pridėkite, redaguokite ir šalinkite naudotojų paskyras"
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr "Nustato dalykų tvarką pažangos ataskaitose."
 
@@ -81,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Visi klasių srautai"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Visos šiandienos pamokos baigtos ({count})"
@@ -93,7 +93,7 @@ msgstr[2] "Visos šiandienos pamokos baigtos ({count})"
 msgid "An uppercase and a lowercase letter"
 msgstr "Didžioji ir mažoji raidė"
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr "Programėlės versija, prijungta mokykla ir Jūsų duomenys"
 
@@ -128,12 +128,12 @@ msgstr[2] "Bent {count} simbolių"
 msgid "Attendance This Year"
 msgstr "Lankomumas šiais metais"
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr "Šiandien lankomumas dar nepažymėtas"
 
-#: lib/screens/attendance_screen.dart:139
-#: lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136
+#: lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr "Lankomumas išsaugotas!"
 
@@ -149,11 +149,11 @@ msgstr[0] "Elgesio įrašai išsaugoti {count} mokiniui!"
 msgstr[1] "Elgesio įrašai išsaugoti {count} mokiniams!"
 msgstr[2] "Elgesio įrašai išsaugoti {count} mokinių!"
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr "Peržiūrėkite darbuotojų profilius"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:119
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Pagal grupę"
@@ -162,11 +162,11 @@ msgstr "Pagal grupę"
 msgid "By Date"
 msgstr "Pagal datą"
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr "Pagal grupę"
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr "Pagal mokinį"
 
@@ -178,15 +178,15 @@ msgstr ""
 "Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie duomenų "
 "atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir galite atsisakyti."
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:546
 msgid "Cancel Bookings?"
 msgstr "Atšaukti rezervacijas?"
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Classes?"
 msgstr "Atšaukti pamokas?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:545
 msgid "Cancel Staff Duty?"
 msgstr "Atšaukti darbuotojų budėjimus?"
 
@@ -198,7 +198,7 @@ msgstr "Atšaukti naują sveikatos sutrikimą"
 msgid "Cap"
 msgstr "Talp."
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr "Vardas kinų ar kitais hieroglifais"
 
@@ -206,11 +206,11 @@ msgstr "Vardas kinų ar kitais hieroglifais"
 msgid "Choose a class above"
 msgstr "Pasirinkite grupę viršuje"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:131
 msgid "Choose any Form Group"
 msgstr "Pasirinkite bet kurią klasę"
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:120
 msgid "Choose any of your classes"
 msgstr "Pasirinkite bet kurią savo grupę"
 
@@ -218,7 +218,7 @@ msgstr "Pasirinkite bet kurią savo grupę"
 msgid "Choose at least one student first"
 msgstr "Pirmiausia pasirinkite bent vieną mokinį"
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:132
 msgid "Choose one of your Form Groups"
 msgstr "Pasirinkite vieną iš savo klasių"
 
@@ -235,7 +235,7 @@ msgid "Class Roster"
 msgstr "Grupės sąrašas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:108
 msgid "Class now: {class}"
 msgstr "Dabar: {class}"
 
@@ -262,7 +262,7 @@ msgstr ""
 "pažymiams įvesti."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 msgid ""
 "Combined short name \"{name}\" is longer than 16 characters — this may cause"
 " display issues on the timetable and in dropdowns."
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Combined short name exceeds 16 characters"
 msgstr "Sujungtas trumpas pavadinimas ilgesnis nei 16 simbolių"
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr "El. pašto adresai, atskirti kableliais"
 
@@ -291,7 +291,7 @@ msgstr "Prijungta mokykla"
 msgid "Connecting..."
 msgstr "Jungiamasi..."
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr "Kontaktai"
 
@@ -368,8 +368,8 @@ msgstr "Nepavyko įkelti dalyko"
 msgid "Could not load courses"
 msgstr "Nepavyko įkelti dalykų"
 
-#: lib/screens/attendance_screen.dart:123
-#: lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120
+#: lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr "Nepavyko įkelti duomenų"
 
@@ -539,7 +539,7 @@ msgstr "Nepavyko įkelti darbuotojo duomenų"
 
 #: lib/screens/enter_marks_screen.dart:90
 #: lib/screens/enter_marks_screen.dart:97
-#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr "Nepavyko įkelti mokinių"
 
@@ -585,14 +585,14 @@ msgstr "Nepavyko pašalinti"
 msgid "Could not reset password"
 msgstr "Nepavyko atkurti slaptažodžio"
 
-#: lib/screens/attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:136
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Nepavyko išsaugoti"
 
-#: lib/screens/attendance_screen.dart:152
-#: lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149
+#: lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr "Nepavyko išsaugoti lankomumo"
 
@@ -654,7 +654,7 @@ msgstr "Sukurti susietą mokinio registraciją"
 msgid "Current year"
 msgstr "Einamieji metai"
 
-#: lib/screens/dashboard_screen.dart:401
+#: lib/screens/dashboard_screen.dart:423
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Pradžia"
@@ -717,7 +717,7 @@ msgstr "Terminas"
 msgid "Due date and details are required."
 msgstr "Būtina nurodyti terminą ir aprašymą."
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr "Redaguojamas"
 
@@ -725,7 +725,7 @@ msgstr "Redaguojamas"
 msgid "Email: Must be unique"
 msgstr "El. paštas: turi būti unikalus"
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr "Klasių srautai, į kuriuos galima registruoti"
 
@@ -733,7 +733,7 @@ msgstr "Klasių srautai, į kuriuos galima registruoti"
 msgid "Enroll existing students into the active school year"
 msgstr "Registruokite esamus mokinius į einamuosius mokslo metus"
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr "Pavardė, kaip nurodyta asmens dokumente"
 
@@ -750,7 +750,7 @@ msgstr "Filtruoti pagal klasių srautą"
 msgid "First Name *"
 msgstr "Vardas *"
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr "Vardas, kaip nurodyta asmens dokumente"
 
@@ -771,7 +771,7 @@ msgstr "Iš grupės lankomumo"
 msgid "From the form group register"
 msgstr "Iš klasės lankomumo"
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr "Vardas ir pavardė, kaip nurodyta asmens dokumente"
 
@@ -797,13 +797,13 @@ msgstr ""
 "Prisijungimas per Google, tik jei Jūsų mokykla jį naudoja ir Jūs jį "
 "pasirenkate"
 
-#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/dashboard_screen.dart:880
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Pažymiai"
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr "Pažymiai, pastangos ir komentarai jūsų grupėms"
 
@@ -906,19 +906,19 @@ msgstr ""
 msgid "Large photos"
 msgstr "Didelės nuotraukos"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr "Paskutinės 10 mokslo dienų"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr "Paskutinės 10 mokslo dienų — pagal pamokas"
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr "Paskutinės 20 mokslo dienų"
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr "Paskutinė dienos pamoka"
 
@@ -948,7 +948,7 @@ msgstr "Matoma nuo {date}"
 msgid "Live since {date}"
 msgstr "Matoma nuo {date}"
 
-#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/dashboard_screen.dart:764
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Įrašyti elgesį"
@@ -957,7 +957,7 @@ msgstr "Įrašyti elgesį"
 msgid "Logged in as"
 msgstr "Prisijungta kaip"
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr "Tvarkykite naudotojus ir mokyklos nustatymus"
 
@@ -965,11 +965,11 @@ msgstr "Tvarkykite naudotojus ir mokyklos nustatymus"
 msgid "Mark all read"
 msgstr "Pažymėti visus kaip perskaitytus"
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr "Pažymėti kaip atliktą"
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr "Pažymėti šiandienos lankomumą"
 
@@ -977,7 +977,7 @@ msgstr "Pažymėti šiandienos lankomumą"
 msgid "Mark read"
 msgstr "Pažymėti kaip perskaitytą"
 
-#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/dashboard_screen.dart:776
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Bendras tvarkaraštis"
@@ -986,8 +986,8 @@ msgstr "Bendras tvarkaraštis"
 msgid "Must be unique if set"
 msgstr "Jei nurodytas, turi būti unikalus"
 
-#: lib/screens/dashboard_screen.dart:1093
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:1109
+#: lib/screens/dashboard_screen.dart:869
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Mano klasės"
@@ -1002,8 +1002,8 @@ msgid "Name and Short Name are required"
 msgstr "Būtina nurodyti pavadinimą ir trumpą pavadinimą"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Kita pamoka: {class}"
 
@@ -1019,7 +1019,7 @@ msgstr "Be ugdymo srities"
 msgid "No activities on record"
 msgstr "Būrelių nėra"
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr "Susietų suaugusiųjų nėra"
 
@@ -1035,7 +1035,7 @@ msgstr ""
 msgid "No children found"
 msgstr "Vaikų nerasta"
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr "Susietų vaikų nėra"
 
@@ -1043,7 +1043,7 @@ msgstr "Susietų vaikų nėra"
 msgid "No children linked to this account"
 msgstr "Su šia paskyra nesusietas joks vaikas"
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr "Pamokos nėra"
 
@@ -1061,7 +1061,7 @@ msgstr "Šiandien šiame kabinete pamokų nėra"
 msgid "No classes scheduled"
 msgstr "Suplanuotų pamokų nėra"
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr "Šiandien suplanuotų pamokų nėra"
 
@@ -1110,8 +1110,8 @@ msgstr "Šeimos įrašas nerastas"
 msgid "No grades available"
 msgstr "Pažymių nėra"
 
-#: lib/screens/class_detail_screen.dart:131
-#: lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135
+#: lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr "Istorijos nėra"
 
@@ -1169,7 +1169,7 @@ msgstr "Darbuotojų nerasta"
 msgid "No students enrolled this year"
 msgstr "Šiais metais užregistruotų mokinių nėra"
 
-#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/form_group_detail_screen.dart:232
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
@@ -1187,7 +1187,7 @@ msgstr "Tvarkaraščio duomenų nerasta"
 msgid "No timetable for this day"
 msgstr "Šiai dienai tvarkaraščio nėra"
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr "Šiandienai tvarkaraščio nėra"
 
@@ -1241,7 +1241,7 @@ msgstr ""
 "Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne "
 "išsaugotas lankomumas."
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:98
 msgid "Not taken yet today"
 msgstr "Šiandien dar nepažymėta"
 
@@ -1403,7 +1403,7 @@ msgstr "Kreipinio vardas *"
 msgid "Primary Role *"
 msgstr "Pagrindinis vaidmuo *"
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr "1 prioriteto kontaktai visada gauna visų tipų pranešimus."
 
@@ -1411,7 +1411,7 @@ msgstr "1 prioriteto kontaktai visada gauna visų tipų pranešimus."
 msgid "Qualified"
 msgstr "Kvalifikuotas"
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr "Greita prieiga"
 
@@ -1423,8 +1423,8 @@ msgstr "Skaityti visą privatumo politiką"
 msgid "Receipt ID"
 msgstr "Kvito numeris"
 
-#: lib/screens/class_detail_screen.dart:122
-#: lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "Naujausias lankomumas"
 
@@ -1539,7 +1539,7 @@ msgstr ""
 "prie Jūsų mokyklos Gibbon serverio šifruotu (HTTPS) ryšiu. High Point "
 "Education šios informacijos negauna, nesaugo ir nemato."
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:534
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1547,7 +1547,7 @@ msgstr ""
 "Mokyklos atidarymo, pamokų pradžios, pabaigos ir uždarymo laikas čia "
 "nenustatomas — užbaikite tai svetainėje."
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr "Ieškokite ir peržiūrėkite mokinių profilius"
 
@@ -1591,7 +1591,7 @@ msgid "Search rooms..."
 msgstr "Ieškoti kabinetų..."
 
 #: lib/screens/enter_marks_screen.dart:197
-#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/form_group_detail_screen.dart:211
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "Ieškoti mokinių..."
@@ -1636,7 +1636,7 @@ msgstr "Darbuotojo įrašas sukurtas"
 msgid "Student *"
 msgstr "Mokinys *"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr "Mokinių sąrašas"
 
@@ -1675,28 +1675,29 @@ msgstr "Pateikta"
 msgid "Surname *"
 msgstr "Pavardė *"
 
-#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/dashboard_screen.dart:467
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Keisti vaidmenį"
 
-#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/dashboard_screen.dart:473
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "Keisti mokslo metus"
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:109
 msgid "Take attendance for this class"
 msgstr "Pažymėti šios grupės lankomumą"
 
-#: lib/screens/class_detail_screen.dart:194
-#: lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198
+#: lib/screens/form_group_detail_screen.dart:169
+#: lib/screens/register_calendar.dart:222
 msgid "Taken"
 msgstr "Pažymėta"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 msgid "Taken at {time}"
 msgstr "Pažymėta {time}"
 
@@ -1706,7 +1707,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Pažymėta {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:97
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
 "Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte"
@@ -1733,7 +1734,7 @@ msgstr ""
 msgid "The mark works out to {grade}"
 msgstr "Tai atitinka {grade}"
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr "Tvarka, kuria mokykla turi kreiptis į šeimos narius."
 
@@ -1746,7 +1747,7 @@ msgstr "Šio asmens naudotojo paskyra nepaveikiama."
 msgid "There are no messages to display."
 msgstr "Žinučių nėra."
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:542
 msgid "This affects the timetable:"
 msgstr "Tai paveikia tvarkaraštį:"
 
@@ -1767,7 +1768,7 @@ msgid "This cannot be undone."
 msgstr "To atšaukti negalima."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1805,21 +1806,21 @@ msgstr ""
 "Bus pašalinti visi šios grupės registracijos ir tvarkaraščio duomenys. To "
 "atšaukti negalima."
 
-#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/dashboard_screen.dart:785
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Tvarkaraštis pagal kabinetą"
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr "Šiandienos tvarkaraštis"
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr "Bandomoji prieiga"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Bandomasis laikotarpis — liko {count} diena"
@@ -1847,7 +1848,7 @@ msgstr "Būtina nurodyti tipą ir pavadinimą"
 msgid "Type at least 2 characters"
 msgstr "Įveskite bent 2 simbolius"
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr "Tipas, šalies kodas, numeris"
 
@@ -1931,7 +1932,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Peržiūrėti lankomumą"
 
-#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Peržiūrėti visą tvarkaraštį"
@@ -1948,11 +1949,11 @@ msgstr "Peržiūrėti namų darbų kalendorių"
 msgid "View Timetable"
 msgstr "Peržiūrėti tvarkaraštį"
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr "Peržiūrėkite ir tvarkykite klases"
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr "Peržiūrėti grupės pažymius"
 
@@ -1960,7 +1961,7 @@ msgstr "Peržiūrėti grupės pažymius"
 msgid "View families, contacts, and children"
 msgstr "Peržiūrėkite šeimas, kontaktus ir vaikus"
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr "Peržiūrėti šios grupės pamokų planus"
 
@@ -1968,15 +1969,15 @@ msgstr "Peržiūrėti šios grupės pamokų planus"
 msgid "View photo"
 msgstr "Peržiūrėti nuotrauką"
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr "Peržiūrėti šios grupės mokinius"
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr "Peržiūrėkite savo pažymius"
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr "Peržiūrėkite savo pažangos ataskaitas"
 
@@ -1990,7 +1991,7 @@ msgid "Virtual Classroom"
 msgstr "Virtuali klasė"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 msgid "Welcome, {name}!"
 msgstr "Sveiki, {name}!"
 
@@ -2007,7 +2008,7 @@ msgstr "Ką programėlė saugo šiame įrenginyje"
 msgid "Year Group *"
 msgstr "Klasių srautas *"
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:533
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2045,8 +2046,8 @@ msgstr ""
 "apdorojus prašymą."
 
 #: lib/screens/data_finance_edit_screen.dart:197
-#: lib/screens/data_medical_edit_screen.dart:353
-#: lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_medical_edit_screen.dart:354
+#: lib/screens/data_personal_edit_screen.dart:420
 msgid ""
 "You have already submitted a request, which is awaiting review by an "
 "administrator. You can still make changes below."
@@ -2100,11 +2101,11 @@ msgstr "programėlė Gibbon™ sistemai"
 
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
-#: lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr "neprivaloma"
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr "pagrindinis"
 
@@ -2119,7 +2120,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "Praleista {absent} iš {total} pažymėtų pamokų"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} nedalyvauja"
@@ -2153,7 +2154,7 @@ msgstr[1] "{count} grupės"
 msgstr[2] "{count} grupių"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "Liko {count} pamoka · baigta: {done}"
@@ -2161,7 +2162,7 @@ msgstr[1] "Liko {count} pamokos · baigta: {done}"
 msgstr[2] "Liko {count} pamokų · baigta: {done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "Šiandien {count} pamoka"
@@ -2219,7 +2220,7 @@ msgstr[1] "{count} elementai"
 msgstr[2] "{count} elementų"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} vėluoja"
@@ -2227,7 +2228,7 @@ msgstr[1] "{count} vėluoja"
 msgstr[2] "{count} vėluoja"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Po šios dar {count} pamoka · iš viso šiandien: {total}"
@@ -2289,7 +2290,7 @@ msgstr[1] "{count} darbuotojai"
 msgstr[2] "{count} darbuotojų"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:222
+#: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

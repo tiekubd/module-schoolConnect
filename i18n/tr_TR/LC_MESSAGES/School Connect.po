@@ -27,7 +27,7 @@ msgstr ""
 "Cihazın güvenli depolama alanında (iOS Anahtar Zinciri veya Android "
 "Keystore) saklanan bir oturum anahtarı"
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Hakkında ve Gizlilik"
@@ -57,7 +57,7 @@ msgstr "Tatilleri ekleyin, düzenleyin ve kaldırın"
 msgid "Add, edit, and remove user accounts"
 msgstr "Kullanıcı hesaplarını ekleyin, düzenleyin ve kaldırın"
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr "Derslerin karnedeki sırasını ayarlar."
 
@@ -81,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Tüm Sınıf Düzeyleri"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Bugünkü {count} ders tamamlandı"
@@ -92,7 +92,7 @@ msgstr[1] "Bugünkü {count} dersin tamamı bitti"
 msgid "An uppercase and a lowercase letter"
 msgstr "Bir büyük ve bir küçük harf"
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr "Uygulama sürümü, bağlı okul ve verileriniz"
 
@@ -126,12 +126,12 @@ msgstr[1] "En az {count} karakter"
 msgid "Attendance This Year"
 msgstr "Bu Yılki Yoklama"
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr "Bugün henüz yoklama alınmadı"
 
-#: lib/screens/attendance_screen.dart:139
-#: lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136
+#: lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr "Yoklama kaydedildi!"
 
@@ -146,11 +146,11 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "{count} öğrenci için davranış kaydı kaydedildi!"
 msgstr[1] "{count} öğrenci için davranış kayıtları kaydedildi!"
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr "Personel profillerine göz atın"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:119
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Sınıfa Göre"
@@ -159,11 +159,11 @@ msgstr "Sınıfa Göre"
 msgid "By Date"
 msgstr "Tarihe Göre"
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr "Sınıfa göre"
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr "Öğrenciye göre"
 
@@ -175,15 +175,15 @@ msgstr ""
 "Kamera ve fotoğraflar: yalnızca bir veri güncelleme talebine fotoğraf "
 "eklemeyi seçtiğinizde. Uygulama önce izin ister ve reddedebilirsiniz."
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:546
 msgid "Cancel Bookings?"
 msgstr "Rezervasyonlar iptal edilsin mi?"
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:543
 msgid "Cancel Classes?"
 msgstr "Dersler iptal edilsin mi?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:545
 msgid "Cancel Staff Duty?"
 msgstr "Personel nöbetleri iptal edilsin mi?"
 
@@ -195,7 +195,7 @@ msgstr "Yeni durumu iptal et"
 msgid "Cap"
 msgstr "Kap."
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr "Çince veya başka bir karakter tabanlı yazıdaki ad"
 
@@ -203,11 +203,11 @@ msgstr "Çince veya başka bir karakter tabanlı yazıdaki ad"
 msgid "Choose a class above"
 msgstr "Yukarıdan bir sınıf seçin"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:131
 msgid "Choose any Form Group"
 msgstr "Herhangi bir şube seçin"
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:120
 msgid "Choose any of your classes"
 msgstr "Sınıflarınızdan birini seçin"
 
@@ -215,7 +215,7 @@ msgstr "Sınıflarınızdan birini seçin"
 msgid "Choose at least one student first"
 msgstr "Önce en az bir öğrenci seçin"
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:132
 msgid "Choose one of your Form Groups"
 msgstr "Şubelerinizden birini seçin"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Sınıf Listesi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:108
 msgid "Class now: {class}"
 msgstr "Şu anki ders: {class}"
 
@@ -259,7 +259,7 @@ msgstr ""
 " sütun seçin."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 msgid ""
 "Combined short name \"{name}\" is longer than 16 characters — this may cause"
 " display issues on the timetable and in dropdowns."
@@ -271,7 +271,7 @@ msgstr ""
 msgid "Combined short name exceeds 16 characters"
 msgstr "Birleşik kısa ad 16 karakteri aşıyor"
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr "Virgülle ayrılmış e-posta adresleri listesi"
 
@@ -287,7 +287,7 @@ msgstr "Bağlı okul"
 msgid "Connecting..."
 msgstr "Bağlanıyor…"
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr "İletişim Bilgileri"
 
@@ -364,8 +364,8 @@ msgstr "Ders yüklenemedi"
 msgid "Could not load courses"
 msgstr "Dersler yüklenemedi"
 
-#: lib/screens/attendance_screen.dart:123
-#: lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120
+#: lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr "Veriler yüklenemedi"
 
@@ -535,7 +535,7 @@ msgstr "Personel verileri yüklenemedi"
 
 #: lib/screens/enter_marks_screen.dart:90
 #: lib/screens/enter_marks_screen.dart:97
-#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr "Öğrenciler yüklenemedi"
 
@@ -581,14 +581,14 @@ msgstr "Kaldırılamadı"
 msgid "Could not reset password"
 msgstr "Şifre sıfırlanamadı"
 
-#: lib/screens/attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:136
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Kaydedilemedi"
 
-#: lib/screens/attendance_screen.dart:152
-#: lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149
+#: lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr "Yoklama kaydedilemedi"
 
@@ -650,7 +650,7 @@ msgstr "Bağlantılı öğrenci kaydı oluştur"
 msgid "Current year"
 msgstr "Geçerli yıl"
 
-#: lib/screens/dashboard_screen.dart:401
+#: lib/screens/dashboard_screen.dart:423
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Ana Panel"
@@ -711,7 +711,7 @@ msgstr "Teslim"
 msgid "Due date and details are required."
 msgstr "Teslim tarihi ve ayrıntılar zorunludur."
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr "Düzenlenebilir"
 
@@ -719,7 +719,7 @@ msgstr "Düzenlenebilir"
 msgid "Email: Must be unique"
 msgstr "E-posta: benzersiz olmalıdır"
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr "Kayda Açık Sınıf Düzeyleri"
 
@@ -727,7 +727,7 @@ msgstr "Kayda Açık Sınıf Düzeyleri"
 msgid "Enroll existing students into the active school year"
 msgstr "Mevcut öğrencileri etkin eğitim öğretim yılına kaydedin"
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr "Kimlik belgesinde yazan soyadı"
 
@@ -743,7 +743,7 @@ msgstr "Sınıf Düzeyine Göre Filtrele"
 msgid "First Name *"
 msgstr "Ad *"
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr "Kimlik belgesinde yazan ad"
 
@@ -764,7 +764,7 @@ msgstr "Bir sınıfın yoklamasından"
 msgid "From the form group register"
 msgstr "Şube yoklamasından"
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr "Kimlik belgesinde yazan tam ad"
 
@@ -789,13 +789,13 @@ msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr ""
 "Google ile oturum açma, yalnızca okulunuz kullanıyorsa ve siz seçerseniz"
 
-#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/dashboard_screen.dart:880
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Notlar"
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr "Sınıflarınız için notlar, çaba ve yorumlar"
 
@@ -898,19 +898,19 @@ msgstr "Sanal Derse Katıl düğmesi ders programında ve planlayıcıda görün
 msgid "Large photos"
 msgstr "Büyük fotoğraflar"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr "Son 10 okul günü"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr "Son 10 okul günü — ders saatine göre"
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr "Son 20 okul günü"
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr "Günün son dersi"
 
@@ -940,7 +940,7 @@ msgstr "{date} tarihinden itibaren görünür"
 msgid "Live since {date}"
 msgstr "{date} tarihinden beri görünür"
 
-#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/dashboard_screen.dart:764
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Davranış Kaydet"
@@ -949,7 +949,7 @@ msgstr "Davranış Kaydet"
 msgid "Logged in as"
 msgstr "Oturum açan"
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr "Kullanıcıları ve okul ayarlarını yönetin"
 
@@ -957,11 +957,11 @@ msgstr "Kullanıcıları ve okul ayarlarını yönetin"
 msgid "Mark all read"
 msgstr "Tümünü okundu işaretle"
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr "Tamamlandı olarak işaretle"
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr "Bugünün yoklamasını alın"
 
@@ -969,7 +969,7 @@ msgstr "Bugünün yoklamasını alın"
 msgid "Mark read"
 msgstr "Okundu işaretle"
 
-#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/dashboard_screen.dart:776
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Genel Ders Programı"
@@ -978,8 +978,8 @@ msgstr "Genel Ders Programı"
 msgid "Must be unique if set"
 msgstr "Girilirse benzersiz olmalıdır"
 
-#: lib/screens/dashboard_screen.dart:1093
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:1109
+#: lib/screens/dashboard_screen.dart:869
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Şubelerim"
@@ -994,8 +994,8 @@ msgid "Name and Short Name are required"
 msgstr "Ad ve kısa ad zorunludur"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Sonraki ders: {class}"
 
@@ -1011,7 +1011,7 @@ msgstr "Öğrenme Alanı Yok"
 msgid "No activities on record"
 msgstr "Kayıtlı etkinlik yok"
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr "Bağlı yetişkin yok"
 
@@ -1027,7 +1027,7 @@ msgstr ""
 msgid "No children found"
 msgstr "Çocuk bulunamadı"
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr "Bağlı çocuk yok"
 
@@ -1035,7 +1035,7 @@ msgstr "Bağlı çocuk yok"
 msgid "No children linked to this account"
 msgstr "Bu hesaba bağlı çocuk yok"
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr "Sınıf yok"
 
@@ -1053,7 +1053,7 @@ msgstr "Bugün bu derslikte ders yok"
 msgid "No classes scheduled"
 msgstr "Planlanmış ders yok"
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr "Bugün planlanmış ders yok"
 
@@ -1102,8 +1102,8 @@ msgstr "Aile kaydı bulunamadı"
 msgid "No grades available"
 msgstr "Not yok"
 
-#: lib/screens/class_detail_screen.dart:131
-#: lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135
+#: lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr "Geçmiş yok"
 
@@ -1161,7 +1161,7 @@ msgstr "Personel bulunamadı"
 msgid "No students enrolled this year"
 msgstr "Bu yıl kayıtlı öğrenci yok"
 
-#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/form_group_detail_screen.dart:232
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
@@ -1179,7 +1179,7 @@ msgstr "Ders programı verisi bulunamadı"
 msgid "No timetable for this day"
 msgstr "Bu gün için ders programı yok"
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr "Bugün için ders programı yok"
 
@@ -1233,7 +1233,7 @@ msgstr ""
 "Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, "
 "kaydedilmiş yoklama değil."
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:98
 msgid "Not taken yet today"
 msgstr "Bugün henüz alınmadı"
 
@@ -1397,7 +1397,7 @@ msgstr "Tercih Edilen Ad *"
 msgid "Primary Role *"
 msgstr "Birincil Rol *"
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr "Öncelik 1 kişileri her zaman tüm iletişim türlerini alır."
 
@@ -1405,7 +1405,7 @@ msgstr "Öncelik 1 kişileri her zaman tüm iletişim türlerini alır."
 msgid "Qualified"
 msgstr "Yeterli"
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr "Hızlı Erişim"
 
@@ -1417,8 +1417,8 @@ msgstr "Gizlilik politikasının tamamını okuyun"
 msgid "Receipt ID"
 msgstr "Makbuz No"
 
-#: lib/screens/class_detail_screen.dart:122
-#: lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "Son Yoklamalar"
 
@@ -1532,7 +1532,7 @@ msgstr ""
 "okulunuzun Gibbon sunucusuna bağlanır. High Point Education bu bilgileri "
 "almaz, saklamaz veya görmez."
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:534
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1540,7 +1540,7 @@ msgstr ""
 "Okulun açılış, başlangıç, bitiş ve kapanış saatleri burada ayarlanmaz — bu "
 "ayrıntıları web sitesinde tamamlayın."
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr "Öğrenci profillerini arayın ve görüntüleyin"
 
@@ -1584,7 +1584,7 @@ msgid "Search rooms..."
 msgstr "Derslik ara…"
 
 #: lib/screens/enter_marks_screen.dart:197
-#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/form_group_detail_screen.dart:211
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "Öğrenci ara…"
@@ -1629,7 +1629,7 @@ msgstr "Personel kaydı oluşturuldu"
 msgid "Student *"
 msgstr "Öğrenci *"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr "Öğrenci Listesi"
 
@@ -1672,28 +1672,29 @@ msgstr "Gönderildi"
 msgid "Surname *"
 msgstr "Soyadı *"
 
-#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/dashboard_screen.dart:467
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Rol Değiştir"
 
-#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/dashboard_screen.dart:473
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "Eğitim Öğretim Yılını Değiştir"
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:109
 msgid "Take attendance for this class"
 msgstr "Bu sınıfın yoklamasını alın"
 
-#: lib/screens/class_detail_screen.dart:194
-#: lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198
+#: lib/screens/form_group_detail_screen.dart:169
+#: lib/screens/register_calendar.dart:222
 msgid "Taken"
 msgstr "Alındı"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 msgid "Taken at {time}"
 msgstr "{time} saatinde alındı"
 
@@ -1703,7 +1704,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Yoklama {time} saatinde {name} tarafından alındı"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:97
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
 "Bugün {time} saatinde alındı. Gözden geçirmek veya değiştirmek için dokunun"
@@ -1730,7 +1731,7 @@ msgstr ""
 msgid "The mark works out to {grade}"
 msgstr "Karşılığı: {grade}"
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr "Okulun aile üyeleriyle iletişime geçme sırası."
 
@@ -1743,7 +1744,7 @@ msgstr "Kişinin kullanıcı hesabı etkilenmez."
 msgid "There are no messages to display."
 msgstr "Gösterilecek mesaj yok."
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:542
 msgid "This affects the timetable:"
 msgstr "Bu, ders programını etkiler:"
 
@@ -1764,7 +1765,7 @@ msgid "This cannot be undone."
 msgstr "Bu işlem geri alınamaz."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1802,21 +1803,21 @@ msgstr ""
 "Bu işlem bu sınıfın tüm kayıt ve ders programı verilerini siler. Geri "
 "alınamaz."
 
-#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/dashboard_screen.dart:785
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Mekâna Göre Ders Programı"
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr "Bugünün Ders Programı"
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr "Deneme erişimi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Deneme süresi — {count} gün kaldı"
@@ -1843,7 +1844,7 @@ msgstr "Tür ve ad zorunludur"
 msgid "Type at least 2 characters"
 msgstr "En az 2 karakter yazın"
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr "Tür, ülke kodu, numara"
 
@@ -1928,7 +1929,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Yoklamayı Görüntüle"
 
-#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Tüm Ders Programını Görüntüle"
@@ -1945,11 +1946,11 @@ msgstr "Ödev Takvimini Görüntüle"
 msgid "View Timetable"
 msgstr "Ders Programını Görüntüle"
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr "Şubeleri görüntüleyin ve yönetin"
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr "Sınıf notlarını görüntüleyin"
 
@@ -1957,7 +1958,7 @@ msgstr "Sınıf notlarını görüntüleyin"
 msgid "View families, contacts, and children"
 msgstr "Aileleri, iletişim kişilerini ve çocukları görüntüleyin"
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr "Bu sınıfın ders planlarını görüntüleyin"
 
@@ -1965,15 +1966,15 @@ msgstr "Bu sınıfın ders planlarını görüntüleyin"
 msgid "View photo"
 msgstr "Fotoğrafı göster"
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr "Bu sınıftaki öğrencileri görüntüleyin"
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr "Notlarınızı görüntüleyin"
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr "Karnelerinizi görüntüleyin"
 
@@ -1987,7 +1988,7 @@ msgid "Virtual Classroom"
 msgstr "Sanal Sınıf"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 msgid "Welcome, {name}!"
 msgstr "Hoş geldiniz, {name}!"
 
@@ -2004,7 +2005,7 @@ msgstr "Uygulamanın bu cihazda sakladıkları"
 msgid "Year Group *"
 msgstr "Sınıf Düzeyi *"
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:533
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2042,8 +2043,8 @@ msgstr ""
 " görünmez."
 
 #: lib/screens/data_finance_edit_screen.dart:197
-#: lib/screens/data_medical_edit_screen.dart:353
-#: lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_medical_edit_screen.dart:354
+#: lib/screens/data_personal_edit_screen.dart:420
 msgid ""
 "You have already submitted a request, which is awaiting review by an "
 "administrator. You can still make changes below."
@@ -2097,11 +2098,11 @@ msgstr "Gibbon™ için bir uygulama"
 
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
-#: lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr "isteğe bağlı"
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr "birincil"
 
@@ -2116,7 +2117,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "Kaydedilen {total} dersin {absent} tanesinde devamsız"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} devamsız"
@@ -2146,14 +2147,14 @@ msgstr[0] "{count} sınıf"
 msgstr[1] "{count} sınıf"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "{count} ders kaldı · {done} bitti"
 msgstr[1] "{count} ders kaldı · {done} bitti"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "Bugün {count} ders"
@@ -2204,14 +2205,14 @@ msgstr[0] "{count} öğe"
 msgstr[1] "{count} öğe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} geç"
 msgstr[1] "{count} geç"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Bundan sonra {count} ders daha · bugün {total}"
@@ -2267,7 +2268,7 @@ msgstr[0] "{count} personel"
 msgstr[1] "{count} personel"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:222
+#: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"
