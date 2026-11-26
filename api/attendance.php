@@ -273,6 +273,88 @@ function gibbonConnectLastSchoolDays(PDO $pdo, $schoolYearID, string $until, int
     return array_slice(array_values(array_filter($dates, fn($d) => isset($open[$d]))), 0, $n);
 }
 
+/** Today's In / Out counts for a register: each student's latest mark in it that day. */
+function gibbonConnectRegisterInOut(PDO $pdo, string $context, string $groupColumn, $id, string $date): array
+{
+    $stmt = $pdo->prepare("SELECT l.direction, COUNT(*) AS n FROM gibbonAttendanceLogPerson l
+        WHERE l.context = ? AND l.$groupColumn = ? AND l.date = ?
+        AND l.gibbonAttendanceLogPersonID = (SELECT MAX(l2.gibbonAttendanceLogPersonID) FROM gibbonAttendanceLogPerson l2
+            WHERE l2.gibbonPersonID = l.gibbonPersonID AND l2.context = l.context AND l2.$groupColumn = l.$groupColumn AND l2.date = l.date)
+        GROUP BY l.direction");
+    $stmt->execute([$context, $id, $date]);
+    $in = 0; $out = 0;
+    foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $r) {
+        if ($r['direction'] === 'Out') $out += (int) $r['n']; else $in += (int) $r['n'];
+    }
+    return [$in, $out];
+}
+
+/** View Daily Attendance for $authUser on $today (see the daily_overview action). */
+function gibbonConnectDailyOverview(PDO $pdo, array $authUser, string $today): array
+{
+    $access = gibbonConnectAttendanceAccess($pdo, $authUser);
+    $yearID = $authUser['schoolYearID'] ?? null;
+    $pid = $authUser['personID'];
+    $days = gibbonConnectLastSchoolDays($pdo, $yearID, $today, 10);
+    $open = isset(gibbonConnectOpenDates($pdo, $yearID, [$today])[$today]);
+    $history = function (string $type, $id) use ($pdo, $yearID, $days) {
+        $cal = gibbonConnectRegisterCalendar($pdo, $yearID, $type, $id, $days);
+        $out = [];
+        foreach (array_reverse($days) as $d) $out[] = ['date' => $d, 'status' => $cal[$d]];
+        return $out;
+    };
+
+    $fgStmt = $pdo->prepare("SELECT gibbonFormGroupID, name, nameShort FROM gibbonFormGroup
+        WHERE gibbonSchoolYearID = ? AND attendance = 'Y'
+        AND (gibbonPersonIDTutor = ? OR gibbonPersonIDTutor2 = ? OR gibbonPersonIDTutor3 = ?)
+        ORDER BY LENGTH(name), name");
+    $fgStmt->execute([$yearID, $pid, $pid, $pid]);
+    $takenFG = $pdo->prepare("SELECT 1 FROM gibbonAttendanceLogFormGroup WHERE gibbonFormGroupID = ? AND date = ? LIMIT 1");
+    $formGroups = [];
+    foreach ($fgStmt->fetchAll(PDO::FETCH_ASSOC) as $fg) {
+        $takenFG->execute([$fg['gibbonFormGroupID'], $today]);
+        $taken = (bool) $takenFG->fetchColumn();
+        [$in, $out] = $taken ? gibbonConnectRegisterInOut($pdo, 'Form Group', 'gibbonFormGroupID', $fg['gibbonFormGroupID'], $today) : [null, null];
+        $formGroups[] = $fg + [
+            'history' => $history('formGroup', $fg['gibbonFormGroupID']),
+            'today' => $taken ? 'taken' : 'not taken',
+            'in' => $in, 'out' => $out,
+            'canTake' => gibbonConnectCanTakeFormGroup($access, $fg['gibbonFormGroupID']),
+        ];
+    }
+
+    $clStmt = $pdo->prepare("SELECT gibbonCourseClass.gibbonCourseClassID, gibbonCourse.nameShort AS course,
+            gibbonCourse.name AS courseName, gibbonCourseClass.nameShort AS class
+        FROM gibbonCourseClassPerson
+        JOIN gibbonCourseClass ON (gibbonCourseClass.gibbonCourseClassID = gibbonCourseClassPerson.gibbonCourseClassID)
+        JOIN gibbonCourse ON (gibbonCourse.gibbonCourseID = gibbonCourseClass.gibbonCourseID)
+        WHERE gibbonCourse.gibbonSchoolYearID = ? AND gibbonCourseClassPerson.gibbonPersonID = ?
+        AND NOT gibbonCourseClassPerson.role LIKE '% - Left%' AND gibbonCourseClass.attendance = 'Y'
+        AND (SELECT COUNT(*) FROM gibbonCourseClassPerson s WHERE s.role = 'Student'
+             AND s.gibbonCourseClassID = gibbonCourseClass.gibbonCourseClassID) > 0
+        GROUP BY gibbonCourseClass.gibbonCourseClassID
+        ORDER BY course, class");
+    $clStmt->execute([$yearID, $pid]);
+    $takenCL = $pdo->prepare("SELECT 1 FROM gibbonAttendanceLogCourseClass WHERE gibbonCourseClassID = ? AND date = ? LIMIT 1");
+    $ttToday = $pdo->prepare("SELECT 1 FROM gibbonTTDayRowClass JOIN gibbonTTDayDate ON (gibbonTTDayDate.gibbonTTDayID = gibbonTTDayRowClass.gibbonTTDayID)
+        WHERE gibbonTTDayRowClass.gibbonCourseClassID = ? AND gibbonTTDayDate.date = ? LIMIT 1");
+    $classes = [];
+    foreach ($clStmt->fetchAll(PDO::FETCH_ASSOC) as $c) {
+        $id = $c['gibbonCourseClassID'];
+        $takenCL->execute([$id, $today]); $taken = (bool) $takenCL->fetchColumn();
+        $ttToday->execute([$id, $today]); $scheduled = (bool) $ttToday->fetchColumn();
+        [$in, $out] = $taken ? gibbonConnectRegisterInOut($pdo, 'Class', 'gibbonCourseClassID', $id, $today) : [null, null];
+        $classes[] = $c + [
+            'history' => $history('class', $id),
+            'today' => $scheduled ? ($taken ? 'taken' : 'not taken') : ($taken ? 'not timetabled' : null),
+            'in' => $in, 'out' => $out,
+            'canTake' => $access['class'],
+        ];
+    }
+
+    return ['date' => $today, 'schoolOpen' => $open, 'formGroups' => $formGroups, 'classes' => $classes];
+}
+
 function gibbonConnectLogAttendance(PDO $pdo, $takerID, string $context, $id, string $date, int $count): void
 {
     try {
@@ -316,6 +398,25 @@ try {
     // falls back to the role names it used before.
     if ($action === 'access') {
         echo json_encode(['success' => true] + gibbonConnectAttendanceAccess($pdo, $authUser));
+        exit;
+    }
+
+    // ── DAILY OVERVIEW (module 1.16.21+) ──────────────────────────────────
+    // The app's version of Gibbon core v30's View Daily Attendance
+    // (modules/Attendance/attendance.php) for the signed-in person, today:
+    //   formGroups  groups they tutor this year that take attendance
+    //   classes     classes they're in this year (any role but "... - Left")
+    //               that take attendance and have students
+    // Each with: the last 10 school days (as `calendar`), today's status and
+    // In / Out counts. Today, as core:
+    //   form group  'taken' | 'not taken'
+    //   class       'taken' | 'not taken' when timetabled today;
+    //               'not timetabled' when taken although not timetabled;
+    //               null otherwise
+    // canTake: whether this person may take that register (their Attendance
+    // permissions), so the app links only those.
+    if ($action === 'daily_overview') {
+        echo json_encode(['success' => true] + gibbonConnectDailyOverview($pdo, $authUser, date('Y-m-d')));
         exit;
     }
 

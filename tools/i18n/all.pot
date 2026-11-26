@@ -60,7 +60,7 @@ msgstr ""
 msgid "Add Participant"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:482
+#: lib/screens/special_days_screen.dart:488
 msgid "Add Special Day"
 msgstr ""
 
@@ -222,7 +222,7 @@ msgstr[1] ""
 msgid "Attainment"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:141 lib/screens/attendance_screen.dart:178 lib/screens/dashboard_screen.dart:698
+#: lib/screens/attendance_menu_screen.dart:219 lib/screens/attendance_screen.dart:178 lib/screens/dashboard_screen.dart:698
 msgid "Attendance"
 msgstr ""
 
@@ -273,7 +273,7 @@ msgstr ""
 msgid "Browse staff profiles"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:119 lib/screens/planner_list_screen.dart:130
+#: lib/screens/attendance_menu_screen.dart:111 lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgstr ""
 msgid "By Date"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:129
+#: lib/screens/attendance_menu_screen.dart:119
 msgid "By Form Group"
 msgstr ""
 
@@ -313,19 +313,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:550
 msgid "Cancel Activities?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr ""
 
@@ -365,11 +365,11 @@ msgstr ""
 msgid "Choose a class above"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr ""
 
@@ -377,7 +377,7 @@ msgstr ""
 msgid "Choose at least one student first"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr ""
 
@@ -401,7 +401,7 @@ msgstr ""
 msgid "Class Roster"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 #. Keep {placeholders} exactly as they are.
 msgid "Class now: {class}"
 msgstr ""
@@ -788,7 +788,7 @@ msgstr ""
 msgid "Could not load settings"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr ""
 
@@ -804,7 +804,7 @@ msgstr ""
 msgid "Could not load students"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr ""
 
@@ -989,7 +989,7 @@ msgstr ""
 msgid "Delete Course"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr ""
 
@@ -1005,7 +1005,7 @@ msgstr ""
 msgid "Departure Reason"
 msgstr ""
 
-#: lib/screens/course_manage_list_screen.dart:312 lib/screens/special_days_screen.dart:513
+#: lib/screens/course_manage_list_screen.dart:312 lib/screens/special_days_screen.dart:519
 msgid "Description"
 msgstr ""
 
@@ -1083,7 +1083,7 @@ msgstr ""
 msgid "Edit Enrolment"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:482
+#: lib/screens/special_days_screen.dart:488
 msgid "Edit Special Day"
 msgstr ""
 
@@ -1427,6 +1427,10 @@ msgstr ""
 msgid "Impersonate User needs School Connect module 1.16.09 or later on the school server."
 msgstr ""
 
+#: lib/screens/attendance_menu_screen.dart:292
+msgid "In"
+msgstr ""
+
 #: lib/screens/student_emergency_screen.dart:110
 msgid "In an emergency, please try and contact the adult family members listed below first. If these cannot be reached, then try the emergency contacts below."
 msgstr ""
@@ -1638,7 +1642,7 @@ msgstr ""
 msgid "Manage School Years"
 msgstr ""
 
-#: lib/screens/admin_screen.dart:141 lib/screens/special_days_screen.dart:160
+#: lib/screens/admin_screen.dart:141 lib/screens/special_days_screen.dart:166
 msgid "Manage Special Days"
 msgstr ""
 
@@ -1750,7 +1754,7 @@ msgstr ""
 msgid "Must be unique if set."
 msgstr ""
 
-#: lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:679 lib/screens/enter_marks_screen.dart:126
+#: lib/screens/attendance_menu_screen.dart:176 lib/screens/courses_screen.dart:91 lib/screens/dashboard_screen.dart:679
 msgid "My Classes"
 msgstr ""
 
@@ -1758,7 +1762,7 @@ msgstr ""
 msgid "My Data Updates"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:95 lib/screens/dashboard_screen.dart:1109
+#: lib/screens/attendance_menu_screen.dart:137 lib/screens/attendance_menu_screen.dart:165 lib/screens/dashboard_screen.dart:1109
 msgid "My Form Group"
 msgstr ""
 
@@ -1778,11 +1782,11 @@ msgstr ""
 msgid "My classes"
 msgstr ""
 
-#: lib/screens/data_updates_screen.dart:110 lib/screens/finance_invoice_detail_screen.dart:187 lib/screens/finance_invoice_detail_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:251 lib/screens/data_updates_screen.dart:110 lib/screens/finance_invoice_detail_screen.dart:187
 msgid "N/A"
 msgstr ""
 
-#: lib/screens/course_detail_screen.dart:347 lib/screens/course_manage_list_screen.dart:294 lib/screens/special_days_screen.dart:507
+#: lib/screens/course_detail_screen.dart:347 lib/screens/course_manage_list_screen.dart:294 lib/screens/special_days_screen.dart:513
 msgid "Name"
 msgstr ""
 
@@ -1802,7 +1806,7 @@ msgstr ""
 msgid "New Condition"
 msgstr ""
 
-#: lib/screens/message_wall_screen.dart:153
+#: lib/screens/attendance_menu_screen.dart:161 lib/screens/message_wall_screen.dart:153
 msgid "Next"
 msgstr ""
 
@@ -1810,7 +1814,7 @@ msgstr ""
 msgid "Next School"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:108 lib/screens/dashboard_screen.dart:746
+#: lib/screens/attendance_menu_screen.dart:149 lib/screens/dashboard_screen.dart:746
 #. Keep {placeholders} exactly as they are.
 msgid "Next class: {class}"
 msgstr ""
@@ -1979,7 +1983,7 @@ msgstr ""
 msgid "No students found"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr ""
 
@@ -2007,7 +2011,7 @@ msgstr ""
 msgid "Non-reportable participants won't display in reports."
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr ""
 
@@ -2019,7 +2023,7 @@ msgstr ""
 msgid "Not Reportable"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:202 lib/screens/form_group_detail_screen.dart:173 lib/screens/register_calendar.dart:224
+#: lib/screens/class_detail_screen.dart:202 lib/screens/form_group_detail_screen.dart:173 lib/screens/register_calendar.dart:232
 msgid "Not Taken"
 msgstr ""
 
@@ -2047,7 +2051,7 @@ msgstr ""
 msgid "Not taken yet for this date. These are default entries, not saved attendance."
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr ""
 
@@ -2067,7 +2071,7 @@ msgstr ""
 msgid "Notifications"
 msgstr ""
 
-#: lib/screens/facility_timetable_screen.dart:393 lib/screens/my_timetable_screen.dart:563
+#: lib/screens/attendance_menu_screen.dart:161 lib/screens/facility_timetable_screen.dart:393 lib/screens/my_timetable_screen.dart:563
 msgid "Now"
 msgstr ""
 
@@ -2083,7 +2087,7 @@ msgstr ""
 msgid "Number 2"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:202 lib/screens/special_days_screen.dart:352
+#: lib/screens/special_days_screen.dart:208 lib/screens/special_days_screen.dart:358
 msgid "Off Timetable"
 msgstr ""
 
@@ -2125,6 +2129,10 @@ msgstr ""
 
 #: lib/screens/about_screen.dart:262
 msgid "Other services you may see"
+msgstr ""
+
+#: lib/screens/attendance_menu_screen.dart:295
+msgid "Out"
 msgstr ""
 
 #: lib/screens/course_detail_screen.dart:211 lib/screens/course_enrolment_by_class_screen.dart:121
@@ -2370,10 +2378,6 @@ msgstr ""
 msgid "Recent Attendance"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:190
-msgid "Recent History"
-msgstr ""
-
 #: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr ""
@@ -2390,7 +2394,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 #. Keep {placeholders} exactly as they are.
 msgid "Remove \"{name}\" from the calendar?"
 msgstr ""
@@ -2530,7 +2534,7 @@ msgstr ""
 msgid "School Closed"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:200 lib/screens/special_days_screen.dart:352
+#: lib/screens/special_days_screen.dart:206 lib/screens/special_days_screen.dart:358
 msgid "School Closure"
 msgstr ""
 
@@ -2558,7 +2562,7 @@ msgstr ""
 msgid "School Information"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid "School Opens/Starts/Ends/Closes times aren't set here — finish those details on the website."
 msgstr ""
 
@@ -2810,15 +2814,15 @@ msgstr ""
 msgid "System login name."
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:259 lib/screens/dashboard_screen.dart:1168 lib/screens/dashboard_screen.dart:745
+#: lib/screens/attendance_menu_screen.dart:189 lib/screens/class_detail_screen.dart:259 lib/screens/dashboard_screen.dart:1168
 msgid "Take Attendance"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr ""
 
-#: lib/screens/class_detail_screen.dart:198 lib/screens/form_group_detail_screen.dart:169 lib/screens/register_calendar.dart:222
+#: lib/screens/class_detail_screen.dart:198 lib/screens/form_group_detail_screen.dart:169 lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr ""
 
@@ -2832,7 +2836,7 @@ msgstr ""
 msgid "Taken at {time} by {name}"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 #. Keep {placeholders} exactly as they are.
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
@@ -2853,7 +2857,7 @@ msgstr ""
 msgid "Teaching"
 msgstr ""
 
-#: lib/screens/homework_calendar_screen.dart:292 lib/screens/special_days_screen.dart:183 lib/screens/student_attendance_screen.dart:158
+#: lib/screens/homework_calendar_screen.dart:292 lib/screens/special_days_screen.dart:189 lib/screens/student_attendance_screen.dart:158
 msgid "Term"
 msgstr ""
 
@@ -2902,7 +2906,7 @@ msgstr ""
 msgid "Third Language"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr ""
 
@@ -2964,7 +2968,7 @@ msgstr ""
 msgid "Timetable by Facility"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:201 lib/screens/special_days_screen.dart:352
+#: lib/screens/special_days_screen.dart:207 lib/screens/special_days_screen.dart:358
 msgid "Timing Change"
 msgstr ""
 
@@ -3039,7 +3043,7 @@ msgstr ""
 msgid "Type *"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr ""
 
@@ -3295,7 +3299,7 @@ msgstr ""
 msgid "Year Group *"
 msgstr ""
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid "Year Group / Form Group targeting isn't set here — this will apply broadly until finished on the website."
 msgstr ""
 

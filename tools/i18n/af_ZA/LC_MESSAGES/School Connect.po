@@ -150,7 +150,7 @@ msgstr[1] "Gedragsinskrywings gestoor vir {count} leerders!"
 msgid "Browse staff profiles"
 msgstr "Blaai deur personeelprofiele"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per klas"
@@ -176,15 +176,15 @@ msgstr ""
 "opdateringsversoek aan te heg. Die toepassing vra eers toestemming, en jy "
 "kan nee sê."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Kanselleer besprekings?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Kanselleer klasse?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Kanselleer personeeldiens?"
 
@@ -204,11 +204,11 @@ msgstr "Naam in Chinees of ander karakterskrif"
 msgid "Choose a class above"
 msgstr "Kies 'n klas hierbo"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Kies enige registerklas"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Kies enige van jou klasse"
 
@@ -216,7 +216,7 @@ msgstr "Kies enige van jou klasse"
 msgid "Choose at least one student first"
 msgstr "Kies eers minstens een leerder"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Kies een van jou registerklasse"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Klaslys"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Klas nou: {class}"
 
@@ -520,7 +520,7 @@ msgstr "Kon nie skooljare laai nie"
 msgid "Could not load settings"
 msgstr "Kon nie instellings laai nie"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Kon nie die spesiale dag laai nie"
 
@@ -539,7 +539,7 @@ msgstr "Kon nie personeeldata laai nie"
 msgid "Could not load students"
 msgstr "Kon nie leerders laai nie"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Kon nie kwartale laai nie"
 
@@ -675,7 +675,7 @@ msgstr "Vee klas uit"
 msgid "Delete Course"
 msgstr "Vee vak uit"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Vee spesiale dag uit"
 
@@ -991,7 +991,7 @@ msgid "Name and Short Name are required"
 msgstr "Naam en kort naam word vereis"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Volgende klas: {class}"
@@ -1165,7 +1165,7 @@ msgstr "Geen leerders vanjaar ingeskryf nie"
 msgid "No students found"
 msgstr "Geen leerders gevind nie"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Geen kwartale vir hierdie skooljaar gevind nie"
 
@@ -1191,7 +1191,7 @@ msgid "Non-reportable participants won't display in reports."
 msgstr ""
 "Deelnemers wat nie op rapporte verskyn nie, word nie daarop gewys nie."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Nie-skooldag"
 
@@ -1232,7 +1232,7 @@ msgstr ""
 "Nog nie vir hierdie datum geneem nie. Dit is standaardinskrywings, nie "
 "gestoorde bywoning nie."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Nog nie vandag geneem nie"
 
@@ -1248,6 +1248,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Niks geskeduleer nie"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1426,7 +1427,7 @@ msgid "Recorded earlier today"
 msgstr "Vroeër vandag aangeteken"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Verwyder “{name}” van die kalender?"
 
@@ -1531,7 +1532,7 @@ msgstr ""
 "bediener oor 'n geënkripteerde (HTTPS) verbinding. High Point Education "
 "ontvang, stoor of sien hierdie inligting nie."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1679,13 +1680,13 @@ msgstr "Wissel van rol"
 msgid "Switch School Year"
 msgstr "Wissel van skooljaar"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Neem bywoning vir hierdie klas"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Geneem"
 
@@ -1700,7 +1701,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Geneem om {time} deur {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Vandag om {time} geneem. Tik om na te gaan of te verander"
 
@@ -1739,7 +1740,7 @@ msgstr "Hul gebruikersrekening word nie geraak nie."
 msgid "There are no messages to display."
 msgstr "Daar is geen boodskappe om te wys nie."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Dit raak die rooster:"
 
@@ -1830,7 +1831,7 @@ msgstr "Registeronderwyser 2"
 msgid "Type *"
 msgstr "Tipe *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Tipe en naam word vereis"
 
@@ -1998,7 +1999,7 @@ msgstr "Wat die toepassing op hierdie toestel bewaar"
 msgid "Year Group *"
 msgstr "Graad *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

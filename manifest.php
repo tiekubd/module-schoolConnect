@@ -242,8 +242,12 @@ $version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec
                           // "Recent History" added in Romanian, Urdu and Hong
                           // Kong Chinese, where Gibbon has none. The calendar
                           // and Special Days send Gibbon's First Day Of The Week,
-                          // and Special Days weeks now start on it. No schema
-                          // change.
+                          // and Special Days weeks now start on it.
+                          // attendance.php `daily_overview`: View Daily
+                          // Attendance for the app's Attendance menu (My Form
+                          // Group, My Classes: last 10 school days, today, In /
+                          // Out). "In" and "Out" added in the same three
+                          // languages. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

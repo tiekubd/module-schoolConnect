@@ -143,7 +143,7 @@ msgstr[0] "{count}人の生徒の行動記録を保存しました！"
 msgid "Browse staff profiles"
 msgstr "教職員のプロフィールを見る"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "クラス別"
@@ -166,15 +166,15 @@ msgid ""
 "request. The app asks first, and you can say no."
 msgstr "カメラと写真：データ更新の申請に写真を添付する場合のみ使用します。アプリは事前に許可を求め、拒否することもできます。"
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "予約をキャンセルしますか？"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "授業をキャンセルしますか？"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "教職員の当番をキャンセルしますか？"
 
@@ -194,11 +194,11 @@ msgstr "漢字などの文字による名前"
 msgid "Choose a class above"
 msgstr "上でクラスを選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "ホームルームを選択"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "担当クラスを選択"
 
@@ -206,7 +206,7 @@ msgstr "担当クラスを選択"
 msgid "Choose at least one student first"
 msgstr "まず生徒を1人以上選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "担当ホームルームを選択"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "クラス名簿"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "現在の授業：{class}"
 
@@ -503,7 +503,7 @@ msgstr "年度を読み込めませんでした"
 msgid "Could not load settings"
 msgstr "設定を読み込めませんでした"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "特別日を読み込めませんでした"
 
@@ -522,7 +522,7 @@ msgstr "教職員のデータを読み込めませんでした"
 msgid "Could not load students"
 msgstr "生徒を読み込めませんでした"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "学期を読み込めませんでした"
 
@@ -656,7 +656,7 @@ msgstr "クラスを削除"
 msgid "Delete Course"
 msgstr "科目を削除"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "特別日を削除"
 
@@ -963,7 +963,7 @@ msgid "Name and Short Name are required"
 msgstr "名称と略称は必須です"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "次の授業：{class}"
@@ -1135,7 +1135,7 @@ msgstr "今年度登録されている生徒はいません"
 msgid "No students found"
 msgstr "生徒が見つかりません"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "この年度の学期が見つかりません"
 
@@ -1160,7 +1160,7 @@ msgstr "ユーザーが見つかりません"
 msgid "Non-reportable participants won't display in reports."
 msgstr "通知表の対象外の参加者は通知表に表示されません。"
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "休校日"
 
@@ -1197,7 +1197,7 @@ msgid ""
 "attendance."
 msgstr "この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。"
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "本日はまだ取られていません"
 
@@ -1211,6 +1211,7 @@ msgstr "ここではまだ対応していません — ここで登録しても�
 msgid "Nothing scheduled"
 msgstr "予定はありません"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1379,7 +1380,7 @@ msgid "Recorded earlier today"
 msgstr "今日すでに記録済み"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "「{name}」をカレンダーから外しますか？"
 
@@ -1479,7 +1480,7 @@ msgstr ""
 "システムの情報（時間割、出欠、成績、宿題、通知表、メッセージ、ご家族の情報）を表示します。アプリは暗号化された（HTTPS）接続で、学校の Gibbon"
 " サーバーにのみ直接接続します。High Point Education がこれらの情報を受け取ったり、保存したり、閲覧したりすることはありません。"
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1623,13 +1624,13 @@ msgstr "役割を切り替え"
 msgid "Switch School Year"
 msgstr "年度を切り替え"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "このクラスの出欠を取る"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "取得済み"
 
@@ -1644,7 +1645,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{time} に {name} が記録"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "本日 {time} に取得。タップして確認・変更"
 
@@ -1681,7 +1682,7 @@ msgstr "この人のユーザーアカウントには影響しません。"
 msgid "There are no messages to display."
 msgstr "表示するメッセージはありません。"
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "時間割への影響："
 
@@ -1762,7 +1763,7 @@ msgstr "担任 2"
 msgid "Type *"
 msgstr "種類 *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "種類と名称は必須です"
 
@@ -1926,7 +1927,7 @@ msgstr "アプリがこのデバイスに保存するもの"
 msgid "Year Group *"
 msgstr "学年 *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

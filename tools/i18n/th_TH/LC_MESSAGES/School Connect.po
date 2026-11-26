@@ -147,7 +147,7 @@ msgstr[0] "บันทึกพฤติกรรมของนักเรี
 msgid "Browse staff profiles"
 msgstr "ดูโปรไฟล์บุคลากร"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "ตามกลุ่มเรียน"
@@ -172,15 +172,15 @@ msgstr ""
 "กล้องและรูปภาพ: เฉพาะเมื่อคุณเลือกแนบรูปภาพในคำขออัปเดตข้อมูล "
 "แอปจะขออนุญาตก่อน และคุณปฏิเสธได้"
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "ยกเลิกการจองหรือไม่?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "ยกเลิกคาบเรียนหรือไม่?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "ยกเลิกเวรของบุคลากรหรือไม่?"
 
@@ -200,11 +200,11 @@ msgstr "ชื่อภาษาจีนหรือชื่อที่เข
 msgid "Choose a class above"
 msgstr "เลือกกลุ่มเรียนด้านบน"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "เลือกห้องประจำชั้นใดก็ได้"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "เลือกกลุ่มเรียนใดก็ได้ของคุณ"
 
@@ -212,7 +212,7 @@ msgstr "เลือกกลุ่มเรียนใดก็ได้ขอ
 msgid "Choose at least one student first"
 msgstr "เลือกนักเรียนอย่างน้อยหนึ่งคนก่อน"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "เลือกห้องประจำชั้นของคุณ"
 
@@ -229,7 +229,7 @@ msgid "Class Roster"
 msgstr "รายชื่อนักเรียน"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "ตอนนี้: {class}"
 
@@ -513,7 +513,7 @@ msgstr "โหลดปีการศึกษาไม่สำเร็จ"
 msgid "Could not load settings"
 msgstr "โหลดการตั้งค่าไม่สำเร็จ"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "โหลดวันพิเศษไม่สำเร็จ"
 
@@ -532,7 +532,7 @@ msgstr "โหลดข้อมูลบุคลากรไม่สำเร
 msgid "Could not load students"
 msgstr "โหลดรายชื่อนักเรียนไม่สำเร็จ"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "โหลดภาคเรียนไม่สำเร็จ"
 
@@ -666,7 +666,7 @@ msgstr "ลบกลุ่มเรียน"
 msgid "Delete Course"
 msgstr "ลบรายวิชา"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "ลบวันพิเศษ"
 
@@ -982,7 +982,7 @@ msgid "Name and Short Name are required"
 msgstr "ต้องระบุชื่อและชื่อย่อ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "คาบถัดไป: {class}"
@@ -1155,7 +1155,7 @@ msgstr "ปีนี้ไม่มีนักเรียนที่ลงท
 msgid "No students found"
 msgstr "ไม่พบนักเรียน"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "ไม่พบภาคเรียนในปีการศึกษานี้"
 
@@ -1180,7 +1180,7 @@ msgstr "ไม่พบผู้ใช้"
 msgid "Non-reportable participants won't display in reports."
 msgstr "ผู้เข้าร่วมที่ไม่รายงานผลจะไม่แสดงในรายงานผลการเรียน"
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "วันที่ไม่มีการเรียน"
 
@@ -1219,7 +1219,7 @@ msgstr ""
 "ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น "
 "ไม่ใช่การมาเรียนที่บันทึกแล้ว"
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "วันนี้ยังไม่ได้เช็คชื่อ"
 
@@ -1235,6 +1235,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "ไม่มีกำหนดการ"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1409,7 +1410,7 @@ msgid "Recorded earlier today"
 msgstr "บันทึกไว้แล้ววันนี้"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "ลบ \"{name}\" ออกจากปฏิทินหรือไม่?"
 
@@ -1513,7 +1514,7 @@ msgstr ""
 "ผ่านการเชื่อมต่อที่เข้ารหัส (HTTPS) High Point Education ไม่ได้รับ "
 "ไม่ได้จัดเก็บ และไม่เห็นข้อมูลเหล่านี้"
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1661,13 +1662,13 @@ msgstr "สลับบทบาท"
 msgid "Switch School Year"
 msgstr "สลับปีการศึกษา"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "เช็คชื่อกลุ่มเรียนนี้"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "เช็คชื่อแล้ว"
 
@@ -1682,7 +1683,7 @@ msgid "Taken at {time} by {name}"
 msgstr "เช็คชื่อเวลา {time} โดย {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "เช็คชื่อวันนี้เมื่อ {time} แตะเพื่อดูหรือแก้ไข"
 
@@ -1721,7 +1722,7 @@ msgstr "บัญชีผู้ใช้ของบุคคลนี้จะ
 msgid "There are no messages to display."
 msgstr "ไม่มีข้อความที่จะแสดง"
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "สิ่งนี้มีผลต่อตารางเรียน:"
 
@@ -1808,7 +1809,7 @@ msgstr "ครูประจำชั้นคนที่ 2"
 msgid "Type *"
 msgstr "ประเภท *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "ต้องระบุประเภทและชื่อ"
 
@@ -1974,7 +1975,7 @@ msgstr "สิ่งที่แอปเก็บไว้ในอุปกร
 msgid "Year Group *"
 msgstr "ระดับชั้น *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

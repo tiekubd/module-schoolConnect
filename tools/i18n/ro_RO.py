@@ -685,7 +685,9 @@ T = {'A punctuation mark or space': 'Un semn de punctuație sau un spațiu',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Prezența pentru această dată nu a fost luată încă. Acestea sunt valori implicite, nu prezență salvată.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Niciunul dintre codurile de prezență nu este disponibil pentru rolul tău, deci nu poți face această '
                                                                                               'prezență.',
- 'Recent History': 'Istoric recent'}
+ 'Recent History': 'Istoric recent',
+ 'In': 'Prezenți',
+ 'Out': 'Absenți'}
 
 P = {'All {count} class done for today': ('Ora de azi s-a încheiat', 'Toate cele {count} ore de azi s-au încheiat', 'Toate cele {count} de ore de azi s-au încheiat'),
  'At least {count} character': ('Cel puțin {count} caracter', 'Cel puțin {count} caractere', 'Cel puțin {count} de caractere'),

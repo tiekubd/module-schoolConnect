@@ -153,7 +153,7 @@ msgstr[2] "Zapisi o ponašanju spremljeni su za {count} učenika!"
 msgid "Browse staff profiles"
 msgstr "Pregledajte profile osoblja"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Po grupi"
@@ -178,15 +178,15 @@ msgstr ""
 "Kamera i fotografije: samo kada odlučite priložiti fotografiju zahtjevu za "
 "ažuriranje podataka. Aplikacija vas najprije pita, a vi možete odbiti."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Otkazati rezervacije?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Otkazati nastavu?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Otkazati dežurstva osoblja?"
 
@@ -206,11 +206,11 @@ msgstr "Ime pisano kineskim ili drugim pismom"
 msgid "Choose a class above"
 msgstr "Odaberite grupu iznad"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Odaberite bilo koji razredni odjel"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Odaberite bilo koju svoju grupu"
 
@@ -218,7 +218,7 @@ msgstr "Odaberite bilo koju svoju grupu"
 msgid "Choose at least one student first"
 msgstr "Najprije odaberite barem jednog učenika"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Odaberite jedan od svojih razrednih odjela"
 
@@ -235,7 +235,7 @@ msgid "Class Roster"
 msgstr "Popis grupe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Sada: {class}"
 
@@ -523,7 +523,7 @@ msgstr "Učitavanje školskih godina nije uspjelo"
 msgid "Could not load settings"
 msgstr "Učitavanje postavki nije uspjelo"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Učitavanje posebnog dana nije uspjelo"
 
@@ -542,7 +542,7 @@ msgstr "Učitavanje podataka o djelatniku nije uspjelo"
 msgid "Could not load students"
 msgstr "Učitavanje učenika nije uspjelo"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Učitavanje polugodišta nije uspjelo"
 
@@ -680,7 +680,7 @@ msgstr "Izbriši grupu"
 msgid "Delete Course"
 msgstr "Izbriši predmet"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Izbriši posebni dan"
 
@@ -1001,7 +1001,7 @@ msgid "Name and Short Name are required"
 msgstr "Naziv i kratki naziv su obavezni"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Sljedeći sat: {class}"
@@ -1174,7 +1174,7 @@ msgstr "Ove godine nema upisanih učenika"
 msgid "No students found"
 msgstr "Nema učenika"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Za ovu školsku godinu nema polugodišta"
 
@@ -1199,7 +1199,7 @@ msgstr "Nema korisnika"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Sudionici koji nisu za izvještaj neće se prikazivati u izvještajima."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Nenastavni dan"
 
@@ -1240,7 +1240,7 @@ msgstr ""
 "Prisutnost za ovaj datum još nije evidentirana. Ovo su zadane vrijednosti, a"
 " ne spremljena prisutnost."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Danas još nije evidentirano"
 
@@ -1256,6 +1256,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Ništa nije zakazano"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1430,7 +1431,7 @@ msgid "Recorded earlier today"
 msgstr "Zabilježeno ranije danas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Ukloniti \"{name}\" iz kalendara?"
 
@@ -1536,7 +1537,7 @@ msgstr ""
 " vaše škole putem šifrirane (HTTPS) veze. High Point Education ne prima, ne "
 "pohranjuje i ne vidi te podatke."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1683,13 +1684,13 @@ msgstr "Promijeni ulogu"
 msgid "Switch School Year"
 msgstr "Promijeni školsku godinu"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Evidentirajte prisutnost za ovu grupu"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Evidentirano"
 
@@ -1704,7 +1705,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Evidentirano u {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Evidentirano danas u {time}. Dodirnite za pregled ili izmjenu"
 
@@ -1743,7 +1744,7 @@ msgstr "To ne utječe na njegov korisnički račun."
 msgid "There are no messages to display."
 msgstr "Nema poruka za prikaz."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "To utječe na raspored:"
 
@@ -1834,7 +1835,7 @@ msgstr "Razrednik 2"
 msgid "Type *"
 msgstr "Vrsta *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Vrsta i naziv su obavezni"
 
@@ -2000,7 +2001,7 @@ msgstr "Što aplikacija sprema na ovom uređaju"
 msgid "Year Group *"
 msgstr "Razred *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

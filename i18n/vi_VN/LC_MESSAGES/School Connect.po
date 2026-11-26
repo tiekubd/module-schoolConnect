@@ -147,7 +147,7 @@ msgstr[0] "Đã lưu ghi nhận hành vi cho {count} học sinh!"
 msgid "Browse staff profiles"
 msgstr "Xem hồ sơ nhân viên"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Theo lớp học"
@@ -172,15 +172,15 @@ msgstr ""
 "Máy ảnh và ảnh: chỉ khi bạn chọn đính kèm ảnh vào yêu cầu cập nhật dữ liệu. "
 "Ứng dụng sẽ hỏi trước và bạn có thể từ chối."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Hủy đặt chỗ?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Hủy các tiết học?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Hủy ca trực của nhân viên?"
 
@@ -200,11 +200,11 @@ msgstr "Tên bằng chữ Hán hoặc chữ tượng hình khác"
 msgid "Choose a class above"
 msgstr "Chọn một lớp học ở trên"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Chọn bất kỳ lớp chủ nhiệm nào"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Chọn bất kỳ lớp học nào của bạn"
 
@@ -212,7 +212,7 @@ msgstr "Chọn bất kỳ lớp học nào của bạn"
 msgid "Choose at least one student first"
 msgstr "Hãy chọn ít nhất một học sinh trước"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Chọn một lớp chủ nhiệm của bạn"
 
@@ -229,7 +229,7 @@ msgid "Class Roster"
 msgstr "Danh sách lớp"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Đang học: {class}"
 
@@ -516,7 +516,7 @@ msgstr "Không thể tải các năm học"
 msgid "Could not load settings"
 msgstr "Không thể tải cài đặt"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Không thể tải ngày đặc biệt"
 
@@ -535,7 +535,7 @@ msgstr "Không thể tải dữ liệu nhân viên"
 msgid "Could not load students"
 msgstr "Không thể tải danh sách học sinh"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Không thể tải các học kỳ"
 
@@ -669,7 +669,7 @@ msgstr "Xóa lớp học"
 msgid "Delete Course"
 msgstr "Xóa môn học"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Xóa ngày đặc biệt"
 
@@ -987,7 +987,7 @@ msgid "Name and Short Name are required"
 msgstr "Cần nhập tên và tên viết tắt"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Tiết tiếp theo: {class}"
@@ -1161,7 +1161,7 @@ msgstr "Năm nay chưa có học sinh ghi danh"
 msgid "No students found"
 msgstr "Không tìm thấy học sinh"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Không tìm thấy học kỳ nào trong năm học này"
 
@@ -1186,7 +1186,7 @@ msgstr "Không tìm thấy người dùng"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Người tham gia không đưa vào phiếu báo điểm sẽ không hiện trên đó."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Ngày không đi học"
 
@@ -1227,7 +1227,7 @@ msgstr ""
 "Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh "
 "đã lưu."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Hôm nay chưa điểm danh"
 
@@ -1243,6 +1243,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Không có lịch"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1418,7 +1419,7 @@ msgid "Recorded earlier today"
 msgstr "Đã ghi nhận trước đó hôm nay"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Xóa \"{name}\" khỏi lịch?"
 
@@ -1522,7 +1523,7 @@ msgstr ""
 "trường qua kết nối được mã hóa (HTTPS). High Point Education không nhận, "
 "không lưu trữ và không xem những thông tin này."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1670,13 +1671,13 @@ msgstr "Chuyển vai trò"
 msgid "Switch School Year"
 msgstr "Chuyển năm học"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Điểm danh lớp học này"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Đã điểm danh"
 
@@ -1691,7 +1692,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Điểm danh lúc {time} bởi {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Đã điểm danh hôm nay lúc {time}. Chạm để xem hoặc sửa"
 
@@ -1730,7 +1731,7 @@ msgstr "Tài khoản người dùng của họ không bị ảnh hưởng."
 msgid "There are no messages to display."
 msgstr "Không có tin nhắn nào."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Điều này ảnh hưởng đến thời khóa biểu:"
 
@@ -1820,7 +1821,7 @@ msgstr "Giáo viên chủ nhiệm 2"
 msgid "Type *"
 msgstr "Loại *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Cần nhập loại và tên"
 
@@ -1987,7 +1988,7 @@ msgstr "Những gì ứng dụng lưu trên thiết bị này"
 msgid "Year Group *"
 msgstr "Khối *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

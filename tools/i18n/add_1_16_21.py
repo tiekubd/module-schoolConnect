@@ -1,15 +1,15 @@
 # One-off (25 Nov 2026): strings added in app 1.16.22 (coloured register calendar and
 # Recent History strips in the Attendance menu), for module 1.16.21. "Recent History"
-# comes from Gibbon's own translations, except in the three languages below where
+# (and the In / Out counts) come from Gibbon's own translations, except in the three languages below where
 # Gibbon has none yet. App-only strings.
 import pprint, re
 
-KEYS = ['Recent History']
+KEYS = ['Recent History', 'In', 'Out']
 
 D = {
-'ro_RO': ['Istoric recent'],
-'ur_PK': ['حالیہ تاریخچہ'],
-'zh_HK': ['最近紀錄'],
+'ro_RO': ['Istoric recent', 'Prezenți', 'Absenți'],
+'ur_PK': ['حالیہ تاریخچہ', 'حاضر', 'غیر حاضر'],
+'zh_HK': ['最近紀錄', '出席', '缺席'],
 }
 
 if __name__ == '__main__':

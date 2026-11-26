@@ -150,7 +150,7 @@ msgstr[1] "S'han desat els registres de comportament per a {count} alumnes!"
 msgid "Browse staff profiles"
 msgstr "Consulteu els perfils del personal"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per classe"
@@ -175,15 +175,15 @@ msgstr ""
 "Càmera i fotos: només quan decidiu adjuntar una foto a una sol·licitud "
 "d'actualització de dades. L'aplicació us ho demana abans i podeu dir que no."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Voleu cancel·lar les reserves?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Voleu cancel·lar les classes?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Voleu cancel·lar les guàrdies del personal?"
 
@@ -203,11 +203,11 @@ msgstr "Nom en xinès o en una altra escriptura ideogràfica"
 msgid "Choose a class above"
 msgstr "Trieu una classe a dalt"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Trieu qualsevol grup classe"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Trieu qualsevol de les vostres classes"
 
@@ -215,7 +215,7 @@ msgstr "Trieu qualsevol de les vostres classes"
 msgid "Choose at least one student first"
 msgstr "Primer trieu com a mínim un alumne"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Trieu un dels vostres grups classe"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Llista de la classe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Classe ara: {class}"
 
@@ -520,7 +520,7 @@ msgstr "No s'han pogut carregar els cursos escolars"
 msgid "Could not load settings"
 msgstr "No s'ha pogut carregar la configuració"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "No s'ha pogut carregar el dia especial"
 
@@ -539,7 +539,7 @@ msgstr "No s'han pogut carregar les dades del personal"
 msgid "Could not load students"
 msgstr "No s'han pogut carregar els alumnes"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "No s'han pogut carregar els trimestres"
 
@@ -675,7 +675,7 @@ msgstr "Suprimeix la classe"
 msgid "Delete Course"
 msgstr "Suprimeix la matèria"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Suprimeix el dia especial"
 
@@ -998,7 +998,7 @@ msgid "Name and Short Name are required"
 msgstr "Cal indicar el nom i el nom curt"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Classe següent: {class}"
@@ -1171,7 +1171,7 @@ msgstr "Aquest curs no hi ha alumnes matriculats"
 msgid "No students found"
 msgstr "No s'ha trobat cap alumne"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "No s'ha trobat cap trimestre en aquest curs escolar"
 
@@ -1196,7 +1196,7 @@ msgstr "No s'ha trobat cap usuari"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Els participants exclosos dels butlletins no hi apareixeran."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Dia no lectiu"
 
@@ -1237,7 +1237,7 @@ msgstr ""
 "Encara no s’ha passat llista en aquesta data. Són valors per defecte, no "
 "assistència desada."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Avui encara no s'ha passat llista"
 
@@ -1253,6 +1253,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "No hi ha res programat"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1432,7 +1433,7 @@ msgid "Recorded earlier today"
 msgstr "Registrat abans, avui"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Voleu treure «{name}» del calendari?"
 
@@ -1537,7 +1538,7 @@ msgstr ""
 "Gibbon del vostre centre mitjançant una connexió xifrada (HTTPS). High Point"
 " Education no rep, no desa ni veu aquesta informació."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1692,13 +1693,13 @@ msgstr "Canvia de rol"
 msgid "Switch School Year"
 msgstr "Canvia de curs escolar"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Passeu llista en aquesta classe"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Passada"
 
@@ -1713,7 +1714,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Passada a les {time} per {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Llista passada avui a les {time}. Toqueu per revisar-la o canviar-la"
 
@@ -1753,7 +1754,7 @@ msgstr "El seu compte d'usuari no es veu afectat."
 msgid "There are no messages to display."
 msgstr "No hi ha missatges."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Això afecta l'horari:"
 
@@ -1845,7 +1846,7 @@ msgstr "Tutor/a 2"
 msgid "Type *"
 msgstr "Tipus *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Cal indicar el tipus i el nom"
 
@@ -2019,7 +2020,7 @@ msgstr "Què desa l'aplicació en aquest dispositiu"
 msgid "Year Group *"
 msgstr "Nivell *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

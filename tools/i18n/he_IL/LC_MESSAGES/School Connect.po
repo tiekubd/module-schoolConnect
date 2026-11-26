@@ -150,7 +150,7 @@ msgstr[1] "רישומי ההתנהגות נשמרו ל-{count} תלמידים!"
 msgid "Browse staff profiles"
 msgstr "עיון בפרופילים של אנשי הצוות"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "לפי קבוצת לימוד"
@@ -175,15 +175,15 @@ msgstr ""
 "מצלמה ותמונות: רק כשבוחרים לצרף תמונה לבקשת עדכון נתונים. האפליקציה מבקשת "
 "רשות קודם, ואפשר לסרב."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "לבטל הזמנות?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "לבטל שיעורים?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "לבטל תורנויות צוות?"
 
@@ -203,11 +203,11 @@ msgstr "שם בסינית או בכתב סימנים אחר"
 msgid "Choose a class above"
 msgstr "יש לבחור קבוצת לימוד למעלה"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "בחירת כיתת אם כלשהי"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "בחירת אחת מקבוצות הלימוד שלך"
 
@@ -215,7 +215,7 @@ msgstr "בחירת אחת מקבוצות הלימוד שלך"
 msgid "Choose at least one student first"
 msgstr "יש לבחור קודם לפחות תלמיד אחד"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "בחירת אחת מכיתות האם שלך"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "רשימת תלמידים"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "עכשיו: {class}"
 
@@ -516,7 +516,7 @@ msgstr "לא ניתן לטעון את שנות הלימודים"
 msgid "Could not load settings"
 msgstr "לא ניתן לטעון את ההגדרות"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "לא ניתן לטעון את היום המיוחד"
 
@@ -535,7 +535,7 @@ msgstr "לא ניתן לטעון את נתוני איש הצוות"
 msgid "Could not load students"
 msgstr "לא ניתן לטעון את התלמידים"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "לא ניתן לטעון את המחציות"
 
@@ -671,7 +671,7 @@ msgstr "מחיקת קבוצת לימוד"
 msgid "Delete Course"
 msgstr "מחיקת מקצוע"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "מחיקת יום מיוחד"
 
@@ -984,7 +984,7 @@ msgid "Name and Short Name are required"
 msgstr "חובה למלא שם ושם מקוצר"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "השיעור הבא: {class}"
@@ -1157,7 +1157,7 @@ msgstr "אין תלמידים רשומים השנה"
 msgid "No students found"
 msgstr "לא נמצאו תלמידים"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "לא נמצאו מחציות לשנת לימודים זו"
 
@@ -1182,7 +1182,7 @@ msgstr "לא נמצאו משתמשים"
 msgid "Non-reportable participants won't display in reports."
 msgstr "משתתפים שאינם מדווחים לא יוצגו בתעודות."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "יום ללא לימודים"
 
@@ -1221,7 +1221,7 @@ msgid ""
 msgstr ""
 "הנוכחות לתאריך זה עדיין לא נלקחה. אלה ערכי ברירת מחדל ולא נוכחות שמורה."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "עדיין לא נבדק היום"
 
@@ -1237,6 +1237,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "אין דבר מתוכנן"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1408,7 +1409,7 @@ msgid "Recorded earlier today"
 msgstr "נרשם מוקדם יותר היום"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "להסיר את \"{name}\" מלוח השנה?"
 
@@ -1511,7 +1512,7 @@ msgstr ""
 "ורק לשרת Gibbon של בית הספר שלך בחיבור מוצפן (HTTPS). High Point Education "
 "אינה מקבלת, שומרת או רואה מידע זה."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1658,13 +1659,13 @@ msgstr "החלפת תפקיד"
 msgid "Switch School Year"
 msgstr "החלפת שנת לימודים"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "בדיקת נוכחות בקבוצת לימוד זו"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "נבדק"
 
@@ -1679,7 +1680,7 @@ msgid "Taken at {time} by {name}"
 msgstr "נלקחה ב-{time} על ידי {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "נבדק היום ב-{time}. הקשה לצפייה או לשינוי"
 
@@ -1716,7 +1717,7 @@ msgstr "חשבון המשתמש שלו לא מושפע."
 msgid "There are no messages to display."
 msgstr "אין הודעות להצגה."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "הדבר משפיע על מערכת השעות:"
 
@@ -1804,7 +1805,7 @@ msgstr "מחנך/ת 2"
 msgid "Type *"
 msgstr "סוג *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "חובה למלא סוג ושם"
 
@@ -1973,7 +1974,7 @@ msgstr "מה האפליקציה שומרת במכשיר זה"
 msgid "Year Group *"
 msgstr "שכבה *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

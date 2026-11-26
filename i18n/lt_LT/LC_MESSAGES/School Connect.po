@@ -153,7 +153,7 @@ msgstr[2] "Elgesio įrašai išsaugoti {count} mokinių!"
 msgid "Browse staff profiles"
 msgstr "Peržiūrėkite darbuotojų profilius"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Pagal grupę"
@@ -178,15 +178,15 @@ msgstr ""
 "Kamera ir nuotraukos: tik kai pasirenkate pridėti nuotrauką prie duomenų "
 "atnaujinimo prašymo. Programėlė pirmiausia paklausia, ir galite atsisakyti."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Atšaukti rezervacijas?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Atšaukti pamokas?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Atšaukti darbuotojų budėjimus?"
 
@@ -206,11 +206,11 @@ msgstr "Vardas kinų ar kitais hieroglifais"
 msgid "Choose a class above"
 msgstr "Pasirinkite grupę viršuje"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Pasirinkite bet kurią klasę"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Pasirinkite bet kurią savo grupę"
 
@@ -218,7 +218,7 @@ msgstr "Pasirinkite bet kurią savo grupę"
 msgid "Choose at least one student first"
 msgstr "Pirmiausia pasirinkite bent vieną mokinį"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Pasirinkite vieną iš savo klasių"
 
@@ -235,7 +235,7 @@ msgid "Class Roster"
 msgstr "Grupės sąrašas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Dabar: {class}"
 
@@ -524,7 +524,7 @@ msgstr "Nepavyko įkelti mokslo metų"
 msgid "Could not load settings"
 msgstr "Nepavyko įkelti nustatymų"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Nepavyko įkelti ypatingos dienos"
 
@@ -543,7 +543,7 @@ msgstr "Nepavyko įkelti darbuotojo duomenų"
 msgid "Could not load students"
 msgstr "Nepavyko įkelti mokinių"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Nepavyko įkelti pusmečių"
 
@@ -681,7 +681,7 @@ msgstr "Ištrinti grupę"
 msgid "Delete Course"
 msgstr "Ištrinti dalyką"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Ištrinti ypatingą dieną"
 
@@ -1002,7 +1002,7 @@ msgid "Name and Short Name are required"
 msgstr "Būtina nurodyti pavadinimą ir trumpą pavadinimą"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Kita pamoka: {class}"
@@ -1175,7 +1175,7 @@ msgstr "Šiais metais užregistruotų mokinių nėra"
 msgid "No students found"
 msgstr "Mokinių nerasta"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Šiems mokslo metams pusmečių nerasta"
 
@@ -1200,7 +1200,7 @@ msgstr "Naudotojų nerasta"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Į pažangos ataskaitas neįtraukti dalyviai jose nerodomi."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Nemokslo diena"
 
@@ -1241,7 +1241,7 @@ msgstr ""
 "Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne "
 "išsaugotas lankomumas."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Šiandien dar nepažymėta"
 
@@ -1257,6 +1257,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nieko nesuplanuota"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1433,7 +1434,7 @@ msgid "Recorded earlier today"
 msgstr "Pažymėta anksčiau šiandien"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Pašalinti „{name}“ iš kalendoriaus?"
 
@@ -1539,7 +1540,7 @@ msgstr ""
 "prie Jūsų mokyklos Gibbon serverio šifruotu (HTTPS) ryšiu. High Point "
 "Education šios informacijos negauna, nesaugo ir nemato."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1686,13 +1687,13 @@ msgstr "Keisti vaidmenį"
 msgid "Switch School Year"
 msgstr "Keisti mokslo metus"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Pažymėti šios grupės lankomumą"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Pažymėta"
 
@@ -1707,7 +1708,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Pažymėta {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
 "Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte"
@@ -1747,7 +1748,7 @@ msgstr "Šio asmens naudotojo paskyra nepaveikiama."
 msgid "There are no messages to display."
 msgstr "Žinučių nėra."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Tai paveikia tvarkaraštį:"
 
@@ -1840,7 +1841,7 @@ msgstr "Klasės vadovas 2"
 msgid "Type *"
 msgstr "Tipas *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Būtina nurodyti tipą ir pavadinimą"
 
@@ -2008,7 +2009,7 @@ msgstr "Ką programėlė saugo šiame įrenginyje"
 msgid "Year Group *"
 msgstr "Klasių srautas *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

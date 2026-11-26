@@ -156,7 +156,7 @@ msgstr[3] "Записи про поведінку збережено для {cou
 msgid "Browse staff profiles"
 msgstr "Переглядайте профілі працівників"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "За заняттями"
@@ -181,15 +181,15 @@ msgstr ""
 "Камера та фото: лише коли ви вирішите додати фото до запиту на оновлення "
 "даних. Застосунок спершу запитує дозвіл, і ви можете відмовити."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Скасувати бронювання?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Скасувати заняття?"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Скасувати чергування персоналу?"
 
@@ -209,11 +209,11 @@ msgstr "Ім’я китайськими або іншими ієрогліфа�
 msgid "Choose a class above"
 msgstr "Виберіть заняття вище"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Виберіть будь-який клас"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Виберіть будь-яке зі своїх занять"
 
@@ -221,7 +221,7 @@ msgstr "Виберіть будь-яке зі своїх занять"
 msgid "Choose at least one student first"
 msgstr "Спершу виберіть принаймні одного учня"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Виберіть один зі своїх класів"
 
@@ -238,7 +238,7 @@ msgid "Class Roster"
 msgstr "Список учнів"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Зараз: {class}"
 
@@ -526,7 +526,7 @@ msgstr "Не вдалося завантажити навчальні роки"
 msgid "Could not load settings"
 msgstr "Не вдалося завантажити налаштування"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Не вдалося завантажити особливий день"
 
@@ -545,7 +545,7 @@ msgstr "Не вдалося завантажити дані працівника
 msgid "Could not load students"
 msgstr "Не вдалося завантажити учнів"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Не вдалося завантажити семестри"
 
@@ -685,7 +685,7 @@ msgstr "Видалити заняття"
 msgid "Delete Course"
 msgstr "Видалити предмет"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Видалити особливий день"
 
@@ -1005,7 +1005,7 @@ msgid "Name and Short Name are required"
 msgstr "Назва й коротка назва обов’язкові"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Наступне заняття: {class}"
@@ -1178,7 +1178,7 @@ msgstr "Цього року немає зарахованих учнів"
 msgid "No students found"
 msgstr "Учнів не знайдено"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Для цього навчального року семестрів не знайдено"
 
@@ -1203,7 +1203,7 @@ msgstr "Користувачів не знайдено"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Учасники, не включені до звітів, у звітах не показуються."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Неробочий день"
 
@@ -1244,7 +1244,7 @@ msgstr ""
 "Відвідуваність за цю дату ще не відмічено. Це типові значення, а не "
 "збережена відвідуваність."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Сьогодні ще не відмічено"
 
@@ -1260,6 +1260,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Нічого не заплановано"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1433,7 +1434,7 @@ msgid "Recorded earlier today"
 msgstr "Відмічено раніше сьогодні"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Видалити «{name}» з календаря?"
 
@@ -1540,7 +1541,7 @@ msgstr ""
 " через зашифроване з’єднання (HTTPS). High Point Education не отримує, не "
 "зберігає й не бачить цієї інформації."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1687,13 +1688,13 @@ msgstr "Змінити роль"
 msgid "Switch School Year"
 msgstr "Змінити навчальний рік"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Відмітити присутність на цьому занятті"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Відмічено"
 
@@ -1708,7 +1709,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Відмічено о {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Відмічено сьогодні о {time}. Торкніться, щоб переглянути чи змінити"
 
@@ -1747,7 +1748,7 @@ msgstr "Обліковий запис цієї особи не змінитьс�
 msgid "There are no messages to display."
 msgstr "Немає повідомлень для показу."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Це впливає на розклад:"
 
@@ -1839,7 +1840,7 @@ msgstr "Класний керівник 2"
 msgid "Type *"
 msgstr "Тип *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Тип і назва обов’язкові"
 
@@ -2006,7 +2007,7 @@ msgstr "Що застосунок зберігає на цьому пристр�
 msgid "Year Group *"
 msgstr "Паралель *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

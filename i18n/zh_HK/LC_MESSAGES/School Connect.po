@@ -143,7 +143,7 @@ msgstr[0] "已為 {count} 名學生儲存行為紀錄！"
 msgid "Browse staff profiles"
 msgstr "瀏覽教職員檔案"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "按科目班"
@@ -166,15 +166,15 @@ msgid ""
 "request. The app asks first, and you can say no."
 msgstr "相機及相片：只會在你選擇為更新資料申請附加相片時使用。App 會先詢問，你可以拒絕。"
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "取消預約？"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "取消課堂？"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "取消教職員當值？"
 
@@ -194,11 +194,11 @@ msgstr "中文或其他文字的姓名"
 msgid "Choose a class above"
 msgstr "請在上方選擇科目班"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "選擇任何班別"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "選擇你的任何科目班"
 
@@ -206,7 +206,7 @@ msgstr "選擇你的任何科目班"
 msgid "Choose at least one student first"
 msgstr "請先選擇最少一名學生"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "選擇你的其中一個班別"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "科目班名單"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "現正上課：{class}"
 
@@ -503,7 +503,7 @@ msgstr "無法載入學年"
 msgid "Could not load settings"
 msgstr "無法載入設定"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "無法載入特別日子"
 
@@ -522,7 +522,7 @@ msgstr "無法載入教職員資料"
 msgid "Could not load students"
 msgstr "無法載入學生"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "無法載入學期"
 
@@ -656,7 +656,7 @@ msgstr "刪除科目班"
 msgid "Delete Course"
 msgstr "刪除課程"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "刪除特別日子"
 
@@ -835,6 +835,10 @@ msgid ""
 "server."
 msgstr "以其他用戶身分登入需要學校伺服器安裝 School Connect 模組 1.16.09 或以上版本。"
 
+#: lib/screens/attendance_menu_screen.dart:292
+msgid "In"
+msgstr "出席"
+
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/about_screen.dart:103
 msgid "Installed version is {version}."
@@ -962,7 +966,7 @@ msgid "Name and Short Name are required"
 msgstr "必須填寫名稱及簡稱"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "下一節課：{class}"
@@ -1133,7 +1137,7 @@ msgstr "本學年沒有學生報名"
 msgid "No students found"
 msgstr "找不到學生"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "找不到本學年的學期"
 
@@ -1158,7 +1162,7 @@ msgstr "找不到用戶"
 msgid "Non-reportable participants won't display in reports."
 msgstr "不列入成績報告的參加者不會在成績報告中顯示。"
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "非上課日"
 
@@ -1195,7 +1199,7 @@ msgid ""
 "attendance."
 msgstr "該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。"
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "今天尚未點名"
 
@@ -1209,6 +1213,7 @@ msgstr "此處尚未支援 — 在這裡報名不會自動加入課程。如學�
 msgid "Nothing scheduled"
 msgstr "沒有編排"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1243,6 +1248,10 @@ msgstr "其他科目班"
 #: lib/screens/about_screen.dart:262
 msgid "Other services you may see"
 msgstr "你可能看到的其他服務"
+
+#: lib/screens/attendance_menu_screen.dart:295
+msgid "Out"
+msgstr "缺席"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/markbook_entry_screen.dart:562
@@ -1371,16 +1380,12 @@ msgstr "收據編號"
 msgid "Recent Attendance"
 msgstr "最近出席"
 
-#: lib/screens/attendance_menu_screen.dart:190
-msgid "Recent History"
-msgstr "最近紀錄"
-
 #: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
 msgstr "今天較早時已記錄"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "從日曆移除「{name}」？"
 
@@ -1479,7 +1484,7 @@ msgstr ""
 "School Connect 顯示來自學校 Gibbon 系統的資料：時間表、出席、成績、家庭作業、成績報告、訊息及你家庭的資料。App "
 "只會透過加密連線（HTTPS）直接連接學校的 Gibbon 伺服器。High Point Education 不會接收、儲存或查看這些資料。"
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1622,13 +1627,13 @@ msgstr "切換角色"
 msgid "Switch School Year"
 msgstr "切換學年"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "為此科目班點名"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "已點名"
 
@@ -1643,7 +1648,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{name} 於 {time} 點名"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "今天 {time} 已點名。按此查看或修改"
 
@@ -1680,7 +1685,7 @@ msgstr "其用戶帳戶不受影響。"
 msgid "There are no messages to display."
 msgstr "沒有可顯示的訊息。"
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "這會影響時間表："
 
@@ -1760,7 +1765,7 @@ msgstr "班主任 2"
 msgid "Type *"
 msgstr "類型 *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "必須填寫類型及名稱"
 
@@ -1924,7 +1929,7 @@ msgstr "App 在此裝置上儲存的資料"
 msgid "Year Group *"
 msgstr "年級 *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

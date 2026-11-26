@@ -150,7 +150,7 @@ msgstr[1] "Οι καταγραφές συμπεριφοράς αποθηκεύτ
 msgid "Browse staff profiles"
 msgstr "Περιήγηση στα προφίλ του προσωπικού"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Ανά ομάδα μαθήματος"
@@ -176,15 +176,15 @@ msgstr ""
 "αίτημα ενημέρωσης δεδομένων. Η εφαρμογή ζητά πρώτα άδεια και μπορείτε να "
 "αρνηθείτε."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Ακύρωση κρατήσεων;"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Ακύρωση μαθημάτων;"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Ακύρωση εφημεριών προσωπικού;"
 
@@ -204,11 +204,11 @@ msgstr "Όνομα με κινεζικά ή άλλα ιδεογράμματα"
 msgid "Choose a class above"
 msgstr "Επιλέξτε ομάδα μαθήματος παραπάνω"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "Επιλέξτε οποιοδήποτε τμήμα"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μαθήματός σας"
 
@@ -216,7 +216,7 @@ msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μα�
 msgid "Choose at least one student first"
 msgstr "Επιλέξτε πρώτα τουλάχιστον έναν μαθητή"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "Επιλέξτε ένα από τα τμήματά σας"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Κατάλογος μαθητών"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "Τώρα: {class}"
 
@@ -523,7 +523,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των σχολικών �
 msgid "Could not load settings"
 msgstr "Δεν ήταν δυνατή η φόρτωση των ρυθμίσεων"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Δεν ήταν δυνατή η φόρτωση της ειδικής ημέρας"
 
@@ -542,7 +542,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση των στοιχείων
 msgid "Could not load students"
 msgstr "Δεν ήταν δυνατή η φόρτωση των μαθητών"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Δεν ήταν δυνατή η φόρτωση των περιόδων"
 
@@ -678,7 +678,7 @@ msgstr "Διαγραφή ομάδας μαθήματος"
 msgid "Delete Course"
 msgstr "Διαγραφή μαθήματος"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Διαγραφή ειδικής ημέρας"
 
@@ -1001,7 +1001,7 @@ msgid "Name and Short Name are required"
 msgstr "Το όνομα και το σύντομο όνομα είναι υποχρεωτικά"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Επόμενο: {class}"
@@ -1175,7 +1175,7 @@ msgstr "Δεν υπάρχουν εγγεγραμμένοι μαθητές φέτ
 msgid "No students found"
 msgstr "Δεν βρέθηκαν μαθητές"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Δεν βρέθηκαν περίοδοι για αυτό το σχολικό έτος"
 
@@ -1202,7 +1202,7 @@ msgstr ""
 "Οι συμμετέχοντες που εξαιρούνται από τους ελέγχους προόδου δεν εμφανίζονται "
 "σε αυτούς."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Μη σχολική ημέρα"
 
@@ -1243,7 +1243,7 @@ msgstr ""
 "Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι "
 "προεπιλογές, όχι αποθηκευμένες παρουσίες."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "Δεν έχουν ληφθεί ακόμη σήμερα"
 
@@ -1259,6 +1259,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Τίποτα προγραμματισμένο"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1442,7 +1443,7 @@ msgid "Recorded earlier today"
 msgstr "Καταχωρίστηκε νωρίτερα σήμερα"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Αφαίρεση του «{name}» από το ημερολόγιο;"
 
@@ -1548,7 +1549,7 @@ msgstr ""
 "σύνδεσης (HTTPS). Η High Point Education δεν λαμβάνει, δεν αποθηκεύει και "
 "δεν βλέπει αυτές τις πληροφορίες."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1700,13 +1701,13 @@ msgstr "Αλλαγή ρόλου"
 msgid "Switch School Year"
 msgstr "Αλλαγή σχολικού έτους"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "Λήψη παρουσιών για αυτή την ομάδα μαθήματος"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Ελήφθησαν"
 
@@ -1721,7 +1722,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Καταχωρίστηκε στις {time} από {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για έλεγχο ή αλλαγή"
 
@@ -1761,7 +1762,7 @@ msgstr "Ο λογαριασμός χρήστη του ατόμου δεν επη
 msgid "There are no messages to display."
 msgstr "Δεν υπάρχουν μηνύματα."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Αυτό επηρεάζει το πρόγραμμα:"
 
@@ -1853,7 +1854,7 @@ msgstr "Υπεύθυνος τμήματος 2"
 msgid "Type *"
 msgstr "Τύπος *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Ο τύπος και το όνομα είναι υποχρεωτικά"
 
@@ -2027,7 +2028,7 @@ msgstr "Τι κρατά η εφαρμογή σε αυτή τη συσκευή"
 msgid "Year Group *"
 msgstr "Τάξη *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."

@@ -162,7 +162,7 @@ msgstr[5] "تم حفظ سجلات السلوك لـ {count} طالب!"
 msgid "Browse staff profiles"
 msgstr "تصفح ملفات الموظفين"
 
-#: lib/screens/attendance_menu_screen.dart:119
+#: lib/screens/attendance_menu_screen.dart:111
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "حسب الشعبة"
@@ -187,15 +187,15 @@ msgstr ""
 "الكاميرا والصور: فقط عندما تختار إرفاق صورة بطلب تحديث البيانات. يطلب "
 "التطبيق الإذن أولًا، ويمكنك الرفض."
 
-#: lib/screens/special_days_screen.dart:546
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "إلغاء الحجوزات؟"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "إلغاء الحصص؟"
 
-#: lib/screens/special_days_screen.dart:545
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "إلغاء مناوبات الموظفين؟"
 
@@ -215,11 +215,11 @@ msgstr "الاسم بالصينية أو بكتابة رمزية أخرى"
 msgid "Choose a class above"
 msgstr "اختر شعبة من الأعلى"
 
-#: lib/screens/attendance_menu_screen.dart:131
+#: lib/screens/attendance_menu_screen.dart:121
 msgid "Choose any Form Group"
 msgstr "اختيار أي صف دراسي"
 
-#: lib/screens/attendance_menu_screen.dart:120
+#: lib/screens/attendance_menu_screen.dart:112
 msgid "Choose any of your classes"
 msgstr "اختيار إحدى شعبك"
 
@@ -227,7 +227,7 @@ msgstr "اختيار إحدى شعبك"
 msgid "Choose at least one student first"
 msgstr "اختر طالبًا واحدًا على الأقل أولًا"
 
-#: lib/screens/attendance_menu_screen.dart:132
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose one of your Form Groups"
 msgstr "اختيار أحد صفوفك الدراسية"
 
@@ -244,7 +244,7 @@ msgid "Class Roster"
 msgstr "قائمة الشعبة"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:148
 msgid "Class now: {class}"
 msgstr "الحصة الحالية: {class}"
 
@@ -530,7 +530,7 @@ msgstr "تعذّر تحميل السنوات الدراسية"
 msgid "Could not load settings"
 msgstr "تعذّر تحميل الإعدادات"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "تعذّر تحميل اليوم الخاص"
 
@@ -549,7 +549,7 @@ msgstr "تعذّر تحميل بيانات الموظف"
 msgid "Could not load students"
 msgstr "تعذّر تحميل الطلبة"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "تعذّر تحميل الفصول الدراسية"
 
@@ -693,7 +693,7 @@ msgstr "حذف الشعبة"
 msgid "Delete Course"
 msgstr "حذف المنهج"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "حذف اليوم الخاص"
 
@@ -1005,7 +1005,7 @@ msgid "Name and Short Name are required"
 msgstr "الاسم والاسم المختصر مطلوبان"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:108
+#: lib/screens/attendance_menu_screen.dart:149
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "الحصة التالية: {class}"
@@ -1178,7 +1178,7 @@ msgstr "لا يوجد طلبة مسجلون هذا العام"
 msgid "No students found"
 msgstr "لم يُعثر على طلبة"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "لم يُعثر على فصول دراسية لهذه السنة الدراسية"
 
@@ -1203,7 +1203,7 @@ msgstr "لم يُعثر على مستخدمين"
 msgid "Non-reportable participants won't display in reports."
 msgstr "المشاركون غير المدرجين في التقارير المدرسية لن يظهروا فيها."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "يوم غير دراسي"
 
@@ -1241,7 +1241,7 @@ msgid ""
 msgstr ""
 "لم يُؤخذ الحضور لهذا التاريخ بعد. هذه قيم افتراضية وليست حضورًا محفوظًا."
 
-#: lib/screens/attendance_menu_screen.dart:98
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Not taken yet today"
 msgstr "لم يُسجَّل اليوم بعد"
 
@@ -1257,6 +1257,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "لا شيء مجدول"
 
+#: lib/screens/attendance_menu_screen.dart:161
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1430,7 +1431,7 @@ msgid "Recorded earlier today"
 msgstr "سُجِّل في وقت سابق اليوم"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "إزالة \"{name}\" من التقويم؟"
 
@@ -1538,7 +1539,7 @@ msgstr ""
 "مشفر (HTTPS). لا تتلقى High Point Education هذه المعلومات ولا تخزنها ولا "
 "تطّلع عليها."
 
-#: lib/screens/special_days_screen.dart:534
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1685,13 +1686,13 @@ msgstr "تبديل الدور"
 msgid "Switch School Year"
 msgstr "تبديل السنة الدراسية"
 
-#: lib/screens/attendance_menu_screen.dart:109
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Take attendance for this class"
 msgstr "أخذ الحضور لهذه الشعبة"
 
 #: lib/screens/class_detail_screen.dart:198
 #: lib/screens/form_group_detail_screen.dart:169
-#: lib/screens/register_calendar.dart:222
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "مُسجَّل"
 
@@ -1706,7 +1707,7 @@ msgid "Taken at {time} by {name}"
 msgstr "أُخذ الحضور الساعة {time} بواسطة {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:97
+#: lib/screens/attendance_menu_screen.dart:139
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "سُجّل اليوم في {time}. اضغط للمراجعة أو التعديل"
 
@@ -1743,7 +1744,7 @@ msgstr "لا يتأثر حساب المستخدم الخاص به."
 msgid "There are no messages to display."
 msgstr "لا توجد رسائل لعرضها."
 
-#: lib/screens/special_days_screen.dart:542
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "يؤثر هذا على الجدول المدرسي:"
 
@@ -1837,7 +1838,7 @@ msgstr "رائد الفصل 2"
 msgid "Type *"
 msgstr "النوع *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "النوع والاسم مطلوبان"
 
@@ -2003,7 +2004,7 @@ msgstr "ما يحتفظ به التطبيق على هذا الجهاز"
 msgid "Year Group *"
 msgstr "المرحلة الدراسية *"
 
-#: lib/screens/special_days_screen.dart:533
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
