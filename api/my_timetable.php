@@ -310,6 +310,7 @@ try {
         // per date, so the period-skeleton pass below knows which slots to
         // skip (already covered) versus render as free/info.
         $filledSlotsByDate = [];
+        $lessonTimesByDate = []; // [timeStart, timeEnd] of each lesson shown, per date
         if (!empty($gibbonTTID)) {
             $classStmt = $pdo->prepare("
                 SELECT ttdd.date, ttcr.gibbonTTColumnRowID, ttcr.name AS period, ttcr.timeStart, ttcr.timeEnd,
@@ -323,12 +324,22 @@ try {
                 JOIN gibbonCourse c ON c.gibbonCourseID = cc.gibbonCourseID
                 JOIN gibbonCourseClassPerson ccp ON ccp.gibbonCourseClassID = cc.gibbonCourseClassID AND ccp.gibbonPersonID = ?
                 LEFT JOIN gibbonSpace sp ON sp.gibbonSpaceID = ttdrc.gibbonSpaceID
-                WHERE ttd.gibbonTTID = ?
-                AND ttdd.date BETWEEN ? AND ?
+                LEFT JOIN gibbonTTDayRowClassException ttex ON ttex.gibbonTTDayRowClassID = ttdrc.gibbonTTDayRowClassID
+                    AND ttex.gibbonPersonID = ccp.gibbonPersonID
+                WHERE ttdd.date BETWEEN ? AND ?
                 AND ccp.role NOT LIKE '%Left%'
+                AND ttex.gibbonTTDayRowClassExceptionID IS NULL
+                GROUP BY ttdrc.gibbonTTDayRowClassID, ttdd.gibbonTTDayDateID
                 ORDER BY ttdd.date, ttcr.timeStart
             ");
-            $classStmt->execute([$personID, $gibbonTTID, $rangeStart, $rangeEnd]);
+            // Lessons from EVERY timetable the person has classes in, not
+            // only the selected one: as Gibbon core v30's ClassesLayer
+            // (TimetableDayDateGateway::selectTimetabledPeriodsByPersonAndDateRange,
+            // no gibbonTTID filter; personal class exceptions left out). The
+            // selected timetable only gives the period skeleton below. Before
+            // module 1.16.22 a teacher whose classes are spread over several
+            // timetables (one per year group) saw only one timetable's.
+            $classStmt->execute([$personID, $rangeStart, $rangeEnd]);
             $classRows = $classStmt->fetchAll(PDO::FETCH_ASSOC);
 
             // Teachers per class — fetched and still returned even though
@@ -415,6 +426,7 @@ try {
                 if ($item['active']) {
                     $items[] = $item;
                     $filledSlotsByDate[$row['date']][$row['gibbonTTColumnRowID']] = true;
+                    $lessonTimesByDate[$row['date']][] = [$item['timeStart'], $item['timeEnd']];
                 }
             }
 
@@ -432,6 +444,14 @@ try {
 
                 foreach ($allRowsByColumn[$columnID] as $row) {
                     if (!empty($filledSlotsByDate[$date][$row['gibbonTTColumnRowID']])) continue;
+                    // A lesson from another timetable at this time: the
+                    // person is teaching (or in class), so this timetable's
+                    // empty period or break doesn't apply to them.
+                    $overlapsLesson = false;
+                    foreach ($lessonTimesByDate[$date] ?? [] as [$ls, $le]) {
+                        if ($row['timeStart'] < $le && $row['timeEnd'] > $ls) { $overlapsLesson = true; break; }
+                    }
+                    if ($overlapsLesson) continue;
 
                     $items[] = gibbonConnectMakeItem([
                         'type' => $row['type'] === 'Break' ? 'Break' : ($row['type'] === 'Lesson' ? 'Free' : 'Info'),
