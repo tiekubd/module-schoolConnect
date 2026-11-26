@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.22"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -249,6 +249,14 @@ $version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec
                           // Out). "In", "Out" and "View Daily Attendance" added
                           // in the same three
                           // languages. No schema change.
+                          //
+                          // 1.16.22: Fix: a teacher whose classes are spread over
+                          // several timetables (e.g. one per year group) saw only
+                          // one timetable's lessons in My Timetable and on the
+                          // dashboard. Lessons now come from every timetable, as
+                          // on the website; the chosen timetable gives the
+                          // periods, and its empty periods/breaks that clash with
+                          // a lesson are left out. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

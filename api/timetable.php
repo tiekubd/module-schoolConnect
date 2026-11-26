@@ -432,6 +432,86 @@ try {
         ];
     }
 
+    // ── Lessons in the person's OTHER timetables today (module 1.16.22+) ──
+    // A teacher whose classes are spread over several timetables (one per
+    // year group) has lessons outside the timetable resolved above. As
+    // Gibbon core v30's ClassesLayer, which takes a person's lessons from
+    // every timetable: add them as periods of their own, drop this
+    // timetable's empty periods/breaks they overlap, and keep the day in
+    // time order. Pure administrators (school-wide list) are left as they
+    // were.
+    $schoolWide = $role === 'Administrator' && empty($isAlsoTeacher);
+    if (!$schoolWide) {
+        // Same role as the queries above: Teacher for Teacher / Administrator,
+        // otherwise the student's own classes (a parent sees their child's).
+        $myRole = ($role === 'Teacher' || $role === 'Administrator') ? 'Teacher' : 'Student';
+        $otherStmt = $pdo->prepare("
+            SELECT ttcr.gibbonTTColumnRowID, ttcr.name AS periodName, ttcr.nameShort AS periodShort,
+                   ttcr.type, ttcr.timeStart, ttcr.timeEnd,
+                   c.name AS courseName, c.nameShort AS courseShort,
+                   cc.name AS className, cc.nameShort AS classShort, cc.gibbonCourseClassID,
+                   sp.name AS roomName,
+                   (SELECT CONCAT(p.preferredName, ' ', p.surname) FROM gibbonCourseClassPerson t
+                      JOIN gibbonPerson p ON p.gibbonPersonID = t.gibbonPersonID
+                     WHERE t.gibbonCourseClassID = cc.gibbonCourseClassID AND t.role = 'Teacher' LIMIT 1) AS teacherName
+            FROM gibbonTTDayDate ttdd
+            JOIN gibbonTTDay ttd ON ttd.gibbonTTDayID = ttdd.gibbonTTDayID
+            JOIN gibbonTTDayRowClass ttdrc ON ttdrc.gibbonTTDayID = ttd.gibbonTTDayID
+            JOIN gibbonTTColumnRow ttcr ON ttcr.gibbonTTColumnRowID = ttdrc.gibbonTTColumnRowID
+            JOIN gibbonCourseClass cc ON cc.gibbonCourseClassID = ttdrc.gibbonCourseClassID
+            JOIN gibbonCourse c ON c.gibbonCourseID = cc.gibbonCourseID
+            JOIN gibbonCourseClassPerson me ON me.gibbonCourseClassID = cc.gibbonCourseClassID
+                AND me.gibbonPersonID = ? AND me.role = ?
+            LEFT JOIN gibbonTTDayRowClassException ttex ON ttex.gibbonTTDayRowClassID = ttdrc.gibbonTTDayRowClassID
+                AND ttex.gibbonPersonID = me.gibbonPersonID
+            LEFT JOIN gibbonSpace sp ON sp.gibbonSpaceID = ttdrc.gibbonSpaceID
+            WHERE ttdd.date = ? AND ttd.gibbonTTID <> ? AND c.gibbonSchoolYearID = ?
+            AND ttex.gibbonTTDayRowClassExceptionID IS NULL
+            GROUP BY ttdrc.gibbonTTDayRowClassID
+            ORDER BY ttcr.timeStart
+        ");
+        $otherStmt->execute([$personID, $myRole, $date, $ttDay['gibbonTTID'], $schoolYearID]);
+        $others = $otherStmt->fetchAll(PDO::FETCH_ASSOC);
+
+        if ($others) {
+            // This timetable's periods with nothing in them that an extra
+            // lesson overlaps no longer apply to this person.
+            $periods = array_values(array_filter($periods, function ($p) use ($others) {
+                if ($p['class'] !== null) return true;
+                foreach ($others as $o) {
+                    if ($p['timeStart'] < $o['timeEnd'] && $p['timeEnd'] > $o['timeStart']) return false;
+                }
+                return true;
+            }));
+            foreach ($others as $o) {
+                $status = 'upcoming';
+                if ($o['timeEnd'] < $now) {
+                    $status = 'past';
+                } elseif ($o['timeStart'] <= $now && $now <= $o['timeEnd']) {
+                    $status = 'current';
+                }
+                $periods[] = [
+                    'gibbonTTColumnRowID' => $o['gibbonTTColumnRowID'],
+                    'periodName'   => $o['periodName'],
+                    'periodShort'  => $o['periodShort'],
+                    'type'         => $o['type'],
+                    'timeStart'    => $o['timeStart'],
+                    'timeEnd'      => $o['timeEnd'],
+                    'status'       => $status,
+                    'class'        => [
+                        'gibbonCourseClassID' => $o['gibbonCourseClassID'],
+                        'courseName'          => $o['courseName'],
+                        'courseShort'         => $o['courseShort'],
+                        'classShort'          => $o['classShort'],
+                        'roomName'            => $o['roomName'],
+                        'teacherName'         => $o['teacherName'],
+                    ],
+                ];
+            }
+            usort($periods, fn($a, $b) => [$a['timeStart'], $a['timeEnd']] <=> [$b['timeStart'], $b['timeEnd']]);
+        }
+    }
+
     echo json_encode([
         'success'       => true,
         'date'          => $date,
