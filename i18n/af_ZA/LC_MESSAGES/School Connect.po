@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Alle tipes"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Alle grade"
 
@@ -150,7 +150,7 @@ msgstr[1] "Gedragsinskrywings gestoor vir {count} leerders!"
 msgid "Browse staff profiles"
 msgstr "Blaai deur personeelprofiele"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per klas"
@@ -204,11 +204,11 @@ msgstr "Naam in Chinees of ander karakterskrif"
 msgid "Choose a class above"
 msgstr "Kies 'n klas hierbo"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Kies enige registerklas"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Kies enige van jou klasse"
 
@@ -216,7 +216,7 @@ msgstr "Kies enige van jou klasse"
 msgid "Choose at least one student first"
 msgstr "Kies eers minstens een leerder"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Kies een van jou registerklasse"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Klaslys"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Klas nou: {class}"
 
@@ -335,7 +335,7 @@ msgstr "Kon nie die rapport aflaai nie"
 msgid "Could not generate username"
 msgstr "Kon nie 'n gebruikersnaam skep nie"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Kon nie registerklasse laai nie"
 
@@ -360,7 +360,7 @@ msgid "Could not load course"
 msgstr "Kon nie die vak laai nie"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Kon nie vakke laai nie"
 
@@ -977,7 +977,7 @@ msgstr "Moet uniek wees indien ingevul"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "My registerklasse"
 
@@ -991,12 +991,12 @@ msgid "Name and Short Name are required"
 msgstr "Naam en kort naam word vereis"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Volgende klas: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Geen registerklasse gevind nie"
 
@@ -1038,7 +1038,7 @@ msgid "No class"
 msgstr "Geen klas nie"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Geen klasse gevind nie"
@@ -1076,7 +1076,7 @@ msgstr "Geen data vir hierdie kwartaal nie"
 msgid "No data updates found"
 msgstr "Geen data-opdaterings gevind nie"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Geen departement nie"
 
@@ -1232,7 +1232,7 @@ msgstr ""
 "Nog nie vir hierdie datum geneem nie. Dit is standaardinskrywings, nie "
 "gestoorde bywoning nie."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Nog nie vandag geneem nie"
 
@@ -1248,7 +1248,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Niks geskeduleer nie"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1282,7 +1282,7 @@ msgstr ""
 msgid "Opens at"
 msgstr "Maak oop om"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Ander registers"
 
@@ -1579,7 +1579,7 @@ msgstr "Soek op naam of gebruikersnaam..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Soek op naam, gebruikersnaam, e-pos, leerdernommer..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Soek klasse..."
 
@@ -1684,7 +1684,7 @@ msgstr "Wissel van rol"
 msgid "Switch School Year"
 msgstr "Wissel van skooljaar"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Neem bywoning vir hierdie klas"
 
@@ -1705,7 +1705,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Geneem om {time} deur {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Vandag om {time} geneem. Tik om na te gaan of te verander"
 
@@ -2138,7 +2138,7 @@ msgstr[1] "{count} assesserings"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} klas"
@@ -2268,7 +2268,7 @@ msgstr[1] "{count} personeellede"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} leerder"

@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Tutti i Tipi"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Tutti gli Anni di Corso"
 
@@ -150,7 +150,7 @@ msgstr[1] "Note di comportamento salvate per {count} studenti!"
 msgid "Browse staff profiles"
 msgstr "Sfoglia i profili del personale"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per Classe"
@@ -203,11 +203,11 @@ msgstr "Nome in cinese o in altra scrittura a caratteri"
 msgid "Choose a class above"
 msgstr "Scegli una classe qui sopra"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Scegli un gruppo classe qualsiasi"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Scegli una delle tue classi"
 
@@ -215,7 +215,7 @@ msgstr "Scegli una delle tue classi"
 msgid "Choose at least one student first"
 msgstr "Scegli prima almeno uno studente"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Scegli uno dei tuoi gruppi classe"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Elenco della Classe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Ora: {class}"
 
@@ -335,7 +335,7 @@ msgstr "Impossibile scaricare la pagella"
 msgid "Could not generate username"
 msgstr "Impossibile generare il nome utente"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Impossibile caricare i gruppi classe"
 
@@ -360,7 +360,7 @@ msgid "Could not load course"
 msgstr "Impossibile caricare il corso"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Impossibile caricare i corsi"
 
@@ -982,7 +982,7 @@ msgstr "Deve essere univoco, se impostato"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "I Miei Gruppi Classe"
 
@@ -996,12 +996,12 @@ msgid "Name and Short Name are required"
 msgstr "Il nome e il nome breve sono obbligatori"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Prossima lezione: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Nessun gruppo classe trovato"
 
@@ -1043,7 +1043,7 @@ msgid "No class"
 msgstr "Nessuna classe"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Nessuna classe trovata"
@@ -1081,7 +1081,7 @@ msgstr "Nessun dato per questo periodo"
 msgid "No data updates found"
 msgstr "Nessun aggiornamento dati trovato"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Nessun dipartimento"
 
@@ -1236,7 +1236,7 @@ msgstr ""
 "Le presenze per questa data non sono ancora state rilevate. Sono valori "
 "predefiniti, non presenze salvate."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Non ancora rilevate oggi"
 
@@ -1253,7 +1253,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Niente in programma"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1286,7 +1286,7 @@ msgstr "Include solo gli studenti non iscritti a questo anno scolastico."
 msgid "Opens at"
 msgstr "Apre alle"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Altri registri"
 
@@ -1585,7 +1585,7 @@ msgstr "Cerca per nome o nome utente…"
 msgid "Search by name, username, email, student ID..."
 msgstr "Cerca per nome, nome utente, email, ID studente…"
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Cerca classi…"
 
@@ -1690,7 +1690,7 @@ msgstr "Cambia Ruolo"
 msgid "Switch School Year"
 msgstr "Cambia Anno Scolastico"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Rileva le presenze di questa classe"
 
@@ -1711,7 +1711,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Rilevate alle {time} da {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Rilevate oggi alle {time}. Tocca per controllare o modificare"
 
@@ -2150,7 +2150,7 @@ msgstr[1] "{count} valutazioni"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} classe"
@@ -2280,7 +2280,7 @@ msgstr[1] "{count} membri dello staff"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} studente"

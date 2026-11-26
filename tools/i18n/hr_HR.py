@@ -681,7 +681,18 @@ T = {'A punctuation mark or space': 'Interpunkcijski znak ili razmak',
  'Taken at {time} by {name}': 'Evidentirano u {time}, {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Prisutnost za ovaj datum još nije evidentirana. Ovo su zadane vrijednosti, a ne spremljena prisutnost.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nijedna oznaka prisutnosti nije dostupna vašoj ulozi pa ne možete evidentirati ovu prisutnost.',
- 'Other Registers': 'Ostale evidencije'}
+ 'Other Registers': 'Ostale evidencije',
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': 'Ovaj razred nije '
+                                                                                                                                                                                    'u rasporedu za '
+                                                                                                                                                                                    'odabrani datum. '
+                                                                                                                                                                                    'Prisutnost se za '
+                                                                                                                                                                                    'ovu skupinu i '
+                                                                                                                                                                                    'dalje može '
+                                                                                                                                                                                    'evidentirati, ali '
+                                                                                                                                                                                    'je trenutno izvan '
+                                                                                                                                                                                    'redovitog '
+                                                                                                                                                                                    'rasporeda za ovaj '
+                                                                                                                                                                                    'razred.'}
 
 P = {'All {count} class done for today': ('Današnja nastava je završena ({count} sat)', 'Današnja nastava je završena ({count} sata)', 'Današnja nastava je završena ({count} sati)'),
  'At least {count} character': ('Barem {count} znak', 'Barem {count} znaka', 'Barem {count} znakova'),

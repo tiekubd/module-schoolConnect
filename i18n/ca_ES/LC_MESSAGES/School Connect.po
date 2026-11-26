@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Tots els tipus"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Tots els nivells"
 
@@ -150,7 +150,7 @@ msgstr[1] "S'han desat els registres de comportament per a {count} alumnes!"
 msgid "Browse staff profiles"
 msgstr "Consulteu els perfils del personal"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per classe"
@@ -203,11 +203,11 @@ msgstr "Nom en xinès o en una altra escriptura ideogràfica"
 msgid "Choose a class above"
 msgstr "Trieu una classe a dalt"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Trieu qualsevol grup classe"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Trieu qualsevol de les vostres classes"
 
@@ -215,7 +215,7 @@ msgstr "Trieu qualsevol de les vostres classes"
 msgid "Choose at least one student first"
 msgstr "Primer trieu com a mínim un alumne"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Trieu un dels vostres grups classe"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Llista de la classe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Classe ara: {class}"
 
@@ -335,7 +335,7 @@ msgstr "No s'ha pogut baixar el butlletí"
 msgid "Could not generate username"
 msgstr "No s'ha pogut generar el nom d'usuari"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "No s'han pogut carregar els grups classe"
 
@@ -360,7 +360,7 @@ msgid "Could not load course"
 msgstr "No s'ha pogut carregar la matèria"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "No s'han pogut carregar les matèries"
 
@@ -984,7 +984,7 @@ msgstr "Si s'indica, ha de ser únic"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Els meus grups classe"
 
@@ -998,12 +998,12 @@ msgid "Name and Short Name are required"
 msgstr "Cal indicar el nom i el nom curt"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Classe següent: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "No s'ha trobat cap grup classe"
 
@@ -1044,7 +1044,7 @@ msgid "No class"
 msgstr "Sense classe"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "No s'ha trobat cap classe"
@@ -1082,7 +1082,7 @@ msgstr "No hi ha dades per a aquest trimestre"
 msgid "No data updates found"
 msgstr "No s'ha trobat cap actualització de dades"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Sense departament"
 
@@ -1237,7 +1237,7 @@ msgstr ""
 "Encara no s’ha passat llista en aquesta data. Són valors per defecte, no "
 "assistència desada."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Avui encara no s'ha passat llista"
 
@@ -1253,7 +1253,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "No hi ha res programat"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1285,7 +1285,7 @@ msgstr "Només inclou alumnes no matriculats en aquest curs escolar."
 msgid "Opens at"
 msgstr "S'obre a les"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Altres llistes"
 
@@ -1585,7 +1585,7 @@ msgstr "Cerca per nom o nom d'usuari..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Cerca per nom, nom d'usuari, correu, número d'alumne..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Cerca classes..."
 
@@ -1697,7 +1697,7 @@ msgstr "Canvia de rol"
 msgid "Switch School Year"
 msgstr "Canvia de curs escolar"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Passeu llista en aquesta classe"
 
@@ -1718,7 +1718,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Passada a les {time} per {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Llista passada avui a les {time}. Toqueu per revisar-la o canviar-la"
 
@@ -2160,7 +2160,7 @@ msgstr[1] "{count} avaluacions"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} classe"
@@ -2290,7 +2290,7 @@ msgstr[1] "{count} membres del personal"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} alumne"

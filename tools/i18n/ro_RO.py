@@ -689,7 +689,21 @@ T = {'A punctuation mark or space': 'Un semn de punctuație sau un spațiu',
  'In': 'Prezenți',
  'Out': 'Absenți',
  'View Daily Attendance': 'Vizualizare prezență zilnică',
- 'Other Registers': 'Alte cataloage'}
+ 'Other Registers': 'Alte cataloage',
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': 'Această clasă nu '
+                                                                                                                                                                                    'este programată '
+                                                                                                                                                                                    'în orar la data '
+                                                                                                                                                                                    'specificată. '
+                                                                                                                                                                                    'Prezența poate fi '
+                                                                                                                                                                                    'totuși '
+                                                                                                                                                                                    'înregistrată '
+                                                                                                                                                                                    'pentru acest '
+                                                                                                                                                                                    'grup, însă în '
+                                                                                                                                                                                    'prezent se află '
+                                                                                                                                                                                    'în afara '
+                                                                                                                                                                                    'programului '
+                                                                                                                                                                                    'obișnuit al '
+                                                                                                                                                                                    'acestei clase.'}
 
 P = {'All {count} class done for today': ('Ora de azi s-a încheiat', 'Toate cele {count} ore de azi s-au încheiat', 'Toate cele {count} de ore de azi s-au încheiat'),
  'At least {count} character': ('Cel puțin {count} caracter', 'Cel puțin {count} caractere', 'Cel puțin {count} de caractere'),

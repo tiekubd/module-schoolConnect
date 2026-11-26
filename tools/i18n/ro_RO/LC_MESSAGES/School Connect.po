@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Toate tipurile"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Toți anii de studiu"
 
@@ -153,7 +153,7 @@ msgstr[2] "Comportamentul a fost salvat pentru {count} de elevi!"
 msgid "Browse staff profiles"
 msgstr "Răsfoiți profilurile personalului"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "După grupă"
@@ -207,11 +207,11 @@ msgstr "Nume în caractere chinezești sau alt sistem de scriere"
 msgid "Choose a class above"
 msgstr "Alegeți o grupă de mai sus"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Alegeți orice clasă"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Alegeți oricare dintre grupele dvs."
 
@@ -219,7 +219,7 @@ msgstr "Alegeți oricare dintre grupele dvs."
 msgid "Choose at least one student first"
 msgstr "Alegeți mai întâi cel puțin un elev"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Alegeți una dintre clasele dvs."
 
@@ -236,7 +236,7 @@ msgid "Class Roster"
 msgstr "Lista grupei"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Acum: {class}"
 
@@ -339,7 +339,7 @@ msgstr "Descărcarea situației școlare nu a reușit"
 msgid "Could not generate username"
 msgstr "Generarea numelui de utilizator nu a reușit"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Nu s-au putut încărca clasele"
 
@@ -364,7 +364,7 @@ msgid "Could not load course"
 msgstr "Nu s-a putut încărca materia"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Nu s-au putut încărca materiile"
 
@@ -871,7 +871,7 @@ msgstr ""
 "Vizualizarea ca alt utilizator necesită modulul School Connect 1.16.09 sau "
 "mai nou pe serverul școlii."
 
-#: lib/screens/attendance_menu_screen.dart:314
+#: lib/screens/attendance_menu_screen.dart:331
 msgid "In"
 msgstr "Prezenți"
 
@@ -991,7 +991,7 @@ msgstr "Trebuie să fie unic, dacă este completat"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Clasele mele"
 
@@ -1005,12 +1005,12 @@ msgid "Name and Short Name are required"
 msgstr "Numele și numele scurt sunt obligatorii"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Ora următoare: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Nu s-au găsit clase"
 
@@ -1052,7 +1052,7 @@ msgid "No class"
 msgstr "Fără grupă"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Nu s-au găsit grupe"
@@ -1090,7 +1090,7 @@ msgstr "Nu există date pentru acest semestru"
 msgid "No data updates found"
 msgstr "Nu s-au găsit actualizări de date"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Fără catedră"
 
@@ -1245,7 +1245,7 @@ msgstr ""
 "Prezența pentru această dată nu a fost luată încă. Acestea sunt valori "
 "implicite, nu prezență salvată."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Încă nu a fost luată astăzi"
 
@@ -1261,7 +1261,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nimic programat"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1292,7 +1292,7 @@ msgstr "Include doar elevii neînscriși în acest an școlar."
 msgid "Opens at"
 msgstr "Se deschide la"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Alte cataloage"
 
@@ -1304,7 +1304,7 @@ msgstr "Alte grupe"
 msgid "Other services you may see"
 msgstr "Alte servicii pe care le puteți vedea"
 
-#: lib/screens/attendance_menu_screen.dart:315
+#: lib/screens/attendance_menu_screen.dart:332
 msgid "Out"
 msgstr "Absenți"
 
@@ -1442,7 +1442,7 @@ msgstr "Număr chitanță"
 msgid "Recent Attendance"
 msgstr "Prezența recentă"
 
-#: lib/screens/attendance_menu_screen.dart:323
+#: lib/screens/attendance_menu_screen.dart:340
 msgid "Recent History"
 msgstr "Istoric recent"
 
@@ -1602,7 +1602,7 @@ msgstr "Caută după nume sau nume de utilizator..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Caută după nume, nume de utilizator, e-mail, ID elev..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Caută grupe..."
 
@@ -1707,7 +1707,7 @@ msgstr "Schimbă rolul"
 msgid "Switch School Year"
 msgstr "Schimbă anul școlar"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Luați prezența la această grupă"
 
@@ -1728,7 +1728,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Luată la {time} de {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Luată astăzi la {time}. Atingeți pentru a verifica sau modifica"
 
@@ -1795,6 +1795,16 @@ msgid ""
 msgstr ""
 "Grupa nu are oră programată pe {date}. Puteți totuși salva prezența, dacă "
 "este nevoie."
+
+#: lib/screens/attendance_menu_screen.dart:267
+msgid ""
+"This class is not timetabled to run on the specified date. Attendance may "
+"still be taken for this group however it currently falls outside the regular"
+" schedule for this class."
+msgstr ""
+"Această clasă nu este programată în orar la data specificată. Prezența poate"
+" fi totuși înregistrată pentru acest grup, însă în prezent se află în afara "
+"programului obișnuit al acestei clase."
 
 #: lib/screens/markbook_entry_screen.dart:385
 #: lib/screens/student_marks_screen.dart:471
@@ -1952,7 +1962,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Vezi prezența"
 
-#: lib/screens/attendance_menu_screen.dart:226
+#: lib/screens/attendance_menu_screen.dart:232
 msgid "View Daily Attendance"
 msgstr "Vizualizare prezență zilnică"
 
@@ -2170,7 +2180,7 @@ msgstr[2] "{count} de evaluări"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} grupă"
@@ -2316,7 +2326,7 @@ msgstr[2] "{count} de angajați"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} elev"

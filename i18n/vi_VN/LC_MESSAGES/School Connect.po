@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Tất cả các loại"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Tất cả các khối"
 
@@ -147,7 +147,7 @@ msgstr[0] "Đã lưu ghi nhận hành vi cho {count} học sinh!"
 msgid "Browse staff profiles"
 msgstr "Xem hồ sơ nhân viên"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Theo lớp học"
@@ -200,11 +200,11 @@ msgstr "Tên bằng chữ Hán hoặc chữ tượng hình khác"
 msgid "Choose a class above"
 msgstr "Chọn một lớp học ở trên"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Chọn bất kỳ lớp chủ nhiệm nào"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Chọn bất kỳ lớp học nào của bạn"
 
@@ -212,7 +212,7 @@ msgstr "Chọn bất kỳ lớp học nào của bạn"
 msgid "Choose at least one student first"
 msgstr "Hãy chọn ít nhất một học sinh trước"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Chọn một lớp chủ nhiệm của bạn"
 
@@ -229,7 +229,7 @@ msgid "Class Roster"
 msgstr "Danh sách lớp"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Đang học: {class}"
 
@@ -331,7 +331,7 @@ msgstr "Không thể tải phiếu báo điểm"
 msgid "Could not generate username"
 msgstr "Không thể tạo tên đăng nhập"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Không thể tải các lớp chủ nhiệm"
 
@@ -356,7 +356,7 @@ msgid "Could not load course"
 msgstr "Không thể tải môn học"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Không thể tải các môn học"
 
@@ -973,7 +973,7 @@ msgstr "Nếu có, không được trùng"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Các lớp chủ nhiệm của tôi"
 
@@ -987,12 +987,12 @@ msgid "Name and Short Name are required"
 msgstr "Cần nhập tên và tên viết tắt"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Tiết tiếp theo: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Không tìm thấy lớp chủ nhiệm"
 
@@ -1034,7 +1034,7 @@ msgid "No class"
 msgstr "Không có tiết học"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Không tìm thấy lớp học"
@@ -1072,7 +1072,7 @@ msgstr "Không có dữ liệu cho học kỳ này"
 msgid "No data updates found"
 msgstr "Không tìm thấy cập nhật dữ liệu"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Không có tổ bộ môn"
 
@@ -1227,7 +1227,7 @@ msgstr ""
 "Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh "
 "đã lưu."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Hôm nay chưa điểm danh"
 
@@ -1243,7 +1243,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Không có lịch"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1274,7 +1274,7 @@ msgstr "Chỉ gồm học sinh chưa ghi danh vào năm học này."
 msgid "Opens at"
 msgstr "Mở lúc"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Sổ điểm danh khác"
 
@@ -1570,7 +1570,7 @@ msgstr "Tìm theo tên hoặc tên đăng nhập..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Tìm theo tên, tên đăng nhập, email, mã học sinh..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Tìm lớp học..."
 
@@ -1675,7 +1675,7 @@ msgstr "Chuyển vai trò"
 msgid "Switch School Year"
 msgstr "Chuyển năm học"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Điểm danh lớp học này"
 
@@ -1696,7 +1696,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Điểm danh lúc {time} bởi {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Đã điểm danh hôm nay lúc {time}. Chạm để xem hoặc sửa"
 
@@ -2124,7 +2124,7 @@ msgstr[0] "{count} bài đánh giá"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} lớp học"
@@ -2238,7 +2238,7 @@ msgstr[0] "{count} nhân viên"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} học sinh"

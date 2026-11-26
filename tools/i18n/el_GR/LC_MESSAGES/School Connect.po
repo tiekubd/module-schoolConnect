@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Όλοι οι τύποι"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Όλες οι τάξεις"
 
@@ -150,7 +150,7 @@ msgstr[1] "Οι καταγραφές συμπεριφοράς αποθηκεύτ
 msgid "Browse staff profiles"
 msgstr "Περιήγηση στα προφίλ του προσωπικού"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Ανά ομάδα μαθήματος"
@@ -204,11 +204,11 @@ msgstr "Όνομα με κινεζικά ή άλλα ιδεογράμματα"
 msgid "Choose a class above"
 msgstr "Επιλέξτε ομάδα μαθήματος παραπάνω"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Επιλέξτε οποιοδήποτε τμήμα"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μαθήματός σας"
 
@@ -216,7 +216,7 @@ msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μα�
 msgid "Choose at least one student first"
 msgstr "Επιλέξτε πρώτα τουλάχιστον έναν μαθητή"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Επιλέξτε ένα από τα τμήματά σας"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Κατάλογος μαθητών"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Τώρα: {class}"
 
@@ -338,7 +338,7 @@ msgstr "Δεν ήταν δυνατή η λήψη του ελέγχου προό�
 msgid "Could not generate username"
 msgstr "Δεν ήταν δυνατή η δημιουργία ονόματος χρήστη"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Δεν ήταν δυνατή η φόρτωση των τμημάτων"
 
@@ -363,7 +363,7 @@ msgid "Could not load course"
 msgstr "Δεν ήταν δυνατή η φόρτωση του μαθήματος"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Δεν ήταν δυνατή η φόρτωση των μαθημάτων"
 
@@ -987,7 +987,7 @@ msgstr "Αν οριστεί, πρέπει να είναι μοναδικό"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Τα τμήματά μου"
 
@@ -1001,12 +1001,12 @@ msgid "Name and Short Name are required"
 msgstr "Το όνομα και το σύντομο όνομα είναι υποχρεωτικά"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Επόμενο: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Δεν βρέθηκαν τμήματα"
 
@@ -1048,7 +1048,7 @@ msgid "No class"
 msgstr "Χωρίς μάθημα"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Δεν βρέθηκαν ομάδες μαθημάτων"
@@ -1086,7 +1086,7 @@ msgstr "Δεν υπάρχουν δεδομένα για αυτή την περί
 msgid "No data updates found"
 msgstr "Δεν βρέθηκαν ενημερώσεις δεδομένων"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Χωρίς τομέα"
 
@@ -1243,7 +1243,7 @@ msgstr ""
 "Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι "
 "προεπιλογές, όχι αποθηκευμένες παρουσίες."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Δεν έχουν ληφθεί ακόμη σήμερα"
 
@@ -1259,7 +1259,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Τίποτα προγραμματισμένο"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1294,7 +1294,7 @@ msgstr ""
 msgid "Opens at"
 msgstr "Ανοίγει στις"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Άλλα παρουσιολόγια"
 
@@ -1596,7 +1596,7 @@ msgstr "Αναζήτηση με όνομα ή όνομα χρήστη..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Αναζήτηση με όνομα, όνομα χρήστη, email, αριθμό μαθητή..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Αναζήτηση ομάδων μαθημάτων..."
 
@@ -1705,7 +1705,7 @@ msgstr "Αλλαγή ρόλου"
 msgid "Switch School Year"
 msgstr "Αλλαγή σχολικού έτους"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Λήψη παρουσιών για αυτή την ομάδα μαθήματος"
 
@@ -1726,7 +1726,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Καταχωρίστηκε στις {time} από {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για έλεγχο ή αλλαγή"
 
@@ -2170,7 +2170,7 @@ msgstr[1] "{count} αξιολογήσεις"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} ομάδα μαθήματος"
@@ -2300,7 +2300,7 @@ msgstr[1] "{count} μέλη προσωπικού"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} μαθητής"

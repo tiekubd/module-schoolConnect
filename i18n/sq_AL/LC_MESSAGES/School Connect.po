@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Të gjitha llojet"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Të gjitha nivelet"
 
@@ -150,7 +150,7 @@ msgstr[1] "Shënimet e sjelljes u ruajtën për {count} nxënës!"
 msgid "Browse staff profiles"
 msgstr "Shfletoni profilet e stafit"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Sipas grupit"
@@ -204,11 +204,11 @@ msgstr "Emri me shkronja kineze ose ideograme të tjera"
 msgid "Choose a class above"
 msgstr "Zgjidhni një grup më lart"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Zgjidhni çdo klasë"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Zgjidhni cilindo nga grupet tuaja"
 
@@ -216,7 +216,7 @@ msgstr "Zgjidhni cilindo nga grupet tuaja"
 msgid "Choose at least one student first"
 msgstr "Fillimisht zgjidhni të paktën një nxënës"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Zgjidhni një nga klasat tuaja"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Lista e grupit"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Tani: {class}"
 
@@ -336,7 +336,7 @@ msgstr "Dëftesa nuk u shkarkua dot"
 msgid "Could not generate username"
 msgstr "Emri i përdoruesit nuk u krijua dot"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Klasat nuk u ngarkuan dot"
 
@@ -361,7 +361,7 @@ msgid "Could not load course"
 msgstr "Lënda nuk u ngarkua dot"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Lëndët nuk u ngarkuan dot"
 
@@ -983,7 +983,7 @@ msgstr "Nëse plotësohet, duhet të jetë unik"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Klasat e mia"
 
@@ -997,12 +997,12 @@ msgid "Name and Short Name are required"
 msgstr "Emri dhe emri i shkurtër janë të detyrueshëm"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Ora e radhës: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Nuk u gjetën klasa"
 
@@ -1044,7 +1044,7 @@ msgid "No class"
 msgstr "Nuk ka orë"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Nuk u gjetën grupe"
@@ -1082,7 +1082,7 @@ msgstr "Nuk ka të dhëna për këtë semestër"
 msgid "No data updates found"
 msgstr "Nuk u gjetën përditësime të dhënash"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Pa departament"
 
@@ -1237,7 +1237,7 @@ msgstr ""
 "Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të "
 "paracaktuara, jo frekuentim i ruajtur."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Nuk është marrë ende sot"
 
@@ -1254,7 +1254,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Asgjë e planifikuar"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1286,7 +1286,7 @@ msgstr "Përfshin vetëm nxënësit e paregjistruar në këtë vit shkollor."
 msgid "Opens at"
 msgstr "Hapet në"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Regjistra të tjerë"
 
@@ -1587,7 +1587,7 @@ msgid "Search by name, username, email, student ID..."
 msgstr ""
 "Kërko sipas emrit, emrit të përdoruesit, emailit, numrit të nxënësit..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Kërko grupe..."
 
@@ -1694,7 +1694,7 @@ msgstr "Ndërro rolin"
 msgid "Switch School Year"
 msgstr "Ndërro vitin shkollor"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Merr frekuentimin për këtë grup"
 
@@ -1715,7 +1715,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Marrë në {time} nga {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
 
@@ -1782,6 +1782,16 @@ msgid ""
 msgstr ""
 "Ky grup nuk ka orë më {date}. Nëse nevojitet, mund ta ruani gjithsesi "
 "frekuentimin."
+
+#: lib/screens/attendance_menu_screen.dart:267
+msgid ""
+"This class is not timetabled to run on the specified date. Attendance may "
+"still be taken for this group however it currently falls outside the regular"
+" schedule for this class."
+msgstr ""
+"Kjo klasë nuk është në orar për datën e zgjedhur. Frekuentimi mund të merret"
+" ende për këtë grup, por aktualisht bie jashtë orarit të rregullt të kësaj "
+"klase."
 
 #: lib/screens/markbook_entry_screen.dart:385
 #: lib/screens/student_marks_screen.dart:471
@@ -2154,7 +2164,7 @@ msgstr[1] "{count} vlerësime"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} grup"
@@ -2284,7 +2294,7 @@ msgstr[1] "{count} punonjës"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} nxënës"

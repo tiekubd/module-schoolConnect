@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Visi tipai"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "Visi klasių srautai"
 
@@ -153,7 +153,7 @@ msgstr[2] "Elgesio įrašai išsaugoti {count} mokinių!"
 msgid "Browse staff profiles"
 msgstr "Peržiūrėkite darbuotojų profilius"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Pagal grupę"
@@ -206,11 +206,11 @@ msgstr "Vardas kinų ar kitais hieroglifais"
 msgid "Choose a class above"
 msgstr "Pasirinkite grupę viršuje"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "Pasirinkite bet kurią klasę"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "Pasirinkite bet kurią savo grupę"
 
@@ -218,7 +218,7 @@ msgstr "Pasirinkite bet kurią savo grupę"
 msgid "Choose at least one student first"
 msgstr "Pirmiausia pasirinkite bent vieną mokinį"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "Pasirinkite vieną iš savo klasių"
 
@@ -235,7 +235,7 @@ msgid "Class Roster"
 msgstr "Grupės sąrašas"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "Dabar: {class}"
 
@@ -339,7 +339,7 @@ msgstr "Nepavyko atsisiųsti pažangos ataskaitos"
 msgid "Could not generate username"
 msgstr "Nepavyko sukurti prisijungimo vardo"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "Nepavyko įkelti klasių"
 
@@ -364,7 +364,7 @@ msgid "Could not load course"
 msgstr "Nepavyko įkelti dalyko"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "Nepavyko įkelti dalykų"
 
@@ -988,7 +988,7 @@ msgstr "Jei nurodytas, turi būti unikalus"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "Mano klasės"
 
@@ -1002,12 +1002,12 @@ msgid "Name and Short Name are required"
 msgstr "Būtina nurodyti pavadinimą ir trumpą pavadinimą"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Kita pamoka: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "Klasių nerasta"
 
@@ -1048,7 +1048,7 @@ msgid "No class"
 msgstr "Pamokos nėra"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Grupių nerasta"
@@ -1086,7 +1086,7 @@ msgstr "Šio pusmečio duomenų nėra"
 msgid "No data updates found"
 msgstr "Duomenų atnaujinimų nerasta"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "Be metodinės grupės"
 
@@ -1241,7 +1241,7 @@ msgstr ""
 "Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne "
 "išsaugotas lankomumas."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "Šiandien dar nepažymėta"
 
@@ -1257,7 +1257,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nieko nesuplanuota"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1290,7 +1290,7 @@ msgstr "Įtraukiami tik mokiniai, neužregistruoti šiems mokslo metams."
 msgid "Opens at"
 msgstr "Atidaroma"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Kiti žiniaraščiai"
 
@@ -1587,7 +1587,7 @@ msgstr "Ieškoti pagal vardą ar prisijungimo vardą..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Ieškoti pagal vardą, prisijungimo vardą, el. paštą, mokinio numerį..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "Ieškoti grupių..."
 
@@ -1691,7 +1691,7 @@ msgstr "Keisti vaidmenį"
 msgid "Switch School Year"
 msgstr "Keisti mokslo metus"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "Pažymėti šios grupės lankomumą"
 
@@ -1712,7 +1712,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Pažymėta {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
 "Pažymėta šiandien {time}. Bakstelėkite, kad peržiūrėtumėte ar pakeistumėte"
@@ -2151,7 +2151,7 @@ msgstr[2] "{count} vertinimų"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} grupė"
@@ -2297,7 +2297,7 @@ msgstr[2] "{count} darbuotojų"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} mokinys"

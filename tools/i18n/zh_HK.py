@@ -481,7 +481,8 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  'In': '出席',
  'Out': '缺席',
  'View Daily Attendance': '查看每日出席',
- 'Other Registers': '其他點名'}
+ 'Other Registers': '其他點名',
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': '此班別在指定日期沒有編入時間表。仍可為此班別點名，但目前不屬於此班別的正常上課時間。'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

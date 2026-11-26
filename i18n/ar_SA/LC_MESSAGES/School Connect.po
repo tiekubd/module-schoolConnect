@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "جميع الأنواع"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
 msgid "All Year Groups"
 msgstr "جميع المراحل الدراسية"
 
@@ -162,7 +162,7 @@ msgstr[5] "تم حفظ سجلات السلوك لـ {count} طالب!"
 msgid "Browse staff profiles"
 msgstr "تصفح ملفات الموظفين"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "حسب الشعبة"
@@ -215,11 +215,11 @@ msgstr "الاسم بالصينية أو بكتابة رمزية أخرى"
 msgid "Choose a class above"
 msgstr "اختر شعبة من الأعلى"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "اختيار أي صف دراسي"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "اختيار إحدى شعبك"
 
@@ -227,7 +227,7 @@ msgstr "اختيار إحدى شعبك"
 msgid "Choose at least one student first"
 msgstr "اختر طالبًا واحدًا على الأقل أولًا"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "اختيار أحد صفوفك الدراسية"
 
@@ -244,7 +244,7 @@ msgid "Class Roster"
 msgstr "قائمة الشعبة"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "الحصة الحالية: {class}"
 
@@ -345,7 +345,7 @@ msgstr "تعذّر تنزيل التقرير المدرسي"
 msgid "Could not generate username"
 msgstr "تعذّر إنشاء اسم المستخدم"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "تعذّر تحميل الصفوف الدراسية"
 
@@ -370,7 +370,7 @@ msgid "Could not load course"
 msgstr "تعذّر تحميل المنهج"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "تعذّر تحميل المناهج"
 
@@ -991,7 +991,7 @@ msgstr "يجب أن يكون فريدًا إن وُجد"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "صفوفي الدراسية"
 
@@ -1005,12 +1005,12 @@ msgid "Name and Short Name are required"
 msgstr "الاسم والاسم المختصر مطلوبان"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "الحصة التالية: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "لم يُعثر على صفوف دراسية"
 
@@ -1051,7 +1051,7 @@ msgid "No class"
 msgstr "لا حصة"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:177
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "لم يُعثر على شعب"
@@ -1089,7 +1089,7 @@ msgstr "لا توجد بيانات لهذا الفصل الدراسي"
 msgid "No data updates found"
 msgstr "لم يُعثر على تحديثات بيانات"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:195
 msgid "No department"
 msgstr "بدون قسم"
 
@@ -1241,7 +1241,7 @@ msgid ""
 msgstr ""
 "لم يُؤخذ الحضور لهذا التاريخ بعد. هذه قيم افتراضية وليست حضورًا محفوظًا."
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "لم يُسجَّل اليوم بعد"
 
@@ -1257,7 +1257,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "لا شيء مجدول"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1287,7 +1287,7 @@ msgstr "يشمل فقط الطلبة غير المسجلين في هذه الس�
 msgid "Opens at"
 msgstr "يُفتح في"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "سجلات أخرى"
 
@@ -1586,7 +1586,7 @@ msgstr "البحث بالاسم أو اسم المستخدم…"
 msgid "Search by name, username, email, student ID..."
 msgstr "البحث بالاسم أو اسم المستخدم أو البريد الإلكتروني أو رقم الطالب…"
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:114
 msgid "Search classes..."
 msgstr "البحث في الشعب…"
 
@@ -1690,7 +1690,7 @@ msgstr "تبديل الدور"
 msgid "Switch School Year"
 msgstr "تبديل السنة الدراسية"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "أخذ الحضور لهذه الشعبة"
 
@@ -1711,7 +1711,7 @@ msgid "Taken at {time} by {name}"
 msgstr "أُخذ الحضور الساعة {time} بواسطة {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "سُجّل اليوم في {time}. اضغط للمراجعة أو التعديل"
 
@@ -1775,6 +1775,15 @@ msgid ""
 "needed."
 msgstr ""
 "هذه الشعبة غير مجدولة في {date}. لا يزال بإمكانك حفظ الحضور إذا لزم الأمر."
+
+#: lib/screens/attendance_menu_screen.dart:267
+msgid ""
+"This class is not timetabled to run on the specified date. Attendance may "
+"still be taken for this group however it currently falls outside the regular"
+" schedule for this class."
+msgstr ""
+"هذا الفصل غير مُدرج في الجدول في التاريخ المحدد. لا يزال بالإمكان تسجيل "
+"الحضور لهذه المجموعة، لكنه يقع حاليًا خارج الجدول المعتاد لهذا الفصل."
 
 #: lib/screens/markbook_entry_screen.dart:385
 #: lib/screens/student_marks_screen.dart:471
@@ -2154,7 +2163,7 @@ msgstr[5] "{count} تقييم"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} شعبة"
@@ -2348,7 +2357,7 @@ msgstr[5] "{count} موظف"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:200
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} طالب"
