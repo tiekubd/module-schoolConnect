@@ -153,7 +153,7 @@ msgstr[2] "Comportamentul a fost salvat pentru {count} de elevi!"
 msgid "Browse staff profiles"
 msgstr "Răsfoiți profilurile personalului"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "După grupă"
@@ -207,11 +207,11 @@ msgstr "Nume în caractere chinezești sau alt sistem de scriere"
 msgid "Choose a class above"
 msgstr "Alegeți o grupă de mai sus"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "Alegeți orice clasă"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "Alegeți oricare dintre grupele dvs."
 
@@ -219,7 +219,7 @@ msgstr "Alegeți oricare dintre grupele dvs."
 msgid "Choose at least one student first"
 msgstr "Alegeți mai întâi cel puțin un elev"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "Alegeți una dintre clasele dvs."
 
@@ -236,7 +236,7 @@ msgid "Class Roster"
 msgstr "Lista grupei"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "Acum: {class}"
 
@@ -871,7 +871,7 @@ msgstr ""
 "Vizualizarea ca alt utilizator necesită modulul School Connect 1.16.09 sau "
 "mai nou pe serverul școlii."
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:299
 msgid "In"
 msgstr "Prezenți"
 
@@ -1005,7 +1005,7 @@ msgid "Name and Short Name are required"
 msgstr "Numele și numele scurt sunt obligatorii"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Ora următoare: {class}"
@@ -1245,7 +1245,7 @@ msgstr ""
 "Prezența pentru această dată nu a fost luată încă. Acestea sunt valori "
 "implicite, nu prezență salvată."
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "Încă nu a fost luată astăzi"
 
@@ -1261,7 +1261,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nimic programat"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1292,6 +1292,10 @@ msgstr "Include doar elevii neînscriși în acest an școlar."
 msgid "Opens at"
 msgstr "Se deschide la"
 
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "Alte cataloage"
+
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
 msgstr "Alte grupe"
@@ -1300,7 +1304,7 @@ msgstr "Alte grupe"
 msgid "Other services you may see"
 msgstr "Alte servicii pe care le puteți vedea"
 
-#: lib/screens/attendance_menu_screen.dart:298
+#: lib/screens/attendance_menu_screen.dart:302
 msgid "Out"
 msgstr "Absenți"
 
@@ -1699,7 +1703,7 @@ msgstr "Schimbă rolul"
 msgid "Switch School Year"
 msgstr "Schimbă anul școlar"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "Luați prezența la această grupă"
 
@@ -1720,7 +1724,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Luată la {time} de {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Luată astăzi la {time}. Atingeți pentru a verifica sau modifica"
 
@@ -1944,7 +1948,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Vezi prezența"
 
-#: lib/screens/attendance_menu_screen.dart:221
+#: lib/screens/attendance_menu_screen.dart:225
 msgid "View Daily Attendance"
 msgstr "Vizualizare prezență zilnică"
 

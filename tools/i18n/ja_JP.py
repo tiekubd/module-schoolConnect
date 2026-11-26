@@ -475,7 +475,8 @@ T = {'A punctuation mark or space': '句読点またはスペース',
  'Recorded earlier today': '今日すでに記録済み',
  'Taken at {time} by {name}': '{time} に {name} が記録',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。',
- "None of the attendance codes are available to your role, so you can't take this register.": 'あなたの役割で使える出欠コードがないため、この出欠は記録できません。'}
+ "None of the attendance codes are available to your role, so you can't take this register.": 'あなたの役割で使える出欠コードがないため、この出欠は記録できません。',
+ 'Other Registers': 'その他の出欠'}
 
 P = {'At least {count} character': ('{count}文字以上',),
  'Behaviour records saved for {count} student!': ('{count}人の生徒の行動記録を保存しました！',),

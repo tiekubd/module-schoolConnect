@@ -153,7 +153,7 @@ msgstr[2] "Zapisi o ponašanju spremljeni su za {count} učenika!"
 msgid "Browse staff profiles"
 msgstr "Pregledajte profile osoblja"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Po grupi"
@@ -206,11 +206,11 @@ msgstr "Ime pisano kineskim ili drugim pismom"
 msgid "Choose a class above"
 msgstr "Odaberite grupu iznad"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "Odaberite bilo koji razredni odjel"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "Odaberite bilo koju svoju grupu"
 
@@ -218,7 +218,7 @@ msgstr "Odaberite bilo koju svoju grupu"
 msgid "Choose at least one student first"
 msgstr "Najprije odaberite barem jednog učenika"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "Odaberite jedan od svojih razrednih odjela"
 
@@ -235,7 +235,7 @@ msgid "Class Roster"
 msgstr "Popis grupe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "Sada: {class}"
 
@@ -1001,7 +1001,7 @@ msgid "Name and Short Name are required"
 msgstr "Naziv i kratki naziv su obavezni"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Sljedeći sat: {class}"
@@ -1240,7 +1240,7 @@ msgstr ""
 "Prisutnost za ovaj datum još nije evidentirana. Ovo su zadane vrijednosti, a"
 " ne spremljena prisutnost."
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "Danas još nije evidentirano"
 
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Ništa nije zakazano"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1286,6 +1286,10 @@ msgstr "Obuhvaća samo učenike koji nisu upisani u ovu školsku godinu."
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Otvara se u"
+
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "Ostale evidencije"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1684,7 +1688,7 @@ msgstr "Promijeni ulogu"
 msgid "Switch School Year"
 msgstr "Promijeni školsku godinu"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "Evidentirajte prisutnost za ovu grupu"
 
@@ -1705,7 +1709,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Evidentirano u {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Evidentirano danas u {time}. Dodirnite za pregled ili izmjenu"
 

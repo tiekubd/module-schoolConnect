@@ -704,7 +704,8 @@ T = {'A punctuation mark or space': 'Un signe de puntuació o un espai',
  'Recorded earlier today': 'Registrat abans, avui',
  'Taken at {time} by {name}': 'Passada a les {time} per {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Encara no s’ha passat llista en aquesta data. Són valors per defecte, no assistència desada.',
- "None of the attendance codes are available to your role, so you can't take this register.": 'Cap dels codis d’assistència està disponible per al teu rol, així que no pots passar aquesta llista.'}
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Cap dels codis d’assistència està disponible per al teu rol, així que no pots passar aquesta llista.',
+ 'Other Registers': 'Altres llistes'}
 
 P = {'All {count} class done for today': ("S'ha acabat la classe d'avui", "S'han acabat les {count} classes d'avui"),
  'At least {count} character': ('Com a mínim {count} caràcter', 'Com a mínim {count} caràcters'),

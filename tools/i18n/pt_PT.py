@@ -713,7 +713,8 @@ T = {'A punctuation mark or space': 'Um sinal de pontuação ou um espaço',
  'Taken at {time} by {name}': 'Marcadas às {time} por {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'As presenças desta data ainda não foram marcadas. São valores predefinidos, não assiduidade guardada.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nenhum dos códigos de assiduidade está disponível para a sua função, por isso não pode registar estas '
-                                                                                              'presenças.'}
+                                                                                              'presenças.',
+ 'Other Registers': 'Outros registos'}
 
 P = {'At least {count} character': ('Pelo menos {count} caráter', 'Pelo menos {count} carateres'),
  'Behaviour records saved for {count} student!': ('Registo de comportamento guardado para {count} estudante!', 'Registos de comportamento guardados para {count} estudantes!'),

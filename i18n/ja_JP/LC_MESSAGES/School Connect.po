@@ -143,7 +143,7 @@ msgstr[0] "{count}人の生徒の行動記録を保存しました！"
 msgid "Browse staff profiles"
 msgstr "教職員のプロフィールを見る"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "クラス別"
@@ -194,11 +194,11 @@ msgstr "漢字などの文字による名前"
 msgid "Choose a class above"
 msgstr "上でクラスを選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "ホームルームを選択"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "担当クラスを選択"
 
@@ -206,7 +206,7 @@ msgstr "担当クラスを選択"
 msgid "Choose at least one student first"
 msgstr "まず生徒を1人以上選択してください"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "担当ホームルームを選択"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "クラス名簿"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "現在の授業：{class}"
 
@@ -963,7 +963,7 @@ msgid "Name and Short Name are required"
 msgstr "名称と略称は必須です"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "次の授業：{class}"
@@ -1197,7 +1197,7 @@ msgid ""
 "attendance."
 msgstr "この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。"
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "本日はまだ取られていません"
 
@@ -1211,7 +1211,7 @@ msgstr "ここではまだ対応していません — ここで登録しても�
 msgid "Nothing scheduled"
 msgstr "予定はありません"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1239,6 +1239,10 @@ msgstr "この年度に登録されていない生徒のみ表示します。"
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "開始"
+
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "その他の出欠"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1624,7 +1628,7 @@ msgstr "役割を切り替え"
 msgid "Switch School Year"
 msgstr "年度を切り替え"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "このクラスの出欠を取る"
 
@@ -1645,7 +1649,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{time} に {name} が記録"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "本日 {time} に取得。タップして確認・変更"
 

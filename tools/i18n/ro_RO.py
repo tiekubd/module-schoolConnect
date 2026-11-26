@@ -688,7 +688,8 @@ T = {'A punctuation mark or space': 'Un semn de punctuație sau un spațiu',
  'Recent History': 'Istoric recent',
  'In': 'Prezenți',
  'Out': 'Absenți',
- 'View Daily Attendance': 'Vizualizare prezență zilnică'}
+ 'View Daily Attendance': 'Vizualizare prezență zilnică',
+ 'Other Registers': 'Alte cataloage'}
 
 P = {'All {count} class done for today': ('Ora de azi s-a încheiat', 'Toate cele {count} ore de azi s-au încheiat', 'Toate cele {count} de ore de azi s-au încheiat'),
  'At least {count} character': ('Cel puțin {count} caracter', 'Cel puțin {count} caractere', 'Cel puțin {count} de caractere'),

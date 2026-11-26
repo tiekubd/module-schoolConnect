@@ -702,7 +702,8 @@ T = {'A punctuation mark or space': 'Un segno di punteggiatura o uno spazio',
  'Taken at {time} by {name}': 'Rilevate alle {time} da {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Le presenze per questa data non sono ancora state rilevate. Sono valori predefiniti, non presenze salvate.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nessuno dei codici di presenza è disponibile per il tuo ruolo, quindi non puoi rilevare queste '
-                                                                                              'presenze.'}
+                                                                                              'presenze.',
+ 'Other Registers': 'Altri registri'}
 
 P = {'At least {count} character': ('Almeno {count} carattere', 'Almeno {count} caratteri'),
  'Behaviour records saved for {count} student!': ('Nota di comportamento salvata per {count} studente!', 'Note di comportamento salvate per {count} studenti!'),

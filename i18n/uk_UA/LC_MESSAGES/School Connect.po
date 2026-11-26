@@ -156,7 +156,7 @@ msgstr[3] "Записи про поведінку збережено для {cou
 msgid "Browse staff profiles"
 msgstr "Переглядайте профілі працівників"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "За заняттями"
@@ -209,11 +209,11 @@ msgstr "Ім’я китайськими або іншими ієрогліфа�
 msgid "Choose a class above"
 msgstr "Виберіть заняття вище"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "Виберіть будь-який клас"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "Виберіть будь-яке зі своїх занять"
 
@@ -221,7 +221,7 @@ msgstr "Виберіть будь-яке зі своїх занять"
 msgid "Choose at least one student first"
 msgstr "Спершу виберіть принаймні одного учня"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "Виберіть один зі своїх класів"
 
@@ -238,7 +238,7 @@ msgid "Class Roster"
 msgstr "Список учнів"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "Зараз: {class}"
 
@@ -1005,7 +1005,7 @@ msgid "Name and Short Name are required"
 msgstr "Назва й коротка назва обов’язкові"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Наступне заняття: {class}"
@@ -1244,7 +1244,7 @@ msgstr ""
 "Відвідуваність за цю дату ще не відмічено. Це типові значення, а не "
 "збережена відвідуваність."
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "Сьогодні ще не відмічено"
 
@@ -1260,7 +1260,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Нічого не заплановано"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1289,6 +1289,10 @@ msgstr "Лише учні, не зараховані на цей навчаль�
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Відкривається о"
+
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "Інші журнали"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1688,7 +1692,7 @@ msgstr "Змінити роль"
 msgid "Switch School Year"
 msgstr "Змінити навчальний рік"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "Відмітити присутність на цьому занятті"
 
@@ -1709,7 +1713,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Відмічено о {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Відмічено сьогодні о {time}. Торкніться, щоб переглянути чи змінити"
 

@@ -750,7 +750,8 @@ T = {'A punctuation mark or space': 'Một dấu câu hoặc khoảng trắng',
  'Recorded earlier today': 'Đã ghi nhận trước đó hôm nay',
  'Taken at {time} by {name}': 'Điểm danh lúc {time} bởi {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh đã lưu.',
- "None of the attendance codes are available to your role, so you can't take this register.": 'Không có mã điểm danh nào dành cho vai trò của bạn, nên bạn không thể điểm danh lớp này.'}
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Không có mã điểm danh nào dành cho vai trò của bạn, nên bạn không thể điểm danh lớp này.',
+ 'Other Registers': 'Sổ điểm danh khác'}
 
 P = {'All {count} class done for today': ('Đã xong cả {count} tiết học hôm nay',),
  'At least {count} character': ('Ít nhất {count} ký tự',),

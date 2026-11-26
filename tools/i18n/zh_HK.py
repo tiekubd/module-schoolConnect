@@ -480,7 +480,8 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  'Recent History': '最近紀錄',
  'In': '出席',
  'Out': '缺席',
- 'View Daily Attendance': '查看每日出席'}
+ 'View Daily Attendance': '查看每日出席',
+ 'Other Registers': '其他點名'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

@@ -150,7 +150,7 @@ msgstr[1] "{count} öğrenci için davranış kayıtları kaydedildi!"
 msgid "Browse staff profiles"
 msgstr "Personel profillerine göz atın"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Sınıfa Göre"
@@ -203,11 +203,11 @@ msgstr "Çince veya başka bir karakter tabanlı yazıdaki ad"
 msgid "Choose a class above"
 msgstr "Yukarıdan bir sınıf seçin"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "Herhangi bir şube seçin"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "Sınıflarınızdan birini seçin"
 
@@ -215,7 +215,7 @@ msgstr "Sınıflarınızdan birini seçin"
 msgid "Choose at least one student first"
 msgstr "Önce en az bir öğrenci seçin"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "Şubelerinizden birini seçin"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Sınıf Listesi"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "Şu anki ders: {class}"
 
@@ -994,7 +994,7 @@ msgid "Name and Short Name are required"
 msgstr "Ad ve kısa ad zorunludur"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Sonraki ders: {class}"
@@ -1233,7 +1233,7 @@ msgstr ""
 "Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, "
 "kaydedilmiş yoklama değil."
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "Bugün henüz alınmadı"
 
@@ -1249,7 +1249,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Planlanmış bir şey yok"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1280,6 +1280,10 @@ msgstr "Yalnızca bu eğitim öğretim yılına kayıtlı olmayan öğrencileri 
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Açılış"
+
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "Diğer yoklamalar"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1684,7 +1688,7 @@ msgstr "Rol Değiştir"
 msgid "Switch School Year"
 msgstr "Eğitim Öğretim Yılını Değiştir"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "Bu sınıfın yoklamasını alın"
 
@@ -1705,7 +1709,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Yoklama {time} saatinde {name} tarafından alındı"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
 "Bugün {time} saatinde alındı. Gözden geçirmek veya değiştirmek için dokunun"

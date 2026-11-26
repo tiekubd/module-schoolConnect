@@ -150,7 +150,7 @@ msgstr[1] "Fiches de comportement enregistrées pour {count} élèves !"
 msgid "Browse staff profiles"
 msgstr "Parcourir les profils du personnel"
 
-#: lib/screens/attendance_menu_screen.dart:111
+#: lib/screens/attendance_menu_screen.dart:112
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Par cours"
@@ -204,11 +204,11 @@ msgstr "Nom en chinois ou dans une autre écriture à caractères"
 msgid "Choose a class above"
 msgstr "Choisissez un cours ci-dessus"
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr "Choisir n’importe quelle classe"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr "Choisir l’un de vos cours"
 
@@ -216,7 +216,7 @@ msgstr "Choisir l’un de vos cours"
 msgid "Choose at least one student first"
 msgstr "Choisissez d’abord au moins un élève"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr "Choisir l’une de vos classes"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Liste du cours"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 msgid "Class now: {class}"
 msgstr "En ce moment : {class}"
 
@@ -1002,7 +1002,7 @@ msgid "Name and Short Name are required"
 msgstr "Le nom et le nom court sont obligatoires"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Prochain cours : {class}"
@@ -1242,7 +1242,7 @@ msgstr ""
 "L’appel n’a pas encore été fait pour cette date. Ce sont des valeurs par "
 "défaut, pas des présences enregistrées."
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr "Pas encore prises aujourd’hui"
 
@@ -1259,7 +1259,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Rien de prévu"
 
-#: lib/screens/attendance_menu_screen.dart:161
+#: lib/screens/attendance_menu_screen.dart:162
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1291,6 +1291,10 @@ msgstr "Ne comprend que les élèves non inscrits à cette année scolaire."
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Ouvre à"
+
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr "Autres appels"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1701,7 +1705,7 @@ msgstr "Changer de profil"
 msgid "Switch School Year"
 msgstr "Changer d’année scolaire"
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr "Prendre les présences pour ce cours"
 
@@ -1722,7 +1726,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Appel fait à {time} par {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Prises aujourd’hui à {time}. Touchez pour vérifier ou modifier"
 

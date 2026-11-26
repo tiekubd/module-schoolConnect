@@ -697,7 +697,8 @@ T = {'A punctuation mark or space': 'Um sinal de pontuação ou um espaço',
  'Taken at {time} by {name}': 'Chamada feita às {time} por {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'A chamada desta data ainda não foi feita. Estes são valores padrão, não frequência salva.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nenhum dos códigos de frequência está disponível para sua função, então você não pode fazer esta '
-                                                                                              'chamada.'}
+                                                                                              'chamada.',
+ 'Other Registers': 'Outras chamadas'}
 
 P = {'At least {count} character': ('Pelo menos {count} caractere', 'Pelo menos {count} caracteres'),
  'Behaviour records saved for {count} student!': ('Registro de comportamento salvo para {count} aluno!', 'Registros de comportamento salvos para {count} alunos!'),

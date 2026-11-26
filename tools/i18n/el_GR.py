@@ -716,7 +716,8 @@ T = {'A punctuation mark or space': 'Ένα σημείο στίξης ή κεν�
  'Taken at {time} by {name}': 'Καταχωρίστηκε στις {time} από {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι προεπιλογές, όχι αποθηκευμένες παρουσίες.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Κανένας από τους κωδικούς παρουσιών δεν είναι διαθέσιμος για τον ρόλο σας, οπότε δεν μπορείτε να '
-                                                                                              'καταχωρίσετε αυτές τις παρουσίες.'}
+                                                                                              'καταχωρίσετε αυτές τις παρουσίες.',
+ 'Other Registers': 'Άλλα παρουσιολόγια'}
 
 P = {'All {count} class done for today': ('Το σημερινό μάθημα ολοκληρώθηκε', 'Και τα {count} σημερινά μαθήματα ολοκληρώθηκαν'),
  'At least {count} character': ('Τουλάχιστον {count} χαρακτήρας', 'Τουλάχιστον {count} χαρακτήρες'),

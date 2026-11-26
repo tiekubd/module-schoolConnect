@@ -121,7 +121,7 @@ msgstr[1] ""
 msgid "Browse staff profiles"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:111 lib/screens/planner_list_screen.dart:130
+#: lib/screens/attendance_menu_screen.dart:112 lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr ""
 
@@ -169,11 +169,11 @@ msgstr ""
 msgid "Choose a class above"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:121
+#: lib/screens/attendance_menu_screen.dart:122
 msgid "Choose any Form Group"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 msgid "Choose any of your classes"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 msgid "Choose at least one student first"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose one of your Form Groups"
 msgstr ""
 
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Class Roster"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:148
+#: lib/screens/attendance_menu_screen.dart:149
 #. Keep {placeholders} exactly as they are.
 msgid "Class now: {class}"
 msgstr ""
@@ -757,7 +757,7 @@ msgstr ""
 msgid "Impersonate User needs School Connect module 1.16.09 or later on the school server."
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:299
 msgid "In"
 msgstr ""
 
@@ -880,7 +880,7 @@ msgstr ""
 msgid "Name and Short Name are required"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:149 lib/screens/dashboard_screen.dart:746
+#: lib/screens/attendance_menu_screen.dart:150 lib/screens/dashboard_screen.dart:746
 #. Keep {placeholders} exactly as they are.
 msgid "Next class: {class}"
 msgstr ""
@@ -1097,7 +1097,7 @@ msgstr ""
 msgid "Not taken yet for this date. These are default entries, not saved attendance."
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Not taken yet today"
 msgstr ""
 
@@ -1109,7 +1109,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:161 lib/screens/facility_timetable_screen.dart:393 lib/screens/my_timetable_screen.dart:563
+#: lib/screens/attendance_menu_screen.dart:162 lib/screens/facility_timetable_screen.dart:393 lib/screens/my_timetable_screen.dart:563
 msgid "Now"
 msgstr ""
 
@@ -1133,6 +1133,10 @@ msgstr ""
 msgid "Opens at"
 msgstr ""
 
+#: lib/screens/attendance_menu_screen.dart:193
+msgid "Other Registers"
+msgstr ""
+
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
 msgstr ""
@@ -1141,7 +1145,7 @@ msgstr ""
 msgid "Other services you may see"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:298
+#: lib/screens/attendance_menu_screen.dart:302
 msgid "Out"
 msgstr ""
 
@@ -1484,7 +1488,7 @@ msgstr ""
 msgid "Switch School Year"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Take attendance for this class"
 msgstr ""
 
@@ -1502,7 +1506,7 @@ msgstr ""
 msgid "Taken at {time} by {name}"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:139
+#: lib/screens/attendance_menu_screen.dart:140
 #. Keep {placeholders} exactly as they are.
 msgid "Taken today at {time}. Tap to review or change"
 msgstr ""
@@ -1690,7 +1694,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:221
+#: lib/screens/attendance_menu_screen.dart:225
 msgid "View Daily Attendance"
 msgstr ""
 

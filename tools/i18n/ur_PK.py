@@ -747,7 +747,8 @@ T = {'A punctuation mark or space': 'کوئی رموزِ اوقاف کا نشا�
  'Recent History': 'حالیہ تاریخچہ',
  'In': 'حاضر',
  'Out': 'غیر حاضر',
- 'View Daily Attendance': 'روزانہ حاضری دیکھیں'}
+ 'View Daily Attendance': 'روزانہ حاضری دیکھیں',
+ 'Other Registers': 'دیگر رجسٹر'}
 
 P = {'All {count} class done for today': ('آج کا {count} پیریڈ مکمل ہو گیا', 'آج کے تمام {count} پیریڈ مکمل ہو گئے'),
  'At least {count} character': ('کم از کم {count} حرف', 'کم از کم {count} حروف'),
