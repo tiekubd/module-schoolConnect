@@ -641,7 +641,12 @@ T = {'A punctuation mark or space': 'סימן פיסוק או רווח',
  'Taken at {time} by {name}': 'נלקחה ב-{time} על ידי {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'הנוכחות לתאריך זה עדיין לא נלקחה. אלה ערכי ברירת מחדל ולא נוכחות שמורה.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'אף אחד מקודי הנוכחות אינו זמין לתפקיד שלך, ולכן אינך יכול לקחת נוכחות זו.',
- 'Other Registers': 'רשימות נוכחות אחרות'}
+ 'Other Registers': 'רשימות נוכחות אחרות',
+ 'Other Registers for Administrators only': 'רשימות נוכחות אחרות למנהלי מערכת בלבד',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'רק מנהלי מערכת רואים את "לפי קבוצת לימוד" ו"לפי כיתת אם" ב"הצג נוכחות '
+                                                                                                                             'יומית". ההרשאות באתר אינן משתנות.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"לפי קבוצת לימוד" ו"לפי כיתת אם" ב"הצג נוכחות יומית" פועלים לפי הרשאות הנוכחות '
+                                                                                                                      'של כל תפקיד, כמו באתר.'}
 
 P = {'All {count} class done for today': ('השיעור של היום הסתיים', 'כל {count} השיעורים של היום הסתיימו'),
  'At least {count} character': ('לפחות תו אחד', 'לפחות {count} תווים'),

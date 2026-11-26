@@ -643,7 +643,13 @@ T = {'A punctuation mark or space': 'Bir noktalama işareti veya boşluk',
  'Taken at {time} by {name}': 'Yoklama {time} saatinde {name} tarafından alındı',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, kaydedilmiş yoklama değil.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Yoklama kodlarının hiçbiri rolünüz için kullanılabilir değil, bu nedenle bu yoklamayı alamazsınız.',
- 'Other Registers': 'Diğer yoklamalar'}
+ 'Other Registers': 'Diğer yoklamalar',
+ 'Other Registers for Administrators only': 'Diğer yoklamalar yalnızca yöneticiler için',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': '"Günlük Yoklama Görüntüleme" içindeki "Sınıfa Göre" ve "Şubeye Göre" '
+                                                                                                                             'seçeneklerini yalnızca yöneticiler görür. Web sitesindeki izinler '
+                                                                                                                             'değişmez.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Günlük Yoklama Görüntüleme" içindeki "Sınıfa Göre" ve "Şubeye Göre", web '
+                                                                                                                      'sitesinde olduğu gibi her rolün yoklama izinlerine uyar.'}
 
 P = {'At least {count} character': ('En az {count} karakter', 'En az {count} karakter'),
  'Behaviour records saved for {count} student!': ('{count} öğrenci için davranış kaydı kaydedildi!', '{count} öğrenci için davranış kayıtları kaydedildi!'),

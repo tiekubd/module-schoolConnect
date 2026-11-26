@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Tất cả các loại"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "Tất cả các khối"
 
@@ -151,6 +151,14 @@ msgstr "Xem hồ sơ nhân viên"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Theo lớp học"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"\"Theo lớp học\" và \"Theo lớp chủ nhiệm\" trong \"Xem Người Tham Gia Hàng "
+"Ngày\" tuân theo quyền điểm danh của từng vai trò, như trên trang web."
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -512,7 +520,7 @@ msgstr "Không thể tải danh sách lớp"
 msgid "Could not load school years"
 msgstr "Không thể tải các năm học"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "Không thể tải cài đặt"
 
@@ -593,8 +601,9 @@ msgstr "Không thể lưu điểm danh"
 msgid "Could not save for: {names}"
 msgstr "Không thể lưu cho: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "Không thể lưu cài đặt"
 
@@ -870,7 +879,7 @@ msgstr ""
 "Sẽ kết thúc sau 2 giờ. Để quay lại sớm hơn, hãy nhấn \"Quay về tài khoản của"
 " tôi\" ở đầu màn hình."
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -878,11 +887,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "Vào lớp học trực tuyến"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "Nút \"Vào lớp học trực tuyến\" bị ẩn ở mọi nơi"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr ""
 "Nút \"Vào lớp học trực tuyến\" hiện trên thời khóa biểu và kế hoạch bài dạy"
@@ -1034,7 +1043,7 @@ msgid "No class"
 msgstr "Không có tiết học"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Không tìm thấy lớp học"
@@ -1072,7 +1081,7 @@ msgstr "Không có dữ liệu cho học kỳ này"
 msgid "No data updates found"
 msgstr "Không tìm thấy cập nhật dữ liệu"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "Không có tổ bộ môn"
 
@@ -1261,6 +1270,14 @@ msgstr ""
 "Mỗi ngày một lần, máy chủ của trường chỉ gửi cho High Point địa chỉ web của "
 "trường để xác nhận gói đăng ký. Không có thông tin cá nhân nào được gửi."
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"Chỉ quản trị viên mới thấy \"Theo lớp học\" và \"Theo lớp chủ nhiệm\" trong "
+"\"Xem Người Tham Gia Hàng Ngày\". Quyền trên trang web không thay đổi."
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr ""
@@ -1277,6 +1294,10 @@ msgstr "Mở lúc"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Sổ điểm danh khác"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "Sổ điểm danh khác chỉ dành cho quản trị viên"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1570,7 +1591,7 @@ msgstr "Tìm theo tên hoặc tên đăng nhập..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Tìm theo tên, tên đăng nhập, email, mã học sinh..."
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "Tìm lớp học..."
 
@@ -1970,7 +1991,7 @@ msgstr "Xem phiếu báo điểm của bạn"
 msgid "Viewing as {name}"
 msgstr "Đang xem với tư cách {name}"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "Lớp học trực tuyến"
 
@@ -2124,7 +2145,7 @@ msgstr[0] "{count} bài đánh giá"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} lớp học"
@@ -2238,7 +2259,7 @@ msgstr[0] "{count} nhân viên"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} học sinh"

@@ -150,6 +150,14 @@ try {
         $classes = $classAccess
             ? array_values(array_filter($classes, fn($c) => isset($takesAttendance[$c['gibbonCourseClassID']])))
             : [];
+        // mine: the person is in the class (any role but "... - Left"), so the
+        // app can list My Classes first and All Classes after, as core's picker.
+        $mineStmt = $pdo->prepare("SELECT DISTINCT gibbonCourseClassID FROM gibbonCourseClassPerson
+            WHERE gibbonPersonID = ? AND NOT role LIKE '% - Left%'");
+        $mineStmt->execute([$personID]);
+        $mine = array_flip($mineStmt->fetchAll(PDO::FETCH_COLUMN));
+        foreach ($classes as &$c) $c['mine'] = isset($mine[$c['gibbonCourseClassID']]);
+        unset($c);
     }
 
     echo json_encode([

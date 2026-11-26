@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Toate tipurile"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "Toți anii de studiu"
 
@@ -124,6 +124,10 @@ msgstr[0] "Cel puțin {count} caracter"
 msgstr[1] "Cel puțin {count} caractere"
 msgstr[2] "Cel puțin {count} de caractere"
 
+#: lib/screens/courses_screen.dart:109
+msgid "Attendance By Class"
+msgstr "Prezență după grupă"
+
 #: lib/screens/student_profile_screen.dart:192
 msgid "Attendance This Year"
 msgstr "Prezența în acest an"
@@ -157,6 +161,14 @@ msgstr "Răsfoiți profilurile personalului"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "După grupă"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"„După grupă” și „După clasă” în „Vizualizare prezență zilnică” urmează "
+"permisiunile de prezență ale fiecărui rol, ca pe site."
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -520,7 +532,7 @@ msgstr "Nu s-a putut încărca lista"
 msgid "Could not load school years"
 msgstr "Nu s-au putut încărca anii școlari"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "Nu s-au putut încărca setările"
 
@@ -601,8 +613,9 @@ msgstr "Salvarea prezenței nu a reușit"
 msgid "Could not save for: {names}"
 msgstr "Salvarea nu a reușit pentru: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "Salvarea setării nu a reușit"
 
@@ -888,7 +901,7 @@ msgstr ""
 "Se încheie după 2 ore. Pentru a reveni mai devreme, folosiți \"Înapoi la "
 "contul meu\" din partea de sus a ecranului."
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -896,12 +909,12 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "Intră la ora online"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr ""
 "\"Intră la ora online\" este ascuns peste tot unde ar apărea în mod normal"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "\"Intră la ora online\" apare în orar și în planificare"
 
@@ -1052,7 +1065,7 @@ msgid "No class"
 msgstr "Fără grupă"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Nu s-au găsit grupe"
@@ -1090,7 +1103,7 @@ msgstr "Nu există date pentru acest semestru"
 msgid "No data updates found"
 msgstr "Nu s-au găsit actualizări de date"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "Fără catedră"
 
@@ -1279,6 +1292,14 @@ msgstr ""
 "O dată pe zi, serverul școlii comunică firmei High Point doar propria adresă"
 " web, pentru a confirma abonamentul școlii. Nu se trimit date personale."
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"Doar administratorii văd „După grupă” și „După clasă” în „Vizualizare "
+"prezență zilnică”. Permisiunile de pe site nu se schimbă."
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr ""
@@ -1295,6 +1316,10 @@ msgstr "Se deschide la"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Alte cataloage"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "Alte cataloage doar pentru administratori"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1602,7 +1627,7 @@ msgstr "Caută după nume sau nume de utilizator..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Caută după nume, nume de utilizator, e-mail, ID elev..."
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "Caută grupe..."
 
@@ -2020,7 +2045,7 @@ msgstr "Vizualizați-vă situațiile școlare"
 msgid "Viewing as {name}"
 msgstr "Vizualizare ca {name}"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "Clasă virtuală"
 
@@ -2180,7 +2205,7 @@ msgstr[2] "{count} de evaluări"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} grupă"
@@ -2326,7 +2351,7 @@ msgstr[2] "{count} de angajați"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} elev"

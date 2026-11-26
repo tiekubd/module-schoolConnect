@@ -714,7 +714,12 @@ T = {'A punctuation mark or space': 'Um sinal de pontuação ou um espaço',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'As presenças desta data ainda não foram marcadas. São valores predefinidos, não assiduidade guardada.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nenhum dos códigos de assiduidade está disponível para a sua função, por isso não pode registar estas '
                                                                                               'presenças.',
- 'Other Registers': 'Outros registos'}
+ 'Other Registers': 'Outros registos',
+ 'Other Registers for Administrators only': 'Outros registos apenas para administradores',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Apenas os administradores veem "Por Aula" e "Por Turma" em "Visualizar '
+                                                                                                                             'Assiduidade Diária". As permissões no site não mudam.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Por Aula" e "Por Turma" em "Visualizar Assiduidade Diária" seguem as '
+                                                                                                                      'permissões de assiduidade de cada função, como no site.'}
 
 P = {'At least {count} character': ('Pelo menos {count} caráter', 'Pelo menos {count} carateres'),
  'Behaviour records saved for {count} student!': ('Registo de comportamento guardado para {count} estudante!', 'Registos de comportamento guardados para {count} estudantes!'),

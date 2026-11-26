@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "Wszystkie typy"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "Wszystkie roczniki"
 
@@ -160,6 +160,14 @@ msgstr "Przeglądaj profile pracowników"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Według zajęć"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"„Według zajęć” i „Według klasy” w „Zobacz codzienne uczestnictwo” są zgodne "
+"z uprawnieniami do obecności każdej roli, tak jak w serwisie."
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -522,7 +530,7 @@ msgstr "Nie udało się wczytać listy uczniów"
 msgid "Could not load school years"
 msgstr "Nie udało się wczytać lat szkolnych"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "Nie udało się wczytać ustawień"
 
@@ -603,8 +611,9 @@ msgstr "Nie udało się zapisać frekwencji"
 msgid "Could not save for: {names}"
 msgstr "Nie udało się zapisać dla: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "Nie udało się zapisać ustawienia"
 
@@ -890,7 +899,7 @@ msgstr ""
 "Kończy się po 2 godzinach. Aby wrócić wcześniej, użyj opcji Wróć do mojego "
 "konta u góry ekranu."
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -898,11 +907,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "Dołącz do zajęć online"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "Przycisk Dołącz do zajęć online jest ukryty we wszystkich miejscach"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr ""
 "Przycisk Dołącz do zajęć online jest widoczny w planie lekcji i planerze"
@@ -1053,7 +1062,7 @@ msgid "No class"
 msgstr "Brak zajęć"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "Nie znaleziono zajęć"
@@ -1091,7 +1100,7 @@ msgstr "Brak danych za ten semestr"
 msgid "No data updates found"
 msgstr "Nie znaleziono aktualizacji danych"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "Brak zespołu przedmiotowego"
 
@@ -1282,6 +1291,14 @@ msgstr ""
 " internetowy, aby potwierdzić subskrypcję szkoły. Żadne dane osobowe nie są "
 "wysyłane."
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"Tylko administratorzy widzą „Według zajęć” i „Według klasy” w „Zobacz "
+"codzienne uczestnictwo”. Uprawnienia w serwisie się nie zmieniają."
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr ""
@@ -1299,6 +1316,10 @@ msgstr "Otwarcie o"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "Inne listy obecności"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "Inne listy obecności tylko dla administratorów"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1595,7 +1616,7 @@ msgstr "Szukaj po nazwisku lub loginie..."
 msgid "Search by name, username, email, student ID..."
 msgstr "Szukaj po nazwisku, loginie, e-mailu, numerze ucznia..."
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "Szukaj zajęć..."
 
@@ -2003,7 +2024,7 @@ msgstr "Zobacz swoje raporty"
 msgid "Viewing as {name}"
 msgstr "Widok jako {name}"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "Wirtualna klasa"
 
@@ -2166,7 +2187,7 @@ msgstr[3] "{count} sprawdzianu"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "Zajęcia: {count}"
@@ -2328,7 +2349,7 @@ msgstr[3] "{count} pracownika"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} uczeń"

@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "جميع الأنواع"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "جميع المراحل الدراسية"
 
@@ -166,6 +166,14 @@ msgstr "تصفح ملفات الموظفين"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "حسب الشعبة"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"يتبع «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور اليومي» أذونات الحضور "
+"لكل دور، كما على الموقع."
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -526,7 +534,7 @@ msgstr "تعذّر تحميل القائمة"
 msgid "Could not load school years"
 msgstr "تعذّر تحميل السنوات الدراسية"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "تعذّر تحميل الإعدادات"
 
@@ -607,8 +615,9 @@ msgstr "تعذّر حفظ الحضور"
 msgid "Could not save for: {names}"
 msgstr "تعذّر الحفظ لـ: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "تعذّر حفظ الإعداد"
 
@@ -889,7 +898,7 @@ msgid ""
 "come back sooner."
 msgstr "تنتهي بعد ساعتين. استخدم \"العودة إلى حسابي\" أعلى الشاشة للعودة قبل ذلك."
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -897,11 +906,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "الانضمام إلى الفصل الافتراضي"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "زر الانضمام إلى الفصل الافتراضي مخفي في كل مكان"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "زر الانضمام إلى الفصل الافتراضي يظهر في الجدول المدرسي والمُخطِط"
 
@@ -1051,7 +1060,7 @@ msgid "No class"
 msgstr "لا حصة"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "لم يُعثر على شعب"
@@ -1089,7 +1098,7 @@ msgstr "لا توجد بيانات لهذا الفصل الدراسي"
 msgid "No data updates found"
 msgstr "لم يُعثر على تحديثات بيانات"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "بدون قسم"
 
@@ -1275,6 +1284,14 @@ msgstr ""
 "مرة واحدة يوميًا، يُبلغ خادم مدرستك High Point بعنوانه على الويب فقط، لتأكيد"
 " اشتراك المدرسة. لا تُرسل أي معلومات شخصية."
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"يرى مسؤولو النظام فقط «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور "
+"اليومي». لا تتغير الأذونات على الموقع."
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr "يشمل فقط الأشخاص ذوي دور الموظف غير المسجلين كموظفين بعد."
@@ -1290,6 +1307,10 @@ msgstr "يُفتح في"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "سجلات أخرى"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "السجلات الأخرى للمسؤولين فقط"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1586,7 +1607,7 @@ msgstr "البحث بالاسم أو اسم المستخدم…"
 msgid "Search by name, username, email, student ID..."
 msgstr "البحث بالاسم أو اسم المستخدم أو البريد الإلكتروني أو رقم الطالب…"
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "البحث في الشعب…"
 
@@ -1995,7 +2016,7 @@ msgstr "عرض تقاريرك المدرسية"
 msgid "Viewing as {name}"
 msgstr "تعرض باسم {name}"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "الفصل الافتراضي"
 
@@ -2163,7 +2184,7 @@ msgstr[5] "{count} تقييم"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} شعبة"
@@ -2357,7 +2378,7 @@ msgstr[5] "{count} موظف"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} طالب"

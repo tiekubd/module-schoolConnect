@@ -693,7 +693,14 @@ T = {'A punctuation mark or space': 'Ein Satzzeichen oder ein Leerzeichen',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Für dieses Datum noch nicht erfasst. Das sind Voreinstellungen, keine gespeicherte Anwesenheit.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Keiner der Anwesenheitscodes ist für deine Rolle verfügbar, daher kannst du diese Anwesenheit nicht '
                                                                                               'erfassen.',
- 'Other Registers': 'Weitere Anwesenheitslisten'}
+ 'Other Registers': 'Weitere Anwesenheitslisten',
+ 'Other Registers for Administrators only': 'Weitere Anwesenheitslisten nur für Administrator/innen',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Nur Administrator/innen sehen „Nach Lerngruppe“ und „Nach Klasse“ unter '
+                                                                                                                             '„Tägliche Anwesenheit anzeigen“. Die Berechtigungen auf der Website '
+                                                                                                                             'ändern sich nicht.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '„Nach Lerngruppe“ und „Nach Klasse“ unter „Tägliche Anwesenheit anzeigen“ '
+                                                                                                                      'richten sich nach den Anwesenheitsberechtigungen jeder Rolle, wie auf der '
+                                                                                                                      'Website.'}
 
 P = {'At least {count} character': ('Mindestens {count} Zeichen', 'Mindestens {count} Zeichen'),
  'Behaviour records saved for {count} student!': ('Verhaltenseintrag für {count} Schüler/in gespeichert!', 'Verhaltenseinträge für {count} Schüler/innen gespeichert!'),

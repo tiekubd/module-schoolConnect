@@ -527,7 +527,12 @@ T = {'A punctuation mark or space': 'เครื่องหมายวรร�
  'Taken at {time} by {name}': 'เช็คชื่อเวลา {time} โดย {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น ไม่ใช่การมาเรียนที่บันทึกแล้ว',
  "None of the attendance codes are available to your role, so you can't take this register.": 'ไม่มีรหัสการเข้าเรียนใดที่บทบาทของคุณใช้ได้ คุณจึงเช็คชื่อนี้ไม่ได้',
- 'Other Registers': 'การเช็คชื่ออื่นๆ'}
+ 'Other Registers': 'การเช็คชื่ออื่นๆ',
+ 'Other Registers for Administrators only': 'การเช็คชื่ออื่นๆ เฉพาะผู้ดูแลระบบ',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'เฉพาะผู้ดูแลระบบเท่านั้นที่เห็น "ตามกลุ่มเรียน" และ "ตามห้องประจำชั้น" '
+                                                                                                                             'ใน "ดูการเข้าร่วมรายวัน" สิทธิ์บนเว็บไซต์ไม่เปลี่ยนแปลง',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"ตามกลุ่มเรียน" และ "ตามห้องประจำชั้น" ใน "ดูการเข้าร่วมรายวัน" '
+                                                                                                                      'เป็นไปตามสิทธิ์การเช็คชื่อของแต่ละบทบาท เหมือนบนเว็บไซต์'}
 
 P = {'All {count} class done for today': ('วันนี้เรียนครบทั้ง {count} คาบแล้ว',),
  'At least {count} character': ('อย่างน้อย {count} ตัวอักษร',),

@@ -653,7 +653,12 @@ T = {'A punctuation mark or space': 'علامة ترقيم أو مسافة',
                                                                                                                                                                                     'المجموعة، لكنه '
                                                                                                                                                                                     'يقع حاليًا خارج '
                                                                                                                                                                                     'الجدول المعتاد '
-                                                                                                                                                                                    'لهذا الفصل.'}
+                                                                                                                                                                                    'لهذا الفصل.',
+ 'Other Registers for Administrators only': 'السجلات الأخرى للمسؤولين فقط',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'يرى مسؤولو النظام فقط «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور '
+                                                                                                                             'اليومي». لا تتغير الأذونات على الموقع.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": 'يتبع «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور اليومي» أذونات الحضور لكل '
+                                                                                                                      'دور، كما على الموقع.'}
 
 P = {'At least {count} character': ('{count} حرف على الأقل', 'حرف واحد على الأقل', 'حرفان على الأقل', '{count} أحرف على الأقل', '{count} حرفًا على الأقل', '{count} حرف على الأقل'),
  'Behaviour records saved for {count} student!': ('تم حفظ سجلات السلوك لـ {count} طالب!',

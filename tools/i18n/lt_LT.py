@@ -661,7 +661,12 @@ T = {'A punctuation mark or space': 'Skyrybos ženklas arba tarpas',
  'Taken at {time} by {name}': 'Pažymėta {time}, {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne išsaugotas lankomumas.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nė vienas lankomumo kodas nėra prieinamas jūsų vaidmeniui, todėl negalite pažymėti šio lankomumo.',
- 'Other Registers': 'Kiti žiniaraščiai'}
+ 'Other Registers': 'Kiti žiniaraščiai',
+ 'Other Registers for Administrators only': 'Kiti žiniaraščiai tik administratoriams',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Tik administratoriai mato „Pagal grupę“ ir „Pagal klasę“ skiltyje '
+                                                                                                                             '„Peržiūrėti dienos lankomumą“. Leidimai svetainėje nesikeičia.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '„Pagal grupę“ ir „Pagal klasę“ skiltyje „Peržiūrėti dienos lankomumą“ atitinka '
+                                                                                                                      'kiekvieno vaidmens lankomumo leidimus, kaip svetainėje.'}
 
 P = {'All {count} class done for today': ('Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})'),
  'At least {count} character': ('Bent {count} simbolis', 'Bent {count} simboliai', 'Bent {count} simbolių'),

@@ -725,7 +725,12 @@ T = {'A punctuation mark or space': 'Një shenjë pikësimi ose hapësirë',
                                                                                                                                                                                     'por aktualisht '
                                                                                                                                                                                     'bie jashtë orarit '
                                                                                                                                                                                     'të rregullt të '
-                                                                                                                                                                                    'kësaj klase.'}
+                                                                                                                                                                                    'kësaj klase.',
+ 'Other Registers for Administrators only': 'Regjistra të tjerë vetëm për administratorët',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Vetëm administratorët shohin "Sipas grupit" dhe "Sipas klasës" te "Shiko '
+                                                                                                                             'frekuentimin ditor". Lejet në faqen e internetit nuk ndryshojnë.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Sipas grupit" dhe "Sipas klasës" te "Shiko frekuentimin ditor" ndjekin lejet e '
+                                                                                                                      'frekuentimit të çdo roli, si në faqen e internetit.'}
 
 P = {'All {count} class done for today': ('Ora e sotme përfundoi', 'Të {count} orët e sotme përfunduan'),
  'At least {count} character': ('Të paktën {count} karakter', 'Të paktën {count} karaktere'),

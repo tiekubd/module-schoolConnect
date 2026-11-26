@@ -703,7 +703,13 @@ T = {'A punctuation mark or space': 'Un semn de punctuație sau un spațiu',
                                                                                                                                                                                     'în afara '
                                                                                                                                                                                     'programului '
                                                                                                                                                                                     'obișnuit al '
-                                                                                                                                                                                    'acestei clase.'}
+                                                                                                                                                                                    'acestei clase.',
+ 'Other Registers for Administrators only': 'Alte cataloage doar pentru administratori',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Doar administratorii văd „După grupă” și „După clasă” în „Vizualizare '
+                                                                                                                             'prezență zilnică”. Permisiunile de pe site nu se schimbă.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '„După grupă” și „După clasă” în „Vizualizare prezență zilnică” urmează '
+                                                                                                                      'permisiunile de prezență ale fiecărui rol, ca pe site.',
+ 'Attendance By Class': 'Prezență după grupă'}
 
 P = {'All {count} class done for today': ('Ora de azi s-a încheiat', 'Toate cele {count} ore de azi s-au încheiat', 'Toate cele {count} de ore de azi s-au încheiat'),
  'At least {count} character': ('Cel puțin {count} caracter', 'Cel puțin {count} caractere', 'Cel puțin {count} de caractere'),

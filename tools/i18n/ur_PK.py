@@ -748,7 +748,13 @@ T = {'A punctuation mark or space': 'کوئی رموزِ اوقاف کا نشا�
  'In': 'حاضر',
  'Out': 'غیر حاضر',
  'View Daily Attendance': 'روزانہ حاضری دیکھیں',
- 'Other Registers': 'دیگر رجسٹر'}
+ 'Other Registers': 'دیگر رجسٹر',
+ 'Other Registers for Administrators only': 'دیگر رجسٹر صرف منتظمین کے لیے',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': '"روزانہ حاضری دیکھیں" میں "کلاس کے لحاظ سے" اور "سیکشن کے لحاظ سے" صرف '
+                                                                                                                             'منتظمین کو نظر آتے ہیں۔ ویب سائٹ پر اجازتیں تبدیل نہیں ہوتیں۔',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"روزانہ حاضری دیکھیں" میں "کلاس کے لحاظ سے" اور "سیکشن کے لحاظ سے" ویب سائٹ کی '
+                                                                                                                      'طرح ہر کردار کی حاضری کی اجازتوں کے مطابق ہوتے ہیں۔',
+ 'Attendance By Class': 'کلاس کے لحاظ سے حاضری'}
 
 P = {'All {count} class done for today': ('آج کا {count} پیریڈ مکمل ہو گیا', 'آج کے تمام {count} پیریڈ مکمل ہو گئے'),
  'At least {count} character': ('کم از کم {count} حرف', 'کم از کم {count} حروف'),

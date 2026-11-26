@@ -688,7 +688,12 @@ T = {'A punctuation mark or space': 'Znak interpunkcyjny lub spacja',
  'Taken at {time} by {name}': 'Sprawdzono o {time}, {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Obecność na ten dzień nie została jeszcze sprawdzona. To wartości domyślne, a nie zapisana frekwencja.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Żaden z kodów obecności nie jest dostępny dla Twojej roli, więc nie możesz sprawdzić tej obecności.',
- 'Other Registers': 'Inne listy obecności'}
+ 'Other Registers': 'Inne listy obecności',
+ 'Other Registers for Administrators only': 'Inne listy obecności tylko dla administratorów',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Tylko administratorzy widzą „Według zajęć” i „Według klasy” w „Zobacz '
+                                                                                                                             'codzienne uczestnictwo”. Uprawnienia w serwisie się nie zmieniają.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '„Według zajęć” i „Według klasy” w „Zobacz codzienne uczestnictwo” są zgodne z '
+                                                                                                                      'uprawnieniami do obecności każdej roli, tak jak w serwisie.'}
 
 P = {'All {count} class done for today': ('Zakończono dzisiejszą lekcję',
                                       'Zakończono wszystkie dzisiejsze lekcje ({count})',

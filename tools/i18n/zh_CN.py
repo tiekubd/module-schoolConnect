@@ -473,7 +473,10 @@ T = {'A punctuation mark or space': '一个标点符号或空格',
  'Taken at {time} by {name}': '{name} 于 {time} 记录',
  'Not taken yet for this date. These are default entries, not saved attendance.': '该日期尚未记录考勤。以下为默认值，并非已保存的考勤。',
  "None of the attendance codes are available to your role, so you can't take this register.": '您的角色无法使用任何考勤代码，因此无法记录此考勤。',
- 'Other Registers': '其他考勤'}
+ 'Other Registers': '其他考勤',
+ 'Other Registers for Administrators only': '其他考勤仅限管理员',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': '只有管理员能在“查看每日考勤”中看到“按教学班”和“按班级”。网站上的权限不变。',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '“查看每日考勤”中的“按教学班”和“按班级”与网站一样，按各角色的考勤权限显示。'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 节已完成',),
  'At least {count} character': ('至少 {count} 个字符',),

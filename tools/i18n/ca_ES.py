@@ -705,7 +705,12 @@ T = {'A punctuation mark or space': 'Un signe de puntuació o un espai',
  'Taken at {time} by {name}': 'Passada a les {time} per {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Encara no s’ha passat llista en aquesta data. Són valors per defecte, no assistència desada.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Cap dels codis d’assistència està disponible per al teu rol, així que no pots passar aquesta llista.',
- 'Other Registers': 'Altres llistes'}
+ 'Other Registers': 'Altres llistes',
+ 'Other Registers for Administrators only': 'Altres llistes només per a administradors',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Només els administradors veuen «Per classe» i «Per grup classe» a '
+                                                                                                                             "«Mostra l'assistència diària». Els permisos del web no canvien.",
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": "«Per classe» i «Per grup classe» a «Mostra l'assistència diària» segueixen els "
+                                                                                                                      "permisos d'assistència de cada rol, com al web."}
 
 P = {'All {count} class done for today': ("S'ha acabat la classe d'avui", "S'han acabat les {count} classes d'avui"),
  'At least {count} character': ('Com a mínim {count} caràcter', 'Com a mínim {count} caràcters'),

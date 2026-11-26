@@ -482,7 +482,11 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  'Out': '缺席',
  'View Daily Attendance': '查看每日出席',
  'Other Registers': '其他點名',
- 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': '此班別在指定日期沒有編入時間表。仍可為此班別點名，但目前不屬於此班別的正常上課時間。'}
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': '此班別在指定日期沒有編入時間表。仍可為此班別點名，但目前不屬於此班別的正常上課時間。',
+ 'Other Registers for Administrators only': '其他點名只限管理員',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': '只有管理員能在「查看每日出席」中看到「按科目班」和「按班別」。網站上的權限不變。',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '「查看每日出席」中的「按科目班」和「按班別」與網站一樣，按各角色的出席權限顯示。',
+ 'Attendance By Class': '按科目班點名'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

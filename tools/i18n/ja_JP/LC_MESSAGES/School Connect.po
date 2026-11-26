@@ -74,7 +74,7 @@ msgid "All Types"
 msgstr "すべての種類"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "すべての学年"
 
@@ -147,6 +147,12 @@ msgstr "教職員のプロフィールを見る"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "クラス別"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr "「デイリーアテンダンスを見る」の「クラス別」と「ホームルーム別」は、ウェブサイトと同じく各ロールの出欠の権限に従います。"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -499,7 +505,7 @@ msgstr "名簿を読み込めませんでした"
 msgid "Could not load school years"
 msgstr "年度を読み込めませんでした"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "設定を読み込めませんでした"
 
@@ -580,8 +586,9 @@ msgstr "出欠を保存できませんでした"
 msgid "Could not save for: {names}"
 msgstr "保存できなかった生徒：{names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "設定を保存できませんでした"
 
@@ -847,7 +854,7 @@ msgid ""
 "come back sooner."
 msgstr "2時間で終了します。早く戻るには、画面上部の「自分のアカウントに戻る」を使ってください。"
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -855,11 +862,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "オンライン授業に参加"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "「オンライン授業に参加」ボタンをすべての場所で非表示にします"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "「オンライン授業に参加」ボタンを時間割と授業計画に表示します"
 
@@ -1008,7 +1015,7 @@ msgid "No class"
 msgstr "クラスなし"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "クラスが見つかりません"
@@ -1046,7 +1053,7 @@ msgstr "この学期のデータはありません"
 msgid "No data updates found"
 msgstr "データ更新が見つかりません"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "所属なし"
 
@@ -1228,6 +1235,12 @@ msgid ""
 msgstr ""
 "学校の契約を確認するため、学校のサーバーは1日1回、自身のウェブアドレスのみを High Point に送ります。個人情報は送信されません。"
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr "「デイリーアテンダンスを見る」の「クラス別」と「ホームルーム別」は管理者だけに表示されます。ウェブサイトの権限は変わりません。"
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr "教職員の役割を持ち、まだ教職員として登録されていない人のみ表示します。"
@@ -1243,6 +1256,10 @@ msgstr "開始"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "その他の出欠"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "その他の出欠を管理者のみに表示"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1525,7 +1542,7 @@ msgstr "名前またはユーザー名で検索…"
 msgid "Search by name, username, email, student ID..."
 msgstr "名前、ユーザー名、メール、生徒番号で検索…"
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "クラスを検索…"
 
@@ -1909,7 +1926,7 @@ msgstr "通知表を見る"
 msgid "Viewing as {name}"
 msgstr "{name} として表示中"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "オンライン教室"
 
@@ -2052,7 +2069,7 @@ msgstr[0] "評価 {count}件"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count}クラス"
@@ -2166,7 +2183,7 @@ msgstr[0] "教職員 {count}人"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "生徒 {count}人"

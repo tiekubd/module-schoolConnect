@@ -267,7 +267,12 @@ $version     = "1.16.23"; // Tracks the Flutter app's marketing version (pubspec
                           // and daily_overview says which lists apply. Browsing
                           // Classes / Form Groups is unchanged. Permission helpers
                           // moved to auth.php. N/A explanation translated in
-                          // ar_SA, hr_HR, ro_RO, sq_AL, zh_HK. No schema change.
+                          // ar_SA, hr_HR, ro_RO, sq_AL, zh_HK. New setting
+                          // otherRegistersAdminOnly (app Settings; default N):
+                          // Y keeps Other Registers to Administrators in the app.
+                          // courses.php marks the person's own classes (mine)
+                          // so By Class lists My Classes, then All Classes. No
+                          // schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

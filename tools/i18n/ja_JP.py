@@ -476,7 +476,10 @@ T = {'A punctuation mark or space': '句読点またはスペース',
  'Taken at {time} by {name}': '{time} に {name} が記録',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'この日の出欠はまだ取られていません。表示は初期値で、保存された出欠ではありません。',
  "None of the attendance codes are available to your role, so you can't take this register.": 'あなたの役割で使える出欠コードがないため、この出欠は記録できません。',
- 'Other Registers': 'その他の出欠'}
+ 'Other Registers': 'その他の出欠',
+ 'Other Registers for Administrators only': 'その他の出欠を管理者のみに表示',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': '「デイリーアテンダンスを見る」の「クラス別」と「ホームルーム別」は管理者だけに表示されます。ウェブサイトの権限は変わりません。',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '「デイリーアテンダンスを見る」の「クラス別」と「ホームルーム別」は、ウェブサイトと同じく各ロールの出欠の権限に従います。'}
 
 P = {'At least {count} character': ('{count}文字以上',),
  'Behaviour records saved for {count} student!': ('{count}人の生徒の行動記録を保存しました！',),

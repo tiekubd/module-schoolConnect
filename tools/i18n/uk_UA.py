@@ -676,7 +676,12 @@ T = {'A punctuation mark or space': 'Розділовий знак або про
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Відвідуваність за цю дату ще не відмічено. Це типові значення, а не збережена відвідуваність.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Жоден із кодів відвідуваності не доступний для вашої ролі, тож ви не можете відмітити цю '
                                                                                               'відвідуваність.',
- 'Other Registers': 'Інші журнали'}
+ 'Other Registers': 'Інші журнали',
+ 'Other Registers for Administrators only': 'Інші журнали лише для адміністраторів',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Лише адміністратори бачать «За заняттями» та «За класом» у «Переглянути '
+                                                                                                                             'щоденне відвідування». Дозволи на сайті не змінюються.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '«За заняттями» та «За класом» у «Переглянути щоденне відвідування» відповідають '
+                                                                                                                      'дозволам на відвідування кожної ролі, як на сайті.'}
 
 P = {'All {count} class done for today': ('Усі уроки на сьогодні завершено ({count})',
                                       'Усі уроки на сьогодні завершено ({count})',

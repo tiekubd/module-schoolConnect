@@ -310,6 +310,14 @@ function gibbonConnectDailyOverview(PDO $pdo, array $authUser, string $today): a
     // registers above (module 1.16.23+): By Class with "Attendance By Class"
     // (every class, as core's All Classes), By Form Group with "_all".
     $otherRegisters = ['classes' => $access['class'], 'formGroups' => $access['formGroup'] === 'all'];
+    // School Connect setting otherRegistersAdminOnly (app Settings): a school
+    // can keep these lists to Administrators in the app. This only hides
+    // them here; the permissions themselves (and the website) are unchanged.
+    $adminOnly = $pdo->prepare("SELECT value FROM gibbonSetting WHERE scope = 'School Connect' AND name = 'otherRegistersAdminOnly'");
+    $adminOnly->execute();
+    if ($adminOnly->fetchColumn() === 'Y' && ($authUser['role'] ?? '') !== 'Administrator') {
+        $otherRegisters = ['classes' => false, 'formGroups' => false];
+    }
     return ['date' => $today, 'schoolOpen' => $open, 'formGroups' => $formGroups, 'classes' => $classes,
         'otherRegisters' => $otherRegisters];
 }

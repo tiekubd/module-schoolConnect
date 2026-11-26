@@ -702,7 +702,12 @@ T = {'A punctuation mark or space': 'Un signo de puntuación o un espacio',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Aún no se ha tomado la asistencia de esta fecha. Son valores predeterminados, no asistencia guardada.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Ninguno de los códigos de asistencia está disponible para tu rol, así que no puedes tomar esta '
                                                                                               'asistencia.',
- 'Other Registers': 'Otros registros'}
+ 'Other Registers': 'Otros registros',
+ 'Other Registers for Administrators only': 'Otros registros solo para administradores',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Solo los administradores ven «Por Clase» y «Por curso» en «Ver '
+                                                                                                                             'Asistencia Diaria». Los permisos de la web no cambian.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '«Por Clase» y «Por curso» en «Ver Asistencia Diaria» siguen los permisos de '
+                                                                                                                      'asistencia de cada rol, como en la web.'}
 
 P = {'At least {count} character': ('Al menos {count} carácter', 'Al menos {count} caracteres'),
  'Behaviour records saved for {count} student!': ('¡Registro de comportamiento guardado para {count} estudiante!', '¡Registros de comportamiento guardados para {count} estudiantes!'),

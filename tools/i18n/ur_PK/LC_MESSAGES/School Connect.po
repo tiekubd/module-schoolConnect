@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "تمام اقسام"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:132 lib/screens/courses_screen.dart:142
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "تمام جماعتیں"
 
@@ -122,6 +122,10 @@ msgid_plural "At least {count} characters"
 msgstr[0] "کم از کم {count} حرف"
 msgstr[1] "کم از کم {count} حروف"
 
+#: lib/screens/courses_screen.dart:109
+msgid "Attendance By Class"
+msgstr "کلاس کے لحاظ سے حاضری"
+
 #: lib/screens/student_profile_screen.dart:192
 msgid "Attendance This Year"
 msgstr "اس سال کی حاضری"
@@ -154,6 +158,14 @@ msgstr "عملے کے پروفائل دیکھیں"
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "کلاس کے لحاظ سے"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"\"روزانہ حاضری دیکھیں\" میں \"کلاس کے لحاظ سے\" اور \"سیکشن کے لحاظ سے\" ویب"
+" سائٹ کی طرح ہر کردار کی حاضری کی اجازتوں کے مطابق ہوتے ہیں۔"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -516,7 +528,7 @@ msgstr "فہرست لوڈ کرنے میں ناکام"
 msgid "Could not load school years"
 msgstr "تعلیمی سال لوڈ کرنے میں ناکام"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "ترتیبات لوڈ کرنے میں ناکام"
 
@@ -597,8 +609,9 @@ msgstr "حاضری محفوظ کرنے میں ناکام"
 msgid "Could not save for: {names}"
 msgstr "ان کے لیے محفوظ نہیں ہو سکا: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "ترتیب محفوظ کرنے میں ناکام"
 
@@ -882,7 +895,7 @@ msgstr ""
 "یہ 2 گھنٹے بعد ختم ہو جاتا ہے۔ جلدی واپس آنے کے لیے اسکرین کے اوپر \"اپنے "
 "اکاؤنٹ میں واپس جائیں\" استعمال کریں۔"
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -890,11 +903,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "ورچوئل کلاس میں شامل ہوں"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "\"ورچوئل کلاس میں شامل ہوں\" ہر جگہ سے چھپا دیا گیا ہے"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "\"ورچوئل کلاس میں شامل ہوں\" ٹائم ٹیبل اور پلانر میں نظر آتا ہے"
 
@@ -1044,7 +1057,7 @@ msgid "No class"
 msgstr "کوئی کلاس نہیں"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:177
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "کوئی کلاس نہیں ملی"
@@ -1082,7 +1095,7 @@ msgstr "اس ٹرم کا کوئی ڈیٹا نہیں"
 msgid "No data updates found"
 msgstr "کوئی ڈیٹا اپ ڈیٹ نہیں ملی"
 
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "کوئی شعبہ نہیں"
 
@@ -1271,6 +1284,14 @@ msgstr ""
 "دن میں ایک بار آپ کے اسکول کا سرور اسکول کی سبسکرپشن کی تصدیق کے لیے High "
 "Point کو صرف اپنا ویب ایڈریس بتاتا ہے۔ کوئی ذاتی معلومات نہیں بھیجی جاتیں۔"
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"\"روزانہ حاضری دیکھیں\" میں \"کلاس کے لحاظ سے\" اور \"سیکشن کے لحاظ سے\" صرف"
+" منتظمین کو نظر آتے ہیں۔ ویب سائٹ پر اجازتیں تبدیل نہیں ہوتیں۔"
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr ""
@@ -1287,6 +1308,10 @@ msgstr "کھلنے کا وقت"
 #: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "دیگر رجسٹر"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "دیگر رجسٹر صرف منتظمین کے لیے"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1589,7 +1614,7 @@ msgstr "نام یا یوزر نیم سے تلاش کریں..."
 msgid "Search by name, username, email, student ID..."
 msgstr "نام، یوزر نیم، ای میل، اسٹوڈنٹ آئی ڈی سے تلاش کریں..."
 
-#: lib/screens/courses_screen.dart:114
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "کلاسیں تلاش کریں..."
 
@@ -1993,7 +2018,7 @@ msgstr "اپنے رپورٹ کارڈ دیکھیں"
 msgid "Viewing as {name}"
 msgstr "بطور {name} دیکھ رہے ہیں"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "ورچوئل کلاس روم"
 
@@ -2150,7 +2175,7 @@ msgstr[1] "{count} جائزے"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:171 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} کلاس"
@@ -2280,7 +2305,7 @@ msgstr[1] "عملے کے {count} ارکان"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:200
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} طالب علم"

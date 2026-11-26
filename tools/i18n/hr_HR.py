@@ -692,7 +692,12 @@ T = {'A punctuation mark or space': 'Interpunkcijski znak ili razmak',
                                                                                                                                                                                     'je trenutno izvan '
                                                                                                                                                                                     'redovitog '
                                                                                                                                                                                     'rasporeda za ovaj '
-                                                                                                                                                                                    'razred.'}
+                                                                                                                                                                                    'razred.',
+ 'Other Registers for Administrators only': 'Ostale evidencije samo za administratore',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Samo administratori vide „Po grupi” i „Po razrednom odjelu” u „Pregled '
+                                                                                                                             'dnevnih prisutnosti”. Dopuštenja na web-stranici se ne mijenjaju.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '„Po grupi” i „Po razrednom odjelu” u „Pregled dnevnih prisutnosti” prate '
+                                                                                                                      'dopuštenja za prisutnost svake uloge, kao na web-stranici.'}
 
 P = {'All {count} class done for today': ('Današnja nastava je završena ({count} sat)', 'Današnja nastava je završena ({count} sata)', 'Današnja nastava je završena ({count} sati)'),
  'At least {count} character': ('Barem {count} znak', 'Barem {count} znaka', 'Barem {count} znakova'),

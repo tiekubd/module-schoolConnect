@@ -717,7 +717,13 @@ T = {'A punctuation mark or space': 'Ένα σημείο στίξης ή κεν�
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι προεπιλογές, όχι αποθηκευμένες παρουσίες.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Κανένας από τους κωδικούς παρουσιών δεν είναι διαθέσιμος για τον ρόλο σας, οπότε δεν μπορείτε να '
                                                                                               'καταχωρίσετε αυτές τις παρουσίες.',
- 'Other Registers': 'Άλλα παρουσιολόγια'}
+ 'Other Registers': 'Άλλα παρουσιολόγια',
+ 'Other Registers for Administrators only': 'Άλλα παρουσιολόγια μόνο για διαχειριστές',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Μόνο οι διαχειριστές βλέπουν τα «Ανά ομάδα μαθήματος» και «Ανά τμήμα» '
+                                                                                                                             'στην «Προβολή καθημερινών παρουσιών». Τα δικαιώματα στον ιστότοπο δεν '
+                                                                                                                             'αλλάζουν.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": 'Τα «Ανά ομάδα μαθήματος» και «Ανά τμήμα» στην «Προβολή καθημερινών παρουσιών» '
+                                                                                                                      'ακολουθούν τα δικαιώματα παρουσιών κάθε ρόλου, όπως στον ιστότοπο.'}
 
 P = {'All {count} class done for today': ('Το σημερινό μάθημα ολοκληρώθηκε', 'Και τα {count} σημερινά μαθήματα ολοκληρώθηκαν'),
  'At least {count} character': ('Τουλάχιστον {count} χαρακτήρας', 'Τουλάχιστον {count} χαρακτήρες'),
