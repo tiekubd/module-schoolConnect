@@ -271,8 +271,12 @@ $version     = "1.16.23"; // Tracks the Flutter app's marketing version (pubspec
                           // otherRegistersAdminOnly (app Settings; default N):
                           // Y keeps Other Registers to Administrators in the app.
                           // courses.php marks the person's own classes (mine)
-                          // so By Class lists My Classes, then All Classes. No
-                          // schema change.
+                          // so By Class lists My Classes, then All Classes. The
+                          // student attendance and homework calendars now lay
+                          // weeks out as Gibbon's Student History: from First Day
+                          // Of The Week, school days only (Sun-Thu schools get
+                          // Sun-Thu; before, always Mon-Fri), and send dayHeaders.
+                          // No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

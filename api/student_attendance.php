@@ -212,13 +212,17 @@ try {
         $months = [];
         $current = new DateTime($firstDay);
         $end     = new DateTime($lastDay); $end->modify('+1 day');
-        $startOfWeek = clone $current;
-        $dow = (int)$startOfWeek->format('N');
-        if ($dow > 1) $startOfWeek->modify('-' . ($dow - 1) . ' days');
+        // Weeks as on Gibbon's Student History (module 1.16.23+): start on
+        // First Day Of The Week, and only the school's school days, so a
+        // Sunday-Thursday school gets Sun-Thu. Before, always Mon-Fri.
+        $schoolWeek = gibbonConnectSchoolWeek($pdo);
+        $weekDays = array_flip($schoolWeek['days']);
+        $startOfWeek = gibbonConnectWeekStartFor(clone $current, $schoolWeek['start']);
 
         while ($startOfWeek < $end) {
             $week = [];
-            for ($d = 0; $d < 5; $d++) {
+            for ($d = 0; $d < 7; $d++) {
+                if (!isset($weekDays[$startOfWeek->format('D')])) { $startOfWeek->modify('+1 day'); continue; }
                 $dateStr  = $startOfWeek->format('Y-m-d');
                 $dowN     = (int)$startOfWeek->format('N');
                 $inTerm   = $dateStr >= $firstDay && $dateStr <= $lastDay;
@@ -253,7 +257,6 @@ try {
                 }
                 $startOfWeek->modify('+1 day');
             }
-            $startOfWeek->modify('+2 days');
 
             // Group each week row under EVERY month it touches — a row
             // spanning a boundary (e.g. Mon Aug 31 - Fri Sep 4) appears
@@ -288,7 +291,8 @@ try {
             }
         }
 
-        return ['termName' => $selectedTerm['name'], 'months' => array_values($months)];
+        return ['termName' => $selectedTerm['name'], 'months' => array_values($months),
+            'dayHeaders' => $schoolWeek['days']];
     }
 
     // ── ACTION: main ──────────────────────────────────────────────────────────

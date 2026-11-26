@@ -122,6 +122,32 @@ function gibbonConnectCanTakeFormGroup(array $access, $formGroupID): bool
         && in_array((string) (int) $formGroupID, $access['myFormGroupIDs'], true);
 }
 
+/**
+ * The school's week for month calendars, as Gibbon core v30's Student History
+ * (modules/Attendance/src/StudentHistoryData.php): weeks start on System
+ * Settings > First Day Of The Week, and show only the days ticked as school
+ * days in School Admin > Days of the Week. Returns
+ *   'start' => 'Monday' | 'Sunday' | 'Saturday'
+ *   'days'  => school days' short names ('Mon', ...) in the order they fall
+ *              in such a week, e.g. ['Sun','Mon','Tue','Wed','Thu'].
+ */
+function gibbonConnectSchoolWeek(PDO $pdo): array {
+    $start = gibbonConnectFirstDayOfWeek($pdo);
+    $school = array_flip($pdo->query("SELECT nameShort FROM gibbonDaysOfWeek WHERE schoolDay = 'Y'")->fetchAll(PDO::FETCH_COLUMN));
+    $days = [];
+    $d = new DateTime('next ' . $start);
+    for ($i = 0; $i < 7; $i++, $d->modify('+1 day')) {
+        if (isset($school[$d->format('D')])) $days[] = $d->format('D');
+    }
+    return ['start' => $start, 'days' => $days ?: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']];
+}
+
+/** $date moved back to the first day of its week (Gibbon's First Day Of The Week). */
+function gibbonConnectWeekStartFor(DateTime $date, string $weekStart): DateTime {
+    while ($date->format('l') !== $weekStart) $date->modify('-1 day');
+    return $date;
+}
+
 function gibbonConnectBearerToken(): string {
     $headers = function_exists('getallheaders') ? getallheaders() : [];
     $headers = is_array($headers) ? array_change_key_case($headers, CASE_LOWER) : [];

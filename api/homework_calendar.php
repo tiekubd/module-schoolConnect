@@ -6,7 +6,7 @@ require_once __DIR__ . '/../../../config.php';
 
 // Homework Calendar — a month-grid view of teacher-assigned homework due
 // dates (pe.homeworkDueDateTime), structurally mirroring
-// student_attendance.php's calendar (same 5-day-week/month grouping,
+// student_attendance.php's calendar (same school-day-week/month grouping,
 // same special-day/school-day handling), but each cell means "was
 // homework due here" instead of "was I present here". NOT the Student
 // Recorded Homework feature (gibbonPlannerEntryStudentHomework) — that's
@@ -487,7 +487,7 @@ try {
     }
 
     // ── Build calendar for one term ────────────────────────────────────────
-    // Same 5-day-week/month grouping as student_attendance.php's
+    // Same school-day-week/month grouping as student_attendance.php's
     // buildCalendar(), different cell meaning: 'homework' (>=1 due date
     // that day, carries the list for tap-through) vs 'none'. Either may
     // also carry 'assessments' when Academic Calendar supplies them.
@@ -519,13 +519,17 @@ try {
         $months = [];
         $current = new DateTime($firstDay);
         $end = new DateTime($lastDay); $end->modify('+1 day');
-        $startOfWeek = clone $current;
-        $dow = (int)$startOfWeek->format('N');
-        if ($dow > 1) $startOfWeek->modify('-' . ($dow - 1) . ' days');
+        // Weeks as on Gibbon's Student History (module 1.16.23+): start on
+        // First Day Of The Week, and only the school's school days, so a
+        // Sunday-Thursday school gets Sun-Thu. Before, always Mon-Fri.
+        $schoolWeek = gibbonConnectSchoolWeek($pdo);
+        $weekDays = array_flip($schoolWeek['days']);
+        $startOfWeek = gibbonConnectWeekStartFor(clone $current, $schoolWeek['start']);
 
         while ($startOfWeek < $end) {
             $week = [];
-            for ($d = 0; $d < 5; $d++) {
+            for ($d = 0; $d < 7; $d++) {
+                if (!isset($weekDays[$startOfWeek->format('D')])) { $startOfWeek->modify('+1 day'); continue; }
                 $dateStr = $startOfWeek->format('Y-m-d');
                 $dowN = (int)$startOfWeek->format('N');
                 $inTerm = $dateStr >= $firstDay && $dateStr <= $lastDay;
@@ -548,7 +552,6 @@ try {
                 }
                 $startOfWeek->modify('+1 day');
             }
-            $startOfWeek->modify('+2 days');
 
             // Same month-boundary split as student_attendance.php's
             // buildCalendar() — these two calendars were built to mirror
@@ -583,6 +586,7 @@ try {
             'termName' => $selectedTerm['name'],
             'months' => array_values($months),
             'assessmentLegend' => $assessmentLegend,
+            'dayHeaders' => $schoolWeek['days'],
         ];
     }
 
