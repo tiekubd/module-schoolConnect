@@ -660,7 +660,8 @@ T = {'A punctuation mark or space': 'Skyrybos ženklas arba tarpas',
  'Recorded earlier today': 'Pažymėta anksčiau šiandien',
  'Taken at {time} by {name}': 'Pažymėta {time}, {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Šiai datai lankomumas dar nepažymėtas. Tai numatytosios reikšmės, o ne išsaugotas lankomumas.',
- "None of the attendance codes are available to your role, so you can't take this register.": 'Nė vienas lankomumo kodas nėra prieinamas jūsų vaidmeniui, todėl negalite pažymėti šio lankomumo.'}
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Nė vienas lankomumo kodas nėra prieinamas jūsų vaidmeniui, todėl negalite pažymėti šio lankomumo.',
+ 'Other Registers': 'Kiti žiniaraščiai'}
 
 P = {'All {count} class done for today': ('Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})', 'Visos šiandienos pamokos baigtos ({count})'),
  'At least {count} character': ('Bent {count} simbolis', 'Bent {count} simboliai', 'Bent {count} simbolių'),

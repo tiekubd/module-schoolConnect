@@ -200,6 +200,161 @@ function gibbonConnectCanTakeFormGroup(array $access, $formGroupID): bool
         && in_array((string) (int) $formGroupID, $access['myFormGroupIDs'], true);
 }
 
+// ── Register calendar (module 1.16.21+) ─────────────────────────────────────
+// The colours of Gibbon core v30's View Daily Attendance "Recent History"
+// (modules/Attendance/attendance.php), for any run of dates:
+//   closed   the school isn't open (core's isSchoolOpen: outside the year's
+//            terms, not a school day of the week, or a School Closure day)
+//   taken    a gibbonAttendanceLogFormGroup / LogCourseClass row that day
+//   missing  form group: any open day not taken; class: timetabled that
+//            day (gibbonTTDayDate + gibbonTTDayRowClass) but not taken
+//   none     class only: open, not timetabled, not taken (core: blank)
+// Future dates are left to the app (registers can't be taken ahead).
+
+/** The dates from $dates on which the school is open, as a set. */
+function gibbonConnectOpenDates(PDO $pdo, $schoolYearID, array $dates): array
+{
+    if (!$dates) return [];
+    $terms = $pdo->prepare("SELECT firstDay, lastDay FROM gibbonSchoolYearTerm WHERE gibbonSchoolYearID = ?");
+    $terms->execute([$schoolYearID]);
+    $terms = $terms->fetchAll(PDO::FETCH_ASSOC);
+    $schoolDays = array_flip($pdo->query("SELECT nameShort FROM gibbonDaysOfWeek WHERE schoolDay = 'Y'")->fetchAll(PDO::FETCH_COLUMN));
+    $closed = $pdo->prepare("SELECT date FROM gibbonSchoolYearSpecialDay WHERE type = 'School Closure' AND date BETWEEN ? AND ?");
+    $closed->execute([min($dates), max($dates)]);
+    $closed = array_flip($closed->fetchAll(PDO::FETCH_COLUMN));
+    $open = [];
+    foreach ($dates as $d) {
+        $inTerm = false;
+        foreach ($terms as $t) {
+            if ($d >= $t['firstDay'] && $d <= $t['lastDay']) { $inTerm = true; break; }
+        }
+        if ($inTerm && isset($schoolDays[date('D', strtotime($d))]) && !isset($closed[$d])) $open[$d] = true;
+    }
+    return $open;
+}
+
+/** date => status (see above) for one register over $dates. */
+function gibbonConnectRegisterCalendar(PDO $pdo, $schoolYearID, string $type, $id, array $dates): array
+{
+    if (!$dates) return [];
+    $from = min($dates); $to = max($dates);
+    $open = gibbonConnectOpenDates($pdo, $schoolYearID, $dates);
+    if ($type === 'class') {
+        $t = $pdo->prepare("SELECT DISTINCT date FROM gibbonAttendanceLogCourseClass WHERE gibbonCourseClassID = ? AND date BETWEEN ? AND ?");
+        $t->execute([$id, $from, $to]);
+        $taken = array_flip($t->fetchAll(PDO::FETCH_COLUMN));
+        $tt = $pdo->prepare("SELECT DISTINCT gibbonTTDayDate.date FROM gibbonTTDayRowClass
+            JOIN gibbonTTDayDate ON (gibbonTTDayDate.gibbonTTDayID = gibbonTTDayRowClass.gibbonTTDayID)
+            WHERE gibbonTTDayRowClass.gibbonCourseClassID = ? AND gibbonTTDayDate.date BETWEEN ? AND ?");
+        $tt->execute([$id, $from, $to]);
+        $scheduled = array_flip($tt->fetchAll(PDO::FETCH_COLUMN));
+    } else {
+        $t = $pdo->prepare("SELECT DISTINCT date FROM gibbonAttendanceLogFormGroup WHERE gibbonFormGroupID = ? AND date BETWEEN ? AND ?");
+        $t->execute([$id, $from, $to]);
+        $taken = array_flip($t->fetchAll(PDO::FETCH_COLUMN));
+        $scheduled = null; // every open day counts for a form group
+    }
+    $out = [];
+    foreach ($dates as $d) {
+        if (!isset($open[$d]))       $out[$d] = 'closed';
+        elseif (isset($taken[$d]))   $out[$d] = 'taken';
+        elseif ($scheduled === null || isset($scheduled[$d])) $out[$d] = 'missing';
+        else                         $out[$d] = 'none';
+    }
+    return $out;
+}
+
+/** The last $n open school days up to and including $until, newest first (core's getLastNSchoolDays(..., inclusive)). */
+function gibbonConnectLastSchoolDays(PDO $pdo, $schoolYearID, string $until, int $n): array
+{
+    $dates = [];
+    for ($i = 0; $i < 100; $i++) $dates[] = date('Y-m-d', strtotime("$until -$i day"));
+    $open = gibbonConnectOpenDates($pdo, $schoolYearID, $dates);
+    return array_slice(array_values(array_filter($dates, fn($d) => isset($open[$d]))), 0, $n);
+}
+
+/** Today's In / Out counts for a register: each student's latest mark in it that day. */
+function gibbonConnectRegisterInOut(PDO $pdo, string $context, string $groupColumn, $id, string $date): array
+{
+    $stmt = $pdo->prepare("SELECT l.direction, COUNT(*) AS n FROM gibbonAttendanceLogPerson l
+        WHERE l.context = ? AND l.$groupColumn = ? AND l.date = ?
+        AND l.gibbonAttendanceLogPersonID = (SELECT MAX(l2.gibbonAttendanceLogPersonID) FROM gibbonAttendanceLogPerson l2
+            WHERE l2.gibbonPersonID = l.gibbonPersonID AND l2.context = l.context AND l2.$groupColumn = l.$groupColumn AND l2.date = l.date)
+        GROUP BY l.direction");
+    $stmt->execute([$context, $id, $date]);
+    $in = 0; $out = 0;
+    foreach ($stmt->fetchAll(PDO::FETCH_ASSOC) as $r) {
+        if ($r['direction'] === 'Out') $out += (int) $r['n']; else $in += (int) $r['n'];
+    }
+    return [$in, $out];
+}
+
+/** View Daily Attendance for $authUser on $today (see the daily_overview action). */
+function gibbonConnectDailyOverview(PDO $pdo, array $authUser, string $today): array
+{
+    $access = gibbonConnectAttendanceAccess($pdo, $authUser);
+    $yearID = $authUser['schoolYearID'] ?? null;
+    $pid = $authUser['personID'];
+    $days = gibbonConnectLastSchoolDays($pdo, $yearID, $today, 10);
+    $open = isset(gibbonConnectOpenDates($pdo, $yearID, [$today])[$today]);
+    $history = function (string $type, $id) use ($pdo, $yearID, $days) {
+        $cal = gibbonConnectRegisterCalendar($pdo, $yearID, $type, $id, $days);
+        $out = [];
+        foreach (array_reverse($days) as $d) $out[] = ['date' => $d, 'status' => $cal[$d]];
+        return $out;
+    };
+
+    $fgStmt = $pdo->prepare("SELECT gibbonFormGroupID, name, nameShort FROM gibbonFormGroup
+        WHERE gibbonSchoolYearID = ? AND attendance = 'Y'
+        AND (gibbonPersonIDTutor = ? OR gibbonPersonIDTutor2 = ? OR gibbonPersonIDTutor3 = ?)
+        ORDER BY LENGTH(name), name");
+    $fgStmt->execute([$yearID, $pid, $pid, $pid]);
+    $takenFG = $pdo->prepare("SELECT 1 FROM gibbonAttendanceLogFormGroup WHERE gibbonFormGroupID = ? AND date = ? LIMIT 1");
+    $formGroups = [];
+    foreach ($fgStmt->fetchAll(PDO::FETCH_ASSOC) as $fg) {
+        $takenFG->execute([$fg['gibbonFormGroupID'], $today]);
+        $taken = (bool) $takenFG->fetchColumn();
+        [$in, $out] = $taken ? gibbonConnectRegisterInOut($pdo, 'Form Group', 'gibbonFormGroupID', $fg['gibbonFormGroupID'], $today) : [null, null];
+        $formGroups[] = $fg + [
+            'history' => $history('formGroup', $fg['gibbonFormGroupID']),
+            'today' => $taken ? 'taken' : 'not taken',
+            'in' => $in, 'out' => $out,
+            'canTake' => gibbonConnectCanTakeFormGroup($access, $fg['gibbonFormGroupID']),
+        ];
+    }
+
+    $clStmt = $pdo->prepare("SELECT gibbonCourseClass.gibbonCourseClassID, gibbonCourse.nameShort AS course,
+            gibbonCourse.name AS courseName, gibbonCourseClass.nameShort AS class
+        FROM gibbonCourseClassPerson
+        JOIN gibbonCourseClass ON (gibbonCourseClass.gibbonCourseClassID = gibbonCourseClassPerson.gibbonCourseClassID)
+        JOIN gibbonCourse ON (gibbonCourse.gibbonCourseID = gibbonCourseClass.gibbonCourseID)
+        WHERE gibbonCourse.gibbonSchoolYearID = ? AND gibbonCourseClassPerson.gibbonPersonID = ?
+        AND NOT gibbonCourseClassPerson.role LIKE '% - Left%' AND gibbonCourseClass.attendance = 'Y'
+        AND (SELECT COUNT(*) FROM gibbonCourseClassPerson s WHERE s.role = 'Student'
+             AND s.gibbonCourseClassID = gibbonCourseClass.gibbonCourseClassID) > 0
+        GROUP BY gibbonCourseClass.gibbonCourseClassID
+        ORDER BY course, class");
+    $clStmt->execute([$yearID, $pid]);
+    $takenCL = $pdo->prepare("SELECT 1 FROM gibbonAttendanceLogCourseClass WHERE gibbonCourseClassID = ? AND date = ? LIMIT 1");
+    $ttToday = $pdo->prepare("SELECT 1 FROM gibbonTTDayRowClass JOIN gibbonTTDayDate ON (gibbonTTDayDate.gibbonTTDayID = gibbonTTDayRowClass.gibbonTTDayID)
+        WHERE gibbonTTDayRowClass.gibbonCourseClassID = ? AND gibbonTTDayDate.date = ? LIMIT 1");
+    $classes = [];
+    foreach ($clStmt->fetchAll(PDO::FETCH_ASSOC) as $c) {
+        $id = $c['gibbonCourseClassID'];
+        $takenCL->execute([$id, $today]); $taken = (bool) $takenCL->fetchColumn();
+        $ttToday->execute([$id, $today]); $scheduled = (bool) $ttToday->fetchColumn();
+        [$in, $out] = $taken ? gibbonConnectRegisterInOut($pdo, 'Class', 'gibbonCourseClassID', $id, $today) : [null, null];
+        $classes[] = $c + [
+            'history' => $history('class', $id),
+            'today' => $scheduled ? ($taken ? 'taken' : 'not taken') : ($taken ? 'not timetabled' : null),
+            'in' => $in, 'out' => $out,
+            'canTake' => $access['class'],
+        ];
+    }
+
+    return ['date' => $today, 'schoolOpen' => $open, 'formGroups' => $formGroups, 'classes' => $classes];
+}
+
 function gibbonConnectLogAttendance(PDO $pdo, $takerID, string $context, $id, string $date, int $count): void
 {
     try {
@@ -243,6 +398,68 @@ try {
     // falls back to the role names it used before.
     if ($action === 'access') {
         echo json_encode(['success' => true] + gibbonConnectAttendanceAccess($pdo, $authUser));
+        exit;
+    }
+
+    // ── DAILY OVERVIEW (module 1.16.21+) ──────────────────────────────────
+    // The app's version of Gibbon core v30's View Daily Attendance
+    // (modules/Attendance/attendance.php) for the signed-in person, today:
+    //   formGroups  groups they tutor this year that take attendance
+    //   classes     classes they're in this year (any role but "... - Left")
+    //               that take attendance and have students
+    // Each with: the last 10 school days (as `calendar`), today's status and
+    // In / Out counts. Today, as core:
+    //   form group  'taken' | 'not taken'
+    //   class       'taken' | 'not taken' when timetabled today;
+    //               'not timetabled' when taken although not timetabled;
+    //               null otherwise
+    // canTake: whether this person may take that register (their Attendance
+    // permissions), so the app links only those.
+    if ($action === 'daily_overview') {
+        echo json_encode(['success' => true] + gibbonConnectDailyOverview($pdo, $authUser, date('Y-m-d')));
+        exit;
+    }
+
+    // ── CALENDAR (module 1.16.21+) ────────────────────────────────────────
+    // Status of registers by date, for the app's coloured date picker and
+    // the Attendance menu's history strips. Input:
+    //   registers: [{type: 'formGroup'|'class', id}]   (at most 20)
+    //   either start + end (YYYY-MM-DD, at most 62 days apart)
+    //   or     lastSchoolDays: N (at most 20), until: YYYY-MM-DD (default today)
+    // Also sends firstDayOfTheWeek (Gibbon's System Settings), for the picker.
+    // Only registers this person may take are answered (others are left
+    // out). Statuses: see gibbonConnectRegisterCalendar().
+    if ($action === 'calendar') {
+        $access = gibbonConnectAttendanceAccess($pdo, $authUser);
+        $yearID = $authUser['schoolYearID'] ?? null;
+        $isDate = fn($d) => is_string($d) && preg_match('/^\d{4}-\d{2}-\d{2}$/', $d);
+
+        if (!empty($input['lastSchoolDays'])) {
+            $until = $isDate($input['until'] ?? null) ? $input['until'] : date('Y-m-d');
+            $dates = gibbonConnectLastSchoolDays($pdo, $yearID, $until, min(20, max(1, (int) $input['lastSchoolDays'])));
+        } else {
+            $start = $input['start'] ?? null; $end = $input['end'] ?? null;
+            if (!$isDate($start) || !$isDate($end) || $end < $start
+                || (strtotime($end) - strtotime($start)) > 62 * 86400) {
+                echo json_encode(['success' => false, 'message' => 'Invalid date range']);
+                exit;
+            }
+            $dates = [];
+            for ($d = $start; $d <= $end; $d = date('Y-m-d', strtotime("$d +1 day"))) $dates[] = $d;
+        }
+
+        $result = [];
+        foreach (array_slice((array) ($input['registers'] ?? []), 0, 20) as $reg) {
+            $type = ($reg['type'] ?? '') === 'class' ? 'class' : 'formGroup';
+            $id = (int) ($reg['id'] ?? 0);
+            if ($id <= 0) continue;
+            $allowed = $type === 'class' ? $access['class'] : gibbonConnectCanTakeFormGroup($access, $id);
+            if (!$allowed) continue;
+            $result[] = ['type' => $type, 'id' => (string) $id,
+                'days' => gibbonConnectRegisterCalendar($pdo, $yearID, $type === 'class' ? 'class' : 'formGroup', $id, $dates)];
+        }
+        echo json_encode(['success' => true, 'dates' => $dates, 'registers' => $result,
+            'firstDayOfTheWeek' => gibbonConnectFirstDayOfWeek($pdo)]);
         exit;
     }
 

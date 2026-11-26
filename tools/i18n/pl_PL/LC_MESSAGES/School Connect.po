@@ -27,7 +27,7 @@ msgstr ""
 "Token logowania, przechowywany w bezpiecznym magazynie urządzenia (pęku "
 "kluczy iOS lub Android Keystore)"
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "O aplikacji i prywatność"
@@ -57,7 +57,7 @@ msgstr "Dodawaj, edytuj i usuwaj dni wolne"
 msgid "Add, edit, and remove user accounts"
 msgstr "Dodawaj, edytuj i usuwaj konta użytkowników"
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr "Ustala kolejność przedmiotów w raportach."
 
@@ -81,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Wszystkie roczniki"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Zakończono dzisiejszą lekcję"
@@ -94,7 +94,7 @@ msgstr[3] "Zakończono wszystkie dzisiejsze lekcje ({count})"
 msgid "An uppercase and a lowercase letter"
 msgstr "Wielka i mała litera"
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr "Wersja aplikacji, połączona szkoła i Twoje dane"
 
@@ -130,12 +130,12 @@ msgstr[3] "Co najmniej {count} znaku"
 msgid "Attendance This Year"
 msgstr "Frekwencja w tym roku"
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr "Obecność nie została dziś jeszcze sprawdzona"
 
-#: lib/screens/attendance_screen.dart:139
-#: lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136
+#: lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr "Frekwencja zapisana!"
 
@@ -152,11 +152,11 @@ msgstr[1] "Zapisano wpisy o zachowaniu dla {count} uczniów!"
 msgstr[2] "Zapisano wpisy o zachowaniu dla {count} uczniów!"
 msgstr[3] "Zapisano wpisy o zachowaniu dla {count} ucznia!"
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr "Przeglądaj profile pracowników"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Według zajęć"
@@ -165,11 +165,11 @@ msgstr "Według zajęć"
 msgid "By Date"
 msgstr "Według daty"
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr "Według zajęć"
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr "Według ucznia"
 
@@ -181,15 +181,15 @@ msgstr ""
 "Aparat i zdjęcia: tylko gdy zdecydujesz się dołączyć zdjęcie do wniosku o "
 "aktualizację danych. Aplikacja najpierw pyta o zgodę i możesz odmówić."
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Anulować rezerwacje?"
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Odwołać zajęcia?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Odwołać dyżury pracowników?"
 
@@ -201,7 +201,7 @@ msgstr "Anuluj nowe schorzenie"
 msgid "Cap"
 msgstr "Poj."
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr "Imię i nazwisko w znakach chińskich lub innym piśmie znakowym"
 
@@ -209,11 +209,11 @@ msgstr "Imię i nazwisko w znakach chińskich lub innym piśmie znakowym"
 msgid "Choose a class above"
 msgstr "Wybierz zajęcia powyżej"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Wybierz dowolną klasę"
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Wybierz dowolne ze swoich zajęć"
 
@@ -221,7 +221,7 @@ msgstr "Wybierz dowolne ze swoich zajęć"
 msgid "Choose at least one student first"
 msgstr "Najpierw wybierz co najmniej jednego ucznia"
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Wybierz jedną ze swoich klas"
 
@@ -238,7 +238,7 @@ msgid "Class Roster"
 msgstr "Lista uczniów"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Teraz: {class}"
 
@@ -265,7 +265,7 @@ msgstr ""
 "kolumnę, aby wpisać oceny."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 msgid ""
 "Combined short name \"{name}\" is longer than 16 characters — this may cause"
 " display issues on the timetable and in dropdowns."
@@ -277,7 +277,7 @@ msgstr ""
 msgid "Combined short name exceeds 16 characters"
 msgstr "Połączona nazwa skrócona ma ponad 16 znaków"
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr "Adresy e-mail oddzielone przecinkami"
 
@@ -293,7 +293,7 @@ msgstr "Połączona szkoła"
 msgid "Connecting..."
 msgstr "Łączenie..."
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr "Dane kontaktowe"
 
@@ -370,8 +370,8 @@ msgstr "Nie udało się wczytać przedmiotu"
 msgid "Could not load courses"
 msgstr "Nie udało się wczytać przedmiotów"
 
-#: lib/screens/attendance_screen.dart:123
-#: lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120
+#: lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr "Nie udało się wczytać danych"
 
@@ -526,7 +526,7 @@ msgstr "Nie udało się wczytać lat szkolnych"
 msgid "Could not load settings"
 msgstr "Nie udało się wczytać ustawień"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Nie udało się wczytać dnia specjalnego"
 
@@ -541,11 +541,11 @@ msgstr "Nie udało się wczytać danych pracownika"
 
 #: lib/screens/enter_marks_screen.dart:90
 #: lib/screens/enter_marks_screen.dart:97
-#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr "Nie udało się wczytać uczniów"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Nie udało się wczytać semestrów"
 
@@ -587,14 +587,14 @@ msgstr "Nie udało się usunąć"
 msgid "Could not reset password"
 msgstr "Nie udało się zresetować hasła"
 
-#: lib/screens/attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:136
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Nie udało się zapisać"
 
-#: lib/screens/attendance_screen.dart:152
-#: lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149
+#: lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr "Nie udało się zapisać frekwencji"
 
@@ -656,7 +656,7 @@ msgstr "Utwórz powiązany zapis ucznia"
 msgid "Current year"
 msgstr "Bieżący rok"
 
-#: lib/screens/dashboard_screen.dart:401
+#: lib/screens/dashboard_screen.dart:423
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Pulpit"
@@ -685,7 +685,7 @@ msgstr "Usuń zajęcia"
 msgid "Delete Course"
 msgstr "Usuń przedmiot"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Usuń dzień specjalny"
 
@@ -721,7 +721,7 @@ msgstr "Termin"
 msgid "Due date and details are required."
 msgstr "Termin i szczegóły są wymagane."
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr "Edytowalne"
 
@@ -729,7 +729,7 @@ msgstr "Edytowalne"
 msgid "Email: Must be unique"
 msgstr "E-mail: musi być unikalny"
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr "Roczniki, które można zapisać"
 
@@ -737,7 +737,7 @@ msgstr "Roczniki, które można zapisać"
 msgid "Enroll existing students into the active school year"
 msgstr "Zapisz istniejących uczniów na bieżący rok szkolny"
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr "Nazwisko jak w dokumencie tożsamości"
 
@@ -753,7 +753,7 @@ msgstr "Filtruj według rocznika"
 msgid "First Name *"
 msgstr "Imię *"
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr "Imię jak w dokumencie tożsamości"
 
@@ -774,7 +774,7 @@ msgstr "Z obecności na zajęciach"
 msgid "From the form group register"
 msgstr "Z obecności klasy"
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr "Imię i nazwisko jak w dokumencie tożsamości"
 
@@ -800,13 +800,13 @@ msgstr ""
 "Logowanie przez Google, tylko jeśli Twoja szkoła z niego korzysta i je "
 "wybierzesz"
 
-#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/dashboard_screen.dart:880
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Oceny"
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr "Oceny, wysiłek i komentarze dla Twoich zajęć"
 
@@ -911,19 +911,19 @@ msgstr ""
 msgid "Large photos"
 msgstr "Duże zdjęcia"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr "Ostatnie 10 dni nauki"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr "Ostatnie 10 dni nauki — według lekcji"
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr "Ostatnie 20 dni nauki"
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr "Ostatnia lekcja dnia"
 
@@ -953,7 +953,7 @@ msgstr "Widoczne od {date}"
 msgid "Live since {date}"
 msgstr "Widoczne od {date}"
 
-#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/dashboard_screen.dart:764
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Dodaj wpis o zachowaniu"
@@ -962,7 +962,7 @@ msgstr "Dodaj wpis o zachowaniu"
 msgid "Logged in as"
 msgstr "Zalogowano jako"
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr "Zarządzaj użytkownikami i ustawieniami szkoły"
 
@@ -970,11 +970,11 @@ msgstr "Zarządzaj użytkownikami i ustawieniami szkoły"
 msgid "Mark all read"
 msgstr "Oznacz wszystkie jako przeczytane"
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr "Oznacz jako wykonane"
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr "Sprawdź dzisiejszą obecność"
 
@@ -982,7 +982,7 @@ msgstr "Sprawdź dzisiejszą obecność"
 msgid "Mark read"
 msgstr "Oznacz jako przeczytane"
 
-#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/dashboard_screen.dart:776
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Główny plan lekcji"
@@ -991,8 +991,8 @@ msgstr "Główny plan lekcji"
 msgid "Must be unique if set"
 msgstr "Jeśli podano, musi być unikalny"
 
-#: lib/screens/dashboard_screen.dart:1093
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:1109
+#: lib/screens/dashboard_screen.dart:869
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Moje klasy"
@@ -1007,8 +1007,8 @@ msgid "Name and Short Name are required"
 msgstr "Nazwa i nazwa skrócona są wymagane"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Następne zajęcia: {class}"
 
@@ -1024,7 +1024,7 @@ msgstr "Brak obszaru nauczania"
 msgid "No activities on record"
 msgstr "Brak zajęć dodatkowych"
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr "Brak powiązanych osób dorosłych"
 
@@ -1040,7 +1040,7 @@ msgstr ""
 msgid "No children found"
 msgstr "Nie znaleziono dzieci"
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr "Brak powiązanych dzieci"
 
@@ -1048,7 +1048,7 @@ msgstr "Brak powiązanych dzieci"
 msgid "No children linked to this account"
 msgstr "Brak dzieci powiązanych z tym kontem"
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr "Brak zajęć"
 
@@ -1066,7 +1066,7 @@ msgstr "Brak zajęć w tej sali dzisiaj"
 msgid "No classes scheduled"
 msgstr "Brak zaplanowanych zajęć"
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr "Brak zaplanowanych zajęć na dziś"
 
@@ -1115,8 +1115,8 @@ msgstr "Nie znaleziono rekordu rodziny"
 msgid "No grades available"
 msgstr "Brak ocen"
 
-#: lib/screens/class_detail_screen.dart:131
-#: lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135
+#: lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr "Brak historii"
 
@@ -1174,13 +1174,13 @@ msgstr "Nie znaleziono pracowników"
 msgid "No students enrolled this year"
 msgstr "Brak uczniów zapisanych w tym roku"
 
-#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/form_group_detail_screen.dart:232
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
 msgstr "Nie znaleziono uczniów"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Nie znaleziono semestrów w tym roku szkolnym"
 
@@ -1192,7 +1192,7 @@ msgstr "Nie znaleziono danych planu lekcji"
 msgid "No timetable for this day"
 msgstr "Brak planu lekcji na ten dzień"
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr "Brak planu lekcji na dziś"
 
@@ -1205,7 +1205,7 @@ msgstr "Nie znaleziono użytkowników"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Uczestnicy wyłączeni z raportów nie będą w nich widoczni."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Dzień wolny od nauki"
 
@@ -1246,7 +1246,7 @@ msgstr ""
 "Obecność na ten dzień nie została jeszcze sprawdzona. To wartości domyślne, "
 "a nie zapisana frekwencja."
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Dziś jeszcze nie sprawdzono"
 
@@ -1263,6 +1263,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nic nie zaplanowano"
 
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1294,6 +1295,10 @@ msgstr "Obejmuje tylko uczniów niezapisanych na ten rok szkolny."
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Otwarcie o"
+
+#: lib/screens/attendance_menu_screen.dart:194
+msgid "Other Registers"
+msgstr "Inne listy obecności"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1409,7 +1414,7 @@ msgstr "Imię używane *"
 msgid "Primary Role *"
 msgstr "Rola główna *"
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr "Kontakty z priorytetem 1 zawsze otrzymują wszystkie rodzaje kontaktu."
 
@@ -1417,7 +1422,7 @@ msgstr "Kontakty z priorytetem 1 zawsze otrzymują wszystkie rodzaje kontaktu."
 msgid "Qualified"
 msgstr "Wykwalifikowany"
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr "Szybki dostęp"
 
@@ -1429,8 +1434,8 @@ msgstr "Przeczytaj pełną politykę prywatności"
 msgid "Receipt ID"
 msgstr "Numer potwierdzenia"
 
-#: lib/screens/class_detail_screen.dart:122
-#: lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "Ostatnia frekwencja"
 
@@ -1439,7 +1444,7 @@ msgid "Recorded earlier today"
 msgstr "Zapisane wcześniej dzisiaj"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Usunąć „{name}” z kalendarza?"
 
@@ -1547,7 +1552,7 @@ msgstr ""
 "Twojej szkoły przez szyfrowane połączenie (HTTPS). High Point Education nie "
 "otrzymuje, nie przechowuje ani nie widzi tych informacji."
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1555,7 +1560,7 @@ msgstr ""
 "Godzin otwarcia, rozpoczęcia, zakończenia i zamknięcia szkoły nie ustawia "
 "się tutaj — uzupełnij je na stronie internetowej."
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr "Wyszukuj i przeglądaj profile uczniów"
 
@@ -1599,7 +1604,7 @@ msgid "Search rooms..."
 msgstr "Szukaj sal..."
 
 #: lib/screens/enter_marks_screen.dart:197
-#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/form_group_detail_screen.dart:211
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "Szukaj uczniów..."
@@ -1644,7 +1649,7 @@ msgstr "Utworzono rekord pracownika"
 msgid "Student *"
 msgstr "Uczeń *"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr "Lista uczniów"
 
@@ -1684,28 +1689,29 @@ msgstr "Wysłano"
 msgid "Surname *"
 msgstr "Nazwisko *"
 
-#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/dashboard_screen.dart:467
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Zmień rolę"
 
-#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/dashboard_screen.dart:473
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "Zmień rok szkolny"
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Sprawdź obecność na tych zajęciach"
 
-#: lib/screens/class_detail_screen.dart:194
-#: lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198
+#: lib/screens/form_group_detail_screen.dart:169
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "Sprawdzono"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 msgid "Taken at {time}"
 msgstr "Sprawdzono o {time}"
 
@@ -1715,7 +1721,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Sprawdzono o {time}, {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Sprawdzono dziś o {time}. Dotknij, aby przejrzeć lub zmienić"
 
@@ -1741,7 +1747,7 @@ msgstr ""
 msgid "The mark works out to {grade}"
 msgstr "Daje to ocenę {grade}"
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr ""
 "Kolejność, w jakiej szkoła powinna kontaktować się z członkami rodziny."
@@ -1755,7 +1761,7 @@ msgstr "Nie ma to wpływu na konto użytkownika tej osoby."
 msgid "There are no messages to display."
 msgstr "Brak wiadomości do wyświetlenia."
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Ma to wpływ na plan lekcji:"
 
@@ -1776,7 +1782,7 @@ msgid "This cannot be undone."
 msgstr "Tej operacji nie można cofnąć."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1814,21 +1820,21 @@ msgstr ""
 "Spowoduje to usunięcie wszystkich zapisów i danych planu lekcji dla tych "
 "zajęć. Tej operacji nie można cofnąć."
 
-#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/dashboard_screen.dart:785
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Plan lekcji według sali"
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr "Dzisiejszy plan lekcji"
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr "Dostęp próbny"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Wersja próbna — został {count} dzień"
@@ -1849,7 +1855,7 @@ msgstr "Wychowawca 2"
 msgid "Type *"
 msgstr "Typ *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Typ i nazwa są wymagane"
 
@@ -1857,7 +1863,7 @@ msgstr "Typ i nazwa są wymagane"
 msgid "Type at least 2 characters"
 msgstr "Wpisz co najmniej 2 znaki"
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr "Typ, kod kraju, numer"
 
@@ -1943,7 +1949,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Zobacz frekwencję"
 
-#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Zobacz pełny plan lekcji"
@@ -1960,11 +1966,11 @@ msgstr "Zobacz kalendarz zadań domowych"
 msgid "View Timetable"
 msgstr "Zobacz plan lekcji"
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr "Przeglądaj klasy i zarządzaj nimi"
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr "Zobacz oceny z zajęć"
 
@@ -1972,7 +1978,7 @@ msgstr "Zobacz oceny z zajęć"
 msgid "View families, contacts, and children"
 msgstr "Przeglądaj rodziny, kontakty i dzieci"
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr "Zobacz plany lekcji dla tych zajęć"
 
@@ -1980,15 +1986,15 @@ msgstr "Zobacz plany lekcji dla tych zajęć"
 msgid "View photo"
 msgstr "Pokaż zdjęcie"
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr "Zobacz uczniów na tych zajęciach"
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr "Zobacz swoje oceny"
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr "Zobacz swoje raporty"
 
@@ -2002,7 +2008,7 @@ msgid "Virtual Classroom"
 msgstr "Wirtualna klasa"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 msgid "Welcome, {name}!"
 msgstr "Witaj, {name}!"
 
@@ -2019,7 +2025,7 @@ msgstr "Co aplikacja przechowuje na tym urządzeniu"
 msgid "Year Group *"
 msgstr "Rocznik *"
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2057,8 +2063,8 @@ msgstr ""
 "systemie, dopóki wniosek nie zostanie rozpatrzony."
 
 #: lib/screens/data_finance_edit_screen.dart:197
-#: lib/screens/data_medical_edit_screen.dart:353
-#: lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_medical_edit_screen.dart:354
+#: lib/screens/data_personal_edit_screen.dart:420
 msgid ""
 "You have already submitted a request, which is awaiting review by an "
 "administrator. You can still make changes below."
@@ -2112,11 +2118,11 @@ msgstr "aplikacja dla Gibbon™"
 
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
-#: lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr "opcjonalnie"
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr "główny"
 
@@ -2131,7 +2137,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "Nieobecności: {absent} z {total} odnotowanych lekcji"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} nieobecny"
@@ -2169,7 +2175,7 @@ msgstr[2] "Zajęcia: {count}"
 msgstr[3] "Zajęcia: {count}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "Została {count} lekcja · zakończono: {done}"
@@ -2178,7 +2184,7 @@ msgstr[2] "Zostało {count} lekcji · zakończono: {done}"
 msgstr[3] "Zostało {count} lekcji · zakończono: {done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} lekcja dzisiaj"
@@ -2243,7 +2249,7 @@ msgstr[2] "{count} elementów"
 msgstr[3] "{count} elementu"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} spóźniony"
@@ -2252,7 +2258,7 @@ msgstr[2] "{count} spóźnionych"
 msgstr[3] "{count} spóźnionego"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Potem jeszcze {count} lekcja · łącznie dziś: {total}"
@@ -2320,7 +2326,7 @@ msgstr[2] "{count} pracowników"
 msgstr[3] "{count} pracownika"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:222
+#: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

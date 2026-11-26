@@ -31,17 +31,21 @@ $action = trim($input['action'] ?? '');
 // Mirrors Gibbon's own schoolYearSpecialDay_manage.php: pads the term's date
 // range out to full Monday-Sunday weeks, marks non-school days (from
 // gibbonDaysOfWeek) and existing special days, grouped by month for display.
-function gibbonConnectBuildSpecialDaysCalendar(PDO $pdo, array $term): array {
+function gibbonConnectBuildSpecialDaysCalendar(PDO $pdo, array $term, string $weekStart = 'Monday'): array {
     $firstDay = $term['firstDay'];
     $lastDay = $term['lastDay'];
+    // Weeks start on Gibbon's First Day Of The Week (module 1.16.21+;
+    // Monday before).
+    $startDow = substr($weekStart, 0, 3);
+    $endDow = ['Mon' => 'Sun', 'Sun' => 'Sat', 'Sat' => 'Fri'][$startDow] ?? 'Sun';
 
     $nonSchoolStmt = $pdo->query("SELECT nameShort FROM gibbonDaysOfWeek WHERE schoolDay = 'N'");
     $nonSchoolDays = array_column($nonSchoolStmt->fetchAll(PDO::FETCH_ASSOC), 'nameShort');
 
     $start = new DateTime($firstDay);
-    while ($start->format('D') !== 'Mon') { $start->modify('-1 day'); }
+    while ($start->format('D') !== $startDow) { $start->modify('-1 day'); }
     $end = new DateTime($lastDay);
-    while ($end->format('D') !== 'Sun') { $end->modify('+1 day'); }
+    while ($end->format('D') !== $endDow) { $end->modify('+1 day'); }
 
     $sdStmt = $pdo->prepare("
         SELECT gibbonSchoolYearSpecialDayID, date, name, type
@@ -158,8 +162,10 @@ try {
             exit;
         }
 
-        $months = gibbonConnectBuildSpecialDaysCalendar($pdo, $term);
-        echo json_encode(['success' => true, 'termName' => $term['name'], 'months' => $months]);
+        $weekStart = gibbonConnectFirstDayOfWeek($pdo);
+        $months = gibbonConnectBuildSpecialDaysCalendar($pdo, $term, $weekStart);
+        echo json_encode(['success' => true, 'termName' => $term['name'], 'months' => $months,
+            'firstDayOfTheWeek' => $weekStart]);
         exit;
     }
 

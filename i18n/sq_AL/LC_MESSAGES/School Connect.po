@@ -27,7 +27,7 @@ msgstr ""
 "Një token hyrjeje, i ruajtur në hapësirën e sigurt të pajisjes (iOS Keychain"
 " ose Android Keystore)"
 
-#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:898
+#: lib/screens/about_screen.dart:140 lib/screens/dashboard_screen.dart:914
 #: lib/screens/parent_dashboard_screen.dart:247
 msgid "About & Privacy"
 msgstr "Rreth aplikacionit dhe privatësia"
@@ -57,7 +57,7 @@ msgstr "Shtoni, ndryshoni dhe hiqni ditët e mbylljes"
 msgid "Add, edit, and remove user accounts"
 msgstr "Shtoni, ndryshoni dhe hiqni llogaritë e përdoruesve"
 
-#: lib/screens/course_manage_list_screen.dart:303
+#: lib/screens/course_manage_list_screen.dart:305
 msgid "Adjusts arrangement of courses in reports."
 msgstr "Përcakton renditjen e lëndëve në dëftesa."
 
@@ -81,7 +81,7 @@ msgid "All Year Groups"
 msgstr "Të gjitha nivelet"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1057
+#: lib/screens/dashboard_screen.dart:1073
 msgid "All {count} class done for today"
 msgid_plural "All {count} classes done for today"
 msgstr[0] "Ora e sotme përfundoi"
@@ -92,7 +92,7 @@ msgstr[1] "Të {count} orët e sotme përfunduan"
 msgid "An uppercase and a lowercase letter"
 msgstr "Një shkronjë e madhe dhe një e vogël"
 
-#: lib/screens/dashboard_screen.dart:900
+#: lib/screens/dashboard_screen.dart:916
 msgid "App version, connected school and your data"
 msgstr "Versioni i aplikacionit, shkolla e lidhur dhe të dhënat tuaja"
 
@@ -126,12 +126,12 @@ msgstr[1] "Të paktën {count} karaktere"
 msgid "Attendance This Year"
 msgstr "Frekuentimi këtë vit"
 
-#: lib/screens/dashboard_screen.dart:1118
+#: lib/screens/dashboard_screen.dart:1134
 msgid "Attendance not taken yet today"
 msgstr "Frekuentimi nuk është marrë ende sot"
 
-#: lib/screens/attendance_screen.dart:139
-#: lib/screens/form_group_attendance_screen.dart:132
+#: lib/screens/attendance_screen.dart:136
+#: lib/screens/form_group_attendance_screen.dart:131
 msgid "Attendance saved!"
 msgstr "Frekuentimi u ruajt!"
 
@@ -146,11 +146,11 @@ msgid_plural "Behaviour records saved for {count} students!"
 msgstr[0] "Shënimi i sjelljes u ruajt për {count} nxënës!"
 msgstr[1] "Shënimet e sjelljes u ruajtën për {count} nxënës!"
 
-#: lib/screens/dashboard_screen.dart:844
+#: lib/screens/dashboard_screen.dart:860
 msgid "Browse staff profiles"
 msgstr "Shfletoni profilet e stafit"
 
-#: lib/screens/attendance_menu_screen.dart:71
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Sipas grupit"
@@ -159,11 +159,11 @@ msgstr "Sipas grupit"
 msgid "By Date"
 msgstr "Sipas datës"
 
-#: lib/screens/dashboard_screen.dart:1260
+#: lib/screens/dashboard_screen.dart:1276
 msgid "By class"
 msgstr "Sipas grupit"
 
-#: lib/screens/dashboard_screen.dart:1269
+#: lib/screens/dashboard_screen.dart:1285
 msgid "By student"
 msgstr "Sipas nxënësit"
 
@@ -176,15 +176,15 @@ msgstr ""
 "kërkesë për përditësim të dhënash. Aplikacioni ju pyet më parë dhe mund të "
 "refuzoni."
 
-#: lib/screens/special_days_screen.dart:544
+#: lib/screens/special_days_screen.dart:552
 msgid "Cancel Bookings?"
 msgstr "Të anulohen rezervimet?"
 
-#: lib/screens/special_days_screen.dart:541
+#: lib/screens/special_days_screen.dart:549
 msgid "Cancel Classes?"
 msgstr "Të anulohen orët e mësimit?"
 
-#: lib/screens/special_days_screen.dart:543
+#: lib/screens/special_days_screen.dart:551
 msgid "Cancel Staff Duty?"
 msgstr "Të anulohen kujdestaritë e stafit?"
 
@@ -196,7 +196,7 @@ msgstr "Anulo gjendjen e re shëndetësore"
 msgid "Cap"
 msgstr "Kap."
 
-#: lib/screens/data_personal_edit_screen.dart:418
+#: lib/screens/data_personal_edit_screen.dart:434
 msgid "Chinese or other character-based name"
 msgstr "Emri me shkronja kineze ose ideograme të tjera"
 
@@ -204,11 +204,11 @@ msgstr "Emri me shkronja kineze ose ideograme të tjera"
 msgid "Choose a class above"
 msgstr "Zgjidhni një grup më lart"
 
-#: lib/screens/attendance_menu_screen.dart:83
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Zgjidhni çdo klasë"
 
-#: lib/screens/attendance_menu_screen.dart:72
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Zgjidhni cilindo nga grupet tuaja"
 
@@ -216,7 +216,7 @@ msgstr "Zgjidhni cilindo nga grupet tuaja"
 msgid "Choose at least one student first"
 msgstr "Fillimisht zgjidhni të paktën një nxënës"
 
-#: lib/screens/attendance_menu_screen.dart:84
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Zgjidhni një nga klasat tuaja"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Lista e grupit"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Tani: {class}"
 
@@ -260,7 +260,7 @@ msgstr ""
 "një kolonë për të vendosur notat."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/course_detail_screen.dart:358
+#: lib/screens/course_detail_screen.dart:360
 msgid ""
 "Combined short name \"{name}\" is longer than 16 characters — this may cause"
 " display issues on the timetable and in dropdowns."
@@ -272,7 +272,7 @@ msgstr ""
 msgid "Combined short name exceeds 16 characters"
 msgstr "Emri i shkurtër i bashkuar ka më shumë se 16 karaktere"
 
-#: lib/screens/data_finance_edit_screen.dart:269
+#: lib/screens/data_finance_edit_screen.dart:272
 msgid "Comma-separated list of email addresses"
 msgstr "Adresa email të ndara me presje"
 
@@ -288,7 +288,7 @@ msgstr "Shkolla e lidhur"
 msgid "Connecting..."
 msgstr "Duke u lidhur..."
 
-#: lib/screens/family_detail_screen.dart:504
+#: lib/screens/family_detail_screen.dart:505
 msgid "Contact Info"
 msgstr "Kontaktet"
 
@@ -365,8 +365,8 @@ msgstr "Lënda nuk u ngarkua dot"
 msgid "Could not load courses"
 msgstr "Lëndët nuk u ngarkuan dot"
 
-#: lib/screens/attendance_screen.dart:123
-#: lib/screens/form_group_attendance_screen.dart:116
+#: lib/screens/attendance_screen.dart:120
+#: lib/screens/form_group_attendance_screen.dart:115
 msgid "Could not load data"
 msgstr "Të dhënat nuk u ngarkuan dot"
 
@@ -521,7 +521,7 @@ msgstr "Vitet shkollore nuk u ngarkuan dot"
 msgid "Could not load settings"
 msgstr "Cilësimet nuk u ngarkuan dot"
 
-#: lib/screens/special_days_screen.dart:401
+#: lib/screens/special_days_screen.dart:407
 msgid "Could not load special day"
 msgstr "Dita e veçantë nuk u ngarkua dot"
 
@@ -536,11 +536,11 @@ msgstr "Të dhënat e stafit nuk u ngarkuan dot"
 
 #: lib/screens/enter_marks_screen.dart:90
 #: lib/screens/enter_marks_screen.dart:97
-#: lib/screens/form_group_detail_screen.dart:89
+#: lib/screens/form_group_detail_screen.dart:90
 msgid "Could not load students"
 msgstr "Nxënësit nuk u ngarkuan dot"
 
-#: lib/screens/special_days_screen.dart:74 lib/screens/terms_screen.dart:39
+#: lib/screens/special_days_screen.dart:76 lib/screens/terms_screen.dart:39
 msgid "Could not load terms"
 msgstr "Semestrat nuk u ngarkuan dot"
 
@@ -582,14 +582,14 @@ msgstr "Nuk u hoq dot"
 msgid "Could not reset password"
 msgstr "Fjalëkalimi nuk u rivendos dot"
 
-#: lib/screens/attendance_screen.dart:139
+#: lib/screens/attendance_screen.dart:136
 #: lib/screens/course_class_roster_screen.dart:368
 #: lib/screens/course_class_roster_screen.dart:371
 msgid "Could not save"
 msgstr "Nuk u ruajt dot"
 
-#: lib/screens/attendance_screen.dart:152
-#: lib/screens/form_group_attendance_screen.dart:145
+#: lib/screens/attendance_screen.dart:149
+#: lib/screens/form_group_attendance_screen.dart:144
 msgid "Could not save attendance"
 msgstr "Frekuentimi nuk u ruajt dot"
 
@@ -651,7 +651,7 @@ msgstr "Krijo regjistrimin e lidhur të nxënësit"
 msgid "Current year"
 msgstr "Viti aktual"
 
-#: lib/screens/dashboard_screen.dart:401
+#: lib/screens/dashboard_screen.dart:423
 #: lib/widgets/dashboard_home_action.dart:18
 msgid "Dashboard"
 msgstr "Kreu"
@@ -676,7 +676,7 @@ msgstr "Fshi grupin"
 msgid "Delete Course"
 msgstr "Fshi lëndën"
 
-#: lib/screens/special_days_screen.dart:443
+#: lib/screens/special_days_screen.dart:449
 msgid "Delete Special Day"
 msgstr "Fshi ditën e veçantë"
 
@@ -712,7 +712,7 @@ msgstr "Afati"
 msgid "Due date and details are required."
 msgstr "Afati dhe përshkrimi janë të detyrueshëm."
 
-#: lib/screens/family_detail_screen.dart:543
+#: lib/screens/family_detail_screen.dart:544
 msgid "Editable"
 msgstr "I ndryshueshëm"
 
@@ -720,7 +720,7 @@ msgstr "I ndryshueshëm"
 msgid "Email: Must be unique"
 msgstr "Email: duhet të jetë unik"
 
-#: lib/screens/course_manage_list_screen.dart:321
+#: lib/screens/course_manage_list_screen.dart:324
 msgid "Enrolable Year Groups"
 msgstr "Nivelet ku mund të regjistrohet"
 
@@ -728,7 +728,7 @@ msgstr "Nivelet ku mund të regjistrohet"
 msgid "Enroll existing students into the active school year"
 msgstr "Regjistroni nxënësit ekzistues në vitin shkollor aktual"
 
-#: lib/screens/data_personal_edit_screen.dart:414
+#: lib/screens/data_personal_edit_screen.dart:430
 msgid "Family name as shown in ID documents"
 msgstr "Mbiemri si në dokumentin e identitetit"
 
@@ -745,7 +745,7 @@ msgstr "Filtro sipas nivelit"
 msgid "First Name *"
 msgstr "Emri *"
 
-#: lib/screens/data_personal_edit_screen.dart:415
+#: lib/screens/data_personal_edit_screen.dart:431
 msgid "First name as shown in ID documents"
 msgstr "Emri si në dokumentin e identitetit"
 
@@ -766,7 +766,7 @@ msgstr "Nga frekuentimi i një grupi"
 msgid "From the form group register"
 msgstr "Nga frekuentimi i klasës"
 
-#: lib/screens/data_personal_edit_screen.dart:417
+#: lib/screens/data_personal_edit_screen.dart:433
 msgid "Full name as shown in ID documents"
 msgstr "Emri i plotë si në dokumentin e identitetit"
 
@@ -790,13 +790,13 @@ msgstr ""
 msgid "Google Sign-In, only if your school uses it and you choose it"
 msgstr "Hyrja me Google, vetëm nëse shkolla juaj e përdor dhe ju e zgjidhni"
 
-#: lib/screens/dashboard_screen.dart:864
+#: lib/screens/dashboard_screen.dart:880
 #: lib/screens/student_grades_screen.dart:104
 #: lib/screens/student_profile_screen.dart:289
 msgid "Grades"
 msgstr "Notat"
 
-#: lib/screens/dashboard_screen.dart:1252
+#: lib/screens/dashboard_screen.dart:1268
 msgid "Grades, effort and comments for your classes"
 msgstr "Nota, përpjekje dhe komente për grupet tuaja"
 
@@ -901,19 +901,19 @@ msgstr "Butoni \"Hyr në orën online\" shfaqet në orar dhe në planifikues"
 msgid "Large photos"
 msgstr "Foto të mëdha"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days"
 msgstr "10 ditët e fundit të mësimit"
 
-#: lib/screens/class_detail_screen.dart:125
+#: lib/screens/class_detail_screen.dart:129
 msgid "Last 10 school days — per period"
 msgstr "10 ditët e fundit të mësimit — sipas orës"
 
-#: lib/screens/form_group_detail_screen.dart:130
+#: lib/screens/form_group_detail_screen.dart:133
 msgid "Last 20 school days"
 msgstr "20 ditët e fundit të mësimit"
 
-#: lib/screens/dashboard_screen.dart:1051
+#: lib/screens/dashboard_screen.dart:1067
 msgid "Last class of the day"
 msgstr "Ora e fundit e ditës"
 
@@ -943,7 +943,7 @@ msgstr "E dukshme nga {date}"
 msgid "Live since {date}"
 msgstr "E dukshme që nga {date}"
 
-#: lib/screens/dashboard_screen.dart:748
+#: lib/screens/dashboard_screen.dart:764
 #: lib/screens/log_behaviour_screen.dart:239
 msgid "Log Behaviour"
 msgstr "Shëno sjelljen"
@@ -952,7 +952,7 @@ msgstr "Shëno sjelljen"
 msgid "Logged in as"
 msgstr "Hyrë si"
 
-#: lib/screens/dashboard_screen.dart:823
+#: lib/screens/dashboard_screen.dart:839
 msgid "Manage users and school settings"
 msgstr "Menaxhoni përdoruesit dhe cilësimet e shkollës"
 
@@ -960,11 +960,11 @@ msgstr "Menaxhoni përdoruesit dhe cilësimet e shkollës"
 msgid "Mark all read"
 msgstr "Shëno të gjitha si të lexuara"
 
-#: lib/screens/student_homework_section.dart:316
+#: lib/screens/student_homework_section.dart:317
 msgid "Mark as complete"
 msgstr "Shëno si të kryer"
 
-#: lib/screens/class_detail_screen.dart:254
+#: lib/screens/class_detail_screen.dart:260
 msgid "Mark attendance for today"
 msgstr "Merrni frekuentimin për sot"
 
@@ -972,7 +972,7 @@ msgstr "Merrni frekuentimin për sot"
 msgid "Mark read"
 msgstr "Shëno si të lexuar"
 
-#: lib/screens/dashboard_screen.dart:760
+#: lib/screens/dashboard_screen.dart:776
 #: lib/screens/master_timetable_screen.dart:116
 msgid "Master Timetable"
 msgstr "Orari i përgjithshëm"
@@ -981,8 +981,8 @@ msgstr "Orari i përgjithshëm"
 msgid "Must be unique if set"
 msgstr "Nëse plotësohet, duhet të jetë unik"
 
-#: lib/screens/dashboard_screen.dart:1093
-#: lib/screens/dashboard_screen.dart:853
+#: lib/screens/dashboard_screen.dart:1109
+#: lib/screens/dashboard_screen.dart:869
 #: lib/screens/form_groups_screen.dart:49
 msgid "My Form Groups"
 msgstr "Klasat e mia"
@@ -997,8 +997,8 @@ msgid "Name and Short Name are required"
 msgstr "Emri dhe emri i shkurtër janë të detyrueshëm"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:61
-#: lib/screens/dashboard_screen.dart:730
+#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Ora e radhës: {class}"
 
@@ -1014,7 +1014,7 @@ msgstr "Pa fushë të nxëni"
 msgid "No activities on record"
 msgstr "Nuk ka aktivitete"
 
-#: lib/screens/family_detail_screen.dart:280
+#: lib/screens/family_detail_screen.dart:281
 msgid "No adults linked"
 msgstr "Nuk ka të rritur të lidhur"
 
@@ -1031,7 +1031,7 @@ msgstr ""
 msgid "No children found"
 msgstr "Nuk u gjetën fëmijë"
 
-#: lib/screens/family_detail_screen.dart:344
+#: lib/screens/family_detail_screen.dart:345
 msgid "No children linked"
 msgstr "Nuk ka fëmijë të lidhur"
 
@@ -1039,7 +1039,7 @@ msgstr "Nuk ka fëmijë të lidhur"
 msgid "No children linked to this account"
 msgstr "Asnjë fëmijë nuk është lidhur me këtë llogari"
 
-#: lib/screens/class_detail_screen.dart:202
+#: lib/screens/class_detail_screen.dart:206
 msgid "No class"
 msgstr "Nuk ka orë"
 
@@ -1057,7 +1057,7 @@ msgstr "Sot nuk ka orë në këtë sallë"
 msgid "No classes scheduled"
 msgstr "Nuk ka orë të planifikuara"
 
-#: lib/screens/dashboard_screen.dart:1021
+#: lib/screens/dashboard_screen.dart:1037
 msgid "No classes scheduled today"
 msgstr "Sot nuk ka orë të planifikuara"
 
@@ -1106,8 +1106,8 @@ msgstr "Nuk u gjet regjistrimi i familjes"
 msgid "No grades available"
 msgstr "Nuk ka nota"
 
-#: lib/screens/class_detail_screen.dart:131
-#: lib/screens/form_group_detail_screen.dart:136
+#: lib/screens/class_detail_screen.dart:135
+#: lib/screens/form_group_detail_screen.dart:139
 msgid "No history available"
 msgstr "Nuk ka historik"
 
@@ -1165,13 +1165,13 @@ msgstr "Nuk u gjet staf"
 msgid "No students enrolled this year"
 msgstr "Këtë vit nuk ka nxënës të regjistruar"
 
-#: lib/screens/form_group_detail_screen.dart:229
+#: lib/screens/form_group_detail_screen.dart:232
 #: lib/screens/student_search_screen.dart:338
 #: lib/screens/students_screen.dart:116
 msgid "No students found"
 msgstr "Nuk u gjetën nxënës"
 
-#: lib/screens/special_days_screen.dart:172
+#: lib/screens/special_days_screen.dart:178
 msgid "No terms found for this school year"
 msgstr "Nuk u gjetën semestra për këtë vit shkollor"
 
@@ -1183,7 +1183,7 @@ msgstr "Nuk u gjetën të dhëna orari"
 msgid "No timetable for this day"
 msgstr "Nuk ka orar për këtë ditë"
 
-#: lib/screens/dashboard_screen.dart:1015
+#: lib/screens/dashboard_screen.dart:1031
 msgid "No timetable for today"
 msgstr "Sot nuk ka orar"
 
@@ -1196,7 +1196,7 @@ msgstr "Nuk u gjetën përdorues"
 msgid "Non-reportable participants won't display in reports."
 msgstr "Pjesëmarrësit që nuk përfshihen në dëftesa nuk do të shfaqen në to."
 
-#: lib/screens/special_days_screen.dart:203
+#: lib/screens/special_days_screen.dart:209
 msgid "Non-school day"
 msgstr "Ditë pa mësim"
 
@@ -1237,7 +1237,7 @@ msgstr ""
 "Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të "
 "paracaktuara, jo frekuentim i ruajtur."
 
-#: lib/screens/attendance_menu_screen.dart:51
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Nuk është marrë ende sot"
 
@@ -1254,6 +1254,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Asgjë e planifikuar"
 
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1284,6 +1285,10 @@ msgstr "Përfshin vetëm nxënësit e paregjistruar në këtë vit shkollor."
 #: lib/screens/join_virtual_class_button.dart:210
 msgid "Opens at"
 msgstr "Hapet në"
+
+#: lib/screens/attendance_menu_screen.dart:194
+msgid "Other Registers"
+msgstr "Regjistra të tjerë"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1402,7 +1407,7 @@ msgstr "Emri i preferuar *"
 msgid "Primary Role *"
 msgstr "Roli kryesor *"
 
-#: lib/screens/family_detail_screen.dart:595
+#: lib/screens/family_detail_screen.dart:597
 msgid "Priority 1 contacts always receive all contact types."
 msgstr ""
 "Kontaktet me përparësi 1 marrin gjithmonë të gjitha llojet e njoftimeve."
@@ -1411,7 +1416,7 @@ msgstr ""
 msgid "Qualified"
 msgstr "I kualifikuar"
 
-#: lib/screens/dashboard_screen.dart:780
+#: lib/screens/dashboard_screen.dart:796
 msgid "Quick Access"
 msgstr "Qasje e shpejtë"
 
@@ -1423,8 +1428,8 @@ msgstr "Lexoni politikën e plotë të privatësisë"
 msgid "Receipt ID"
 msgstr "Numri i mandatit"
 
-#: lib/screens/class_detail_screen.dart:122
-#: lib/screens/form_group_detail_screen.dart:127
+#: lib/screens/class_detail_screen.dart:126
+#: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "Frekuentimi i fundit"
 
@@ -1433,7 +1438,7 @@ msgid "Recorded earlier today"
 msgstr "Regjistruar më herët sot"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/special_days_screen.dart:444
+#: lib/screens/special_days_screen.dart:450
 msgid "Remove \"{name}\" from the calendar?"
 msgstr "Të hiqet \"{name}\" nga kalendari?"
 
@@ -1538,7 +1543,7 @@ msgstr ""
 "Gibbon të shkollës suaj përmes një lidhjeje të enkriptuar (HTTPS). High "
 "Point Education nuk e merr, nuk e ruan dhe nuk e sheh këtë informacion."
 
-#: lib/screens/special_days_screen.dart:532
+#: lib/screens/special_days_screen.dart:540
 msgid ""
 "School Opens/Starts/Ends/Closes times aren't set here — finish those details"
 " on the website."
@@ -1546,7 +1551,7 @@ msgstr ""
 "Oraret e hapjes, fillimit, mbarimit dhe mbylljes së shkollës nuk caktohen "
 "këtu — plotësojini në faqen e internetit."
 
-#: lib/screens/dashboard_screen.dart:833
+#: lib/screens/dashboard_screen.dart:849
 msgid "Search and view student profiles"
 msgstr "Kërkoni dhe shikoni profilet e nxënësve"
 
@@ -1591,7 +1596,7 @@ msgid "Search rooms..."
 msgstr "Kërko salla..."
 
 #: lib/screens/enter_marks_screen.dart:197
-#: lib/screens/form_group_detail_screen.dart:208
+#: lib/screens/form_group_detail_screen.dart:211
 #: lib/screens/students_screen.dart:95
 msgid "Search students..."
 msgstr "Kërko nxënës..."
@@ -1636,7 +1641,7 @@ msgstr "Regjistrimi i stafit u krijua"
 msgid "Student *"
 msgstr "Nxënësi *"
 
-#: lib/screens/class_detail_screen.dart:223
+#: lib/screens/class_detail_screen.dart:227
 msgid "Student List"
 msgstr "Lista e nxënësve"
 
@@ -1678,28 +1683,29 @@ msgstr "U dërgua"
 msgid "Surname *"
 msgstr "Mbiemri *"
 
-#: lib/screens/dashboard_screen.dart:445
+#: lib/screens/dashboard_screen.dart:467
 #: lib/screens/parent_dashboard_screen.dart:234
 msgid "Switch Role"
 msgstr "Ndërro rolin"
 
-#: lib/screens/dashboard_screen.dart:451
+#: lib/screens/dashboard_screen.dart:473
 #: lib/screens/parent_dashboard_screen.dart:239
 #: lib/screens/school_year_picker_screen.dart:87
 msgid "Switch School Year"
 msgstr "Ndërro vitin shkollor"
 
-#: lib/screens/attendance_menu_screen.dart:62
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Merr frekuentimin për këtë grup"
 
-#: lib/screens/class_detail_screen.dart:194
-#: lib/screens/form_group_detail_screen.dart:166
+#: lib/screens/class_detail_screen.dart:198
+#: lib/screens/form_group_detail_screen.dart:169
+#: lib/screens/register_calendar.dart:230
 msgid "Taken"
 msgstr "U mor"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1114
+#: lib/screens/dashboard_screen.dart:1130
 msgid "Taken at {time}"
 msgstr "U mor në {time}"
 
@@ -1709,7 +1715,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Marrë në {time} nga {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:50
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
 
@@ -1735,7 +1741,7 @@ msgstr ""
 msgid "The mark works out to {grade}"
 msgstr "Kjo del {grade}"
 
-#: lib/screens/family_detail_screen.dart:577
+#: lib/screens/family_detail_screen.dart:579
 msgid "The order in which the school should contact family members."
 msgstr "Rendi në të cilin shkolla duhet të kontaktojë anëtarët e familjes."
 
@@ -1748,7 +1754,7 @@ msgstr "Llogaria e tij/saj e përdoruesit nuk preket."
 msgid "There are no messages to display."
 msgstr "Nuk ka mesazhe."
 
-#: lib/screens/special_days_screen.dart:540
+#: lib/screens/special_days_screen.dart:548
 msgid "This affects the timetable:"
 msgstr "Kjo ndikon në orar:"
 
@@ -1769,7 +1775,7 @@ msgid "This cannot be undone."
 msgstr "Nuk mund të zhbëhet."
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:242
+#: lib/screens/attendance_screen.dart:239
 msgid ""
 "This class is not scheduled on {date}. You can still save attendance if "
 "needed."
@@ -1807,21 +1813,21 @@ msgstr ""
 "Kjo heq të gjitha të dhënat e regjistrimit dhe të orarit për këtë grup. Nuk "
 "mund të zhbëhet."
 
-#: lib/screens/dashboard_screen.dart:769
+#: lib/screens/dashboard_screen.dart:785
 #: lib/screens/facility_list_screen.dart:118
 msgid "Timetable by Facility"
 msgstr "Orari sipas sallës"
 
-#: lib/screens/dashboard_screen.dart:974
+#: lib/screens/dashboard_screen.dart:990
 msgid "Today's Timetable"
 msgstr "Orari i sotëm"
 
-#: lib/screens/dashboard_screen.dart:553
+#: lib/screens/dashboard_screen.dart:575
 msgid "Trial access"
 msgstr "Qasje provë"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:552
+#: lib/screens/dashboard_screen.dart:574
 msgid "Trial — {count} day left"
 msgid_plural "Trial — {count} days left"
 msgstr[0] "Provë — mbetet {count} ditë"
@@ -1840,7 +1846,7 @@ msgstr "Mësuesi kujdestar 2"
 msgid "Type *"
 msgstr "Lloji *"
 
-#: lib/screens/special_days_screen.dart:407
+#: lib/screens/special_days_screen.dart:413
 msgid "Type and Name are required"
 msgstr "Lloji dhe emri janë të detyrueshëm"
 
@@ -1848,7 +1854,7 @@ msgstr "Lloji dhe emri janë të detyrueshëm"
 msgid "Type at least 2 characters"
 msgstr "Shkruani të paktën 2 karaktere"
 
-#: lib/screens/data_personal_edit_screen.dart:294
+#: lib/screens/data_personal_edit_screen.dart:310
 msgid "Type, country code, number"
 msgstr "Lloji, kodi i shtetit, numri"
 
@@ -1936,7 +1942,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "Shiko frekuentimin"
 
-#: lib/screens/dashboard_screen.dart:993
+#: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
 msgid "View Full Timetable"
 msgstr "Shiko orarin e plotë"
@@ -1953,11 +1959,11 @@ msgstr "Shiko kalendarin e detyrave"
 msgid "View Timetable"
 msgstr "Shiko orarin"
 
-#: lib/screens/dashboard_screen.dart:855
+#: lib/screens/dashboard_screen.dart:871
 msgid "View and manage Form Groups"
 msgstr "Shikoni dhe menaxhoni klasat"
 
-#: lib/screens/class_detail_screen.dart:240
+#: lib/screens/class_detail_screen.dart:244
 msgid "View class grades"
 msgstr "Shiko notat e grupit"
 
@@ -1965,7 +1971,7 @@ msgstr "Shiko notat e grupit"
 msgid "View families, contacts, and children"
 msgstr "Shikoni familjet, kontaktet dhe fëmijët"
 
-#: lib/screens/class_detail_screen.dart:269
+#: lib/screens/class_detail_screen.dart:277
 msgid "View lesson plans for this class"
 msgstr "Shiko planet e mësimit për këtë grup"
 
@@ -1973,15 +1979,15 @@ msgstr "Shiko planet e mësimit për këtë grup"
 msgid "View photo"
 msgstr "Shiko foton"
 
-#: lib/screens/class_detail_screen.dart:224
+#: lib/screens/class_detail_screen.dart:228
 msgid "View students in this class"
 msgstr "Shiko nxënësit e këtij grupi"
 
-#: lib/screens/dashboard_screen.dart:866
+#: lib/screens/dashboard_screen.dart:882
 msgid "View your grades"
 msgstr "Shikoni notat tuaja"
 
-#: lib/screens/dashboard_screen.dart:884
+#: lib/screens/dashboard_screen.dart:900
 msgid "View your report cards"
 msgstr "Shikoni dëftesat tuaja"
 
@@ -1995,7 +2001,7 @@ msgid "Virtual Classroom"
 msgstr "Klasa virtuale"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:500
+#: lib/screens/dashboard_screen.dart:522
 msgid "Welcome, {name}!"
 msgstr "Mirë se vini, {name}!"
 
@@ -2012,7 +2018,7 @@ msgstr "Çfarë ruan aplikacioni në këtë pajisje"
 msgid "Year Group *"
 msgstr "Niveli *"
 
-#: lib/screens/special_days_screen.dart:531
+#: lib/screens/special_days_screen.dart:539
 msgid ""
 "Year Group / Form Group targeting isn't set here — this will apply broadly "
 "until finished on the website."
@@ -2051,8 +2057,8 @@ msgstr ""
 " të shfaqen në sistem vetëm pasi të përpunohet."
 
 #: lib/screens/data_finance_edit_screen.dart:197
-#: lib/screens/data_medical_edit_screen.dart:353
-#: lib/screens/data_personal_edit_screen.dart:404
+#: lib/screens/data_medical_edit_screen.dart:354
+#: lib/screens/data_personal_edit_screen.dart:420
 msgid ""
 "You have already submitted a request, which is awaiting review by an "
 "administrator. You can still make changes below."
@@ -2106,11 +2112,11 @@ msgstr "një aplikacion për Gibbon™"
 
 #: lib/screens/log_behaviour_screen.dart:342
 #: lib/screens/log_behaviour_screen.dart:359
-#: lib/screens/log_behaviour_screen.dart:375
+#: lib/screens/log_behaviour_screen.dart:376
 msgid "optional"
 msgstr "opsionale"
 
-#: lib/screens/user_edit_screen.dart:858
+#: lib/screens/user_edit_screen.dart:861
 msgid "primary"
 msgstr "kryesor"
 
@@ -2125,7 +2131,7 @@ msgid "{absent} absent of {total} sessions recorded"
 msgstr "{absent} mungesa nga {total} orë të regjistruara"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1115
+#: lib/screens/dashboard_screen.dart:1131
 msgid "{count} absent"
 msgid_plural "{count} absent"
 msgstr[0] "{count} mungon"
@@ -2155,14 +2161,14 @@ msgstr[0] "{count} grup"
 msgstr[1] "{count} grupe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1053
+#: lib/screens/dashboard_screen.dart:1069
 msgid "{count} class remaining · {done} done"
 msgid_plural "{count} classes remaining · {done} done"
 msgstr[0] "Mbetet {count} orë · përfunduan {done}"
 msgstr[1] "Mbeten {count} orë · përfunduan {done}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1055
+#: lib/screens/dashboard_screen.dart:1071
 msgid "{count} class today"
 msgid_plural "{count} classes today"
 msgstr[0] "{count} orë sot"
@@ -2213,14 +2219,14 @@ msgstr[0] "{count} element"
 msgstr[1] "{count} elemente"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1116
+#: lib/screens/dashboard_screen.dart:1132
 msgid "{count} late"
 msgid_plural "{count} late"
 msgstr[0] "{count} me vonesë"
 msgstr[1] "{count} me vonesë"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/dashboard_screen.dart:1049
+#: lib/screens/dashboard_screen.dart:1065
 msgid "{count} more class after this · {total} today"
 msgid_plural "{count} more classes after this · {total} today"
 msgstr[0] "Edhe {count} orë pas kësaj · gjithsej sot {total}"
@@ -2276,7 +2282,7 @@ msgstr[0] "{count} punonjës"
 msgstr[1] "{count} punonjës"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_screen.dart:222
+#: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
 #: lib/screens/courses_screen.dart:195
 msgid "{count} student"

@@ -642,7 +642,8 @@ T = {'A punctuation mark or space': 'Bir noktalama işareti veya boşluk',
  'Recorded earlier today': 'Bugün daha önce girildi',
  'Taken at {time} by {name}': 'Yoklama {time} saatinde {name} tarafından alındı',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Bu tarih için henüz yoklama alınmadı. Bunlar varsayılan değerler, kaydedilmiş yoklama değil.',
- "None of the attendance codes are available to your role, so you can't take this register.": 'Yoklama kodlarının hiçbiri rolünüz için kullanılabilir değil, bu nedenle bu yoklamayı alamazsınız.'}
+ "None of the attendance codes are available to your role, so you can't take this register.": 'Yoklama kodlarının hiçbiri rolünüz için kullanılabilir değil, bu nedenle bu yoklamayı alamazsınız.',
+ 'Other Registers': 'Diğer yoklamalar'}
 
 P = {'At least {count} character': ('En az {count} karakter', 'En az {count} karakter'),
  'Behaviour records saved for {count} student!': ('{count} öğrenci için davranış kaydı kaydedildi!', '{count} öğrenci için davranış kayıtları kaydedildi!'),
