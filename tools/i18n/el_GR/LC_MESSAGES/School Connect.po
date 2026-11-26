@@ -150,7 +150,7 @@ msgstr[1] "Οι καταγραφές συμπεριφοράς αποθηκεύτ
 msgid "Browse staff profiles"
 msgstr "Περιήγηση στα προφίλ του προσωπικού"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Ανά ομάδα μαθήματος"
@@ -204,11 +204,11 @@ msgstr "Όνομα με κινεζικά ή άλλα ιδεογράμματα"
 msgid "Choose a class above"
 msgstr "Επιλέξτε ομάδα μαθήματος παραπάνω"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Επιλέξτε οποιοδήποτε τμήμα"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μαθήματός σας"
 
@@ -216,7 +216,7 @@ msgstr "Επιλέξτε οποιαδήποτε από τις ομάδες μα�
 msgid "Choose at least one student first"
 msgstr "Επιλέξτε πρώτα τουλάχιστον έναν μαθητή"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Επιλέξτε ένα από τα τμήματά σας"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Κατάλογος μαθητών"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Τώρα: {class}"
 
@@ -1001,7 +1001,7 @@ msgid "Name and Short Name are required"
 msgstr "Το όνομα και το σύντομο όνομα είναι υποχρεωτικά"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Επόμενο: {class}"
@@ -1243,7 +1243,7 @@ msgstr ""
 "Δεν έχουν ληφθεί ακόμη παρουσίες για αυτή την ημερομηνία. Αυτές είναι "
 "προεπιλογές, όχι αποθηκευμένες παρουσίες."
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Δεν έχουν ληφθεί ακόμη σήμερα"
 
@@ -1259,7 +1259,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Τίποτα προγραμματισμένο"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1294,7 +1294,7 @@ msgstr ""
 msgid "Opens at"
 msgstr "Ανοίγει στις"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "Άλλα παρουσιολόγια"
 
@@ -1705,7 +1705,7 @@ msgstr "Αλλαγή ρόλου"
 msgid "Switch School Year"
 msgstr "Αλλαγή σχολικού έτους"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Λήψη παρουσιών για αυτή την ομάδα μαθήματος"
 
@@ -1726,7 +1726,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Καταχωρίστηκε στις {time} από {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Ελήφθησαν σήμερα στις {time}. Πατήστε για έλεγχο ή αλλαγή"
 

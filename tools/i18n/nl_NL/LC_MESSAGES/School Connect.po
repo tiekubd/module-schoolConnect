@@ -150,7 +150,7 @@ msgstr[1] "Gedragsnotities opgeslagen voor {count} leerlingen!"
 msgid "Browse staff profiles"
 msgstr "Profielen van personeel bekijken"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Per lesgroep"
@@ -203,11 +203,11 @@ msgstr "Naam in Chinees of een ander tekenschrift"
 msgid "Choose a class above"
 msgstr "Kies hierboven een lesgroep"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Kies een klas"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Kies een van je lesgroepen"
 
@@ -215,7 +215,7 @@ msgstr "Kies een van je lesgroepen"
 msgid "Choose at least one student first"
 msgstr "Kies eerst minstens één leerling"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Kies een van je klassen"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Leerlingenlijst van lesgroep"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Nu: {class}"
 
@@ -996,7 +996,7 @@ msgid "Name and Short Name are required"
 msgstr "Naam en korte naam zijn verplicht"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Volgende les: {class}"
@@ -1236,7 +1236,7 @@ msgstr ""
 "Voor deze datum nog niet geregistreerd. Dit zijn standaardwaarden, geen "
 "opgeslagen aanwezigheid."
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Vandaag nog niet geregistreerd"
 
@@ -1253,7 +1253,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Niets gepland"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1284,7 +1284,7 @@ msgstr "Alleen leerlingen die niet in dit schooljaar zijn ingeschreven."
 msgid "Opens at"
 msgstr "Opent om"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "Andere registers"
 
@@ -1688,7 +1688,7 @@ msgstr "Van rol wisselen"
 msgid "Switch School Year"
 msgstr "Van schooljaar wisselen"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Aanwezigheid voor deze lesgroep registreren"
 
@@ -1709,7 +1709,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Geregistreerd om {time} door {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Vandaag geregistreerd om {time}. Tik om te bekijken of te wijzigen"
 

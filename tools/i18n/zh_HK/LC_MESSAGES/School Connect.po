@@ -143,7 +143,7 @@ msgstr[0] "已為 {count} 名學生儲存行為紀錄！"
 msgid "Browse staff profiles"
 msgstr "瀏覽教職員檔案"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "按科目班"
@@ -194,11 +194,11 @@ msgstr "中文或其他文字的姓名"
 msgid "Choose a class above"
 msgstr "請在上方選擇科目班"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "選擇任何班別"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "選擇你的任何科目班"
 
@@ -206,7 +206,7 @@ msgstr "選擇你的任何科目班"
 msgid "Choose at least one student first"
 msgstr "請先選擇最少一名學生"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "選擇你的其中一個班別"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "科目班名單"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "現正上課：{class}"
 
@@ -835,7 +835,7 @@ msgid ""
 "server."
 msgstr "以其他用戶身分登入需要學校伺服器安裝 School Connect 模組 1.16.09 或以上版本。"
 
-#: lib/screens/attendance_menu_screen.dart:299
+#: lib/screens/attendance_menu_screen.dart:314
 msgid "In"
 msgstr "出席"
 
@@ -966,7 +966,7 @@ msgid "Name and Short Name are required"
 msgstr "必須填寫名稱及簡稱"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "下一節課：{class}"
@@ -1199,7 +1199,7 @@ msgid ""
 "attendance."
 msgstr "該日期尚未點名。以下為預設值，並非已儲存的出席紀錄。"
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "今天尚未點名"
 
@@ -1213,7 +1213,7 @@ msgstr "此處尚未支援 — 在這裡報名不會自動加入課程。如學�
 msgid "Nothing scheduled"
 msgstr "沒有編排"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1241,7 +1241,7 @@ msgstr "只包括本學年尚未報名的學生。"
 msgid "Opens at"
 msgstr "開放時間"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "其他點名"
 
@@ -1253,7 +1253,7 @@ msgstr "其他科目班"
 msgid "Other services you may see"
 msgstr "你可能看到的其他服務"
 
-#: lib/screens/attendance_menu_screen.dart:302
+#: lib/screens/attendance_menu_screen.dart:315
 msgid "Out"
 msgstr "缺席"
 
@@ -1383,6 +1383,10 @@ msgstr "收據編號"
 #: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "最近出席"
+
+#: lib/screens/attendance_menu_screen.dart:323
+msgid "Recent History"
+msgstr "最近紀錄"
 
 #: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
@@ -1631,7 +1635,7 @@ msgstr "切換角色"
 msgid "Switch School Year"
 msgstr "切換學年"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "為此科目班點名"
 
@@ -1652,7 +1656,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{name} 於 {time} 點名"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "今天 {time} 已點名。按此查看或修改"
 
@@ -1857,7 +1861,7 @@ msgstr "視像課堂：網上課堂使用學校選擇的視像服務（預設為
 msgid "View Attendance"
 msgstr "查看出席"
 
-#: lib/screens/attendance_menu_screen.dart:225
+#: lib/screens/attendance_menu_screen.dart:226
 msgid "View Daily Attendance"
 msgstr "查看每日出席"
 

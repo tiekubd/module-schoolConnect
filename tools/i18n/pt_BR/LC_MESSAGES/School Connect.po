@@ -150,7 +150,7 @@ msgstr[1] "Registros de comportamento salvos para {count} alunos!"
 msgid "Browse staff profiles"
 msgstr "Ver perfis dos funcionários"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Por Classe"
@@ -203,11 +203,11 @@ msgstr "Nome em chinês ou outra escrita por caracteres"
 msgid "Choose a class above"
 msgstr "Escolha uma classe acima"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Escolher qualquer turma"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Escolher uma de suas classes"
 
@@ -215,7 +215,7 @@ msgstr "Escolher uma de suas classes"
 msgid "Choose at least one student first"
 msgstr "Escolha pelo menos um aluno primeiro"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Escolher uma de suas turmas"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Lista da Classe"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Aula agora: {class}"
 
@@ -995,7 +995,7 @@ msgid "Name and Short Name are required"
 msgstr "O nome e o nome curto são obrigatórios"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Próxima aula: {class}"
@@ -1234,7 +1234,7 @@ msgstr ""
 "A chamada desta data ainda não foi feita. Estes são valores padrão, não "
 "frequência salva."
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Ainda não feita hoje"
 
@@ -1251,7 +1251,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nada programado"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1284,7 +1284,7 @@ msgstr "Inclui apenas alunos não matriculados neste ano letivo."
 msgid "Opens at"
 msgstr "Abre às"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "Outras chamadas"
 
@@ -1693,7 +1693,7 @@ msgstr "Alternar Perfil"
 msgid "Switch School Year"
 msgstr "Trocar Ano Letivo"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Fazer a chamada desta classe"
 
@@ -1714,7 +1714,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Chamada feita às {time} por {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Feita hoje às {time}. Toque para revisar ou alterar"
 

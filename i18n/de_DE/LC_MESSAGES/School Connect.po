@@ -150,7 +150,7 @@ msgstr[1] "Verhaltenseinträge für {count} Schüler/innen gespeichert!"
 msgid "Browse staff profiles"
 msgstr "Profile der Mitarbeiter/innen durchsuchen"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Nach Lerngruppe"
@@ -203,11 +203,11 @@ msgstr "Name in chinesischen oder anderen Schriftzeichen"
 msgid "Choose a class above"
 msgstr "Wählen Sie oben eine Lerngruppe"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Beliebige Klasse wählen"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Eine Ihrer Lerngruppen wählen"
 
@@ -215,7 +215,7 @@ msgstr "Eine Ihrer Lerngruppen wählen"
 msgid "Choose at least one student first"
 msgstr "Wählen Sie zuerst mindestens eine/n Schüler/in"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Eine Ihrer Klassen wählen"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "Lerngruppenliste"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Jetzt: {class}"
 
@@ -999,7 +999,7 @@ msgid "Name and Short Name are required"
 msgstr "Name und Kurzname sind erforderlich"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Als Nächstes: {class}"
@@ -1240,7 +1240,7 @@ msgstr ""
 "Für dieses Datum noch nicht erfasst. Das sind Voreinstellungen, keine "
 "gespeicherte Anwesenheit."
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Heute noch nicht erfasst"
 
@@ -1257,7 +1257,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Nichts geplant"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1292,7 +1292,7 @@ msgstr ""
 msgid "Opens at"
 msgstr "Öffnet um"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "Weitere Anwesenheitslisten"
 
@@ -1697,7 +1697,7 @@ msgstr "Rolle wechseln"
 msgid "Switch School Year"
 msgstr "Schuljahr wechseln"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Anwesenheit für diese Lerngruppe erfassen"
 
@@ -1718,7 +1718,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Erfasst um {time} von {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "Heute um {time} erfasst. Zum Prüfen oder Ändern tippen"
 

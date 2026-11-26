@@ -147,7 +147,7 @@ msgstr[0] "บันทึกพฤติกรรมของนักเรี
 msgid "Browse staff profiles"
 msgstr "ดูโปรไฟล์บุคลากร"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "ตามกลุ่มเรียน"
@@ -200,11 +200,11 @@ msgstr "ชื่อภาษาจีนหรือชื่อที่เข
 msgid "Choose a class above"
 msgstr "เลือกกลุ่มเรียนด้านบน"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "เลือกห้องประจำชั้นใดก็ได้"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "เลือกกลุ่มเรียนใดก็ได้ของคุณ"
 
@@ -212,7 +212,7 @@ msgstr "เลือกกลุ่มเรียนใดก็ได้ขอ
 msgid "Choose at least one student first"
 msgstr "เลือกนักเรียนอย่างน้อยหนึ่งคนก่อน"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "เลือกห้องประจำชั้นของคุณ"
 
@@ -229,7 +229,7 @@ msgid "Class Roster"
 msgstr "รายชื่อนักเรียน"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "ตอนนี้: {class}"
 
@@ -982,7 +982,7 @@ msgid "Name and Short Name are required"
 msgstr "ต้องระบุชื่อและชื่อย่อ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "คาบถัดไป: {class}"
@@ -1219,7 +1219,7 @@ msgstr ""
 "ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น "
 "ไม่ใช่การมาเรียนที่บันทึกแล้ว"
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "วันนี้ยังไม่ได้เช็คชื่อ"
 
@@ -1235,7 +1235,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "ไม่มีกำหนดการ"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1266,7 +1266,7 @@ msgstr "แสดงเฉพาะนักเรียนที่ยังไ
 msgid "Opens at"
 msgstr "เปิดเวลา"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "การเช็คชื่ออื่นๆ"
 
@@ -1666,7 +1666,7 @@ msgstr "สลับบทบาท"
 msgid "Switch School Year"
 msgstr "สลับปีการศึกษา"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "เช็คชื่อกลุ่มเรียนนี้"
 
@@ -1687,7 +1687,7 @@ msgid "Taken at {time} by {name}"
 msgstr "เช็คชื่อเวลา {time} โดย {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "เช็คชื่อวันนี้เมื่อ {time} แตะเพื่อดูหรือแก้ไข"
 

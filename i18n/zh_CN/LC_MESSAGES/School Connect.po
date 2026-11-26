@@ -143,7 +143,7 @@ msgstr[0] "已为 {count} 名学生保存表现记录！"
 msgid "Browse staff profiles"
 msgstr "浏览教职工档案"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "按教学班"
@@ -194,11 +194,11 @@ msgstr "中文或其他文字的姓名"
 msgid "Choose a class above"
 msgstr "请在上方选择教学班"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "选择任何班级"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "选择您的任何教学班"
 
@@ -206,7 +206,7 @@ msgstr "选择您的任何教学班"
 msgid "Choose at least one student first"
 msgstr "请先选择至少一名学生"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "选择您的其中一个班级"
 
@@ -223,7 +223,7 @@ msgid "Class Roster"
 msgstr "教学班名单"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "当前课程：{class}"
 
@@ -962,7 +962,7 @@ msgid "Name and Short Name are required"
 msgstr "必须填写名称和简称"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "下一节课：{class}"
@@ -1195,7 +1195,7 @@ msgid ""
 "attendance."
 msgstr "该日期尚未记录考勤。以下为默认值，并非已保存的考勤。"
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "今天尚未考勤"
 
@@ -1209,7 +1209,7 @@ msgstr "此处尚未支持 — 在这里注册不会自动加入课程。如学�
 msgid "Nothing scheduled"
 msgstr "没有安排"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1237,7 +1237,7 @@ msgstr "只包括本学年尚未注册的学生。"
 msgid "Opens at"
 msgstr "开放时间"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "其他考勤"
 
@@ -1623,7 +1623,7 @@ msgstr "切换角色"
 msgid "Switch School Year"
 msgstr "切换学年"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "记录此教学班的考勤"
 
@@ -1644,7 +1644,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{name} 于 {time} 记录"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "今天 {time} 已考勤。点击查看或修改"
 

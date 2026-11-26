@@ -150,7 +150,7 @@ msgstr[1] "{count} طلبہ کے لیے رویے کا ریکارڈ محفوظ ہ
 msgid "Browse staff profiles"
 msgstr "عملے کے پروفائل دیکھیں"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "کلاس کے لحاظ سے"
@@ -203,11 +203,11 @@ msgstr "چینی یا کسی دوسرے رسم الخط میں نام"
 msgid "Choose a class above"
 msgstr "اوپر سے کلاس منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "کوئی بھی سیکشن منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "اپنی کوئی بھی کلاس منتخب کریں"
 
@@ -215,7 +215,7 @@ msgstr "اپنی کوئی بھی کلاس منتخب کریں"
 msgid "Choose at least one student first"
 msgstr "پہلے کم از کم ایک طالب علم منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "اپنے سیکشنز میں سے ایک منتخب کریں"
 
@@ -232,7 +232,7 @@ msgid "Class Roster"
 msgstr "کلاس کی فہرست"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "ابھی: {class}"
 
@@ -865,7 +865,7 @@ msgstr ""
 "دوسرے صارف کے طور پر دیکھنے کے لیے اسکول کے سرور پر School Connect ماڈیول "
 "1.16.09 یا نیا ورژن ضروری ہے۔"
 
-#: lib/screens/attendance_menu_screen.dart:299
+#: lib/screens/attendance_menu_screen.dart:314
 msgid "In"
 msgstr "حاضر"
 
@@ -998,7 +998,7 @@ msgid "Name and Short Name are required"
 msgstr "نام اور مختصر نام ضروری ہیں"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "اگلی کلاس: {class}"
@@ -1236,7 +1236,7 @@ msgid ""
 msgstr ""
 "اس تاریخ کی حاضری ابھی نہیں لگی۔ یہ طے شدہ اندراجات ہیں، محفوظ حاضری نہیں۔"
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "آج ابھی نہیں لگی"
 
@@ -1253,7 +1253,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "کچھ طے نہیں"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1284,7 +1284,7 @@ msgstr "صرف وہ طلبہ شامل ہیں جو اس تعلیمی سال می�
 msgid "Opens at"
 msgstr "کھلنے کا وقت"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "دیگر رجسٹر"
 
@@ -1296,7 +1296,7 @@ msgstr "دیگر کلاسیں"
 msgid "Other services you may see"
 msgstr "دیگر سروسز جو آپ کو نظر آ سکتی ہیں"
 
-#: lib/screens/attendance_menu_screen.dart:302
+#: lib/screens/attendance_menu_screen.dart:315
 msgid "Out"
 msgstr "غیر حاضر"
 
@@ -1430,6 +1430,10 @@ msgstr "رسید نمبر"
 #: lib/screens/form_group_detail_screen.dart:130
 msgid "Recent Attendance"
 msgstr "حالیہ حاضری"
+
+#: lib/screens/attendance_menu_screen.dart:323
+msgid "Recent History"
+msgstr "حالیہ تاریخچہ"
 
 #: lib/screens/attendance_status.dart:70
 msgid "Recorded earlier today"
@@ -1690,7 +1694,7 @@ msgstr "رول تبدیل کریں"
 msgid "Switch School Year"
 msgstr "تعلیمی سال تبدیل کریں"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "اس کلاس کی حاضری لگائیں"
 
@@ -1711,7 +1715,7 @@ msgid "Taken at {time} by {name}"
 msgstr "حاضری {time} بجے {name} نے لگائی"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "آج {time} پر لگی۔ دیکھنے یا تبدیل کرنے کے لیے ٹیپ کریں"
 
@@ -1931,7 +1935,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "حاضری دیکھیں"
 
-#: lib/screens/attendance_menu_screen.dart:225
+#: lib/screens/attendance_menu_screen.dart:226
 msgid "View Daily Attendance"
 msgstr "روزانہ حاضری دیکھیں"
 

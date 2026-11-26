@@ -150,7 +150,7 @@ msgstr[1] "Shënimet e sjelljes u ruajtën për {count} nxënës!"
 msgid "Browse staff profiles"
 msgstr "Shfletoni profilet e stafit"
 
-#: lib/screens/attendance_menu_screen.dart:112
+#: lib/screens/attendance_menu_screen.dart:113
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "Sipas grupit"
@@ -204,11 +204,11 @@ msgstr "Emri me shkronja kineze ose ideograme të tjera"
 msgid "Choose a class above"
 msgstr "Zgjidhni një grup më lart"
 
-#: lib/screens/attendance_menu_screen.dart:122
+#: lib/screens/attendance_menu_screen.dart:123
 msgid "Choose any Form Group"
 msgstr "Zgjidhni çdo klasë"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 msgid "Choose any of your classes"
 msgstr "Zgjidhni cilindo nga grupet tuaja"
 
@@ -216,7 +216,7 @@ msgstr "Zgjidhni cilindo nga grupet tuaja"
 msgid "Choose at least one student first"
 msgstr "Fillimisht zgjidhni të paktën një nxënës"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose one of your Form Groups"
 msgstr "Zgjidhni një nga klasat tuaja"
 
@@ -233,7 +233,7 @@ msgid "Class Roster"
 msgstr "Lista e grupit"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:149
+#: lib/screens/attendance_menu_screen.dart:150
 msgid "Class now: {class}"
 msgstr "Tani: {class}"
 
@@ -997,7 +997,7 @@ msgid "Name and Short Name are required"
 msgstr "Emri dhe emri i shkurtër janë të detyrueshëm"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "Ora e radhës: {class}"
@@ -1237,7 +1237,7 @@ msgstr ""
 "Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të "
 "paracaktuara, jo frekuentim i ruajtur."
 
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Not taken yet today"
 msgstr "Nuk është marrë ende sot"
 
@@ -1254,7 +1254,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "Asgjë e planifikuar"
 
-#: lib/screens/attendance_menu_screen.dart:162
+#: lib/screens/attendance_menu_screen.dart:163
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1286,7 +1286,7 @@ msgstr "Përfshin vetëm nxënësit e paregjistruar në këtë vit shkollor."
 msgid "Opens at"
 msgstr "Hapet në"
 
-#: lib/screens/attendance_menu_screen.dart:193
+#: lib/screens/attendance_menu_screen.dart:194
 msgid "Other Registers"
 msgstr "Regjistra të tjerë"
 
@@ -1694,7 +1694,7 @@ msgstr "Ndërro rolin"
 msgid "Switch School Year"
 msgstr "Ndërro vitin shkollor"
 
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 msgid "Take attendance for this class"
 msgstr "Merr frekuentimin për këtë grup"
 
@@ -1715,7 +1715,7 @@ msgid "Taken at {time} by {name}"
 msgstr "Marrë në {time} nga {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:140
+#: lib/screens/attendance_menu_screen.dart:141
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "U mor sot në {time}. Prekni për ta parë ose ndryshuar"
 
