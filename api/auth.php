@@ -60,6 +60,18 @@ function gibbonConnectNow(): string {
  *   3. $_SERVER['REDIRECT_HTTP_AUTHORIZATION'] (Apache after an internal redirect)
  *   4. X-School-Connect-Token
  */
+/**
+ * Gibbon's System Settings → First Day Of The Week: 'Monday', 'Sunday' or
+ * 'Saturday', as Gibbon's own calendars use it. Monday if unset or unknown
+ * (what the app always used before module 1.16.21).
+ */
+function gibbonConnectFirstDayOfWeek(PDO $pdo): string {
+    $stmt = $pdo->prepare("SELECT value FROM gibbonSetting WHERE scope = 'System' AND name = 'firstDayOfTheWeek'");
+    $stmt->execute();
+    $v = (string) $stmt->fetchColumn();
+    return in_array($v, ['Monday', 'Sunday', 'Saturday'], true) ? $v : 'Monday';
+}
+
 function gibbonConnectBearerToken(): string {
     $headers = function_exists('getallheaders') ? getallheaders() : [];
     $headers = is_array($headers) ? array_change_key_case($headers, CASE_LOWER) : [];

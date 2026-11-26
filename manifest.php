@@ -240,7 +240,9 @@ $version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec
                           // classes: timetabled days). For app 1.16.22's
                           // coloured date picker and Attendance menu strips.
                           // "Recent History" added in Romanian, Urdu and Hong
-                          // Kong Chinese, where Gibbon has none. No schema
+                          // Kong Chinese, where Gibbon has none. The calendar
+                          // and Special Days send Gibbon's First Day Of The Week,
+                          // and Special Days weeks now start on it. No schema
                           // change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

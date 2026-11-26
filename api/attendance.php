@@ -325,6 +325,7 @@ try {
     //   registers: [{type: 'formGroup'|'class', id}]   (at most 20)
     //   either start + end (YYYY-MM-DD, at most 62 days apart)
     //   or     lastSchoolDays: N (at most 20), until: YYYY-MM-DD (default today)
+    // Also sends firstDayOfTheWeek (Gibbon's System Settings), for the picker.
     // Only registers this person may take are answered (others are left
     // out). Statuses: see gibbonConnectRegisterCalendar().
     if ($action === 'calendar') {
@@ -356,7 +357,8 @@ try {
             $result[] = ['type' => $type, 'id' => (string) $id,
                 'days' => gibbonConnectRegisterCalendar($pdo, $yearID, $type === 'class' ? 'class' : 'formGroup', $id, $dates)];
         }
-        echo json_encode(['success' => true, 'dates' => $dates, 'registers' => $result]);
+        echo json_encode(['success' => true, 'dates' => $dates, 'registers' => $result,
+            'firstDayOfTheWeek' => gibbonConnectFirstDayOfWeek($pdo)]);
         exit;
     }
 
