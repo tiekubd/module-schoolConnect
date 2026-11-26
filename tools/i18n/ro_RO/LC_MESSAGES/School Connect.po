@@ -871,7 +871,7 @@ msgstr ""
 "Vizualizarea ca alt utilizator necesită modulul School Connect 1.16.09 sau "
 "mai nou pe serverul școlii."
 
-#: lib/screens/attendance_menu_screen.dart:292
+#: lib/screens/attendance_menu_screen.dart:295
 msgid "In"
 msgstr "Prezenți"
 
@@ -1300,7 +1300,7 @@ msgstr "Alte grupe"
 msgid "Other services you may see"
 msgstr "Alte servicii pe care le puteți vedea"
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:298
 msgid "Out"
 msgstr "Absenți"
 
@@ -1943,6 +1943,10 @@ msgstr ""
 #: lib/screens/parent_dashboard_screen.dart:620
 msgid "View Attendance"
 msgstr "Vezi prezența"
+
+#: lib/screens/attendance_menu_screen.dart:221
+msgid "View Daily Attendance"
+msgstr "Vizualizare prezență zilnică"
 
 #: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591

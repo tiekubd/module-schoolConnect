@@ -746,7 +746,8 @@ T = {'A punctuation mark or space': 'کوئی رموزِ اوقاف کا نشا�
  "None of the attendance codes are available to your role, so you can't take this register.": 'حاضری کا کوئی بھی کوڈ آپ کے کردار کے لیے دستیاب نہیں، اس لیے آپ یہ حاضری نہیں لگا سکتے۔',
  'Recent History': 'حالیہ تاریخچہ',
  'In': 'حاضر',
- 'Out': 'غیر حاضر'}
+ 'Out': 'غیر حاضر',
+ 'View Daily Attendance': 'روزانہ حاضری دیکھیں'}
 
 P = {'All {count} class done for today': ('آج کا {count} پیریڈ مکمل ہو گیا', 'آج کے تمام {count} پیریڈ مکمل ہو گئے'),
  'At least {count} character': ('کم از کم {count} حرف', 'کم از کم {count} حروف'),

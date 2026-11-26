@@ -246,7 +246,8 @@ $version     = "1.16.21"; // Tracks the Flutter app's marketing version (pubspec
                           // attendance.php `daily_overview`: View Daily
                           // Attendance for the app's Attendance menu (My Form
                           // Group, My Classes: last 10 school days, today, In /
-                          // Out). "In" and "Out" added in the same three
+                          // Out). "In", "Out" and "View Daily Attendance" added
+                          // in the same three
                           // languages. No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";

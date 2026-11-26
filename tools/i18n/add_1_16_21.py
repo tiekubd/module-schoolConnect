@@ -4,12 +4,12 @@
 # Gibbon has none yet. App-only strings.
 import pprint, re
 
-KEYS = ['Recent History', 'In', 'Out']
+KEYS = ['Recent History', 'In', 'Out', 'View Daily Attendance']
 
 D = {
-'ro_RO': ['Istoric recent', 'Prezenți', 'Absenți'],
-'ur_PK': ['حالیہ تاریخچہ', 'حاضر', 'غیر حاضر'],
-'zh_HK': ['最近紀錄', '出席', '缺席'],
+'ro_RO': ['Istoric recent', 'Prezenți', 'Absenți', 'Vizualizare prezență zilnică'],
+'ur_PK': ['حالیہ تاریخچہ', 'حاضر', 'غیر حاضر', 'روزانہ حاضری دیکھیں'],
+'zh_HK': ['最近紀錄', '出席', '缺席', '查看每日出席'],
 }
 
 if __name__ == '__main__':

@@ -757,7 +757,7 @@ msgstr ""
 msgid "Impersonate User needs School Connect module 1.16.09 or later on the school server."
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:292
+#: lib/screens/attendance_menu_screen.dart:295
 msgid "In"
 msgstr ""
 
@@ -1141,7 +1141,7 @@ msgstr ""
 msgid "Other services you may see"
 msgstr ""
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:298
 msgid "Out"
 msgstr ""
 
@@ -1688,6 +1688,10 @@ msgstr ""
 
 #: lib/screens/parent_dashboard_screen.dart:620
 msgid "View Attendance"
+msgstr ""
+
+#: lib/screens/attendance_menu_screen.dart:221
+msgid "View Daily Attendance"
 msgstr ""
 
 #: lib/screens/dashboard_screen.dart:1009 lib/screens/parent_dashboard_screen.dart:591

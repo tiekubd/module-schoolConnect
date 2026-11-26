@@ -479,7 +479,8 @@ T = {'A punctuation mark or space': '一個標點符號或空格',
  "None of the attendance codes are available to your role, so you can't take this register.": '你的角色無法使用任何出席代碼，因此無法進行此點名。',
  'Recent History': '最近紀錄',
  'In': '出席',
- 'Out': '缺席'}
+ 'Out': '缺席',
+ 'View Daily Attendance': '查看每日出席'}
 
 P = {'All {count} class done for today': ('今天全部 {count} 節已完成',),
  'At least {count} character': ('最少 {count} 個字元',),

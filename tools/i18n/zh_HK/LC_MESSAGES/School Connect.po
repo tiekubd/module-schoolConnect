@@ -835,7 +835,7 @@ msgid ""
 "server."
 msgstr "以其他用戶身分登入需要學校伺服器安裝 School Connect 模組 1.16.09 或以上版本。"
 
-#: lib/screens/attendance_menu_screen.dart:292
+#: lib/screens/attendance_menu_screen.dart:295
 msgid "In"
 msgstr "出席"
 
@@ -1249,7 +1249,7 @@ msgstr "其他科目班"
 msgid "Other services you may see"
 msgstr "你可能看到的其他服務"
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:298
 msgid "Out"
 msgstr "缺席"
 
@@ -1852,6 +1852,10 @@ msgstr "視像課堂：網上課堂使用學校選擇的視像服務（預設為
 #: lib/screens/parent_dashboard_screen.dart:620
 msgid "View Attendance"
 msgstr "查看出席"
+
+#: lib/screens/attendance_menu_screen.dart:221
+msgid "View Daily Attendance"
+msgstr "查看每日出席"
 
 #: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591

@@ -865,7 +865,7 @@ msgstr ""
 "دوسرے صارف کے طور پر دیکھنے کے لیے اسکول کے سرور پر School Connect ماڈیول "
 "1.16.09 یا نیا ورژن ضروری ہے۔"
 
-#: lib/screens/attendance_menu_screen.dart:292
+#: lib/screens/attendance_menu_screen.dart:295
 msgid "In"
 msgstr "حاضر"
 
@@ -1292,7 +1292,7 @@ msgstr "دیگر کلاسیں"
 msgid "Other services you may see"
 msgstr "دیگر سروسز جو آپ کو نظر آ سکتی ہیں"
 
-#: lib/screens/attendance_menu_screen.dart:295
+#: lib/screens/attendance_menu_screen.dart:298
 msgid "Out"
 msgstr "غیر حاضر"
 
@@ -1926,6 +1926,10 @@ msgstr ""
 #: lib/screens/parent_dashboard_screen.dart:620
 msgid "View Attendance"
 msgstr "حاضری دیکھیں"
+
+#: lib/screens/attendance_menu_screen.dart:221
+msgid "View Daily Attendance"
+msgstr "روزانہ حاضری دیکھیں"
 
 #: lib/screens/dashboard_screen.dart:1009
 #: lib/screens/parent_dashboard_screen.dart:591
