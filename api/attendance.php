@@ -150,55 +150,9 @@ function gibbonConnectSaveBlocked(PDO $pdo, array $records, $personID, string $d
     return null;
 }
 
-// ── Who may take which register (Gibbon core v30's permissions) ─────────────
-// isActionAccessible() for the person's current role, as the website checks:
-//   Form group: "Attendance By Form Group_all" any form group;
-//               "Attendance By Form Group_myGroups" only those they tutor.
-//   Class:      "Attendance By Class" (attendance_take_byCourseClass.php).
-// Before 1.16.19 the app went by role name (Teacher / Administrator only),
-// which left out custom roles and the module didn't check saves at all.
-function gibbonConnectAttendanceActions(PDO $pdo, $roleID): array
-{
-    $stmt = $pdo->prepare("SELECT gibbonAction.name
-        FROM gibbonAction
-        JOIN gibbonModule ON (gibbonModule.gibbonModuleID = gibbonAction.gibbonModuleID)
-        JOIN gibbonPermission ON (gibbonPermission.gibbonActionID = gibbonAction.gibbonActionID)
-        WHERE gibbonModule.name = 'Attendance' AND gibbonModule.active = 'Y'
-        AND gibbonPermission.gibbonRoleID = ?
-        AND (gibbonAction.URLList LIKE '%attendance_take_byFormGroup.php%'
-          OR gibbonAction.URLList LIKE '%attendance_take_byCourseClass.php%')");
-    $stmt->execute([$roleID]);
-    return $stmt->fetchAll(PDO::FETCH_COLUMN);
-}
-
-/** ['formGroup' => 'all'|'myGroups'|'', 'class' => bool, 'myFormGroupIDs' => [...]] */
-function gibbonConnectAttendanceAccess(PDO $pdo, array $authUser): array
-{
-    $actions = gibbonConnectAttendanceActions($pdo, $authUser['roleID'] ?? '');
-    $formGroup = in_array('Attendance By Form Group_all', $actions, true) ? 'all'
-        : (in_array('Attendance By Form Group_myGroups', $actions, true) ? 'myGroups' : '');
-    $mine = [];
-    if (!empty($authUser['schoolYearID'])) {
-        $pid = $authUser['personID'];
-        $stmt = $pdo->prepare("SELECT gibbonFormGroupID FROM gibbonFormGroup
-            WHERE gibbonSchoolYearID = ? AND attendance = 'Y'
-            AND (gibbonPersonIDTutor = ? OR gibbonPersonIDTutor2 = ? OR gibbonPersonIDTutor3 = ?)");
-        $stmt->execute([$authUser['schoolYearID'], $pid, $pid, $pid]);
-        $mine = array_map(fn($id) => (string) (int) $id, $stmt->fetchAll(PDO::FETCH_COLUMN));
-    }
-    return [
-        'formGroup'      => $formGroup,
-        'class'          => in_array('Attendance By Class', $actions, true),
-        'myFormGroupIDs' => $mine,
-    ];
-}
-
-function gibbonConnectCanTakeFormGroup(array $access, $formGroupID): bool
-{
-    if ($access['formGroup'] === 'all') return true;
-    return $access['formGroup'] === 'myGroups'
-        && in_array((string) (int) $formGroupID, $access['myFormGroupIDs'], true);
-}
+// Who may take which register: gibbonConnectAttendanceAccess() and
+// gibbonConnectCanTakeFormGroup() live in auth.php (module 1.16.23+), as
+// courses.php and form_groups.php need them too.
 
 // ── Register calendar (module 1.16.21+) ─────────────────────────────────────
 // The colours of Gibbon core v30's View Daily Attendance "Recent History"
@@ -352,7 +306,20 @@ function gibbonConnectDailyOverview(PDO $pdo, array $authUser, string $today): a
         ];
     }
 
-    return ['date' => $today, 'schoolOpen' => $open, 'formGroups' => $formGroups, 'classes' => $classes];
+    // Which of the Attendance menu's "Other Registers" lists go beyond the
+    // registers above (module 1.16.23+): By Class with "Attendance By Class"
+    // (every class, as core's All Classes), By Form Group with "_all".
+    $otherRegisters = ['classes' => $access['class'], 'formGroups' => $access['formGroup'] === 'all'];
+    // School Connect setting otherRegistersAdminOnly (app Settings): a school
+    // can keep these lists to Administrators in the app. This only hides
+    // them here; the permissions themselves (and the website) are unchanged.
+    $adminOnly = $pdo->prepare("SELECT value FROM gibbonSetting WHERE scope = 'School Connect' AND name = 'otherRegistersAdminOnly'");
+    $adminOnly->execute();
+    if ($adminOnly->fetchColumn() === 'Y' && ($authUser['role'] ?? '') !== 'Administrator') {
+        $otherRegisters = ['classes' => false, 'formGroups' => false];
+    }
+    return ['date' => $today, 'schoolOpen' => $open, 'formGroups' => $formGroups, 'classes' => $classes,
+        'otherRegisters' => $otherRegisters];
 }
 
 function gibbonConnectLogAttendance(PDO $pdo, $takerID, string $context, $id, string $date, int $count): void

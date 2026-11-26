@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "تمام اقسام"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "تمام جماعتیں"
 
@@ -122,6 +122,10 @@ msgid_plural "At least {count} characters"
 msgstr[0] "کم از کم {count} حرف"
 msgstr[1] "کم از کم {count} حروف"
 
+#: lib/screens/courses_screen.dart:109
+msgid "Attendance By Class"
+msgstr "کلاس کے لحاظ سے حاضری"
+
 #: lib/screens/student_profile_screen.dart:192
 msgid "Attendance This Year"
 msgstr "اس سال کی حاضری"
@@ -150,10 +154,18 @@ msgstr[1] "{count} طلبہ کے لیے رویے کا ریکارڈ محفوظ ہ
 msgid "Browse staff profiles"
 msgstr "عملے کے پروفائل دیکھیں"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "کلاس کے لحاظ سے"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"\"روزانہ حاضری دیکھیں\" میں \"کلاس کے لحاظ سے\" اور \"سیکشن کے لحاظ سے\" ویب"
+" سائٹ کی طرح ہر کردار کی حاضری کی اجازتوں کے مطابق ہوتے ہیں۔"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -203,11 +215,11 @@ msgstr "چینی یا کسی دوسرے رسم الخط میں نام"
 msgid "Choose a class above"
 msgstr "اوپر سے کلاس منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "کوئی بھی سیکشن منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "اپنی کوئی بھی کلاس منتخب کریں"
 
@@ -215,7 +227,7 @@ msgstr "اپنی کوئی بھی کلاس منتخب کریں"
 msgid "Choose at least one student first"
 msgstr "پہلے کم از کم ایک طالب علم منتخب کریں"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "اپنے سیکشنز میں سے ایک منتخب کریں"
 
@@ -232,7 +244,7 @@ msgid "Class Roster"
 msgstr "کلاس کی فہرست"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "ابھی: {class}"
 
@@ -335,7 +347,7 @@ msgstr "رپورٹ ڈاؤن لوڈ کرنے میں ناکام"
 msgid "Could not generate username"
 msgstr "یوزر نیم بنانے میں ناکام"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "سیکشنز لوڈ کرنے میں ناکام"
 
@@ -360,7 +372,7 @@ msgid "Could not load course"
 msgstr "مضمون لوڈ کرنے میں ناکام"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "مضامین لوڈ کرنے میں ناکام"
 
@@ -516,7 +528,7 @@ msgstr "فہرست لوڈ کرنے میں ناکام"
 msgid "Could not load school years"
 msgstr "تعلیمی سال لوڈ کرنے میں ناکام"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "ترتیبات لوڈ کرنے میں ناکام"
 
@@ -597,8 +609,9 @@ msgstr "حاضری محفوظ کرنے میں ناکام"
 msgid "Could not save for: {names}"
 msgstr "ان کے لیے محفوظ نہیں ہو سکا: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "ترتیب محفوظ کرنے میں ناکام"
 
@@ -865,7 +878,7 @@ msgstr ""
 "دوسرے صارف کے طور پر دیکھنے کے لیے اسکول کے سرور پر School Connect ماڈیول "
 "1.16.09 یا نیا ورژن ضروری ہے۔"
 
-#: lib/screens/attendance_menu_screen.dart:314
+#: lib/screens/attendance_menu_screen.dart:331
 msgid "In"
 msgstr "حاضر"
 
@@ -882,7 +895,7 @@ msgstr ""
 "یہ 2 گھنٹے بعد ختم ہو جاتا ہے۔ جلدی واپس آنے کے لیے اسکرین کے اوپر \"اپنے "
 "اکاؤنٹ میں واپس جائیں\" استعمال کریں۔"
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -890,11 +903,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "ورچوئل کلاس میں شامل ہوں"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "\"ورچوئل کلاس میں شامل ہوں\" ہر جگہ سے چھپا دیا گیا ہے"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "\"ورچوئل کلاس میں شامل ہوں\" ٹائم ٹیبل اور پلانر میں نظر آتا ہے"
 
@@ -984,7 +997,7 @@ msgstr "اگر درج ہو تو منفرد ہونا ضروری ہے"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "میرے سیکشنز"
 
@@ -998,12 +1011,12 @@ msgid "Name and Short Name are required"
 msgstr "نام اور مختصر نام ضروری ہیں"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "اگلی کلاس: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "کوئی سیکشن نہیں ملا"
 
@@ -1044,7 +1057,7 @@ msgid "No class"
 msgstr "کوئی کلاس نہیں"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "کوئی کلاس نہیں ملی"
@@ -1082,7 +1095,7 @@ msgstr "اس ٹرم کا کوئی ڈیٹا نہیں"
 msgid "No data updates found"
 msgstr "کوئی ڈیٹا اپ ڈیٹ نہیں ملی"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "کوئی شعبہ نہیں"
 
@@ -1236,7 +1249,7 @@ msgid ""
 msgstr ""
 "اس تاریخ کی حاضری ابھی نہیں لگی۔ یہ طے شدہ اندراجات ہیں، محفوظ حاضری نہیں۔"
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "آج ابھی نہیں لگی"
 
@@ -1253,7 +1266,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "کچھ طے نہیں"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1271,6 +1284,14 @@ msgstr ""
 "دن میں ایک بار آپ کے اسکول کا سرور اسکول کی سبسکرپشن کی تصدیق کے لیے High "
 "Point کو صرف اپنا ویب ایڈریس بتاتا ہے۔ کوئی ذاتی معلومات نہیں بھیجی جاتیں۔"
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"\"روزانہ حاضری دیکھیں\" میں \"کلاس کے لحاظ سے\" اور \"سیکشن کے لحاظ سے\" صرف"
+" منتظمین کو نظر آتے ہیں۔ ویب سائٹ پر اجازتیں تبدیل نہیں ہوتیں۔"
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr ""
@@ -1284,9 +1305,13 @@ msgstr "صرف وہ طلبہ شامل ہیں جو اس تعلیمی سال می�
 msgid "Opens at"
 msgstr "کھلنے کا وقت"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "دیگر رجسٹر"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "دیگر رجسٹر صرف منتظمین کے لیے"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1296,7 +1321,7 @@ msgstr "دیگر کلاسیں"
 msgid "Other services you may see"
 msgstr "دیگر سروسز جو آپ کو نظر آ سکتی ہیں"
 
-#: lib/screens/attendance_menu_screen.dart:315
+#: lib/screens/attendance_menu_screen.dart:332
 msgid "Out"
 msgstr "غیر حاضر"
 
@@ -1431,7 +1456,7 @@ msgstr "رسید نمبر"
 msgid "Recent Attendance"
 msgstr "حالیہ حاضری"
 
-#: lib/screens/attendance_menu_screen.dart:323
+#: lib/screens/attendance_menu_screen.dart:340
 msgid "Recent History"
 msgstr "حالیہ تاریخچہ"
 
@@ -1589,7 +1614,7 @@ msgstr "نام یا یوزر نیم سے تلاش کریں..."
 msgid "Search by name, username, email, student ID..."
 msgstr "نام، یوزر نیم، ای میل، اسٹوڈنٹ آئی ڈی سے تلاش کریں..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "کلاسیں تلاش کریں..."
 
@@ -1694,7 +1719,7 @@ msgstr "رول تبدیل کریں"
 msgid "Switch School Year"
 msgstr "تعلیمی سال تبدیل کریں"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "اس کلاس کی حاضری لگائیں"
 
@@ -1715,7 +1740,7 @@ msgid "Taken at {time} by {name}"
 msgstr "حاضری {time} بجے {name} نے لگائی"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "آج {time} پر لگی۔ دیکھنے یا تبدیل کرنے کے لیے ٹیپ کریں"
 
@@ -1935,7 +1960,7 @@ msgstr ""
 msgid "View Attendance"
 msgstr "حاضری دیکھیں"
 
-#: lib/screens/attendance_menu_screen.dart:226
+#: lib/screens/attendance_menu_screen.dart:232
 msgid "View Daily Attendance"
 msgstr "روزانہ حاضری دیکھیں"
 
@@ -1993,7 +2018,7 @@ msgstr "اپنے رپورٹ کارڈ دیکھیں"
 msgid "Viewing as {name}"
 msgstr "بطور {name} دیکھ رہے ہیں"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "ورچوئل کلاس روم"
 
@@ -2150,7 +2175,7 @@ msgstr[1] "{count} جائزے"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} کلاس"
@@ -2280,7 +2305,7 @@ msgstr[1] "عملے کے {count} ارکان"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} طالب علم"

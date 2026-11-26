@@ -39,6 +39,20 @@ try {
         $role = 'Teacher';
     }
 
+    // Attendance menu's By Class (scope 'attendance', module 1.16.23+): as
+    // Gibbon core v30's Attendance By Class page, whose class picker offers
+    // My Classes and All Classes to anyone with that permission
+    // (DatabaseFormFactory::createSelectClass, attendance = 'Y'). So: every
+    // class this year that takes attendance, or none without the
+    // permission. Without the scope (browsing Classes) nothing changes.
+    $attendanceScope = (($input['scope'] ?? '') === 'attendance');
+    $listAll = $role === 'Administrator';
+    $classAccess = true;
+    if ($attendanceScope) {
+        $classAccess = gibbonConnectAttendanceAccess($pdo, $authUser)['class'];
+        $listAll = $classAccess;
+    }
+
     // CHANGED: was a hardcoded "WHERE status='Current'" lookup. Now uses
     // whatever year the user has selected (defaults to Current — see auth.php).
     $schoolYearID = $authUser['schoolYearID'];
@@ -55,7 +69,7 @@ try {
     ");
     $yearGroups = $ygStmt->fetchAll(PDO::FETCH_ASSOC);
 
-    if ($role === 'Administrator') {
+    if ($listAll) {
         $stmt = $pdo->prepare("
             SELECT
                 gibbonCourse.gibbonCourseID,
@@ -130,8 +144,25 @@ try {
 
     $classes = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+    if ($attendanceScope) {
+        $takesAttendance = array_flip($pdo->query("SELECT gibbonCourseClassID FROM gibbonCourseClass WHERE attendance = 'Y'")
+            ->fetchAll(PDO::FETCH_COLUMN));
+        $classes = $classAccess
+            ? array_values(array_filter($classes, fn($c) => isset($takesAttendance[$c['gibbonCourseClassID']])))
+            : [];
+        // mine: the person is in the class (any role but "... - Left"), so the
+        // app can list My Classes first and All Classes after, as core's picker.
+        $mineStmt = $pdo->prepare("SELECT DISTINCT gibbonCourseClassID FROM gibbonCourseClassPerson
+            WHERE gibbonPersonID = ? AND NOT role LIKE '% - Left%'");
+        $mineStmt->execute([$personID]);
+        $mine = array_flip($mineStmt->fetchAll(PDO::FETCH_COLUMN));
+        foreach ($classes as &$c) $c['mine'] = isset($mine[$c['gibbonCourseClassID']]);
+        unset($c);
+    }
+
     echo json_encode([
         'success'       => true,
+        'allClasses'    => $listAll,
         'classes'       => $classes,
         'count'         => count($classes),
         'yearGroups'    => $yearGroups,

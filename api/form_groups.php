@@ -36,7 +36,21 @@ try {
         exit;
     }
 
-    if ($role === 'Administrator') {
+    // Attendance menu's By Form Group (scope 'attendance', module 1.16.23+):
+    // as Gibbon core v30's Attendance By Form Group, which may take any
+    // group with "Attendance By Form Group_all" and only the groups the
+    // person tutors with "_myGroups" (attendance_take_byFormGroupProcess.php);
+    // groups that take attendance. Without the scope (browsing Form Groups)
+    // nothing changes: Administrators every group, others their own.
+    $attendanceScope = (($input['scope'] ?? '') === 'attendance');
+    $listAll = $role === 'Administrator';
+    $fgAccess = 'all';
+    if ($attendanceScope) {
+        $fgAccess = gibbonConnectAttendanceAccess($pdo, $authUser)['formGroup'];
+        $listAll = $fgAccess === 'all';
+    }
+
+    if ($listAll) {
         // Admin sees all form groups
         $stmt = $pdo->prepare("
             SELECT 
@@ -98,8 +112,17 @@ try {
 
     $formGroups = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+    if ($attendanceScope) {
+        $takesAttendance = array_flip($pdo->query("SELECT gibbonFormGroupID FROM gibbonFormGroup WHERE attendance = 'Y'")
+            ->fetchAll(PDO::FETCH_COLUMN));
+        $formGroups = $fgAccess === ''
+            ? []
+            : array_values(array_filter($formGroups, fn($g) => isset($takesAttendance[$g['gibbonFormGroupID']])));
+    }
+
     echo json_encode([
         'success'       => true,
+        'allFormGroups' => $listAll,
         'formGroups'    => $formGroups,
         'count'         => count($formGroups),
         'isCurrentYear' => $authUser['isCurrentYear'],

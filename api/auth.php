@@ -72,6 +72,82 @@ function gibbonConnectFirstDayOfWeek(PDO $pdo): string {
     return in_array($v, ['Monday', 'Sunday', 'Saturday'], true) ? $v : 'Monday';
 }
 
+// ── Who may take which register (Gibbon core v30's permissions) ─────────────
+// isActionAccessible() for the person's current role, as the website checks:
+//   Form group: "Attendance By Form Group_all" any form group;
+//               "Attendance By Form Group_myGroups" only those they tutor.
+//   Class:      "Attendance By Class" (attendance_take_byCourseClass.php).
+// Before 1.16.19 the app went by role name (Teacher / Administrator only),
+// which left out custom roles and the module didn't check saves at all.
+function gibbonConnectAttendanceActions(PDO $pdo, $roleID): array
+{
+    $stmt = $pdo->prepare("SELECT gibbonAction.name
+        FROM gibbonAction
+        JOIN gibbonModule ON (gibbonModule.gibbonModuleID = gibbonAction.gibbonModuleID)
+        JOIN gibbonPermission ON (gibbonPermission.gibbonActionID = gibbonAction.gibbonActionID)
+        WHERE gibbonModule.name = 'Attendance' AND gibbonModule.active = 'Y'
+        AND gibbonPermission.gibbonRoleID = ?
+        AND (gibbonAction.URLList LIKE '%attendance_take_byFormGroup.php%'
+          OR gibbonAction.URLList LIKE '%attendance_take_byCourseClass.php%')");
+    $stmt->execute([$roleID]);
+    return $stmt->fetchAll(PDO::FETCH_COLUMN);
+}
+
+/** ['formGroup' => 'all'|'myGroups'|'', 'class' => bool, 'myFormGroupIDs' => [...]] */
+function gibbonConnectAttendanceAccess(PDO $pdo, array $authUser): array
+{
+    $actions = gibbonConnectAttendanceActions($pdo, $authUser['roleID'] ?? '');
+    $formGroup = in_array('Attendance By Form Group_all', $actions, true) ? 'all'
+        : (in_array('Attendance By Form Group_myGroups', $actions, true) ? 'myGroups' : '');
+    $mine = [];
+    if (!empty($authUser['schoolYearID'])) {
+        $pid = $authUser['personID'];
+        $stmt = $pdo->prepare("SELECT gibbonFormGroupID FROM gibbonFormGroup
+            WHERE gibbonSchoolYearID = ? AND attendance = 'Y'
+            AND (gibbonPersonIDTutor = ? OR gibbonPersonIDTutor2 = ? OR gibbonPersonIDTutor3 = ?)");
+        $stmt->execute([$authUser['schoolYearID'], $pid, $pid, $pid]);
+        $mine = array_map(fn($id) => (string) (int) $id, $stmt->fetchAll(PDO::FETCH_COLUMN));
+    }
+    return [
+        'formGroup'      => $formGroup,
+        'class'          => in_array('Attendance By Class', $actions, true),
+        'myFormGroupIDs' => $mine,
+    ];
+}
+
+function gibbonConnectCanTakeFormGroup(array $access, $formGroupID): bool
+{
+    if ($access['formGroup'] === 'all') return true;
+    return $access['formGroup'] === 'myGroups'
+        && in_array((string) (int) $formGroupID, $access['myFormGroupIDs'], true);
+}
+
+/**
+ * The school's week for month calendars, as Gibbon core v30's Student History
+ * (modules/Attendance/src/StudentHistoryData.php): weeks start on System
+ * Settings > First Day Of The Week, and show only the days ticked as school
+ * days in School Admin > Days of the Week. Returns
+ *   'start' => 'Monday' | 'Sunday' | 'Saturday'
+ *   'days'  => school days' short names ('Mon', ...) in the order they fall
+ *              in such a week, e.g. ['Sun','Mon','Tue','Wed','Thu'].
+ */
+function gibbonConnectSchoolWeek(PDO $pdo): array {
+    $start = gibbonConnectFirstDayOfWeek($pdo);
+    $school = array_flip($pdo->query("SELECT nameShort FROM gibbonDaysOfWeek WHERE schoolDay = 'Y'")->fetchAll(PDO::FETCH_COLUMN));
+    $days = [];
+    $d = new DateTime('next ' . $start);
+    for ($i = 0; $i < 7; $i++, $d->modify('+1 day')) {
+        if (isset($school[$d->format('D')])) $days[] = $d->format('D');
+    }
+    return ['start' => $start, 'days' => $days ?: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']];
+}
+
+/** $date moved back to the first day of its week (Gibbon's First Day Of The Week). */
+function gibbonConnectWeekStartFor(DateTime $date, string $weekStart): DateTime {
+    while ($date->format('l') !== $weekStart) $date->modify('-1 day');
+    return $date;
+}
+
 function gibbonConnectBearerToken(): string {
     $headers = function_exists('getallheaders') ? getallheaders() : [];
     $headers = is_array($headers) ? array_change_key_case($headers, CASE_LOWER) : [];

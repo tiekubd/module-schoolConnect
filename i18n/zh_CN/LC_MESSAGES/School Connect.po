@@ -74,7 +74,7 @@ msgid "All Types"
 msgstr "所有类型"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "所有年级"
 
@@ -143,10 +143,16 @@ msgstr[0] "已为 {count} 名学生保存表现记录！"
 msgid "Browse staff profiles"
 msgstr "浏览教职工档案"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "按教学班"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr "“查看每日考勤”中的“按教学班”和“按班级”与网站一样，按各角色的考勤权限显示。"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -194,11 +200,11 @@ msgstr "中文或其他文字的姓名"
 msgid "Choose a class above"
 msgstr "请在上方选择教学班"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "选择任何班级"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "选择您的任何教学班"
 
@@ -206,7 +212,7 @@ msgstr "选择您的任何教学班"
 msgid "Choose at least one student first"
 msgstr "请先选择至少一名学生"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "选择您的其中一个班级"
 
@@ -223,7 +229,7 @@ msgid "Class Roster"
 msgstr "教学班名单"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "当前课程：{class}"
 
@@ -318,7 +324,7 @@ msgstr "无法下载成绩报告"
 msgid "Could not generate username"
 msgstr "无法生成用户名"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "无法加载班级"
 
@@ -343,7 +349,7 @@ msgid "Could not load course"
 msgstr "无法加载课程"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "无法加载课程"
 
@@ -499,7 +505,7 @@ msgstr "无法加载名单"
 msgid "Could not load school years"
 msgstr "无法加载学年"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "无法加载设置"
 
@@ -580,8 +586,9 @@ msgstr "无法保存考勤记录"
 msgid "Could not save for: {names}"
 msgstr "以下人员无法保存：{names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "无法保存设置"
 
@@ -846,7 +853,7 @@ msgid ""
 "come back sooner."
 msgstr "会在 2 小时后结束。如要提前返回，请点击屏幕顶部的“返回我的账户”。"
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -854,11 +861,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "加入在线课堂"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "“加入在线课堂”已在所有位置隐藏"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "“加入在线课堂”会在课程表和计划中显示"
 
@@ -948,7 +955,7 @@ msgstr "如有填写则不可重复"
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "我的班级"
 
@@ -962,12 +969,12 @@ msgid "Name and Short Name are required"
 msgstr "必须填写名称和简称"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "下一节课：{class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "找不到班级"
 
@@ -1006,7 +1013,7 @@ msgid "No class"
 msgstr "没有课"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "找不到教学班"
@@ -1044,7 +1051,7 @@ msgstr "本学期没有数据"
 msgid "No data updates found"
 msgstr "找不到信息更新"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "没有部门"
 
@@ -1195,7 +1202,7 @@ msgid ""
 "attendance."
 msgstr "该日期尚未记录考勤。以下为默认值，并非已保存的考勤。"
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "今天尚未考勤"
 
@@ -1209,7 +1216,7 @@ msgstr "此处尚未支持 — 在这里注册不会自动加入课程。如学�
 msgid "Nothing scheduled"
 msgstr "没有安排"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1225,6 +1232,12 @@ msgid ""
 "to confirm the school's subscription. No personal information is sent."
 msgstr "学校服务器每天一次只向 High Point 提供其网址，以确认学校的订阅。不会传送任何个人信息。"
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr "只有管理员能在“查看每日考勤”中看到“按教学班”和“按班级”。网站上的权限不变。"
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr "只包括有教职工角色但尚未成为教职工的人员。"
@@ -1237,9 +1250,13 @@ msgstr "只包括本学年尚未注册的学生。"
 msgid "Opens at"
 msgstr "开放时间"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "其他考勤"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "其他考勤仅限管理员"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1521,7 +1538,7 @@ msgstr "按姓名或用户名搜索…"
 msgid "Search by name, username, email, student ID..."
 msgstr "按姓名、用户名、电子邮件、学生编号搜索…"
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "搜索教学班…"
 
@@ -1623,7 +1640,7 @@ msgstr "切换角色"
 msgid "Switch School Year"
 msgstr "切换学年"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "记录此教学班的考勤"
 
@@ -1644,7 +1661,7 @@ msgid "Taken at {time} by {name}"
 msgstr "{name} 于 {time} 记录"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "今天 {time} 已考勤。点击查看或修改"
 
@@ -1903,7 +1920,7 @@ msgstr "查看您的成绩报告"
 msgid "Viewing as {name}"
 msgstr "正以 {name} 身份查看"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "在线教室"
 
@@ -2043,7 +2060,7 @@ msgstr[0] "{count} 项评估"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} 个教学班"
@@ -2157,7 +2174,7 @@ msgstr[0] "{count} 名教职工"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "{count} 名学生"

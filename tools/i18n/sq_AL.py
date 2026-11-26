@@ -715,7 +715,22 @@ T = {'A punctuation mark or space': 'Një shenjë pikësimi ose hapësirë',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Frekuentimi për këtë datë nuk është marrë ende. Këto janë vlera të paracaktuara, jo frekuentim i ruajtur.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Asnjë nga kodet e frekuentimit nuk është i disponueshëm për rolin tuaj, prandaj nuk mund ta merrni këtë '
                                                                                               'frekuentim.',
- 'Other Registers': 'Regjistra të tjerë'}
+ 'Other Registers': 'Regjistra të tjerë',
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': 'Kjo klasë nuk '
+                                                                                                                                                                                    'është në orar për '
+                                                                                                                                                                                    'datën e zgjedhur. '
+                                                                                                                                                                                    'Frekuentimi mund '
+                                                                                                                                                                                    'të merret ende '
+                                                                                                                                                                                    'për këtë grup, '
+                                                                                                                                                                                    'por aktualisht '
+                                                                                                                                                                                    'bie jashtë orarit '
+                                                                                                                                                                                    'të rregullt të '
+                                                                                                                                                                                    'kësaj klase.',
+ 'Other Registers for Administrators only': 'Regjistra të tjerë vetëm për administratorët',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Vetëm administratorët shohin "Sipas grupit" dhe "Sipas klasës" te "Shiko '
+                                                                                                                             'frekuentimin ditor". Lejet në faqen e internetit nuk ndryshojnë.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Sipas grupit" dhe "Sipas klasës" te "Shiko frekuentimin ditor" ndjekin lejet e '
+                                                                                                                      'frekuentimit të çdo roli, si në faqen e internetit.'}
 
 P = {'All {count} class done for today': ('Ora e sotme përfundoi', 'Të {count} orët e sotme përfunduan'),
  'At least {count} character': ('Të paktën {count} karakter', 'Të paktën {count} karaktere'),

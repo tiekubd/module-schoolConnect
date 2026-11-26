@@ -698,7 +698,12 @@ T = {'A punctuation mark or space': 'Um sinal de pontuação ou um espaço',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'A chamada desta data ainda não foi feita. Estes são valores padrão, não frequência salva.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Nenhum dos códigos de frequência está disponível para sua função, então você não pode fazer esta '
                                                                                               'chamada.',
- 'Other Registers': 'Outras chamadas'}
+ 'Other Registers': 'Outras chamadas',
+ 'Other Registers for Administrators only': 'Outras chamadas somente para administradores',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Somente administradores veem "Por Classe" e "Por Turma" em "Visualizar '
+                                                                                                                             'Frequência Diária". As permissões no site não mudam.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Por Classe" e "Por Turma" em "Visualizar Frequência Diária" seguem as '
+                                                                                                                      'permissões de frequência de cada função, como no site.'}
 
 P = {'At least {count} character': ('Pelo menos {count} caractere', 'Pelo menos {count} caracteres'),
  'Behaviour records saved for {count} student!': ('Registro de comportamento salvo para {count} aluno!', 'Registros de comportamento salvos para {count} alunos!'),

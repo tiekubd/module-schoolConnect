@@ -15,7 +15,7 @@ $description = "Mobile app API for School Connect, an app for Gibbon — provide
 $entryURL    = "index.php";
 $type        = "Additional";
 $category    = "Other";
-$version     = "1.16.22"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
+$version     = "1.16.23"; // Tracks the Flutter app's marketing version (pubspec.yaml) —
                           // bump this whenever a change on the PHP side ships, matching
                           // whichever app version it was released alongside. Not every
                           // Flutter build number needs a bump here, just PHP module
@@ -257,6 +257,26 @@ $version     = "1.16.22"; // Tracks the Flutter app's marketing version (pubspec
                           // on the website; the chosen timetable gives the
                           // periods, and its empty periods/breaks that clash with
                           // a lesson are left out. No schema change.
+                          //
+                          // 1.16.23: the Attendance menu's Other Registers follow
+                          // the school's Attendance permissions, as the website
+                          // does: courses.php / form_groups.php with scope
+                          // 'attendance' list every class that takes attendance
+                          // with "Attendance By Class", every form group with
+                          // "Attendance By Form Group_all" (else the tutor's own),
+                          // and daily_overview says which lists apply. Browsing
+                          // Classes / Form Groups is unchanged. Permission helpers
+                          // moved to auth.php. N/A explanation translated in
+                          // ar_SA, hr_HR, ro_RO, sq_AL, zh_HK. New setting
+                          // otherRegistersAdminOnly (app Settings; default N):
+                          // Y keeps Other Registers to Administrators in the app.
+                          // courses.php marks the person's own classes (mine)
+                          // so By Class lists My Classes, then All Classes. The
+                          // student attendance and homework calendars now lay
+                          // weeks out as Gibbon's Student History: from First Day
+                          // Of The Week, school days only (Sun-Thu schools get
+                          // Sun-Thu; before, always Mon-Fri), and send dayHeaders.
+                          // No schema change.
 $author      = "Tieku Bortei-Doku / High Point Education";
 $url         = "https://highpointedu.com";
 

@@ -707,7 +707,12 @@ T = {'A punctuation mark or space': 'Een leesteken of een spatie',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Voor deze datum nog niet geregistreerd. Dit zijn standaardwaarden, geen opgeslagen aanwezigheid.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Geen van de aanwezigheidscodes is beschikbaar voor jouw rol, dus je kunt deze aanwezigheid niet '
                                                                                               'registreren.',
- 'Other Registers': 'Andere registers'}
+ 'Other Registers': 'Andere registers',
+ 'Other Registers for Administrators only': 'Andere registers alleen voor beheerders',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Alleen beheerders zien "Per lesgroep" en "Per klas" in "Bekijk '
+                                                                                                                             'dagelijkse aanwezigheid". De rechten op de website veranderen niet.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Per lesgroep" en "Per klas" in "Bekijk dagelijkse aanwezigheid" volgen de '
+                                                                                                                      'aanwezigheidsrechten van elke rol, zoals op de website.'}
 
 P = {'At least {count} character': ('Minstens {count} teken', 'Minstens {count} tekens'),
  'Behaviour records saved for {count} student!': ('Gedragsnotitie opgeslagen voor {count} leerling!', 'Gedragsnotities opgeslagen voor {count} leerlingen!'),

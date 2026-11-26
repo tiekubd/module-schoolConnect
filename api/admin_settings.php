@@ -24,7 +24,10 @@ header('Content-Type: application/json');
 // Whitelist — never let client input choose an arbitrary setting name to
 // read/write, even scoped to 'School Connect'. Add new entries here as
 // more settings are introduced; each is a plain 'Y'/'N' toggle for now.
-const SETTABLE_NAMES = ['virtualClassroomEnabled'];
+// otherRegistersAdminOnly (module 1.16.23+): 'Y' keeps View Daily
+// Attendance's Other Registers (By Class / By Form Group) to Administrators;
+// 'N' (default) follows each role's Attendance permissions.
+const SETTABLE_NAMES = ['virtualClassroomEnabled', 'otherRegistersAdminOnly'];
 
 try {
     $pdo = new PDO(
@@ -62,6 +65,7 @@ try {
         // explicit opt-in once a school has confirmed it actually works
         // for them.
         $settings['virtualClassroomEnabled'] = $settings['virtualClassroomEnabled'] ?? 'N';
+        $settings['otherRegistersAdminOnly'] = $settings['otherRegistersAdminOnly'] ?? 'N';
 
         echo json_encode(['success' => true, 'settings' => $settings]);
         exit;

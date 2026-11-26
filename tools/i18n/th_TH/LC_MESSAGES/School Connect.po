@@ -76,7 +76,7 @@ msgid "All Types"
 msgstr "ทุกประเภท"
 
 #: lib/screens/course_manage_list_screen.dart:120
-#: lib/screens/courses_screen.dart:127 lib/screens/courses_screen.dart:137
+#: lib/screens/courses_screen.dart:146 lib/screens/courses_screen.dart:156
 msgid "All Year Groups"
 msgstr "ทุกระดับชั้น"
 
@@ -147,10 +147,18 @@ msgstr[0] "บันทึกพฤติกรรมของนักเรี
 msgid "Browse staff profiles"
 msgstr "ดูโปรไฟล์บุคลากร"
 
-#: lib/screens/attendance_menu_screen.dart:113
+#: lib/screens/attendance_menu_screen.dart:114
 #: lib/screens/planner_list_screen.dart:130
 msgid "By Class"
 msgstr "ตามกลุ่มเรียน"
+
+#: lib/screens/admin_settings_screen.dart:180
+msgid ""
+"By Class and By Form Group in View Daily Attendance follow each role's "
+"Attendance permissions, as on the website."
+msgstr ""
+"\"ตามกลุ่มเรียน\" และ \"ตามห้องประจำชั้น\" ใน \"ดูการเข้าร่วมรายวัน\" "
+"เป็นไปตามสิทธิ์การเช็คชื่อของแต่ละบทบาท เหมือนบนเว็บไซต์"
 
 #: lib/screens/planner_list_screen.dart:122
 msgid "By Date"
@@ -200,11 +208,11 @@ msgstr "ชื่อภาษาจีนหรือชื่อที่เข
 msgid "Choose a class above"
 msgstr "เลือกกลุ่มเรียนด้านบน"
 
-#: lib/screens/attendance_menu_screen.dart:123
+#: lib/screens/attendance_menu_screen.dart:124
 msgid "Choose any Form Group"
 msgstr "เลือกห้องประจำชั้นใดก็ได้"
 
-#: lib/screens/attendance_menu_screen.dart:114
+#: lib/screens/attendance_menu_screen.dart:115
 msgid "Choose any of your classes"
 msgstr "เลือกกลุ่มเรียนใดก็ได้ของคุณ"
 
@@ -212,7 +220,7 @@ msgstr "เลือกกลุ่มเรียนใดก็ได้ขอ
 msgid "Choose at least one student first"
 msgstr "เลือกนักเรียนอย่างน้อยหนึ่งคนก่อน"
 
-#: lib/screens/attendance_menu_screen.dart:124
+#: lib/screens/attendance_menu_screen.dart:125
 msgid "Choose one of your Form Groups"
 msgstr "เลือกห้องประจำชั้นของคุณ"
 
@@ -229,7 +237,7 @@ msgid "Class Roster"
 msgstr "รายชื่อนักเรียน"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:150
+#: lib/screens/attendance_menu_screen.dart:151
 msgid "Class now: {class}"
 msgstr "ตอนนี้: {class}"
 
@@ -328,7 +336,7 @@ msgstr "ดาวน์โหลดรายงานผลการเรีย
 msgid "Could not generate username"
 msgstr "สร้างชื่อผู้ใช้ไม่สำเร็จ"
 
-#: lib/screens/form_groups_screen.dart:41
+#: lib/screens/form_groups_screen.dart:46
 msgid "Could not load Form Groups"
 msgstr "โหลดห้องประจำชั้นไม่สำเร็จ"
 
@@ -353,7 +361,7 @@ msgid "Could not load course"
 msgstr "โหลดรายวิชาไม่สำเร็จ"
 
 #: lib/screens/course_manage_list_screen.dart:64
-#: lib/screens/courses_screen.dart:58
+#: lib/screens/courses_screen.dart:63
 msgid "Could not load courses"
 msgstr "โหลดรายวิชาไม่สำเร็จ"
 
@@ -509,7 +517,7 @@ msgstr "โหลดรายชื่อนักเรียนไม่สำ
 msgid "Could not load school years"
 msgstr "โหลดปีการศึกษาไม่สำเร็จ"
 
-#: lib/screens/admin_settings_screen.dart:48
+#: lib/screens/admin_settings_screen.dart:54
 msgid "Could not load settings"
 msgstr "โหลดการตั้งค่าไม่สำเร็จ"
 
@@ -590,8 +598,9 @@ msgstr "บันทึกการเช็คชื่อไม่สำเร
 msgid "Could not save for: {names}"
 msgstr "บันทึกไม่สำเร็จสำหรับ: {names}"
 
-#: lib/screens/admin_settings_screen.dart:75
-#: lib/screens/admin_settings_screen.dart:85
+#: lib/screens/admin_settings_screen.dart:113
+#: lib/screens/admin_settings_screen.dart:123
+#: lib/screens/admin_settings_screen.dart:81
 msgid "Could not save setting"
 msgstr "บันทึกการตั้งค่าไม่สำเร็จ"
 
@@ -866,7 +875,7 @@ msgstr ""
 "จะสิ้นสุดหลังจาก 2 ชั่วโมง หากต้องการกลับเร็วกว่านั้น ให้กด "
 "\"กลับไปที่บัญชีของฉัน\" ที่ด้านบนของหน้าจอ"
 
-#: lib/screens/admin_settings_screen.dart:116
+#: lib/screens/admin_settings_screen.dart:160
 msgid "Jitsi"
 msgstr "Jitsi"
 
@@ -874,11 +883,11 @@ msgstr "Jitsi"
 msgid "Join Virtual Class"
 msgstr "เข้าร่วมห้องเรียนออนไลน์"
 
-#: lib/screens/admin_settings_screen.dart:120
+#: lib/screens/admin_settings_screen.dart:164
 msgid "Join Virtual Class is hidden everywhere it would normally appear"
 msgstr "ซ่อนปุ่ม \"เข้าร่วมห้องเรียนออนไลน์\" ในทุกที่"
 
-#: lib/screens/admin_settings_screen.dart:119
+#: lib/screens/admin_settings_screen.dart:163
 msgid "Join Virtual Class shows on the timetable and planner"
 msgstr "แสดงปุ่ม \"เข้าร่วมห้องเรียนออนไลน์\" ในตารางเรียนและแผนการสอน"
 
@@ -968,7 +977,7 @@ msgstr "หากระบุ ต้องไม่ซ้ำกับผู้�
 
 #: lib/screens/dashboard_screen.dart:1109
 #: lib/screens/dashboard_screen.dart:869
-#: lib/screens/form_groups_screen.dart:49
+#: lib/screens/form_groups_screen.dart:54
 msgid "My Form Groups"
 msgstr "ห้องประจำชั้นที่ดูแล"
 
@@ -982,12 +991,12 @@ msgid "Name and Short Name are required"
 msgstr "ต้องระบุชื่อและชื่อย่อ"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:151
+#: lib/screens/attendance_menu_screen.dart:152
 #: lib/screens/dashboard_screen.dart:746
 msgid "Next class: {class}"
 msgstr "คาบถัดไป: {class}"
 
-#: lib/screens/form_groups_screen.dart:58
+#: lib/screens/form_groups_screen.dart:63
 msgid "No Form Groups found"
 msgstr "ไม่พบห้องประจำชั้น"
 
@@ -1028,7 +1037,7 @@ msgid "No class"
 msgstr "ไม่มีคาบเรียน"
 
 #: lib/screens/course_enrolment_by_class_screen.dart:92
-#: lib/screens/courses_screen.dart:172
+#: lib/screens/courses_screen.dart:191
 #: lib/screens/student_profile_screen.dart:337
 msgid "No classes found"
 msgstr "ไม่พบกลุ่มเรียน"
@@ -1066,7 +1075,7 @@ msgstr "ไม่มีข้อมูลในภาคเรียนนี้
 msgid "No data updates found"
 msgstr "ไม่พบการอัปเดตข้อมูล"
 
-#: lib/screens/courses_screen.dart:190
+#: lib/screens/courses_screen.dart:218
 msgid "No department"
 msgstr "ไม่มีฝ่าย"
 
@@ -1219,7 +1228,7 @@ msgstr ""
 "ยังไม่ได้เช็คชื่อสำหรับวันที่นี้ ค่าที่แสดงเป็นค่าเริ่มต้น "
 "ไม่ใช่การมาเรียนที่บันทึกแล้ว"
 
-#: lib/screens/attendance_menu_screen.dart:142
+#: lib/screens/attendance_menu_screen.dart:143
 msgid "Not taken yet today"
 msgstr "วันนี้ยังไม่ได้เช็คชื่อ"
 
@@ -1235,7 +1244,7 @@ msgstr ""
 msgid "Nothing scheduled"
 msgstr "ไม่มีกำหนดการ"
 
-#: lib/screens/attendance_menu_screen.dart:163
+#: lib/screens/attendance_menu_screen.dart:164
 #: lib/screens/facility_timetable_screen.dart:393
 #: lib/screens/my_timetable_screen.dart:563
 msgid "Now"
@@ -1254,6 +1263,14 @@ msgstr ""
 "เพียงที่อยู่เว็บไซต์ของตนเพื่อยืนยันการสมัครใช้งานของโรงเรียน "
 "ไม่มีการส่งข้อมูลส่วนบุคคลใดๆ"
 
+#: lib/screens/admin_settings_screen.dart:179
+msgid ""
+"Only Administrators see By Class and By Form Group in View Daily Attendance."
+" Permissions on the website are not changed."
+msgstr ""
+"เฉพาะผู้ดูแลระบบเท่านั้นที่เห็น \"ตามกลุ่มเรียน\" และ \"ตามห้องประจำชั้น\" "
+"ใน \"ดูการเข้าร่วมรายวัน\" สิทธิ์บนเว็บไซต์ไม่เปลี่ยนแปลง"
+
 #: lib/screens/staff_edit_screen.dart:251
 msgid "Only includes people with a Staff role not already staff."
 msgstr "แสดงเฉพาะผู้ที่มีบทบาทบุคลากรแต่ยังไม่มีระเบียนบุคลากร"
@@ -1266,9 +1283,13 @@ msgstr "แสดงเฉพาะนักเรียนที่ยังไ
 msgid "Opens at"
 msgstr "เปิดเวลา"
 
-#: lib/screens/attendance_menu_screen.dart:194
+#: lib/screens/attendance_menu_screen.dart:200
 msgid "Other Registers"
 msgstr "การเช็คชื่ออื่นๆ"
+
+#: lib/screens/admin_settings_screen.dart:176
+msgid "Other Registers for Administrators only"
+msgstr "การเช็คชื่ออื่นๆ เฉพาะผู้ดูแลระบบ"
 
 #: lib/screens/enter_marks_screen.dart:158
 msgid "Other classes"
@@ -1561,7 +1582,7 @@ msgstr "ค้นหาตามชื่อหรือชื่อผู้ใ
 msgid "Search by name, username, email, student ID..."
 msgstr "ค้นหาตามชื่อ ชื่อผู้ใช้ อีเมล รหัสนักเรียน..."
 
-#: lib/screens/courses_screen.dart:109
+#: lib/screens/courses_screen.dart:128
 msgid "Search classes..."
 msgstr "ค้นหากลุ่มเรียน..."
 
@@ -1666,7 +1687,7 @@ msgstr "สลับบทบาท"
 msgid "Switch School Year"
 msgstr "สลับปีการศึกษา"
 
-#: lib/screens/attendance_menu_screen.dart:152
+#: lib/screens/attendance_menu_screen.dart:153
 msgid "Take attendance for this class"
 msgstr "เช็คชื่อกลุ่มเรียนนี้"
 
@@ -1687,7 +1708,7 @@ msgid "Taken at {time} by {name}"
 msgstr "เช็คชื่อเวลา {time} โดย {name}"
 
 #. Keep {placeholders} exactly as they are.
-#: lib/screens/attendance_menu_screen.dart:141
+#: lib/screens/attendance_menu_screen.dart:142
 msgid "Taken today at {time}. Tap to review or change"
 msgstr "เช็คชื่อวันนี้เมื่อ {time} แตะเพื่อดูหรือแก้ไข"
 
@@ -1957,7 +1978,7 @@ msgstr "ดูรายงานผลการเรียนของคุณ
 msgid "Viewing as {name}"
 msgstr "กำลังดูในฐานะ {name}"
 
-#: lib/screens/admin_settings_screen.dart:110
+#: lib/screens/admin_settings_screen.dart:154
 msgid "Virtual Classroom"
 msgstr "ห้องเรียนออนไลน์"
 
@@ -2108,7 +2129,7 @@ msgstr[0] "{count} การประเมิน"
 
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/course_manage_list_screen.dart:143
-#: lib/screens/courses_screen.dart:166 lib/screens/enter_marks_screen.dart:256
+#: lib/screens/courses_screen.dart:185 lib/screens/enter_marks_screen.dart:256
 msgid "{count} class"
 msgid_plural "{count} classes"
 msgstr[0] "{count} กลุ่มเรียน"
@@ -2222,7 +2243,7 @@ msgstr[0] "บุคลากร {count} คน"
 #. Keep {placeholders} exactly as they are.
 #: lib/screens/attendance_screen.dart:219
 #: lib/screens/class_markbook_screen.dart:142
-#: lib/screens/courses_screen.dart:195
+#: lib/screens/courses_screen.dart:223
 msgid "{count} student"
 msgid_plural "{count} students"
 msgstr[0] "นักเรียน {count} คน"

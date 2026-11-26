@@ -751,7 +751,12 @@ T = {'A punctuation mark or space': 'Một dấu câu hoặc khoảng trắng',
  'Taken at {time} by {name}': 'Điểm danh lúc {time} bởi {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'Chưa điểm danh cho ngày này. Đây là giá trị mặc định, không phải điểm danh đã lưu.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'Không có mã điểm danh nào dành cho vai trò của bạn, nên bạn không thể điểm danh lớp này.',
- 'Other Registers': 'Sổ điểm danh khác'}
+ 'Other Registers': 'Sổ điểm danh khác',
+ 'Other Registers for Administrators only': 'Sổ điểm danh khác chỉ dành cho quản trị viên',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'Chỉ quản trị viên mới thấy "Theo lớp học" và "Theo lớp chủ nhiệm" trong '
+                                                                                                                             '"Xem Người Tham Gia Hàng Ngày". Quyền trên trang web không thay đổi.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": '"Theo lớp học" và "Theo lớp chủ nhiệm" trong "Xem Người Tham Gia Hàng Ngày" '
+                                                                                                                      'tuân theo quyền điểm danh của từng vai trò, như trên trang web.'}
 
 P = {'All {count} class done for today': ('Đã xong cả {count} tiết học hôm nay',),
  'At least {count} character': ('Ít nhất {count} ký tự',),

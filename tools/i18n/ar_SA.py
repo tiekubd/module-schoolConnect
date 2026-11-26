@@ -643,7 +643,22 @@ T = {'A punctuation mark or space': 'علامة ترقيم أو مسافة',
  'Taken at {time} by {name}': 'أُخذ الحضور الساعة {time} بواسطة {name}',
  'Not taken yet for this date. These are default entries, not saved attendance.': 'لم يُؤخذ الحضور لهذا التاريخ بعد. هذه قيم افتراضية وليست حضورًا محفوظًا.',
  "None of the attendance codes are available to your role, so you can't take this register.": 'لا يتوفر أي رمز من رموز الحضور لدورك، لذا لا يمكنك أخذ هذا الحضور.',
- 'Other Registers': 'سجلات أخرى'}
+ 'Other Registers': 'سجلات أخرى',
+ 'This class is not timetabled to run on the specified date. Attendance may still be taken for this group however it currently falls outside the regular schedule for this class.': 'هذا الفصل غير '
+                                                                                                                                                                                    'مُدرج في الجدول '
+                                                                                                                                                                                    'في التاريخ '
+                                                                                                                                                                                    'المحدد. لا يزال '
+                                                                                                                                                                                    'بالإمكان تسجيل '
+                                                                                                                                                                                    'الحضور لهذه '
+                                                                                                                                                                                    'المجموعة، لكنه '
+                                                                                                                                                                                    'يقع حاليًا خارج '
+                                                                                                                                                                                    'الجدول المعتاد '
+                                                                                                                                                                                    'لهذا الفصل.',
+ 'Other Registers for Administrators only': 'السجلات الأخرى للمسؤولين فقط',
+ 'Only Administrators see By Class and By Form Group in View Daily Attendance. Permissions on the website are not changed.': 'يرى مسؤولو النظام فقط «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور '
+                                                                                                                             'اليومي». لا تتغير الأذونات على الموقع.',
+ "By Class and By Form Group in View Daily Attendance follow each role's Attendance permissions, as on the website.": 'يتبع «حسب الشعبة» و«حسب الصف الدراسي» في «عرض الحضور اليومي» أذونات الحضور لكل '
+                                                                                                                      'دور، كما على الموقع.'}
 
 P = {'At least {count} character': ('{count} حرف على الأقل', 'حرف واحد على الأقل', 'حرفان على الأقل', '{count} أحرف على الأقل', '{count} حرفًا على الأقل', '{count} حرف على الأقل'),
  'Behaviour records saved for {count} student!': ('تم حفظ سجلات السلوك لـ {count} طالب!',
